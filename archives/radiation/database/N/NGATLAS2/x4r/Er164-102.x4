@@ -1,0 +1,96 @@
+REQUEST           1001   20010914          3     143501               0  0    0
+ENTRY            20093     830901                                 20093000    1
+SUBENT        20093001     830901                                 20093001    1
+BIB                 18         37                                 20093001    2
+INSTITUTE  (2NOROSL)                                              20093001    3
+REFERENCE  (W,PAPPAS,7011)  TO BE PUBLISHED IN J.INORG.NUCL.CHEM. 20093001    4
+AUTHOR     (O.GLEMSET, A.C.PAPPAS)                                20093001    5
+TITLE      -SOME N,GAMMA CROSS-SECTIONS.-                         20093001    6
+FACILITY   (REAC )    JEEP 2 HEAVY WATER REACTOR.                 20093001    7
+INC-SOURCE (REAC )    IRRADIATED BOTH IN A THERMAL COLUMN (2 HOURS20093001    8
+            TO 3 DAYS) WITH A FLUX DENSITY OF ABOUT               20093001    9
+            1.0E+10 NEUTRONS/CM-SQ/SEC. AND IN THE CENTRE OF THE  20093001   10
+            CORE WITH A FLUX DENSITY OF ABOUT                     20093001   11
+            2.0E+12 NEUTRONS/CM-SQ/SEC.                           20093001   12
+INC-SPECT  .THERMAL, AND NEUTRONS WITH TEMPERATURES 400+-20 DEG-K.20093001   13
+SAMPLE                      LANTHANIDES AS OXIDE POWDERS          20093001   14
+            IN POLYETHYLENE AMPOULES OR                           20093001   15
+                      SOLUTIONS IN QUARTZ AMPOULES.               20093001   16
+METHOD     (ACTIV)    ACTIVATION.                                 20093001   17
+DETECTOR              4PI-BETA-GAMMA COINCIDENCE COUNTER.         20093001   18
+ANALYSIS   .THE RESULTS FROM THE CORE IRRADIATIONS WERE REDUCED TO20093001   19
+            THERMAL VALUES.                                       20093001   20
+           .THE RESULT GIVEN IS THE AVARAGE OVER ALL THE          20093001   21
+            MEASUREMENTS.                                         20093001   22
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)                         20093001   23
+                SIGMA(2200 M/SEC.) = 98.8 BARN,                   20093001   24
+            D.J.HUGHES ET AL., BNL-325(1958).                     20093001   25
+           (79-AU-197(N,G)79-AU-198,,RI)                          20093001   26
+                RESONANCE INTEGRAL = 1558 BARN,                   20093001   27
+            R.L.MACKLIN ET AL. PROGRESS IN NUCLEAR ENERGY SERIES I20093001   28
+            PAGE 179 (1956).                                      20093001   29
+PART-DET   (DG,B-)    4PI-BETA-GAMMA COINCIDENCE COUNTING.        20093001   30
+COMMENT    .AUTHOR GIVES NO ENERGY LIMITS FOR THE RESONANCE       20093001   31
+            INTEGRALS. MINIMUM AND MAXIMUM ENERGY VALUES INSERTED 20093001   32
+            BY THE COMPILER.                                      20093001   33
+STATUS                DATA FROM PUBLICATION.                      20093001   34
+           (APRVD)    DATA AND COMMENT APPROVED BY THE AUTHOR.    20093001   35
+HISTORY    (701109C)                                              20093001   36
+           (710908E)                                              20093001   37
+CORRECTION .EFFECT OF NUCLEAR SELFSHIELDING CONSIDERED.           20093001   38
+ERR-ANALYS .STANDARD DEVIATION GIVEN.                             20093001   39
+ENDBIB              37                                            20093001   40
+NOCOMMON             0          0                                 20093001   41
+ENDSUBENT           40                                            2009300199999
+SUBENT        20093004     830901                                 20093004    1
+BIB                  2          3                                 20093004    2
+REACTION   (68-ER-164(N,G)68-ER-165,,SIG,,MXW)                    20093004    3
+HISTORY    (701109C)                                              20093004    4
+           (710908E)                                              20093004    5
+ENDBIB               3                                            20093004    6
+NOCOMMON             0          0                                 20093004    7
+DATA                 3          1                                 20093004    8
+EN-DUMMY   DATA       DATA-ERR                                    20093004    9
+MEV        B          B                                           20093004   10
+ 2.5300E-08 1.3000E+01 2.0000E+00                                 20093004   11
+ENDDATA              3                                            20093004   12
+ENDSUBENT           11                                            2009300499999
+ENDENTRY             2                                            2009399999999
+ENTRY            41001     910815                                 41001000    1
+SUBENT        41001001     910815                                 41001001    1
+BIB                 13         15                                 41001001    2
+TITLE       NEUTRON RADIATION CAPTURE CROSS-SECTIONS FOR NUCLEI   41001001    3
+            OF MEDIUM AND LARGE MASSES AT THE NEUTRON ENERGY      41001001    4
+            1 MEV                                                 41001001    5
+AUTHOR     (YU.N.TROFIMOV)                                        41001001    6
+INSTITUTE  (4CCPRI )                                              41001001    7
+REFERENCE  (C,87KIEV,3,331,8709) DATA TABLE IS GIVEN              41001001    8
+FACILITY   (VDG)  VAN-DE-GRAAFF ACELERATOR                        41001001    9
+METHOD     (ACTIV) ACTIVATION                                     41001001   10
+DETECTOR   (GELI)  DETECTOR VOLUME IS 38 CM**3                    41001001   11
+MONITOR    ((MONIT1),79-AU-197(N,G)79-AU-198,,SIG)                41001001   12
+MONITOR    ((MONIT2),49-IN-115(N,G)49-IN-116-M,,SIG)              41001001   13
+MONITOR    ((MONIT3),49-IN-115(N,INL)49-IN-115,,SIG)              41001001   14
+ERR-ANALYS (DATA-ERR) ERROR IS NOT SPECIFIED                      41001001   15
+STATUS      DATA ARE TAKEN FROM THE REFERENCE                     41001001   16
+HISTORY    (891031C) COMPILED AT THE CENTRE - CJD                 41001001   17
+ENDBIB              15                                            41001001   18
+COMMON               6          3                                 41001001   19
+MONIT1     MONIT1-ERR MONIT2     MONIT2-ERR MONIT3     MONIT3-ERR 41001001   20
+MB         MB         MB         MB         MB         MB         41001001   21
+ 83.         6.         182.       19.        64.        6.       41001001   22
+ENDCOMMON            3                                            41001001   23
+ENDSUBENT           22                                            4100100199999
+SUBENT        41001029     891031                                 41001029    1
+BIB                  1          1                                 41001029    2
+REACTION   (68-ER-164(N,G)68-ER-165,,SIG)                         41001029    3
+ENDBIB               1                                            41001029    4
+NOCOMMON             0          0                                 41001029    5
+DATA                 3          1                                 41001029    6
+EN         DATA       DATA-ERR                                    41001029    7
+MEV        MB         MB                                          41001029    8
+   1.        86.        9.                                        41001029    9
+ENDDATA              3                                            41001029   10
+ENDSUBENT            9                                            4100102999999
+ENDENTRY             2                                            4100199999999
+ENDREQUEST           1                                            Z999999999999

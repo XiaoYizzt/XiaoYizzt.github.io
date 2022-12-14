@@ -1,0 +1,161 @@
+REQUEST           1001   20010914          3     143339               0  0    0
+ENTRY            20187     831121                                 20187000    1
+SUBENT        20187001     831121                                 20187001    1
+BIB                 12         16                                 20187001    2
+INSTITUTE  (2NOROSL)                                              20187001    3
+REFERENCE  (P,INDC(NOR)-1,2,7205) BASED ON THESIS BY SYVERSEN.    20187001    4
+AUTHOR     (J.ALSTAD, A.C.PAPPAS, T.SYVERSEN)                     20187001    5
+TITLE      -THERMAL NEUTRON CAPTURE CROSS SECTION AND RESONANCE   20187001    6
+            CAPTURE INTEGRAL OF THE LANTHANIDE NUCLEI III. DY-156,20187001    7
+            DY-158, DY-164 AND DY-165.-                           20187001    8
+FACILITY   .JEEP II HEAVY WATER REACTOR AT KJELLER.               20187001    9
+INC-SPECT  .MAX. THERMAL FLUX ABOUT 2.0E+13 N/CM2/SEC IN THE      20187001   10
+            POSITION AVAILABLE FOR IRRADIATIONS OF SAMPLES IN CORE20187001   11
+METHOD     (ACTIV)    ACTIVATION.                                 20187001   12
+DETECTOR   .4PI-BETA-GAMMA COINCIDENCE COUNTER.                   20187001   13
+PART-DET   (DG,B- )   DECAY GAMMA AND BETA-.                      20187001   14
+STATUS     .DATA TAKEN FROM PROGRESS REPORT INDC(NOR)-1.          20187001   15
+HISTORY    (721121C)                                              20187001   16
+           (740521E)                                              20187001   17
+ERR-ANALYS .NO FURTHER INFORMATION.                               20187001   18
+ENDBIB              16                                            20187001   19
+NOCOMMON             0          0                                 20187001   20
+ENDSUBENT           19                                            2018700199999
+SUBENT        20187002     831121                                 20187002    1
+BIB                  4          6                                 20187002    2
+REACTION   (66-DY-156(N,G)66-DY-157,,SIG)                         20187002    3
+ANALYSIS   .EXPERIMENTAL RESULT REDUCED TO 2200 M/SEC VALUE.      20187002    4
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)                         20187002    5
+            SIGMA(THERMAL) = 98.8 BARN.                           20187002    6
+HISTORY    (721121C)                                              20187002    7
+           (740521E)                                              20187002    8
+ENDBIB               6                                            20187002    9
+NOCOMMON             0          0                                 20187002   10
+DATA                 4          1                                 20187002   11
+EN         MONIT      DATA       DATA-ERR                         20187002   12
+MEV        B          B          B                                20187002   13
+ 2.5300E-08 9.8800E+01 3.3000E+01 3.0000E+00                      20187002   14
+ENDDATA              3                                            20187002   15
+ENDSUBENT           14                                            2018700299999
+ENDENTRY             2                                            2018799999999
+ENTRY            22010     880126                                 22010000    1
+SUBENT        22010001     880126                                 22010001    1
+BIB                 12         19                                 22010001    2
+REFERENCE  (P,NEANDC(E)-272,(5),10,8606)                          22010001    3
+TITLE      -MEASUREMENT OF THE CAPTURE CROSS SECTIONS OF          22010001    4
+            DY-156 AND PT-194-M, PT-196, PT-198.                  22010001    5
+AUTHOR     (H.BEER)                                               22010001    6
+INSTITUTE  (2GERKFK)                                              22010001    7
+FACILITY   (VDG,2GERKFK) KFK 3.75 MV VAN DE GRAAFF ACCELERATOR.   22010001    8
+METHOD     (ACTIV)                                                22010001    9
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG,,MXW) MAXWELLIAN         22010001   10
+            AVERAGE CAPTURE CROSS SECTION.                        22010001   11
+DECAY-MON  (79-AU-198,2.69D,DG,412.,.955)                         22010001   12
+SAMPLE     .NO DETAILS GIVEN.                                     22010001   13
+CORRECTION .NO DETAILS GIVEN.                                     22010001   14
+STATUS     .DATA WERE TAKEN FROM MAIN REF.                        22010001   15
+HISTORY    (861125C)  NO.                                         22010001   16
+           (861212E)                                              22010001   17
+           (870605U) IF.                                          22010001   18
+           (870827E)                                              22010001   19
+           (880126U) IF.                                          22010001   20
+           (880129E)                                              22010001   21
+ENDBIB              19                                            22010001   22
+COMMON               1          3                                 22010001   23
+MONIT                                                             22010001   24
+MB                                                                22010001   25
+ 6.5700E+02                                                       22010001   26
+ENDCOMMON            3                                            22010001   27
+ENDSUBENT           26                                            2201000199999
+SUBENT        22010002     870309                                 22010002    1
+BIB                  4          5                                 22010002    2
+REACTION   (66-DY-156(N,G)66-DY-157,,SIG,,MXW) MAXWELLIAN         22010002    3
+DECAY-DATA (66-DY-157,8.1HR,DG,326.,.94)                          22010002    4
+STATUS     .DATA WERE TAKEN FROM MAIN REF. PRELIMINARY RESULTS.   22010002    5
+HISTORY    (861125C)  NO.                                         22010002    6
+           (861212E)                                              22010002    7
+ENDBIB               5                                            22010002    8
+NOCOMMON             0          0                                 22010002    9
+DATA                 2          1                                 22010002   10
+KT         DATA                                                   22010002   11
+KEV        MB                                                     22010002   12
+ 2.3400E+01 1.7410E+03                                            22010002   13
+ENDDATA              3                                            22010002   14
+ENDSUBENT           13                                            2201000299999
+ENDENTRY             2                                            2201099999999
+ENTRY            41015     900615                                 41015000    1
+SUBENT        41015001     900615                                 41015001    1
+BIB                 12         15                                 41015001    2
+TITLE       NEUTRON RADIATION CAPTURE CROSS-SECTIOGNS FOR EVEN    41015001    3
+            ISOTOPES SE, CD, GD, TE, DY, ER AND YB                41015001    4
+AUTHOR     (YU.N.TROFIMOV)                                        41015001    5
+REFERENCE  (J,YK,,(2),11,8906) DATA ARE GIVEN                     41015001    6
+           (J,YK,,(4),10,87)   EXPERIMENTAL DETAILS               41015001    7
+INSTITUTE  (4CCPRI )                                              41015001    8
+MONITOR     ABSOLUTE MEASUREMENTS, NEUTRON FLUX,WAS MEASURED      41015001    9
+            WIDTH THE HELP OF GOLD METAL                          41015001   10
+FACILITY   (VDG) VAN-DE-GRAAFF ACCELERATOR)                       41015001   11
+DECAY-DATA (79-AU-198,2.695D,DG,411.8,0.9556)                     41015001   12
+METHOD     (ACTIV)                                                41015001   13
+INC-SOURCE (P-T)  PROTON AND SOLID TITANUM-TRITIUM TARGETS        41015001   14
+STATUS      DATA ARE TAKEN FROM THE REFERENCE-ONE                 41015001   15
+ERR-ANALYS (DATA-ERR)  ERRORS ARE NOT SPECIFIED                   41015001   16
+HISTORY    (900615C) COMPILED AT THE CENTRE - CJD                 41015001   17
+ENDBIB              15                                            41015001   18
+COMMON               1          3                                 41015001   19
+EN                                                                41015001   20
+MEV                                                               41015001   21
+    0.5                                                           41015001   22
+ENDCOMMON            3                                            41015001   23
+ENDSUBENT           22                                            4101500199999
+SUBENT        41015006     900615                                 41015006    1
+BIB                  3          7                                 41015006    2
+REACTION   (66-DY-156(N,G)66-DY-157,,SIG)                         41015006    3
+SAMPLE      DYSPROSIUM OXIDE, MASS S MILLIGRAM                    41015006    4
+            DY-156 CONTENT IS 17.5 PC, DY-158 CONTENT IS 1.5 PC,  41015006    5
+            DY-160 CONTENT IS  4.7 PC, DY-161 CONTENT IS 20.5 PC, 41015006    6
+            DY-162 CONTENT IS 20.7 PC, DY-163 CONTENT IS 18.1 PC, 41015006    7
+            DY-164 CONTENT IS 17.08 PC                            41015006    8
+DECAY-DATA (66-DY-157,8.10HR,DG,326.1,0.934)                      41015006    9
+ENDBIB               7                                            41015006   10
+NOCOMMON             0          0                                 41015006   11
+DATA                 2          1                                 41015006   12
+DATA       DATA-ERR                                               41015006   13
+MB         MB                                                     41015006   14
+  544.        70.                                                 41015006   15
+ENDDATA              3                                            41015006   16
+ENDSUBENT           15                                            4101500699999
+ENDENTRY             2                                            4101599999999
+ENTRY            41126     930720                                 41126000    1
+SUBENT        41126001     930720                                 41126001    1
+BIB                 10         13                                 41126001    2
+TITLE       USE OF DY-156 FOR MEASUREMENT OF FAST NEUTRONS        41126001    3
+            FKUX DENSITY                                          41126001    4
+AUTHOR     (YU.N.TROFIMOV)                                        41126001    5
+INSTITUTE  (4RUSRI )                                              41126001    6
+REFERENCE  (J,AE,73,(6),504,9212)                                 41126001    7
+           (J,AE,70,(1),51,9101)  EXPERIMENTAL DETAILS            41126001    8
+DETECTOR   (GELI)                                                 41126001    9
+METHOD     (ACTIV)                                                41126001   10
+MONITOR     NO INFORMATION                                        41126001   11
+STATUS      DATA ARE TAKEN FROM THE REFERENCE                     41126001   12
+ERR-ANALYS (ERR-T)  ERRORS ARE NOT SPECIFIED. TOTAL ACCORDING     41126001   13
+                    TO COMPILER'S OPINION                         41126001   14
+HISTORY    (930717C)  + + COMPILED AT THE CENTRE - CJD + +        41126001   15
+ENDBIB              13                                            41126001   16
+NOCOMMON                                                          41126001   17
+ENDSUBENT           16                                            4112600199999
+SUBENT        41126002     930720                                 41126002    1
+BIB                  2          2                                 41126002    2
+REACTION   (66-DY-156(N,G)66-DY-157,,SIG)                         41126002    3
+DECAY-DATA (66-DY-157,8.1HR,DG,326.1,0.934)                       41126002    4
+ENDBIB               2                                            41126002    5
+NOCOMMON                                                          41126002    6
+DATA                 3          1                                 41126002    7
+EN         DATA       ERR-T                                       41126002    8
+MEV        MB         MB                                          41126002    9
+  0.5        544.       70.                                       41126002   10
+ENDDATA              3                                            41126002   11
+ENDSUBENT           10                                            4112600299999
+ENDENTRY             2                                            4112699999999
+ENDREQUEST           1                                            Z999999999999

@@ -1,0 +1,75 @@
+REQUEST           1001   20010914          3     141705               0  0    0
+ENTRY            11927     830802                                 11927000    1
+SUBENT        11927001     830802                                 11927001    1
+BIB                  8         10                                 11927001    2
+INSTITUTE  (1USAUCS)                                              11927001    3
+REFERENCE  (J,NSE,31,545,68)                                      11927001    4
+AUTHOR     (R.S.TILBURY,H.H.KRAMER)                               11927001    5
+TITLE      REACTOR NEUTRON CROSS SECTIONS FOR SOME (N,GAMMA)      11927001    6
+           REACTIONS.                                             11927001    7
+METHOD     (ACTIV) ACTIVATION                                     11927001    8
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)                         11927001    9
+STATUS     (SCSRS)                                                11927001   10
+HISTORY    (760802T) TRANSLATED FROM SCISRS                       11927001   11
+           (830802A) CONVERTED TO REACTION FORMALISM              11927001   12
+ENDBIB              10                                            11927001   13
+COMMON               1          3                                 11927001   14
+MONIT                                                             11927001   15
+B                                                                 11927001   16
+ 98.8                                                             11927001   17
+ENDCOMMON            3                                            11927001   18
+ENDSUBENT           17                                            1192700199999
+SUBENT        11927002     830802                                 11927002    1
+BIB                  3          3                                 11927002    2
+REACTION   (46-PD-106(N,G)46-PD-107-M,,SIG,,SPA)                  11927002    3
+DECAY-DATA (46-PD-107-M,24.SEC,DG,220.,0.715)                     11927002    4
+INC-SPECT   REACTOR SPECTRUM                                      11927002    5
+ENDBIB               3                                            11927002    6
+COMMON               1          3                                 11927002    7
+HL                                                                11927002    8
+SEC                                                               11927002    9
+ 24.                                                              11927002   10
+ENDCOMMON            3                                            11927002   11
+DATA                 3          1                                 11927002   12
+EN-DUMMY   DATA       DATA-ERR                                    11927002   13
+MEV        B          B                                           11927002   14
+ 2.53   -08 1.3    -02 2.     -03                                 11927002   15
+ENDDATA              3                                            11927002   16
+ENDSUBENT           15                                            1192700299999
+ENDENTRY             2                                            1192799999999
+ENTRY            12611     780525                                 12611000    1
+SUBENT        12611001     780525                                 12611001    1
+BIB                  9         13                                 12611001    2
+INSTITUTE  (1USAMIT)                                              12611001    3
+REFERENCE  (J,PR,109,1280,5802)                                   12611001    4
+AUTHOR     (U.SCHINDEWOLF)                                        12611001    5
+TITLE      MASS ASSIGNMENTS OF 23-SEC PD-107M AND 4.8-MIN PD-109M,12611001    6
+            SEARCH FOR LESS-THAN 3-SEC PD-105M                    12611001    7
+FACILITY   (CYCLO) MIT CYCLOTRON                                  12611001    8
+N-SOURCE   (D-BE) 15-MEV DEUTERONS ON BERYLLIUM MODERATED WITH    12611001    9
+            15-CM PARAFFIN                                        12611001   10
+DETECTOR   (NAICR) NA-I(TL) SCINTILLATION COUNTER                 12611001   11
+           (PROPC) BETA-PROPORTIONAL COUNTER                      12611001   12
+DECAY-DATA (46-PD-107-M,23.SEC,DG,210.)                           12611001   13
+           (46-PD-109-M,4.8MIN,DG,170.)                           12611001   14
+HISTORY    (780414C)                                              12611001   15
+ENDBIB              13                                            12611001   16
+NOCOMMON                                                          12611001   17
+ENDSUBENT           16                                            1261100199999
+SUBENT        12611002     780525                                 12611002    1
+BIB                  3          5                                 12611002    2
+REACTION  1((46-PD-106(N,G)46-PD-107-M,,SIG,,MXW)/                12611002    3
+           (46-PD-108(N,G)46-PD-109-M,,SIG,,MXW))                 12611002    4
+          2(46-PD-106(N,G)46-PD-107-M,,SIG,,MXW)                  12611002    5
+MONITOR   2(46-PD-108(N,G)46-PD-109-M,,SIG,,MXW)                  12611002    6
+STATUS    2(DEP,12611002)                                         12611002    7
+ENDBIB               5                                            12611002    8
+NOCOMMON                                                          12611002    9
+DATA                 4          1                                 12611002   10
+EN-DUMMY   DATA-APRX 1DATA-APRX 2MONIT     2                      12611002   11
+EV         NO-DIM     B          B                                12611002   12
+0.0253     0.33       0.25       0.70                             12611002   13
+ENDDATA              3                                            12611002   14
+ENDSUBENT           13                                            1261100299999
+ENDENTRY             2                                            1261199999999
+ENDREQUEST           1                                            Z999999999999

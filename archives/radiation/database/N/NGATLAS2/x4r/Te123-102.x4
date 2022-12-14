@@ -1,0 +1,880 @@
+REQUEST           1001   20010914          3     142135               0  0    0
+ENTRY            11507     860715                                 11507000    1
+SUBENT        11507001     860715                                 11507001    1
+BIB                 10         12                                 11507001    2
+INSTITUTE  (1USAORL)                                              11507001    3
+REFERENCE  (J,PR,88,412,52)                                       11507001    4
+AUTHOR     (H.POMERANCE)                                          11507001    5
+TITLE      THERMAL NEUTRON CAPTURE CROSS SECTIONS.                11507001    6
+FACILITY   (OSCIP) PILE OSCILLATOR                                11507001    7
+INC-SPECT  THERMAL SPECTRUM                                       11507001    8
+METHOD     (ACTIV).                                               11507001    9
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)                         11507001   10
+STATUS     (SCSRS)                                                11507001   11
+HISTORY    (760715T) TRANSLATED FROM SCISRS                       11507001   12
+           (821124A) CONVERTED TO REACTION FORMALISM              11507001   13
+           (860715A) ENERGY MOVED TO SUBENTRY 1.                  11507001   14
+ENDBIB              12                                            11507001   15
+COMMON               2          3                                 11507001   16
+EN-DUMMY   MONIT                                                  11507001   17
+EV         B                                                      11507001   18
+ 0.0253     95.                                                   11507001   19
+ENDCOMMON            3                                            11507001   20
+ENDSUBENT           19                                            1150700199999
+SUBENT        11507062     860715                                 11507062    1
+BIB                  1          1                                 11507062    2
+REACTION   (52-TE-123(N,G)52-TE-124,,SIG,,MXW)                    11507062    3
+ENDBIB               1                                            11507062    4
+NOCOMMON             0          0                                 11507062    5
+DATA                 2          1                                 11507062    6
+DATA       DATA-ERR                                               11507062    7
+B          PER-CENT                                               11507062    8
+ 3.90   +02    8.                                                 11507062    9
+ENDDATA              3                                            11507062   10
+ENDSUBENT            9                                            1150706299999
+ENDENTRY             2                                            1150799999999
+ENTRY            11679     860715                                 11679000    1
+SUBENT        11679001     860715                                 11679001    1
+BIB                 10         15                                 11679001    2
+INSTITUTE  (1USAORL)                                              11679001    3
+REFERENCE  (J,PR,159,1007,67)                                     11679001    4
+AUTHOR     (R.L.MACKLIN,J.H.GIBBONS)                              11679001    5
+TITLE      CAPTURE-CROSS-SECTION STUDIES FOR 30-220-KEV NEUTRONS  11679001    6
+           USING A NEW TECHNIQUE.                                 11679001    7
+INC-SOURCE (P-LI7) LI-7(P,N) SOURCE                               11679001    8
+DETECTOR   (SCIN) LIQUID SCINTILLATION COUNTER                    11679001    9
+MONITOR    (73-TA-0(N,G),,SIG)                                    11679001   10
+            BASED ON TA (N,GAMMA) = 810 * (EN**-0.697) MB.        11679001   11
+ERR-ANALYS (DATA-ERR) STANDARD DEVIATION. INCLUDES UNCERTAINTY IN 11679001   12
+            STANDARD CROSS SECTION.                               11679001   13
+STATUS     (SCSRS)                                                11679001   14
+HISTORY    (760730T) TRANSLATED FROM SCISRS                       11679001   15
+           (831011A) CONVERTED TO REACTION FORMALISM              11679001   16
+           (860715A) BIB, DATA HEADING UPDATE.                    11679001   17
+ENDBIB              15                                            11679001   18
+NOCOMMON             0          0                                 11679001   19
+ENDSUBENT           18                                            1167900199999
+SUBENT        11679012     860715                                 11679012    1
+BIB                  1          1                                 11679012    2
+REACTION   (52-TE-123(N,G)52-TE-124,,SIG)                         11679012    3
+ENDBIB               1                                            11679012    4
+NOCOMMON             0          0                                 11679012    5
+DATA                 4          6                                 11679012    6
+EN         EN-RSL-FW  DATA       DATA-ERR                         11679012    7
+MEV        MEV        B          B                                11679012    8
+ 3.0    -02 1.0    -02 7.030  -01 4.94   -02                      11679012    9
+ 3.0    -02 1.0    -02 8.032  -01 5.88   -02                      11679012   10
+ 5.0    -02 1.0    -02 5.623  -01 4.44   -02                      11679012   11
+ 7.0    -02 1.9    -02 4.855  -01 3.41   -02                      11679012   12
+ 1.04   -01 1.5    -02 3.183  -01 2.91   -02                      11679012   13
+ 1.25   -01 2.3    -02 3.198  -01 2.39   -02                      11679012   14
+ENDDATA              8                                            11679012   15
+ENDSUBENT           14                                            1167901299999
+ENDENTRY             2                                            1167999999999
+ENTRY            13167     891228                                 13167000    1
+SUBENT        13167001     891228                                 13167001    1
+BIB                 11         22                                 13167001    2
+INSTITUTE  (1USAORL)                                              13167001    3
+REFERENCE  (R,ORNL-6561,8907)                                     13167001    4
+AUTHOR     (R.L.MACKLIN,R.R.WINTERS)                              13167001    5
+TITLE      NEUTRON CAPTURE OF 122TE,123TE,124TE,125TE, AND 126TE  13167001    6
+FACILITY   (LINAC) ORELA                                          13167001    7
+SAMPLE     ISOTOPIC COMPOSITION OF SAMPLES (WT%):                 13167001    8
+                       1      2      3      4       5             13167001    9
+             122TE   97.12   1.56   0.12   0.03   <0.02           13167001   10
+             123TE    0.15  76.67   0.10   0.06   <0.02           13167001   11
+             124TE    0.23   6.96  93.00   0.28    0.05           13167001   12
+             125TE    0.28   3.36   1.05  95.67    0.20           13167001   13
+             126TE    0.70   4.35   4.10   2.71   98.69           13167001   14
+             128TE    1.06   3.96   1.00   0.76    0.81           13167001   15
+             130TE    0.46   3.15   0.63   0.49    0.24           13167001   16
+METHOD     (TOF). 40-M FLIGHT PATH                                13167001   17
+DETECTOR   (SCIN) PAIR OF FLUOROCARBON SCINTILLATORS              13167001   18
+MONITOR    (3-LI-6(N,T)2-HE-4,,SIG) FLUX MONITOR                  13167001   19
+           CROSS SECTION CALIBRATION DONE BY SATURATED 4.9-EV     13167001   20
+            GOLD RESONANCE METHOD                                 13167001   21
+STATUS     DATA RECEIVED BY ELECTRONIC MAIL, 89/6/19              13167001   22
+           (APRVD) R.L.MACKLIN, 89/12/15.                         13167001   23
+HISTORY    (891027C)                                              13167001   24
+ENDBIB              22                                            13167001   25
+NOCOMMON             0          0                                 13167001   26
+ENDSUBENT           25                                            1316700199999
+SUBENT        13167003     891228                                 13167003    1
+BIB                  2          2                                 13167003    2
+REACTION   (52-TE-123(N,G)52-TE-124,,SIG,,AV)                     13167003    3
+ERR-ANALYS SEE TABLE IN REFERENCE FOR EXPERIMENTAL UNCERTAINTIES  13167003    4
+ENDBIB               2                                            13167003    5
+NOCOMMON             0          0                                 13167003    6
+DATA                 3         17                                 13167003    7
+EN-MIN     EN-MAX     DATA                                        13167003    8
+KEV        KEV        MB                                          13167003    9
+  3.         4.        2569.                                      13167003   10
+  4.         6.        1661.                                      13167003   11
+  6.         8.        1667.                                      13167003   12
+  8.        10.        1382.                                      13167003   13
+ 10.        15.        1229.                                      13167003   14
+ 15.        20.        1060.                                      13167003   15
+ 20.        30.         902.                                      13167003   16
+ 30.        40.         774.                                      13167003   17
+ 40.        60.         659.                                      13167003   18
+ 60.        80.         553.                                      13167003   19
+ 80.       100.         484.                                      13167003   20
+100.       150.         430.                                      13167003   21
+150.       200.         347.                                      13167003   22
+200.       300.         271.                                      13167003   23
+300.       400.         232.                                      13167003   24
+400.       500.         214.                                      13167003   25
+500.       600.         158.                                      13167003   26
+ENDDATA             19                                            13167003   27
+ENDSUBENT           26                                            1316700399999
+ENDENTRY             2                                            1316799999999
+ENTRY            22275     961129                                 22275000    1
+SUBENT        22275001     961129                                 22275001    1
+BIB                 17         68                                 22275001    2
+INSTITUTE  (2GERKFK)                                              22275001    3
+REFERENCE  (J,PR/C,45,(5),2487,9205)                              22275001    4
+AUTHOR     (Y.XIA,T.W.GERSTENHOEFER,S.JAAG,F.KAEPPELER,K.WISSHAK) 22275001    5
+TITLE      -NEUTRON CROSS SECTIONS OF TE-122, TE-123, AND TE-124  22275001    6
+            BETWEEN 1 AND 60 KEV.                                 22275001    7
+FACILITY   (VDG  ) THE KARLSRUHE PULSED 3.7 MV VAN DE GRAAFF      22275001    8
+            ACCELERATOR. THE PULSE WIDTH WAS 0.7 NS, THE REPETI-  22275001    9
+            TION RATE WAS 1 MHZ, AND THE AVERAGE PROTON BEAM      22275001   10
+            CURRENT WAS 6 MICROAMPS.                              22275001   11
+INC-SOURCE (P-LI7) NEUTRONS WERE PRODUCED BY BOMBARDING A 0.5     22275001   12
+            MG/CM2 METALLIC LITHIUM TARGET ON A 0.2 MM THICK      22275001   13
+            COPPER BACKING. THE PROTON ENERGY WAS 1.912 MEV.      22275001   14
+            THE NEUTRON FLUX AT THE SAMPLE POSITION WAS 3.0E+07   22275001   15
+            NEUTRONS/SEC.                                         22275001   16
+INC-SPECT  .A CONTINUOUS NEUTRON SPECTRUM WITH A MAXIMUM ENERGY   22275001   17
+            OF AROUND 106 KEV. THE NEUTRONS WERE KINEMATICALLY    22275001   18
+            COLLIMATED WITHIN A CONE OF 120 DEGREES OPENING ANGLE.22275001   19
+SAMPLE     .A 368.7 MG METAL GOLD SAMPLE, 0.25 MM THICK, WAS USED 22275001   20
+            FOR MEASURING THE NEUTRON FLUX.                       22275001   21
+           .THE BACKGROUND WAS DETERMINED BY MEASUREMENTS WITHOUT 22275001   22
+            SAMPLE, AND WITH A 87.3 MG GRAPHITE SAMPLE, 0.6 MM    22275001   23
+            THICK, FOR THE STUDY OF SCATTERING EFFECTS.           22275001   24
+METHOD     (TOF  ) THE NEUTRON ENERGIES WERE DETERMINED WITH TIME-22275001   25
+            OF-FLIGHT TECHNIQUES.                                 22275001   26
+           (GSPEC) IN-BEAM GAMMA-RAY SPECTROSCOPY.                22275001   27
+DETECTOR   (MOXR ) THE CAPTURE EVENTS WERE DETECTED BY THREE      22275001   28
+            MOXON-RAE DETECTORS WITH DIFFERENT CONVERTERS. THEY   22275001   29
+            WERE POSITIONED 70 MM FROM THE SAMPLE AND AT AN ANGLE 22275001   30
+            OF 120 DEGREES WITH RESPECT TO THE PROTON BEAM.       22275001   31
+            BISMUTH, GRAPHITE AND A BISMUTH-GRAPHITE MIXTURE WERE 22275001   32
+            USED AS CONVERTERS. THE INTRINSIC TIME RESOLUTION WAS 22275001   33
+            600 PS, RESULTING IN AN OVERALL TIME RESOLUTION OF    22275001   34
+            BETTER THAN 1 NS IN THE TIME-OF-FLIGHT SPECTRA.       22275001   35
+           (GLASD) A LI-6 GLASS DETECTOR, LOCATED AT 0 DEGREES AND22275001   36
+            AT 26 CM DOWNSTREAM OF THE NEUTRON TARGET, WAS USED TO22275001   37
+            MONITOR THE NEUTRON SPECTRA. IT WAS ALSO USED FOR THE 22275001   38
+            TOTAL CROSS SECTION MEASUREMENTS.                     22275001   39
+PART-DET   (G    )                                                22275001   40
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)                         22275001   41
+MONIT-REF  (,MACKLIN,W,MACKLIN,82) THE STANDARD GOLD CAPTURE      22275001   42
+            CROSS SECTION AS A FUNCTION OF ENERGY WAS TAKEN FROM  22275001   43
+            MACKLIN, AND                                          22275001   44
+           (,RATYNSKI+,J,PR/C,37,595,88) NORMALIZED TO THE MORE   22275001   45
+            PRECISE CROSS SECTION DATA POINT AT KT = 25 KEV FROM  22275001   46
+            RATYNSKI AND KAEPPELER.                               22275001   47
+CORRECTION .THE TOTAL CROSS SECTIONS WERE CORRECTED FOR A TIME-   22275001   48
+            DEPENDENT BACKGROUND.                                 22275001   49
+           .THE CAPTURE DATA WERE CORRECTED FOR THE VARIOUS TRANS-22275001   50
+            MISSIONS THROUGH THE SAMPLES TO THE MONITOR. THE DATA 22275001   51
+            WERE FURTHER CORRECTED FOR BACKGROUND, MEASURED WITH  22275001   52
+            AN EMPTY SAMPLE FRAME, AND FOR SAMPLE-SCATTERED NEU-  22275001   53
+            TRONS, STUDIED WITH THE GRAPHITE SAMPLE. CORRECTIONS  22275001   54
+            WERE ALSO APPLIED FOR MULTIPLE SCATTERING, NEUTRON    22275001   55
+            SELF-SHIELDING, GAMMA-RAY SELF-SHIELDING, ISOTOPIC    22275001   56
+            IMPURITIES, AND DETECTOR EFFICIENCY.                  22275001   57
+ERR-ANALYS (ERR-2) GAMMA-RAY SELF-ABSORPTION ERROR                22275001   58
+           (ERR-3) BEAM INTENSITY ERROR                           22275001   59
+STATUS     .DATA TAKEN FROM MAIN REF.                             22275001   60
+HISTORY    (940115C) N.O.                                         22275001   61
+           (950420E)                                              22275001   62
+           (961129A)  + +  CORRECTED BY S.MAEV                    22275001   63
+                     --------------------------                   22275001   64
+                     .ERRORS STRUCTURE GIVEN IN RETRIEVABLE FORM  22275001   65
+                      AND DATA-ERR CHANGED TO ERR-T               22275001   66
+                     .SAMPLE AND ERROR UNFORMATION MOVED IN       22275001   67
+                       PROPER SUBENTS                             22275001   68
+                     .MONITOR AND MONIT-REF INFORMATION           22275001   69
+                      CORRECTED                              + +  22275001   70
+ENDBIB              68                                            22275001   71
+COMMON               2          3                                 22275001   72
+ERR-2      ERR-3                                                  22275001   73
+PER-CENT   PER-CENT                                               22275001   74
+  0.2        0.4                                                  22275001   75
+ENDCOMMON            3                                            22275001   76
+ENDSUBENT           75                                            2227500199999
+SUBENT        22275006     961129                                 22275006    1
+BIB                  5         55                                 22275006    2
+REACTION  1((52-TE-123(N,G)52-TE-124,,SIG)/                       22275006    3
+           (79-AU-197(N,G)79-AU-198,,SIG))                        22275006    4
+          2(52-TE-123(N,G)52-TE-124,,SIG)                         22275006    5
+SAMPLE     .THE TELLURIUM SAMPLE WAS METALLIC TABLET OF 10 MM     22275006    6
+            DIAMETER AND WITH THICKNESS 1.25 MM, MASS 418.4 MG,   22275006    7
+            ISOTOPIC COMPOSITIONS WAS AS FOLLOWS                  22275006    8
+            TE-122  0.48  PERCENT, TE-123 89.58  PERCENT,         22275006    9
+            TE-124  1.52  PERCENT, TE-125  1.24  PERCENT,         22275006   10
+            TE-126  2.68  PERCENT, TE-128  2.51  PERCENT,         22275006   11
+            TE-130  1.99  PERCENT                                 22275006   12
+            THE SAMPLES WERE PARTLY OXYDIZED, WITH CONTRIBUTIONS  22275006   13
+            OF 12.1 PERCENT BY WEIGHT FOR TE-123 SAMPLE           22275006   14
+           .THE BACKGROUND WAS DETERMINED BY MEASUREMENTS WITHOUT 22275006   15
+            SAMPLE, AND WITH A 87.3 MG GRAPHITE SAMPLE, 0.6 MM    22275006   16
+            THICK, FOR THE STUDY OF SCATTERING EFFECTS.           22275006   17
+           .THE SAMPLES WERE CENTERED BETWEEN TWO THIN KAPTON     22275006   18
+            FOILS, 1 MG/CM2, IN A SAMPLE CHANGER. IN THE THREE    22275006   19
+            RUNS THE SAMPLES WERE CYCLICALLY MOVED TO THE MEA-    22275006   20
+            SURING POSITION, 20+/-0.1 MM FROM THE NEUTRON TARGET. 22275006   21
+            THE MEASURING TIMES OF ABOUT 10 MINUTES WAS CONTROLLED22275006   22
+            BY A BEAM CURRENT INTEGRATOR. EACH OF THE THREE RUNS  22275006   23
+            WAS ABOUT 200 HRS.                                    22275006   24
+ERR-ANALYS (ERR-T)    TOTAL ERROR ON CROSS SECTIONS. FOR THE CAP- 22275006   25
+            TURE DATA, THESE WERE OBTAINED BY ADDING THE TOTAL    22275006   26
+            ERROR OF THE CROSS-SECTION RATIO TO GOLD WITH 1.5     22275006   27
+            PERCENT IN QUADRATURE, TO TAKE INTO ACCOUNT THE UN-   22275006   28
+            CERTAINTY OF THE GOLD CROSS SECTION.                  22275006   29
+           (ERR-S) STATISTICAL ERROR OF THE CROSS-SECTION RATIO TO22275006   30
+            GOLD.                                                 22275006   31
+           (ERR-1) MAX TOTAL SYSTEMATIC ERROR OF THE CROSS-SECTION22275006   32
+                   RATIO TO GOLD. THE DIFFERENT ERROR SOURCES     22275006   33
+                   CONTRIBUTIONS ARE GIVEN IN PROPER SUBENTRIES   22275006   34
+           (ERR-4) DETECTOR EFFICIENCY ERROR                      22275006   35
+           (ERR-5) MINIMUM FLIGHT PATH TRANSFORMATION ERROR       22275006   36
+           (ERR-6) MAXIMUM FLIGHT PATH TRANSFORMATION ERROR       22275006   37
+           (ERR-7) MINIMUM BACKGROUND SUBTRACTION ERROR           22275006   38
+           (ERR-8) MAXIMUM BACKGROUND SUBTRACTION ERROR           22275006   39
+           (ERR-9) MINIMUM REFERENCE SAMPLE FLIGHT PATH           22275006   40
+                   TRANSFORMATION ERROR                           22275006   41
+           (ERR-10) MAXIMUM REFERENCE SAMPLE FLIGHT PATH          22275006   42
+                   TRANSFORMATION ERROR                           22275006   43
+           (ERR-11) MINIMUM BACKGROUND SUBTRACTION ERROR          22275006   44
+           (ERR-12) MAXIMUM BACKGROUND SUBTRACTION ERROR          22275006   45
+           (ERR-13) MINIMUM MULTIPLE SCATTERING AND SELF-SHIELDING22275006   46
+                    ERROR                                         22275006   47
+           (ERR-14) MAXIMUM MULTIPLE SCATTERING AND SELF-SHIELDING22275006   48
+                    ERROR                                         22275006   49
+           (ERR-15) SAMPLE MASS ERROR                             22275006   50
+           (DATA-ERR1) ISOTOPIC IMPURITY ERROR                    22275006   51
+STATUS     .DATA TAKEN FROM TABLE V OF MAIN REF.                  22275006   52
+HISTORY    (940115C) N.O.                                         22275006   53
+           (950420E)                                              22275006   54
+           (961129A) * *  -T DELETED FROM SF4                     22275006   55
+                     SAMPLE KEYWORD MOVED FROM SAN 001            22275006   56
+                     ERROR STRUCTURE MOVED FROM SAN 001   * *     22275006   57
+ENDBIB              55                                            22275006   58
+COMMON              13          9                                 22275006   59
+ERR-4      ERR-5      ERR-6      ERR-7      ERR-8      ERR-9      22275006   60
+ERR-10     ERR-11     ERR-12     ERR-13     ERR-14     ERR-15     22275006   61
+DATA-ERR1                                                         22275006   62
+PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   22275006   63
+PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   22275006   64
+PER-CENT                                                          22275006   65
+  3.         1.           3.2       0.7        2.9        0.6     22275006   66
+    2.7        0.9           3.7       0.3        0.5        0.4  22275006   67
+      0.2                                                         22275006   68
+ENDCOMMON            9                                            22275006   69
+DATA                 8          8                                 22275006   70
+EN-MIN     EN-MAX     DATA      1ERR-S     1ERR-1     1ERR-T     122275006   71
+DATA      2ERR-T     2                                            22275006   72
+KEV        KEV        NO-DIM     PER-CENT   PER-CENT   PER-CENT   22275006   73
+MB         MB                                                     22275006   74
+ 1.0000E+00 3.0000E+00 9.4750E-01 5.4000E+00 5.7000E+00 7.8000E+0022275006   75
+ 3.8020E+03 3.0200E+02                                            22275006   76
+ 3.0000E+00 5.0000E+00 8.2520E-01 2.5000E+00 5.4000E+00 6.0000E+0022275006   77
+ 1.8710E+03 1.1600E+02                                            22275006   78
+ 5.0000E+00 1.0000E+01 1.0359E+00 9.0000E-01 4.2000E+00 4.3000E+0022275006   79
+ 1.5290E+03 7.0000E+01                                            22275006   80
+ 1.0000E+01 1.5000E+01 1.2361E+00 7.0000E-01 3.9000E+00 4.0000E+0022275006   81
+ 1.2020E+03 5.1000E+01                                            22275006   82
+ 1.5000E+01 2.0000E+01 1.3409E+00 6.0000E-01 3.6000E+00 3.7000E+0022275006   83
+ 9.9100E+02 4.0000E+01                                            22275006   84
+ 2.0000E+01 3.0000E+01 1.4260E+00 4.0000E-01 3.6000E+00 3.6000E+0022275006   85
+ 8.3500E+02 3.3000E+01                                            22275006   86
+ 3.0000E+01 4.0000E+01 1.4757E+00 4.0000E-01 3.6000E+00 3.6000E+0022275006   87
+ 7.3800E+02 2.9000E+01                                            22275006   88
+ 4.0000E+01 6.0000E+01 1.5202E+00 3.0000E-01 3.6000E+00 3.6000E+0022275006   89
+ 6.2600E+02 2.4000E+01                                            22275006   90
+ENDDATA             20                                            22275006   91
+ENDSUBENT           90                                            2227500699999
+ENDENTRY             2                                            2227599999999
+ENTRY            22285     961122                                 22285000    1
+SUBENT        22285001     961122                                 22285001    1
+BIB                 17         98                                 22285001    2
+INSTITUTE  (2GERKFK)                                              22285001    3
+REFERENCE  (R,KFK-4899,9111)                                      22285001    4
+AUTHOR     (K.WISSHAK,F.VOSS,F.KAEPPELER,G.REFFO)                 22285001    5
+TITLE      -NEUTRON CAPTURE IN TE-122, TE-123, AND TE-124 -       22285001    6
+            A CRITICAL TEST FOR C-PROCESS STUDIES.                22285001    7
+FACILITY   (VDG  ) THE KARLSRUHE PULSED 3.7 MV VAN DE GRAAFF      22285001    8
+            ACCELERATOR. THE PULSE WIDTH WAS 1 NS, THE REPETITION 22285001    9
+            RATE WAS 250 KHZ, AND THE AVERAGE PROTON BEAM CURRENT 22285001   10
+            WAS 1.5 - 2 MICROAMPS.                                22285001   11
+INC-SOURCE (P-LI7) NEUTRONS WERE PRODUCED BY BOMBARDING A METALLIC22285001   12
+            LITHIUM TARGET, WITH A THICKNESS OF 1 MG/CM2 FOR A    22285001   13
+            MAXIMUM ENERGY LOSS OF 100 KEV. THE PROTON ENERGY WAS 22285001   14
+            IN THREE DIFFERENT RUNS ADJUSTED TO 10, 30 AND 100 KEV22285001   15
+            ABOVE THE REACTION THRESHOLD OF 1.881 MEV.            22285001   16
+INC-SPECT  .CONTINUOUS NEUTRON SPECTRA COVERING 10 - 70, 3 - 100  22285001   17
+            AND 3 - 200 KEV IN THE THREE RUNS. THE NEUTRON BEAM   22285001   18
+            WAS COLLIMATED TO 25 MM DIAMETER AT THE SAMPLE        22285001   19
+            POSITION. THE NEUTRON FLIGHT PATH WAS EVACUATED TO    22285001   20
+            AVOID AIR SCATTERING, USING STAINLESS STEEL TUBES WITH22285001   21
+            20 MICRO-M KAPTON FOIL WINDOWS, LEAVING ONLY AN AIR   22285001   22
+            GAP OF 1 CM FOR THE SAMPLE.                           22285001   23
+SAMPLE     .A 1115.56 MG METAL GOLD SAMPLE, 10 MM IN DIAMETER AND 22285001   24
+            0.8 MM THICK, WAS USED FOR MEASURING THE NEUTRON FLUX.22285001   25
+           .THE BACKGROUND WAS DETERMINED BY MEASUREMENTS WITHOUT 22285001   26
+            SAMPLE, AND WITH A 165.72 MG GRAPHITE SAMPLE, 10 MM IN22285001   27
+            DIAMETER AND 1.3 MM THICK, FOR THE STUDY OF SCATTERING22285001   28
+            EFFECTS.                                              22285001   29
+           .THE SAMPLES WERE MOUNTED IN A SAMPLE CHANGER. THEY    22285001   30
+            WERE CYCLICALLY MOVED TO THE MEASURING POSITION. THE  22285001   31
+            MEASURING TIMES OF ABOUT 10 MINUTES WAS CONTROLLED BY 22285001   32
+            A COMPUTER. THE TOTAL NUMBER OF CYCLES WERE 200 - 260 22285001   33
+            FOR EACH OF THE THREE RUNS.                           22285001   34
+METHOD     (TOF  ) THE NEUTRON ENERGIES WERE DETERMINED WITH TIME-22285001   35
+            OF-FLIGHT TECHNIQUES, WITH A FLIGHT PATH OF 78 CM TO  22285001   36
+            THE SAMPLE.                                           22285001   37
+           (GSPEC) IN-BEAM GAMMA-RAY SPECTROSCOPY.                22285001   38
+DETECTOR   (SCIN ) BAF2. THE CAPTURE EVENTS WERE DETECTED BY THE  22285001   39
+            KARLSRUHE 4PI BARIUM FLUORIDE DETECTOR, WHICH CONSISTS22285001   40
+            OF 42 HEXAGONAL AND PENTAGONAL CRYSTALS FORMING A     22285001   41
+            SPHERICAL SHELL OF BAF2 WITH 10 CM INNER RADIUS AND   22285001   42
+            15 CM THICKNESS. IT HAS AN ENERGY RESOLUTION OF 7     22285001   43
+            PERCENT AT 2.5 MEV, A TIME RESOLUTION OF 0.5 NS AND A 22285001   44
+            PEAK EFFICIENCY OF 90 PERCENT AT 1 MEV. CAPTURE EVENTS22285001   45
+            ARE DETECTED WITH 95 PERCENT PROBABILITY. THE FLIGHT  22285001   46
+            PATH THROUGH THE DETECTOR WAS ALSO EVACUATED TO AVOID 22285001   47
+            AIR SCATTERING.                                       22285001   48
+           (GLASD) A LI-6 GLASS DETECTOR, LOCATED CLOSE TO THE    22285001   49
+            NEUTRON TARGET, WAS USED TO NORMALIZE THE SPECTRA TO  22285001   50
+            EQUAL NEUTRON FLUX.                                   22285001   51
+PART-DET   (G    )                                                22285001   52
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)                         22285001   53
+MONIT-REF  (,,W,MACKLIN,82) THE STANDARD AU CAPTURE CROSS SECTION 22285001   54
+           (,RATYNSKI+,J,PR/C,37,595,88) AS A FUNCTION OF ENERGY  22285001   55
+            WAS TAKEN FROM MACKLIN, AND NORMALIZED BY A FACTOR OF 22285001   56
+            0.989 TO THE ABSOLUTE VALUE OF RATYNSKI AND KAEPPELER.22285001   57
+CORRECTION .THE DATA WERE CORRECTED FOR THE VARIOUS TRANSMISSIONS 22285001   58
+            THROUGH THE SAMPLES TO THE MONITOR.                   22285001   59
+           .THE DATA WERE FURTHER CORRECTED FOR SAMPLE-INDEPENDENT22285001   60
+            BACKGROUND, MEASURED WITH AN EMPTY SAMPLE FRAME. THE  22285001   61
+            REMAINING TIME-INDEPENDENT BACKGROUND WAS DETERMINED  22285001   62
+            AT VERY LONG FLIGHT TIMES, 3.9 MICRO-S.               22285001   63
+           .CORRECTIONS WERE ALSO APPLIED FOR THE ISOTOPIC COMPO- 22285001   64
+            SITION AND IMPURITIES.                                22285001   65
+           .THE DATA WERE ALSO CORRECTED FOR SAMPLE-SCATTERED NEU-22285001   66
+            TRONS, STUDIED WITH THE GRAPHITE SAMPLE.              22285001   67
+           .FINALLY, THE DATA WERE CORRECTED FOR MULTIPLE SCATTER-22285001   68
+            ING, NEUTRON SELF-SHIELDING, GAMMA-RAY SELF-SHIELDING,22285001   69
+            AND DETECTOR EFFICIENCY.                              22285001   70
+ERR-ANALYS (ERR-T) TOTAL ERROR OF THE CROSS-SECTION AND THE CROSS-22285001   71
+            SECTION RATIO TO GOLD, OBTAINED BY ADDING THE STATIS- 22285001   72
+            TICAL AND SYSTEMATIC ERRORS IN QUADRATURE.            22285001   73
+            INCLUDES 1.5 PERCENT GOLD STANDARD ERROR              22285001   74
+           (ERR-2)   FLIGHT PATH, RATIO                 0.1       22285001   75
+           (ERR-3)   NEUTRON FLUX, RATIO                0.2       22285001   76
+           (ERR-4)   SAMPLE MASS, TE-ISOTOPES           0.1       22285001   77
+           (ERR-5)   ISOTOPIC ENRICHMENT, TE-ISOTOPES   0.2       22285001   78
+           (ERR-6)   UNOBSERVED EVENTS, RATIO           0.6       22285001   79
+           (ERR-7)   MULTIPLE SCATTERING IN AU          0.3       22285001   80
+           (ERR-8)   MULTIPLE SCATTERING IN TE-122      0.3       22285001   81
+           (ERR-9)   MULTIPLE SCATTERING IN TE-123      0.2       22285001   82
+           (ERR-10)  MULTIPLE SCATTERING IN TE-124      0.3       22285001   83
+           (ERR-11)  MULTIPLE SCATTERING IN TE-125      0.3       22285001   84
+           (ERR-12)  MULTIPLE SCATTERING IN TE-126      0.7       22285001   85
+           .                                                      22285001   86
+            TOTAL SYSTEMATIC UNCERTAINTIES                        22285001   87
+           .                                                      22285001   88
+                 TE-122/AU-197                          0.8       22285001   89
+                 TE-123/AU-197                          0.8       22285001   90
+                 TE-124/AU-197                          0.8       22285001   91
+                 TE-125/AU-197                          0.8       22285001   92
+                 TE-126/AU-197                          1.0       22285001   93
+           .                                                      22285001   94
+STATUS     .DATA TAKEN FROM MAIN REF.                             22285001   95
+HISTORY    (950902C) N.O.                                         22285001   96
+           (951213E)                                              22285001   97
+           (961122A)  + +  CORRECTED BY S.MAEV                    22285001   98
+                        ERROR STRUCTURE IS GIVEN.                 22285001   99
+                        SAMPLE KEYWORD MOVED TO PROPER SUBENTRIES 22285001  100
+ENDBIB              98                                            22285001  101
+COMMON              11          6                                 22285001  102
+ERR-2      ERR-3      ERR-4      ERR-5      ERR-6      ERR-7      22285001  103
+ERR-8      ERR-9      ERR-10     ERR-11     ERR-12                22285001  104
+PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   22285001  105
+PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT              22285001  106
+ 0.1         0.2         0.1        0.2       0.6        0.3      22285001  107
+    0.3         0.2         0.3        0.3        0.7             22285001  108
+ENDCOMMON            6                                            22285001  109
+ENDSUBENT          108                                            2228500199999
+SUBENT        22285008     961122                                 22285008    1
+BIB                  4         20                                 22285008    2
+REACTION   (52-TE-123(N,G)52-TE-124,,SIG)                         22285008    3
+SAMPLE     .THE TELLURIUM SAMPLE WAS PELLET PRESSED FROM          22285008    4
+            METALLIC POWDER. IT HAS A DIAMETER OF 10 MM           22285008    5
+            AND THICKNESS 1.2 MM, MASS 417.9 MG,                  22285008    6
+            ISOTOPIC COMPOSITIONS AND IMPURITIES WERE AS FOLLOWS  22285008    7
+            - OXIGEN 12.1 PERCENT, OTHERS 0.03 PERCENT            22285008    8
+             TE-120  0.01 PERCENT, TE-122  0.48 PERCENT,          22285008    9
+             TE-123 89.58 PERCENT, TE-124  1.52 PERCENT,          22285008   10
+             TE-125  1.24 PERCENT, TE-126  2.68 PERCENT,          22285008   11
+             TE-128  2.51 PERCENT, TE-130  1.99 PERCENT,          22285008   12
+            THE IMPURITIES OF THE SAMPLES, MAINLY OXYGEN AND      22285008   13
+            HYDROGEN, WERE CAREFULLY CHECKED VIA GAS ANALYSIS. THE22285008   14
+            ISOTOPIC COMPOSITION WAS REDETERMINED AT KFK, USING   22285008   15
+            MASS SEPARATORS. ALL SAMPLES WERE WELDED INTO 10      22285008   16
+            MICRO-M THICK POLYETHYLENE FOILS.                     22285008   17
+STATUS     .DATA TAKEN FROM TABLE XX OF MAIN REF.                 22285008   18
+HISTORY    (950902C) N.O.                                         22285008   19
+           (951213E)                                              22285008   20
+           (961122A) * * REPEATED DETERMINATION OF ERR-T REMOVED  22285008   21
+                        .DATA-SECTION HEADINGS REORDERED    * *   22285008   22
+ENDBIB              20                                            22285008   23
+COMMON               1          3                                 22285008   24
+MONIT-ERR                                                         22285008   25
+PER-CENT                                                          22285008   26
+ 1.5000E+00                                                       22285008   27
+ENDCOMMON            3                                            22285008   28
+DATA                 5         15                                 22285008   29
+EN-MIN     EN-MAX     DATA       ERR-T      MONIT                 22285008   30
+KEV        KEV        MB         PER-CENT   MB                    22285008   31
+ 1.5000E+01 2.0000E+01 1.0559E+03 2.3000E+00 7.3880E+02           22285008   32
+ 2.0000E+01 2.5000E+01 9.4610E+02 2.1000E+00 6.0000E+02           22285008   33
+ 2.0000E+01 3.0000E+01 9.1650E+02 1.9000E+00 5.8540E+02           22285008   34
+ 2.5000E+01 3.0000E+01 8.8860E+02 2.0000E+00 5.7080E+02           22285008   35
+ 3.0000E+01 4.0000E+01 7.7940E+02 1.9000E+00 5.0040E+02           22285008   36
+ 4.0000E+01 5.0000E+01 7.0560E+02 1.9000E+00 4.3330E+02           22285008   37
+ 4.0000E+01 6.0000E+01 6.6840E+02 1.8000E+00 4.1150E+02           22285008   38
+ 5.0000E+01 6.0000E+01 6.3170E+02 1.9000E+00 3.8960E+02           22285008   39
+ 6.0000E+01 8.0000E+01 5.4990E+02 1.9000E+00 3.4940E+02           22285008   40
+ 8.0000E+01 1.0000E+02 4.6560E+02 1.9000E+00 2.9830E+02           22285008   41
+ 1.0000E+02 1.2000E+02 4.2630E+02 2.1000E+00 2.9010E+02           22285008   42
+ 1.2000E+02 1.5000E+02 4.0320E+02 2.0000E+00 2.7410E+02           22285008   43
+ 1.5000E+02 1.7500E+02 3.7000E+02 2.1000E+00 2.6370E+02           22285008   44
+ 1.5000E+02 2.0000E+02 3.4560E+02 2.0000E+00 2.5810E+02           22285008   45
+ 1.7500E+02 2.0000E+02 3.1840E+02 2.1000E+00 2.5260E+02           22285008   46
+ENDDATA             17                                            22285008   47
+ENDSUBENT           46                                            2228500899999
+SUBENT        22285013     961122                                 22285013    1
+BIB                  6         31                                 22285013    2
+REACTION   (52-TE-123(N,G)52-TE-124,,SIG,,MXW)                    22285013    3
+ANALYSIS   .THE DATA WERE OBTAINED BY FITTING UP TO 600 KEV. SINCE22285013    4
+            THE PRESENT DATA SET ONLY COVERS 10 - 200 KEV, DATA   22285013    5
+            FROM RESONANCE PARAMETERS WERE USED IN THE RANGE 0 - 122285013    6
+            OR 0 - 3 KEV. DATA FROM XIA OR MACKLIN WERE USED IN   22285013    7
+            THE RANGE 1 OR 3 TO 10 OR 15 KEV. DATA FROM MACKLIN   22285013    8
+            WERE USED IN THE RANGE 200 - 600 KEV. THESE OTHER DATA22285013    9
+            SETS WERE NORMALIZED TO THE PRESENT DATA.             22285013   10
+SAMPLE     .THE TELLURIUM SAMPLE WAS PELLET PRESSED FROM          22285013   11
+            METALLIC POWDER. IT HAS A DIAMETER OF 10 MM           22285013   12
+            AND THICKNESS 1.2 MM, MASS 417.9 MG,                  22285013   13
+            ISOTOPIC COMPOSITIONS AND IMPURITIES WERE AS FOLLOWS  22285013   14
+            - OXIGEN 12.1 PERCENT, OTHERS 0.03 PERCENT            22285013   15
+             TE-120  0.01 PERCENT, TE-122  0.48 PERCENT,          22285013   16
+             TE-123 89.58 PERCENT, TE-124  1.52 PERCENT,          22285013   17
+             TE-125  1.24 PERCENT, TE-126  2.68 PERCENT,          22285013   18
+             TE-128  2.51 PERCENT, TE-130  1.99 PERCENT,          22285013   19
+            THE IMPURITIES OF THE SAMPLES, MAINLY OXYGEN AND      22285013   20
+            HYDROGEN, WERE CAREFULLY CHECKED VIA GAS ANALYSIS. THE22285013   21
+            ISOTOPIC COMPOSITION WAS REDETERMINED AT KFK, USING   22285013   22
+            MASS SEPARATORS. ALL SAMPLES WERE WELDED INTO 10      22285013   23
+            MICRO-M THICK POLYETHYLENE FOILS.                     22285013   24
+ERR-ANALYS (ERR-S) STATISTICAL ERROR OF THE CROSS-SECTION RATIO   22285013   25
+                   TO GOLD.                                       22285013   26
+           (ERR-1) TOTAL SYSTEMATIC ERROR OF THE CROSS-SECTION    22285013   27
+                   RATIO TO GOLD.                                 22285013   28
+STATUS     .DATA TAKEN FROM TABLE XXIV OF MAIN REF.               22285013   29
+HISTORY    (950902C) N.O.                                         22285013   30
+           (951213E)                                              22285013   31
+           (961122A) * * REPEATED DETERMINATION OF ERR-T REMOVED  22285013   32
+                         ERR-S AND ERR-1 DETERMINED               22285013   33
+ENDBIB              31                                            22285013   34
+COMMON               1          3                                 22285013   35
+MONIT-ERR                                                         22285013   36
+PER-CENT                                                          22285013   37
+ 1.5000E+00                                                       22285013   38
+ENDCOMMON            3                                            22285013   39
+DATA                 5         13                                 22285013   40
+KT         DATA       ERR-S      ERR-1      ERR-T                 22285013   41
+KEV        MB         MB         MB         MB                    22285013   42
+ 1.0000E+01 1.4361E+03 1.2300E+01 1.1200E+01 1.6600E+01           22285013   43
+ 1.2000E+01 1.3103E+03 9.5000E+00 1.0300E+01 1.4000E+01           22285013   44
+ 2.0000E+01 1.0172E+03 5.5000E+00 8.1000E+00 9.8000E+00           22285013   45
+ 2.5000E+01 9.1080E+02 4.6000E+00 7.2000E+00 8.5000E+00           22285013   46
+ 3.0000E+01 8.3150E+02 4.0000E+00 6.6000E+00 7.7000E+00           22285013   47
+ 4.0000E+01 7.1890E+02 3.4000E+00 5.7000E+00 6.6000E+00           22285013   48
+ 5.0000E+01 6.4120E+02 2.9000E+00 5.1000E+00 5.9000E+00           22285013   49
+ 5.2000E+01 6.2820E+02 2.9000E+00 5.0000E+00 5.8000E+00           22285013   50
+ 6.0000E+01 5.8340E+02 2.7000E+00 4.7000E+00 5.4000E+00           22285013   51
+ 7.0000E+01 5.3830E+02 2.4000E+00 4.3000E+00 4.9000E+00           22285013   52
+ 8.0000E+01 5.0170E+02 2.2000E+00 4.0000E+00 4.6000E+00           22285013   53
+ 9.0000E+01 4.7090E+02 2.1000E+00 3.8000E+00 4.3000E+00           22285013   54
+ 1.0000E+02 4.4430E+02 1.9000E+00 3.6000E+00 4.1000E+00           22285013   55
+ENDDATA             15                                            22285013   56
+ENDSUBENT           55                                            2228501399999
+ENDENTRY             3                                            2228599999999
+ENTRY            22372   19990604   19991117                      22372000    1
+SUBENT        22372001   19990604   19991117                      22372001    1
+BIB                  9         22                                 22372001    2
+TITLE       NEUTRON CAPTURE IN 122,123,124,125,126-TE ISOTOPES -  22372001    3
+            CRITICAL TEST FOR S-PROSESS STUDIES                   22372001    4
+AUTHOR     (K.WISSHAK,F.VOSS,F.KAEPPELER,G.REFFO)                 22372001    5
+INSTITUTE  (2GERKFK) WISSHAK, VOSS, KAEPPELER                     22372001    6
+           (2ITYBOL) REFFO                                        22372001    7
+REFERENCE  (J,PR/C,45,(5),2470,199205)  MAIN REFERENCE, DATA GIVEN22372001    8
+           (J,PR/C,42,(4),1731,199010)  EXPERIMENTAL DETAILS      22372001    9
+           (J,NIM/A,292,595,1990)        EXPERIMENTAL DETAILS     22372001   10
+FACILITY   (VDG,2GERKFK)  3.75 MV VAN DE GRAAFF ACCELERATOR       22372001   11
+                    PULSE WIDTH IS 1 NS, REPETITION RATE 250 kHz, 22372001   12
+                    AVERAGE BEAM CURRENT 1.5 - 2 MICROAMP         22372001   13
+INC-SOURCE (P-LI7) METALLIC LI TARGET OF ABOUT 1 MG/CM2           22372001   14
+INC-SPECT  .PROTON BEAM ENERGY ADJUSTED SO TO BE 10, 30, 100 KEV  22372001   15
+            ABOVE THE REACTION 7-LI(P,N)7-BE THRESHOLD 1.881 MEV  22372001   16
+            GIVING NEUTRONS IN ENERGY RANGES 10-70, 3-100,        22372001   17
+            3-200 KEV                                             22372001   18
+ERR-ANALYS (ERR-4) ERROR DUE TO TELLURIUM ISOTOPES MASS           22372001   19
+           (ERR-5) ERROR DUE TO TELLURIUM ISOTOPES ENRICHMENT     22372001   20
+           (ERR-6) ERROR DUE TO MULTIPLE SCATTERING IN GOLD       22372001   21
+                   STANDARD                                       22372001   22
+HISTORY    (19980129C)  + +  COMPILED BY S.MAEV   + +             22372001   23
+           (19990604A) DATE is corrected                          22372001   24
+ENDBIB              22                                            22372001   25
+COMMON               3          3                                 22372001   26
+ERR-4      ERR-5      ERR-6                                       22372001   27
+PER-CENT   PER-CENT   PER-CENT                                    22372001   28
+  0.1        0.2        0.3                                       22372001   29
+ENDCOMMON            3                                            22372001   30
+ENDSUBENT           29                                            2237200199999
+SUBENT        22372008   19990604   19991117                      22372008    1
+BIB                  6         21                                 22372008    2
+REACTION   (52-TE-123(N,G)52-TE-124,,SIG,,AV)  AVERAGED OVER      22372008    3
+             ENERGY INTERVAL GIVEN IN DATA SECTION                22372008    4
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)                         22372008    5
+ANALYSIS   .OBTAINED BY MULTIPLYING CS RATIO BY STANDARD VALUE    22372008    6
+SAMPLE     .METALLIC POWDER DISK ENRICHED BY ISOTOPE IN QUESTION  22372008    7
+            THICKNESS IS 1.2 MM == 2.2831E-3 ATOMS/B, WEIGHT      22372008    8
+            0.41794 GRAM.OXIGEN CONTENT 12.1 PC. OTHER IMPURITIES 22372008    9
+            LESS THEN 0.03 PC                                     22372008   10
+            ISOTOPIC COMPOSITION IS                               22372008   11
+            TE-120 CONTENT IS LESS THAN 0.02 PC,                  22372008   12
+            TE-122 CONTENT IS 0.54  AND  0.48 PC,                 22372008   13
+            TE-123 CONTENT IS 89.39 AND 89.58 PC,                 22372008   14
+            TE-124 CONTENT IS 1.59 AND 1.52 PC,                   22372008   15
+            TE-125 CONTENT IS 1.24 AND 1.24 PC,                   22372008   16
+            TE-126 CONTENT IS 2.72 AND 2.68 PC,                   22372008   17
+            TE-128 CONTENT IS 2.53 AND 2.51 PC,                   22372008   18
+            TE-130 CONTENT IS 1.99 AND 1.99 PC                    22372008   19
+STATUS     (TABLE)DATA ARE TAKEN FROM TABLE VIII OF MAIN REFERENC 22372008   20
+           (DEP,22372003)                                         22372008   21
+ERR-ANALYS (ERR-T) TOTAL ERROR NOT INCLUDES STANDARD'S ERROR      22372008   22
+           (ERR-1) TOTAL SYSTEMATIC ERROR                         22372008   23
+ENDBIB              21                                            22372008   24
+COMMON               1          3                                 22372008   25
+ERR-1                                                             22372008   26
+PER-CENT                                                          22372008   27
+  0.8                                                             22372008   28
+ENDCOMMON            3                                            22372008   29
+DATA                 6         12                                 22372008   30
+EN-MIN     EN-MAX     DATA       ERR-S      ERR-T      MONIT      22372008   31
+KEV        KEV        MB         PER-CENT   PER-CENT   MB         22372008   32
+ 15.        20.        1055.9    1.6        1.8         738.8     22372008   33
+ 20.        25.         946.1    1.2        1.4         600.0     22372008   34
+ 25.        30.         888.6    1.0        1.3         570.8     22372008   35
+ 30.        40.         779.4    0.8        1.1         500.4     22372008   36
+ 40.        50.         705.6    0.7        1.1         433.3     22372008   37
+ 50.        60.         631.7    0.8        1.1         389.6     22372008   38
+ 60.        80.         549.9    0.7        1.1         349.4     22372008   39
+ 80.       100.         465.6    0.8        1.1         298.3     22372008   40
+100.       120.         426.3    1.1        1.4         290.1     22372008   41
+120.       150.         403.2    1.0        1.3         274.1     22372008   42
+150.       175.         370.0    1.1        1.4         263.7     22372008   43
+175.       200.         318.4    1.3        1.5         252.6     22372008   44
+ENDDATA             14                                            22372008   45
+ENDSUBENT           44                                            2237200899999
+SUBENT        22372013   19990604   19991117                      22372013    1
+BIB                  7         29                                 22372013    2
+REACTION   (52-TE-123(N,G)52-TE-124,,SIG,,MXW) EN-MEAN IN DATA    22372013    3
+            SECTION IS (3/2)*KT                                   22372013    4
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)                         22372013    5
+ANALYSIS   .OBTAINED BY INTEGRATING CROSS-SECTION FROM ZERO TO    22372013    6
+            600 KEV USING DIFFERENT EXPRESSIONS FOR CS, NAMELY -  22372013    7
+            CONTRIBUTION I-1 AT LOW ENERGIES IS CALCULATED FROM   22372013    8
+            RESONANCE PARAMETERS, CONTRIBUTION I-3 COVERS         22372013    9
+            THE RANGE OF PRESENT EXPERIMENT, FOR PARTS I-2 AND    22372013   10
+            I-4 ABOVE AND BELOW THIS ENERGY RANGE CROSS-SECTIONS  22372013   11
+            WERE TAKEN FROM LITERATURE AND NORMALIZED TO THE      22372013   12
+            PRESENT DATA                                          22372013   13
+SAMPLE     .METALLIC POWDER DISK ENRICHED BY ISOTOPE IN QUESTION  22372013   14
+            THICKNESS IS 1.2 MM == 2.2831E-3 ATOMS/B, WEIGHT      22372013   15
+            0.41794 GRAM.OXIGEN CONTENT 12.1 PC. OTHER IMPURITIES 22372013   16
+            LESS THEN 0.03 PC                                     22372013   17
+            ISOTOPIC COMPOSITION IS                               22372013   18
+            TE-120 CONTENT IS LESS THAN 0.02 PC,                  22372013   19
+            TE-122 CONTENT IS 0.54  AND  0.48 PC,                 22372013   20
+            TE-123 CONTENT IS 89.39 AND 89.58 PC,                 22372013   21
+            TE-124 CONTENT IS 1.59 AND 1.52 PC,                   22372013   22
+            TE-125 CONTENT IS 1.24 AND 1.24 PC,                   22372013   23
+            TE-126 CONTENT IS 2.72 AND 2.68 PC,                   22372013   24
+            TE-128 CONTENT IS 2.53 AND 2.51 PC,                   22372013   25
+            TE-130 CONTENT IS 1.99 AND 1.99 PC                    22372013   26
+STATUS     (TABLE)DATA ARE TAKEN FROM TABLE X OF MAIN REFERENCE   22372013   27
+           (DEP,22372008)                                         22372013   28
+FLAG       (1.) MAXWELLIAN-AVERAGED SIGMA AT 29 KEV EXTRAPOLATED  22372013   29
+                ACCORDING TO 1/V FROM DATA GIVEN FOR KT=30 KEV    22372013   30
+ERR-ANALYS (ERR-T) TOTAL ERROR NOT INCLUDES STANDARD'S ERROR      22372013   31
+ENDBIB              29                                            22372013   32
+NOCOMMON             0          0                                 22372013   33
+DATA                 4         14                                 22372013   34
+EN-MEAN    DATA       ERR-T      FLAG                             22372013   35
+KEV        MB         MB         NO-DIM                           22372013   36
+ 15.       1436.1     16.6                                        22372013   37
+ 18.       1310.3     14.0                                        22372013   38
+ 30.       1017.2      9.8                                        22372013   39
+ 37.5       910.8      8.5                                        22372013   40
+ 43.5       845.7      7.8        1.                              22372013   41
+ 45.        831.5      7.7                                        22372013   42
+ 60.        718.9      6.6                                        22372013   43
+ 75.        641.2      5.9                                        22372013   44
+ 78.        628.2      5.8                                        22372013   45
+ 90.        583.4      5.4                                        22372013   46
+105.        538.3      4.9                                        22372013   47
+120.        501.7      4.6                                        22372013   48
+135.        470.9      4.3                                        22372013   49
+150.        444.3      4.1                                        22372013   50
+ENDDATA             16                                            22372013   51
+ENDSUBENT           50                                            2237201399999
+ENDENTRY             3                                            2237299999999
+ENTRY            22373   19990604   19991117                      22373000    1
+SUBENT        22373001   19990604   19991117                      22373001    1
+BIB                 13         32                                 22373001    2
+TITLE       NEUTRON CROSS SECTIONS OF 122-TE, 123-TE AND 124-TE   22373001    3
+            BETWEEN 1 AND 60 KEV                                  22373001    4
+AUTHOR     (Y.XIA,TH.W.GERSTENHOEFER,S.JAAD,F.KAEPPELER,          22373001    5
+           K.WISSHAK)                                             22373001    6
+INSTITUTE  (2GERKFK)                                              22373001    7
+REFERENCE  (J,PR/C,45,(5),2487,199205)  MAIN REFERENCE, DATA GIVEN22373001    8
+           (J,PR/C,45,(5),2470,199010)  EXPERIMENTAL DETAILS      22373001    9
+           (J,NIM/A,292,595,1990)        EXPERIMENTAL DETAILS     22373001   10
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)                         22373001   11
+METHOD     (TOF)  FLIGHT PATH IS 20 MM                            22373001   12
+FACILITY   (VDG,2GERKFK)  3.75 MV VAN DE GRAAFF ACCELERATOR       22373001   13
+                    PULSE WIDTH IS 0.7 NS, REPETITION RATE 1 MHz, 22373001   14
+                    AVERAGE BEAM CURRENT 6.MICROAMP               22373001   15
+DETECTOR   (MOXR)  MOXON-RAE DETECTORS FOR GAMMA DETECTION IN     22373001   16
+                   (N,GAMMA) CROSS-SECTIONS MEASUREMENTS          22373001   17
+           (GLASD) LI-6 GLASS DETECTORS FOR NEUTRON TOTAL CROSS-  22373001   18
+                   SECTION MEASUREMENT                            22373001   19
+INC-SOURCE (P-LI7) METALLIC LI TARGET OF ABOUT 0.5 MG/CM2 THICK-  22373001   20
+             NESS ON 0.2 MM THICK COPPER BACKING.                 22373001   21
+INC-SPECT  .PROTON  ENERGY IS 1912 KEV GIVING CONTINUOUS NEUTRON  22373001   22
+            ENERGY DISTRIBUTION WITH MAXIMUM AROUND 106 KEV.      22373001   23
+            NEUTRON FLUX IS 3.E+07 AT THE SAMPLE POSITION         22373001   24
+SAMPLE     .METALLIC GOLD SAMPLE 0.25 MM THICKNESS, 368.7 MG MASS,22373001   25
+            GRAPHITE SAMPLE 0.6 MM THICKNESS, 87.3 MG MASS        22373001   26
+            WERE PRESENT IN ALL MEASUREMENTS' SERIES              22373001   27
+ERR-ANALYS (ERR-T)  TOTAL ERROR EQUAL TO SUM 0F STATISTICAL AND   22373001   28
+                    TOTAL SYSTEMATIC ERROR                        22373001   29
+           (ERR-13)    ERROR DUE TO GAMMA-RAY SELF-ABSORPTION     22373001   30
+           (DATA-ERR1) ERROR DUE TO NEUTRON BEAM INTENSITY        22373001   31
+                       FLUCTUATIONS                               22373001   32
+HISTORY    (19980204C)  + +  COMPILED BY S.MAEV   + +             22373001   33
+           (19990604A) DATE is corrected                          22373001   34
+ENDBIB              32                                            22373001   35
+COMMON               2          3                                 22373001   36
+ERR-13     DATA-ERR1                                              22373001   37
+PER-CENT   PER-CENT                                               22373001   38
+  0.2        0.4                                                  22373001   39
+ENDCOMMON            3                                            22373001   40
+ENDSUBENT           39                                            2237300199999
+SUBENT        22373006   19990604   19991117                      22373006    1
+BIB                  4         19                                 22373006    2
+REACTION   (52-TE-123(N,G)52-TE-124,,SIG,,AV)      AVERAGED OVER  22373006    3
+              ENERGY INTERVAL GIVEN IN DATA SECTION               22373006    4
+SAMPLE     .PARTLY OXIDIZED METALLIC POWDER DISK ENRICHED BY      22373006    5
+            ISOTOPE IN QUESTION.                                  22373006    6
+            THICKNESS IS 1.25 MM, MASS 0.41794 GRAM. OXIGEN       22373006    7
+            CONTENT 12.1 PC. OTHER IMPURITIES LESS THEN 0.03 PC   22373006    8
+            ISOTOPIC COMPOSITION IS                               22373006    9
+            TE-120 CONTENT IS LESS THAN 0.02 PC,                  22373006   10
+            TE-122 CONTENT IS   0.48 PC,                          22373006   11
+            TE-123 CONTENT IS  89.58 PC,                          22373006   12
+            TE-124 CONTENT IS 1.52 PC,                            22373006   13
+            TE-125 CONTENT IS 1.24 PC,                            22373006   14
+            TE-126 CONTENT IS 2.68 PC,                            22373006   15
+            TE-128 CONTENT IS 2.51 PC,                            22373006   16
+            TE-130 CONTENT IS 1.99 PC                             22373006   17
+STATUS     (TABLE) DATA ARE TAKEN FROM TABLE V OF MAIN REFERENCE  22373006   18
+           (DEP,22373003)                                         22373006   19
+COMMENT    .EN-MIN=4 KEV IN LINE 2 TABLE V OF THE MAIN REFERENCE  22373006   20
+            IS REGARDED AS MISPRINT                               22373006   21
+ENDBIB              19                                            22373006   22
+NOCOMMON             0          0                                 22373006   23
+DATA                 4          8                                 22373006   24
+EN-MIN     EN-MAX     DATA       ERR-T                            22373006   25
+KEV        KEV        MB         MB                               22373006   26
+  1.         3.        3802.      302.                            22373006   27
+  3.         5.        1871.      116.                            22373006   28
+  5.        10.        1529.       70.                            22373006   29
+ 10.        15.        1202.       51.                            22373006   30
+ 15.        20.         991.       40.                            22373006   31
+ 20.        30.         835.       33.                            22373006   32
+ 30.        40.         738.       29.                            22373006   33
+ 40.        60.         626.       24.                            22373006   34
+ENDDATA             10                                            22373006   35
+ENDSUBENT           34                                            2237300699999
+ENDENTRY             2                                            2237399999999
+ENTRY            40292     850329                                 40292000    1
+SUBENT        40292001     850329                                 40292001    1
+BIB                 10         21                                 40292001    2
+INSTITUTE  (4CCPLEB)                                              40292001    3
+REFERENCE  (J,YF,20,(2),252,7402) GRAPHS ARE GIVEN                40292001    4
+AUTHOR     (A.A.BERGMAN,S.A.ROMANOV)                              40292001    5
+TITLE      STUDY OF CROSS SECTIONS OF NEUTRON RADIATIVE CAPTURE   40292001    6
+           BY TELLURIUM ISOTOPES WITH APPLICATION TO THE THEORY OF40292001    7
+           NUCLEOGENESIS                                          40292001    8
+METHOD     (SLODT)    SLOWING-DOWN-TIME. FULL DESCRIPTION IN      40292001    9
+                      JU.P. POPOV. TR.FIAN,24,3,1964              40292001   10
+MONITOR    THERMAL CROSS SECTION OF NATURAL TELLURIUM AND         40292001   11
+           RESONANCE INTEGRALS OF LOW LEVELS OF TE,AG AND AU WERE 40292001   12
+           USED FOR NORMALIZATION OF CROSS SECTIONS               40292001   13
+           DATA FROM D.J.HUGHES,R.B.SCHWARTZ.NEUTRON CROSS SECTION40292001   14
+           BNL-325,SECOND EDITION,1958 AND D.J.HUGHES,B.A.MAGURNO,40292001   15
+           M.K.BRUSSEL,CROSS SECTION SUPPL.1 BNL-325,1960         40292001   16
+STATUS     DATA WERE RECEIVED FROM BERGMAN A.A. 750107            40292001   17
+HISTORY    (750315C) COMPILED AT THE CENTRE                       40292001   18
+CORRECTION EFFECT OF SELF-SHIELDING OF RESONANCES WAS TAKEN INTO  40292001   19
+           ACCOUNT                                                40292001   20
+ERR-ANALYS ERRORS OF CROSS-SECTIONS   ARE DETERMINED BY THE ERRORS40292001   21
+           OF NORMALIZATION AND SELF-SHIELDING IN RESONANCES OF   40292001   22
+           THE OTHER ISOTOPES                                     40292001   23
+ENDBIB              21                                            40292001   24
+NOCOMMON             0          0                                 40292001   25
+ENDSUBENT           24                                            4029200199999
+SUBENT        40292003     850329                                 40292003    1
+BIB                  3          6                                 40292003    2
+REACTION   (52-TE-123(N,G)52-TE-124,,SIG)                         40292003    3
+            N,GAMMA CROSS-SECTION                                 40292003    4
+SAMPLE     POWDER TEO2 OXIDE  TE-123 67.3 PERCENT ENRICHED        40292003    5
+           EFFECTIVE THICKNESS 2.19E-21 NUCLEI/CM**2              40292003    6
+FLAG       (1.) ERROR OF CROSS SECTION IS LESS THAN 30 PERCENT    40292003    7
+           (2.) ERROR OF CROSS SECTION IS LESS THAN 10 PERCENT    40292003    8
+ENDBIB               6                                            40292003    9
+NOCOMMON             0          0                                 40292003   10
+DATA                 3         65                                 40292003   11
+EN         DATA       FLAG                                        40292003   12
+KEV        B          NO-DIM                                      40292003   13
+ 1.6000E-02 5.7000E+00 2.0000E+00                                 40292003   14
+ 1.8000E-02 1.1200E+01 2.0000E+00                                 40292003   15
+ 2.0000E-02 3.8000E+01 2.0000E+00                                 40292003   16
+ 2.2000E-02 6.8000E+01 2.0000E+00                                 40292003   17
+ 2.5000E-02 7.5000E+01 2.0000E+00                                 40292003   18
+ 2.7000E-02 6.3000E+01 2.0000E+00                                 40292003   19
+ 3.0000E-02 4.4000E+01 2.0000E+00                                 40292003   20
+ 3.4000E-02 3.6000E+01 2.0000E+00                                 40292003   21
+ 3.6000E-02 3.4600E+01 2.0000E+00                                 40292003   22
+ 4.0000E-02 2.0100E+01 2.0000E+00                                 40292003   23
+ 4.5000E-02 1.0900E+01 2.0000E+00                                 40292003   24
+ 5.0000E-02 6.7000E+00 2.0000E+00                                 40292003   25
+ 5.4000E-02 4.8000E+00 1.0000E+00                                 40292003   26
+ 6.0000E-02 5.0000E+00 1.0000E+00                                 40292003   27
+ 6.6000E-02 5.6000E+00 1.0000E+00                                 40292003   28
+ 7.2000E-02 6.4000E+00 1.0000E+00                                 40292003   29
+ 8.0000E-02 8.0000E+00 1.0000E+00                                 40292003   30
+ 9.0000E-02 1.0600E+01 2.0000E+00                                 40292003   31
+ 1.0000E-01 1.2800E+01 2.0000E+00                                 40292003   32
+ 1.0500E-01 1.4900E+01 2.0000E+00                                 40292003   33
+ 1.1500E-01 1.7800E+01 2.0000E+00                                 40292003   34
+ 1.2500E-01 1.9500E+01 2.0000E+00                                 40292003   35
+ 1.4000E-01 1.9200E+01 2.0000E+00                                 40292003   36
+ 1.6000E-01 1.4500E+01 2.0000E+00                                 40292003   37
+ 1.8000E-01 9.5000E+00 2.0000E+00                                 40292003   38
+ 2.0000E-01 7.3000E+00 2.0000E+00                                 40292003   39
+ 2.2000E-01 6.8700E+00 2.0000E+00                                 40292003   40
+ 2.4000E-01 7.1500E+00 2.0000E+00                                 40292003   41
+ 2.7000E-01 8.5800E+00 2.0000E+00                                 40292003   42
+ 3.3000E-01 1.1600E+01 2.0000E+00                                 40292003   43
+ 3.6000E-01 1.1600E+01 2.0000E+00                                 40292003   44
+ 4.0000E-01 9.9000E+00 2.0000E+00                                 40292003   45
+ 4.5000E-01 8.1000E+00 2.0000E+00                                 40292003   46
+ 5.0000E-01 6.7000E+00 2.0000E+00                                 40292003   47
+ 5.4000E-01 6.3000E+00 2.0000E+00                                 40292003   48
+ 6.0000E-01 5.6000E+00 2.0000E+00                                 40292003   49
+ 7.0000E-01 4.7400E+00 2.0000E+00                                 40292003   50
+ 8.0000E-01 4.3300E+00 2.0000E+00                                 40292003   51
+ 9.0000E-01 4.3500E+00 2.0000E+00                                 40292003   52
+ 1.0000E+00 4.4000E+00 2.0000E+00                                 40292003   53
+ 1.1000E+00 4.2000E+00 2.0000E+00                                 40292003   54
+ 1.2000E+00 4.0000E+00 2.0000E+00                                 40292003   55
+ 1.3000E+00 3.8300E+00 2.0000E+00                                 40292003   56
+ 1.5000E+00 3.3900E+00 2.0000E+00                                 40292003   57
+ 1.9000E+00 2.9700E+00 2.0000E+00                                 40292003   58
+ 2.1000E+00 2.7500E+00 2.0000E+00                                 40292003   59
+ 2.4000E+00 2.5300E+00 2.0000E+00                                 40292003   60
+ 2.8000E+00 2.2500E+00 2.0000E+00                                 40292003   61
+ 3.3000E+00 2.0200E+00 2.0000E+00                                 40292003   62
+ 3.9000E+00 1.8400E+00 2.0000E+00                                 40292003   63
+ 4.5000E+00 1.7400E+00 2.0000E+00                                 40292003   64
+ 5.4000E+00 1.7200E+00 2.0000E+00                                 40292003   65
+ 6.5000E+00 1.5800E+00 2.0000E+00                                 40292003   66
+ 8.0000E+00 1.4500E+00 2.0000E+00                                 40292003   67
+ 1.0000E+01 1.3500E+00 2.0000E+00                                 40292003   68
+ 1.1500E+01 1.3100E+00 2.0000E+00                                 40292003   69
+ 1.3000E+01 1.2800E+00 2.0000E+00                                 40292003   70
+ 1.5500E+01 1.2100E+00 2.0000E+00                                 40292003   71
+ 1.7500E+01 1.1200E+00 2.0000E+00                                 40292003   72
+ 2.1000E+01 1.0300E+00 2.0000E+00                                 40292003   73
+ 2.6000E+01 9.9000E-01 2.0000E+00                                 40292003   74
+ 3.3000E+01 9.1000E-01 2.0000E+00                                 40292003   75
+ 4.0000E+01 8.5000E-01 2.0000E+00                                 40292003   76
+ 5.0000E+01 8.2000E-01 2.0000E+00                                 40292003   77
+ 6.4000E+01 7.1000E-01 2.0000E+00                                 40292003   78
+ENDDATA             67                                            40292003   79
+ENDSUBENT           78                                            4029200399999
+ENDENTRY             2                                            4029299999999
+ENTRY            41100     920714                                 41100000    1
+SUBENT        41100001     920714                                 41100001    1
+BIB                 14         20                                 41100001    2
+TITLE       NEUTRON RESONANCE PARAMETERS OF TE-122 AND            41100001    3
+            TE-123-G                                              41100001    4
+AUTHOR     (V.A.ANUFRIEV,S.M.MASYANOV,S.I.BABICH)                 41100001    5
+REFERENCE  (J,AE,69,(4),395,9012)  DATA TABLES ARE GIVEN          41100001    6
+INSTITUTE  (4CCPNIR)                                              41100001    7
+METHOD     (TOF)   FLIGHT BASE IS 91.7 M                          41100001    8
+FACILITY   (REAC)   REACTOR CM-2                                  41100001    9
+DETECTOR   (PROPC)  HE-3 FILLED COUNTERS                          41100001   10
+ANALYSIS   (SHAPE)  FOR ALL ENERGY INTERVAL 0.02 - 1400 EV        41100001   11
+           (AREA)   IN ADDITION FOR ENERGIES HIGHER THAN 100 EV   41100001   12
+INC-SPECT    EN-RSL IS THE BEST ENERGY RESOLUTION                 41100001   13
+SAMPLE      METALLIC TELLURIUM POWDER ENRICHED IN TE-122          41100001   14
+            TE-121 CONTENT IS 0.01 PC, TE-122 CONTENT IS 91.2 PC, 41100001   15
+            TE-123 CONTENT IS 1.23 PC, TE-124 CONTENT IS 1.94 PC, 41100001   16
+            TE-125 CONTENT IS 0.8  PC, TE-126 CONTENT IS 1.57 PC, 41100001   17
+            TE-128 CONTENT IS 1.91 PC, TE-130 CONTENT IS 1.38 PC, 41100001   18
+MONITOR     ABSOLUTE MEASUREMENTS BY THE TRANSMISSION METHOD      41100001   19
+STATUS      DATA ARE TAKEN FROM THE REFERENCE                     41100001   20
+ERR-ANALYS (DATA-ERR)  ERRORS ARE NOT SPECIFIED                   41100001   21
+HISTORY    (920714C)  + + COMPILED AT THE CENTRE - CJD + +        41100001   22
+ENDBIB              20                                            41100001   23
+COMMON               1          3                                 41100001   24
+EN-RSL                                                            41100001   25
+NSEC/M                                                            41100001   26
+ 58.                                                              41100001   27
+ENDCOMMON            3                                            41100001   28
+ENDSUBENT           27                                            4110000199999
+SUBENT        41100007     920714                                 41100007    1
+BIB                  2          2                                 41100007    2
+REACTION   (52-TE-123(N,G)52-TE-124,,SIG)                         41100007    3
+STATUS     (DEP,41100003)                                         41100007    4
+ENDBIB               2                                            41100007    5
+NOCOMMON                                                          41100007    6
+DATA                 3          1                                 41100007    7
+EN         DATA       DATA-ERR                                    41100007    8
+EV         B          B                                           41100007    9
+   2.53E-02    370.       40.                                     41100007   10
+ENDDATA              3                                            41100007   11
+ENDSUBENT           10                                            4110000799999
+ENDENTRY             2                                            4110099999999
+ENDREQUEST           1                                            Z999999999999

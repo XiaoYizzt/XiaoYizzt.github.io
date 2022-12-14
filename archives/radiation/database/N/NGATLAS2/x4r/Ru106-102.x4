@@ -1,0 +1,51 @@
+REQUEST           1001   20010914          3     141621               0  0    0
+ENTRY            11925     830802                                 11925000    1
+SUBENT        11925001     830802                                 11925001    1
+BIB                 10         13                                 11925001    2
+INSTITUTE  (1CANCRC)                                              11925001    3
+REFERENCE  (J,NSE,21,20,65)                                       11925001    4
+AUTHOR     (R.WERNER,T.EASTWOOD)                                  11925001    5
+TITLE      THE THERMAL NEUTRON CAPTURE CROSS SECTION AND          11925001    6
+           RESONANCE- CAPTURE INTEGRAL OF RU106.                  11925001    7
+INC-SPECT  REACTOR SPECTRUM                                       11925001    8
+METHOD     (ACTIV) ACTIVATION                                     11925001    9
+DECAY-DATA (45-RH-107,21.85MIN,DG,307.,0.75)                      11925001   10
+MONITOR    (27-CO-59(N,G)27-CO-60,,SIG)                           11925001   11
+           (27-CO-59(N,G)27-CO-60,,RI)                            11925001   12
+STATUS     (SCSRS)                                                11925001   13
+HISTORY    (760802T) TRANSLATED FROM SCISRS                       11925001   14
+           (830802A) CONVERTED TO REACTION FORMALISM              11925001   15
+ENDBIB              13                                            11925001   16
+COMMON               2          3                                 11925001   17
+MONIT1     MONIT2                                                 11925001   18
+B          B                                                      11925001   19
+ 37.5       72.7                                                  11925001   20
+ENDCOMMON            3                                            11925001   21
+ENDSUBENT           20                                            1192500199999
+SUBENT        11925003     830802                                 11925003    1
+BIB                  1          1                                 11925003    2
+REACTION   (44-RU-106(N,G)44-RU-107,,SIG,,SPA)                    11925003    3
+ENDBIB               1                                            11925003    4
+NOCOMMON             0          0                                 11925003    5
+DATA                 2          1                                 11925003    6
+EN-DUMMY   DATA                                                   11925003    7
+MEV        B                                                      11925003    8
+ 2.53   -08 1.89   -01                                            11925003    9
+ENDDATA              3                                            11925003   10
+ENDSUBENT            9                                            1192500399999
+SUBENT        11925004     830802                                 11925004    1
+BIB                  3          4                                 11925004    2
+REACTION   (44-RU-106(N,G)44-RU-107,,SIG,,MXW)                    11925004    3
+STATUS     (DEP,11925003)                                         11925004    4
+ANALYSIS   CALCULATED FROM REACTOR SPECTRUM VALUE, USING          11925004    5
+            S(0)=15+-1.                                           11925004    6
+ENDBIB               4                                            11925004    7
+NOCOMMON             0          0                                 11925004    8
+DATA                 3          1                                 11925004    9
+EN-DUMMY   DATA       DATA-ERR                                    11925004   10
+MEV        B          B                                           11925004   11
+ 2.53   -08 1.46   -01 4.5    -02                                 11925004   12
+ENDDATA              3                                            11925004   13
+ENDSUBENT           12                                            1192500499999
+ENDENTRY             3                                            1192599999999
+ENDREQUEST           1                                            Z999999999999

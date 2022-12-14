@@ -1,0 +1,340 @@
+REQUEST           1001   20010914          3     143559               0  0    0
+ENTRY            12127     821012                                 12127000    1
+SUBENT        12127001     821012                                 12127001    1
+BIB                 11         15                                 12127001    2
+INSTITUTE  (1CANMCM)                                              12127001    3
+REFERENCE  (T,WALKER,5605)                                        12127001    4
+AUTHOR     (W.H.WALKER)                                           12127001    5
+TITLE      THE RELATIVE ABUNDANCES AND PILE NEUTRON CAPTURE CROSS 12127001    6
+           SECTIONS OF THE ISOTOPES OF SAMARIUM, GADOLINIUM,      12127001    7
+           DYSPROSIUM AND YTTERBIUM.                              12127001    8
+N-SOURCE   (REAC) NRX REACTOR                                     12127001    9
+SAMPLE     LARGE SAMPLES. MANY IMPURITIES (MOSTLY OTHER RARE      12127001   10
+            EARTHS).                                              12127001   11
+FACILITY   (SPECM) MASS SPECTROMETER                              12127001   12
+INC-SPECT  REACTOR SPECTRUM                                       12127001   13
+METHOD     SAMPLES SEPARATED BY MULTIPLE DISTILLATION.            12127001   14
+STATUS     (SCSRS)                                                12127001   15
+HISTORY    (760803T) TRANSLATED FROM SCISRS                       12127001   16
+           (821012A) CONVERTED TO REACTION FORMALISM              12127001   17
+ENDBIB              15                                            12127001   18
+NOCOMMON             0          0                                 12127001   19
+ENDSUBENT           18                                            1212700199999
+SUBENT        12127021     821012                                 12127021    1
+BIB                  2          3                                 12127021    2
+REACTION   (70-YB-170(N,G)70-YB-171,,SIG,,SPA)                    12127021    3
+MONITOR    (70-YB-0(N,G),,SIG)                                    12127021    4
+            RENORMALIZED BY WALKER, PRIVATE COMM.,1969            12127021    5
+ENDBIB               3                                            12127021    6
+NOCOMMON             0          0                                 12127021    7
+DATA                 3          1                                 12127021    8
+EN-DUMMY   DATA-MAX   MONIT                                       12127021    9
+MEV        B          B                                           12127021   10
+ 2.53   -08 2.4    +01 42.                                        12127021   11
+ENDDATA              3                                            12127021   12
+ENDSUBENT           11                                            1212702199999
+ENDENTRY             2                                            1212799999999
+ENTRY            21737     820921                                 21737000    1
+SUBENT        21737001     820921                                 21737001    1
+BIB                 13         41                                 21737001    2
+INSTITUTE  (2GERKFK)                                              21737001    3
+REFERENCE  (J,AJ/S,46,295,8108) MAIN REFERENCE FOR LU AND YB.     21737001    4
+           (C,79KNOX,,340,7910)                                   21737001    5
+           (P,NEANDC(E)-212,(5),5,8006) GRAPHS.                   21737001    6
+AUTHOR     (H.BEER,F.KAEPPELER,K.WISSHAK,R.A.WARD)                21737001    7
+TITLE      - LU-176. COSMIC CLOCK OR STELLAR THERMOMETER .        21737001    8
+FACILITY   (VDG  ) THE 3 MV PULSED VAN DE GRAAFF.                 21737001    9
+SAMPLE     .THE SAMPLES THAT WERE USED EACH HAD A DIAM.           21737001   10
+            OF 30 MM AND WERE CONTAINED IN 0.1 MM THICK AL-       21737001   11
+            CANNINGS. THE SAMPLES WERE,                           21737001   12
+             NATURAL LU,                                          21737001   13
+             NATURAL YB,                                          21737001   14
+             YB ENRICHED IN YB-170 TO 78.78 PERCENT,              21737001   15
+             AU-197 (MONITOR SAMPLE),                             21737001   16
+             GRAPHITE (THIS SAMPLE SERVED AS PURE SCATTERER),     21737001   17
+             AN EMPTY SAMPLE CONTAINER (BACKGROUND CORR.).        21737001   18
+           .DETAILED INFORMATION IN TABLE II IN MAIN REF.         21737001   19
+METHOD     (TOF  ) TIME OF FLIGHT TECHNIQUES WITH PROMPT GAMMA    21737001   20
+            RAY DETECTION.                                        21737001   21
+DETECTOR   (MOXR ) MOXON-RAE DETECTOR, CONSISTING OF A 2.5 CM     21737001   22
+            THICK GRAPHITE CONVERTER AND A NE111 PLASTIC SCIN-    21737001   23
+            TILLATOR. THE DETECTOR WAS PLACED AT A 120 DEGREE     21737001   24
+            BACKWARD ANGLE.                                       21737001   25
+           (GLASD) A LI-6 GLASS FLUX MONITOR AT 20 DEGREES.       21737001   26
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)         DATA TAKEN      21737001   27
+            FROM ENDF/B-IV.                                       21737001   28
+PART-DET   (G    ) PROMPT CAPTURE GAMMA RAYS.                     21737001   29
+STATUS     .DATA TAKEN FROM MAIN REFERENCE.                       21737001   30
+HISTORY    (810218C) CN.                                          21737001   31
+           (810310E)                                              21737001   32
+           (820413A) ENTRY UPDATED.                               21737001   33
+                     W-184 DATA (SUBENT 012 AND 013) MOVED TO     21737001   34
+                     EXFOR21768, UNDER THE MAIN REFERENCE         21737001   35
+                     (J,AAA,105,270,8109).                        21737001   36
+           (820921E)                                              21737001   37
+CORRECTION .FOR-                                                  21737001   38
+            - DIFFERENCES IN FLIGHT PATHS,                        21737001   39
+            - NORMALIZATION TO THE OBSERVED NEUTRON FLUX,         21737001   40
+            - NEUTRON MULTIPLE SCATTERING,                        21737001   41
+            - NEUTRON SELF-SHIELDING,                             21737001   42
+            - GAMMA RAY ABSORPTION IN THE SAMPLE.                 21737001   43
+ENDBIB              41                                            21737001   44
+NOCOMMON             0          0                                 21737001   45
+ENDSUBENT           44                                            2173700199999
+SUBENT        21737004     810310                                 21737004    1
+BIB                  5         12                                 21737004    2
+REACTION   (70-YB-170(N,G)70-YB-171,,SIG)                         21737004    3
+INC-SOURCE (P-LI7) THE LI-7(P,N)-REACTION USING A WATER COOLED    21737004    4
+            TARGET AND A PROTON BEAM WITH AN ENERGY 20 KEV ABOVE  21737004    5
+            THE REACTION THRESHOLD TO OBTAIN A KINEMATICALLY      21737004    6
+            COLLIMATED NEUTRON BEAM.                              21737004    7
+STATUS     .DATA TAKEN FROM MAIN REFERENCE.                       21737004    8
+HISTORY    (810218C)                                              21737004    9
+           (810310E)                                              21737004   10
+ERR-ANALYS (ERR-1) TOTAL SYSTEMATIC ERROR. FOR DETAILS SEE        21737004   11
+            ARTICLE IN ASTROPHYSICAL JOURNAL.                     21737004   12
+           (ERR-S) STATISTICAL ERROR.                             21737004   13
+           (ERR-T) TOTAL ERROR.                                   21737004   14
+ENDBIB              12                                            21737004   15
+NOCOMMON             0          0                                 21737004   16
+DATA                 6         25                                 21737004   17
+EN         EN-RSL     DATA       ERR-S      ERR-1      ERR-T      21737004   18
+KEV        KEV        B          PER-CENT   PER-CENT   PER-CENT   21737004   19
+ 5.1700E+00 1.1500E+00 1.1960E+00 5.4800E+00 3.9100E+00 6.7300E+0021737004   20
+ 7.5500E+00 1.1900E+00 1.4610E+00 4.4600E+00 3.9400E+00 5.9500E+0021737004   21
+ 1.0050E+01 1.3000E+00 1.3350E+00 3.1400E+00 3.9200E+00 5.0200E+0021737004   22
+ 1.2470E+01 1.0800E+00 9.2500E-01 3.1500E+00 3.9200E+00 5.0300E+0021737004   23
+ 1.4020E+01 6.1000E-01 1.0140E+00 4.7300E+00 4.2100E+00 6.3300E+0021737004   24
+ 1.4920E+01 6.6000E-01 1.0550E+00 3.9800E+00 4.1200E+00 5.7200E+0021737004   25
+ 1.5900E+01 7.2000E-01 9.4400E-01 3.7700E+00 4.1200E+00 5.5900E+0021737004   26
+ 1.6990E+01 7.8000E-01 9.0800E-01 3.5300E+00 4.1000E+00 5.4100E+0021737004   27
+ 1.8200E+01 8.5000E-01 8.7300E-01 3.2300E+00 4.0500E+00 5.1800E+0021737004   28
+ 1.9530E+01 9.4000E-01 1.0090E+00 2.8700E+00 4.0200E+00 4.9400E+0021737004   29
+ 2.1020E+01 1.0300E+00 1.0380E+00 2.4900E+00 4.0000E+00 4.7000E+0021737004   30
+ 2.2690E+01 1.1400E+00 9.1200E-01 2.2600E+00 3.9600E+00 4.5600E+0021737004   31
+ 2.4570E+01 1.2700E+00 8.4800E-01 1.9400E+00 3.9500E+00 4.4000E+0021737004   32
+ 2.6680E+01 1.4200E+00 8.6100E-01 1.7100E+00 3.9400E+00 4.2900E+0021737004   33
+ 2.9080E+01 1.5900E+00 7.7800E-01 1.5300E+00 3.9300E+00 4.2100E+0021737004   34
+ 3.1830E+01 1.8000E+00 8.0500E-01 1.3700E+00 3.9200E+00 4.1500E+0021737004   35
+ 3.4970E+01 2.0400E+00 7.4200E-01 1.3300E+00 3.9200E+00 4.1400E+0021737004   36
+ 3.8610E+01 2.3400E+00 6.5710E-01 1.2200E+00 3.9100E+00 4.1000E+0021737004   37
+ 4.2850E+01 2.7000E+00 7.2600E-01 1.1100E+00 3.9100E+00 4.0700E+0021737004   38
+ 4.7830E+01 3.1500E+00 6.7400E-01 1.0200E+00 3.9100E+00 4.0400E+0021737004   39
+ 5.3730E+01 3.7100E+00 6.4200E-01 9.6000E-01 3.9100E+00 4.0200E+0021737004   40
+ 6.0790E+01 4.4200E+00 6.1420E-01 8.9000E-01 3.9100E+00 4.0000E+0021737004   41
+ 6.9350E+01 5.3200E+00 5.6490E-01 8.6000E-01 3.9100E+00 4.0000E+0021737004   42
+ 7.9840E+01 6.5100E+00 5.2910E-01 9.4000E-01 3.9100E+00 4.0200E+0021737004   43
+ 9.2910E+01 8.1000E+00 4.4440E-01 1.7300E+00 3.9200E+00 4.2900E+0021737004   44
+ENDDATA             27                                            21737004   45
+ENDSUBENT           44                                            2173700499999
+SUBENT        21737005     810310                                 21737005    1
+BIB                  5         12                                 21737005    2
+REACTION   (70-YB-170(N,G)70-YB-171,,SIG)                         21737005    3
+INC-SOURCE (P-T  ) THE H-3(P,N)-REACTION USING A WATER COOLED     21737005    4
+            TARGET AND A PROTON BEAM WITH AN ENERGY 100 KEV       21737005    5
+            ABOVE THE REACTION THRESHOLD TO OBTAIN A KINEMATI-    21737005    6
+            CALLY COLLIMATED NEUTRON BEAM.                        21737005    7
+STATUS     .DATA TAKEN FROM MAIN REFERENCE.                       21737005    8
+HISTORY    (810218C)                                              21737005    9
+           (810310E)                                              21737005   10
+ERR-ANALYS (ERR-1) TOTAL SYSTEMATIC ERROR. FOR DETAILS SEE        21737005   11
+            ARTICLE IN ASTROPHYSICAL JOURNAL.                     21737005   12
+           (ERR-S) STATISTICAL ERROR.                             21737005   13
+           (ERR-T) TOTAL ERROR.                                   21737005   14
+ENDBIB              12                                            21737005   15
+NOCOMMON             0          0                                 21737005   16
+DATA                 6         10                                 21737005   17
+EN         EN-RSL     DATA       ERR-S      ERR-1      ERR-T      21737005   18
+KEV        KEV        B          PER-CENT   PER-CENT   PER-CENT   21737005   19
+ 3.8310E+01 2.5100E+00 6.7600E-01 5.0500E+00 7.8200E+00 9.3100E+0021737005   20
+ 4.3240E+01 2.9800E+00 6.8800E-01 4.2400E+00 6.6200E+00 7.8600E+0021737005   21
+ 4.9180E+01 3.5700E+00 6.0900E-01 3.4700E+00 5.7900E+00 6.7500E+0021737005   22
+ 5.6420E+01 4.3500E+00 6.0800E-01 2.7500E+00 4.9400E+00 5.6500E+0021737005   23
+ 6.5390E+01 5.3700E+00 5.6300E-01 2.3200E+00 4.4000E+00 4.9800E+0021737005   24
+ 7.6670E+01 6.7600E+00 5.1800E-01 1.9400E+00 4.0600E+00 4.5000E+0021737005   25
+ 9.1140E+01 8.6800E+00 4.4520E-01 1.7500E+00 3.8700E+00 4.2500E+0021737005   26
+ 1.1014E+02 1.1440E+01 3.7780E-01 1.5700E+00 3.7600E+00 4.0700E+0021737005   27
+ 1.3575E+02 1.5540E+01 3.2060E-01 1.4600E+00 3.7000E+00 3.9800E+0021737005   28
+ 1.7146E+02 2.1910E+01 2.6600E-01 1.9500E+00 4.0800E+00 4.5200E+0021737005   29
+ENDDATA             12                                            21737005   30
+ENDSUBENT           29                                            2173700599999
+SUBENT        21737007     810310                                 21737007    1
+BIB                  5         12                                 21737007    2
+REACTION   (70-YB-170(N,G)70-YB-171,,SIG,,MXW)                    21737007    3
+INC-SOURCE (P-T  ) THE H-3(P,N)-REACTION AND                      21737007    4
+           (P-LI7) THE LI-7(P,N)-REACTION USING WATER COOLED      21737007    5
+            TARGETS AND WITH PROTON ENERGIES AT 20 KEV            21737007    6
+            AND 100 KEV ABOVE THE REACTIONS THRESHOLD,            21737007    7
+            RESPECTIVELY, TO OBTAIN A KINEMATICALLY COLLIMATED    21737007    8
+            NEUTRON BEAM.                                         21737007    9
+COMMENT    .THE DATA HAVE BEEN CALCULATED FROM THE DATA GIVEN     21737007   10
+            IN SUBWORKS 004 AND 005.                              21737007   11
+STATUS     .DATA TAKEN FROM MAIN REFERENCE.                       21737007   12
+HISTORY    (810218C)                                              21737007   13
+           (810310E)                                              21737007   14
+ENDBIB              12                                            21737007   15
+NOCOMMON             0          0                                 21737007   16
+DATA                 3         10                                 21737007   17
+KT         DATA       DATA-ERR                                    21737007   18
+KEV        MB         PER-CENT                                    21737007   19
+ 1.0000E+01 1.1970E+03                                            21737007   20
+ 2.0000E+01 9.1600E+02                                            21737007   21
+ 3.0000E+01 7.6600E+02 4.0000E+00                                 21737007   22
+ 4.0000E+01 6.6700E+02                                            21737007   23
+ 5.0000E+01 5.9700E+02                                            21737007   24
+ 6.0000E+01 5.4800E+02                                            21737007   25
+ 7.0000E+01 5.1200E+02                                            21737007   26
+ 8.0000E+01 4.8600E+02                                            21737007   27
+ 9.0000E+01 4.6500E+02                                            21737007   28
+ 1.0000E+02 4.5000E+02                                            21737007   29
+ENDDATA             12                                            21737007   30
+ENDSUBENT           29                                            2173700799999
+ENDENTRY             4                                            2173799999999
+ENTRY            30543     840911                                 30543000    1
+SUBENT        30543001     840911                                 30543001    1
+BIB                 12         17                                 30543001    2
+INSTITUTE  (3AULAUA)                                              30543001    3
+REFERENCE  (J,AUJ,32,447,7911)                                    30543001    4
+           (P,AAEC/PR-44-PD,19,78)   SHORT NOTE                   30543001    5
+AUTHOR     (B.J.ALLEN,D.D.COHEN)                                  30543001    6
+TITLE      KEV NEUTRON CAPTURE CROSS-SECTION OF YB-170.           30543001    7
+FACILITY   (VDG,3AULAUA)                                          30543001    8
+           3 MEV PULSED VAN DE GRAFF ACCELERATOR AT AAEC.         30543001    9
+INC-SOURCE (P-LI7)                                                30543001   10
+SAMPLE     ENRICHED SAMPLE OF 52.68 GRAM OF YB-170 OXIDE.         30543001   11
+METHOD     (TOF)                                                  30543001   12
+            FLIGHT PATH = 30 CM.                                  30543001   13
+DETECTOR   (MOXR) MOXON-RAE DETECTORS USING C-BI CONVERTERS.      30543001   14
+           (SCIN) LI-6 GLASS SCINTILLATOR (1MM,THICK) MONITORED   30543001   15
+           THE NEUTRON BEAM.                                      30543001   16
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)                         30543001   17
+MONIT-REF  (10432001,R.L.MACKLIN+,J,PR/C,11,1270,7504)            30543001   18
+HISTORY    (800520C) KO.                                          30543001   19
+ENDBIB              17                                            30543001   20
+NOCOMMON             0          0                                 30543001   21
+ENDSUBENT           20                                            3054300199999
+SUBENT        30543002     840911                                 30543002    1
+BIB                  3          3                                 30543002    2
+REACTION   (70-YB-170(N,G)70-YB-171,,SIG,,AV)                     30543002    3
+STATUS     DATA TAKEN FROM TABLE 2 OF AUST.J.PHYS.,32(1979)447.   30543002    4
+ERR-ANALYS MEAN STANDARD DEVIATION IS GIVEN (8.6 PERC.).          30543002    5
+ENDBIB               3                                            30543002    6
+NOCOMMON             0          0                                 30543002    7
+DATA                 5          8                                 30543002    8
+EN-MIN     EN-MAX     DATA       DATA-ERR   MONIT                 30543002    9
+KEV        KEV        MB         MB         MB                    30543002   10
+ 1.0000E+01 1.5000E+01 1.2080E+03 1.2200E+02 1.0110E+03           30543002   11
+ 1.5000E+01 2.0000E+01 9.4100E+02 8.4000E+01 7.7800E+02           30543002   12
+ 2.0000E+01 3.0000E+01 8.5500E+02 6.9000E+01 6.2100E+02           30543002   13
+ 2.0000E+01 4.0000E+01 7.9200E+02 6.3000E+01 5.7500E+02           30543002   14
+ 3.0000E+01 4.0000E+01 7.2800E+02 5.8000E+01 5.2900E+02           30543002   15
+ 4.0000E+01 5.0000E+01 6.2500E+02 5.1000E+01 4.5300E+02           30543002   16
+ 5.0000E+01 6.0000E+01 6.3400E+02 5.0000E+01 4.2300E+02           30543002   17
+ 6.0000E+01 7.0000E+01 6.5000E+02 5.1000E+01 3.8400E+02           30543002   18
+ENDDATA             10                                            30543002   19
+ENDSUBENT           18                                            3054300299999
+SUBENT        30543003     840911                                 30543003    1
+BIB                  4          4                                 30543003    2
+REACTION   (70-YB-170(N,G)70-YB-171,,SIG,,SPA)                    30543003    3
+INC-SPECT  MAXWELLIAN CAPTURE CROSS-SECTION AT ''KT'' = 30 KEV.   30543003    4
+STATUS     DATA TAKEN FROM AUST.J.PHYS.,32(1979)447.(TABLE 4).    30543003    5
+ERR-ANALYS AVERAGE STANDARD DEVIATION OF 8.6 PERCENT.             30543003    6
+ENDBIB               4                                            30543003    7
+NOCOMMON             0          0                                 30543003    8
+DATA                 3          1                                 30543003    9
+EN-DUMMY   DATA       DATA-ERR                                    30543003   10
+KEV        MB         MB                                          30543003   11
+ 4.5000E+01 7.9200E+02 6.3000E+01                                 30543003   12
+ENDDATA              3                                            30543003   13
+ENDSUBENT           12                                            3054300399999
+ENDENTRY             3                                            3054399999999
+ENTRY            41225     961209                                 41225000    1
+SUBENT        41225001     961209                                 41225001    1
+BIB                 12         18                                 41225001    2
+TITLE       NEUTRON RADIATION CROSS-SECTION, NEUTRON TRANSMISSION 41225001    3
+            MEASUREMENTS FOR SOME FISSION PRODUCT NUCLEI          41225001    4
+AUTHOR     (M.V.BOKHOVKO,V.N.KONONOV,N.S.RABOTNOV,A.A.VOEVODSKIY, 41225001    5
+           G.N.MANTUROV,V.M.TIMOKHOV)                             41225001    6
+INSTITUTE  (4RUSFEI)                                              41225001    7
+REFERENCE  (W,KONONOV,961031)      NUMERICAL DATA ARE GIVEN       41225001    8
+           (J,YK,1985,(2),44,85)   EXPERIMENTAL DETAILS           41225001    9
+           (R,FEI-2169-91,9103)    EXPERIMENTAL DETAILS           41225001   10
+FACILITY   (VDG)   VAN-DE-GRAAFF ACCELERATOR EG-1                 41225001   11
+INC-SOURCE (P-LI7)  THICK METALLIC TARGET                         41225001   12
+METHOD     (TOF)                                                  41225001   13
+DETECTOR   (SCIN)  LIQUID SCINTILLATION DETECTOR FOR GAMMAS       41225001   14
+           (GLASD,NAICR)   LI-6 GLASS DETECTOR AND NA-J(TL)       41225001   15
+                           DETECTOR FOR NEUTRONS                  41225001   16
+MONITOR    GIVEN IN PRORER SUBENTS IF RELEVANT                    41225001   17
+ERR-ANALYS (ERR-T)   TOTAL ERROR                                  41225001   18
+STATUS      DATA ARE TAKEN FROM THE MAIN REFERENCE                41225001   19
+HISTORY    (961126C)  + + COMPILED AT THE CENTRE - CJD + +        41225001   20
+ENDBIB              18                                            41225001   21
+NOCOMMON             0          0                                 41225001   22
+ENDSUBENT           21                                            4122500199999
+SUBENT        41225014     961209                                 41225014    1
+BIB                  2          6                                 41225014    2
+REACTION   (70-YB-170(N,G)70-YB-171,,SIG)                         41225014    3
+SAMPLE      ITTERBIUM OXIDE YB2-O3, MASS 34.219 GRAM,             41225014    4
+            ISOTOPIC THICKNESS 8.473E-03 ATOMS/BARN,              41225014    5
+            YB-170 CONTENT IS 63.7 PC, YB-171 CONTENT IS 23.25 PC 41225014    6
+            YB-172 CONTENT IS 6.35 PC, YB-173 CONTENT IS 2.55 PC, 41225014    7
+            YB-174 CONTENT IS 3.33 PC, YB-176 CONTENT IS 0.8 PC   41225014    8
+ENDBIB               6                                            41225014    9
+NOCOMMON             0          0                                 41225014   10
+DATA                 4         49                                 41225014   11
+EN-MIN     EN-MAX     DATA       ERR-T                            41225014   12
+KEV        KEV        MB         MB                               41225014   13
+  16.        20.      1326.      169.                             41225014   14
+  20.        24.      1156.      111.                             41225014   15
+  24.        28.      1026.       88.                             41225014   16
+  28.        32.       974.       75.                             41225014   17
+  32.        36.       937.       69.                             41225014   18
+  36.        40.       826.       57.                             41225014   19
+  40.        44.       799.       54.                             41225014   20
+  44.        48.       731.       47.                             41225014   21
+  48.        52.       709.       45.                             41225014   22
+  52.        56.       725.       45.                             41225014   23
+  56.        60.       687.       42.                             41225014   24
+  60.        64.       634.       38.                             41225014   25
+  64.        68.       678.       40.                             41225014   26
+  68.        72.       652.       38.                             41225014   27
+  72.        76.       650.       37.                             41225014   28
+  76.        80.       640.       36.                             41225014   29
+  80.        84.       564.       32.                             41225014   30
+  84.        88.       542.       30.                             41225014   31
+  88.        92.       510.       28.                             41225014   32
+  92.        96.       504.       28.                             41225014   33
+  96.       100.       468.       26.                             41225014   34
+ 100.       110.       430.       24.                             41225014   35
+ 110.       120.       418.       23.                             41225014   36
+ 120.       130.       407.       23.                             41225014   37
+ 130.       140.       399.       23.                             41225014   38
+ 140.       150.       349.       22.                             41225014   39
+ 150.       160.       332.       21.                             41225014   40
+ 160.       170.       349.       22.                             41225014   41
+ 170.       180.       313.       20.                             41225014   42
+ 180.       190.       331.       22.                             41225014   43
+ 190.       200.       332.       22.                             41225014   44
+ 200.       210.       296.       20.                             41225014   45
+ 210.       220.       299.       20.                             41225014   46
+ 220.       230.       289.       19.                             41225014   47
+ 230.       240.       286.       19.                             41225014   48
+ 240.       250.       285.       19.                             41225014   49
+ 250.       260.       280.       18.                             41225014   50
+ 260.       270.       276.       18.                             41225014   51
+ 270.       280.       271.       18.                             41225014   52
+ 280.       290.       268.       17.                             41225014   53
+ 290.       300.       248.       16.                             41225014   54
+ 300.       320.       271.       17.                             41225014   55
+ 320.       340.       287.       18.                             41225014   56
+ 340.       360.       257.       16.                             41225014   57
+ 360.       380.       264.       17.                             41225014   58
+ 380.       400.       265.       17.                             41225014   59
+ 400.       420.       255.       16.                             41225014   60
+ 420.       440.       245.       15.                             41225014   61
+ 440.       460.       240.       15.                             41225014   62
+ENDDATA             51                                            41225014   63
+ENDSUBENT           62                                            4122501499999
+ENDENTRY             2                                            4122599999999
+ENDREQUEST           1                                            Z999999999999

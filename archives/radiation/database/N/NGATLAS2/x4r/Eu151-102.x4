@@ -1,0 +1,430 @@
+REQUEST           1001   20010914          3     143125               0  0    0
+ENTRY            12090     821012                                 12090000    1
+SUBENT        12090001     821012                                 12090001    1
+BIB                  8         10                                 12090001    2
+INSTITUTE  (1CANCPO)                                              12090001    3
+REFERENCE  (J,JIN,29,2671,67)                                     12090001    4
+AUTHOR     (G.H.E.SIMS,D.G.JUHNKE)                                12090001    5
+TITLE      THE THERMAL NEUTRON CROSS-SECTIONS AND RESONANCE       12090001    6
+           INTEGRALS OF THE EUROPIUM ISOTOPES.                    12090001    7
+METHOD     (ACTIV) ACTIVATION                                     12090001    8
+DETECTOR   (NAICR) NAI CRYSTAL                                    12090001    9
+STATUS     (SCSRS)                                                12090001   10
+HISTORY    (760803T) TRANSLATED FROM SCISRS                       12090001   11
+           (821012A) CONVERTED TO REACTION FORMALISM              12090001   12
+ENDBIB              10                                            12090001   13
+NOCOMMON             0          0                                 12090001   14
+ENDSUBENT           13                                            1209000199999
+SUBENT        12090004     821012                                 12090004    1
+BIB                  4          5                                 12090004    2
+REACTION   (63-EU-151(N,G)63-EU-152-G,,SIG,,MXW)                  12090004    3
+DECAY-DATA (63-EU-152-G,12.4YR,DG,1410.,0.25)                     12090004    4
+ANALYSIS   CALCULATED FROM REACTOR VALUE, ASSUMING 1/V.           12090004    5
+MONITOR    (27-CO-59(N,G)27-CO-60,,SIG)                           12090004    6
+            BASED ON COBALT THERMAL CAPTURE=37.5B                 12090004    7
+ENDBIB               5                                            12090004    8
+COMMON               1          3                                 12090004    9
+HL                                                                12090004   10
+YR                                                                12090004   11
+   12.4                                                           12090004   12
+ENDCOMMON            3                                            12090004   13
+DATA                 4          1                                 12090004   14
+EN-DUMMY   DATA       DATA-ERR   MONIT                            12090004   15
+MEV        B          B          B                                12090004   16
+ 2.53   -08 4.410  +03 6.6    +01 37.5                            12090004   17
+ENDDATA              3                                            12090004   18
+ENDSUBENT           17                                            1209000499999
+ENDENTRY             2                                            1209099999999
+ENTRY            12866     851106                                 12866000    1
+SUBENT        12866001     851106                                 12866001    1
+BIB                 15         51                                 12866001    2
+INSTITUTE  (1USALRL)                                              12866001    3
+REFERENCE  (C,78MAYAG,,495,7805)                                  12866001    4
+AUTHOR     (R.E.HEFT)                                             12866001    5
+TITLE      A CONSISTENT SET OF NUCLEAR-PARAMETER VALUES           12866001    6
+           FOR ABSOLUTE INSTRUMENTAL NEUTRON ACTIVATION           12866001    7
+           ANALYSIS.                                              12866001    8
+FACILITY   (REAC) LAWRENCE LIVERMORE LABORATORY LPTR RESEARCH     12866001    9
+                  REACTOR FACILITY.                               12866001   10
+METHOD     (ACTIV)                                                12866001   11
+           EPITHERMAL-TO-THERMAL FLUX RATIO WAS MEASURED IN       12866001   12
+             EACH IRRADIATION BY INCLUDING A URANIUM-SCANDIUM     12866001   13
+             STANDARD IN THE IRRADIATION PACKAGE.                 12866001   14
+INC-SPECT  REACTOR SPECTRUM. ALL NUCLIDES IRRADIATED IN POSITION  12866001   15
+            S-2 WITH A CD RATIO OF 3.8 AND IN EITHER POSITION E-1 12866001   16
+            (CD RATIO 2.5) OR POSITION A-4 (CD RATIO 2.0)         12866001   17
+            DEPENDING ON WHETHER PRODUCTS WERE LONG OR SHORT-LIVED12866001   18
+MONITOR    ELEMENT SCANDIUM WAS USED AS AN INTERNAL FLUX MONITOR  12866001   19
+             SCANDIUM VALUES WERE MEASURED BY TAKING MIXTURES OF  12866001   20
+                                COBALT-SCANDIUM                   12866001   21
+                                GOLD-SCANDIUM                     12866001   22
+                                U238-SCANDIUM                     12866001   23
+           ((MONIT1)21-SC-45(N,G)21-SC-46,,SIG)                   12866001   24
+           ((MONIT2)27-CO-59(N,G)27-CO-60,,SIG)                   12866001   25
+           ((MONIT3)79-AU-197(N,G)79-AU-198,,SIG)                 12866001   26
+           ((MONIT4)92-U-238(N,G)92-U-239,,SIG)                   12866001   27
+           ((MONIT5)21-SC-45(N,G)21-SC-46,,RI)                    12866001   28
+           ((MONIT6)27-CO-59(N,G)27-CO-60,,RI)                    12866001   29
+           ((MONIT7)79-AU-197(N,G)79-AU-198,,RI)                  12866001   30
+           ((MONIT8)92-U-238(N,G)92-U-239,,RI)                    12866001   31
+DECAY-MON  (21-SC-46-G,83.9D,DG,1120.5,1.)                        12866001   32
+           (27-CO-60-G,1922.D,DG,1332.51,1.)                      12866001   33
+           (79-AU-198-G,2.70D,DG,411.79,0.968)                    12866001   34
+           (92-U-239,0.01635D,DG,74.67,.593)                      12866001   35
+           (93-NP-239,2.353D,DG,106.07,0.252)                     12866001   36
+DETECTOR   ALL COUNTING WAS DONE ON GAMMA SPECTRAL ANALYZERS      12866001   37
+             TO MEASURE ABSOLUTE PHOTON EMISSION RATES.           12866001   38
+ANALYSIS   ALL SPECTRA GENERATED WERE ANALYZED BY COMPUTER        12866001   39
+             CODE GAMANAL TO OBTAIN A SET OF ABSOLUTE             12866001   40
+             DISINTEGRATION RATES FOR THE NUCLIDES FOUND.         12866001   41
+           THE DISINTEGRATION-RATE DATA THUS OBTAINED WERE        12866001   42
+             FURTHER ANALYZED BY ANOTHER COMPUTER CODE NADAC      12866001   43
+             TO COMPUTE THE EFFECTIVE CROSS SECTION FOR           12866001   44
+             EACH ACTIVATION PRODUCT.                             12866001   45
+ERR-ANALYS DETAILS NOT GIVEN                                      12866001   46
+             FOR SOME ELEMENTS THE ERRORS REFLECT THE EFFECTS OF  12866001   47
+             CONCENTRATION ERROR OR EVAPORATION LOSS.             12866001   48
+CORRECTION NO CORRECTION FOR THE INTERFERENCE DUE TO (N,P)        12866001   49
+             REACTION WAS DONE.                                   12866001   50
+           CORRECTION DUE TO U-235 FISSION REACTION IS IMPLIED.   12866001   51
+STATUS     (APRVD) R.E.HEFT, 84/12/27.                            12866001   52
+HISTORY    (840410C)                                              12866001   53
+ENDBIB              51                                            12866001   54
+COMMON              10          6                                 12866001   55
+MONIT1     MONIT1-ERR MONIT2     MONIT3     MONIT4     MONIT5     12866001   56
+MONIT5-ERR MONIT6     MONIT7     MONIT8                           12866001   57
+B          B          B          B          B          B          12866001   58
+B          B          B          B                                12866001   59
+27.7       0.5        37.5       98.8       2.720      12.2       12866001   60
+0.6        75.        1550.      280.                             12866001   61
+ENDCOMMON            6                                            12866001   62
+ENDSUBENT           61                                            1286600199999
+SUBENT        12866148     841227                                 12866148    1
+BIB                  4          8                                 12866148    2
+REACTION   (63-EU-151(N,G)63-EU-152-G,,SIG,,SPA)                  12866148    3
+SAMPLE     NATURAL SAMPLE,ASSUMED 47.82 PERCENT ABUNDANCE.        12866148    4
+DECAY-DATA (63-EU-152-G,5.117E+03D,DG,123.14,0.405)               12866148    5
+MONITOR    ((63-EU-151(N,G)63-EU-152,,RI)/                        12866148    6
+           (63-EU-151(N,G)63-EU-152,,SIG))                        12866148    7
+           THE RATIO WAS ADOPTED FROM VANDER LINDEN,NUCL.         12866148    8
+             DATA FOR REACTORS,IAEA PROCEEDINGS P.241,STI/PUB/343,12866148    9
+             VIENNA,1973.                                         12866148   10
+ENDBIB               8                                            12866148   11
+NOCOMMON             0          0                                 12866148   12
+DATA                 3          1                                 12866148   13
+EN-DUMMY   DATA       DATA-ERR                                    12866148   14
+EV         B          B                                           12866148   15
+0.025      6390.      25.                                         12866148   16
+ENDDATA              3                                            12866148   17
+ENDSUBENT           16                                            1286614899999
+ENDENTRY             2                                            1286699999999
+ENTRY            20644     840127                                 20644000    1
+SUBENT        20644001     840127                                 20644001    1
+BIB                 15         24                                 20644001    2
+INSTITUTE  (2GERMUN)                                              20644001    3
+REFERENCE  (J,JRC,15,535,73)                                      20644001    4
+AUTHOR     (A.ALIAN,H.-J.BORN,J.I.KIM)                            20644001    5
+TITLE      -THERMAL AND EPITHERMAL NEUTRON ACTIVATION ANALYSIS    20644001    6
+            USING THE MONOSTANDARD METHOD.-                       20644001    7
+INC-SOURCE (REAC ) FRM REACTOR IN MUNICH                          20644001    8
+SAMPLE     .ROCKS SAMPLES.                                        20644001    9
+METHOD     (ACTIV) ACTIVATION                                     20644001   10
+DETECTOR   (GELI ) GE(LI) DETECTORS WITH A 4000-CHANNEL PULSE     20644001   11
+            HEIGHT ANALYSER.                                      20644001   12
+ANALYSIS   .CADMIUM RATIO MEASUREMENTS(THICKNESS OF CD-CAPSULES   20644001   13
+            1 MM OR 0.5 MM)                                       20644001   14
+MONITOR    (27-CO-59(N,G)27-CO-60,,RI)                            20644001   15
+            THERMAL CROSS SECTION = 37.5 B,                       20644001   16
+            RESONANCE INTEGRAL = 75.0 B.                          20644001   17
+           (21-SC-45(N,G)21-SC-46,,SIG)                           20644001   18
+            THERMAL CROSS SECTION = 25.0  B.                      20644001   19
+COMMENT    .APPLICATION OF THE EPITHERMAL NEUTRON ACTIVATION      20644001   20
+            ANALYSIS.                                             20644001   21
+STATUS     .TAKEN FROM J.RADIOANAL.CHEM.,15(1973)535.             20644001   22
+HISTORY    (760630C)                                              20644001   23
+           (770331E)                                              20644001   24
+CORRECTION .NO INFORMATION IS GIVEN.                              20644001   25
+ERR-ANALYS .NO ERROR IS GIVEN.                                    20644001   26
+ENDBIB              24                                            20644001   27
+NOCOMMON             0          0                                 20644001   28
+ENDSUBENT           27                                            2064400199999
+SUBENT        20644013     840127                                 20644013    1
+BIB                  3          6                                 20644013    2
+REACTION   (63-EU-151(N,G)63-EU-152-G,,SIG,,MXW)                  20644013    3
+            THERMAL CROSS SECTION                                 20644013    4
+            FOR THE BUILDING OF THE GROUND STATE (12.7 Y).        20644013    5
+HALF-LIFE  (HL,63-EU-152-G)  HALF LIFE USED IN THE EXPERIMENT.    20644013    6
+HISTORY    (760630C)                                              20644013    7
+           (770331E)                                              20644013    8
+ENDBIB               6                                            20644013    9
+NOCOMMON             0          0                                 20644013   10
+DATA                 3          1                                 20644013   11
+EN-DUMMY   DATA       HL                                          20644013   12
+EV         B          YR                                          20644013   13
+ 2.5300E-02 4.0560E+03 1.2700E+01                                 20644013   14
+ENDDATA              3                                            20644013   15
+ENDSUBENT           14                                            2064401399999
+ENDENTRY             2                                            2064499999999
+ENTRY            20657     840127                                 20657000    1
+SUBENT        20657001     840127                                 20657001    1
+BIB                 15         70                                 20657001    2
+INSTITUTE  (2GERMUN)                                              20657001    3
+REFERENCE  (J,RCA,22,20,75)                                       20657001    4
+           (T,GRYNTAKIS,,7603) THESIS DM-6909(1976),TECHNICAL     20657001    5
+            UNIVERSITY OF MUNICH. THE SAME RESULTS ARE            20657001    6
+            INCLUDED (IN GERMAN).                                 20657001    7
+           (J,JIN,36,1447,7407) CROSS SECTION AND RES.INTEGRAL    20657001    8
+            OF PA-231 BY APPLICATION OF THE METHOD WITHOUT        20657001    9
+            USING CD-FILTER.                                      20657001   10
+           (J,RCA,22,128,75) CALCULATION OF G-FACTOR FOR          20657001   11
+            (N,G)- AND (N,F)-REACTIONS OF NON 1/V-NUCLIDES.       20657001   12
+AUTHOR     (J.I.KIM,E.M.GRYNTAKIS,H.-J.BORN)                      20657001   13
+TITLE      -EVALUATION OF THE G(TN)-FUNCTION AND DETERMINATION    20657001   14
+            OF CROSS SECTIONS FOR EU-ISOTOPES-.                   20657001   15
+INC-SOURCE (REAC ) PNEUMATIC POSITIONS,REFLECTOR AND ROTATING     20657001   16
+            DISK FACILITY OF FRM-REACTOR BY MUNICH.               20657001   17
+SAMPLE     .NATURAL EU2-O3 DISSOLVED IN HNO3.                     20657001   18
+           .FOR THE STANDARDS AU-AL-ALLOY WIRE (AU, 0.132 PER     20657001   19
+            CENT) AND CO-AL-ALLOY WIRE (CO, 0.564 PER CENT)       20657001   20
+            HAVE BEEN USED.                                       20657001   21
+METHOD     (ACTIV) ACTIVATION.                                    20657001   22
+           .APPLICATION OF THE METHOD WITHOUT USING A CD-FILTER   20657001   23
+            PUBLISHED IN REF.  J.INORG.NUCL.CHEM.36(1974)1447.    20657001   24
+           .CADMIUM FILTER MEASUREMENTS,WESTCOTT FORMALISM.       20657001   25
+DETECTOR   (GELI )GE(LI)-DETECTORS COUPLED TO A ND4420 ANALYSER.  20657001   26
+ANALYSIS   .BECAUSE OF THE LOW ENERGY RESONANCES AT 0.321 EV      20657001   27
+            AND 0.461 EV OF EU-151, THE CONTRIBUTION OF THESE     20657001   28
+            RESONANCES TO THE RESONANCE INTEGRAL (IT IS ABOUT     20657001   29
+            80 PER CENT) WILL BE REDUCED WHEN A CADMIUM FILTER    20657001   30
+            IS USED (CADMIUM-CUT-OFF-ENERGY = 0.55 EV).           20657001   31
+           .IN ORDER TO MEASURE THE TOTAL RESONANCE INTEGRAL      20657001   32
+            (FROM AN ENERGY GREATER THAN ABOUT 0.2 EV) A          20657001   33
+            NEW METHOD IS DEVELOPED (SEE REF. JIN,36(1974)1447)   20657001   34
+            WHICH IS BASED ON IRRADIATIONS IN TWO DIFFERENT       20657001   35
+            NEUTRON SPECTRA WITH KNOWN NEUTRON TEMPERATURE        20657001   36
+            AND EPITHERMAL INDEX.                                 20657001   37
+           .THE NEUTRON TEMPERATURE WAS MEASURED USING THE        20657001   38
+            NEUTRON TEMPERATURE DETECTOR LU-176 (FOR THESE        20657001   39
+            MEASUREMENTS SEE THESIS DM-6909).                     20657001   40
+           .THE EPITHERMAL COMPONENT WAS MEASURED USING           20657001   41
+            AU-197 AND CO-59 AS MONITORS.                         20657001   42
+           .THE S0-FACTOR (WESTCOTT FORMALISM) WAS CALCULATED     20657001   43
+            FROM THE RELATION S0=(G2*(R1/R2)-G1)/(F1-(R1/R2)*F2)  20657001   44
+            WHERE R,G,F ARE THE INDUCED ACTIVITY,THE G-FACTOR AND 20657001   45
+            THE EPITHERMAL INDEX OF THE IRRADIATION POSITIONS     20657001   46
+            1 AND 2, RESPECTIVELY.                                20657001   47
+           .FOR COMPARISON THE CADMIUM METHOD  HAS BEEN ALSO      20657001   48
+            USED.                                                 20657001   49
+MONITOR    (79-AU-197(N,G)79-AU-198,,RI)                          20657001   50
+            THERMAL CROSS SECTION = 98.8+-0.3B,                   20657001   51
+            RES.INTEGRAL INCLUDING THE 1/V-PART = 1551 +- 12B.    20657001   52
+           (27-CO-59(N,G)27-CO-60,,RI)                            20657001   53
+            THERMAL CROSS SECTION = 37.2 +-0.6B,                  20657001   54
+            RES.INTEGRAL INCLUDING THE 1/V-PART = 71.1 +- 4.0 B.  20657001   55
+COMMENT    .THE G-FACTORS OF EU-ISOTOPES FROM 0 UP TO             20657001   56
+            2000 DEG. CELSIUS AS WELL AS A COMPILATION OF THERMAL 20657001   57
+            CROSS SECTIONS AND RESONANCE INTEGRALS OF EU-ISO-     20657001   58
+            TOPES ARE GIVEN.                                      20657001   59
+STATUS     .TAKEN FROM RADIOCHIMICA ACTA 22(1975)20.              20657001   60
+HISTORY    (760802C)                                              20657001   61
+           (770331E)                                              20657001   62
+CORRECTION .THE SPECTRUM OF THE IRRADIATION POSITIONS HAS A       20657001   63
+            KNOWN 1/E FORM.                                       20657001   64
+           .BECAUSE OF THE THIN SAMPLES NO CORRECTION FOR SELF    20657001   65
+            SHIELDING AND SELF ABSORPTION IS NEEDED.              20657001   66
+ERR-ANALYS .UNCERTAINTIES IN G-FACTORS AND EPITHERMAL INDICES.    20657001   67
+           .UNCERTAINTIES IN HALF LIFES AND THE INTENSITIES OF    20657001   68
+            THE MEASURED GAMMA RAYS.                              20657001   69
+           .STANDARD DEVIATION.                                   20657001   70
+           .UNCERTAINTIES IN THE THERMAL CROSS SECTIONS AND       20657001   71
+            RESONANCE INTEGRALS OF THE STANDARDS.                 20657001   72
+ENDBIB              70                                            20657001   73
+NOCOMMON             0          0                                 20657001   74
+ENDSUBENT           73                                            2065700199999
+SUBENT        20657005     840127                                 20657005    1
+BIB                  4          8                                 20657005    2
+REACTION   (63-EU-151(N,G)63-EU-152-G,,SIG,,MXW)                  20657005    3
+            THERMAL CROSS SECTION FOR                             20657005    4
+            THE BUILDING OF THE GROUND STATE (12.4 Y).            20657005    5
+HALF-LIFE  (HL,63-EU-152-G)  HALF LIFE USED IN THE EXPERIMENT.    20657005    6
+FLAG       (1.) METHOD WITHOUT USING CADMIUM-FILTER.              20657005    7
+           (2.) CADMIUM-FILTER METHOD.                            20657005    8
+HISTORY    (760802C)                                              20657005    9
+           (770331E)                                              20657005   10
+ENDBIB               8                                            20657005   11
+COMMON               2          3                                 20657005   12
+EN-DUMMY   HL                                                     20657005   13
+EV         YR                                                     20657005   14
+ 2.5300E-02 1.2400E+01                                            20657005   15
+ENDCOMMON            3                                            20657005   16
+DATA                 3          2                                 20657005   17
+DATA       DATA-ERR   FLAG                                        20657005   18
+B          B          NO-DIM                                      20657005   19
+ 5.8170E+03 9.8000E+01 1.0000E+00                                 20657005   20
+ 5.9350E+03 7.3000E+01 2.0000E+00                                 20657005   21
+ENDDATA              4                                            20657005   22
+ENDSUBENT           21                                            2065700599999
+ENDENTRY             2                                            2065799999999
+ENTRY            32615     940228                                 32615000    1
+SUBENT        32615001     940228                                 32615001    1
+BIB                 16         37                                 32615001    2
+TITLE      ACTIVATION CROSS SECTION MEASUREMENT FOR THE           32615001    3
+           EU(N,GAMMA) REACTIONS                                  32615001    4
+AUTHOR     (YU WEIXIANG,LU HANLIN,ZHAO WENRONG)                   32615001    5
+INSTITUTE  (3CPRAEP)                                              32615001    6
+REFERENCE  (J,CNP,15,(1),71,9303)                                 32615001    7
+SAMPLE     NATURAL OXIDE EUROPIUM WAS PRESSED INTO TABLETS        32615001    8
+           20 MM IN DIAMETER AND 2 MM IN THICKNESS AND            32615001    9
+           PACKED IN POLYETHYLENE FILM.                           32615001   10
+FACILITY   (VDG)                                                  32615001   11
+INC-SOURCE (P-LI7)                                                32615001   12
+           (P-T)                                                  32615001   13
+METHOD     (ACTIV)                                                32615001   14
+DETECTOR   (GELI) A 136 CM3 GE-LI DETECTOR WAS USED FOR           32615001   15
+           ACTIVITIES MEASUREMENT.                                32615001   16
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)                         32615001   17
+DECAY-MON  (79-AU-198-G,2.6935D,DG,412.,0.955)                    32615001   18
+PART-DET   (DG)                                                   32615001   19
+CORRECTION CORRECTIONS WERE MADE FOR:                             32615001   20
+           - FLUCTUATION OF NEUTRON FLUX                          32615001   21
+           - NEUTRON SCATTERING BACKGROUND                        32615001   22
+           - GAMMA-RAY SELF-ABSORPTION IN SAMPLE AND SUM          32615001   23
+             PEAKS FOR EU-152M                                    32615001   24
+ERR-ANALYS THE MAIN UNCERTAINTIES OF CROSS SECTION INCLUDE:       32615001   25
+           - ERROR OF EFFICIENCY OF GAMMA-RAY FULL ENERGY         32615001   26
+             PEAK (1.5-5 PER-CENT)                                32615001   27
+           - COUNTING STATISTICS OF GAMMA-ACTIVITIES              32615001   28
+             (1-5 PER-CENT)                                       32615001   29
+           - STANDARD CROSS SECTION (3-4.5 PER-CENT)              32615001   30
+           - CORRECTION OF GAMMA-RAY SELF-ABSORPTION              32615001   31
+             (0.5 PER-CENT)                                       32615001   32
+           - NEUTRON SCATTERING BACKGROUND (0.5 PER-CENT)         32615001   33
+           - WEIGHT AND PURITY OF SAMPLE (0.5 PER-CENT)           32615001   34
+           - CORRECTION OF SUM PEAKS (3 PER-CENT)                 32615001   35
+STATUS     (APRVD) PROOF-COPY WAS APPROVED BY AUTHORS,CORRECTIONS 32615001   36
+           FOR THE RESULTS IN TABLE 3 OF CNP,15(1),71,9303 MADE BY32615001   37
+           AUTHORS RECENTLY HAVE BEEN ENTERED.                    32615001   38
+HISTORY    (931028C) COMPILED BY LIANG QICHANG AT CNDC            32615001   39
+ENDBIB              37                                            32615001   40
+NOCOMMON             0          0                                 32615001   41
+ENDSUBENT           40                                            3261500199999
+SUBENT        32615002     940228                                 32615002    1
+BIB                  2          2                                 32615002    2
+REACTION   (63-EU-151(N,G)63-EU-152-G,,SIG)                       32615002    3
+DECAY-DATA (63-EU-152-G,13.33YR,DG,344.,0.266)                    32615002    4
+ENDBIB               2                                            32615002    5
+NOCOMMON             0          0                                 32615002    6
+DATA                 6          5                                 32615002    7
+EN         +EN-ERR    -EN-ERR    DATA       DATA-ERR   MONIT      32615002    8
+KEV        KEV        KEV        MB         MB         MB         32615002    9
+   36.00000    31.0000       28.  1999.        174.       537.2   32615002   10
+  175.00000    55.0000       25.   953.00000    66.0000   259.2   32615002   11
+  318.00000    34.0000       32.   681.00000    43.0000   191.1   32615002   12
+  465.00000   110.           80.   480.00000    36.0000   141.8   32615002   13
+ 1120.         80.0000       70.   265.00000    20.0000    76.600032615002   14
+ENDDATA              7                                            32615002   15
+ENDSUBENT           14                                            3261500299999
+ENDENTRY             2                                            3261599999999
+ENTRY            32623     950627                                 32623000    1
+SUBENT        32623001     950627                                 32623001    1
+BIB                 14         45                                 32623001    2
+TITLE      Activation cross section measurement for the Eu-(n,g)  32623001    3
+           reaction.                                              32623001    4
+AUTHOR     (XIA YIJUN, LONG XIANGUAN, LUO XIAOBING, YANG ZHIHUA,  32623001    5
+            LIU MANTIAN, HE FUQING, WANG CHUNHUO, PEN XIUFENG,    32623001    6
+            YANG JINGFU, LU HANLIN)                               32623001    7
+INSTITUTE  (3CPRSIU)                                              32623001    8
+           (3CPRAEP)                                              32623001    9
+REFERENCE  (C,94GATLIN,1,251,9405)                                32623001   10
+SAMPLE     The sample was made of natural oxide europium,pressed  32623001   11
+           to a disk, 20 mm in diameter, 2.0 mm in thickness,     32623001   12
+           purity was 99.9 percent.                               32623001   13
+FACILITY   (VDG,3CPRBJG) 4.5 MV Van De Graaff at                  32623001   14
+           Beijing University.                                    32623001   15
+INC-SOURCE (P-LI7) Neutrons between 22 to 230 keV were produced   32623001   16
+           by the Li7(p,n)Be7 reaction.                           32623001   17
+           (P-T) Neutrons between 173 to 1100 keV were generated  32623001   18
+           by the T(p,n)He3 reaction.                             32623001   19
+METHOD     (ACTIV)                                                32623001   20
+DETECTOR   (HPGE) The radioactivity of the reaction products were 32623001   21
+           measured by using a high resolution HPGE detector      32623001   22
+           which was previously calibrated with a set of standard 32623001   23
+           gamma sources.                                         32623001   24
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG) The standard cross      32623001   25
+           section were taken from ENDF/B-6. The purity 99.999    32623001   26
+           percent gold disk of 20 mm in diameter and 0.1 mm in   32623001   27
+           thickness was used as the neutron monitor.             32623001   28
+PART-DET   (DG)                                                   32623001   29
+ERR-ANALYS The total error of cross section is about 6.0-7.0      32623001   30
+           percent, main uncertainties include :                  32623001   31
+           . 2.5-3.0 percent for error of efficiency of gamma ray 32623001   32
+                     full energy peak.                            32623001   33
+           . 1.0-2.0 percent for counting statistics of gamma     32623001   34
+                     activities.                                  32623001   35
+           . 3.0-4.5 percent for the standard cross section       32623001   36
+           . 0.5     percent for correction of gamma-ray          32623001   37
+                     self-absorption.                             32623001   38
+           . 0.5     percent for neutron scattering background.   32623001   39
+           . 0.5     percent for weight and purity of the sample. 32623001   40
+           . 2.0-3.5 percent for decay scheme                     32623001   41
+           . 2.0     percent for correction of sum peaks.         32623001   42
+STATUS     The data taken from table 1 of the proceedings of the  32623001   43
+           International Conf. on Nuclear Data for Sci. and Tech. 32623001   44
+           Gatlinburg, Tennessee,                                 32623001   45
+           U.S.A., MAY 9-13 (1994),VOL.1,P.251                    32623001   46
+HISTORY    (950210C) Compiled by Liang Qichang (CNDC)             32623001   47
+ENDBIB              45                                            32623001   48
+NOCOMMON             0          0                                 32623001   49
+ENDSUBENT           48                                            3262300199999
+SUBENT        32623003     950627                                 32623003    1
+BIB                  1          1                                 32623003    2
+REACTION   (63-EU-151(N,G)63-EU-152-G,,SIG)                       32623003    3
+ENDBIB               1                                            32623003    4
+NOCOMMON             0          0                                 32623003    5
+DATA                 4          8                                 32623003    6
+EN         EN-ERR     DATA       DATA-ERR                         32623003    7
+KEV        KEV        MB         MB                               32623003    8
+22.        16.        2822.      170.                             32623003    9
+59.        25.        1734.      110.                             32623003   10
+160.       40.        1040.      65.                              32623003   11
+173.       40.        994.       63.                              32623003   12
+230.       20.        860.       54.                              32623003   13
+376.       116.       641.       40.                              32623003   14
+817.       167.       348.       23.                              32623003   15
+1100.      80.        284.       19.                              32623003   16
+ENDDATA             10                                            32623003   17
+ENDSUBENT           16                                            3262300399999
+ENDENTRY             2                                            3262399999999
+ENTRY            41038     911021                                 41038000    1
+SUBENT        41038001     911021                                 41038001    1
+BIB                  8         10                                 41038001    2
+TITLE       ENERGY DEPENDENCE OF EU-151 ISOMERIC RATIO            41038001    3
+INSTITUTE  (4CCPIJI)                                              41038001    4
+AUTHOR     (V.A.PSHENICHNYY,E.A.GRITSAY)                          41038001    5
+REFERENCE  (J,YF,51,(3),621,9003)  DATA ARE GIVEN                 41038001    6
+METHOD     (ACTIV)                                                41038001    7
+MONITOR     NO INFORMATION                                        41038001    8
+ERR-ANALYS (DATA-ERR)  ERRORS ARE NOT SPECIFIED                   41038001    9
+HISTORY    (910401C) + + COMPILED AT THE CENTRE - CJD + +         41038001   10
+           (911021U)  REACTION CODES IN SAN 002 TO 007 CORRECTED  41038001   11
+                      ACCORDING TO MEMO 4C-3/359                  41038001   12
+ENDBIB              10                                            41038001   13
+NOCOMMON                                                          41038001   14
+ENDSUBENT           13                                            4103800199999
+SUBENT        41038008     910401                                 41038008    1
+BIB                  4          5                                 41038008    2
+REACTION  1(63-EU-151(N,G)63-EU-152-M,,SIG)                       41038008    3
+          2(63-EU-151(N,G)63-EU-152-G,,SIG)                       41038008    4
+INC-SOURCE (CF252)                                                41038008    5
+DETECTOR   (GELI)                                                 41038008    6
+STATUS      DATA ARE TAKEN FROM THE REFERENCE                     41038008    7
+ENDBIB               5                                            41038008    8
+NOCOMMON                                                          41038008    9
+DATA                 5          1                                 41038008   10
+EN-MEAN    DATA      1DATA-ERR  1DATA      2DATA-ERR  2           41038008   11
+EV         MB         MB         MB         MB                    41038008   12
+   1.42E+06    144.      12.        220.       20.                41038008   13
+ENDDATA              3                                            41038008   14
+ENDSUBENT           13                                            4103800899999
+ENDENTRY             2                                            4103899999999
+ENDREQUEST           1                                            Z999999999999

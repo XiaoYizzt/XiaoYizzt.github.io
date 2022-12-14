@@ -1,0 +1,69 @@
+REQUEST           1001   20010914          3     141538               0  0    0
+ENTRY            11846     830919                                 11846000    1
+SUBENT        11846001     830919                                 11846001    1
+BIB                  8          9                                 11846001    2
+INSTITUTE  (1USAORL)                                              11846001    3
+REFERENCE  (P,ORNL-3832,4,6509)                                   11846001    4
+AUTHOR     (J.HALPERIN,C.R.BALDOCK,J.H.OLIVER)                    11846001    5
+TITLE      NEUTRON CAPTURE CROSS SECTION OF RU-99,100,101.        11846001    6
+INC-SPECT  REACTOR SPECTRUM                                       11846001    7
+MONITOR    (27-CO-59(N,G)27-CO-60,,SIG)                           11846001    8
+METHOD     (ACTIV) ACTIVATION                                     11846001    9
+HISTORY    (770706C)                                              11846001   10
+           (830919A) CONVERTED TO REACTION FORMALISM              11846001   11
+ENDBIB               9                                            11846001   12
+NOCOMMON             0          0                                 11846001   13
+ENDSUBENT           12                                            1184600199999
+SUBENT        11846003     830919                                 11846003    1
+BIB                  1          1                                 11846003    2
+REACTION   (44-RU-99(N,G)44-RU-100,,SIG,,MXW)                     11846003    3
+ENDBIB               1                                            11846003    4
+NOCOMMON             0          0                                 11846003    5
+DATA                 3          1                                 11846003    6
+EN-DUMMY   DATA       DATA-ERR                                    11846003    7
+EV         B          PER-CENT                                    11846003    8
+ 0.0253     4.37       25.                                        11846003    9
+ENDDATA              3                                            11846003   10
+ENDSUBENT            9                                            1184600399999
+SUBENT        11846004     830919                                 11846004    1
+BIB                  2          2                                 11846004    2
+REACTION   (44-RU-99(N,G)44-RU-100,,SIG)                          11846004    3
+STATUS     (DEP,11846003)                                         11846004    4
+ENDBIB               2                                            11846004    5
+NOCOMMON             0          0                                 11846004    6
+DATA                 3          1                                 11846004    7
+EN         DATA       DATA-ERR                                    11846004    8
+EV         B          PER-CENT                                    11846004    9
+ 0.0253     4.17       25.                                        11846004   10
+ENDDATA              3                                            11846004   11
+ENDSUBENT           10                                            1184600499999
+ENDENTRY             3                                            1184699999999
+ENTRY            11931     830802                                 11931000    1
+SUBENT        11931001     830802                                 11931001    1
+BIB                  7          9                                 11931001    2
+INSTITUTE  (1USAORL)                                              11931001    3
+REFERENCE  (P,ORNL-3679,12,64)                                    11931001    4
+AUTHOR     (J.HALPERIN,C.BALDOCK,J.OLIVER)                        11931001    5
+TITLE      THE NEUTRON CAPTURE CROSS SECTIONS OF RUTHENIUM        11931001    6
+           NUCLIDES, MASS NUMBER 98 THROUGH 101.                  11931001    7
+METHOD     (ACTIV)                                                11931001    8
+STATUS     (SCSRS)                                                11931001    9
+HISTORY    (760802T) TRANSLATED FROM SCISRS                       11931001   10
+           (830802A) CONVERTED TO REACTION FORMALISM              11931001   11
+ENDBIB               9                                            11931001   12
+NOCOMMON             0          0                                 11931001   13
+ENDSUBENT           12                                            1193100199999
+SUBENT        11931004     830802                                 11931004    1
+BIB                  2          2                                 11931004    2
+REACTION   (44-RU-99(N,G)44-RU-100,,SIG,,SPA)                     11931004    3
+INC-SPECT   REACTOR SPECTRUM                                      11931004    4
+ENDBIB               2                                            11931004    5
+NOCOMMON             0          0                                 11931004    6
+DATA                 3          1                                 11931004    7
+EN-DUMMY   DATA       DATA-ERR                                    11931004    8
+MEV        B          B                                           11931004    9
+ 2.53   -08 1.06   +01 6.     -01                                 11931004   10
+ENDDATA              3                                            11931004   11
+ENDSUBENT           10                                            1193100499999
+ENDENTRY             2                                            1193199999999
+ENDREQUEST           1                                            Z999999999999

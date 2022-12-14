@@ -1,0 +1,114 @@
+REQUEST           1001   20010914          3     142519               0  0    0
+ENTRY            11832     830919                                 11832000    1
+SUBENT        11832001     830919                                 11832001    1
+BIB                  9         12                                 11832001    2
+INSTITUTE  (1USAUCB)                                              11832001    3
+REFERENCE  (J,NSE,22,373,65)                                      11832001    4
+AUTHOR     (H.H.KRAMER,W.H.WAHL)                                  11832001    5
+TITLE      FORMATION OF SE77M, SR87M, CD111M, AND BA137M BY       11832001    6
+           REACTOR SPECTRUM NEUTRONS FOR USE IN ACTIVATION        11832001    7
+           ANALYSIS.                                              11832001    8
+METHOD     (ACTIV) ACTIVATION                                     11832001    9
+HALF-LIFE  HALF LIFE VALUES TAKEN FROM CHART OF NUCLIDES (1972).  11832001   10
+DETECTOR   (NAICR) NAI(TL) CRYSTAL                                11832001   11
+STATUS     (SCSRS)                                                11832001   12
+HISTORY    (760731T) TRANSLATED FROM SCISRS                       11832001   13
+           (830919A) CONVERTED TO REACTION FORMALISM              11832001   14
+ENDBIB              12                                            11832001   15
+NOCOMMON             0          0                                 11832001   16
+ENDSUBENT           15                                            1183200199999
+SUBENT        11832007     830919                                 11832007    1
+BIB                  4          4                                 11832007    2
+REACTION   (56-BA-136(N,G)56-BA-137-M,,SIG,,MXW)                  11832007    3
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)                         11832007    4
+INC-SPECT  SUB-CD SPECTRUM                                        11832007    5
+DECAY-DATA (56-BA-137-M,,DG,662.,0.893)                           11832007    6
+ENDBIB               4                                            11832007    7
+NOCOMMON             0          0                                 11832007    8
+DATA                 4          1                                 11832007    9
+EN-DUMMY   DATA       DATA-ERR   MONIT                            11832007   10
+EV         MB         PER-CENT   B                                11832007   11
+ 0.0253     11.        10.        98.8                            11832007   12
+ENDDATA              3                                            11832007   13
+ENDSUBENT           12                                            1183200799999
+ENDENTRY             2                                            1183299999999
+ENTRY            21403     801105                                 21403000    1
+SUBENT        21403001     801105                                 21403001    1
+BIB                 13         18                                 21403001    2
+INSTITUTE  (2ITYMIL)                                              21403001    3
+REFERENCE  (J,EN,14,228,6704)                                     21403001    4
+AUTHOR     (A.FOGLIO PARA,M.MMANDELLI BETTONI)                    21403001    5
+TITLE      -ISOMERIC CROSS SECTION RATIOS FOR SOME (N,GAMMA)      21403001    6
+            REACTIONS -.                                          21403001    7
+FACILITY   (REAC ) L54 REACTOR OF CESNEF, THERMAL COLUMN.         21403001    8
+INC-SOURCE (REAC ) IN THERMAL COLUMN WITH FLUX OF 1.6 10*9        21403001    9
+            OR NEAR CORE WITH FLUX 4.5 10*11.                     21403001   10
+INC-SPECT  MAXWELLIAN SPECTRUM.                                   21403001   11
+METHOD     (ACTIV) ACTIVATION.                                    21403001   12
+DETECTOR   (NAICR) NAI(TL) CRYSTAL.                               21403001   13
+MONITOR    (79-AU-197(N,G)79-AU-198-G,,SIG) VALUE AT 2200 M/SEC   21403001   14
+            TAKEN AS 98.8+-0.3 B.                                 21403001   15
+STATUS     (NDD  ) DATA FROM PUBLICATION.                         21403001   16
+HISTORY    (800226T)                                              21403001   17
+           (800303E)                                              21403001   18
+ERR-ANALYS .TOTAL ERROR GIVEN AS SUM OF CONTRIBUTIONS FROM        21403001   19
+            STAISTICS, CORRECTIONS AND NORMALISATION ERRORS.      21403001   20
+ENDBIB              18                                            21403001   21
+COMMON               3          3                                 21403001   22
+EN-DUMMY   MONIT      MONIT-ERR                                   21403001   23
+EV         B          B                                           21403001   24
+ 2.5300E-02 9.8800E+01 3.0000E-01                                 21403001   25
+ENDCOMMON            3                                            21403001   26
+ENDSUBENT           25                                            2140300199999
+SUBENT        21403008     800303                                 21403008    1
+BIB                  5          7                                 21403008    2
+REACTION   (56-BA-136(N,G)56-BA-137-M,,SIG,,MXW) CROSS            21403008    3
+            SECTION TO MS.                                        21403008    4
+SAMPLE     .NATURAL BARIUM.                                       21403008    5
+DECAY-DATA (56-BA-137,2.53MIN,DG,1430.,0.89) ASSUMED INTENAL      21403008    6
+            CONVERSION COEFFICIENT OF 0.11                        21403008    7
+STATUS     .TABLE 1.                                              21403008    8
+HISTORY    (800227C)                                              21403008    9
+ENDBIB               7                                            21403008   10
+NOCOMMON             0          0                                 21403008   11
+DATA                 2          1                                 21403008   12
+DATA       DATA-ERR                                               21403008   13
+MB         MB                                                     21403008   14
+ 9.5000E+00 1.0000E+00                                            21403008   15
+ENDDATA              3                                            21403008   16
+ENDSUBENT           15                                            2140300899999
+ENDENTRY             2                                            2140399999999
+ENTRY            31246     851217                                 31246000    1
+SUBENT        31246001     851217                                 31246001    1
+BIB                  6          7                                 31246001    2
+INSTITUTE  (3INDMUA)                                              31246001    3
+REFERENCE  (J,NP,20,183,60)                                       31246001    4
+AUTHOR     (H.S.HANS,M.L.SEHGAL,P.S.GILL)                         31246001    5
+TITLE      THERMAL NEUTRON CROSS SECTIONS FOR PRODUCING ISOMERS   31246001    6
+            (II).                                                 31246001    7
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)                         31246001    8
+HISTORY    (771115T) CONVERTED FROM EXFOR 70246                   31246001    9
+ENDBIB               7                                            31246001   10
+COMMON               1          3                                 31246001   11
+MONIT                                                             31246001   12
+B                                                                 31246001   13
+ 9.8000E+01                                                       31246001   14
+ENDCOMMON            3                                            31246001   15
+ENDSUBENT           14                                            3124600199999
+SUBENT        31246010     851217                                 31246010    1
+BIB                  5          5                                 31246010    2
+REACTION   (56-BA-136(N,G)56-BA-137-M,,SIG,,SPA)                  31246010    3
+INC-SPECT   REACTOR SPECTRUM                                      31246010    4
+METHOD     (ACTIV)    ACTIVATION                                  31246010    5
+DECAY-DATA (56-BA-137-M,2.6MIN)                                   31246010    6
+STATUS     (SCSRS)                                                31246010    7
+ENDBIB               5                                            31246010    8
+NOCOMMON             0          0                                 31246010    9
+DATA                 3          1                                 31246010   10
+EN-DUMMY   DATA       DATA-ERR                                    31246010   11
+MEV        B          B                                           31246010   12
+ 2.5300E-08 1.6000E+01 5.0000E+00                                 31246010   13
+ENDDATA              3                                            31246010   14
+ENDSUBENT           13                                            3124601099999
+ENDENTRY             2                                            3124699999999
+ENDREQUEST           1                                            Z999999999999

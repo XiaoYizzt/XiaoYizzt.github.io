@@ -1,0 +1,122 @@
+REQUEST           1001   20010914          3     142359               0  0    0
+ENTRY            11849     830919                                 11849000    1
+SUBENT        11849001     830919                                 11849001    1
+BIB                  9         11                                 11849001    2
+INSTITUTE  (1CANCRC)                                              11849001    3
+REFERENCE  (P,EANDC(CAN)-16,6,63)                                 11849001    4
+AUTHOR     (T.EASTWOOD,F.BROWN)                                   11849001    5
+TITLE      NEUTRON CAPTURE CROSS SECTIONS FOR KR AND XE ISOTOPES. 11849001    6
+INC-SPECT  REACTOR SPECTRUM                                       11849001    7
+FACILITY   (SPECM) MASS SPECTROMETER                              11849001    8
+MONITOR    (27-CO-59(N,G)27-CO-60,,SIG)                           11849001    9
+STATUS     (SCSRS)                                                11849001   10
+           DATA TAKEN FROM PRIVATE COMM., EASTWOOD, 65/11.        11849001   11
+HISTORY    (760731T) TRANSLATED FROM SCISRS                       11849001   12
+           (830919A) CONVERTED TO REACTION FORMALISM              11849001   13
+ENDBIB              11                                            11849001   14
+COMMON               1          3                                 11849001   15
+MONIT                                                             11849001   16
+B                                                                 11849001   17
+ 37.5                                                             11849001   18
+ENDCOMMON            3                                            11849001   19
+ENDSUBENT           18                                            1184900199999
+SUBENT        11849010     830919                                 11849010    1
+BIB                  1          1                                 11849010    2
+REACTION   (54-XE-131(N,G)54-XE-132,,SIG,,SPA)                    11849010    3
+ENDBIB               1                                            11849010    4
+NOCOMMON             0          0                                 11849010    5
+DATA                 4          1                                 11849010    6
+EN-DUMMY   DATA       +DATA-ERR  -DATA-ERR                        11849010    7
+MEV        B          B          B                                11849010    8
+ 2.53   -08 103.       11.        5.                              11849010    9
+ENDDATA              3                                            11849010   10
+ENDSUBENT            9                                            1184901099999
+ENDENTRY             2                                            1184999999999
+ENTRY            11858     830919                                 11858000    1
+SUBENT        11858001     830919                                 11858001    1
+BIB                  7          9                                 11858001    2
+INSTITUTE  (1CANMCM)                                              11858001    3
+REFERENCE  (J,PR,80,296,5010)                                     11858001    4
+AUTHOR     (J.MACNAMARA,H.THODE)                                  11858001    5
+TITLE      THE RELATIVE NEUTRON CAPTURE CROSS SECTIONS OF THE     11858001    6
+           ISOTOPES OF KRYPTON AND XENON.                         11858001    7
+FACILITY   (SPECC) CRYSTAL SPECTROMETER                           11858001    8
+STATUS     (SCSRS)                                                11858001    9
+HISTORY    (760731T) TRANSLATED FROM SCISRS                       11858001   10
+           (830919A) CONVERTED TO REACTION FORMALISM              11858001   11
+ENDBIB               9                                            11858001   12
+NOCOMMON             0          0                                 11858001   13
+ENDSUBENT           12                                            1185800199999
+SUBENT        11858008     830919                                 11858008    1
+BIB                  1          1                                 11858008    2
+REACTION   (54-XE-131(N,G)54-XE-132,,SIG,,SPA)                    11858008    3
+ENDBIB               1                                            11858008    4
+NOCOMMON             0          0                                 11858008    5
+DATA                 3          1                                 11858008    6
+EN-DUMMY   DATA       DATA-ERR                                    11858008    7
+EV         B          B                                           11858008    8
+ 0.0253     120.       15.                                        11858008    9
+ENDDATA              3                                            11858008   10
+ENDSUBENT            9                                            1185800899999
+ENDENTRY             2                                            1185899999999
+ENTRY            21563     800612                                 21563000    1
+SUBENT        21563001     800612                                 21563001    1
+BIB                 12         31                                 21563001    2
+INSTITUTE  (2FR SAC)                                              21563001    3
+REFERENCE  (C,77PARIS,1,431,771219) IAEA-PUBL. 475.               21563001    4
+AUTHOR     (M.LUCAS,R.HAGEMANN,R.NAUDET,C.RENSON,C.CHEVALIER)     21563001    5
+TITLE      -DETERMINATION BY IRRADIATION IN THE TRITON REACTOR    21563001    6
+            OF NEUTRON CAPTURE CROSS SECTIONS FOR ISOTOPES        21563001    7
+            INVOLVED IN THE OKLO PHENOMENON.- (IN FRENCH WITH     21563001    8
+            ABSTRACT IN ENGLISH).-                                21563001    9
+FACILITY   (REAC,2FR SAC) SWIMMING POOL REACTOR TRITON AT         21563001   10
+            SACLAY, AT TEMPERATURE OF 40 DEG-C.                   21563001   11
+INC-SOURCE (REAC ) REACTOR NEUTRONS.                              21563001   12
+METHOD     (ACTIV) ACTIVATION ANALYSIS, USING                     21563001   13
+           (CHSEP) CHEMICAL SEPARATION AND                        21563001   14
+           (ASEP ) MASS SPECTROMETRY AFTER THERMOIONIZATION.      21563001   15
+            ALSO ISOTOPIC DILUTION TECHNIQUES USED.               21563001   16
+           .USING THE FORMULA SIGMA=SIGMA0*G+R*I,(WHERE R         21563001   17
+            IS THE SPECTRAL INDEX AND I THE 1/V-CORRECTED         21563001   18
+            RESONANCE INTEGRAL),AND THE RESULTS OF 2              21563001   19
+            MEASUREMENTS WITH DIFFERENT VALUES OF R, THE          21563001   20
+            QUANTITIES SIGMA0 AND I CAN BE OBTAINED. THE          21563001   21
+            G-FACTOR IS DETERMINED BY THE TEMPERATURE AND         21563001   22
+            THE SPECTRAL INDICES R ARE DETERMINED BY THE          21563001   23
+            ENVIRONMENT AND ARE CALCULATED WITH THE COMPUTER      21563001   24
+            CODES APOLLO AND BINOCLE. 4 DIFFERENT IRRADIATIONS    21563001   25
+            HAVE BEEN DONE.                                       21563001   26
+MONITOR   1(92-U-238(N,G)92-U-239,,SIG)                           21563001   27
+          2(92-U-238(N,G)92-U-239,,RI,,RNV) CUT OFF AT 0.5 EV.    21563001   28
+STATUS     .DATA FROM TEXT, 77PARIS,1,431.                        21563001   29
+HISTORY    (800602C) G.C.                                         21563001   30
+           (800612E)                                              21563001   31
+CORRECTION .RADIOACTIVE DECAY.                                    21563001   32
+ERR-ANALYS .DETERMINED BY THREE DIFFERENT MEASUREMENTS.           21563001   33
+ENDBIB              31                                            21563001   34
+COMMON               3          3                                 21563001   35
+EN-NRM     MONIT1     MONIT2                                      21563001   36
+EV         B          B                                           21563001   37
+ 2.5300E-02 2.7200E+00 2.8000E+02                                 21563001   38
+ENDCOMMON            3                                            21563001   39
+ENDSUBENT           38                                            2156300199999
+SUBENT        21563014     800612                                 21563014    1
+BIB                  4          8                                 21563014    2
+REACTION   (54-XE-131(N,G)54-XE-132,,SIG) 2200 M/SEC VALUE.       21563014    3
+SAMPLE     .SAMPLES IN FORM OF GAS. TOTAL                         21563014    4
+            QUANTITY IRRADIATED 1.5 ML.                           21563014    5
+           .ISOTOPIC COMPOSITION GIVEN IN TABLE 7 OF              21563014    6
+            PUBLICATION.                                          21563014    7
+STATUS     .TEXT 77PARIS,1,431.                                   21563014    8
+HISTORY    (800502C) G.C.                                         21563014    9
+           (800612E)                                              21563014   10
+ENDBIB               8                                            21563014   11
+NOCOMMON             0          0                                 21563014   12
+DATA                 3          1                                 21563014   13
+EN         DATA       DATA-ERR                                    21563014   14
+EV         B          B                                           21563014   15
+ 2.5300E-02 1.0000E+02 6.0000E+00                                 21563014   16
+ENDDATA              3                                            21563014   17
+ENDSUBENT           16                                            2156301499999
+ENDENTRY             2                                            2156399999999
+ENDREQUEST           1                                            Z999999999999

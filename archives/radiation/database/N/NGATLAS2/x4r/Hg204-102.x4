@@ -1,0 +1,279 @@
+REQUEST           1001   20010914          3     144149               0  0    0
+ENTRY            11447     850410                                 11447000    1
+SUBENT        11447001     850410                                 11447001    1
+BIB                  6          8                                 11447001    2
+INSTITUTE  (1USAANL)                                              11447001    3
+REFERENCE  (J,PR,72,888,4711)                                     11447001    4
+AUTHOR     (L.SEREN,H.N.FRIEDLANDER,S.H.TURKEL)                   11447001    5
+METHOD     (ACTIV)                                                11447001    6
+STATUS     (SCSRS)                                                11447001    7
+HISTORY    (760715T) TRANSLATED FROM SCISRS                       11447001    8
+           (820813A) CONVERTED TO REACTION FORMALISM              11447001    9
+           (840410A) ENERGY CORRECTED.                            11447001   10
+ENDBIB               8                                            11447001   11
+COMMON               1          3                                 11447001   12
+EN-DUMMY                                                          11447001   13
+EV                                                                11447001   14
+ 0.0253                                                           11447001   15
+ENDCOMMON            3                                            11447001   16
+ENDSUBENT           15                                            1144700199999
+SUBENT        11447127     840730                                 11447127    1
+BIB                  5          5                                 11447127    2
+REACTION   (80-HG-204(N,G)80-HG-205,,SIG,,MXW)                    11447127    3
+SAMPLE     HG-O POWDER                                            11447127    4
+INC-SPECT  THERMAL SPECTRUM                                       11447127    5
+DECAY-DATA (80-HG-205,5.5MIN,B)                                   11447127    6
+HISTORY    (840730A) DECAY DATA CORRECTED.                        11447127    7
+ENDBIB               5                                            11447127    8
+NOCOMMON             0          0                                 11447127    9
+DATA                 2          1                                 11447127   10
+DATA       DATA-ERR                                               11447127   11
+B          PER-CENT                                               11447127   12
+ 0.34       20.                                                   11447127   13
+ENDDATA              3                                            11447127   14
+ENDSUBENT           13                                            1144712799999
+ENDENTRY             2                                            1144799999999
+ENTRY            11450     840712                                 11450000    1
+SUBENT        11450001     840712                                 11450001    1
+BIB                  7          9                                 11450001    2
+INSTITUTE  (1USAANL)                                              11450001    3
+REFERENCE  (J,PR,75,1781,4906)                                    11450001    4
+AUTHOR     (D.J.HUGHES,W.D.B.SPATZ)                               11450001    5
+INC-SPECT  FISSION NEUTRONS FROM U-235 IN THERMAL BEAM.           11450001    6
+METHOD     (ACTIV) ACTIVATION                                     11450001    7
+STATUS     (SCSRS)                                                11450001    8
+HISTORY    (760715T) TRANSLATED FROM SCISRS                       11450001    9
+           (820813A) CONVERTED TO REACTION FORMALISM              11450001   10
+           (840712A) CORRECT ENERGIES PUT IN SAN'S.               11450001   11
+ENDBIB               9                                            11450001   12
+NOCOMMON             0          0                                 11450001   13
+ENDSUBENT           12                                            1145000199999
+SUBENT        11450038     840712                                 11450038    1
+BIB                  3          5                                 11450038    2
+REACTION   (80-HG-204(N,G)80-HG-205,,SIG,,FIS)                    11450038    3
+MONITOR    (80-HG-204(N,G)80-HG-205,,SIG,,SPA)                    11450038    4
+            DATA VALUE GIVEN AS RENORMALIZED IN PHYS. REV. 91,142311450038    5
+            (1953).                                               11450038    6
+DECAY-DATA (80-HG-205,5.5MIN)                                     11450038    7
+ENDBIB               5                                            11450038    8
+NOCOMMON             0          0                                 11450038    9
+DATA                 3          1                                 11450038   10
+EN-DUMMY   DATA       MONIT                                       11450038   11
+MEV        B          B                                           11450038   12
+ 1.         1.02   -01 4.3    -01                                 11450038   13
+ENDDATA              3                                            11450038   14
+ENDSUBENT           13                                            1145003899999
+ENDENTRY             2                                            1145099999999
+ENTRY            12201     821012                                 12201000    1
+SUBENT        12201001     821012                                 12201001    1
+BIB                  8          9                                 12201001    2
+INSTITUTE  (1USAORL)                                              12201001    3
+REFERENCE  (J,PR,82,276,51)                                       12201001    4
+AUTHOR     (W.LYON)                                               12201001    5
+TITLE      RADIOACTIVE HG203 AND HG205.                           12201001    6
+INC-SPECT  REACTOR SPECTRUM                                       12201001    7
+METHOD     (ACTIV) ACTIVATION                                     12201001    8
+STATUS     (SCSRS)                                                12201001    9
+HISTORY    (760803T) TRANSLATED FROM SCISRS                       12201001   10
+           (821012A) CONVERTED TO REACTION FORMALISM              12201001   11
+ENDBIB               9                                            12201001   12
+NOCOMMON             0          0                                 12201001   13
+ENDSUBENT           12                                            1220100199999
+SUBENT        12201003     821012                                 12201003    1
+BIB                  4          4                                 12201003    2
+REACTION   (80-HG-204(N,G)80-HG-205,,SIG,,SPA)                    12201003    3
+SAMPLE     SAMPLE ENRICHED TO 89 PERCENT HG-204.                  12201003    4
+DECAY-DATA (80-HG-205,5.6MIN,B)                                   12201003    5
+MONITOR    (25-MN-55(N,G)25-MN-56,,SIG)                           12201003    6
+ENDBIB               4                                            12201003    7
+NOCOMMON             0          0                                 12201003    8
+DATA                 2          1                                 12201003    9
+EN-DUMMY   DATA                                                   12201003   10
+EV         B                                                      12201003   11
+ 0.0253     0.47                                                  12201003   12
+ENDDATA              3                                            12201003   13
+ENDSUBENT           12                                            1220100399999
+ENDENTRY             2                                            1220199999999
+ENTRY            12879     860122                                 12879000    1
+SUBENT        12879001     860122                                 12879001    1
+BIB                 12         28                                 12879001    2
+INSTITUTE  (1USAORL,2GERKFK)                                      12879001    3
+REFERENCE  (J,PR/C,32,738,8509)                                   12879001    4
+AUTHOR     (H.BEER,R.L.MACKLIN)                                   12879001    5
+TITLE       198,199,200,201,202,204-HG CROSS SECTIONS AND THE     12879001    6
+            TERMINATION OF S-PROCESS NUCLEOSYNTHESIS.             12879001    7
+FACILITY   (LINAC) ORELA                                          12879001    8
+INC-SOURCE (EVAP) WATER MODERATED TANTALUM TARGET                 12879001    9
+SAMPLE     HG-O PRESSED POWDERS                                   12879001   10
+           ISOTOPIC COMPOSITION (PERCENT)                         12879001   11
+           SAMPLE    198    199    200    201    202    204       12879001   12
+            HG198  75.51   6.98   6.09   3.14   6.77   1.52       12879001   13
+            HG199   1.58  91.48   4.97   0.76   1.05   0.16       12879001   14
+            HG200   2.58   6.48  74.83   5.43   9.33   1.35       12879001   15
+            HG201   0.24   0.52   3.12  89.00   6.70   0.42       12879001   16
+            HG202   0.06   0.17   0.53   1.38  97.58   0.28       12879001   17
+            HG204   0.07   0.14   0.26   0.23   1.10  98.20       12879001   18
+           196 HG CONTENT LESS THAN 0.05 PERCENT                  12879001   19
+METHOD     (TOF) 40-M FLIGHT PATH.                                12879001   20
+DETECTOR   (SCIN) PAIR OF HEXAFLUOROBENZINE (C6F6) SCINTILLATORS  12879001   21
+           (GLASD) FLUX MONITORED BY 6LI GLASS DETECTOR           12879001   22
+MONITOR    (3-LI-6(N,T)2-HE-4,,SIG) BEAM MONITOR.                 12879001   23
+           ENERGY CALIBRATED USING WELL-KNOWN RESONANCES IN 27-AL 12879001   24
+            AT 5.903 KEV AND 1.094 MEV.                           12879001   25
+           NORMALIZATION CONSTANT DETERMINED BY SATURATED         12879001   26
+            RESONANCE TECHNIQUE USING 4.9 EV RESONANCE OF 197AU   12879001   27
+STATUS     (APRVD) R.L.MACKLIN, 86/4/9.                           12879001   28
+HISTORY    (840720C)                                              12879001   29
+           (860122A) BIB UPDATE.                                  12879001   30
+ENDBIB              28                                            12879001   31
+NOCOMMON             0          0                                 12879001   32
+ENDSUBENT           31                                            1287900199999
+SUBENT        12879007     860122                                 12879007    1
+BIB                  2          2                                 12879007    2
+REACTION   (80-HG-204(N,G)80-HG-205,,SIG,,AV)                     12879007    3
+ERR-ANALYS  NO INFORMATION.                                       12879007    4
+ENDBIB               2                                            12879007    5
+NOCOMMON             0          0                                 12879007    6
+DATA                 3         15                                 12879007    7
+EN-MIN     EN-MAX     DATA                                        12879007    8
+KEV        KEV        MB                                          12879007    9
+   4.         6.        45.5                                      12879007   10
+   6.         8.       631.2                                      12879007   11
+   8.        10.       136.0                                      12879007   12
+  10.        15.        48.1                                      12879007   13
+  15.        20.        39.6                                      12879007   14
+  20.        30.        61.3                                      12879007   15
+  30.        40.        30.7                                      12879007   16
+  40.        60.        38.4                                      12879007   17
+  60.        80.        42.4                                      12879007   18
+  80.       100.        27.9                                      12879007   19
+ 100.       150.        26.6                                      12879007   20
+ 150.       200.        30.3                                      12879007   21
+ 200.       300.        19.9                                      12879007   22
+ 300.       400.        16.0                                      12879007   23
+ 400.       500.        12.3                                      12879007   24
+ENDDATA             17                                            12879007   25
+ENDSUBENT           24                                            1287900799999
+ENDENTRY             2                                            1287999999999
+ENTRY            30079     850219                                 30079000    1
+SUBENT        30079001     850219                                 30079001    1
+BIB                 15         42                                 30079001    2
+INSTITUTE  (3INDMUA)                                              30079001    3
+REFERENCE  (J,PR,152,1055,6612) DATA TABLE,CFD OTHER+STATISTIC TH 30079001    4
+           (J,NP,66,267,65) EXP DETAILS,ERR ANAL,ACTIV,BETA DET   30079001    5
+AUTHOR     (A.K.CHAUBEY, M.L.SEHGAL)                              30079001    6
+TITLE      MEASUREMENT OF NEUTRON CAPTURE CROSS SECTIONS BY       30079001    7
+           ACTIVATION AT 24 KEV AND COMPARISON WITH STATISTICAL   30079001    8
+           THEORY                                                 30079001    9
+EXP-YEAR   (66)                                                   30079001   10
+INC-SOURCE ANTIMONY-BERYLLIUM, 1.7CM DIAM. * 3.3CM HEIGHT,        30079001   11
+           FLUX APPROXIMATELY 10E+7 NEUTRONS/SEC                  30079001   12
+SAMPLE     POWDER,PURITY BETTER THAN 99.9PERCENT,SAMPLE SANDWICHED30079001   13
+           BETWEEN 2 CELLOTAPES, PERSPEX RING FOR FIXED GEOMETRY  30079001   14
+METHOD     (ACTIV) ACTIVATION. BETA ACTIVITY MEASURED             30079001   15
+DETECTOR   (GEMUC)    END WINDOW BETA COUNTER                     30079001   16
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)                           30079001   17
+              I-127(N,GAMMA)I-128 SIGMA = 0.82 BARN               30079001   18
+           ASSUMED                                                30079001   19
+PART-DET   (B-) BETA PARTICLES DETECTED                           30079001   20
+STATUS     DATA FROM PHYS.REV. 152,1055(1966), TABLE 1.           30079001   21
+HISTORY    (691124C) DATA COMPILED INTO DASTAR-1012               30079001   22
+           (691203A) PROOF COPY SENT TO AUTHOR                    30079001   23
+           (701130T) DATA CONVERTED FROM DASTAR INTO EXFOR        30079001   24
+           (761209A) COMMENTS REVISED. HALF-LIVES PUT IN 'COMMON' 30079001   25
+           OR WITH 'RESID-NUC'.             YAG.                  30079001   26
+           (770907U) OS. BIB UPDATE.                              30079001   27
+CORRECTION ABSENCE OF THERMAL NEUTRONS DETERMINED, INFLUENCE OF   30079001   28
+           SCATTERED NEUTRONS OF LOWER THAN 24. KEV ENERGY        30079001   29
+           NEGLIGIBLE DUE TO GEOMETRY, I.E. LARGE ROOM, REMOTE    30079001   30
+           LOCATION OF NEUTRON SOURCE FROM THE FLOOR (=1.3 M)     30079001   31
+           AND NO SHIELDING MATERIAL AROUND THE SOURCE            30079001   32
+ERR-ANALYS (DATA-ERR) GIVEN ERROR CONSISTS OF                     30079001   33
+           1.) 1 PERCENT IN ESTIMATION OF TOTAL NUMBER OF TARGET  30079001   34
+               NUCLEI.                                            30079001   35
+           2.) 2 PERCENT IN MEASUREMENT OF SAMPLE-SOURCE GEOMETRY 30079001   36
+               EFFECT WHICH WILL DEPEND UPON REPRODUCIBILITY OF   30079001   37
+               THE GEOMETRY.                                      30079001   38
+           3.) IRRADIATION TIME MEASURED WITH AN ACCURACY OF      30079001   39
+               BETTER THAN 1 PERCENT.                             30079001   40
+           4.) ABOUT 2 PERCENT ERROR IN MEASUREMENT OF THE CROSS- 30079001   41
+               SECTIONS ESTIMATED TO BE DUE TO THE GAMMA-RAYS     30079001   42
+               DETECTED BY BETA-COUNTER.                          30079001   43
+           5.) STATISTICAL ERROR VARIES FROM ONE CASE TO ANOTHER  30079001   44
+ENDBIB              42                                            30079001   45
+COMMON               1          3                                 30079001   46
+EN                                                                30079001   47
+KEV                                                               30079001   48
+ 2.4000E+01                                                       30079001   49
+ENDCOMMON            3                                            30079001   50
+ENDSUBENT           49                                            3007900199999
+SUBENT        30079041     840503                                 30079041    1
+BIB                  1          1                                 30079041    2
+REACTION   (80-HG-204(N,G)80-HG-205,,SIG)                         30079041    3
+ENDBIB               1                                            30079041    4
+NOCOMMON             0          0                                 30079041    5
+DATA                 2          1                                 30079041    6
+DATA       DATA-ERR                                               30079041    7
+MB         MB                                                     30079041    8
+ 1.9000E+02 4.5000E+01                                            30079041    9
+ENDDATA              3                                            30079041   10
+ENDSUBENT            9                                            3007904199999
+ENDENTRY             2                                            3007999999999
+ENTRY            40244     960124                                 40244000    1
+SUBENT        40244001     960124                                 40244001    1
+BIB                  8         19                                 40244001    2
+TITLE       RADIATIVE CROSS-SECTION MEASUREMENTS                  40244001    3
+            FOR FAST NEUTRONS                                     40244001    4
+AUTHOR     (A.I.LEIPUNSKIJ,O.D.KAZACHKOVSKIJ,                     40244001    5
+           G.JA.ARTJUKHOV,A.I.BARYSHNIKOV,T.S.BELANOVA,           40244001    6
+           V.I.GALKOV,JU.JA.STAVISSKIJ,E.A.STUMBUR,L.E.SHERMAN)   40244001    7
+INSTITUTE  (4RUSFEI)                                              40244001    8
+EXP-YEAR   (57)                                                   40244001    9
+REFERENCE  (C,58GENEVA,15,50(2219),5809)                          40244001   10
+METHOD     (ACTIV) ACTIVATION METHOD                              40244001   11
+FACILITY   (LINAC)                                                40244001   12
+HISTORY    (820602C) COMPILED AT THE CJD                          40244001   13
+           (840612A) NEW SUBENTRIES ADDED FROM ENTRY 80134        40244001   14
+           (861203A) ONE LETTER IN 'LEJPUNSKIJ' NAME CORRECTED    40244001   15
+                     REACTION CODES IN SAN 078,099 REVISED        40244001   16
+                     SAN 071 DELETED DUE TO DATA REPETITION       40244001   17
+           (950926A) MANY DATA POINTS CORRECTED IN ACCORDANCE     40244001   18
+                     TO MEMO 4C-3/373                             40244001   19
+           (960124A) DATA IN SAN 021  CORRECTED IN ACCORDANCE     40244001   20
+                     TO MEMO 4C-3/379                             40244001   21
+ENDBIB              19                                            40244001   22
+NOCOMMON             0          0                                 40244001   23
+ENDSUBENT           22                                            4024400199999
+SUBENT        40244081     841024                                 40244081    1
+BIB                  5          5                                 40244081    2
+REACTION   (80-HG-204(N,G)80-HG-205,,SIG)                         40244081    3
+STATUS     (SCSRS)                                                40244081    4
+INC-SOURCE (P-T) T(P,N) SOURCE                                    40244081    5
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)                           40244081    6
+HISTORY    (840612T) CONVERTED FROM SUBENTRY 80134019             40244081    7
+ENDBIB               5                                            40244081    8
+NOCOMMON             0          0                                 40244081    9
+DATA                 3          1                                 40244081   10
+EN         EN-RSL     DATA-MAX                                    40244081   11
+MEV        MEV        B                                           40244081   12
+ 2.0000E-01 3.0000E-02 2.5000E-01                                 40244081   13
+ENDDATA              3                                            40244081   14
+ENDSUBENT           13                                            4024408199999
+SUBENT        40244102     841024                                 40244102    1
+BIB                  5          5                                 40244102    2
+REACTION   (80-HG-204(N,G)80-HG-205,,SIG)                         40244102    3
+STATUS     (SCSRS)                                                40244102    4
+INC-SOURCE (D-D) D(D,N) SOURCE                                    40244102    5
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)                           40244102    6
+HISTORY    (840612T) CONVERTED FROM SUBENTRY 80134040             40244102    7
+ENDBIB               5                                            40244102    8
+NOCOMMON             0          0                                 40244102    9
+DATA                 4          2                                 40244102   10
+EN         DATA-MAX   MONIT      MONIT-ERR                        40244102   11
+MEV        B          B          B                                40244102   12
+ 2.7000E+00 5.0000E-02 4.7000E-02 2.0000E-03                      40244102   13
+ 4.0000E+00 2.5000E-02 2.3000E-02 1.0000E-03                      40244102   14
+ENDDATA              4                                            40244102   15
+ENDSUBENT           14                                            4024410299999
+ENDENTRY             3                                            4024499999999
+ENDREQUEST           1                                            Z999999999999

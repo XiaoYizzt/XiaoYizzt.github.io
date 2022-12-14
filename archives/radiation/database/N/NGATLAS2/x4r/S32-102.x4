@@ -1,0 +1,100 @@
+REQUEST           1001   20010914          3     135942               0  0    0
+ENTRY            12896     860923                                 12896000    1
+SUBENT        12896001     860923                                 12896001    1
+BIB                 13         19                                 12896001    2
+INSTITUTE  (1USALAS,1USAORL)                                      12896001    3
+REFERENCE  (J,PR/C,32,18,8507)                                    12896001    4
+AUTHOR     (S.RAMAN,R.F.CARLTON,J.C.WELLS,E.T.JURNEY,J.E.LYNN)    12896001    5
+TITLE       THERMAL NEUTRON CAPTURE GAMMA RAYS FROM SULFUR        12896001    6
+             ISOTOPES. EXPERIMENT AND THEORY.                     12896001    7
+FACILITY   (REAC,1USALAS) LOS ALAMOS OMEGA WEST REACTOR           12896001    8
+MONITOR    (1-H-1(N,G)1-H-2,,SIG) 1/V DEPENDENCE ASSUMED          12896001    9
+METHOD     GAMMA-RAY SPECTROSCOPY.                                12896001   10
+INC-SOURCE (THCOL)                                                12896001   11
+INC-SPECT  SPECTUM TEMPERATURE 350 DEG(K).                        12896001   12
+DETECTOR   (GELI) 26-CM3 GE(LI) COAXIAL DETECTOR WITH A NAI(TL)   12896001   13
+                 ANNULUS.                                         12896001   14
+ERR-ANALYS 7 PERCENT MINIMUM UNCERTAINTY COMBINED WITH A          12896001   15
+            STATISTICAL UNCERTAINTY RELATED TO THE MEASURED       12896001   16
+            NUMBER OF COUNTS UNDER A GIVEN PEAK.                  12896001   17
+STATUS     NO REPLY TO AUTHOR PROOF.                              12896001   18
+HISTORY    (840820C)                                              12896001   19
+           (860226A) UPDATE FROM PHYS.REV.32,18                   12896001   20
+           (860923A) BIB UPDATE. ENERGY FIELD REPLACED.           12896001   21
+ENDBIB              19                                            12896001   22
+COMMON               3          3                                 12896001   23
+EN-DUMMY   MONIT      MONIT-ERR                                   12896001   24
+EV         MB         MB                                          12896001   25
+ 0.0253     332.       0.002                                      12896001   26
+ENDCOMMON            3                                            12896001   27
+ENDSUBENT           26                                            1289600199999
+SUBENT        12896005     860317                                 12896005    1
+BIB                  3          3                                 12896005    2
+REACTION   (16-S-32(N,G)16-S-33,,SIG,,MXW)                        12896005    3
+SAMPLE     1.10-G NATURAL S TARGET.                               12896005    4
+HISTORY    (860226C)                                              12896005    5
+ENDBIB               3                                            12896005    6
+NOCOMMON             0          0                                 12896005    7
+DATA                 2          1                                 12896005    8
+DATA       DATA-ERR                                               12896005    9
+MB         MB                                                     12896005   10
+ 518.       14.                                                   12896005   11
+ENDDATA              3                                            12896005   12
+ENDSUBENT           11                                            1289600599999
+ENDENTRY             2                                            1289699999999
+ENTRY            30710     930426                                 30710000    1
+SUBENT        30710001     930426                                 30710001    1
+BIB                 11         22                                 30710001    2
+TITLE      STUDY OF THERMAL NEUTRON CAPTURE ON S-32               30710001    3
+AUTHOR     (GUO TAICHANG,SHI ZONGREN,ZENG XIANTANG,LI GUOHUA,     30710001    4
+           DING DAZHAO)                                           30710001    5
+           DAZHAO)                                                30710001    6
+INSTITUTE  (3CPRAEP)                                              30710001    7
+EXP-YEAR   (84)                                                   30710001    8
+REFERENCE  (J,CNP,7.1,50,8502)  IN CHINESE                        30710001    9
+           (J,CP,5.4,954,8510) ENGLISH TRANSLATION OF J,CNP,7,1,5030710001   10
+                              DETAILED REPORT                     30710001   11
+           (C,84KNOX,,376,8409)  SUMMARY                          30710001   12
+           (W,SHI ZONGREN,860825) AUTHOR'S CORRECTIONS.           30710001   13
+SAMPLE     20G, NATURAL S SAMPLE,PURITY 99 PER-CENT               30710001   14
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG) TAKEN FROM S,F,MUGHABGH-30710001   15
+           AB,R,BNL-325,1973. ENERGIES AND INTENSITIES TAKEN FROM 30710001   16
+           F,BRAUMANDL,J,ZP/A,292,397(79) AND S,A,KERR,J,NIM,195, 30710001   17
+           505(8204)                                              30710001   18
+FACILITY   (REAC,3CPRAEP) HEAVY WATER REACTOR                     30710001   19
+METHOD     GAMMA RAY SPECTRUM WAS MEASURED                        30710001   20
+DETECTOR   (GELI) 140 CM3  2.5KEV RESOLUTION AT 1.33MEV           30710001   21
+HISTORY    (860730C)-.WD.-                                        30710001   22
+           (890724A) VOF.-SUB 3 ADDED + COMPLETE REVISION         30710001   23
+           (930122U) HW.-REACTION CODE ALTERED IN SUBENT 003.-    30710001   24
+ENDBIB              22                                            30710001   25
+COMMON               1          3                                 30710001   26
+EN-MEAN                                                           30710001   27
+EV                                                                30710001   28
+0.0253                                                            30710001   29
+ENDCOMMON            3                                            30710001   30
+ENDSUBENT           29                                            3071000199999
+SUBENT        30710003     930426                                 30710003    1
+BIB                  5         12                                 30710003    2
+REACTION   (16-S-32(N,G)16-S-33,,SIG,,MXW)                        30710003    3
+ANALYSIS     THE SUM OF THE PARTIAL CROSS SECTION IS 515 MB, WHILE30710003    4
+           THE SUM OF THE INTENSITIES OF THE TRANSITIONS GOING TO 30710003    5
+           THE GROUND STATE IS 529 MB, THESE 2 AGREE WITHIN 3 %.  30710003    6
+           THE SECOND ONE WAS ADOPTED AS THE TOTAL CROSS SECTION  30710003    7
+           FOR THERMAL-NEUTRON CAPTURE OF S-32.                   30710003    8
+ERR-ANALYS THE ERROR IS THE WEIGHTED AVERAGE OF THE ERRORS OF THE 30710003    9
+           G-RAY INTENSITIES WITH THE INTENSITY AS THE WEIGHTING  30710003   10
+           FACTOR.                                                30710003   11
+STATUS     (DEP,30710002)                                         30710003   12
+           DATA TAKEN FROM   CP,VOL 5.,NO.4,PAG.961,1985.         30710003   13
+HISTORY    (930122U) HW.-'DERIV' REMOVED FROM REACTION SF9.-      30710003   14
+ENDBIB              12                                            30710003   15
+NOCOMMON                                                          30710003   16
+DATA                 2          1                                 30710003   17
+DATA       DATA-ERR                                               30710003   18
+MB         MB                                                     30710003   19
+529.0      26.0                                                   30710003   20
+ENDDATA              3                                            30710003   21
+ENDSUBENT           20                                            3071000399999
+ENDENTRY             2                                            3071099999999
+ENDREQUEST           1                                            Z999999999999

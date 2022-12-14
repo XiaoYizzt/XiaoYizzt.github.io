@@ -1,0 +1,303 @@
+REQUEST           1001   20010914          3     144112               0  0    0
+ENTRY            12204     860811                                 12204000    1
+SUBENT        12204001     860811                                 12204001    1
+BIB                  7          9                                 12204001    2
+INSTITUTE  (1USAUI)                                               12204001    3
+REFERENCE  (J,PR,83,1097,51)                                      12204001    4
+AUTHOR     (P.SHERK,R.HILL)                                       12204001    5
+TITLE      THE DISINTEGRATION SCHEME OF AU199.                    12204001    6
+INC-SPECT  REACTOR SPECTRUM.                                      12204001    7
+STATUS     (SCSRS)                                                12204001    8
+HISTORY    (760803T) TRANSLATED FROM SCISRS                       12204001    9
+           (821012A) CONVERTED TO REACTION FORMALISM              12204001   10
+           (860811A) BIB, REACTION, DATA HEADING CORRECTED.       12204001   11
+ENDBIB               9                                            12204001   12
+NOCOMMON             0          0                                 12204001   13
+ENDSUBENT           12                                            1220400199999
+SUBENT        12204002     860811                                 12204002    1
+BIB                  3          3                                 12204002    2
+REACTION   (79-AU-198(N,G)79-AU-199,,SIG,,SPA)                    12204002    3
+METHOD     (ACTIV)    ACTIVATION                                  12204002    4
+DECAY-DATA (79-AU-199,3.3D,DG,159.,0.09)                          12204002    5
+ENDBIB               3                                            12204002    6
+NOCOMMON             0          0                                 12204002    7
+DATA                 2          1                                 12204002    8
+EN-DUMMY   DATA                                                   12204002    9
+MEV        B                                                      12204002   10
+ 2.53   -08 3.800  +04                                            12204002   11
+ENDDATA              3                                            12204002   12
+ENDSUBENT           11                                            1220400299999
+ENDENTRY             2                                            1220499999999
+ENTRY            12245     840821                                 12245000    1
+SUBENT        12245001     840821                                 12245001    1
+BIB                  8         10                                 12245001    2
+INSTITUTE  (1CANCRC)                                              12245001    3
+REFERENCE  (J,CJP,33,457,55)                                      12245001    4
+AUTHOR     (R.E.BELL,R.L.GRAHAM,L.YAFFE)                          12245001    5
+TITLE      THE THERMAL NEUTRON CAPTURE CROSS SECTION OF AU-198    12245001    6
+            AND THE HALF-LIFE OF AU-199.                          12245001    7
+INC-SPECT  THERMAL SPECTRUM.                                      12245001    8
+METHOD     (ACTIV) ACTIVATION                                     12245001    9
+STATUS     (SCSRS)                                                12245001   10
+HISTORY    (760803T) TRANSLATED FROM SCISRS                       12245001   11
+           (840821A) CONVERTED TO REACTION FORMALISM              12245001   12
+ENDBIB              10                                            12245001   13
+NOCOMMON             0          0                                 12245001   14
+ENDSUBENT           13                                            1224500199999
+SUBENT        12245002     840821                                 12245002    1
+BIB                  3          3                                 12245002    2
+REACTION   (79-AU-198(N,G)79-AU-199,,SIG,,MXW)                    12245002    3
+DECAY-DATA (79-AU-199,3.148D)                                     12245002    4
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)                         12245002    5
+ENDBIB               3                                            12245002    6
+NOCOMMON             0          0                                 12245002    7
+DATA                 4          1                                 12245002    8
+EN-DUMMY   DATA       DATA-ERR   MONIT                            12245002    9
+EV         B          B          B                                12245002   10
+ 0.0253     26.    +03 1.2    +03 99.                             12245002   11
+ENDDATA              3                                            12245002   12
+ENDSUBENT           11                                            1224500299999
+ENDENTRY             2                                            1224599999999
+ENTRY            12601     780324                                 12601000    1
+SUBENT        12601001     780324                                 12601001    1
+BIB                  9         13                                 12601001    2
+INSTITUTE  (1USAMIS)                                              12601001    3
+REFERENCE  (J,NAP,9,622,7011)                                     12601001    4
+AUTHOR     (V.SERMENT,A.ABU-SAMARA,A.H.EMMONS)                    12601001    5
+TITLE      AVERAGE THERMAL NEUTRON CAPTURE CROSS SECTIONS OF      12601001    6
+            198-AU,65-NI,AND 66-CU                                12601001    7
+N-SOURCE   (REAC)REACTOR                                          12601001    8
+METHOD     (ACTIV)ACTIVATION USING GAMMA SPECTROMETRY             12601001    9
+DETECTOR   (NAICR)NA-I(TL)3-X3-IN.CRYSTAL WELL SPECTROMETER       12601001   10
+ERR-ANALYS 10 PERCENT ERROR ASSUMED FROM DIFFERENCE BETWEEN       12601001   11
+            MEASURED 198-AU CROSS SECTION AND BEST ACCEPTED       12601001   12
+            VALUE.THIS VALUE WAS USED IN STANDARDIZATION OF       12601001   13
+            OTHER CROSS SECTIONS.                                 12601001   14
+HISTORY    (780302C)                                              12601001   15
+ENDBIB              13                                            12601001   16
+COMMON               1          3                                 12601001   17
+EN-DUMMY                                                          12601001   18
+EV                                                                12601001   19
+0.0253                                                            12601001   20
+ENDCOMMON            3                                            12601001   21
+ENDSUBENT           20                                            1260100199999
+SUBENT        12601002     830808                                 12601002    1
+BIB                  8         11                                 12601002    2
+REACTION   (79-AU-198(N,G)79-AU-199,,SIG,,MXW)                    12601002    3
+DECAY-DATA (79-AU-199,3.15D,DG,158.,0.371,DG,208.,0.08)           12601002    4
+SAMPLE     197-AU FOIL 0.5MG AND 0.001IN.THICK BARE AND WITH      12601002    5
+            CADMIUM SHIELD.ALSO 0.01IN DIAM WIRE 10MG WEIGHT.     12601002    6
+METHOD     SAMPLES IRRADIATED FOR 100 HOURS,DECAYED FOR 3 WEEKS,  12601002    7
+            DISSOLVED IN AQUA REGIA AND COUNTED.199-AU COUNTING   12601002    8
+            DONE AFTER SPECTRUM STRIPPING OF 198-AU.              12601002    9
+CORRECTION FOR CADMIUM RATIO 38.7,THICKNESS OF CD AND AU WIRE.    12601002   10
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG,,MXW)                    12601002   11
+DECAY-MON  (79-AU-198-G,2.7D,DG,412.,.95)                         12601002   12
+HISTORY    (820827U)DECAY DATA CORRECTED                          12601002   13
+ENDBIB              11                                            12601002   14
+NOCOMMON             0          0                                 12601002   15
+DATA                 2          1                                 12601002   16
+DATA       MONIT                                                  12601002   17
+B          B                                                      12601002   18
+28300.     98.8                                                   12601002   19
+ENDDATA              3                                            12601002   20
+ENDSUBENT           19                                            1260100299999
+ENDENTRY             2                                            1260199999999
+ENTRY            20457     840120                                 20457000    1
+SUBENT        20457001     840120                                 20457001    1
+BIB                 14         50                                 20457001    2
+INSTITUTE  (2UK HAR)                                              20457001    3
+REFERENCE  (J,JIN,31,1229,6905)                                   20457001    4
+AUTHOR     (M.J.CABELL, M.WILKINS)                                20457001    5
+TITLE      -GAMMA-RAY SPECTROMETRIC MEASUREMENTS OF THE CAPTURE   20457001    6
+            CROSS SECTION OF GOLD-198 FOR REACTOR NEUTRONS.-      20457001    7
+INC-SOURCE (REAC )THE PLUTO REACTOR.                              20457001    8
+INC-SPECT   REACTOR NEUTRONS WITH VARYING EPITHERMAL CONTENT.     20457001    9
+SAMPLE     .APPROX. 0.25 CM LENGTHS OF A 0.018 IN. DIA-           20457001   10
+            METER GOLD-ALUMINIUM ALLOY.                           20457001   11
+           .THE GOLD CONTENT WAS DETERMINED BY X-RAY FLUORESCENCE 20457001   12
+            SPECTROGRAPHY, COLORIMETRY AND NEUTRON ACTIVATION     20457001   13
+            ANALYSIS TO GET THE WEIGHTED MEAN 0.698 +- 0.011 PER  20457001   14
+            CENT.                                                 20457001   15
+METHOD     (ACTIV)    ACTIVATION, DEDUCTION OF CROSS SECTION FOR  20457001   16
+            MAXWELLIAN NEUTRONS FROM VARIATION OF EFFECTIVE CROSS 20457001   17
+            SECTION FOR REACTOR NEUTRONS WITH EPITHERMAL CONSTANT 20457001   18
+            OF SPECTRUM.                                          20457001   19
+DETECTOR   (NAICR)    3 IN. * 3 IN. NAI(TL) CRYSTAL COUPLED TO AN 20457001   20
+            EMI TYPE 9531 B PHOTOMULTIPLIER FEEDING A LABEN 100-  20457001   21
+            CHANNEL SPECTRASCOPE.                                 20457001   22
+           .1 CM LENGTHS OF 0.005 IN. DIAMETER COBALT WIRE, 2 CM  20457001   23
+            LENGTHS OF A 0.025 IN. DIAMETER 1 PC SILVER IN AL-    20457001   24
+            ALLOY WIRE AND 2.5 MM LENGTHS OF A 0.050 IN. DIAMETER 20457001   25
+            0.976 PC COBALT IN AL-ALLOY WIRE WERE USED AS NEUTRON 20457001   26
+            FLUX AND EPITHERMAL INDEX MONITORS.                   20457001   27
+ANALYSIS    COMPUTER ANALYSIS OF GAMMA SPECTRA.                   20457001   28
+COMMENT    .IN THE PRESENT EXPERIMENTS THE NEUTRON TEMPERATURE    20457001   29
+            WAS KNOWN TO VARY OVER THE RANGE OF SPECTRUM EMPLOYED 20457001   30
+            BY, AT MOST, 44 DEG C, BUT MORE PROBABLY BY 30 DEG C, 20457001   31
+            THUS THE NEUTRON TEMPERATURE AT THE CORE OF PLUTO IS  20457001   32
+            100 +- 10 DEG C.                                      20457001   33
+           .ASSUMING THE 2200 M/SEC CAPTURE CROSS SECTION OF CO59 20457001   34
+            TO BE 37.4 BARN IT WAS FOUND THAT,                    20457001   35
+            THE CAPTURE CROSS SECTION OF AU198                    20457001   36
+                      = 25102 - 46535 * R * ROOT(T/T(0)),         20457001   37
+            WHERE R * ROOT(T/T(0)) IS WESTCOTT S EPITHERMAL INDEX 20457001   38
+            PARAMETER.  THE CROSS SECTION FOR MAXWELLIAN NEUTRONS 20457001   39
+            (T = 70 DEG C) WAS GIVEN.                             20457001   40
+HISTORY    (710108C)                                              20457001   41
+           (760112E)                                              20457001   42
+CORRECTION .THE AMOUNT OF AU198 PRODUCED DURING THE IRRADIATIONS  20457001   43
+            DID NOT EXCEED ABOUT 0.5 PER CENT OF THE AU197 CONTENT20457001   44
+            OF THE TARGET AT ANY TIME.  UNDER THESE CONDITIONS    20457001   45
+            AU198 MAKES A VARYING, BUT ALWAYS NEGLIGIBLE,         20457001   46
+            CONTRIBUTION TO THE THERMAL NEUTRON SELF-SHIELDING    20457001   47
+            FACTOR (REDUCING IT BY 0.0002 AT MOST).               20457001   48
+           .SMALL CORRECTION (LESS THAN 0.25 PER CENT) FOR NA24   20457001   49
+            (PRODUCED BY THE REACTION AL27(N,A)NA24) CONTRIBUTION 20457001   50
+            TO GAMMA-SPECTRUM MADE.                               20457001   51
+ERR-ANALYS  SYSTEMATIC ERRORS PLUS 1 SIGMA.                       20457001   52
+ENDBIB              50                                            20457001   53
+NOCOMMON             0          0                                 20457001   54
+ENDSUBENT           53                                            2045700199999
+SUBENT        20457002     840120                                 20457002    1
+BIB                  5          7                                 20457002    2
+REACTION   (79-AU-198(N,G)79-AU-199,,SIG)                         20457002    3
+MONITOR    (27-CO-59(N,G)27-CO-60,,SIG)                           20457002    4
+            = 37.4 +- 0.3 B FOR THERMAL NEUTRONS.                 20457002    5
+PART-DET   (G    ) GAMMAS.                                        20457002    6
+STATUS     (APRVD)    APPROVED BY CABELL.                         20457002    7
+HISTORY    (710108C)                                              20457002    8
+           (760112E)                                              20457002    9
+ENDBIB               7                                            20457002   10
+NOCOMMON             0          0                                 20457002   11
+DATA                 3          1                                 20457002   12
+EN-DUMMY   DATA       DATA-ERR                                    20457002   13
+MEV        B          B                                           20457002   14
+ 2.5300E-08 2.5102E+04 3.7100E+02                                 20457002   15
+ENDDATA              3                                            20457002   16
+ENDSUBENT           15                                            2045700299999
+ENDENTRY             2                                            2045799999999
+ENTRY            20625     840127                                 20625000    1
+SUBENT        20625001     840127                                 20625001    1
+BIB                 16        101                                 20625001    2
+INSTITUTE  (2GERMUN)                                              20625001    3
+REFERENCE  (T,GRYNTAKIS,,7603) THESIS DM-6909(1976),TECHNICAL     20625001    4
+            UNIVERSITY OF MUNICH (IN GERMAN).                     20625001    5
+           (J,RCA,17,191,7210) THERMAL CROSS SECTION AND RES.     20625001    6
+            INTEGRAL OF ND-146,ND-148,ND-150 AND K-41.            20625001    7
+           (J,RCA,22,128,75) CALCULATION OF G-FACTOR FOR          20625001    8
+            (N,G)- AND (N,F)-REACTIONS OF NON 1/V-NUCLIDES.       20625001    9
+AUTHOR     (E.M.GRYNTAKIS)                                        20625001   10
+TITLE      -EXAMINATION OF THE DEPENDENCE OF THE EFFECTIVE CROSS  20625001   11
+            SECTION FROM THE NEUTRON TEMPERATURE, MEASUREMENTS    20625001   12
+            OF THE NEUTRON TEMPERATURE AND DETERMINATION OF SOME  20625001   13
+            CROSS SECTIONS FOR NEUTRON CAPTURE AND NEUTRON        20625001   14
+            FISSION-.                                             20625001   15
+INC-SOURCE (REAC ) PNEUMATIC POSITIONS,REFLECTOR AND ROTATING     20625001   16
+            DISK FACILITY OF FRM-REACTOR IN MUNICH.               20625001   17
+INC-SPECT  . REACTOR THERMAL AND EPITHERMAL NEUTRON SPECTRUM.     20625001   18
+           . REACTOR FAST NEUTRON SPECTRUM.                       20625001   19
+SAMPLE     .FOR U, PA, TA, LU AND EU AN ALIQUOT CONTAINING        20625001   20
+            SOME MICROGRAMS OF  THE NUCLIDE OF INTEREST IS        20625001   21
+            DRIED ON A SMALL PIECE OF PURE AL-FOIL.               20625001   22
+           .FOR ND ,K AND MG  SOME MILLIGRAMS OF POWDER OF THEIR  20625001   23
+            OXIDES HAVE BEEN USED.                                20625001   24
+           .FOR AU AN AU/AL-ALLOY WIRE (AU, 0.132 PER CENT),      20625001   25
+            FOR CO AN CO/AL-ALLOY WIRE (CO, 0.564 PER CENT)       20625001   26
+            AND FOR ALUMINIUM AL-FOILS WERE USED.                 20625001   27
+METHOD     (ACTIV) ACTIVATION.                                    20625001   28
+DETECTOR   (GELI )GE(LI)-DETECTORS COUPLED TO A ND4420 ANALYSER.  20625001   29
+           (SCIN ) THE ALPHA ACTIVITY OF ALPHA EMITTERS WAS       20625001   30
+            MEASURED WITH A HOME-MADE LIQUID SCINTILLATION        20625001   31
+            COUNTER.                                              20625001   32
+ANALYSIS   .FOR THE DETERMINATION OF THE THERMAL CROSS SECTION    20625001   33
+            AND THE RESONANCE INTEGRAL FOR (N,G)-,DOUBLE(N,G)-    20625001   34
+            AND (N,F)-REACTIONS OF 1/V-ABSORBERS (NUCLIDES WHOSE  20625001   35
+            DIFFERENTIAL CROSS SECTION OBEY  THE 1/V-LAW          20625001   36
+            BELOW ABOUT 0.5 EV),THE NORMAL CADMIUM-FILTER         20625001   37
+            METHOD (WESTCOTT-FORMALISM) HAS BEEN USED.            20625001   38
+           .THE EPITHERMAL COMPONENT WAS MEASURED BY USING        20625001   39
+            AU-197 AND CO-59 AS MONITORS.                         20625001   40
+           .FOR THE (N,F)-REACTIONS THE GAMMA RAYS OF THE         20625001   41
+            FISSION PRODUCTS ZR-95 AND LA-140 WERE MEASURED.      20625001   42
+           .FOR THE NON 1/V-ABSORBERS (RESONANCES NEAR OR BELOW   20625001   43
+            ABOUT 0.5 EV) A NEW METHOD HAS BEEN DEVELOPED (SEE    20625001   44
+            COMMENT).                                             20625001   45
+           .FOR THE THRESHOLD REACTIONS THE AVER. FIS. SPECTRUM   20625001   46
+            CROSS SECTION (ACS) WAS DETERMINED FROM THE RELATION  20625001   47
+            ACS = R/F WHERE R IS THE ABSOLUTE REACTION RATE AND   20625001   48
+            F THE EQUIVALENT FISSION FLUX.                        20625001   49
+           .R WAS MEASURED WITH A CALIBRATED GE(LI)-DETECTOR.     20625001   50
+           .F WAS DETERMINED USING THE STANDARD THRESHOLD         20625001   51
+            REACTIONS 58-NI(N,P) ,24-MG(N,P)  AND 27-AL(N,A).     20625001   52
+MONITOR    (79-AU-197(N,G)79-AU-198,,RI)                          20625001   53
+            THERMAL CROSS SECTION = 98.8+-0.3B,                   20625001   54
+            RES.INTEGRAL INCLUDING THE 1/V-PART = 1551 +- 12B.    20625001   55
+           (27-CO-59(N,G)27-CO-60,,RI)                            20625001   56
+            THERMAL CROSS SECTION =37.2 +- 0.6B,                  20625001   57
+            RES.INTEGRAL INCLUDING THE 1/V-PART = 71.1 +- 4.0B.   20625001   58
+           (92-U-235(N,F),,RI)                                    20625001   59
+            THERMAL CROSS SECTION =577.1+-0.9B,                   20625001   60
+            RES.INTEGRAL INCLUDING THE 1/V-PART  = 274+-10 B.     20625001   61
+           .FISSION YIELDS OF ZR-95 AND LA-140 ARE FOR PA-231     20625001   62
+            6.373+-0.034 AND 6.976+-0.042 ,FOR U-232 6.77+-0.05   20625001   63
+            AND 7.49+-0.06 AND FOR U-235 6.20+-0.40 AND           20625001   64
+            6.36+-0.12, RESPECTIVELY.                             20625001   65
+           (28-NI-58(N,P)27-CO-58,,SIG,,FIS)                      20625001   66
+            AVERAGE FISSION SPECTRUM CROSS                        20625001   67
+            SECTION = 113+-7 MB.                                  20625001   68
+           (12-MG-24(N,P)11-NA-24,,SIG,,FIS)                      20625001   69
+            AVERAGE FISSION SPECTRUM CROSS                        20625001   70
+            SECTION = 1.53+-0.09 MB.                              20625001   71
+           (13-AL-27(N,A)11-NA-24,,SIG,,FIS)                      20625001   72
+            AVERAGE FISSION SPECTRUM CROSS                        20625001   73
+            SECTION = 0.725+-0.045 MB.                            20625001   74
+COMMENT    .NEUTRON TEMPERATURE MEASUREMENTS AND CALCULATIONS     20625001   75
+            OF G-FACTORS ARE ALSO INCLUDED.                       20625001   76
+           .FOR DETERMINATION OF THERMAL CROSS SECTION AND        20625001   77
+            RESONANCE INTEGRALS OF NON-1/V-ABSORBERS A NEW        20625001   78
+            METHOD IS DEVELOPED WITHOUT USING CD-FILTER.THIS      20625001   79
+            METHOD WAS USED FOR PA-231 (SEE  J.INORG.NUCL.        20625001   80
+            CHEM. 36(1974)1447 ) AND EU-ISOTOPES(SEE RADIO-       20625001   81
+            CHIMICA ACTA 22(1975)20).                             20625001   82
+STATUS     .TAKEN FROM THESIS DM-6909(1976) TECHNICAL UNIVERSITY  20625001   83
+            OF MUNICH.                                            20625001   84
+HISTORY    (760824C)                                              20625001   85
+           (770331E)                                              20625001   86
+CORRECTION .BECAUSE OF THE THIN SAMPLES NO CORRECTION FOR SELF    20625001   87
+            SHIELDING AND SELF ABSORPTION IS NEEDED.              20625001   88
+           .THE EPITHERMAL SPECTRUM OF THE IRRADIATION POSITIONS  20625001   89
+            HAS A KNOWN 1/E-FORM.                                 20625001   90
+           .FOR THE DISTINCTION OF THE FISSION SPECTRUM OF THE    20625001   91
+            IRRADIATION POSITIONS FROM THE THEORETICAL FISSION    20625001   92
+            SPECTRUM (WATT-SPECTRUM).                             20625001   93
+ERR-ANALYS .UNCERTAINTIES IN THE CROSS SECTIONS OF THE STANDARDS. 20625001   94
+           .UNCERTAINTIES IN THE HALF LIFES AND THE INTENSITIES   20625001   95
+            OF THE MEASURED  GAMMA RAYS.                          20625001   96
+           .THE ALPHA MEASUREMENTS WITH THE LIQUID SCINTILLATION  20625001   97
+            COUNTER HAVE AN ACCURACY OF +- 2 PER CENT.            20625001   98
+           .UNCERTAINTIES IN THE G-FACTORS.                       20625001   99
+           .UNCERTAINTIES IN THE FISSION YIELDS OF THE FISSION    20625001  100
+            PRODUCTS ZR-95 AND LA-140.                            20625001  101
+           .DIFFERENCE OF THE TRUE FISSION SPECTRUM FROM THE      20625001  102
+            THEORETICAL ONE.                                      20625001  103
+ENDBIB             101                                            20625001  104
+NOCOMMON             0          0                                 20625001  105
+ENDSUBENT          104                                            2062500199999
+SUBENT        20625033     840127                                 20625033    1
+BIB                  3          5                                 20625033    2
+REACTION   (79-AU-198(N,G)79-AU-199,,SIG,,MXW)                    20625033    3
+             THERMAL CROSS SECTION.                               20625033    4
+HALF-LIFE  (HL,79-AU-198-G)  HALF LIFE USED IN THE EXPERIMENT.    20625033    5
+HISTORY    (760824C)                                              20625033    6
+           (770331E)                                              20625033    7
+ENDBIB               5                                            20625033    8
+NOCOMMON             0          0                                 20625033    9
+DATA                 4          1                                 20625033   10
+EN-DUMMY   DATA       DATA-ERR   HL                               20625033   11
+EV         B          B          D                                20625033   12
+ 2.5300E-02 2.6736E+04 8.5000E+02 2.7000E+00                      20625033   13
+ENDDATA              3                                            20625033   14
+ENDSUBENT           13                                            2062503399999
+ENDENTRY             2                                            2062599999999
+ENDREQUEST           1                                            Z999999999999

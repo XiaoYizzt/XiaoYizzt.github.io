@@ -1,0 +1,80 @@
+REQUEST           1001   20010914          3     143808               0  0    0
+ENTRY            12157     821012                                 12157000    1
+SUBENT        12157001     821012                                 12157001    1
+BIB                  6          7                                 12157001    2
+INSTITUTE  (1USAUCB)                                              12157001    3
+REFERENCE  (J,BAP,8,71(UA11),6301)                                12157001    4
+AUTHOR     (H.KRAMER,W.WAHL)                                      12157001    5
+TITLE      TUNGSTEN-185M.                                         12157001    6
+STATUS     (SCSRS)                                                12157001    7
+HISTORY    (760803T) TRANSLATED FROM SCISRS                       12157001    8
+           (821012A) CONVERTED TO REACTION FORMALISM              12157001    9
+ENDBIB               7                                            12157001   10
+NOCOMMON             0          0                                 12157001   11
+ENDSUBENT           10                                            1215700199999
+SUBENT        12157002     821012                                 12157002    1
+BIB                  3          3                                 12157002    2
+REACTION   (74-W-184(N,G)74-W-185-M,,SIG,,SPA)                    12157002    3
+SAMPLE     SAMPLE ENRICHED TO 94.3 PERCENT W-184                  12157002    4
+METHOD     (ACTIV) ACTIVATION                                     12157002    5
+ENDBIB               3                                            12157002    6
+NOCOMMON             0          0                                 12157002    7
+DATA                 4          1                                 12157002    8
+EN-DUMMY   DATA-MIN   DATA-MAX   HL                               12157002    9
+EV         MB         MB         MIN                              12157002   10
+ 0.0253     1.         2.5        1.7                             12157002   11
+ENDDATA              3                                            12157002   12
+ENDSUBENT           11                                            1215700299999
+ENDENTRY             2                                            1215799999999
+ENTRY            31248     900312                                 31248000    1
+SUBENT        31248001     900312                                 31248001    1
+BIB                 10         22                                 31248001    2
+TITLE      THERMAL NEUTRON ACTIVATION CROSS-SECTION FOR ISOMER    31248001    3
+           PRODUCTION                                             31248001    4
+AUTHOR     (S.K.MANGAL, P.S.GILL)                                 31248001    5
+INSTITUTE  (3INDMUA)                                              31248001    6
+REFERENCE  (J,NP,36,542,6208)                                     31248001    7
+FACILITY   (REAC)TROMBAY SWIMMING POOL REACTOR.                   31248001    8
+INC-SOURCE (THCOL) THERMAL COLUMN FLUX = 10E+7 N/CM-SQ/SEC.SOME   31248001    9
+           SAMPLE WERE IRRADIATED NEAR THE CORE IN A FLUX =       31248001   10
+           10E+11 N/CM-SQ/SEC.                                    31248001   11
+METHOD     (ACTIV)                                                31248001   12
+           ACTIVATION OF SAMPLES WAS PERFORMED IN A THERMAL REAC- 31248001   13
+           TOR SPECTRUM. THE FLUX WAS CALIBRATED SIMULTANEOUSLY   31248001   14
+           WITH THE HELP OF STANDARD REACTION. MOST OF THE SAMPLE 31248001   15
+           ACTIVITY WAS FOLLOWED FOR 3 TO 4 HALF-LIVES AFTER      31248001   16
+           IRRADIATION.                                           31248001   17
+ERR-ANALYS NO FURTHER INFORMATION.                                31248001   18
+STATUS     DATA TAKEN FROM J. NUCL. PHYS.36(1962)542.             31248001   19
+HISTORY    (771115T) CONVERTED FROM EXFOR 70248                   31248001   20
+           (780531A) ISO-QUANT IN SAN .006 CORRECTED, REF.CODING  31248001   21
+                     CORR., STANDARD CS IN SAN.001 CODED,ISO-QUANT31248001   22
+                     STANDARD AND HL IN  SAN.013 CORRECTED.  OS   31248001   23
+           (790309A) ND.-RECOMPILED FROM REF. NEW SUBENT .015 --  31248001   24
+ENDBIB              22                                            31248001   25
+COMMON               1          3                                 31248001   26
+EN-DUMMY                                                          31248001   27
+EV                                                                31248001   28
+0.0253                                                            31248001   29
+ENDCOMMON            3                                            31248001   30
+ENDSUBENT           29                                            3124800199999
+SUBENT        31248015     891205                                 31248015    1
+BIB                  7          8                                 31248015    2
+REACTION   (74-W-184(N,G)74-W-185-M,,SIG,,MXW)                    31248015    3
+REFERENCE  (C,62MADRAS,95,6202)                                   31248015    4
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG) = 98+-1 B.VALUE GIVEN IN31248015    5
+           AECU-2040(1955)                                        31248015    6
+DECAY-DATA (74-W-185-M,1.55MIN)                                   31248015    7
+DETECTOR   (NAICR) WELL-TYPE SODIUM IODIDE(TL ACTIVATED) CRYSTAL  31248015    8
+PART-DET   (DG) DECAY GAMMAS                                      31248015    9
+HISTORY    (890919A) VOF.-REACTION CORRECTED + REF. ADDED         31248015   10
+ENDBIB               8                                            31248015   11
+NOCOMMON             0          0                                 31248015   12
+DATA                 2          1                                 31248015   13
+DATA       DATA-ERR                                               31248015   14
+MB         PER-CENT                                               31248015   15
+22.        20.                                                    31248015   16
+ENDDATA              3                                            31248015   17
+ENDSUBENT           16                                            3124801599999
+ENDENTRY             2                                            3124899999999
+ENDREQUEST           1                                            Z999999999999

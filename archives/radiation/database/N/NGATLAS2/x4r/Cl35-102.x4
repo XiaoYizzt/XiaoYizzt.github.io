@@ -1,0 +1,161 @@
+REQUEST           1001   20010914          3     140003               0  0    0
+ENTRY            10042   19990719   19990812                      10042000    1
+SUBENT        10042001   19990719   19990812                      10042001    1
+BIB                 13         24                                 10042001    2
+INSTITUTE  (1CANCPO)                                              10042001    3
+REFERENCE  (J,JIN,31,3721,196904)                                 10042001    4
+AUTHOR     (G.H.E.SIMS, D.G.JUHNKE)                               10042001    5
+TITLE      The thermal neutron capture cross section and resonance10042001    6
+            capture integral of 35Cl for (n,g) and (n,p) reactions10042001    7
+FACILITY   (REAC,1CANCRC) NRX reactor.                            10042001    8
+SAMPLE     KCl sample.                                            10042001    9
+METHOD     (ACTIV) Samples irradiated with and without cadmium    10042001   10
+            cover. 1/v dependence assumed in sub-cadmium region   10042001   11
+           2200 m/sec cross sections and resonance integrals      10042001   12
+            calculated using Westcott convention.                 10042001   13
+DETECTOR   (SCIN) Liquid scintillation counter                    10042001   14
+MONITOR    (27-CO-59(N,G)27-CO-60,,SIG)                           10042001   15
+           (27-CO-59(N,G)27-CO-60,,RI)                            10042001   16
+DECAY-MON  (27-CO-60-G,5.27YR)                                    10042001   17
+ERR-ANALYS (DATA-ERR) Quoted errors are those of 8 separate       10042001   18
+            experiments calculated on the basis of 95% confidence 10042001   19
+            limits using Student's t distribution.                10042001   20
+STATUS     (APRVD) Approved by author.                            10042001   21
+           Data taken from reference.                             10042001   22
+HISTORY    (19720615C)                                            10042001   23
+           (19760518A) BIB corrected,SANS 4,7 corrected,data added10042001   24
+           (19810403A) Converted to REACTION formalism            10042001   25
+           (19990719A) Converted to new date formats, lower case. 10042001   26
+ENDBIB              24                                            10042001   27
+COMMON               2          3                                 10042001   28
+MONIT1     MONIT2                                                 10042001   29
+B          B                                                      10042001   30
+ 37.5       69.9                                                  10042001   31
+ENDCOMMON            3                                            10042001   32
+ENDSUBENT           31                                            1004200199999
+SUBENT        10042005   19990719   19990812                      10042005    1
+BIB                  2          2                                 10042005    2
+REACTION   (17-CL-35(N,G)17-CL-36,,SIG)                           10042005    3
+STATUS     (DEP,10042006)                                         10042005    4
+ENDBIB               2                                            10042005    5
+NOCOMMON             0          0                                 10042005    6
+DATA                 3          1                                 10042005    7
+EN         DATA       DATA-ERR                                    10042005    8
+EV         B          B                                           10042005    9
+0.0253     41.8       1.2                                         10042005   10
+ENDDATA              3                                            10042005   11
+ENDSUBENT           10                                            1004200599999
+SUBENT        10042006   19990719   19990812                      10042006    1
+BIB                  2          2                                 10042006    2
+REACTION   (17-CL-35(N,G)17-CL-36,,SIG,,MXW)                      10042006    3
+DECAY-DATA (17-CL-36,3.0E+05YR,B-)                                10042006    4
+ENDBIB               2                                            10042006    5
+NOCOMMON             0          0                                 10042006    6
+DATA                 3          1                                 10042006    7
+EN-DUMMY   DATA       DATA-ERR                                    10042006    8
+EV         B          B                                           10042006    9
+0.0253     41.8       1.2                                         10042006   10
+ENDDATA              3                                            10042006   11
+ENDSUBENT           10                                            1004200699999
+ENDENTRY             3                                            1004299999999
+ENTRY            11549     830412                                 11549000    1
+SUBENT        11549001     830412                                 11549001    1
+BIB                  8         10                                 11549001    2
+INSTITUTE  (1CANCRC)                                              11549001    3
+REFERENCE  (J,NCS,19,4,61)                                        11549001    4
+AUTHOR     (R.W.DURHAM,F.GIRARDI)                                 11549001    5
+TITLE      EFFECTIVE NEUTRON ACTIVATION CROSS-SECTIONS OF SOME    11549001    6
+           CHLORINE AND SULPHUR REACTIONS IN NRX.                 11549001    7
+METHOD     (ACTIV)                                                11549001    8
+MONITOR    (27-CO-59(N,G)27-CO-60,,SIG)                           11549001    9
+STATUS     (SCSRS)                                                11549001   10
+HISTORY    (760715T) TRANSLATED FROM SCISRS                       11549001   11
+           (830412A) CONVERTED TO REACTION FORMALISM              11549001   12
+ENDBIB              10                                            11549001   13
+COMMON               1          3                                 11549001   14
+MONIT                                                             11549001   15
+B                                                                 11549001   16
+ 36.4                                                             11549001   17
+ENDCOMMON            3                                            11549001   18
+ENDSUBENT           17                                            1154900199999
+SUBENT        11549005     830412                                 11549005    1
+BIB                  2          2                                 11549005    2
+REACTION   (17-CL-35(N,G)17-CL-36,,SIG,,SPA)                      11549005    3
+INC-SPECT   REACTOR SPECTRUM                                      11549005    4
+ENDBIB               2                                            11549005    5
+NOCOMMON             0          0                                 11549005    6
+DATA                 3          1                                 11549005    7
+EN-DUMMY   DATA       DATA-ERR                                    11549005    8
+MEV        B          B                                           11549005    9
+ 2.53   -08 3.90   -01 6.0    -02                                 11549005   10
+ENDDATA              3                                            11549005   11
+ENDSUBENT           10                                            1154900599999
+ENDENTRY             2                                            1154999999999
+ENTRY            11603     830815                                 11603000    1
+SUBENT        11603001     830815                                 11603001    1
+BIB                  5          6                                 11603001    2
+INSTITUTE  (1USAORL)                                              11603001    3
+REFERENCE  (P,ORNL-4013,2,6609)                                   11603001    4
+AUTHOR     (J.H.GILLETTE)                                         11603001    5
+TITLE      THERMAL NEUTRON REACTIONS                              11603001    6
+HISTORY    (770607C)                                              11603001    7
+           (830815A) CONVERTED TO REACTION FORMALISM              11603001    8
+ENDBIB               6                                            11603001    9
+NOCOMMON             0          0                                 11603001   10
+ENDSUBENT            9                                            1160300199999
+SUBENT        11603004     830815                                 11603004    1
+BIB                  2          2                                 11603004    2
+REACTION   (17-CL-35(N,G)17-CL-36,,SIG,,MXW)                      11603004    3
+INC-SPECT  THERMAL SPECTRUM                                       11603004    4
+ENDBIB               2                                            11603004    5
+NOCOMMON             0          0                                 11603004    6
+DATA                 2          1                                 11603004    7
+EN-DUMMY   DATA-APRX                                              11603004    8
+EV         B                                                      11603004    9
+ 0.0253     30.                                                   11603004   10
+ENDDATA              3                                            11603004   11
+ENDSUBENT           10                                            1160300499999
+ENDENTRY             2                                            1160399999999
+ENTRY            31489     980529                                 31489000    1
+SUBENT        31489001     980529                                 31489001    1
+BIB                 12         17                                 31489001    2
+TITLE       Thermal neutron capture cross-section of 48-Ti, 51-V, 31489001    3
+            50-,52-,53-Cr and 58-,60-,62-,64-Ni                   31489001    4
+AUTHOR     (L.VENTURINI,B.R.S.PECEQUILO)                          31489001    5
+INSTITUTE  (3BZLIPE)                                              31489001    6
+REFERENCE  (J,ARI,48,(4),493,97)  Main reference, data tables are 31489001    7
+                                  given.                          31489001    8
+           (J,NIM/A,287,460,90)   Experimental details.           31489001    9
+FACILITY   (REAC)   IEA-R1 2 MW research reactor                  31489001   10
+METHOD     (GSPEC)                                                31489001   11
+ANALYSIS   (AREA)                                                 31489001   12
+INC-SPECT  Thermal neutron spectrum.                              31489001   13
+DETECTOR   (BPAIR )                                               31489001   14
+MONITOR    ((MONIT1)7-N-14(N,G)7-N-15,,SIG)                       31489001   15
+           ((MONIT2)17-CL-35(N,G)17-CL-36,,SIG)                   31489001   16
+MONIT-REF  ((MONIT1),ISLAM+,J,NIM,188,243,88)                     31489001   17
+           ((MONIT2),MUGHABGHAB+,B,NEUT.CS 1A,,81)                31489001   18
+HISTORY    (970912C)  Compiled at the centre - NNDC by S.Maev     31489001   19
+ENDBIB              17                                            31489001   20
+COMMON               5          3                                 31489001   21
+EN-DUMMY   MONIT1     MONIT1-ERR MONIT2     MONIT2-ERR            31489001   22
+EV         MB         MB         B          B                     31489001   23
+    2.5E-02    77.2      2.1        43.6        0.46              31489001   24
+ENDCOMMON            3                                            31489001   25
+ENDSUBENT           24                                            3148900199999
+SUBENT        31489010     980529                                 31489010    1
+BIB                  3          4                                 31489010    2
+REACTION   (17-CL-35(N,G)17-CL-36,,SIG,,MXW)                      31489010    3
+SAMPLE      Mixture of melamine (C3-H6-N6) with ammonium chloride 31489010    4
+            (N-H4-CL)                                             31489010    5
+STATUS     (TABLE)   Data are taken from table 3 of main ref.     31489010    6
+ENDBIB               4                                            31489010    7
+NOCOMMON             0          0                                 31489010    8
+DATA                 2          1                                 31489010    9
+DATA       ERR-T                                                  31489010   10
+B          B                                                      31489010   11
+  43.4       0.9                                                  31489010   12
+ENDDATA              3                                            31489010   13
+ENDSUBENT           12                                            3148901099999
+ENDENTRY             2                                            3148999999999
+ENDREQUEST           1                                            Z999999999999

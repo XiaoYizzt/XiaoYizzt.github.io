@@ -1,0 +1,37 @@
+REQUEST           1001   20010914          3     142719               0  0    0
+ENTRY            12055     830802                                 12055000    1
+SUBENT        12055001     830802                                 12055001    1
+BIB                  8         11                                 12055001    2
+INSTITUTE  (1USAORL)                                              12055001    3
+REFERENCE  (J,NSE,13,289,62)                                      12055001    4
+AUTHOR     (P.M.LANTZ)                                            12055001    5
+TITLE      THERMAL NEUTRON CAPTURE CROSS SECTION AND RESONANCE    12055001    6
+           CAPTURE INTEGRAL OF CE144.                             12055001    7
+METHOD     (ACTIV) ACTIVATION                                     12055001    8
+MONITOR    (27-CO-59(N,G)27-CO-60,,SIG)                           12055001    9
+           (27-CO-59(N,G)27-CO-60,,RI)                            12055001   10
+STATUS     (SCSRS)                                                12055001   11
+HISTORY    (760802T) TRANSLATED FROM SCISRS                       12055001   12
+           (830802A) CONVERTED TO REACTION FORMALISM              12055001   13
+ENDBIB              11                                            12055001   14
+COMMON               2          3                                 12055001   15
+MONIT1     MONIT2                                                 12055001   16
+B          B                                                      12055001   17
+ 36.7       75.                                                   12055001   18
+ENDCOMMON            3                                            12055001   19
+ENDSUBENT           18                                            1205500199999
+SUBENT        12055002     830802                                 12055002    1
+BIB                  3          3                                 12055002    2
+REACTION   (58-CE-144(N,G)58-CE-145,,SIG,,MXW)                    12055002    3
+FACILITY   (SPECM)    MASS SPECTROMETER                           12055002    4
+COMMENT    MEASURED WESTCOTT EPITHERMAL INDEX = 0.08              12055002    5
+ENDBIB               3                                            12055002    6
+NOCOMMON             0          0                                 12055002    7
+DATA                 3          1                                 12055002    8
+EN-DUMMY   DATA       DATA-ERR                                    12055002    9
+MEV        B          B                                           12055002   10
+ 2.53   -08 1.0    +00 1.     -01                                 12055002   11
+ENDDATA              3                                            12055002   12
+ENDSUBENT           11                                            1205500299999
+ENDENTRY             2                                            1205599999999
+ENDREQUEST           1                                            Z999999999999

@@ -1,0 +1,89 @@
+REQUEST           1001   20010914          3     142954               0  0    0
+ENTRY            13108     871110                                 13108000    1
+SUBENT        13108001     871110                                 13108001    1
+BIB                 12         17                                 13108001    2
+INSTITUTE  (1USAORL)                                              13108001    3
+REFERENCE  (J,NSE,95,194,8703)                                    13108001    4
+AUTHOR     (C.W.ALEXANDER,J.HALPERIN,J.B.KNAUER,R.L.WALKER)       13108001    5
+TITLE      THE THERMAL NEUTRON CAPTURE CROSS SECTIONS AND         13108001    6
+           RESONANCE INTEGRALS OF 144SM AND 145SM                 13108001    7
+FACILITY   (REAC) HIGH FLUX ISOTOPE REACTOR, HFIR                 13108001    8
+METHOD     CADMIUM FILTER IRRADIATION TECHNIQUE: MASS             13108001    9
+            SPECTROMETRIC ANALYSIS.                               13108001   10
+SAMPLE     FUSED SILICA CAPSULE WITH 100-200 MICROGRAMS OF        13108001   11
+           144SM-NITRATE                                          13108001   12
+DECAY-MON  (27-CO-60-M,5.272YR,DG,1332.)                          13108001   13
+ERR-ANALYS ERRORS ARE STANDARD DEVIATION ESTIMATES WITH 5 PERCENT 13108001   14
+           UNCERTAINTY ADDED TO REFLECT FLUX MODEL UNCERTAINTIES  13108001   15
+CORRECTION CORRECTIONS FOR DECAY AND BURNUP OF COBALT MONITORS    13108001   16
+            AND 14-146 SM.                                        13108001   17
+STATUS     (APRVD) J. HALPERIN, 87/10/2.                          13108001   18
+HISTORY    (870603C)                                              13108001   19
+ENDBIB              17                                            13108001   20
+NOCOMMON             0          0                                 13108001   21
+ENDSUBENT           20                                            1310800199999
+SUBENT        13108004     871110                                 13108004    1
+BIB                  3          3                                 13108004    2
+REACTION   (62-SM-145(N,G)62-SM-146,,SIG)                         13108004    3
+MONITOR    (27-CO-59(N,G)27-CO-60,,SIG)                           13108004    4
+ASSUMED    (ASSUM,27-CO-60(N,G),,SIG)                             13108004    5
+ENDBIB               3                                            13108004    6
+COMMON               5          3                                 13108004    7
+EN         MONIT      MONIT-ERR  ASSUM      ASSUM-ERR             13108004    8
+EV         B          B          B          B                     13108004    9
+ 0.0253    37.2        0.2        2.0        0.2                  13108004   10
+ENDCOMMON            3                                            13108004   11
+DATA                 2          1                                 13108004   12
+DATA       DATA-ERR                                               13108004   13
+B          B                                                      13108004   14
+ 280.       21.                                                   13108004   15
+ENDDATA              3                                            13108004   16
+ENDSUBENT           15                                            1310800499999
+ENDENTRY             2                                            1310899999999
+ENTRY            20104     830913                                 20104000    1
+SUBENT        20104001     830913                                 20104001    1
+BIB                 12         18                                 20104001    2
+INSTITUTE  (2SF HLS)                                              20104001    3
+REFERENCE  (J,PR,127,943,6208)                                    20104001    4
+AUTHOR     (M.NURMIA, P.KAURANEN, A.SIIVOLA)                      20104001    5
+TITLE      -PM-145, A NEW ALPHA ACTIVITY.-                        20104001    6
+FACILITY   (REAC )    HIGH FLUX REACTOR ORR.                      20104001    7
+INC-SOURCE (REAC )    REACTOR NEUTRONS.                           20104001    8
+            4 WEEKS IRRADIATION WITH 2.0E+14 NEUTRONS/CM-SQ/SEC.  20104001    9
+SAMPLE                30 MILLIGR SM-144 ENRICHED TO 94.6 PERCENT. 20104001   10
+METHOD     (ACTIV)    ACTIVATION                                  20104001   11
+           (CHSEP)    CATION EXCHANGE COLUMN ACCORDING TO METHOD  20104001   12
+            DESCRIBED BY CHOPPIN ET AL. J. INORG. NUCLEAR CHEM.   20104001   13
+            2, 66(1956).                                          20104001   14
+DETECTOR   (NAICR)    SODIUM IODIDE(TL) CRYSTAL, DIAMETER = 1 INCH20104001   15
+            HEIGHT = 1 INCH.                                      20104001   16
+STATUS                DATA FROM PUBLICATION.                      20104001   17
+HISTORY    (701021C)                                              20104001   18
+           (710908E)                                              20104001   19
+ERR-ANALYS .NO INFORMATION.                                       20104001   20
+ENDBIB              18                                            20104001   21
+COMMON               1          3                                 20104001   22
+EN-DUMMY                                                          20104001   23
+MEV                                                               20104001   24
+ 2.5300E-08                                                       20104001   25
+ENDCOMMON            3                                            20104001   26
+ENDSUBENT           25                                            2010400199999
+SUBENT        20104003     830913                                 20104003    1
+BIB                  4          7                                 20104003    2
+REACTION   (62-SM-145(N,G)62-SM-146,,SIG,,SPA)                    20104003    3
+PART-DET   (DG   )    DECAY GAMMAS AND X-RAYS.                    20104003    4
+COMMENT    .THIS EXPERIMENT WAS CARRIED OUT TO STUDY THE ALPHA-   20104003    5
+            ACTIVITY OF PM145, THE CROSS SECTION GIVEN WAS        20104003    6
+            ESTIMATED ASSUMING T(1/2) = 5.0E+7 YEAR FOR SM-146.   20104003    7
+HISTORY    (701021C)                                              20104003    8
+           (710908E)                                              20104003    9
+ENDBIB               7                                            20104003   10
+NOCOMMON             0          0                                 20104003   11
+DATA                 1          1                                 20104003   12
+DATA                                                              20104003   13
+B                                                                 20104003   14
+ 1.1000E+02                                                       20104003   15
+ENDDATA              3                                            20104003   16
+ENDSUBENT           15                                            2010400399999
+ENDENTRY             2                                            2010499999999
+ENDREQUEST           1                                            Z999999999999

@@ -1,0 +1,223 @@
+REQUEST           1001   20010914          3     141221               0  0    0
+ENTRY            13489     910709                                 13489000    1
+SUBENT        13489001     910709                                 13489001    1
+BIB                 15         36                                 13489001    2
+INSTITUTE  (1USABNW)                                              13489001    3
+REFERENCE  (J,JRC,76,131,83)                                      13489001    4
+AUTHOR     (L.A.MC VEY,R.L.BRODZINSKI,T.M.TANNER)                 13489001    5
+TITLE      IN SITU NEUTRON ACTIVATION ANALYSIS OF 90SR AND THE    13489001    6
+            NEUTRON CAPTURE CROSS SECTION FOR 90SR.               13489001    7
+FACILITY   (REAC) TRIGA REACTOR.                                  13489001    8
+INC-SOURCE THERMAL FLUX OF (9.36+-0.35)E11 N CM**2/SEC.           13489001    9
+SAMPLE     H2O SOLUTION                                           13489001   10
+METHOD     (ACTIV) 5 HR IRRADIATION TIME.                         13489001   11
+DETECTOR   (GELI). EFFICIENCY 16.2%, FWHM RESOLUTION: 1.84 KEV AT 13489001   12
+            1332 KEV GAMMA LINE OF 60CO.                          13489001   13
+MONITOR    ((MONIT1)35-BR-81(N,G)35-BR-82,,SIG,,MXW) NH(4)BR      13489001   14
+           ((MONIT2)11-NA-23(N,G)11-NA-24,,SIG,,MXW)              13489001   15
+           ((MONIT3)19-K-41(N,G)19-K-42,,SIG,,MXW)                13489001   16
+           ((MONIT4)57-LA-139(N,G)57-LA-140,,SIG,,MXW)            13489001   17
+           SECONDARY STANDARDS OF 23NA,41K,139LA USING NBS        13489001   18
+            ORCHARD LEAVES.                                       13489001   19
+           DETECTOR EFFICIENCY DETERMINED RELATIVE TO 152,154EU   13489001   20
+            STANDARD SOURCE                                       13489001   21
+DECAY-DATA (38-SR-91,9.48HR,DG,556.,0.607,DG,750.,0.228,          13489001   22
+                            DG,1024.,0.33)                        13489001   23
+DECAY-MON  ((MONIT1)35-BR-82,35.344HR,DG,554.,0.707,              13489001   24
+                                      DG,698.,0.286,              13489001   25
+                                      DG,776.,0.834,              13489001   26
+                                      DG,828.,0.239,              13489001   27
+                                      DG,1044.,0.274,             13489001   28
+                                      DG,1317.,0.269,             13489001   29
+                                      DG,1475.,0.166)             13489001   30
+           ((MONIT2)11-NA-24,14.964HR,DG,1369.,1.0,               13489001   31
+                                      DG,2754.,0.9985)            13489001   32
+           ((MONIT3)19-K-42,12.361HR,DG,1023.,0.000209,           13489001   33
+                                     DG,1525.,0.188)              13489001   34
+           ((MONIT4)57-LA-140,40.27HR,DG,1596.,0.955)             13489001   35
+ERR-ANALYS (ERR-T) ONE-STANDARD DEVIATION UNCERTAINTY             13489001   36
+STATUS     (APRVD) R.L.BRODZINSKI, 91/7/8.                        13489001   37
+HISTORY    (910522C)                                              13489001   38
+ENDBIB              36                                            13489001   39
+COMMON               8          6                                 13489001   40
+MONIT1     MONIT1-ERR MONIT2     MONIT2-ERR MONIT3     MONIT3-ERR 13489001   41
+MONIT4     MONIT4-ERR                                             13489001   42
+B          B          B          B          B          B          13489001   43
+B          B                                                      13489001   44
+ 2.7        0.2        0.528      0.005      1.46       0.03      13489001   45
+ 8.63       0.75                                                  13489001   46
+ENDCOMMON            6                                            13489001   47
+ENDSUBENT           46                                            1348900199999
+SUBENT        13489002     910524                                 13489002    1
+BIB                  1          1                                 13489002    2
+REACTION   (38-SR-90(N,G)38-SR-91,,SIG,,MXW)                      13489002    3
+ENDBIB               1                                            13489002    4
+NOCOMMON             0          0                                 13489002    5
+DATA                 3          1                                 13489002    6
+EN-DUMMY   DATA       ERR-T                                       13489002    7
+EV         MB         MB                                          13489002    8
+ 0.0253     14.0        2.4                                       13489002    9
+ENDDATA              3                                            13489002   10
+ENDSUBENT            9                                            1348900299999
+ENDENTRY             2                                            1348999999999
+ENTRY            13558     931207                                 13558000    1
+SUBENT        13558001     931207                                 13558001    1
+BIB                 17         43                                 13558001    2
+INSTITUTE  (1CANCRC)                                              13558001    3
+REFERENCE  (J,NIM/A,332,232,93)                                   13558001    4
+AUTHOR     (M.A.LONE,W.J.EDWARDS,R.COLLINS)                       13558001    5
+TITLE      Measurements of the Thermal Neutron Cross Section of   13558001    6
+            90Sr(n,gamma) Reaction                                13558001    7
+FACILITY   (REAC) NRU D2O moderated reactor                       13558001    8
+INC-SOURCE Hydraulic Capsule Facility                             13558001    9
+INC-SPECT  Cd ratio for cobalt about 30                           13558001   10
+SAMPLE     1 mCi purified 90Sr sealed in quartz.                  13558001   11
+METHOD     (ACTIV)                                                13558001   12
+           (CHSEP) Y chemically separated from Sr before          13558001   13
+            irradiation and after irradiation but prior to        13558001   14
+            counting 91Sr activity.                               13558001   15
+DETECTOR   (GE-IN) High resolution Ge spectrometer.               13558001   16
+           Detector efficiency determined using set of calibrated 13558001   17
+            137Cs, 134Cs, 133Ba, 88Y, 60Co, and 54Mn sources.     13558001   18
+           Amount of 90Sr in sample deterined from beta activity  13558001   19
+            of 90Y using end-window proportional counter.         13558001   20
+DECAY-DATA (38-SR-91,9.48HR,DG,555.56,0.615,DG,749.72,0.236,      13558001   21
+                           DG,1024.,0.33)                         13558001   22
+            Branching ratios taken from Browne and Firestone,     13558001   23
+            'Table of Radioactive Isotopes' (1986)                13558001   24
+MONITOR    (27-CO-59(N,G)27-CO-60,,SIG,,MXW)                      13558001   25
+            Co/Al alloy flux monitor.                             13558001   26
+ANALYSIS   Value given average of data for three runs and for     13558001   27
+            three gammas measured.  Averages for three gammas:    13558001   28
+            9.2mb (555keV), 10.3mb (749keV), 9.6mb (1024keV).     13558001   29
+CORRECTION Corrected for:                                         13558001   30
+           . decay during counting period                         13558001   31
+           . secular equilibrium of the 556 kev transition from   13558001   32
+             49.7 min 91Y.                                        13558001   33
+ERR-ANALYS (DATA-ERR) Total rms uncertainty.                      13558001   34
+           Includes uncertainties due to:                         13558001   35
+           .contamination of the 90Sr by fissionable material     13558001   36
+           .weighing uncertainties                                13558001   37
+           .volumetric uncertainties                              13558001   38
+           .gamma measurement and gamma calibration uncertainties 13558001   39
+           .gamma branching ratio uncertainties                   13558001   40
+           .beta- calibrations and measurements                   13558001   41
+STATUS     Data taken from report                                 13558001   42
+           (APRVD) M.A.Lone, 93/3/15                              13558001   43
+HISTORY    (930126C)                                              13558001   44
+           (931207A) Reference updated.                           13558001   45
+ENDBIB              43                                            13558001   46
+NOCOMMON             0          0                                 13558001   47
+ENDSUBENT           46                                            1355800199999
+SUBENT        13558002     930127                                 13558002    1
+BIB                  1          1                                 13558002    2
+REACTION   (38-SR-90(N,G)38-SR-91,,SIG,,MXW)                      13558002    3
+ENDBIB               1                                            13558002    4
+NOCOMMON             0          0                                 13558002    5
+DATA                 4          1                                 13558002    6
+EN-DUMMY   DATA       DATA-ERR   MONIT                            13558002    7
+EV         MB         MB         B                                13558002    8
+ 0.0253     9.7        0.7        37.                             13558002    9
+ENDDATA              3                                            13558002   10
+ENDSUBENT            9                                            1355800299999
+ENDENTRY             2                                            1355899999999
+ENTRY            20080     830901                                 20080000    1
+SUBENT        20080001     830901                                 20080001    1
+BIB                 14         17                                 20080001    2
+INSTITUTE  (2AUSIRK)                                              20080001    3
+REFERENCE  (J,OAW,174,575,6601)                                   20080001    4
+           (J,APA,23,223,6605)                                    20080001    5
+AUTHOR     (G.ZEISEL)                                             20080001    6
+TITLE      -REACTION CROSS-SECTION OF SR-90 WITH REACTOR NEUTRONS-20080001    7
+            (IN GERMAN).                                          20080001    8
+FACILITY   (REAC)     REACTOR                                     20080001    9
+INC-SOURCE (REAC)     ASTRA REACTOR, SEIBERSDORF.                 20080001   10
+INC-SPECT  .THERMAL FLUX = 2.0E+13 NEUTRONS/CM-SQ/SEC.            20080001   11
+SAMPLE                ISOTOPIC COMPOSITION = SR-90 SOLVED IN HNO3.20080001   12
+METHOD     (ACTIV)    ACTIVATION                                  20080001   13
+DETECTOR   (NAICR)    SODIUM-IODIDE CRYSTAL                       20080001   14
+COMMENT    .FAST N-FLUX SMALL IN COMPARISON WITH THERMAL N-FLUX.  20080001   15
+STATUS                DATA FROM PUBLICATION.                      20080001   16
+HISTORY    (701106C)                                              20080001   17
+           (710908E)                                              20080001   18
+ERR-ANALYS .LINEAR SUM OF SINGLE ERRORS                           20080001   19
+ENDBIB              17                                            20080001   20
+NOCOMMON             0          0                                 20080001   21
+ENDSUBENT           20                                            2008000199999
+SUBENT        20080002     830901                                 20080002    1
+BIB                  3          4                                 20080002    2
+REACTION   (38-SR-90(N,G)38-SR-91,,SIG,,SPA)                      20080002    3
+PART-DET   (DG   )    0.55 MEV DECAY GAMMAS.                      20080002    4
+HISTORY    (701106C)                                              20080002    5
+           (710908E)                                              20080002    6
+ENDBIB               4                                            20080002    7
+NOCOMMON             0          0                                 20080002    8
+DATA                 3          1                                 20080002    9
+EN-DUMMY   DATA       DATA-ERR                                    20080002   10
+MEV        B          B                                           20080002   11
+ 2.5300E-08 8.0000E-01 5.0000E-01                                 20080002   12
+ENDDATA              3                                            20080002   13
+ENDSUBENT           12                                            2008000299999
+ENDENTRY             2                                            2008099999999
+ENTRY            22279     961121                                 22279000    1
+SUBENT        22279001     961121                                 22279001    1
+BIB                 14         38                                 22279001    2
+INSTITUTE  (2JPNPNC) H.HARADA                                     22279001    3
+           (2JPNJAE) T.SEKINE, Y.HATSUKAWA, N.SHIGETA,            22279001    4
+                 K.KOBAYASHI, T.OHTSUKI, AND EXPERIMENTAL SITE.   22279001    5
+           (2JPNNAG) T.KATOH                                      22279001    6
+REFERENCE  (S,JAERI-M-92-027,298,9203) MAIN REF.                  22279001    7
+           (S,INDC(JPN)-157,298,9203) IDENTICAL TO MAIN REF.      22279001    8
+AUTHOR     (H.HARADA,T.SEKINE,Y.HATSUKAWA,N.SHIGETA,K.KOBAYASHI,  22279001    9
+            T.OHTSUKI,T.KATOH)                                    22279001   10
+TITLE      -MEASUREMENT OF THE THERMAL NEUTRON CROSS SECTION OF   22279001   11
+            THE 90-SR(N,G)91-SR REACTION.                         22279001   12
+FACILITY   (REAC,2JPNJAE) THE JRR-4 REACTOR AT JAERI.             22279001   13
+INC-SOURCE (REAC )                                                22279001   14
+INC-SPECT  .THERMAL REACTOR SPECTRUM.                             22279001   15
+SAMPLE     .AS A TARGET, A 90-SR/85-SR MIXTURE WAS USED. THE      22279001   16
+            GAMMA-RAY EMITTER 85-SR WAS ADDED AS A TRACER OF      22279001   17
+            90-SR. THE SAMPLE WAS PREPARED BY EVAPORATING A SMALL 22279001   18
+            AMOUNT OF SRCL2 SOLUTION CONTAINING 2.8 MBQ OF 90-SR  22279001   19
+            AND 5.4KBQ OF 85-SR IN A POLYETHYLENE BOTTLE. THE     22279001   20
+            BOTTLE WAS SEALED AND HOUSED IN A POLYETHYLENE CAPSULE22279001   21
+            TOGETHER WITH NEUTRON-FLUX MONITOR WIRES OF CO/AL AND 22279001   22
+            AU/AL ALLOYS. THE TARGET WAS IRRADIATED IN THE REACTOR22279001   23
+            FOR 10 MINUTES. AFTER IRRADIATION, IT WAS PURIFIED BY 22279001   24
+            A CATION EXCHANGE METHOD.                             22279001   25
+METHOD     (ACTIV)                                                22279001   26
+DETECTOR   (HPGE ) THE GAMMA-RAY SPECTRUM OF THE SR-SAMPLE WAS    22279001   27
+            MEASURED WITH A HPGE DETECTOR HAVING 90 PERCENT EFFI- 22279001   28
+            CIENCY. TO ABSORB BETA-RAYS FROM 90-Y, A 5 MM THICK   22279001   29
+            LUCITE SHEET WAS PLACED BETWEEN THE SAMPLE AND DETEC- 22279001   30
+            TOR. IN ADDITION, A 4 MM THICK LEAD SHEET WAS INSERTED22279001   31
+            TO ABSORB LOW-ENERGY BREMSSTRAHLUNG.                  22279001   32
+PART-DET   (G    )                                                22279001   33
+ERR-ANALYS (DATA-ERR) NO DETAILS GIVEN.                           22279001   34
+STATUS     .DATA TAKEN FROM MAIN REF.                             22279001   35
+HISTORY    (950910C) N.O.                                         22279001   36
+           (951213E)                                              22279001   37
+           (961121U)  + +  CORRECTED BY S.MAEV                    22279001   38
+                     FACILITY CODE CORRECTED IN SAN 001           22279001   39
+                     NAMES UNDER 'INCTITUTE' INTERPRETED    + +   22279001   40
+ENDBIB              38                                            22279001   41
+NOCOMMON             0          0                                 22279001   42
+ENDSUBENT           41                                            2227900199999
+SUBENT        22279002     961121                                 22279002    1
+BIB                  4          6                                 22279002    2
+REACTION   (38-SR-90(N,G)38-SR-91,,SIG)                           22279002    3
+DECAY-DATA (38-SR-91,,DG,750.,,DG,1024.)                          22279002    4
+STATUS     .DATA TAKEN FROM MAIN REF.                             22279002    5
+HISTORY    (950910C) N.O.                                         22279002    6
+           (951213E)                                              22279002    7
+           (961121U)  * * TRAILING COMMA DELETED IN DECAY-DATA    22279002    8
+ENDBIB               6                                            22279002    9
+NOCOMMON             0          0                                 22279002   10
+DATA                 3          1                                 22279002   11
+EN         DATA       DATA-ERR                                    22279002   12
+EV         MB         MB                                          22279002   13
+ 2.5300E-02 1.5300E+01 1.3000E+00                                 22279002   14
+ENDDATA              3                                            22279002   15
+ENDSUBENT           14                                            2227900299999
+ENDENTRY             2                                            2227999999999
+ENDREQUEST           1                                            Z999999999999

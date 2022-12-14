@@ -1,0 +1,98 @@
+REQUEST           1001   20010914          3     143141               0  0    0
+ENTRY            30234     930217                                 30234000    1
+SUBENT        30234001     930217                                 30234001    1
+BIB                 18         36                                 30234001    2
+TITLE      ISOMER RATIOS IN (N,GAMMA) REACTIONS AT 25 KEV         30234001    3
+AUTHOR     (A.LAKSHMANA RAO,J.RAMA RAO)                           30234001    4
+INSTITUTE  (3INDAUW)                                              30234001    5
+EXP-YEAR   (72)                                                   30234001    6
+REFERENCE  (J,PR/C,6,572,7208)                                    30234001    7
+SAMPLE     NATURAL ELEMENTS IN METALLIC POWDER OR OXIDE FORM WITH 30234001    8
+           A CHEMICAL PURITY GREATER THAN 99.9 PERCENT            30234001    9
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)                           30234001   10
+MONIT-REF  (21150002,J.C.ROBERTSON,J,NP,71,417,6509)              30234001   11
+INC-SOURCE (PHOTO) ANTIMONY-BERYLLIUM PHOTONEUTRON SOURCE OF      30234001   12
+           STRENGTH 20 CURIES.                                    30234001   13
+METHOD     (ACTIV) ACTIVATION METHOD PLUS ABSOLUTE GAMMA COUNTING.30234001   14
+           SIMULTANEOUSLY WITH THE RECORDING OF THE GAMMA-RAY     30234001   15
+           SPECTRA,THE HALF-LIFE WAS STUDIED IN A SEPARATE CHANNEL30234001   16
+           FOR UNIQUE IDENTIFICATION OF THE REACTION PRODUCT      30234001   17
+DETECTOR   (SCIN) SCINTILLATION SPECTROMETER CONSISTING OF A WELL-30234001   18
+           TYPE NAI(TL) CRYSTAL AND A 100-CHANNEL ANALYZER        30234001   19
+PART-DET   (DG) DECAY GAMMAS                                      30234001   20
+ANALYSIS   CROSS SECTION DETERMINED FROM AREA OF A PROMINENT PEAK 30234001   21
+           FROM THE GAMMA SPECTRUM CHARACTERISTIC OF THE PRODUCT  30234001   22
+           NUCLEUS                                                30234001   23
+CORRECTION EFFECTIVE PHOTOPEAK EFFICIENCY CORRECTED FOR SOURCE    30234001   24
+           ABSORPTION AND CASCADE EFFECTS                         30234001   25
+ERR-ANALYS ERROR GIVEN IS TOTAL ERROR COMPOUNDED OF,              30234001   26
+           STATISTICAL ERROR = 0.5 TO 3 PERCENT                   30234001   27
+           ERROR IN CALCULATION PARAMETERS = LESS THAN 1 PERCENT  30234001   28
+           ERROR IN NEUTRON FLUX = 7 PERCENT                      30234001   29
+           ERRORS IN MEASURED EFFICIENCY VALUES = 6 PERCENT       30234001   30
+           ERROR IN THE DECAY PARAMETERS = LESS THAN 10 PERCENT   30234001   31
+COMMENT    COMPARE RESULTS WITH MODELS OF HUIZENGA-VANDENBOSCH AND30234001   32
+           OF PONITZ. BETTER AGREEMENT WITH THE LATER ONE.        30234001   33
+STATUS     DATA TAKEN FROM PR/C 6 572 8/72                        30234001   34
+HISTORY    (730621C) FM.                                          30234001   35
+           (930114U) HW.-OBSOLETE KEYWORDS/CODES CONVERTED,       30234001   36
+           MONIT-REF GIVEN IN SUBENT OO1, MAJOR ALTERATIONS IN    30234001   37
+           SUBENTS 020 AND 021.-                                  30234001   38
+ENDBIB              36                                            30234001   39
+COMMON               4          3                                 30234001   40
+EN         EN-RSL     MONIT      MONIT-ERR                        30234001   41
+KEV        KEV        MB         MB                               30234001   42
+25.        5.         832.       26.                              30234001   43
+ENDCOMMON            3                                            30234001   44
+ENDSUBENT           43                                            3023400199999
+SUBENT        30234020     930217                                 30234020    1
+BIB                  3          4                                 30234020    2
+REACTION   (63-EU-151(N,G)63-EU-152-M2,,SIG)                      30234020    3
+HALF-LIFE  (HL1,63-EU-152-M2) FOR THE HIGH SPIN ISOMERIC STATE 8- 30234020    4
+HISTORY    (930114A)HW.- REACTION SF4 AND COMMON SECTION ALTERED, 30234020    5
+           KEYWORD 'HALF-LIFE' ADDED.-                            30234020    6
+ENDBIB               4                                            30234020    7
+COMMON               1          3                                 30234020    8
+HL1                                                               30234020    9
+MIN                                                               30234020   10
+96.                                                               30234020   11
+ENDCOMMON            3                                            30234020   12
+DATA                 2          1                                 30234020   13
+DATA       DATA-ERR                                               30234020   14
+MB         MB                                                     30234020   15
+60.        8.                                                     30234020   16
+ENDDATA              3                                            30234020   17
+ENDSUBENT           16                                            3023402099999
+ENDENTRY             2                                            3023499999999
+ENTRY            41031     901221                                 41031000    1
+SUBENT        41031001     901221                                 41031001    1
+BIB                  9         11                                 41031001    2
+TITLE       INVESTIGATION OF THE EU-152-M1, EU-152-M2 ISOMER      41031001    3
+            YIELDS IN THE (N,GAMMA) REACTION                      41031001    4
+AUTHOR     (I.N.VISHNEVSKIY,V.A.ZHELTONOZHSKIY,S.V.RESIT'KO,      41031001    5
+           V.B.KHARLANOV)                                         41031001    6
+INSTITUTE  (4CCPIJI)                                              41031001    7
+REFERENCE  (C,89TASHKE,,298,8904)                                 41031001    8
+FACILITY   (REAC)                                                 41031001    9
+ERR-ANALYS (DATA-ERR) NOT SPECIFIED                               41031001   10
+METHOD     (ACTIV)                                                41031001   11
+STATUS      DATA ARE TAKEN FROM THE REFERENCE                     41031001   12
+HISTORY    (901221C) + + COMPILED AT THE CENTRE- CJD + +          41031001   13
+ENDBIB              11                                            41031001   14
+NOCOMMON             0          0                                 41031001   15
+ENDSUBENT           14                                            4103100199999
+SUBENT        41031002     901221                                 41031002    1
+BIB                  3          3                                 41031002    2
+REACTION   (63-EU-151(N,G)63-EU-152-M2,,SIG)                      41031002    3
+INC-SPECT   FAST NEUTRON REACTOR SPECTRUM                         41031002    4
+MONITOR    (63-EU-151(N,G)63-EU-152-M1,,SIG)                      41031002    5
+ENDBIB               3                                            41031002    6
+NOCOMMON             0          0                                 41031002    7
+DATA                 3          1                                 41031002    8
+EN-DUMMY   DATA       DATA-ERR                                    41031002    9
+EV         B          B                                           41031002   10
+    1.0E+06   3.9        0.3                                      41031002   11
+ENDDATA              3                                            41031002   12
+ENDSUBENT           11                                            4103100299999
+ENDENTRY             2                                            4103199999999
+ENDREQUEST           1                                            Z999999999999

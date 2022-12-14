@@ -1,0 +1,142 @@
+REQUEST           1001   20010914          3     142422               0  0    0
+ENTRY            10261   20000609   20001114                      10261000    1
+SUBENT        10261001   20000609   20001114                      10261001    1
+BIB                 12         23                                 10261001    2
+INSTITUTE  (1CANCRC)                                              10261001    3
+REFERENCE  (J,JNE,27,409,197306)                                  10261001    4
+AUTHOR     (D.C.SANTRY,R.D.WERNER)                                10261001    5
+TITLE      Neutron capture cross section of 135Xe                 10261001    6
+SAMPLE     Sample prepared by mass separation and ion             10261001    7
+            implantation in high purity Al foils.                 10261001    8
+METHOD     (BURN) Burnup by activity depletion                    10261001    9
+DETECTOR   (GELI) Ge(Li) gamma spectrometer.                      10261001   10
+MONITOR    (27-CO-59(N,G)27-CO-60,,SIG)                           10261001   11
+ERR-ANALYS (DATA-ERR) Data error results from 2 sources           10261001   12
+           - error of 1.4% in integrated neutron flux,            10261001   13
+           - counting errors involved in measuring relative       10261001   14
+             activities of 2 sources before and after one of the  10261001   15
+             sources was irradiated with neutrons. The activity of10261001   16
+             each sample was measured with a statistical error of 10261001   17
+             1.5% at the 0.9 probability level.                   10261001   18
+ADD-RES     Half-life determination of the 135Xe sources gave a   10261001   19
+             value of 9.20+-0.03 hr.                              10261001   20
+STATUS     (APRVD) Approved by author                             10261001   21
+HISTORY    (19730913C)                                            10261001   22
+           (19821118A) Converted to REACTION formalism.           10261001   23
+           (20000209A) BIB update. Converted to new date formats. 10261001   24
+                       Data units corrected.                      10261001   25
+ENDBIB              23                                            10261001   26
+NOCOMMON             0          0                                 10261001   27
+ENDSUBENT           26                                            1026100199999
+SUBENT        10261002   20000609   20001114                      10261002    1
+BIB                  4         10                                 10261002    2
+REACTION   (54-XE-135(N,G)54-XE-136,,SIG,,SPA)                    10261002    3
+INC-SPECT  Thermalized neutron spectrum. Neutron temperature -    10261002    4
+            318+-5 K.                                             10261002    5
+COMMENT    Calculated value for 2200 m/sec c/s = 2.64e+06 b,      10261002    6
+             using spin = 5/8 for 0.084 ev resonance and          10261002    7
+                   spectrum factors:  R = 0.0036                  10261002    8
+                                      S = -1.0 (Story est.)       10261002    9
+                                      G = 1.175 (Westcott)        10261002   10
+           If spin = 3/8 assumed c/s = 2.69E+06.                  10261002   11
+HISTORY    (19780405A) Energy corrected                           10261002   12
+ENDBIB              10                                            10261002   13
+NOCOMMON             0          0                                 10261002   14
+DATA                 6          1                                 10261002   15
+KT         KT-ERR     DATA       DATA-ERR   MONIT      MONIT-ERR  10261002   16
+K          K          B          B          B          B          10261002   17
+ 318.       5.        3.09    +060.07    +06 37.09      0.27      10261002   18
+ENDDATA              3                                            10261002   19
+ENDSUBENT           18                                            1026100299999
+ENDENTRY             2                                            1026199999999
+ENTRY            12007     841019                                 12007000    1
+SUBENT        12007001     841019                                 12007001    1
+BIB                  6          9                                 12007001    2
+INSTITUTE  (1CANMCM)                                              12007001    3
+REFERENCE  (J,CJP,33,640,55)                                      12007001    4
+AUTHOR     (J.PETRUSKA,E.MELAIKA,R.TOMLINSON)                     12007001    5
+TITLE      THE FISSION YIELDS OF THE CESIUM ISOTOPES FORMED IN THE12007001    6
+           THERMAL NEUTRON FISSION OF U235 AND THE NEUTRON        12007001    7
+           ABSORPTION CROSS SECTION OF XE135.                     12007001    8
+STATUS     (SCSRS)                                                12007001    9
+HISTORY    (760802T) TRANSLATED FROM SCISRS                       12007001   10
+           (830802A) CONVERTED TO REACTION FORMALISM              12007001   11
+ENDBIB               9                                            12007001   12
+NOCOMMON             0          0                                 12007001   13
+ENDSUBENT           12                                            1200700199999
+SUBENT        12007002     841019                                 12007002    1
+BIB                  5          7                                 12007002    2
+REACTION  1((54-XE-135(N,G)54-XE-136,,SIG,,MXW)/                  12007002    3
+           (5-B-10(N,ABS),,SIG,,MXW))                             12007002    4
+          2(54-XE-135(N,G)54-XE-136,,SIG,,MXW)                    12007002    5
+MONITOR   2(5-B-10(N,ABS),,SIG,,MXW)                              12007002    6
+FACILITY   (SPECM)    MASS SPECTROMETER                           12007002    7
+INC-SPECT  THERMAL SPECTRUM,NEUTRON TEMPERATURE 330DEG(K).        12007002    8
+HISTORY    (841019A) MONITOR ADDED TO BIB.                        12007002    9
+ENDBIB               7                                            12007002   10
+NOCOMMON             0          0                                 12007002   11
+DATA                 5          1                                 12007002   12
+EN-DUMMY   DATA      1DATA-ERR  1DATA      2MONIT                 12007002   13
+MEV        NO-DIM     NO-DIM     B          B                     12007002   14
+ 2.53   -08 866.       40.        2.90   +06 755.                 12007002   15
+ENDDATA              3                                            12007002   16
+ENDSUBENT           15                                            1200700299999
+ENDENTRY             2                                            1200799999999
+ENTRY            12009     830802                                 12009000    1
+SUBENT        12009001     830802                                 12009001    1
+BIB                  7          8                                 12009001    2
+INSTITUTE  (1CANMCM)                                              12009001    3
+REFERENCE  (J,CJP,37,531,59)                                      12009001    4
+AUTHOR     (H.FICKEL,R.TOMLINSON)                                 12009001    5
+TITLE      THERMAL NEUTRON ABSORPTION CROSS SECTION OF XE135.     12009001    6
+FACILITY   (SPECM) MASS SPECTROMETER                              12009001    7
+STATUS     (SCSRS)                                                12009001    8
+HISTORY    (760802T) TRANSLATED FROM SCISRS                       12009001    9
+           (830802A) CONVERTED TO REACTION FORMALISM              12009001   10
+ENDBIB               8                                            12009001   11
+NOCOMMON             0          0                                 12009001   12
+ENDSUBENT           11                                            1200900199999
+SUBENT        12009002     830802                                 12009002    1
+BIB                  2          2                                 12009002    2
+REACTION   (54-XE-135(N,G)54-XE-136,,SIG,,MXW)                    12009002    3
+MISC-COL   THERMAL SPECTRUM TEMPERATURE                           12009002    4
+ENDBIB               2                                            12009002    5
+NOCOMMON             0          0                                 12009002    6
+DATA                 4          2                                 12009002    7
+EN-DUMMY   DATA       DATA-ERR   MISC                             12009002    8
+EV         B          B          DEG-K                            12009002    9
+ 0.0253     3.15   +06 0.06   +06 393.                            12009002   10
+ 0.0253     3.27   +06 0.11   +06 410.                            12009002   11
+ENDDATA              4                                            12009002   12
+ENDSUBENT           11                                            1200900299999
+ENDENTRY             2                                            1200999999999
+ENTRY            12015     830802                                 12015000    1
+SUBENT        12015001     830802                                 12015001    1
+BIB                  6          9                                 12015001    2
+INSTITUTE  (1USAANL)                                              12015001    3
+REFERENCE  (J,JIN,2,271,56)                                       12015001    4
+AUTHOR     (M.FREEDMAN,A.TURKEVICH,R.ADAMS,N.SUGARMAN,S.RAYNOR,   12015001    5
+           L.STANG)                                               12015001    6
+TITLE      THE SLOW-NEUTRON ABSORPTION CROSS-SECTION OF 9.2-H     12015001    7
+           XE135 BY THE METHOD OF NEGATIVE ACTIVATION.            12015001    8
+STATUS     (SCSRS)                                                12015001    9
+HISTORY    (760802T) TRANSLATED FROM SCISRS                       12015001   10
+           (830802A) CONVERTED TO REACTION FORMALISM              12015001   11
+ENDBIB               9                                            12015001   12
+NOCOMMON             0          0                                 12015001   13
+ENDSUBENT           12                                            1201500199999
+SUBENT        12015002     830802                                 12015002    1
+BIB                  3          3                                 12015002    2
+REACTION   (54-XE-135(N,G)54-XE-136,,SIG,,MXW)                    12015002    3
+INC-SPECT  THERMAL SPECTRUM TEMPERATURE = 400 DEGR-K.             12015002    4
+METHOD     NEGATIVE ACTIVATION                                    12015002    5
+ENDBIB               3                                            12015002    6
+NOCOMMON             0          0                                 12015002    7
+DATA                 3          1                                 12015002    8
+EN-DUMMY   DATA       DATA-ERR                                    12015002    9
+EV         B          B                                           12015002   10
+ 0.0253     2.58   +06 0.2    +06                                 12015002   11
+ENDDATA              3                                            12015002   12
+ENDSUBENT           11                                            1201500299999
+ENDENTRY             2                                            1201599999999
+ENDREQUEST           1                                            Z999999999999

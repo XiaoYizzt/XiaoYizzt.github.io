@@ -1,0 +1,184 @@
+REQUEST           1001   20010914          3     143912               0  0    0
+ENTRY            12162     821012                                 12162000    1
+SUBENT        12162001     821012                                 12162001    1
+BIB                  8          9                                 12162001    2
+INSTITUTE  (1USAANL)                                              12162001    3
+REFERENCE  (J,JNE,19,767,65)                                      12162001    4
+AUTHOR     (D.C.STUPEGIA,M.SCHMIDT,A.A.MADSON)                    12162001    5
+TITLE      FAST NEUTRON CAPTURE IN RHENIUM.                       12162001    6
+METHOD     (ACTIV).                                               12162001    7
+DETECTOR   (NAICR).                                               12162001    8
+STATUS     (SCSRS)                                                12162001    9
+HISTORY    (760803T) TRANSLATED FROM SCISRS                       12162001   10
+           (821012A) CONVERTED TO REACTION FORMALISM              12162001   11
+ENDBIB               9                                            12162001   12
+NOCOMMON             0          0                                 12162001   13
+ENDSUBENT           12                                            1216200199999
+SUBENT        12162003     821012                                 12162003    1
+BIB                  3          4                                 12162003    2
+REACTION   (75-RE-187(N,G)75-RE-188-M,,SIG)                       12162003    3
+DECAY-DATA (75-RE-188-M,18.7MIN,,64.)                             12162003    4
+MONITOR    (75-RE-187(N,G)75-RE-188,,SIG)                         12162003    5
+            RELATIVE TO THERMAL CAPTURE=1.25B                     12162003    6
+ENDBIB               4                                            12162003    7
+COMMON               3          3                                 12162003    8
+HL         EN-NRM     MONIT                                       12162003    9
+MIN        EV         B                                           12162003   10
+   18.7     0.0253     1.25                                       12162003   11
+ENDCOMMON            3                                            12162003   12
+DATA                 3         27                                 12162003   13
+EN         EN-RSL     DATA                                        12162003   14
+MEV        MEV        B                                           12162003   15
+ 4.9    -03 3.5    -03 9.83   -02                                 12162003   16
+ 1.22   -02 2.4    -03 6.81   -02                                 12162003   17
+ 3.0    -02 5.     -03 3.67   -02                                 12162003   18
+ 4.3    -02 9.     -03 3.29   -02                                 12162003   19
+ 9.3    -02 8.     -03 2.06   -02                                 12162003   20
+ 1.78   -01 2.8    -02 2.10   -02                                 12162003   21
+ 2.65   -01 3.0    -02 1.97   -02                                 12162003   22
+ 2.79   -01 3.2    -02 1.92   -02                                 12162003   23
+ 3.75   -01 3.0    -02 1.54   -02                                 12162003   24
+ 4.72   -01 2.8    -02 1.2    -02                                 12162003   25
+ 5.30   -01 4.2    -02 1.06   -02                                 12162003   26
+ 5.69   -01 3.0    -02 1.15   -02                                 12162003   27
+ 6.09   -01 1.4    -02 1.43   -02                                 12162003   28
+ 6.69   -01 3.2    -02 1.08   -02                                 12162003   29
+ 7.03   -01 3.0    -02 1.00   -02                                 12162003   30
+ 7.66   -01 3.3    -02 1.08   -02                                 12162003   31
+ 8.70   -01 3.6    -02 1.02   -02                                 12162003   32
+ 9.77   -01 2.5    -02 8.9    -03                                 12162003   33
+ 1.090  +00 5.4    -02 8.0    -03                                 12162003   34
+ 1.160  +00 5.0    -02 7.6    -03                                 12162003   35
+ 1.206  +00 2.6    -02 8.9    -03                                 12162003   36
+ 1.258  +00 3.5    -02 8.6    -03                                 12162003   37
+ 1.758  +00 6.0    -02 6.0    -03                                 12162003   38
+ 1.992  +00 3.1    -02 6.1    -03                                 12162003   39
+ 2.087  +00 3.1    -02 5.9    -03                                 12162003   40
+ 2.148  +00 6.8    -02 4.5    -03                                 12162003   41
+ 2.644  +00 7.4    -02 3.9    -03                                 12162003   42
+ENDDATA             29                                            12162003   43
+ENDSUBENT           42                                            1216200399999
+ENDENTRY             2                                            1216299999999
+ENTRY            12173     821012                                 12173000    1
+SUBENT        12173001     821012                                 12173001    1
+BIB                  6          7                                 12173001    2
+INSTITUTE  (1USABNL)                                              12173001    3
+REFERENCE  (J,PR/B,136,18,6410)                                   12173001    4
+AUTHOR     (K.TAKAHASHI,M.MCKEOWN,G.SCHARFF-GOLDHABER)            12173001    5
+TITLE      ISOMER RE188M.                                         12173001    6
+STATUS     (SCSRS)                                                12173001    7
+HISTORY    (760803T) TRANSLATED FROM SCISRS                       12173001    8
+           (821012A) CONVERTED TO REACTION FORMALISM              12173001    9
+ENDBIB               7                                            12173001   10
+NOCOMMON             0          0                                 12173001   11
+ENDSUBENT           10                                            1217300199999
+SUBENT        12173002     821012                                 12173002    1
+BIB                  4          7                                 12173002    2
+REACTION  1((75-RE-187(N,G)75-RE-188-G,,SIG,,SPA)/                12173002    3
+           (75-RE-187(N,G)75-RE-188-M,,SIG,,SPA))                 12173002    4
+          2(75-RE-187(N,G)75-RE-188-M,,SIG,,SPA)                  12173002    5
+METHOD     (ACTIV) ACTIVATION                                     12173002    6
+DECAY-DATA (75-RE-188-G,16.7HR,DG,155.)                           12173002    7
+           (75-RE-188-M,18.7MIN,DG,106.,0.57)                     12173002    8
+MONITOR   2(75-RE-187(N,G)75-RE-188-G,,SIG,,SPA)                  12173002    9
+ENDBIB               7                                            12173002   10
+NOCOMMON             0          0                                 12173002   11
+DATA                 6          1                                 12173002   12
+EN-DUMMY   DATA      1DATA-ERR  1DATA      2DATA-ERR  1MONIT     212173002   13
+EV         NO-DIM     NO-DIM     B          B          B          12173002   14
+ 0.0253     55.        7.         1.25       0.25       69.       12173002   15
+ENDDATA              3                                            12173002   16
+ENDSUBENT           15                                            1217300299999
+ENDENTRY             2                                            1217399999999
+ENTRY            20718     860210                                 20718000    1
+SUBENT        20718001     860210                                 20718001    1
+BIB                 14         64                                 20718001    2
+INSTITUTE  (2AUSPVI) I.PHYSIKALISCHES INSTITUTE OF THE UNIVER-    20718001    3
+            SITY OF VIENNA.                                       20718001    4
+           .DIAMETER-16MM, EXCEPT FOR IN(12MM).                   20718001    5
+REFERENCE  (J,APA,52,23,80)                                       20718001    6
+           (W,WAGNER,761108)                                      20718001    7
+           (J,NP/A,264,105,761108) FOR METHOD.                    20718001    8
+AUTHOR     (M.WAGNER,H.WARHANEK)                                  20718001    9
+TITLE      -ACTIVATION MEASUREMENTS OF NEUTRON CAPTURE CROSS      20718001   10
+            SECTIONS AT 14.6 MEV AND A CRITICAL SURVEY OF SUCH    20718001   11
+            DATA IN THE LITERATURE-                               20718001   12
+FACILITY   (CCW  ) COCKCROFT-WALTON TYPE ACCELERATOR (200KEV) OF  20718001   13
+            THE VIENNA INSTITUT FUER RADIUMFORSCHUNG UND          20718001   14
+            KERNPHYSIK.                                           20718001   15
+INC-SOURCE (D-T  ) A  T(D,N)4HE REACTION PRODUCES 14 MEV          20718001   16
+            NEUTRONS.                                             20718001   17
+SAMPLE     .SHAPE-METAL SHEETS OR POWDER IN THIN-WALLED PLEXI-    20718001   18
+            GLASS CONTAINERS, NATURAL ISOTOPIC COMPOSITION.       20718001   19
+METHOD     (ACTIV) ACTIVATION METHOD WAS USED, TO MEASURE THE     20718001   20
+            N-GAMMA CROSS SECTIONS.                               20718001   21
+DETECTOR   (GELI ) DESCRIPTION OF THE GELI-SPECTROMETER IN        20718001   22
+            SCHWERER'S THESIS, UNIVERSITY OF VIENNA, 1974.        20718001   23
+MONITOR    (13-AL-27(N,A)11-NA-24,,SIG)                           20718001   24
+            THE SAMPLES WERE SANDWICHED BETWEEN 2                 20718001   25
+            AL-FOILS (PURITY BETTER THAN 99.85PC) DURING          20718001   26
+            IRRADIATION.THE ACTIVITY OF THE REACTION 27AL(N,      20718001   27
+            ALPHA)24NA WAS MEASURED BY A 7.6CMX7.6CM NAI(TL)      20718001   28
+            CRYSTAL AND THE CROSS SECTION FOR THIS REACTION       20718001   29
+            TAKEN AS 114.2MB+-1.2PC AT 14.6+-0.2MEV(H.VONACH ET   20718001   30
+            AL.,Z.PHYS.237(1970)155)TAKEN,TO DETERMINE THE        20718001   31
+            MAGNITUDE OF THE INCIDENT FLUX.                       20718001   32
+STATUS     .DATA TAKEN FROM PRIVATE COMMUNICATION.                20718001   33
+HISTORY    (760120C)                                              20718001   34
+           (771114E)                                              20718001   35
+           (860121U) REFERENCE ADDED                              20718001   36
+           (860210E)                                              20718001   37
+CORRECTION .FOR SELF-ABSORPTION OF GAMMA-RAYS IN THE SAMPLES.     20718001   38
+           .(BETWEEN 0.2 AND 62.7PC).                             20718001   39
+           .FOR LOW ENERGY NEUTRONS-                              20718001   40
+           .THERMAL AND EPITHERMAL-BETWEEN 0.15 AND 3.91PC.       20718001   41
+           .PRODUCED IN TARGET-BETWEEN 51.26 AND 8.5PC.           20718001   42
+           .PRODUCED IN SAMPLE-BETWEEN 3.96 AND 23.1PC.           20718001   43
+           .PRODUCED IN SAMPLE CONTAINER-BETWEEN 1.35 AND 4.5PC.  20718001   44
+ERR-ANALYS .FOR THE INCIDENT FLUX-                                20718001   45
+             1.2PC UNCERTAINTY FOR THE STANDARD,                  20718001   46
+             1.5PC FOR THE EFFICIENCY OF THE NAI(TL) CRYSTAL,     20718001   47
+             1.0PC STATISTICAL ERROR FOR COUNTING THE 24NA-       20718001   48
+              ACTIVITY,                                           20718001   49
+             BETWEEN 1 AND 3 PC FOR THE SPATIAL FLUX              20718001   50
+              DISTRIBUTION IN THE SAMPLES.                        20718001   51
+           .FOR THE ACTIVITY MEASUREMENT-                         20718001   52
+             5.0PC FOR THE EFFICIENCY OF THE GELI-DETECTORS,      20718001   53
+           .45-SC AS SC2-O3 POWDER-PURITY BETTER THAN 99.99PC.    20718001   54
+           .75-AS AS AS2-O3 POWDER-99.999PC PURITY.               20718001   55
+           .81-BR AS K-BR POWDER-99.998PC.                        20718001   56
+           .95-ZR AS METAL SHEET-99.5PC.                          20718001   57
+           .100-MO AS METAL SHEET-99.9PC.                         20718001   58
+           .100-TC AS METAL SHEET-99.9PC.                         20718001   59
+           .104-RU AS POWDER-99.9PC.                              20718001   60
+           .115-IN AS METAL SHEET-99.999PC.                       20718001   61
+           .123-SB AS POWDER-99.9999PC.                           20718001   62
+           .133-CS AS CS-CL POWDER-99.9PC.                        20718001   63
+           .141-PR AS PR6-O11 POWDER-99.999PC.                    20718001   64
+           .181-TA AS METAL SHEET-PURITY BETTER THAN 99.9PC.      20718001   65
+           .187-RE AS POWDER-99.95PC.                             20718001   66
+ENDBIB              64                                            20718001   67
+COMMON               2          3                                 20718001   68
+EN         EN-ERR                                                 20718001   69
+MEV        MEV                                                    20718001   70
+ 1.4600E+01 2.0000E-01                                            20718001   71
+ENDCOMMON            3                                            20718001   72
+ENDSUBENT           71                                            2071800199999
+SUBENT        20718015     771114                                 20718015    1
+BIB                  3          6                                 20718015    2
+REACTION   (75-RE-187(N,G)75-RE-188-M,,SIG)                       20718015    3
+HALF-LIFE  (HL,75-RE-188-M)                                       20718015    4
+           .HALFLIFE TAKEN BY AUTHOR FROM M.R.SCHMORAK, NUCLEAR   20718015    5
+            DATA SHEETS 10(1973),NO.6,553.                        20718015    6
+HISTORY    (760120C)                                              20718015    7
+           (771114E)                                              20718015    8
+ENDBIB               6                                            20718015    9
+NOCOMMON             0          0                                 20718015   10
+DATA                 3          1                                 20718015   11
+DATA       DATA-ERR   HL                                          20718015   12
+MB         MB         MIN                                         20718015   13
+ 2.6400E-01 7.0000E-02 1.8600E+01                                 20718015   14
+ENDDATA              3                                            20718015   15
+ENDSUBENT           14                                            2071801599999
+ENDENTRY             2                                            2071899999999
+ENDREQUEST           1                                            Z999999999999

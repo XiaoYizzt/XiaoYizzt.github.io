@@ -1,0 +1,260 @@
+REQUEST           1001   20010914          3     142222               0  0    0
+ENTRY            11447     850410                                 11447000    1
+SUBENT        11447001     850410                                 11447001    1
+BIB                  6          8                                 11447001    2
+INSTITUTE  (1USAANL)                                              11447001    3
+REFERENCE  (J,PR,72,888,4711)                                     11447001    4
+AUTHOR     (L.SEREN,H.N.FRIEDLANDER,S.H.TURKEL)                   11447001    5
+METHOD     (ACTIV)                                                11447001    6
+STATUS     (SCSRS)                                                11447001    7
+HISTORY    (760715T) TRANSLATED FROM SCISRS                       11447001    8
+           (820813A) CONVERTED TO REACTION FORMALISM              11447001    9
+           (840410A) ENERGY CORRECTED.                            11447001   10
+ENDBIB               8                                            11447001   11
+COMMON               1          3                                 11447001   12
+EN-DUMMY                                                          11447001   13
+EV                                                                11447001   14
+ 0.0253                                                           11447001   15
+ENDCOMMON            3                                            11447001   16
+ENDSUBENT           15                                            1144700199999
+SUBENT        11447089     820813                                 11447089    1
+BIB                  3          3                                 11447089    2
+REACTION   (52-TE-130(N,G)52-TE-131-M,,SIG,,SPA)                  11447089    3
+INC-SPECT  REACTOR SPECTRUM                                       11447089    4
+DECAY-DATA (52-TE-131-M,30.HR,B)                                  11447089    5
+ENDBIB               3                                            11447089    6
+NOCOMMON             0          0                                 11447089    7
+DATA                 2          1                                 11447089    8
+DATA-MAX   DATA-ERR                                               11447089    9
+B          PER-CENT                                               11447089   10
+ 0.008      40.                                                   11447089   11
+ENDDATA              3                                            11447089   12
+ENDSUBENT           11                                            1144708999999
+ENDENTRY             2                                            1144799999999
+ENTRY            11994     860812                                 11994000    1
+SUBENT        11994001     860812                                 11994001    1
+BIB                 10         12                                 11994001    2
+INSTITUTE  (1USABNL)                                              11994001    3
+REFERENCE  (J,PR,128,761,62)                                      11994001    4
+AUTHOR     (M.SEHGAL)                                             11994001    5
+TITLE      ISOMERIC CROSS-SECTION RATIOS IN (N,GAMMA) REACTIONS.  11994001    6
+FACILITY   (REAC)                                                 11994001    7
+INC-SPECT  THERMAL SPECTRUM.                                      11994001    8
+METHOD     (ACTIV)                                                11994001    9
+DETECTOR   (NAICR)                                                11994001   10
+STATUS     (SCSRS)                                                11994001   11
+HISTORY    (760802T) TRANSLATED FROM SCISRS                       11994001   12
+           (830802A) CONVERTED TO REACTION FORMALISM              11994001   13
+           (860812A) ENERGY MOVED TO SUBENTRY 001, BIB UPDATE.    11994001   14
+ENDBIB              12                                            11994001   15
+COMMON               1          3                                 11994001   16
+EN-DUMMY                                                          11994001   17
+EV                                                                11994001   18
+ 0.0253                                                           11994001   19
+ENDCOMMON            3                                            11994001   20
+ENDSUBENT           19                                            1199400199999
+SUBENT        11994006     860812                                 11994006    1
+BIB                  3          3                                 11994006    2
+REACTION   (52-TE-130(N,G)52-TE-131-M,,SIG,,MXW)                  11994006    3
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)                         11994006    4
+DECAY-DATA (52-TE-131-M,30.HR)                                    11994006    5
+ENDBIB               3                                            11994006    6
+NOCOMMON             0          0                                 11994006    7
+DATA                 3          1                                 11994006    8
+DATA       DATA-ERR   MONIT                                       11994006    9
+MB         MB         B                                           11994006   10
+ 40.        10.        97.                                        11994006   11
+ENDDATA              3                                            11994006   12
+ENDSUBENT           11                                            1199400699999
+ENDENTRY             2                                            1199499999999
+ENTRY            20670     840127                                 20670000    1
+SUBENT        20670001     840127                                 20670001    1
+BIB                 15         96                                 20670001    2
+INSTITUTE  (2AUSIRK)                                              20670001    3
+REFERENCE  (J,NP/A,264,105,760621)                                20670001    4
+           (J,OSA,7,121,70) DESCRIBES TARGET CONSTRUCTION.        20670001    5
+           (J,OAW,174,567,65) DESCRIBES NEUTRON PRODUCTION        20670001    6
+             TECHNIQUE.                                           20670001    7
+           (T,SCHWERER,,74) CONTAINS DESCRIPTION OF DETECTOR      20670001    8
+            SYSTEM (GE(LI)-SPECTROMETER).                         20670001    9
+AUTHOR     (O.SCHWERER,M.WINKLER-ROHATSCH,H.WARHANEK,G.WINKLER)   20670001   10
+TITLE      -MEASUREMENT OF CROSS SECTIONS FOR 14 MEV NEUTRON      20670001   11
+             CAPTURE-                                             20670001   12
+FACILITY   (CCW  ) COCKCROFT-WALTON TYPE ACCELERATOR (200KEV) OF  20670001   13
+            THE VIENNA INSTITUT FUER RADIUMFORSCHUNG UND          20670001   14
+            KERNPHYSIK.                                           20670001   15
+INC-SOURCE (D-T  ) A  T(D,N)4HE REACTION PRODUCES 14 MEV          20670001   16
+            NEUTRONS.                                             20670001   17
+SAMPLE     .SHAPE-METAL SHEETS OR POWDER IN THIN-WALLED PLEXI-    20670001   18
+            GLASS CONTAINERS, NATURAL ISOTOPIC COMPOSITION.       20670001   19
+           .DIAMETER-16MM.                                        20670001   20
+           .37CL AS BACL2 POWDER-99.998PC PURITY.                 20670001   21
+           .41K  AS KI    POWDER-SUPERPURE ACC. TO MERCK          20670001   22
+            LABORATORIES, GERMANY.                                20670001   23
+           .50TI AS METAL SHEET -99.97PC.                         20670001   24
+           .51V  AS V2O5  POWDER-99.0PC .                         20670001   25
+           .55MN AS MN3O4 POWDER-99.995PC.                        20670001   26
+           .71GA AS GA2O3 POWDER-99.999PC.                        20670001   27
+           .87RB AS RBCL  POWDER-SUPERPURE.                       20670001   28
+           .89Y  AS Y2O3  POWDER-99.9999PC.                       20670001   29
+           .127I AS KI    POWDER-SUPERPURE.                       20670001   30
+           .130TE                                                 20670001   31
+                 AS TEO2  POWDER-99.999PC.                        20670001   32
+           .138BA AS BACL2 POWDER-99.998PC.                       20670001   33
+           .139LA AS LA2O3 POWDER-99.999PC.                       20670001   34
+           .142CE AS CEO2  POWDER-99.9PC.                         20670001   35
+           .186W  AS WO3   POWDER-99.9PC.                         20670001   36
+           .198PT AS METAL SHEET -99.97PC.                        20670001   37
+           .197AU AS METAL SHEET -99.99PC.                        20670001   38
+METHOD     (ACTIV) ACTIVATION METHOD WAS USED, TO MEASURE THE     20670001   39
+            N-GAMMA CROSS SECTIONS.                               20670001   40
+DETECTOR   (GELI ) DESCRIPTION OF THE GELI-SPECTROMETER IN        20670001   41
+            SCHWERER S THESIS, UNIVERSITY OF VIENNA, 1974.        20670001   42
+            FOR 50TI,51V,89Y,130TE,186W,197AU THE RESOLUTION OF   20670001   43
+            THE DETECTOR SYSTEM IS 4.2KEV AT 1.33 MEV (FWHM).     20670001   44
+            FOR 37CL,41K,55MN,71GA,87RB,127I,138BA,139LA,         20670001   45
+            142CE,198PT THE RESOLUTION IS 2.2 KEV.                20670001   46
+MONITOR    (13-AL-27(N,A)11-NA-24,,SIG)                           20670001   47
+            THE SAMPLES WERE SANDWICHED BETWEEN 2                 20670001   48
+            AL-FOILS (PURITY BETTER THAN 99.85PC) DURING          20670001   49
+            IRRADIATION.THE ACTIVITY OF THE REACTION 27AL(N,      20670001   50
+            ALPHA)24NA WAS MEASURED BY A 7.6CMX7.6CM NAI(TL)      20670001   51
+            CRYSTAL AND THE CROSS SECTION FOR THIS REACTION       20670001   52
+            TAKEN AS 114.2MB+-1.2PC AT 14.6+-0.2MEV(H.VONACH ET   20670001   53
+            AL.,Z.PHYS.237(1970)155)TAKEN,TO DETERMINE THE        20670001   54
+            MAGNITUDE OF THE INCIDENT FLUX.                       20670001   55
+             2.0PC FOR THE AMOUNT OF SELFABSORPTION IN 199PT,     20670001   56
+             UP TO 5.0 PC FOR THE LITERATURE DECAY CONSTANTS.     20670001   57
+           .FOR THE CORRECTIONS OF LOW ENERGY NEUTRONS-           20670001   58
+             70.0PC FOR 198PT,                                    20670001   59
+             14.0PC FOR THE OTHERS.                               20670001   60
+COMMENT    .FOR TEST PURPOSES SEVERAL WELL-KNOWN (N,2N),          20670001   61
+            (N,ALPHA),(N,P) CROSS SECTIONS WERE DETERMINED FROM   20670001   62
+            THE SAME GAMMA-RAY SPECTRA.AGREEMENT WITH THE KNOWN   20670001   63
+            VALUES WAS FOUND IN ALL CASES.                        20670001   64
+STATUS     .DATA TAKEN FROM NP/A 264.                             20670001   65
+HISTORY    (761011C)                                              20670001   66
+           (770504E)                                              20670001   67
+CORRECTION .FOR SELF-ABSORPTION OF GAMMA-RAYS IN THE SAMPLES.     20670001   68
+           .(BETWEEN 1 AND 8.2 PC).                               20670001   69
+           .FOR GAMMA-PILE-UP IN THE DETECTORS DURING PULSE       20670001   70
+            RISE.                                                 20670001   71
+           .FOR COINCIDENT GAMMA-PULSES DUE TO CASCADE GAMMA-     20670001   72
+            RAYS.                                                 20670001   73
+           .FOR LOW ENERGY NEUTRONS-                              20670001   74
+           .SCATTERED FROM THE WALLS OF THE ACCELERATOR ROOM-     20670001   75
+             6.8+-0.9X10E-6 PC/CM2 OF THE INCIDENT FLUX FOR       20670001   76
+             THERMAL,1.6+-0.2X10E-6 PC/CM2 FOR EPITHERMAL         20670001   77
+             NEUTRONS(DETERMINATION WITH GOLD FOILS AND CADMIUM-  20670001   78
+             ABSORBERS).                                          20670001   79
+             1.9+-0.4X10E-4 PC/CM2 FOR 6-14 MEV AND 1.3+-0.3      20670001   80
+             X10E-4 PC/CM2 FOR 10-14 MEV NEUTRONS(DETERMINATION   20670001   81
+             BY THRESHOLD REACTIONS).                             20670001   82
+           .SCATTERED IN TARGET HOLDER-1.22X10E-2,RELATIVE TO THE 20670001   83
+             MAGNITUDE OF THE INCIDENT FLUX.                      20670001   84
+           .SECONDARY NEUTRONS, PRODUCED IN THE SOURCE-TARGET-    20670001   85
+             BETWEEN 1.5 AND 36.0 PC RELATIVE TO THE MEASURED     20670001   86
+             ACTIVITY.                                            20670001   87
+           .SECONDARY NEUTRONS, PRODUCED IN THE SAMPLES- BETWEEN  20670001   88
+             0.4 AND 30.0 PC.                                     20670001   89
+ERR-ANALYS .FOR THE INCIDENT FLUX-                                20670001   90
+             1.2PC UNCERTAINTY FOR THE STANDARD,                  20670001   91
+             1.5PC FOR THE EFFICIENCY OF THE NAI(TL) CRYSTAL,     20670001   92
+             1.0PC STATISTICAL ERROR FOR COUNTING THE 24NA-       20670001   93
+              ACTIVITY,                                           20670001   94
+             BETWEEN 1 AND 3 PC FOR THE SPATIAL FLUX              20670001   95
+              DISTRIBUTION IN THE SAMPLES.                        20670001   96
+           .FOR THE ACTIVITY MEASUREMENT-                         20670001   97
+             5.0PC FOR THE EFFICIENCY OF THE GELI-DETECTORS,      20670001   98
+ENDBIB              96                                            20670001   99
+COMMON               2          3                                 20670001  100
+EN         EN-ERR                                                 20670001  101
+MEV        MEV                                                    20670001  102
+ 1.4600E+01 2.0000E-01                                            20670001  103
+ENDCOMMON            3                                            20670001  104
+ENDSUBENT          103                                            2067000199999
+SUBENT        20670011     840127                                 20670011    1
+BIB                  3          5                                 20670011    2
+REACTION   (52-TE-130(N,G)52-TE-131-M,,SIG)                       20670011    3
+HALF-LIFE  (HL,52-TE-131-M1)                                      20670011    4
+           .HALFLIFE TAKEN FROM NP/A 93 (1967),436 BY AUTHOR.     20670011    5
+HISTORY    (761011C)                                              20670011    6
+           (770504E)                                              20670011    7
+ENDBIB               5                                            20670011    8
+NOCOMMON             0          0                                 20670011    9
+DATA                 2          1                                 20670011   10
+DATA-MAX   HL                                                     20670011   11
+MB         D                                                      20670011   12
+ 1.8500E+00 1.2500E+00                                            20670011   13
+ENDDATA              3                                            20670011   14
+ENDSUBENT           13                                            2067001199999
+ENDENTRY             2                                            2067099999999
+ENTRY            30086     850219                                 30086000    1
+SUBENT        30086001     850219                                 30086001    1
+BIB                 14         40                                 30086001    2
+INSTITUTE  (3INDMUA)                                              30086001    3
+REFERENCE  (J,NP/A,117,545,6809)                                  30086001    4
+           (J,PR,152,1055,6612)                                   30086001    5
+           (J,NP,66,267,65)                                       30086001    6
+AUTHOR     (A.K.CHAUBEY, M.L.SEHGAL)                              30086001    7
+TITLE      NEUTRON ACTIVATION CROSS SECTIONS AT 24 KEV            30086001    8
+EXP-YEAR   (68)                                                   30086001    9
+INC-SOURCE ANTIMONY-BERYLLIUM, 1.7CM DIAM.*3.3CM HEIGHT,          30086001   10
+           FLUX APPROXIMATELY 10E+7 NEUTRONS/SEC                  30086001   11
+SAMPLE     POWDER,PURITY BETTER THAN 99.9PERCENT,SAMPLE SANDWICHED30086001   12
+           BETWEEN 2 CELLOTAPES, PERSPEX RING FOR FIXED GEOMETRY  30086001   13
+METHOD     (ACTIV) BETA ACTIVITY MEASURED                         30086001   14
+DETECTOR   (GEMUC) END WINDOW BETA COUNTER                        30086001   15
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)                           30086001   16
+             I-127(N,GAMMA) CROSS-SECTION =0.82 BARNS             30086001   17
+           FROM R.L.MACKLIN ET AL.,PHYS.REV.107,PAGE 504(1957)    30086001   18
+PART-DET   (B-) BETA PARTICLES DETECTED                           30086001   19
+HISTORY    (691124C) DATA COMPILED FROM NUCL.PHS. VOL A117 (1968) 30086001   20
+           INTO DASTAR-1013                                       30086001   21
+           (691203A) PROOF COPY SENT TO AUTHOR                    30086001   22
+           (701207T) DATA CONVERTED FROM DASTAR-01013             30086001   23
+           (761001U)  TWO REFERENCES ADDED. HALF-LIVES REPLACED   30086001   24
+                      IN 'COMMON'. COMMENTS REVISED. YAG.         30086001   25
+CORRECTION ABSENCE OF THERMAL NEUTRONS DETERMINED, INFLUENCE OF   30086001   26
+           SCATTERED NEUTRONS OF LOWER THAN 24. KEV ENERGY        30086001   27
+           NEGLIGIBLE DUE TO GEOMETRY, I.E. LARGE ROOM, REMOTE    30086001   28
+           LOCATION OF NEUTRON SOURCE FROM THE FLOOR (=1.3 M)     30086001   29
+           AND NO SHIELDING MATERIAL AROUND THE SOURCE            30086001   30
+ERR-ANALYS (DATA-ERR) GIVEN ERROR CONSISTS OF                     30086001   31
+           1.) 1 PERCENT IN ESTIMATION OF TOTAL NUMBER OF TARGET  30086001   32
+               NUCLEI.                                            30086001   33
+           2.) 2 PERCENT IN MEASUREMENT OF SAMPLE-SOURCE GEOMETRY 30086001   34
+               EFFECT WHICH WILL DEPEND UPON REPRODUCIBILITY OF   30086001   35
+               THE GEOMETRY.                                      30086001   36
+           3.) IRRADIATION TIME MEASURED WITH AN ACCURACY OF      30086001   37
+               BETTER THAN 1 PERCENT.                             30086001   38
+           4.) ABOUT 2 PERCENT ERROR IN MEASUREMENT OF THE CROSS- 30086001   39
+               SECTIONS ESTIMATED TO BE DUE TO THE GAMMA-RAYS     30086001   40
+               DETECTED BY BETA-COUNTER.                          30086001   41
+           5.) STATISTICAL ERROR VARIES FROM ONE CASE TO ANOTHER  30086001   42
+ENDBIB              40                                            30086001   43
+COMMON               1          3                                 30086001   44
+EN                                                                30086001   45
+KEV                                                               30086001   46
+ 2.4000E+01                                                       30086001   47
+ENDCOMMON            3                                            30086001   48
+ENDSUBENT           47                                            3008600199999
+SUBENT        30086006     840503                                 30086006    1
+BIB                  1          3                                 30086006    2
+REACTION   (52-TE-130(N,G)52-TE-131-M,,SIG)                       30086006    3
+           NUCL.PHYS. VOL A117,PAGE 545 (1968) (ACCESSION NUMBER  30086006    4
+           30087.009)                                             30086006    5
+ENDBIB               3                                            30086006    6
+COMMON               1          3                                 30086006    7
+HL                                                                30086006    8
+D                                                                 30086006    9
+ 1.2000E+00                                                       30086006   10
+ENDCOMMON            3                                            30086006   11
+DATA                 2          1                                 30086006   12
+DATA       DATA-ERR                                               30086006   13
+MB         MB                                                     30086006   14
+ 2.2000E+01 8.0000E+00                                            30086006   15
+ENDDATA              3                                            30086006   16
+ENDSUBENT           15                                            3008600699999
+ENDENTRY             2                                            3008699999999
+ENDREQUEST           1                                            Z999999999999

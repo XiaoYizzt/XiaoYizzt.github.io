@@ -1,0 +1,78 @@
+REQUEST           1001   20010914          3     144712               0  0    0
+ENTRY            12510     830809                                 12510000    1
+SUBENT        12510001     830809                                 12510001    1
+BIB                  8         11                                 12510001    2
+INSTITUTE  (1USAMTR)                                              12510001    3
+REFERENCE  (P,IN-1317,54,6906)                                    12510001    4
+AUTHOR     (R.P.SCHUMAN)                                          12510001    5
+TITLE      THERMAL (SUBCADMIUM CAPTURE CROSS SECTION AND RESONANCE12510001    6
+            INTEGRAL OF PU-244.                                   12510001    7
+SAMPLE     ISOTOPIC COMPOSITION - 99.06 PERCENT PU-244            12510001    8
+METHOD     (ACTIV) ACTIVATION                                     12510001    9
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)                         12510001   10
+           (79-AU-197(N,G)79-AU-198,,RI)                          12510001   11
+HISTORY    (770722C)                                              12510001   12
+           (830809A) CONVERTED TO REACTION FORMALISM              12510001   13
+ENDBIB              11                                            12510001   14
+COMMON               2          3                                 12510001   15
+MONIT1     MONIT2                                                 12510001   16
+B          B                                                      12510001   17
+ 98.8       1558.                                                 12510001   18
+ENDCOMMON            3                                            12510001   19
+ENDSUBENT           18                                            1251000199999
+SUBENT        12510002     830809                                 12510002    1
+BIB                  2          2                                 12510002    2
+REACTION   (94-PU-244(N,G)94-PU-245,,SIG,,MXW)                    12510002    3
+INC-SPECT  SUBCADMIUM SPECTRUM                                    12510002    4
+ENDBIB               2                                            12510002    5
+NOCOMMON             0          0                                 12510002    6
+DATA                 3          1                                 12510002    7
+EN-DUMMY   DATA       DATA-ERR                                    12510002    8
+EV         B          B                                           12510002    9
+ 0.0253     1.6        0.3                                        12510002   10
+ENDDATA              3                                            12510002   11
+ENDSUBENT           10                                            1251000299999
+ENDENTRY             2                                            1251099999999
+ENTRY            12535     841004                                 12535000    1
+SUBENT        12535001     841004                                 12535001    1
+BIB                  8         19                                 12535001    2
+INSTITUTE  (1USAANL)                                              12535001    3
+REFERENCE  (J,NSE,1,62,5603)                                      12535001    4
+           (C,55GENEVA,7,261,55)                                  12535001    5
+AUTHOR     (P.R.FIELDS,G.L.PYLE,M.G.INGHRAM,H.DIAMOND,            12535001    6
+           M.H.STUDIER,AND W.M.MANNING)                           12535001    7
+TITLE      PILE NEUTRON CROSS SECTIONS OF THE HEAVIER PLUTONIUM   12535001    8
+           ISOTOPES.                                              12535001    9
+SAMPLE     ISOTOPIC COMPOSITION OF SAMPLE (IN PERCENT)            12535001   10
+               SAMPLE        CR-1         CR-2         CR-3       12535001   11
+               ------    ------------ ------------ ------------   12535001   12
+               PU-239    74.31+-0.22  53.3+-0.3    23.82+-0.16    12535001   13
+               PU-240    21.96+-0.20  35.6+-0.2    49.35+-0.40    12535001   14
+               PU-241     3.39+-0.07   9.17+-0.04  17.07+-0.24    12535001   15
+               PU-242     0.337+-0.01  1.96+-0.03   9.76+-0.07    12535001   16
+METHOD     SAMPLES IRRADIATED FOR 6 MONTHS (CR-1, 1 YEAR (CR-2),  12535001   17
+             AND 2 YEARS (CR-3).                                  12535001   18
+STATUS     (SCSRS)                                                12535001   19
+HISTORY    (760804T) TRANSLATED FROM SCISRS                       12535001   20
+           (841004A) CONVERTED TO REACTION FORMALISM              12535001   21
+ENDBIB              19                                            12535001   22
+NOCOMMON             0          0                                 12535001   23
+ENDSUBENT           22                                            1253500199999
+SUBENT        12535011     841004                                 12535011    1
+BIB                  5          6                                 12535011    2
+REACTION   (94-PU-244(N,G)94-PU-245,,SIG,,SPA)                    12535011    3
+INC-SOURCE (REAC) ARGONNE HEAVY WATER REACTOR, CP-3.              12535011    4
+METHOD     (ACTIV) ACTIVATION. TO AM-245                          12535011    5
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)                         12535011    6
+            BASED ON GOLD THERMAL CAPTURE=98B.                    12535011    7
+INC-SPECT   REACTOR SPECTRUM                                      12535011    8
+ENDBIB               6                                            12535011    9
+NOCOMMON             0          0                                 12535011   10
+DATA                 4          1                                 12535011   11
+EN-DUMMY   DATA       DATA-ERR   MONIT                            12535011   12
+MEV        B          B          B                                12535011   13
+ 2.53   -08 1.5    +00 3.     -01 98.                             12535011   14
+ENDDATA              3                                            12535011   15
+ENDSUBENT           14                                            1253501199999
+ENDENTRY             2                                            1253599999999
+ENDREQUEST           1                                            Z999999999999

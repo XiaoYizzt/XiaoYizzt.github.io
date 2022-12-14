@@ -1,0 +1,287 @@
+REQUEST           1001   20010914          3     141126               0  0    0
+ENTRY            10030   19990719   19990812                      10030000    1
+SUBENT        10030001   19990719   19990812                      10030001    1
+BIB                 12         23                                 10030001    2
+INSTITUTE  (1USAANL)                                              10030001    3
+REFERENCE  (J,JNE,24,181,197007)                                  10030001    4
+           (R,ANL-7575,196904) Preprint                           10030001    5
+AUTHOR     (N.D.DUDEY,R.R.HEINRICH,A.A.MADSON)                    10030001    6
+TITLE      Reaction cross sections of 85Rb(n,gamma)86Rb(m),       10030001    7
+            87Rb(n,gamma)88Rb, and 89Y(n,gamma)90Y(m) between     10030001    8
+            0.16 MeV and 1.5 MeV.                                 10030001    9
+FACILITY   (VDG) 4-MeV Van de Graaff.                             10030001   10
+INC-SOURCE (P-LI7)                                                10030001   11
+INC-SPECT  Energy resolution given is 1/2 full energy spread.     10030001   12
+METHOD     (ACTIV) activation.                                    10030001   13
+MONITOR    (92-U-235(N,F),,SIG)    From BNL-325, Suppl.2 (1965)   10030001   14
+           (79-AU-197(N,G)79-AU-198,,SIG)  Secondary standard.    10030001   15
+CORRECTION Corrected for angular distribution of neutrons, second 10030001   16
+            neutron group. Not corrected for neutron scattering or10030001   17
+            self-absorption (estimated less than 2%).             10030001   18
+           Corrected gamma decay data for decay during counting   10030001   19
+            time.                                                 10030001   20
+STATUS     (APRVD) Approved by author                             10030001   21
+            Data taken from tables in reference.                  10030001   22
+HISTORY    (19691219C)                                            10030001   23
+           (19800723A) Converted to REACTION formalism            10030001   24
+           (19990719A) Converted to new date formats, lower case. 10030001   25
+ENDBIB              23                                            10030001   26
+NOCOMMON             0          0                                 10030001   27
+ENDSUBENT           26                                            1003000199999
+SUBENT        10030002   19990719   19990812                      10030002    1
+BIB                  5         15                                 10030002    2
+REACTION   (37-RB-85(N,G)37-RB-86-M,,SIG)                         10030002    3
+SAMPLE     RbNO(3). Disc-shaped pellets, diam. 1.00 cm,           10030002    4
+           Thicknesses from 0.20 to 0.25 cm, weights from 0.35 to 10030002    5
+            0.55 grams.                                           10030002    6
+DETECTOR   (GELI,NAICR) Two series. 20-cc Ge(Li) detector - 25%   10030002    7
+            geometry. 2 x 1 in. NaI(Tl) detector - 45% geometry.  10030002    8
+            Efficiencies determined with absolutely calibrated    10030002    9
+            standard solutions.                                   10030002   10
+DECAY-DATA (37-RB-86-M1,1.04MIN,DG,560.)                          10030002   11
+ERR-ANALYS (DATA-ERR) Standard deviations in absolute cross       10030002   12
+            section values, and include uncertainties in:         10030002   13
+            . detection efficiency (5-6%),                        10030002   14
+            . flux monitor (5-8%),                                10030002   15
+            . decay curve fitting (2-6%),                         10030002   16
+            . neutron energy (1-4%).                              10030002   17
+ENDBIB              15                                            10030002   18
+NOCOMMON             0          0                                 10030002   19
+DATA                 4         29                                 10030002   20
+EN         EN-RSL     DATA       DATA-ERR                         10030002   21
+KEV        KEV        MB         MB                               10030002   22
+156.       49.2       17.3       1.69                             10030002   23
+174.       65.0       16.1       1.72                             10030002   24
+231.       48.8       15.8       1.82                             10030002   25
+284.       65.0       13.4       1.30                             10030002   26
+290.       31.0       13.8       1.26                             10030002   27
+323.       50.0       13.5       1.38                             10030002   28
+413.       51.7       13.4       1.22                             10030002   29
+425.       44.8       13.3       1.56                             10030002   30
+456.       57.8       13.5       1.47                             10030002   31
+503.       59.3       13.5       1.28                             10030002   32
+546.       52.6       11.3       0.95                             10030002   33
+611.       53.5       10.7       1.07                             10030002   34
+649.       63.7       10.1       1.12                             10030002   35
+714.       62.7       9.9        1.03                             10030002   36
+776.       54.3       9.56       0.92                             10030002   37
+827.       65.4       8.19       0.84                             10030002   38
+889.       56.3       8.72       0.77                             10030002   39
+904.       56.4       7.68       0.71                             10030002   40
+922.       81.9       8.46       0.80                             10030002   41
+980.       69.0       7.45       0.91                             10030002   42
+1064.      86.1       6.63       0.62                             10030002   43
+1070.      81.3       7.20       0.66                             10030002   44
+1111.      72.2       6.74       0.90                             10030002   45
+1141.      88.4       7.15       0.68                             10030002   46
+1201.      80.3       6.58       0.61                             10030002   47
+1220.      90.8       6.78       0.70                             10030002   48
+1385.      86.1       6.69       0.65                             10030002   49
+1393.      89.6       6.41       0.59                             10030002   50
+1484.      87.1       5.50       0.52                             10030002   51
+ENDDATA             31                                            10030002   52
+ENDSUBENT           51                                            1003000299999
+ENDENTRY             2                                            1003099999999
+ENTRY            11748     860421                                 11748000    1
+SUBENT        11748001     860421                                 11748001    1
+BIB                  8         10                                 11748001    2
+INSTITUTE  (1USAMTR)                                              11748001    3
+REFERENCE  (J,PR,129,769,63)                                      11748001    4
+AUTHOR     (B.KEISH)                                              11748001    5
+TITLE      YIELD RATIOS OF ISOMERS PRODUCED BY NEUTRON ACTIVATION.11748001    6
+INC-SPECT  THERMAL SPECTRUM                                       11748001    7
+METHOD     (ACTIV) ACTIVATION                                     11748001    8
+STATUS     (SCSRS)                                                11748001    9
+HISTORY    (760730T) TRANSLATED FROM SCISRS                       11748001   10
+           (831011A) CONVERTED TO REACTION FORMALISM              11748001   11
+           (860421A) BIB UPDATES.                                 11748001   12
+ENDBIB              10                                            11748001   13
+NOCOMMON             0          0                                 11748001   14
+ENDSUBENT           13                                            1174800199999
+SUBENT        11748007     831011                                 11748007    1
+BIB                  2          2                                 11748007    2
+REACTION   (37-RB-85(N,G)37-RB-86-M,,SIG,,MXW)                    11748007    3
+DECAY-DATA (37-RB-86-M,1.02MIN)                                   11748007    4
+ENDBIB               2                                            11748007    5
+NOCOMMON             0          0                                 11748007    6
+DATA                 3          1                                 11748007    7
+EN-DUMMY   DATA       DATA-ERR                                    11748007    8
+MEV        MB         MB                                          11748007    9
+ 2.53   -08 6.1    +01 3.     +00                                 11748007   10
+ENDDATA              3                                            11748007   11
+ENDSUBENT           10                                            1174800799999
+ENDENTRY             2                                            1174899999999
+ENTRY            11850     830919                                 11850000    1
+SUBENT        11850001     830919                                 11850001    1
+BIB                  8         10                                 11850001    2
+INSTITUTE  (1USAREN)                                              11850001    3
+REFERENCE  (J,ARI,18,279,67)                                      11850001    4
+AUTHOR     (K.G.BROADHEAD,D.E.SHANKS)                             11850001    5
+TITLE      THE APPLICATION OF 2.8-MEV (D,D) NEUTRONS TO ACTIVATION11850001    6
+           ANALYSIS.                                              11850001    7
+METHOD     (ACTIV) ACTIVATION                                     11850001    8
+MONITOR    (49-IN-115(N,INL)49-IN-115-M,,SIG,G)                   11850001    9
+STATUS     (SCSRS)                                                11850001   10
+HISTORY    (760731T) TRANSLATED FROM SCISRS                       11850001   11
+           (830919A) CONVERTED TO REACTION FORMALISM              11850001   12
+ENDBIB              10                                            11850001   13
+COMMON               1          3                                 11850001   14
+MONIT                                                             11850001   15
+MB                                                                11850001   16
+ 360.                                                             11850001   17
+ENDCOMMON            3                                            11850001   18
+ENDSUBENT           17                                            1185000199999
+SUBENT        11850002     830919                                 11850002    1
+BIB                  2          2                                 11850002    2
+REACTION   (37-RB-85(N,G)37-RB-86-M,,SIG)                         11850002    3
+DECAY-DATA (37-RB-86-M,1.04MIN,DG,560.,1.0)                       11850002    4
+ENDBIB               2                                            11850002    5
+NOCOMMON             0          0                                 11850002    6
+DATA                 4          1                                 11850002    7
+EN         EN-RSL     DATA       DATA-ERR                         11850002    8
+MEV        MEV        MB         PER-CENT                         11850002    9
+ 2.80   +00 7.     -02 4.     +00   13.                           11850002   10
+ENDDATA              3                                            11850002   11
+ENDSUBENT           10                                            1185000299999
+ENDENTRY             2                                            1185099999999
+ENTRY            21403     801105                                 21403000    1
+SUBENT        21403001     801105                                 21403001    1
+BIB                 13         18                                 21403001    2
+INSTITUTE  (2ITYMIL)                                              21403001    3
+REFERENCE  (J,EN,14,228,6704)                                     21403001    4
+AUTHOR     (A.FOGLIO PARA,M.MMANDELLI BETTONI)                    21403001    5
+TITLE      -ISOMERIC CROSS SECTION RATIOS FOR SOME (N,GAMMA)      21403001    6
+            REACTIONS -.                                          21403001    7
+FACILITY   (REAC ) L54 REACTOR OF CESNEF, THERMAL COLUMN.         21403001    8
+INC-SOURCE (REAC ) IN THERMAL COLUMN WITH FLUX OF 1.6 10*9        21403001    9
+            OR NEAR CORE WITH FLUX 4.5 10*11.                     21403001   10
+INC-SPECT  MAXWELLIAN SPECTRUM.                                   21403001   11
+METHOD     (ACTIV) ACTIVATION.                                    21403001   12
+DETECTOR   (NAICR) NAI(TL) CRYSTAL.                               21403001   13
+MONITOR    (79-AU-197(N,G)79-AU-198-G,,SIG) VALUE AT 2200 M/SEC   21403001   14
+            TAKEN AS 98.8+-0.3 B.                                 21403001   15
+STATUS     (NDD  ) DATA FROM PUBLICATION.                         21403001   16
+HISTORY    (800226T)                                              21403001   17
+           (800303E)                                              21403001   18
+ERR-ANALYS .TOTAL ERROR GIVEN AS SUM OF CONTRIBUTIONS FROM        21403001   19
+            STAISTICS, CORRECTIONS AND NORMALISATION ERRORS.      21403001   20
+ENDBIB              18                                            21403001   21
+COMMON               3          3                                 21403001   22
+EN-DUMMY   MONIT      MONIT-ERR                                   21403001   23
+EV         B          B                                           21403001   24
+ 2.5300E-02 9.8800E+01 3.0000E-01                                 21403001   25
+ENDCOMMON            3                                            21403001   26
+ENDSUBENT           25                                            2140300199999
+SUBENT        21403002     800303                                 21403002    1
+BIB                  5          6                                 21403002    2
+REACTION   (37-RB-85(N,G)37-RB-86-M,,SIG,,MXW) CROSS SECTION ,MS. 21403002    3
+SAMPLE     .20 MG OF RB SULPHATE.                                 21403002    4
+DECAY-DATA (37-RB-86,1.02MIN,DG,560.,0.98) INTERNAL CONVERSION    21403002    5
+            COEFFICIENT TAKEN AS 1.89 PERCENT.                    21403002    6
+STATUS     .TABLE 1.                                              21403002    7
+HISTORY    (800226C)                                              21403002    8
+ENDBIB               6                                            21403002    9
+NOCOMMON             0          0                                 21403002   10
+DATA                 2          1                                 21403002   11
+DATA       DATA-ERR                                               21403002   12
+MB         MB                                                     21403002   13
+ 4.5000E+01 5.0000E+00                                            21403002   14
+ENDDATA              3                                            21403002   15
+ENDSUBENT           14                                            2140300299999
+ENDENTRY             2                                            2140399999999
+ENTRY            30234     930217                                 30234000    1
+SUBENT        30234001     930217                                 30234001    1
+BIB                 18         36                                 30234001    2
+TITLE      ISOMER RATIOS IN (N,GAMMA) REACTIONS AT 25 KEV         30234001    3
+AUTHOR     (A.LAKSHMANA RAO,J.RAMA RAO)                           30234001    4
+INSTITUTE  (3INDAUW)                                              30234001    5
+EXP-YEAR   (72)                                                   30234001    6
+REFERENCE  (J,PR/C,6,572,7208)                                    30234001    7
+SAMPLE     NATURAL ELEMENTS IN METALLIC POWDER OR OXIDE FORM WITH 30234001    8
+           A CHEMICAL PURITY GREATER THAN 99.9 PERCENT            30234001    9
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)                           30234001   10
+MONIT-REF  (21150002,J.C.ROBERTSON,J,NP,71,417,6509)              30234001   11
+INC-SOURCE (PHOTO) ANTIMONY-BERYLLIUM PHOTONEUTRON SOURCE OF      30234001   12
+           STRENGTH 20 CURIES.                                    30234001   13
+METHOD     (ACTIV) ACTIVATION METHOD PLUS ABSOLUTE GAMMA COUNTING.30234001   14
+           SIMULTANEOUSLY WITH THE RECORDING OF THE GAMMA-RAY     30234001   15
+           SPECTRA,THE HALF-LIFE WAS STUDIED IN A SEPARATE CHANNEL30234001   16
+           FOR UNIQUE IDENTIFICATION OF THE REACTION PRODUCT      30234001   17
+DETECTOR   (SCIN) SCINTILLATION SPECTROMETER CONSISTING OF A WELL-30234001   18
+           TYPE NAI(TL) CRYSTAL AND A 100-CHANNEL ANALYZER        30234001   19
+PART-DET   (DG) DECAY GAMMAS                                      30234001   20
+ANALYSIS   CROSS SECTION DETERMINED FROM AREA OF A PROMINENT PEAK 30234001   21
+           FROM THE GAMMA SPECTRUM CHARACTERISTIC OF THE PRODUCT  30234001   22
+           NUCLEUS                                                30234001   23
+CORRECTION EFFECTIVE PHOTOPEAK EFFICIENCY CORRECTED FOR SOURCE    30234001   24
+           ABSORPTION AND CASCADE EFFECTS                         30234001   25
+ERR-ANALYS ERROR GIVEN IS TOTAL ERROR COMPOUNDED OF,              30234001   26
+           STATISTICAL ERROR = 0.5 TO 3 PERCENT                   30234001   27
+           ERROR IN CALCULATION PARAMETERS = LESS THAN 1 PERCENT  30234001   28
+           ERROR IN NEUTRON FLUX = 7 PERCENT                      30234001   29
+           ERRORS IN MEASURED EFFICIENCY VALUES = 6 PERCENT       30234001   30
+           ERROR IN THE DECAY PARAMETERS = LESS THAN 10 PERCENT   30234001   31
+COMMENT    COMPARE RESULTS WITH MODELS OF HUIZENGA-VANDENBOSCH AND30234001   32
+           OF PONITZ. BETTER AGREEMENT WITH THE LATER ONE.        30234001   33
+STATUS     DATA TAKEN FROM PR/C 6 572 8/72                        30234001   34
+HISTORY    (730621C) FM.                                          30234001   35
+           (930114U) HW.-OBSOLETE KEYWORDS/CODES CONVERTED,       30234001   36
+           MONIT-REF GIVEN IN SUBENT OO1, MAJOR ALTERATIONS IN    30234001   37
+           SUBENTS 020 AND 021.-                                  30234001   38
+ENDBIB              36                                            30234001   39
+COMMON               4          3                                 30234001   40
+EN         EN-RSL     MONIT      MONIT-ERR                        30234001   41
+KEV        KEV        MB         MB                               30234001   42
+25.        5.         832.       26.                              30234001   43
+ENDCOMMON            3                                            30234001   44
+ENDSUBENT           43                                            3023400199999
+SUBENT        30234011     930217                                 30234011    1
+BIB                  1          1                                 30234011    2
+REACTION   (37-RB-85(N,G)37-RB-86-M,,SIG)                         30234011    3
+ENDBIB               1                                            30234011    4
+COMMON               1          3                                 30234011    5
+SPIN J                                                            30234011    6
+NO-DIM                                                            30234011    7
+6.                                                                30234011    8
+ENDCOMMON            3                                            30234011    9
+DATA                 2          1                                 30234011   10
+DATA       DATA-ERR                                               30234011   11
+MB         MB                                                     30234011   12
+35.0       3.6                                                    30234011   13
+ENDDATA              3                                            30234011   14
+ENDSUBENT           13                                            3023401199999
+ENDENTRY             2                                            3023499999999
+ENTRY            31246     851217                                 31246000    1
+SUBENT        31246001     851217                                 31246001    1
+BIB                  6          7                                 31246001    2
+INSTITUTE  (3INDMUA)                                              31246001    3
+REFERENCE  (J,NP,20,183,60)                                       31246001    4
+AUTHOR     (H.S.HANS,M.L.SEHGAL,P.S.GILL)                         31246001    5
+TITLE      THERMAL NEUTRON CROSS SECTIONS FOR PRODUCING ISOMERS   31246001    6
+            (II).                                                 31246001    7
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)                         31246001    8
+HISTORY    (771115T) CONVERTED FROM EXFOR 70246                   31246001    9
+ENDBIB               7                                            31246001   10
+COMMON               1          3                                 31246001   11
+MONIT                                                             31246001   12
+B                                                                 31246001   13
+ 9.8000E+01                                                       31246001   14
+ENDCOMMON            3                                            31246001   15
+ENDSUBENT           14                                            3124600199999
+SUBENT        31246004     851217                                 31246004    1
+BIB                  5          5                                 31246004    2
+REACTION   (37-RB-85(N,G)37-RB-86-M,,SIG,,SPA)                    31246004    3
+INC-SPECT   REACTOR SPECTRUM                                      31246004    4
+METHOD     (ACTIV)    ACTIVATION                                  31246004    5
+DECAY-DATA (37-RB-86-M,1.0MIN)                                    31246004    6
+STATUS     (SCSRS)                                                31246004    7
+ENDBIB               5                                            31246004    8
+NOCOMMON             0          0                                 31246004    9
+DATA                 3          1                                 31246004   10
+EN-DUMMY   DATA       DATA-ERR                                    31246004   11
+MEV        B          B                                           31246004   12
+ 2.5300E-08 7.0000E-03 2.0000E-03                                 31246004   13
+ENDDATA              3                                            31246004   14
+ENDSUBENT           13                                            3124600499999
+ENDENTRY             2                                            3124699999999
+ENDREQUEST           1                                            Z999999999999

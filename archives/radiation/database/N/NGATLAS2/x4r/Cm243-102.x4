@@ -1,0 +1,54 @@
+REQUEST           1001   20010914          3     144743               0  0    0
+ENTRY            10681     771107                                 10681000    1
+SUBENT        10681001     771107                                 10681001    1
+BIB                 11         17                                 10681001    2
+INSTITUTE  (1USAORL)                                              10681001    3
+REFERENCE  (J,NSE,63,413,7708)                                    10681001    4
+AUTHOR     (C.E.BEMIS,JR.,J.H.OLIVER,R.EBY,J.HALPERIN)            10681001    5
+TITLE      THERMAL-NEUTRON CAPTURE AND FISSION CROSS SECTIONS AND 10681001    6
+           RESONANCE INTEGRALS FOR CURIUM-243                     10681001    7
+N-SOURCE   (REAC) OAK RIDGE RESEARCH REACTOR                      10681001    8
+FACILITY   (SPECM) MASS SPECTROMETER                              10681001    9
+METHOD     (ASEP) SEPERATED HEAVIER CM-244 PRODUCED BY THE        10681001   10
+           243-CM(N,GAMMA) REACTION AND CHANGE IN MASS RATIO      10681001   11
+           243-CM/248-CM. CADMIUM-FILTER TECHNIQUE USED IN        10681001   12
+           IRRADIATIONS.                                          10681001   13
+MONITOR    (27-CO-59(N,G)27-CO-60,,SIG)                           10681001   14
+           (27-CO-59(N,G)27-CO-60,,RI)                            10681001   15
+ERR-ANALYS ERRORS GIVEN ARE STATISTICAL ERRORS ONLY. SYSTEMATIC   10681001   16
+           ERROR IS ESTIMATED TO BE NO MORE THAN 5 PERCENT.       10681001   17
+STATUS     (APRVD) APPROVED BY J.HALPERIN,78/5/17.                10681001   18
+HISTORY    (770811C)                                              10681001   19
+ENDBIB              17                                            10681001   20
+COMMON               2          3                                 10681001   21
+MONIT1     MONIT2                                                 10681001   22
+B          B                                                      10681001   23
+ 37.0       75.                                                   10681001   24
+ENDCOMMON            3                                            10681001   25
+ENDSUBENT           24                                            1068100199999
+SUBENT        10681003     771107                                 10681003    1
+BIB                  2          2                                 10681003    2
+REACTION   (96-CM-243(N,G)96-CM-244,,SIG,,MXW)                    10681003    3
+INC-SPECT  SUBCADMIUM SPECTRUM                                    10681003    4
+ENDBIB               2                                            10681003    5
+NOCOMMON                                                          10681003    6
+DATA                 3          1                                 10681003    7
+EN-DUMMY   DATA       DATA-ERR                                    10681003    8
+EV         B          B                                           10681003    9
+ 0.0253     137.4      9.6                                        10681003   10
+ENDDATA              3                                            10681003   11
+ENDSUBENT           10                                            1068100399999
+SUBENT        10681004     771107                                 10681004    1
+BIB                  2          2                                 10681004    2
+REACTION   (96-CM-243(N,G)96-CM-244,,SIG)                         10681004    3
+STATUS     (DEP,10681003) DETERMINED FROM CADMIUM RATIO           10681004    4
+ENDBIB               2                                            10681004    5
+NOCOMMON                                                          10681004    6
+DATA                 3          1                                 10681004    7
+EN         DATA       DATA-ERR                                    10681004    8
+EV         B          B                                           10681004    9
+ 0.0253     130.7      9.6                                        10681004   10
+ENDDATA              3                                            10681004   11
+ENDSUBENT           10                                            1068100499999
+ENDENTRY             3                                            1068199999999
+ENDREQUEST           1                                            Z999999999999

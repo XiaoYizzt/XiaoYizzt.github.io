@@ -1,0 +1,87 @@
+REQUEST           1001   20010914          3     140532               0  0    0
+ENTRY            10680   20010216   20010426                      10680000    1
+SUBENT        10680001   20010216   20010426                      10680001    1
+BIB                  7         16                                 10680001    2
+INSTITUTE  (1USAORL)                                              10680001    3
+REFERENCE  (P,ORNL-5137,2,197605)                                 10680001    4
+           (C,76LOWELL,1,143,197607) Review of ORNL measurements  10680001    5
+           ((P,DOE-NDC-12,231,1978)=(P,BNL-NCS-24273,231,1978))   10680001    6
+             Re-analysis of data.                                 10680001    7
+           (P,ORNL-5025,110,1974) Transmision on 95% enriched 59Ni10680001    8
+AUTHOR     (J.A.HARVEY,J.HALPERIN,N.W.HILL,S.RAMAN,R.L.MACKLIN)   10680001    9
+TITLE       (n,alpha),(n,p),(n,gamma), and total neutron-cross-   10680001   10
+           section measurements on 59Ni                           10680001   11
+FACILITY   (LINAC) Oak Ridge Electron Linear Accelerator          10680001   12
+STATUS     No reply to author proof.                              10680001   13
+HISTORY    (19770809C)                                            10680001   14
+           (19810408A) Reference update                           10680001   15
+           (19831121U) BIB update.                                10680001   16
+           (19880315U) BIB update                                 10680001   17
+           (20000214A) Updated to new date formats, BIB update.   10680001   18
+ENDBIB              16                                            10680001   19
+NOCOMMON             0          0                                 10680001   20
+ENDSUBENT           19                                            1068000199999
+SUBENT        10680006   20000215   20010426                      10680006    1
+BIB                  7          9                                 10680006    2
+REACTION   (28-NI-59(N,G)28-NI-60,,SIG)                           10680006    3
+INC-SPECT  Energy resolution 0.15%.                               10680006    4
+SAMPLE     3.136-g Ni sample, enriched to 2.65% 59Ni.             10680006    5
+            Sample contained a small amount of 60Co.              10680006    6
+DETECTOR   Total energy detector located at 40-m flight path.     10680006    7
+ERR-ANALYS (DATA-ERR) No information on source of uncertainty.    10680006    8
+STATUS     Data and sample content taken from DOE/NDC-12.         10680006    9
+           Data measured over range 0.1-12 keV not available.     10680006   10
+HISTORY    (20000215A) Data updated.                              10680006   11
+ENDBIB               9                                            10680006   12
+NOCOMMON             0          0                                 10680006   13
+DATA                 3          1                                 10680006   14
+EN         DATA       DATA-ERR                                    10680006   15
+EV         B          B                                           10680006   16
+ 0.0253     78.         8.                                        10680006   17
+ENDDATA              3                                            10680006   18
+ENDSUBENT           17                                            1068000699999
+ENDENTRY             2                                            1068099999999
+ENTRY            13013     850830                                 13013000    1
+SUBENT        13013001     850830                                 13013001    1
+BIB                  8          8                                 13013001    2
+INSTITUTE  (1USALAS)                                              13013001    3
+REFERENCE  (S,AERE-R-8082,18,7507)                                13013001    4
+AUTHOR     (E.T.JURNEY)                                           13013001    5
+TITLE      GAMMA RAYS FROM THERMAL NEUTRON CAPTURE BY 59NI.       13013001    6
+FACILITY   (REAC) OMEGA WEST REACTOR                              13013001    7
+MONITOR    (1-H-1(N,G)1-H-2,,SIG)                                 13013001    8
+ERR-ANALYS NO INFORMATION                                         13013001    9
+HISTORY    (850826C)                                              13013001   10
+ENDBIB               8                                            13013001   11
+COMMON               1          3                                 13013001   12
+EN-DUMMY                                                          13013001   13
+EV                                                                13013001   14
+ 0.0253                                                           13013001   15
+ENDCOMMON            3                                            13013001   16
+ENDSUBENT           15                                            1301300199999
+SUBENT        13013002     850830                                 13013002    1
+BIB                  2          2                                 13013002    2
+REACTION   (28-NI-59(N,G)28-NI-60,,SIG,,MXW)                      13013002    3
+DETECTOR   (NAICR)                                                13013002    4
+ENDBIB               2                                            13013002    5
+NOCOMMON             0          0                                 13013002    6
+DATA                 2          1                                 13013002    7
+DATA       DATA-ERR                                               13013002    8
+B          B                                                      13013002    9
+ 53.        4.                                                    13013002   10
+ENDDATA              3                                            13013002   11
+ENDSUBENT           10                                            1301300299999
+SUBENT        13013003     850830                                 13013003    1
+BIB                  2          2                                 13013003    2
+REACTION   (28-NI-59(N,G)28-NI-60,,SIG,,MXW)                      13013003    3
+DETECTOR   (GELI)                                                 13013003    4
+ENDBIB               2                                            13013003    5
+NOCOMMON             0          0                                 13013003    6
+DATA                 2          1                                 13013003    7
+DATA       DATA-ERR                                               13013003    8
+B          B                                                      13013003    9
+ 51.        8.                                                    13013003   10
+ENDDATA              3                                            13013003   11
+ENDSUBENT           10                                            1301300399999
+ENDENTRY             3                                            1301399999999
+ENDREQUEST           1                                            Z999999999999

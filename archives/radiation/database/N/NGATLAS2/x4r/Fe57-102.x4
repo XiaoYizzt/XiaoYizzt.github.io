@@ -1,0 +1,283 @@
+REQUEST           1001   20010914          3     140439               0  0    0
+ENTRY            11507     860715                                 11507000    1
+SUBENT        11507001     860715                                 11507001    1
+BIB                 10         12                                 11507001    2
+INSTITUTE  (1USAORL)                                              11507001    3
+REFERENCE  (J,PR,88,412,52)                                       11507001    4
+AUTHOR     (H.POMERANCE)                                          11507001    5
+TITLE      THERMAL NEUTRON CAPTURE CROSS SECTIONS.                11507001    6
+FACILITY   (OSCIP) PILE OSCILLATOR                                11507001    7
+INC-SPECT  THERMAL SPECTRUM                                       11507001    8
+METHOD     (ACTIV).                                               11507001    9
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)                         11507001   10
+STATUS     (SCSRS)                                                11507001   11
+HISTORY    (760715T) TRANSLATED FROM SCISRS                       11507001   12
+           (821124A) CONVERTED TO REACTION FORMALISM              11507001   13
+           (860715A) ENERGY MOVED TO SUBENTRY 1.                  11507001   14
+ENDBIB              12                                            11507001   15
+COMMON               2          3                                 11507001   16
+EN-DUMMY   MONIT                                                  11507001   17
+EV         B                                                      11507001   18
+ 0.0253     95.                                                   11507001   19
+ENDCOMMON            3                                            11507001   20
+ENDSUBENT           19                                            1150700199999
+SUBENT        11507024     860715                                 11507024    1
+BIB                  1          1                                 11507024    2
+REACTION   (26-FE-57(N,G)26-FE-58,,SIG,,MXW)                      11507024    3
+ENDBIB               1                                            11507024    4
+NOCOMMON             0          0                                 11507024    5
+DATA                 2          1                                 11507024    6
+DATA       DATA-ERR                                               11507024    7
+B          PER-CENT                                               11507024    8
+ 2.4    +00   12.                                                 11507024    9
+ENDDATA              3                                            11507024   10
+ENDSUBENT            9                                            1150702499999
+ENDENTRY             2                                            1150799999999
+ENTRY            11575     830412                                 11575000    1
+SUBENT        11575001     830412                                 11575001    1
+BIB                  7         10                                 11575001    2
+INSTITUTE  (1USAORL)                                              11575001    3
+REFERENCE  (J,PR/B,136,695,6411)                                  11575001    4
+           (W,GIBBONS,7403) GRAPHS                                11575001    5
+AUTHOR     (R.L.MACKLIN,P.J.PASMA,J.H.GIBBONS)                    11575001    6
+TITLE      RESONANCE NEUTRON CAPTURE AND TRANSMISSION IN SULFUR,  11575001    7
+           IRON AND LEAD.                                         11575001    8
+DETECTOR   (MOXR)                                                 11575001    9
+STATUS     (SCSRS)                                                11575001   10
+HISTORY    (760715T) TRANSLATED FROM SCISRS                       11575001   11
+           (830412A) CONVERTED TO REACTION FORMALISM              11575001   12
+ENDBIB              10                                            11575001   13
+NOCOMMON             0          0                                 11575001   14
+ENDSUBENT           13                                            1157500199999
+SUBENT        11575011     830412                                 11575011    1
+BIB                  3          5                                 11575011    2
+REACTION   (26-FE-57(N,G)26-FE-58,,SIG)                           11575011    3
+SAMPLE     SAMPLE THICKNESS 0.00172 ATOMS/B.                      11575011    4
+MONITOR    (73-TA-0(N,G),,SIG)                                    11575011    5
+            RELATIVE TO TA(N,GAMMA)=                              11575011    6
+            8600**(0.697*LN(E))                                   11575011    7
+ENDBIB               5                                            11575011    8
+NOCOMMON             0          0                                 11575011    9
+DATA                 3         47                                 11575011   10
+EN         DATA       DATA-ERR                                    11575011   11
+MEV        B          B                                           11575011   12
+ 1.12   -02 1.120  -01 1.40   -02                                 11575011   13
+ 1.18   -02 1.615  -01 2.15   -02                                 11575011   14
+ 1.21   -02 1.970  -01 2.00   -02                                 11575011   15
+ 1.25   -02 2.370  -01 1.90   -02                                 11575011   16
+ 1.29   -02 2.220  -01 1.30   -02                                 11575011   17
+ 1.33   -02 1.560  -01 1.60   -02                                 11575011   18
+ 1.38   -02 1.125  -01 1.40   -02                                 11575011   19
+ 1.42   -02 1.020  -01 1.30   -02                                 11575011   20
+ 1.48   -02 7.00   -02 1.10   -02                                 11575011   21
+ 1.53   -02 6.00   -02 1.00   -02                                 11575011   22
+ 1.58   -02 7.40   -02 1.00   -02                                 11575011   23
+ 1.65   -02 8.70   -02 1.00   -02                                 11575011   24
+ 1.70   -02 1.125  -01 8.5    -03                                 11575011   25
+ 1.76   -02 9.70   -02 9.0    -03                                 11575011   26
+ 1.83   -02 1.020  -01 8.0    -03                                 11575011   27
+ 1.90   -02 9.65   -02 7.5    -03                                 11575011   28
+ 1.98   -02 1.110  -01 7.0    -03                                 11575011   29
+ 2.07   -02 1.060  -01 6.0    -03                                 11575011   30
+ 2.16   -02 8.10   -02 6.0    -03                                 11575011   31
+ 2.24   -02 6.20   -02 5.0    -03                                 11575011   32
+ 2.34   -02 5.40   -02 5.0    -03                                 11575011   33
+ 2.43   -02 6.40   -02 6.0    -03                                 11575011   34
+ 2.49   -02 8.10   -02 5.0    -03                                 11575011   35
+ 2.57   -02 8.50   -02 5.0    -03                                 11575011   36
+ 2.64   -02 9.90   -02 5.0    -03                                 11575011   37
+ 2.72   -02 1.140  -01 5.5    -03                                 11575011   38
+ 2.81   -02 8.70   -02 5.0    -03                                 11575011   39
+ 2.90   -02 9.30   -02 5.0    -03                                 11575011   40
+ 3.00   -02 7.00   -02 4.0    -03                                 11575011   41
+ 3.10   -02 6.85   -02 4.5    -03                                 11575011   42
+ 3.20   -02 6.05   -02 4.0    -03                                 11575011   43
+ 3.30   -02 5.15   -02 4.0    -03                                 11575011   44
+ 3.42   -02 5.85   -02 4.0    -03                                 11575011   45
+ 3.55   -02 5.95   -02 3.0    -03                                 11575011   46
+ 3.67   -02 5.60   -02 4.0    -03                                 11575011   47
+ 3.80   -02 5.55   -02 3.5    -03                                 11575011   48
+ 3.95   -02 5.55   -02 3.5    -03                                 11575011   49
+ 4.10   -02 4.60   -02 3.0    -03                                 11575011   50
+ 4.25   -02 4.40   -02 3.0    -03                                 11575011   51
+ 4.40   -02 3.95   -02 2.5    -03                                 11575011   52
+ 4.60   -02 3.75   -02 2.5    -03                                 11575011   53
+ 4.80   -02 3.95   -02 2.5    -03                                 11575011   54
+ 5.00   -02 3.70   -02 2.0    -03                                 11575011   55
+ 5.20   -02 3.40   -02 3.0    -03                                 11575011   56
+ 5.44   -02 3.95   -02 2.5    -03                                 11575011   57
+ 5.67   -02 3.85   -02 3.5    -03                                 11575011   58
+ 5.95   -02 5.85   -02 4.5    -03                                 11575011   59
+ENDDATA             49                                            11575011   60
+ENDSUBENT           59                                            1157501199999
+ENDENTRY             2                                            1157599999999
+ENTRY            20374     840109                                 20374000    1
+SUBENT        20374001     840109                                 20374001    1
+BIB                 15         72                                 20374001    2
+INSTITUTE  (2GERKFK)                                              20374001    3
+REFERENCE  (J,NP/A,240,29,75)                                     20374001    4
+           (R,KFK-2046,7409) PROC. OF EACRP-SPONSORED PANEL ON    20374001    5
+            KEV CAPTURE OF THE STRUCTURAL MATERIALS CR,FE,NI,     20374001    6
+            KARLSRUHE, 8-9 MAY, 1973, SUMMARY OF KFK CAPTURE      20374001    7
+            AND TRANSMISSION RESULTS ON CR-50 AND FE-54.          20374001    8
+           (W,SPENCER,7305) FURTHER RESONANCE PARAMETER TABLES    20374001    9
+            WITH NEUTRON AND RADIATION WIDTHS FOR CR-52, CR-53,   20374001   10
+            FE-54, FE-57, NI-62 AND NI-64. POINT CAPTURE DATA.    20374001   11
+           (R,KFK-1516,7312) TRANSMISSION RESULTS, FE-54          20374001   12
+           (R,KFK-1517,7311) TRANSMISSION RESULTS, CR-50, CR-52,  20374001   13
+                                                   NI-62, NI-64.  20374001   14
+           (J,NP/A,164,97,7103) TRANSMISSION RESULTS, CR-53,TI-49.20374001   15
+            SEE ENTRY 20155.                                      20374001   16
+           (J,ZP,227,1,6908) TRANSMISSION RESULTS, FE-57.         20374001   17
+            SEE ENTRY 20159.                                      20374001   18
+AUTHOR     (H.BEER,R.R.SPENCER)       SUMMARY PAPER IN KFK-2046,  20374001   19
+           (H.BEER, R.R.SPENCER, F.H.FROEHNER, M.CHO)  KFK-1516,  20374001   20
+           (R.R.SPENCER, H.BEER, F.H.FROEHNER)         KFK-1517,  20374001   21
+TITLE      -CAPTURE CROSS SECTION MEASUREMENTS ON REACTOR         20374001   22
+            STRUCTURAL MATERIALS WITH A LARGE LIQUID SCINTILLATOR 20374001   23
+            DETECTOR.-                                            20374001   24
+FACILITY   (VDG  )    PULSED 3 MV VAN DE GRAAFF AT KARLSRUHE.     20374001   25
+INC-SOURCE (P-LI7)    LI-7(P,N)BE-7 REACTION. RELATIVELY THICK    20374001   26
+            (150 KEV) LITHIUM TARGET.  PROTON PULSE 1NS, 500KHZ   20374001   27
+            REPETITION.                                           20374001   28
+METHOD     (TOF  )    TIME OF FLIGHT. PATH = 2 M.                 20374001   29
+DETECTOR   (STANK)    SCINTILLATOR TANK, APPROX. 800L NE 224      20374001   30
+            LIQUID SCINTILLATOR.                                  20374001   31
+PART-DET   (G    )    GAMMAS.                                     20374001   32
+ANALYSIS   (AREA) RADIATION WIDTHS (BROAD LEVELS) AND CAPTURE     20374001   33
+            AREAS (NARROW LEVELS) EXTRACTED WITH AREA ANALYSIS    20374001   34
+            CODE TACASI (FROEHNER, REPORT GA-6906,1966), USING    20374001   35
+            KNOWN NEUTRON WIDTHS WHERE AVAILABLE.                 20374001   36
+           (SHAPE) NEUTRON WIDTHS DETERMINED BY MULTI-LEVEL       20374001   37
+            LEAST-SQUARES FIT TO TRANSMISSION DATA, R-MATRIX      20374001   38
+            FORMALISM. INELASTIC CHANNEL TAKEN INTO ACCOUNT FOR   20374001   39
+            FE-57 ABOVE 14 KEV.                                   20374001   40
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)                         20374001   41
+            AS REPORTED BY D.KOMPE, NUCL.PHYS.A133(1969)513.      20374001   42
+            SEE ENTRY 20358.                                      20374001   43
+CORRECTION .CROSS SECTION DATA WERE CORRECTED FOR                 20374001   44
+              TIME-INDEPENDENT BACKGROUND,                        20374001   45
+              TIME-  DEPENDENT BACKGROUND(MEASURED WITH C SAMPLE),20374001   46
+              SAMPLE ADMIXTURES (O IN OXIDES, ISOTOPIC IMPURITIES)20374001   47
+              UNRECORDED PULSE HEIGHT SPECTRUM FRACTION BELOW     20374001   48
+                     3 MEV THRESHOLD,                             20374001   49
+              INTRINSIC TANK EFFICIENCY (ESCAPE OF ENTIRE CASCADE)20374001   50
+           .RADIATION WIDTH EXTRACTION INCLUDED CORRECTIONS       20374001   51
+            FOR                                                   20374001   52
+              SELF-SHIELDING,                                     20374001   53
+              MULTIPLE INTERACTIONS (MONTE CARLO TREATMENT),      20374001   54
+              INSTRUMENTAL RESOLUTION,                            20374001   55
+              INFLUENCE OF NEARBY RESONANCES.                     20374001   56
+ERR-ANALYS .CROSS SECTION ERRORS INCLUDE UNCERTAINTIES FROM       20374001   57
+              COUNTING STATISTICS,                                20374001   58
+              BACKGROUND SUBTRACTION,                             20374001   59
+              SPECTRUM FRACTIONS,                                 20374001   60
+              STANDARD.                                           20374001   61
+           .UNCERTAINTY IN ENERGY SCALE AND RESONANCE ENERGIES    20374001   62
+            ESTIMATED AS 0.3 PERCENT.                             20374001   63
+           .NEUTRON AND RADIATION WIDTH UNCERTAINTIES CALCULATED  20374001   64
+            FROM TRANSMISSION AND CAPTURE YIELD UNCERTAINTIES     20374001   65
+            BY ERROR PROPAGATION THROUGH LEAST-SQUARES FIT.       20374001   66
+COMMENT    .CAPTURE CROSS SECTION DATA ARE CAPTURE YIELDS DIVIDED 20374001   67
+            BY SAMPLE THICKNESS IN AT./B, EQUAL TO TRUE CROSS     20374001   68
+            SECTION ONLY WHERE EFFECTS OF SAMPLE THICKNESS (SELF- 20374001   69
+            SHIELDING, MULTIPLE COLLISIONS) AND RESOLUTION ARE    20374001   70
+            NEGLIGIBLE.                                           20374001   71
+HISTORY    (730614C)                                              20374001   72
+           (740929E)                                              20374001   73
+           (780911U) REFERENCE UPDATED BY NNDC                    20374001   74
+ENDBIB              72                                            20374001   75
+NOCOMMON             0          0                                 20374001   76
+ENDSUBENT           75                                            2037400199999
+ENDENTRY             2                                            2037499999999
+ENTRY            30424     930426                                 30424000    1
+SUBENT        30424001     930426                                 30424001    1
+BIB                 15         37                                 30424001    2
+TITLE      NEUTRON CAPTURE CROSS SECTION OF FE-57.                30424001    3
+AUTHOR     (B.J.ALLEN,A.R.DEL.MUSGROVE,R.TAYLOR,R.L.MACKLIN)      30424001    4
+INSTITUTE  (1USAORL) LOCATION OF EXP., LAST AUTHOR'S ADDRESS.     30424001    5
+           (3AULAUA)                                              30424001    6
+REFERENCE  (C,77GEEL,,476,7712)                                   30424001    7
+           (W,ALLEN,771024) PREPRINT. COMPILATION WAS PERFORMED.  30424001    8
+           (J,NSE,82,(2),230,82) CORRECTION FACTOR (=1.0360) FOR  30424001    9
+            NEUTRON CAPTURE CROSS-SECTION IS GIVEN                30424001   10
+SAMPLE     ENRICHED METALLIC SAMPLE, ENRICHED TO 93.6 PERCENT FE5730424001   11
+           THICKNESS 0.00183 ATOM/B AND 2.6*5.2 CM2.              30424001   12
+FACILITY   (LINAC,1USAORL)                                        30424001   13
+           ORNL ELECTRON LINAC,(ORELA)                            30424001   14
+INC-SOURCE (PHOTO)                                                30424001   15
+METHOD     (TOF) TIME OF FLIGHT, PATH = 40 M.                     30424001   16
+           ENERGY RESOLUTION OF 0.2 PERCENT.                      30424001   17
+DETECTOR   (SCIN) TWO NON-HYDROGENOUS LIQUID SCINTILLATORS.  SEE  30424001   18
+           DETAIL IN MACKLIN AND ALLEN,NUCL.INSTR.METH.91(1971)56530424001   19
+           . 0.5 MM THICK LI-6 GLASS SCINTILLATOR AS NEUTRON FLUX 30424001   20
+           MONITOR.                                               30424001   21
+PART-DET   (G) GAMMAS.                                            30424001   22
+MONITOR    (3-LI-6(N,T)2-HE-4,,SIG)                               30424001   23
+           SEE DETAIL IN MACKLIN ET AL.,PHYS.REV.C11(1975)1270.   30424001   24
+ANALYSIS   (AREA) AREA ANALYSIS USING A MODIFIED VERSION OF THE   30424001   25
+           ORNL/RPI MONTE CARLO CODE BY J.G.SULLIVAN ET AL.,REPORT30424001   26
+           RPI-328-155(1969).                                     30424001   27
+           .WHEN THE NEUTRON-WIDTH IS GREATER THAN 0.2*(ENERGY    30424001   28
+           RESOLUTION-WIDTH), A SHAPE FIT WAS ALSO PERFORMED.     30424001   29
+CORRECTION SELF-SHIELDING AND MULTIPLE-SCATTERING CORRECTIONS WERE30424001   30
+           CONSIDERED IN MONTE CARLO CODE.                        30424001   31
+           PROMPT BACKGROUND CORRECTION WAS MADE FOR RESONANCE    30424001   32
+           SCATTERED NEUTRONS.                                    30424001   33
+STATUS     (APRVD) APPROVED WITH AMENDMENTS BY ALLEN, 78/04/07.   30424001   34
+HISTORY    (771115C) KO.                                          30424001   35
+           (780421A) KO.-'APRVD' ADDED. CORRECTION OF SUBENTRIES  30424001   36
+            .002 AND .003.-                                       30424001   37
+           (821108U) DG.-INSERTION OF CORREGENDUM IN REFERENCE.   30424001   38
+           (930202U) HW.-SEQUENCE INSTITUTE CODES ALTERED.-       30424001   39
+ENDBIB              37                                            30424001   40
+NOCOMMON                                                          30424001   41
+ENDSUBENT           40                                            3042400199999
+SUBENT        30424004     850121                                 30424004    1
+BIB                  4          5                                 30424004    2
+REACTION   (26-FE-57(N,G)26-FE-58,,SIG,,AV)                       30424004    3
+STATUS     DATA FROM TABLE 3 OF PREPRINT SENT BY ALLEN, 77/10/24. 30424004    4
+           AFTER THE VALUES HAVE BEEN MULTIPLIED BY 1.0360.       30424004    5
+HISTORY    (821108A) DG.-THE VALUES HAVE BEEN CORRECTED.-         30424004    6
+ERR-ANALYS STANDARD DEVIATION IS GIVEN                            30424004    7
+ENDBIB               5                                            30424004    8
+NOCOMMON             0          0                                 30424004    9
+DATA                 4         17                                 30424004   10
+EN-MIN     EN-MAX     DATA       DATA-ERR                         30424004   11
+KEV        KEV        MB         MB                               30424004   12
+ 3.0000E+00 4.0000E+00 1.8500E+02 2.0000E+01                      30424004   13
+ 4.0000E+00 5.0000E+00 3.2600E+01 1.6000E+00                      30424004   14
+ 6.0000E+00 7.0000E+00 4.8200E+01 1.4700E+01                      30424004   15
+ 7.0000E+00 8.0000E+00 2.4700E+02 1.2000E+01                      30424004   16
+ 8.0000E+00 9.0000E+00 3.1000E+00 2.0000E-01                      30424004   17
+ 9.0000E+00 1.0000E+01 1.0800E+01 5.0000E-01                      30424004   18
+ 1.0000E+01 2.0000E+01 4.7900E+01 2.3000E+00                      30424004   19
+ 2.0000E+01 3.0000E+01 7.6200E+01 1.0700E+01                      30424004   20
+ 3.0000E+01 4.0000E+01 2.0400E+01 1.0000E+00                      30424004   21
+ 4.0000E+01 5.0000E+01 1.6400E+01 2.0000E+00                      30424004   22
+ 5.0000E+01 6.0000E+01 1.7900E+01 2.5000E+00                      30424004   23
+ 6.0000E+01 7.0000E+01 1.9100E+01 2.3000E+00                      30424004   24
+ 7.0000E+01 8.0000E+01 8.8000E+00 1.2000E+00                      30424004   25
+ 8.0000E+01 9.0000E+01 4.4000E+00 3.0000E-01                      30424004   26
+ 9.0000E+01 1.0000E+02 1.2900E+01 1.2000E+00                      30424004   27
+ 1.0000E+02 1.5000E+02 9.6000E+00 6.0000E-01                      30424004   28
+ 1.5000E+02 2.0000E+02 3.5000E+00 3.0000E-01                      30424004   29
+ENDDATA             19                                            30424004   30
+ENDSUBENT           29                                            3042400499999
+SUBENT        30424005     850121                                 30424005    1
+BIB                  4          5                                 30424005    2
+REACTION   (26-FE-57(N,G)26-FE-58,,SIG,,SPA)                      30424005    3
+INC-SPECT  MAXWELLIAN AVERAGE FOR STELLAR TEMPERATURE,            30424005    4
+            ''KT'' = 30 KEV.                                      30424005    5
+STATUS     DATA FROM TABLE 3 OF PREPRINT SENT BY ALLEN, 77/10/24. 30424005    6
+ERR-ANALYS NO FURTHER INFORMATION.                                30424005    7
+ENDBIB               5                                            30424005    8
+NOCOMMON             0          0                                 30424005    9
+DATA                 3          1                                 30424005   10
+EN-DUMMY   DATA       DATA-ERR                                    30424005   11
+KEV        MB         MB                                          30424005   12
+ 4.5000E+01 3.4700E+01 2.3000E+00                                 30424005   13
+ENDDATA              3                                            30424005   14
+ENDSUBENT           13                                            3042400599999
+ENDENTRY             3                                            3042499999999
+ENDREQUEST           1                                            Z999999999999

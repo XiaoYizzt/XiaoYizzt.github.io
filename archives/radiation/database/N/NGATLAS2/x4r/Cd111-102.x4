@@ -1,0 +1,214 @@
+REQUEST           1001   20010914          3     141824               0  0    0
+ENTRY            11769     830927                                 11769000    1
+SUBENT        11769001     830927                                 11769001    1
+BIB                  8         10                                 11769001    2
+INSTITUTE  (1USAORL)                                              11769001    3
+REFERENCE  (P,ORNL-3994,1,6609)                                   11769001    4
+AUTHOR     (C.R.BALDOCK,J.HALPERIN,L.E.IDOM,J.H.OLIVER)           11769001    5
+TITLE      REACTOR NEUTRON CROSS SECTIONS FOR THE CADMIUM         11769001    6
+            ISOTOPES 110, 111, AND 112.                           11769001    7
+N-SOURCE   (REAC) ORR                                             11769001    8
+INC-SPECT  REACTOR SPECTRUM                                       11769001    9
+MONITOR    (27-CO-59(N,G)27-CO-60,,SIG)                           11769001   10
+HISTORY    (770518C)                                              11769001   11
+           (830927A) CONVERTED TO REACTION FORMALISM              11769001   12
+ENDBIB              10                                            11769001   13
+NOCOMMON             0          0                                 11769001   14
+ENDSUBENT           13                                            1176900199999
+SUBENT        11769003     830927                                 11769003    1
+BIB                  1          1                                 11769003    2
+REACTION   (48-CD-111(N,G)48-CD-112,,SIG,,SPA)                    11769003    3
+ENDBIB               1                                            11769003    4
+NOCOMMON             0          0                                 11769003    5
+DATA                 3          1                                 11769003    6
+EN-DUMMY   DATA       DATA-ERR                                    11769003    7
+EV         B          B                                           11769003    8
+ 0.0253     24.3       3.                                         11769003    9
+ENDDATA              3                                            11769003   10
+ENDSUBENT            9                                            1176900399999
+ENDENTRY             2                                            1176999999999
+ENTRY            30488     930426                                 30488000    1
+SUBENT        30488001     930426                                 30488001    1
+BIB                 15         35                                 30488001    2
+TITLE      -RADIATIVE NEUTRON CAPTURE OF CD-111 AND -113.-        30488001    3
+AUTHOR     (A.R.DEL.MUSGROVE,B.J.ALLEN,J.W.BOLDEMAN,R.L.MACKLIN)  30488001    4
+INSTITUTE  (1USAORL) LAST AUTHOR'S ADDRESS.                       30488001    5
+           (3AULAUA)                                              30488001    6
+REFERENCE  (C,78HARWELL,,449,7809)                                30488001    7
+           (J,NSE,82,(2),230,82) CORRECTION FACTORS (=1.208) FOR  30488001    8
+           48-CD-111 AND (=1.0187) FOR 48-CD-113 FOR CAPTURE      30488001    9
+           CROSS-SECTION ARE GIVEN.                               30488001   10
+COMMENT     === RESONANCE PARAMETERS HAVE BEEN REQUESTED FROM     30488001   11
+            THE AUTHOR,79/05/29. ===                              30488001   12
+            === AUTHOR'S REPLY, B.ALLEN,79/07/24.                 30488001   13
+            THE RESONANCE PARAMETERS ARE NOT YET AVAILABLE.       30488001   14
+            ANALYSIS VERY INCOMPLETE FOR CD-111, ESPECIALLY. ===  30488001   15
+SAMPLE     ENRICHED SAMPLE,                                       30488001   16
+                                   CD-111          CD-113         30488001   17
+             SAMPLE FORM           CADMIUM OXIDE.  METAL          30488001   18
+             ENRICHMENT (PERCENT)  96.             96.            30488001   19
+             THICKNESS(ATOM/B)     0.0134          0.0079         30488001   20
+             THICKNESS( CM.  )     0.81            0.18           30488001   21
+MONITOR    (3-LI-6(N,T)2-HE-4,,SIG)                               30488001   22
+FACILITY   (LINAC,1USAORL)                                        30488001   23
+INC-SOURCE (PHOTO)                                                30488001   24
+METHOD     (TOF) TIME OF FLIGHT, PATH = 40 M.                     30488001   25
+DETECTOR   (SCIN)                                                 30488001   26
+           A PAIR OF NON-HYDROGENOUS FLUOROCARBON LIQUID          30488001   27
+           SCINTILLATORS, OPERATING AS TOTAL-ENERGY DETECTORS.    30488001   28
+           .THIN LI-6 GLASS SCINTILLATOR IN TRANSMISSION MODE, FOR30488001   29
+           NEUTRON-FLUX MONITORING.                               30488001   30
+PART-DET   (G)                                                    30488001   31
+ERR-ANALYS NO FURTHER INFORMATION.                                30488001   32
+STATUS     (APRVD) APPROVED BY B.ALLEN,79/07/24.                  30488001   33
+HISTORY    (790601C) KO.                                          30488001   34
+           (790906U) KO.-'APRVD' AND NOTE ADDED.-                 30488001   35
+           (821203U) DG.-INSERTION OF CORRIGENDUM IN REFERENCE.-  30488001   36
+           (930202U) HW.-SEQUENCE INSTITUTE CODES ALTERED.-       30488001   37
+ENDBIB              35                                            30488001   38
+NOCOMMON                                                          30488001   39
+ENDSUBENT           38                                            3048800199999
+SUBENT        30488002     850121                                 30488002    1
+BIB                  3          5                                 30488002    2
+REACTION   (48-CD-111(N,G)48-CD-112,,SIG,,AV)                     30488002    3
+STATUS     DATA TAKEN FROM TABLE V OF 1978 HARWELL CONF. ON       30488002    4
+           NEUTRON PHYSICS AND NUCLEAR DATA, P.449.               30488002    5
+           AFTER THE VALUES HAVE BEEN MULTIPLIED BY 1.208.        30488002    6
+HISTORY    (821203A) DG.-THE VALUES HAVE BEEN CORRECTED.-         30488002    7
+ENDBIB               5                                            30488002    8
+NOCOMMON             0          0                                 30488002    9
+DATA                 4         15                                 30488002   10
+EN-MIN     EN-MAX     DATA       DATA-ERR                         30488002   11
+KEV        KEV        MB         MB                               30488002   12
+ 3.0000E+00 4.0000E+00 2.0530E+03 3.0200E+02                      30488002   13
+ 4.0000E+00 5.0000E+00 1.8360E+03 2.6600E+02                      30488002   14
+ 5.0000E+00 6.0000E+00 1.8120E+03 2.5400E+02                      30488002   15
+ 6.0000E+00 8.0000E+00 1.5580E+03 2.3000E+02                      30488002   16
+ 8.0000E+00 1.0000E+01 1.5700E+03 2.1700E+02                      30488002   17
+ 1.0000E+01 1.5000E+01 1.4800E+03 2.0000E+01                      30488002   18
+ 1.5000E+01 2.0000E+01 1.3170E+03 1.8100E+02                      30488002   19
+ 2.0000E+01 3.0000E+01 1.1780E+03 1.5700E+02                      30488002   20
+ 3.0000E+01 4.0000E+01 1.0510E+03 1.4500E+02                      30488002   21
+ 4.0000E+01 5.0000E+01 9.4200E+02 1.3300E+02                      30488002   22
+ 5.0000E+01 6.0000E+01 8.9400E+02 1.2100E+02                      30488002   23
+ 6.0000E+01 8.0000E+01 7.6700E+02 1.0300E+02                      30488002   24
+ 8.0000E+01 1.0000E+02 6.6400E+02 9.1000E+01                      30488002   25
+ 1.0000E+02 1.5000E+02 5.6800E+02 8.6000E+01                      30488002   26
+ 1.5000E+02 2.0000E+02 4.8300E+02 7.2000E+01                      30488002   27
+ENDDATA             17                                            30488002   28
+ENDSUBENT           27                                            3048800299999
+SUBENT        30488003     850121                                 30488003    1
+BIB                  2          4                                 30488003    2
+REACTION   (48-CD-111(N,G)48-CD-112,,SIG,,SPA)                    30488003    3
+           MAXWELLIAN CAPTURE CROSS-SECTION AT ''KT'' = 30 KEV.   30488003    4
+STATUS     DATA TAKEN FROM TABLE VIII OF 1978 HARWELL CONF. ON    30488003    5
+           NEUTRON PHYSICS AND NUCLEAR DATA, P.449.               30488003    6
+ENDBIB               4                                            30488003    7
+NOCOMMON             0          0                                 30488003    8
+DATA                 3          1                                 30488003    9
+EN-DUMMY   DATA       DATA-ERR                                    30488003   10
+KEV        MB         MB                                          30488003   11
+ 4.5000E+01 8.8000E+02 1.2500E+02                                 30488003   12
+ENDDATA              3                                            30488003   13
+ENDSUBENT           12                                            3048800399999
+ENDENTRY             3                                            3048899999999
+ENTRY            40122     980307                                 40122000    1
+SUBENT        40122001     980307                                 40122001    1
+BIB                 13         45                                 40122001    2
+INSTITUTE  (4UKRIJI)    FORMER 4CCPUFZ                            40122001    3
+REFERENCE  (R,YFI-6,115,6803) NUMERICAL  DATA  GIVEN  PARTIALLY   40122001    4
+           (J,UFZ,17,38,7201) NUMERICAL  DATA  GIVEN  PARTIALLY   40122001    5
+           (C,68DUBNA,ACC-68/20,68)NUMERICAL DATA GIVEN PARTIALLY 40122001    6
+AUTHOR     (V.P.VERTEBNYY,M.F.VLASOV,N.L.GNIDAK,E.I.GRISHANIN,    40122001    7
+           R.A.ZATSERKOVSKIY,A.L.KIRILYUK,V.I.LEPENDIN,           40122001    8
+           N.A.TROFIMOVA,A.F.FEDOROVA)                            40122001    9
+TITLE       THE  INVESTIGATION  OF  THERMAL  NEUTRON  INTERACTION 40122001   10
+            WITH  CADMIUM  ISOTOPES                               40122001   11
+FACILITY   (REAC,CHOPS) THERMAL  REACTOR  VVR-M  WITH  MECHANICAL 40122001   12
+                        CHOPPER  OF  NEUTRON  BEAM                40122001   13
+INC-SOURCE (REAC)     THERMAL REACTOR VVR-M                       40122001   14
+METHOD     (TOF)    TIME-OF-FLIGHT  METHOD  WITH FLIGHT  PATH     40122001   15
+                    18.7 M  AND  RESOLUTION  6. MICROSEC/M  FOR   40122001   16
+            TRANSMISSION.IN THE PRESENT CASE  TOTAL  RESOLUTION   40122001   17
+            FOR SCATTERING IS EQUAL TO 3 MICROSEC/M               40122001   18
+DETECTOR   (BF3)      BORON  COUNTER  BATTERY,  HEIGHT  30  CM ,  40122001   19
+                      WIDTH IS  10  CM                            40122001   20
+ANALYSIS    TOTAL  CROSS  SECTIONS FOR  CD-112  AND  CD-116  COIN-40122001   21
+            CIDENCED  WITH  TOTAL  SCATTERING  CROSS  SECTIONS IN 40122001   22
+            EXPERIMENTAL ERROR LIMITS AT ENERGY VALUES  HIGHER    40122001   23
+            THAN  0.03 EV,  AT  VALUES  OF  ENERGY  LESS  THAN    40122001   24
+            0.017 EV  TOTAL  CROSS  SECTION  GROWTH IN PROPORTION 40122001   25
+            LJAMBDA**2  (LJAMBDA  IS  NEUTRON  WAVE  LENGTH).     40122001   26
+            TOTAL  CROSS  SECTIONS  FOR  CD-111  AND  CD-114  AT  40122001   27
+            ENERGY  VALUES  HIGHER  THAN  0.03 EV  ARE  IN        40122001   28
+            PROPORTITION  (ZERO SIGMA + 1/NEUTRON  SPEED)         40122001   29
+                  THE  PROPORTIONAL (LJAMBDA**2) COMPONENT IS     40122001   30
+            CONSIDERABLE LESS THAN  IN CASE OF CD-112 AND CD-116  40122001   31
+            AT  ENERGY  VALUES  HIGNER  THAN  0.017 EV.           40122001   32
+CORRECTION  NEUTRON TOTAL AND  TOTAL  SCATTERING  CROSS  SECTIONS 40122001   33
+            OBTAINED  WITH ACCOUNTING  OF  CORRECTION  ON  OXYGEN 40122001   34
+            PRESENCE  IN  SAMPLES.  OXYGEN  SCATTERING  CROSS-    40122001   35
+            SECTION IS   TAKEN EQUAL 4.2 BARN                     40122001   36
+ERR-ANALYS  TOTAL  CROSS  SECTION  ERRORS  CONTAINED  STATISTICAL 40122001   37
+            AND  SAMPLE  NUCLEAR  CONCENTRATION  ERRORS.          40122001   38
+STATUS     (APRVD)    NUMERICAL  DATA  TAKEN FROM AUTHORS AND     40122001   39
+                      FROM  UFZ,17,(1),38,7201                    40122001   40
+HISTORY    (721220C) COMPILED AT THE CENTRE                       40122001   41
+           (870204U) SCT-PROCESS INTO 'EL' AND ISO-QUAN INTO      40122001   42
+                     REACTION CONVERTED                           40122001   43
+           (980307U) CORRECTED IN CJD INCLUDING NNDC CORRECTION   40122001   44
+                     MADE 890505                                  40122001   45
+                    .ALTER FLAGS ADDED                            40122001   46
+                    .INSTITUTE CODE AND TWO AUTHOR NAMES CORRECTED40122001   47
+ENDBIB              45                                            40122001   48
+NOCOMMON             0          0                                 40122001   49
+ENDSUBENT           48                                            4012200199999
+SUBENT        40122019     870204                                 40122019    1
+BIB                  3          7                                 40122019    2
+REACTION   (48-CD-111(N,G)48-CD-112,,SIG)  CAPTURE CROSS SECTION  40122019    3
+STATUS     (DEP,40122002)       DEPENDENT  DATA.  VALUE  OF  CAP- 40122019    4
+                     TURE  CROSS  SECTION  OBTAINED  BY  ANALYSIS 40122019    5
+                     OF  MEASURED  TOTAL  CROSS  SECTION  IN  PRE-40122019    6
+                     SENT  EXPERIMENTS,  SEE  SUBENT 40122002.    40122019    7
+COMMENT     AUTHORS  CONSIDERED  THAT  PROPORTIONAL  LJAMBDA      40122019    8
+            COMPONENT  DEPENDED ON CAPTURE                        40122019    9
+ENDBIB               7                                            40122019   10
+NOCOMMON             0          0                                 40122019   11
+DATA                 3          1                                 40122019   12
+EN         DATA       DATA-ERR                                    40122019   13
+EV         B          B                                           40122019   14
+0.0253     7.7        0.8                                         40122019   15
+ENDDATA              3                                            40122019   16
+ENDSUBENT           15                                            4012201999999
+ENDENTRY             2                                            4012299999999
+ENTRY            41187     960405                                 41187000    1
+SUBENT        41187001     960405                                 41187001    1
+BIB                 10         12                                 41187001    2
+TITLE       CD-111 THERMAL NEUTRONS ABSORPTION CROSS-SECTION      41187001    3
+AUTHOR     (E.V.VASIL'EVA,A.V.VOYNOV,O.D.KESTAROVA,V.D.KULIK,     41187001    4
+           A.M.SUKHOVOY,V.A.KHITROV,YU.V.KHOL'NOV)                41187001    5
+INSTITUTE  (4ZZZDUB)                                              41187001    6
+REFERENCE  (J,YK,1994,(1),80,9403)  DATA IS GIVEN                 41187001    7
+METHOD     (ACTIV)                                                41187001    8
+MONITOR    (48-CD-113(N,G)48-CD-114,,SIG)                         41187001    9
+DETECTOR   (GELI)                                                 41187001   10
+ERR-ANALYS (DATA-ERR)  ERROR IS NOT SPECIFIED                     41187001   11
+           (ERR-1)     SYSTEMATIC ERROR                           41187001   12
+STATUS      DATA FROM THE REFERENCE                               41187001   13
+HISTORY    (960405C)  + + COMPILED AT THE CENTRE - CJD + +        41187001   14
+ENDBIB              12                                            41187001   15
+NOCOMMON             0          0                                 41187001   16
+ENDSUBENT           15                                            4118700199999
+SUBENT        41187002     960405                                 41187002    1
+BIB                  1          1                                 41187002    2
+REACTION   (48-CD-111(N,G)48-CD-112,,SIG)                         41187002    3
+ENDBIB               1                                            41187002    4
+NOCOMMON             0          0                                 41187002    5
+DATA                 5          1                                 41187002    6
+EN         DATA       DATA-ERR   ERR-1      MONIT                 41187002    7
+EV         B          B          PER-CENT   B                     41187002    8
+    2.5E-02   2.1        0.2       12.        2.06 E+04           41187002    9
+ENDDATA              3                                            41187002   10
+ENDSUBENT            9                                            4118700299999
+ENDENTRY             2                                            4118799999999
+ENDREQUEST           1                                            Z999999999999

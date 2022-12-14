@@ -1,0 +1,189 @@
+REQUEST           1001   20010914          3     135657               0  0    0
+ENTRY            11133     800814                                 11133000    1
+SUBENT        11133001     800814                                 11133001    1
+BIB                  9         10                                 11133001    2
+INSTITUTE  (1USALAS)                                              11133001    3
+REFERENCE  ((R,ANL-6797,236,6311)=(C,63ANL,,236,6310))            11133001    4
+AUTHOR     (E.JURNEY,H.MOTZ)                                      11133001    5
+TITLE      THERMAL NEUTRON CAPTURE IN D AND O16.                  11133001    6
+N-SOURCE   (THCOL) THERMAL COLUMN                                 11133001    7
+INC-SPECT  THERMAL SPECTRUM                                       11133001    8
+METHOD     CAPTURE GAMMA-RAY SPECTRA                              11133001    9
+STATUS     (SCSRS)                                                11133001   10
+HISTORY    (760628T) TRANSLATED FROM SCISRS                       11133001   11
+           (800814A) CONVERTED TO REACTION FORMALISM              11133001   12
+ENDBIB              10                                            11133001   13
+NOCOMMON             0          0                                 11133001   14
+ENDSUBENT           13                                            1113300199999
+SUBENT        11133003     800814                                 11133003    1
+BIB                  2          3                                 11133003    2
+REACTION   (4-BE-9(N,G)4-BE-10,,SIG,,MXW)                         11133003    3
+ANALYSIS   GAMMA-RAY INTENSITIES WEIGHTED ACCORDING TO FRACTION   11133003    4
+            OF NEUTRON BINDING ENERGY.                            11133003    5
+ENDBIB               3                                            11133003    6
+NOCOMMON             0          0                                 11133003    7
+DATA                 3          1                                 11133003    8
+EN-DUMMY   DATA       DATA-ERR                                    11133003    9
+MEV        B          B                                           11133003   10
+ 2.53   -08 9.2    -03 1.5    -03                                 11133003   11
+ENDDATA              3                                            11133003   12
+ENDSUBENT           11                                            1113300399999
+ENDENTRY             2                                            1113399999999
+ENTRY            11184     820107                                 11184000    1
+SUBENT        11184001     820107                                 11184001    1
+BIB                  7          9                                 11184001    2
+INSTITUTE  (1USAANL)                                              11184001    3
+REFERENCE  (R,ANL-4076,10,47)                                     11184001    4
+AUTHOR     (R.NOBLES,J.WALLACE)                                   11184001    5
+TITLE      THE DIFFUSION LENGTH AND AGE IN BERYLLIUM.             11184001    6
+FACILITY   (REAC)                                                 11184001    7
+STATUS     (SCSRS)                                                11184001    8
+HISTORY    (760628T) TRANSLATED FROM SCISRS                       11184001    9
+           (800814A) CONVERTED TO REACTION FORMALISM              11184001   10
+           (820107U) BIB UPDATE                                   11184001   11
+ENDBIB               9                                            11184001   12
+NOCOMMON             0          0                                 11184001   13
+ENDSUBENT           12                                            1118400199999
+SUBENT        11184002     800814                                 11184002    1
+BIB                  3          4                                 11184002    2
+REACTION   (4-BE-9(N,G)4-BE-10,,SIG,,MXW)                         11184002    3
+METHOD     FROM THERMAL NEUTRON DIFFUSION LENGTH=20.8+-0.5 CM,    11184002    4
+            ASSUMING TRANSPORT = 5.65 B.                          11184002    5
+INC-SPECT   THERMAL SPECTRUM                                      11184002    6
+ENDBIB               4                                            11184002    7
+NOCOMMON             0          0                                 11184002    8
+DATA                 3          1                                 11184002    9
+EN-DUMMY   DATA       DATA-ERR                                    11184002   10
+MEV        B          B                                           11184002   11
+ 2.53   -08 1.02   -02 5.     -04                                 11184002   12
+ENDDATA              3                                            11184002   13
+ENDSUBENT           12                                            1118400299999
+SUBENT        11184003     800814                                 11184003    1
+BIB                  2          2                                 11184003    2
+REACTION   (4-BE-9(N,G)4-BE-10,,SIG,,SPA)                         11184003    3
+INC-SPECT   REACTOR SPECTRUM                                      11184003    4
+ENDBIB               2                                            11184003    5
+NOCOMMON             0          0                                 11184003    6
+DATA                 2          1                                 11184003    7
+EN-DUMMY   DATA                                                   11184003    8
+MEV        B                                                      11184003    9
+ 2.53   -08 9.     -03                                            11184003   10
+ENDDATA              3                                            11184003   11
+ENDSUBENT           10                                            1118400399999
+ENDENTRY             3                                            1118499999999
+ENTRY            11204     800820                                 11204000    1
+SUBENT        11204001     800820                                 11204001    1
+BIB                  6          7                                 11204001    2
+INSTITUTE  (1USABNL)                                              11204001    3
+REFERENCE  (W,PALEVSKY,52)                                        11204001    4
+AUTHOR     (H.PALEVSKY,R.R.SMITH)                                 11204001    5
+FACILITY   (CHOPS)                                                11204001    6
+STATUS     (SCSRS)                                                11204001    7
+HISTORY    (760629T) TRANSLATED FROM SCISRS                       11204001    8
+           (800820A) CONVERTED TO REACTION FORMALISM              11204001    9
+ENDBIB               7                                            11204001   10
+NOCOMMON             0          0                                 11204001   11
+ENDSUBENT           10                                            1120400199999
+SUBENT        11204002     800820                                 11204002    1
+BIB                  3          3                                 11204002    2
+REACTION   (4-BE-9(N,G)4-BE-10,,SIG)                              11204002    3
+STATUS     (DEP,11204003)                                         11204002    4
+ANALYSIS   EXTRAPOLATION OF 1/V PART OF TOTAL FOR SLOW NEUTRONS.  11204002    5
+ENDBIB               3                                            11204002    6
+NOCOMMON             0          0                                 11204002    7
+DATA                 3          1                                 11204002    8
+EN         DATA       DATA-ERR                                    11204002    9
+MEV        B          B                                           11204002   10
+ 2.53   -08 1.0    -02 1.     -03                                 11204002   11
+ENDDATA              3                                            11204002   12
+ENDSUBENT           11                                            1120400299999
+ENDENTRY             2                                            1120499999999
+ENTRY            11247     800820                                 11247000    1
+SUBENT        11247001     800820                                 11247001    1
+BIB                  6          7                                 11247001    2
+INSTITUTE  (1USAANL)                                              11247001    3
+REFERENCE  (J,PR,71,269,47)                                       11247001    4
+AUTHOR     (D.J.HUGHES,C.EGGLER,C.M.HUDDLESTON)                   11247001    5
+TITLE      THE HALF-LIFE OF BE10.                                 11247001    6
+STATUS     (SCSRS)                                                11247001    7
+HISTORY    (760629T) TRANSLATED FROM SCISRS                       11247001    8
+           (800820A) CONVERTED TO REACTION FORMALISM              11247001    9
+ENDBIB               7                                            11247001   10
+NOCOMMON             0          0                                 11247001   11
+ENDSUBENT           10                                            1124700199999
+SUBENT        11247002     800820                                 11247002    1
+BIB                  3          3                                 11247002    2
+REACTION   (4-BE-9(N,G)4-BE-10,,SIG,,SPA)                         11247002    3
+ANALYSIS   CALCULATED ASSUMING BE-10 HALF-LIFE = 2.5*10**6 YRS    11247002    4
+INC-SPECT   REACTOR SPECTRUM                                      11247002    5
+ENDBIB               3                                            11247002    6
+NOCOMMON             0          0                                 11247002    7
+DATA                 3          1                                 11247002    8
+EN-DUMMY   DATA       DATA-ERR                                    11247002    9
+MEV        B          B                                           11247002   10
+ 2.53   -08 9.     -03 3.     -03                                 11247002   11
+ENDDATA              3                                            11247002   12
+ENDSUBENT           11                                            1124700299999
+ENDENTRY             2                                            1124799999999
+ENTRY            12983     861201                                 12983000    1
+SUBENT        12983001     861201                                 12983001    1
+BIB                 13         14                                 12983001    2
+INSTITUTE  (1CANMCM)                                              12983001    3
+REFERENCE  (J,NIM,248,416,8608)                                   12983001    4
+AUTHOR     (C.M.CONNEELY,W.V.PRESTWICH,T.J.KENNETT)               12983001    5
+TITLE      THE THERMAL NEUTRON CAPTURE CROSS SECTION OF 9BE       12983001    6
+METHOD     (ACTIV)                                                12983001    7
+DETECTOR   PAIR SPECTROMETER, GE DETECTOR, NAI(TL) ANNULUS        12983001    8
+FACILITY   (REAC) MCMASTER UNIVERSITY REACTOR                     12983001    9
+INC-SOURCE (REAC)                                                 12983001   10
+MONITOR    (7-N-14(N,G)7-N-15,,SIG)                               12983001   11
+SAMPLE     BE-O, 99 PERCENT PURE                                  12983001   12
+ERR-ANALYS ERROR INCLUDES STATISTICAL UNCERTAINTIES FROM SPECTRAL 12983001   13
+           ANALYSIS, YIELDS AND EFFICIENCY MODEL                  12983001   14
+STATUS     (APRVD) W.V.PRESTWICH, 87/1/28.                        12983001   15
+HISTORY    (861121C)                                              12983001   16
+ENDBIB              14                                            12983001   17
+COMMON               3          3                                 12983001   18
+EN         MONIT      MONIT-ERR                                   12983001   19
+EV         MB         MB                                          12983001   20
+ 0.0253     77.2       2.1                                        12983001   21
+ENDCOMMON            3                                            12983001   22
+ENDSUBENT           21                                            1298300199999
+SUBENT        12983002     861201                                 12983002    1
+BIB                  2          2                                 12983002    2
+REACTION   (4-BE-9(N,G)4-BE-10,,SIG)                              12983002    3
+ANALYSIS   AVERAGE OF 3 MEASUREMENTS                              12983002    4
+ENDBIB               2                                            12983002    5
+NOCOMMON             0          0                                 12983002    6
+DATA                 2          1                                 12983002    7
+DATA       DATA-ERR                                               12983002    8
+MB         MB                                                     12983002    9
+ 8.49       0.34                                                  12983002   10
+ENDDATA              3                                            12983002   11
+ENDSUBENT           10                                            1298300299999
+ENDENTRY             2                                            1298399999999
+ENTRY            60345     820331                                 60345000    1
+SUBENT        60345001     820331                                 60345001    1
+BIB                  6          6                                 60345001    2
+INSTITUTE  (2SWTETH)                                              60345001    3
+REFERENCE  (J,HPA,34,483,61)                                      60345001    4
+AUTHOR     (L.JARCZYK,J.LANG,R.MULLER,W.WOLFLI)                   60345001    5
+TITLE       (N,GAMMA)SPECTRUM AND CROSS SECTION OF LI, BE AND C.  60345001    6
+INC-SPECT   THERMAL SPECTRUM                                      60345001    7
+STATUS     (SCSRS)                                                60345001    8
+ENDBIB               6                                            60345001    9
+NOCOMMON             0          0                                 60345001   10
+ENDSUBENT            9                                            6034500199999
+SUBENT        60345011     820331                                 60345011    1
+BIB                  1          1                                 60345011    2
+REACTION   (4-BE-9(N,G)4-BE-10,,SIG,,MXW)                         60345011    3
+ENDBIB               1                                            60345011    4
+NOCOMMON             0          0                                 60345011    5
+DATA                 3          1                                 60345011    6
+EN-DUMMY   DATA       DATA-ERR                                    60345011    7
+MEV        B          B                                           60345011    8
+ 2.5300E-08 7.5000E-03 1.0000E-03                                 60345011    9
+ENDDATA              3                                            60345011   10
+ENDSUBENT            9                                            6034501199999
+ENDENTRY             2                                            6034599999999
+ENDREQUEST           1                                            Z999999999999

@@ -1,0 +1,87 @@
+REQUEST           1001   20010914          3     141708               0  0    0
+ENTRY            12874     850422                                 12874000    1
+SUBENT        12874001     850422                                 12874001    1
+BIB                 13         31                                 12874001    2
+INSTITUTE  (1USAORL)                                              12874001    3
+REFERENCE  (J,NSE,89,79,8501)                                     12874001    4
+AUTHOR     (R.L.MACKLIN)                                          12874001    5
+TITLE      NEUTRON CAPURE MEASUREMENTS ON FISSION-PRODUCT 107-PD. 12874001    6
+FACILITY   (LINAC) ORELA FACILITY AT ORNL.                        12874001    7
+INC-SOURCE (PHOTO)-WATER MODERATED                                12874001    8
+SAMPLE     THE SAMPLE WAS PACKAGED IN A 0.1 MM THICK PLASTIC      12874001    9
+             ENVELOPE AND WAS 15.54+-0.05 PERCENT ISOTOPIC PURITY.12874001   10
+           NATURAL PALLADIUM SAMPLE WAS RUN INTERMIITTENTLY IN    12874001   11
+             THE LOWER ENERGY RANGE.                              12874001   12
+METHOD     (TOF) TIME OF FLIGHT 40127 MM.PATH LENGTH.             12874001   13
+           THE TIME OF FLIGHT ENERGY SCALE WAS CALIBRATED         12874001   14
+             WITH ALUMINUM RESONANCES AT 5.903 AND 1094 KEV.      12874001   15
+DETECTOR   (SCIN) A PAIR OF NONHYDROGENOUS LIQUID SCINTILLATORS.  12874001   16
+           THE DETECTION EFFICIENCY WAS DETERMINED BY THE         12874001   17
+             SATURATED RESONANCE METHOD.                          12874001   18
+MONITOR    LI-6 GLASS SCINTILLATOR WAS USED AS A NEUTRON FLUX     12874001   19
+            MONITOR.                                              12874001   20
+CORRECTION THE DATA WERE CORRECTED FOR-                           12874001   21
+              1. ELECTRONIC DEAD TIME.                            12874001   22
+              2. MEASURED ENVIRONMENTAL BAKGROUND.                12874001   23
+              3. BEAM-DEPENDENT BACKGROUND.                       12874001   24
+              4. GAMMA-RAY ENERGY LOSS IN THE SAMPLE.             12874001   25
+           A B-10 FILTER WAS USED TO ABSORB THE NEUTRONS FROM     12874001   26
+             EARLIER PULSES WHICH WOULD HAVE REACHED THE SAMPLE   12874001   27
+             AT THE SAME TIME AS THOSE BEING STUDIED.             12874001   28
+STATUS     DATA TAKEN FROM TABLES 2,3 AND 4 FROM THE PRE-PRINT    12874001   29
+             SUBMITTED TO NUC.SCI.ENG.                            12874001   30
+           (APRVD) R.L.MACKLIN, 84/6/19.                          12874001   31
+HISTORY    (840514C)                                              12874001   32
+           (850422A) REFERENCE UPDATE.                            12874001   33
+ENDBIB              31                                            12874001   34
+NOCOMMON             0          0                                 12874001   35
+ENDSUBENT           34                                            1287400199999
+SUBENT        12874003     840514                                 12874003    1
+BIB                  3         21                                 12874003    2
+REACTION   (46-PD-107(N,G)46-PD-108,,SIG,,AV)                     12874003    3
+ANALYSIS   THE AVERAGE PD-107 CAPTURE CROSS SECTIONS WERE DERIVED 12874003    4
+             FROM THE FISSION PRODUCT SAMPLE DATA BY SUBTRACTING  12874003    5
+             THE 104,105,106,108,110PD CAPTURE YIELDS WITH THE    12874003    6
+             HELP OF THE LINEAR UNSCRAMBLING MATRIX OBTAINED BY   12874003    7
+             THE AUTHOR PREVIOUSLY-SEE NUC.SCI.ENG.,71,182,1979.  12874003    8
+           ABOVE 2600 EV THE ENRICHED STABLE ISOTOPE CAPTURE      12874003    9
+             DATA(NUCL.SCI.ENG.,86,362,1984) WERE LINEARLY        12874003   10
+             COMBINED WITH THE FISSION PRODUCT DATA TO GIVE THE   12874003   11
+             NET CAPTURE YIELD DUE TO PD-107 ALONE.               12874003   12
+ERR-ANALYS (ERR-S) STATISTICAL UNCERTAINTIES.                     12874003   13
+           (ERR-1) SYSTEMATIC UNCERTAINTY DUE TO SAMPLE RELATED   12874003   14
+                   CORRECTIONS ARE-                               12874003   15
+                    1. NON-LINEAR NEUTRON ABSORPTION,SCATTERING.  12874003   16
+                    2. 2.4 PERCENT DUE TO NORMALIZATION.          12874003   17
+                    3. 2.4 PERCENT DUE TO SUBTRACTION OF RUNS     12874003   18
+                       MADE WITH DIFFFERENT SAMPLES AND THE       12874003   19
+                       FLUX SHAPE UNCERTAINTIES.                  12874003   20
+           THE UNCERTAINTIES ARE GIVEN AT THE 68 PERCENT          12874003   21
+             PROBABILITY LEVEL OR ONE STANDARD DEVIATION OF A     12874003   22
+             GAUSSIAN DISTRIBUTION.                               12874003   23
+ENDBIB              21                                            12874003   24
+NOCOMMON             0          0                                 12874003   25
+DATA                 5         17                                 12874003   26
+EN-MIN     EN-MAX     DATA       ERR-S      ERR-1                 12874003   27
+KEV        KEV        MB         MB         MB                    12874003   28
+    3.         4.      3067.      40.        137.                 12874003   29
+    4.         6.      2740.      36.        105.                 12874003   30
+    6.         8.      2481.      34.         83.                 12874003   31
+    8.        10.      2317.      32.         68.                 12874003   32
+   10.        15.      1968.      28.         54.                 12874003   33
+   15.        20.      1826.      26.         46.                 12874003   34
+   20.        30.      1531.      22.         36.                 12874003   35
+   30.        40.      1273.      18.         28.                 12874003   36
+   40.        60.      1082.      16.         22.                 12874003   37
+   60.        80.       918.      14.         18.                 12874003   38
+   80.       100.       798.      12.         16.                 12874003   39
+  100.       150.       639.      10.         14.                 12874003   40
+  150.       200.       532.       9.         11.                 12874003   41
+  200.       300.       460.       8.          7.                 12874003   42
+  300.       400.       298.       6.          4.                 12874003   43
+  400.       500.       155.       6.          1.                 12874003   44
+  500.       600.       114.       6.          0.                 12874003   45
+ENDDATA             19                                            12874003   46
+ENDSUBENT           45                                            1287400399999
+ENDENTRY             2                                            1287499999999
+ENDREQUEST           1                                            Z999999999999

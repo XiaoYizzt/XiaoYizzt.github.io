@@ -1,0 +1,61 @@
+REQUEST           1001   20010914          3     142107               0  0    0
+ENTRY            30077     890209                                 30077000    1
+SUBENT        30077001     890209                                 30077001    1
+BIB                 14         36                                 30077001    2
+TITLE      NEUTRON ACTIVATION CROSS-SECTIONS AT 24 KEV            30077001    3
+AUTHOR     (S.S.HASAN,A.K.CHAUBEY, M.L.SEHGAL)                    30077001    4
+INSTITUTE  (3INDMUA)                                              30077001    5
+EXP-YEAR   (68)                                                   30077001    6
+REFERENCE  (J,NC/B,58,402,6812) TABLE OF CROSS SECTIONS GIVEN     30077001    7
+SAMPLE     POWDER,PURITY BETTER THAN 99.9PERCENT,SAMPLE SANDWICHED30077001    8
+           BETWEEN 2 CELLOTAPES, PERSPEX RING FOR FIXED GEOMETRY  30077001    9
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)                           30077001   10
+INC-SOURCE ANTIMONY-BERYLLIUM, 1.7 CM DIAM. * 3.3 CM HEIGHT,      30077001   11
+           FLUX GREATER THAN  10E+7 NEUTRONS/SEC                  30077001   12
+METHOD     (ACTIV) BETA DECAY MEASURED - ACTIVATION METHOD        30077001   13
+DETECTOR   (GEMUC) END WINDOW BETA COUNTER                        30077001   14
+ERR-ANALYS (DATA-ERR) GIVEN ERROR CONSISTS OF                     30077001   15
+           1.) 1 PERCENT IN ESTIMATION OF TOTAL NUMBER OF TARGET  30077001   16
+               NUCLEI.                                            30077001   17
+           2.) 2 PERCENT IN MEASUREMENT OF SAMPLE-SOURCE GEOMETRY 30077001   18
+               EFFECT WHICH WILL DEPEND UPON REPRODUCIBILITY OF   30077001   19
+               THE GEOMETRY.                                      30077001   20
+           3.) IRRADIATION TIME MEASURED WITH AN ACCURACY OF      30077001   21
+               BETTER THAN 1 PERCENT.                             30077001   22
+           4.) ABOUT 2 PERCENT ERROR IN MEASUREMENT OF THE CROSS- 30077001   23
+               SECTIONS ESTIMATED TO BE DUE TO THE GAMMA-RAYS     30077001   24
+               DETECTED BY BETA-COUNTER.                          30077001   25
+           5.) STATISTICAL ERROR VARIES FROM ONE CASE TO ANOTHER. 30077001   26
+CORRECTION ABSENCE OF THERMAL NEUTRONS DETERMINED, INFLUENCE OF   30077001   27
+           SCATTERED NEUTRONS OF LOWER THAN 24. KEV ENERGY        30077001   28
+           NEGLIGIBLE DUE TO GEOMETRY,I.E. LARGE ROOM, REMOTE     30077001   29
+           LOCATION OF NEUTRON SOURCE FROM THE FLOOR (=1.3 M)     30077001   30
+           AND NO SHIELDING MATERIAL AROUND THE SOURCE.           30077001   31
+STATUS     NUOVO CIMENTO, VOL. 58B, PAGE 402 (1968)               30077001   32
+HISTORY    (691124C) DATA COMPILED FROM NUOVO CIM. 58B,402(1968)  30077001   33
+           INTO DASTAR-01014                                      30077001   34
+           (691203) PROOF COPY SENT TO AUTHOR                     30077001   35
+           (701211T) CONVERTED FROM DASTAR-01014                  30077001   36
+           (880601A) TMK CODING CHANGE FROM ISO-QUANT TO REACTION 30077001   37
+                        DECAY-DATA ADDED.                         30077001   38
+ENDBIB              36                                            30077001   39
+COMMON               2          3                                 30077001   40
+EN         MONIT                                                  30077001   41
+KEV        B                                                      30077001   42
+24.        0.82                                                   30077001   43
+ENDCOMMON            3                                            30077001   44
+ENDSUBENT           43                                            3007700199999
+SUBENT        30077015     890209                                 30077015    1
+BIB                  2          2                                 30077015    2
+REACTION   (51-SB-123(N,G)51-SB-124-M2,,SIG)                      30077015    3
+DECAY-DATA (51-SB-124-M2,21.MIN,B-)                               30077015    4
+ENDBIB               2                                            30077015    5
+NOCOMMON             0          0                                 30077015    6
+DATA                 2          1                                 30077015    7
+DATA       DATA-ERR                                               30077015    8
+MB         MB                                                     30077015    9
+ 3.1        1.5                                                   30077015   10
+ENDDATA              3                                            30077015   11
+ENDSUBENT           10                                            3007701599999
+ENDENTRY             2                                            3007799999999
+ENDREQUEST           1                                            Z999999999999

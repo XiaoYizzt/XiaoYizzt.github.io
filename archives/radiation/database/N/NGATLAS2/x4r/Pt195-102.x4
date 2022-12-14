@@ -1,0 +1,91 @@
+REQUEST           1001   20010914          3     144029               0  0    0
+ENTRY            11885     830919                                 11885000    1
+SUBENT        11885001     830919                                 11885001    1
+BIB                  8         11                                 11885001    2
+INSTITUTE  (1USAORL)                                              11885001    3
+REFERENCE  (P,ORNL-1879,50,55)                                    11885001    4
+AUTHOR     (H.POMERANCE)                                          11885001    5
+TITLE      ABSORPTION CROSS SECTIONS FOR LONG-LIVED FISSION-      11885001    6
+            PRODUCT ZR93,AM241,AND ENRICHED STABLE PLATINUM       11885001    7
+            ISOTOPES.                                             11885001    8
+FACILITY   (OSCIP)                                                11885001    9
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)                         11885001   10
+STATUS     (SCSRS)                                                11885001   11
+HISTORY    (760731T) TRANSLATED FROM SCISRS                       11885001   12
+           (830919A) CONVERTED TO REACTION FORMALISM              11885001   13
+ENDBIB              11                                            11885001   14
+COMMON               1          3                                 11885001   15
+MONIT                                                             11885001   16
+B                                                                 11885001   17
+ 98.                                                              11885001   18
+ENDCOMMON            3                                            11885001   19
+ENDSUBENT           18                                            1188500199999
+SUBENT        11885006     830919                                 11885006    1
+BIB                  3          3                                 11885006    2
+REACTION   (78-PT-195(N,G)78-PT-196,,SIG,,MXW)                    11885006    3
+SAMPLE     SAMPLE 60PERCENT PT195.                                11885006    4
+INC-SPECT   THERMAL SPECTRUM                                      11885006    5
+ENDBIB               3                                            11885006    6
+NOCOMMON             0          0                                 11885006    7
+DATA                 3          1                                 11885006    8
+EN-DUMMY   DATA       DATA-ERR                                    11885006    9
+MEV        B          B                                           11885006   10
+ 2.53   -08 2.68   +01 1.3    +00                                 11885006   11
+ENDDATA              3                                            11885006   12
+ENDSUBENT           11                                            1188500699999
+ENDENTRY             2                                            1188599999999
+ENTRY            40276   19981003   19990308                      40276000    1
+SUBENT        40276001   19981003   19990308                      40276001    1
+BIB                 13         33                                 40276001    2
+INSTITUTE  (4UKRIJI)                                              40276001    3
+REFERENCE  (J,YF,22,(4),674,197510)                               40276001    4
+           (R,YFI-18,32,197408)DATA FOR PLATINUM RESPARS          40276001    5
+           (C,73KIEV,2,95,197305) DATA FOR PLATINUM               40276001    6
+AUTHOR     (V.P.VERTEBNYY,P.N.VORONA,A.I.KAL'CHENKO,              40276001    7
+           V.A.PSHENICHNYY,V.K.RUDISHIN)                          40276001    8
+TITLE       INTERACTION OF THE SLOW NEUTRONS WITH  THE OSMIUM     40276001    9
+            AND PLATINUM ISOTOPES                                 40276001   10
+FACILITY   (REAC) REACTOR WWR-M                                   40276001   11
+INC-SOURCE (REAC)                                                 40276001   12
+METHOD     (TOF) TIME-OF-FLIGHT METHOD, FLIGHT PATH IS 69.6 M     40276001   13
+                 RESOLUTION IS 55 NSEC/M ABOVE 3. EV              40276001   14
+                 AND 1.8 MICROSEC/M BELOW 3. EV                   40276001   15
+DETECTOR   (PROPC) BATTERY OF 32. HE-3 COUNTERS                   40276001   16
+                   BORON COUNTERS WERE USED FOR SMALL-ANGLE       40276001   17
+                   NEUTRON SCATTERING DETECTION                   40276001   18
+ANALYSIS   (AREA)     AREA AND SHAPE METHODS WERE USED            40276001   19
+           (SHAPE)    FOR RESONANCE PARAMETERS DETERMINATION      40276001   20
+MONITOR    ABSOLUTE MEASUREMENT                                   40276001   21
+ERR-ANALYS  ERRORS ARE NOT SPECIFIED                              40276001   22
+STATUS      DATA ARE TAKEN FROM THE REFERENCES                    40276001   23
+HISTORY    (19780118C)  COMPILED AT THE CENTRE                    40276001   24
+           (19830621A)  ERRORS CORRECTED, NEW SUBENTRIES ADDED    40276001   25
+           (19840727U)  ERRORS CORRECTED                          40276001   26
+           (19900518A)  MANY SUBENTS ARE SPLIT IN SEVERAL ONES    40276001   27
+                      SOME OF THEM ARE DELETED, OTHER CORRECTED   40276001   28
+                      NEW DATA SET FOR OSMIUM ADDED FROM          40276001   29
+                      REFERENCE-ONE. SOME KEYWORDS DELETED        40276001   30
+           (19910916U)  CORRECTED BY NNDC                         40276001   31
+           (19980330U)  .FINAL CORRECTIONS MADE IN CJD - INSTITUTE40276001   32
+                       CODE CORRECTED                             40276001   33
+                      .ALTER FLAGS ADDED                          40276001   34
+           (19981003U) .REFERENCE ADDED TO SAN 001                40276001   35
+ENDBIB              33                                            40276001   36
+NOCOMMON             0          0                                 40276001   37
+ENDSUBENT           36                                            4027600199999
+SUBENT        40276013     980330                                 40276013    1
+BIB                  4          4                                 40276013    2
+REACTION   (78-PT-195(N,G)78-PT-196,,SIG)                         40276013    3
+SAMPLE      PT-195 CONTENT IS 86.66 PERCENT                       40276013    4
+ANALYSIS    1/V PART OF THE TOTAL CROSS SECTION                   40276013    5
+HISTORY    (910916U)  CORRECTED BY NNDC                           40276013    6
+ENDBIB               4                                            40276013    7
+NOCOMMON             0          0                                 40276013    8
+DATA                 3          1                                 40276013    9
+EN         DATA       DATA-ERR                                    40276013   10
+EV         B          B                                           40276013   11
+   0.0253    30.        1.2                                       40276013   12
+ENDDATA              3                                            40276013   13
+ENDSUBENT           12                                            4027601399999
+ENDENTRY             2                                            4027699999999
+ENDREQUEST           1                                            Z999999999999

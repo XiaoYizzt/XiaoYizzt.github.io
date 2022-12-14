@@ -1,0 +1,311 @@
+REQUEST           1001   20010914          3     144726               0  0    0
+ENTRY            10317     830118                                 10317000    1
+SUBENT        10317001     830118                                 10317001    1
+BIB                  9         12                                 10317001    2
+INSTITUTE  (1USASRL)                                              10317001    3
+REFERENCE  (J,NSE,50,364,73)                                      10317001    4
+AUTHOR     (R.M.HARBOUR,K.W.MAC MURDO,F.J.MC CROSSON)             10317001    5
+TITLE      THERMAL-NEUTRON CAPTURE CROSS SECTIONS AND CAPTURE     10317001    6
+            RESONANCE INTEGRALS OF AMERICIUM-241.                 10317001    7
+FACILITY   (SPECM) MASS SPECTROMETER                              10317001    8
+DECAY-DATA (95-AM-241,432.7YR,A,5486.,0.85,A,5443.,0.127)         10317001    9
+ERR-ANALYS DATA ERROR GIVEN INCLUDES UNCERTAINTIES IN HALF-LIVES  10317001   10
+            AND IN STANDARD.                                      10317001   11
+STATUS     (APRVD) APPROVED BY AUTHOR                             10317001   12
+HISTORY    (740318C)                                              10317001   13
+           (830118A) CONVERTED TO REACTION FORMALISM              10317001   14
+ENDBIB              12                                            10317001   15
+NOCOMMON             0          0                                 10317001   16
+ENDSUBENT           15                                            1031700199999
+SUBENT        10317002     830118                                 10317002    1
+BIB                  4          4                                 10317002    2
+REACTION   (95-AM-241(N,G)95-AM-242-M,,SIG)                       10317002    3
+MONITOR    (27-CO-59(N,G)27-CO-60,,SIG)                           10317002    4
+METHOD     CHEMICAL SEPARATION.                                   10317002    5
+DECAY-DATA (95-AM-242-M,152.YR)                                   10317002    6
+ENDBIB               4                                            10317002    7
+NOCOMMON             0          0                                 10317002    8
+DATA                 5          1                                 10317002    9
+EN         DATA       DATA-ERR   MONIT      MONIT-ERR             10317002   10
+EV         B          B          B          B                     10317002   11
+ 0.0253     83.8        2.6       37.3       0.2                  10317002   12
+ENDDATA              3                                            10317002   13
+ENDSUBENT           12                                            1031700299999
+ENDENTRY             2                                            1031799999999
+ENTRY            12578     841024                                 12578000    1
+SUBENT        12578001     841024                                 12578001    1
+BIB                  7          8                                 12578001    2
+INSTITUTE  (1USALRL)                                              12578001    3
+REFERENCE  (J,JNE,8,224,59)                                       12578001    4
+AUTHOR     (R.W.HOFF,E.K.HULET,M.C.MICHEL)                        12578001    5
+TITLE      BRANCHING RATIO OF 242M AM DECAY.                      12578001    6
+INC-SOURCE (REAC) U235-H2O REACTOR, MTR.                          12578001    7
+STATUS     (SCSRS)                                                12578001    8
+HISTORY    (760804T) TRANSLATED FROM SCISRS                       12578001    9
+           (841024A) BIB CORRECTIONS.                             12578001   10
+ENDBIB               8                                            12578001   11
+NOCOMMON             0          0                                 12578001   12
+ENDSUBENT           11                                            1257800199999
+SUBENT        12578002     841024                                 12578002    1
+BIB                  5          5                                 12578002    2
+REACTION   (95-AM-241(N,G)95-AM-242-M,,SIG,,SPA)                  12578002    3
+METHOD     (ACTIV)    ACTIVATION                                  12578002    4
+DECAY-DATA (95-AM-242-G,16.HR,B-,,0.84)                           12578002    5
+ASSUMED    (ASSUM,95-AM-242(N,ABS),,SIG,,SPA)                     12578002    6
+INC-SPECT   REACTOR SPECTRUM                                      12578002    7
+ENDBIB               5                                            12578002    8
+NOCOMMON             0          0                                 12578002    9
+DATA                 4          1                                 12578002   10
+EN-DUMMY   DATA       DATA-ERR   ASSUM                            12578002   11
+MEV        B          B          B                                12578002   12
+ 2.53   -08 6.20   +02 6.5    +01 6000.                           12578002   13
+ENDDATA              3                                            12578002   14
+ENDSUBENT           13                                            1257800299999
+ENDENTRY             2                                            1257899999999
+ENTRY            12583     760804                                 12583000    1
+SUBENT        12583001     760804                                 12583001    1
+BIB                  6          6                                 12583001    2
+INSTITUTE  (1USABRK)                                              12583001    3
+REFERENCE  (J,PR,85,135,52)                                       12583001    4
+AUTHOR     (K.STREET JR,A.GHIORSO,S.G.THOMPSON)                   12583001    5
+TITLE      SLOW NEUTRON FISSION OF AM-242,AM-242M, AND AM-243.    12583001    6
+STATUS     (SCSRS)                                                12583001    7
+HISTORY    (760804T) TRANSLATED FROM SCISRS                       12583001    8
+ENDBIB               6                                            12583001    9
+NOCOMMON             0          0                                 12583001   10
+ENDSUBENT            9                                            1258300199999
+SUBENT        12583002     760804                                 12583002    1
+BIB                  3          3                                 12583002    2
+REACTION   (95-AM-241(N,G)95-AM-242-M,,SIG,,SPA)                  12583002    3
+FACILITY   (SPECM)    MASS SPECTROMETER                           12583002    4
+INC-SPECT   REACTOR SPECTRUM                                      12583002    5
+ENDBIB               3                                            12583002    6
+COMMON               1          3                                 12583002    7
+HL                                                                12583002    8
+YR                                                                12583002    9
+  152.                                                            12583002   10
+ENDCOMMON            3                                            12583002   11
+DATA                 2          1                                 12583002   12
+EN-DUMMY   DATA-APRX                                              12583002   13
+MEV        B                                                      12583002   14
+ 2.53   -08 5.0    +01                                            12583002   15
+ENDDATA              3                                            12583002   16
+ENDSUBENT           15                                            1258300299999
+ENDENTRY             2                                            1258399999999
+ENTRY            20181     831121                                 20181000    1
+SUBENT        20181001     831121                                 20181001    1
+BIB                 12         19                                 20181001    2
+INSTITUTE  (2BLGMOL)                                              20181001    3
+REFERENCE  (P,EANDC(E)-76,102,6701)                               20181001    4
+           (P,EANDC(E)-66,123,6602)                               20181001    5
+           (T,WAGEMANS,66) THESIS BY C.WAGEMANS.                  20181001    6
+AUTHOR     (C.WAGEMANS, A.DERUYTTER)                              20181001    7
+TITLE      - STUDY WITH NUCLEAR TRACK DETECTORS OF THE THERMAL    20181001    8
+             NEUTRON INDUCED REACTION AM-241(N,GAMMA)AM-242-META- 20181001    9
+             STABLE(FISSION) -                                    20181001   10
+FACILITY   .BR2-REACTOR.                                          20181001   11
+INC-SPECT  .REACTOR SPECTRUM                                      20181001   12
+METHOD     (ACTIV)    SAMPLE ON ROTATING DISK, IRRADIATION DURING 20181001   13
+            13 MSEC. MEASUREMENT DURING 13 MSEC.                  20181001   14
+DETECTOR   (TRD  )    TWO MOSCOVITE MICA DETECTORS FOR FISSION    20181001   15
+            FRAGMENTS WITH A GOOD DISCRIMINATION AGAINST ALPHAS.  20181001   16
+MONITOR    .NOT GIVEN.                                            20181001   17
+PART-DET   (FF)       FISSION FRAGMENTS.                          20181001   18
+STATUS     .DATA TAKEN FROM EANDC(E)-76,102                       20181001   19
+HISTORY    (721005C)                                              20181001   20
+           (740521E)                                              20181001   21
+ENDBIB              19                                            20181001   22
+NOCOMMON             0          0                                 20181001   23
+ENDSUBENT           22                                            2018100199999
+SUBENT        20181002     831121                                 20181002    1
+BIB                  2          3                                 20181002    2
+REACTION   (95-AM-241(N,G)95-AM-242-M,,SIG,,SPA)                  20181002    3
+HISTORY    (721005C)                                              20181002    4
+           (740521E)                                              20181002    5
+ENDBIB               3                                            20181002    6
+NOCOMMON             0          0                                 20181002    7
+DATA                 3          1                                 20181002    8
+EN-DUMMY   HL         DATA-MAX                                    20181002    9
+MEV        SEC        B                                           20181002   10
+ 2.5300E-08 1.3000E-02 1.3000E-04                                 20181002   11
+ENDDATA              3                                            20181002   12
+ENDSUBENT           11                                            2018100299999
+ENDENTRY             2                                            2018199999999
+ENTRY            22346     970828                                 22346000    1
+SUBENT        22346001     970828                                 22346001    1
+BIB                 15         41                                 22346001    2
+TITLE      .RADIOCHEMICAL DETERMINATION OF THE NEUTRON CAPTURE    22346001    3
+            CROSS SECTIONS OF 241-AM IRRADIATED IN THE JMTR       22346001    4
+            REACTOR                                               22346001    5
+AUTHOR     (N.SHINOHARA,Y.HATSUKAWA,K.HATA,N.KOHNO)               22346001    6
+INSTITUTE  (2JPNJAE) JAPAN ATOMIC ENERGY RESEARCH INSTITUTE       22346001    7
+REFERENCE  ((S,JAERI-97-004,167,9604)=                            22346001    8
+           (R,INDC(JPN)-178/U,167,9604)) MAIN REFERENCE, DATA ARE 22346001    9
+            GIVEN. FIRST INTERNET CONFERENCE, APRIL 1995          22346001   10
+FACILITY   (REAC)  JAPAN MATERIAL TESTING REACTOR - JMTR          22346001   11
+MONITOR    (27-CO-59(N,G)27-CO-60,,SIG)  COBALT AND GOLD MONITORS 22346001   12
+           (79-AU-197(N,G)79-AU-198,,SIG) ARE USED FOR THE NEUT-  22346001   13
+                                          RON FLUX MONITORING     22346001   14
+INC-SOURCE (REAC)                                                 22346001   15
+INC-SPECT  .MAXWELLIAN NEUTRON SPECTRUM                           22346001   16
+SAMPLE     .COBALT AND GOLG WIRES FOR FLUX MONITORING             22346001   17
+            AM-241 WAS PURIFIED BY IONIC-EXCHANGE METHOD AND      22346001   18
+            ELECTRODIPOSITED ON ALUMINIUM DISKS.                  22346001   19
+            AMERITIUM SAMPLES AND RADIOMETRIC SOURCESFOR ALPHA-   22346001   20
+            PARTICLE MEASUREMENTS WERE PURIFIED CHROMATOGRAPHI-   22346001   21
+            CALLY BY ANION EXCHANGE WITH NITRIC ACID AND METHIL-  22346001   22
+            ALCOHOL AT ROOM TEMPERATURE. AM-241 CONTENT BEFORE    22346001   23
+            IRRADIATION WAS MORE THAN 99.99 PC, CHEMICAL RECOVE-  22346001   24
+            RY OF AMERITIUM AFTER THE ION EXCHANGE IS MORE THAN   22346001   25
+            99.9 PC                                               22346001   26
+DETECTOR   (SOLST) SILICON SURFACE-BARRIER DETECTORS FOR AM-241   22346001   27
+                   MEASUREMENTS BEFORE AND AFTER IRRADIATION      22346001   28
+           (HPGE)  HIGH PURITY COAXIAL GE-DETECTOR FOR GAMMA      22346001   29
+                   MEASUREMENTS                                   22346001   30
+DECAY-DATA (95-AM-241,432.0YR,A,,1.0)                             22346001   31
+           (95-AM-242-M,152.0YR,G,,0.99524)                       22346001   32
+           (95-AM-242-G,16.01HR,B-,,0.827)                        22346001   33
+           (96-CM-242,162.76D,A,,1.0)                             22346001   34
+           (94-PU-238,87.71YR,A,,1.0)                             22346001   35
+ASSUMED    (ASSUM1,27-CO-59(N,G)27-CO-60,,SIG)                    22346001   36
+           (ASSUM2,27-CO-59(N,G)27-CO-60,,RI)                     22346001   37
+           (ASSUM3,79-AU-197(N,G)79-AU-198,,SIG)                  22346001   38
+           (ASSUM4,79-AU-197(N,G)79-AU-198,,RI)                   22346001   39
+ERR-ANALYS (ERR-T)  ERRORS ARE NOT SPECIFIED, ASSUMED TOTAL BY    22346001   40
+                    COMPILER                                      22346001   41
+STATUS     DATA ARE TAKEN FROM THE MAIN REFERENCE                 22346001   42
+HISTORY    (970828C)  + +  COMPILED BY S.MAEV   + +               22346001   43
+ENDBIB              41                                            22346001   44
+COMMON               8          6                                 22346001   45
+ASSUM1     ASSUM1-ERR ASSUM2     ASSUM2-ERR ASSUM3     ASSUM3-ERR 22346001   46
+ASSUM4     ASSUM4-ERR                                             22346001   47
+B          B          B          B          B          B          22346001   48
+B          B                                                      22346001   49
+  37.18       0.06       74.        2.          98.65     0.09    22346001   50
+    1550.        28.                                              22346001   51
+ENDCOMMON            6                                            22346001   52
+ENDSUBENT           51                                            2234600199999
+SUBENT        22346002     970828                                 22346002    1
+BIB                  1          1                                 22346002    2
+REACTION   (95-AM-241(N,G)95-AM-242-M,,SIG)                       22346002    3
+ENDBIB               1                                            22346002    4
+NOCOMMON             0          0                                 22346002    5
+DATA                 3          1                                 22346002    6
+EN         DATA       ERR-T                                       22346002    7
+EV         B          B                                           22346002    8
+   2.53E-02    60.9      2.6                                      22346002    9
+ENDDATA              3                                            22346002   10
+ENDSUBENT            9                                            2234600299999
+ENDENTRY             2                                            2234699999999
+ENTRY            30021     900212                                 30021000    1
+SUBENT        30021001     900212                                 30021001    1
+BIB                 15         38                                 30021001    2
+TITLE      A STUDY OF THE SPONTANEOUSLY-FISSIONING ISOMER OF      30021001    3
+           AM-242 THROUGH THE AM-241(N,G) REACTION                30021001    4
+AUTHOR     (G.N.FLEROV,A.A.PLEVE,S.M.POLIKANOV,S.P.TRETYAKOVA,    30021001    5
+           I.BOCA,M.SEZON,I.VILCOV,N.VILCOV)                      30021001    6
+INSTITUTE  (3RUMBUC)                                              30021001    7
+REFERENCE  (J,NP/A,102,443,6710)EXPERIMENT DESCRPTN, GRAPH,NO DATA30021001    8
+           (R,IFA-CRD-34,6705) SAME INFORM AS NP/A,102,443,10/67  30021001    9
+           (J,RRP,13,181,6802)  SHORT DESCRIPTION, CURVES         30021001   10
+           (J,NP/A,134,541,6909)DISCUSSION ONLY, CORRECTED CURVES 30021001   11
+           (J,NP/A,97,444,6704)PRELIMINARY RESULT ONLY, HALF-LIFE 30021001   12
+           (R,IFA-CRD-32,6610) SAME AS NP/A,97,444,4/67           30021001   13
+           (J,SCF,22,795,7007) REVIEW                             30021001   14
+           (R,IFA-CRD-54,73) RESULTS OF NP/A134,1969.             30021001   15
+FACILITY   (CYCLO) CYCLOTRON PROVIDING PROTONS WITH ENERGIES OF   30021001   16
+           4.5, 7.5 AND 9.8 MEV, BEAM CURRENT 10-15 MICRO AMP     30021001   17
+INC-SOURCE (P-LI7) LI-7(P,N)BE-7 REACTION, LI FOILS FROM 100 - 50030021001   18
+           MICROMETER THICK WERE HELD BETWEEN TA PLATES, NEUTRON  30021001   19
+           ENERGY VARIED THROUGH INCOMING PROTON BEAM ENERGY      30021001   20
+           VARIATION USING TA ABSORBERS                           30021001   21
+DETECTOR   12 FISSION FRAGMENT MICA DETECTORS WERE PLACED ON      30021001   22
+           ROTATING DISC IN FRONT OF SAMPLE. NEUTRON FLUX WAS     30021001   23
+           MONITORED THROUGH GAMMA ACTIVITY OF LI TARGET, GAMMA   30021001   24
+           ACTIVITY OF CU FOIL PLACED NEAR SAMPLE AND MG MONITOR  30021001   25
+           FOR ENERGIES OVER 5 MEV                                30021001   26
+PART-DET   (FF) FISSION FRAGMENTS                                 30021001   27
+MONITOR    ABSOLUTE MEASUREMENT                                   30021001   28
+METHOD     FISSION FRAGMENT COUNTING                              30021001   29
+CORRECTION NUMERICAL DATA GIVEN ARE HIGHER THAN PUBLISHED VALUES  30021001   30
+           DUE TO IMPROVED ESTIMATE OF GEOMETRICAL FACTORS        30021001   31
+ERR-ANALYS ENERGY SPREAD DUE TO TARGET THICKNESS AND SOLID ANGLE  30021001   32
+           WAS ABOUT 450 KEV FOR ENERGY 0.3MEV AND 1.3MEV FOR     30021001   33
+           ENERGIES 3-6.5 MEV, NO DETAILS ON DATA ERRORS          30021001   34
+STATUS     DATA FROM PRIV COM  N. VILCOV, 1/70                    30021001   35
+COMMENT    DATA FROM PRIV COM AS GIVEN SUPERSEDE ALL PUBLISHED    30021001   36
+           VALUES AND GRAPHS                                      30021001   37
+HISTORY    (700820C)                                              30021001   38
+           (900117A) VOF.- COMPLETE UPDATE.REF ADDED              30021001   39
+                           REACTION CODE MOVED TO SUB 2           30021001   40
+ENDBIB              38                                            30021001   41
+NOCOMMON             0          0                                 30021001   42
+ENDSUBENT           41                                            3002100199999
+SUBENT        30021002     900212                                 30021002    1
+BIB                  1          1                                 30021002    2
+REACTION   (95-AM-241(N,G)95-AM-242-M,,SIG)                       30021002    3
+ENDBIB               1                                            30021002    4
+NOCOMMON             0          0                                 30021002    5
+DATA                 4          9                                 30021002    6
+EN         EN-RSL     DATA       DATA-ERR                         30021002    7
+MEV        MEV        MICRO-B    MICRO-B                          30021002    8
+0.30       0.30        3.5       3.5                              30021002    9
+0.50       0.45        4.8       1.6                              30021002   10
+0.90       0.45       15.2       2.0                              30021002   11
+1.10       0.45       15.2       2.0                              30021002   12
+1.35       0.45       20.0       3.0                              30021002   13
+1.60       0.45       14.7       3.0                              30021002   14
+3.10       0.45        5.3       1.3                              30021002   15
+6.10       0.80        0.0       5.0                              30021002   16
+6.80       0.80        6.7       5.0                              30021002   17
+ENDDATA             11                                            30021002   18
+ENDSUBENT           17                                            3002100299999
+ENDENTRY             2                                            3002199999999
+ENTRY            40467     861203                                 40467000    1
+SUBENT        40467001     861203                                 40467001    1
+BIB                 12         25                                 40467001    2
+TITLE       THERMAL FISSION AND CAPTURE CROSS-SECTIONS AND        40467001    3
+            RESONANCE INTEGRALS FOR AM-241,AM-243,BK-249,CF-249   40467001    4
+AUTHOR     (V.D.GAVRILOV,V.A.GONCHAROV,V.V.IVANENKO,V.P.SMIRNOV,  40467001    5
+           V.N.KUSTOV)                                            40467001    6
+INSTITUTE  (4CCPNIR)                                              40467001    7
+REFERENCE  (J,AE,41,185,7509)      DATA ARE GIVEN                 40467001    8
+           (C,75KIEV,6,71,7506)  DATA ARE GIVEN                   40467001    9
+METHOD     (ACTIV) ACTIVATION METHOD FOR MEASUREMENT              40467001   10
+                  THE GAMMA-ACTIVITY OF TARGETS.                  40467001   11
+            CADMIUM DIFFERENCE METHOD, THICKNESS OF CADMIUM       40467001   12
+            SCREEN IS EQUAL 1.0 MM                                40467001   13
+PART-DET   (FF) FISSION FRAGMENTS                                 40467001   14
+           (G)  GAMMA-RAYS OF TARGET IRRADIATED BY NEUTRONS       40467001   15
+DETECTOR   (GELI)  GAMMA-SPECTROMETER WITH GERMANIUM-LITHIUM      40467001   16
+           (TRD)   FOR REGISTRATION OF FISSION FRAGMENTS THE MICA 40467001   17
+                   AND GLASS TRACK  DETECTORS WERE USED.          40467001   18
+INC-SOURCE (REAC)  SM-2 REACTOR                                   40467001   19
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)                         40467001   20
+           (79-AU-197(N,G)79-AU-198,,RI)                          40467001   21
+           (27-CO-59(N,G)27-CO-60,,SIG)                           40467001   22
+           (27-CO-59(N,G)27-CO-60,,RI)                            40467001   23
+STATUS      FROM PUBLISHED SOURCES GIVEN UNDER 'REFERENCE'        40467001   24
+HISTORY    (771121C) COMPILED AT THE CJD                          40467001   25
+           (861203A) TWO NEW SUBENTRIES AND ONE REFERENCE ADDED   40467001   26
+ERR-ANALYS (DATA-ERR) NOT SPECIFIED                               40467001   27
+ENDBIB              25                                            40467001   28
+COMMON               5          3                                 40467001   29
+MONIT1     MONIT2     MONIT3     MONIT4     EN-NRM                40467001   30
+B          B          B          B          EV                    40467001   31
+98.8       1558.0     37.5       70.0       0.0253                40467001   32
+ENDCOMMON            3                                            40467001   33
+ENDSUBENT           32                                            4046700199999
+SUBENT        40467011     771121                                 40467011    1
+BIB                  1          1                                 40467011    2
+REACTION   (95-AM-241(N,G)95-AM-242-M,,SIG)                       40467011    3
+ENDBIB               1                                            40467011    4
+NOCOMMON             0          0                                 40467011    5
+DATA                 3          1                                 40467011    6
+EN         DATA       DATA-ERR                                    40467011    7
+EV         B          B                                           40467011    8
+0.0253     73.0       14.0                                        40467011    9
+ENDDATA              3                                            40467011   10
+ENDSUBENT            9                                            4046701199999
+ENDENTRY             2                                            4046799999999
+ENDREQUEST           1                                            Z999999999999

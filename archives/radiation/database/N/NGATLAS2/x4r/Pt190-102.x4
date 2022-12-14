@@ -1,0 +1,115 @@
+REQUEST           1001   20010914          3     144017               0  0    0
+ENTRY            11885     830919                                 11885000    1
+SUBENT        11885001     830919                                 11885001    1
+BIB                  8         11                                 11885001    2
+INSTITUTE  (1USAORL)                                              11885001    3
+REFERENCE  (P,ORNL-1879,50,55)                                    11885001    4
+AUTHOR     (H.POMERANCE)                                          11885001    5
+TITLE      ABSORPTION CROSS SECTIONS FOR LONG-LIVED FISSION-      11885001    6
+            PRODUCT ZR93,AM241,AND ENRICHED STABLE PLATINUM       11885001    7
+            ISOTOPES.                                             11885001    8
+FACILITY   (OSCIP)                                                11885001    9
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)                         11885001   10
+STATUS     (SCSRS)                                                11885001   11
+HISTORY    (760731T) TRANSLATED FROM SCISRS                       11885001   12
+           (830919A) CONVERTED TO REACTION FORMALISM              11885001   13
+ENDBIB              11                                            11885001   14
+COMMON               1          3                                 11885001   15
+MONIT                                                             11885001   16
+B                                                                 11885001   17
+ 98.                                                              11885001   18
+ENDCOMMON            3                                            11885001   19
+ENDSUBENT           18                                            1188500199999
+SUBENT        11885003     830919                                 11885003    1
+BIB                  3          3                                 11885003    2
+REACTION   (78-PT-190(N,G)78-PT-191,,SIG,,MXW)                    11885003    3
+SAMPLE     SAMPLE .76PERCENT PT190.                               11885003    4
+INC-SPECT   THERMAL SPECTRUM                                      11885003    5
+ENDBIB               3                                            11885003    6
+NOCOMMON             0          0                                 11885003    7
+DATA                 4          1                                 11885003    8
+EN-DUMMY   DATA       +DATA-ERR  -DATA-ERR                        11885003    9
+MEV        B          B          B                                11885003   10
+ 2.53   -08 9.0    +01 2.00   +02 9.0    +01                      11885003   11
+ENDDATA              3                                            11885003   12
+ENDSUBENT           11                                            1188500399999
+ENDENTRY             2                                            1188599999999
+ENTRY            12866     851106                                 12866000    1
+SUBENT        12866001     851106                                 12866001    1
+BIB                 15         51                                 12866001    2
+INSTITUTE  (1USALRL)                                              12866001    3
+REFERENCE  (C,78MAYAG,,495,7805)                                  12866001    4
+AUTHOR     (R.E.HEFT)                                             12866001    5
+TITLE      A CONSISTENT SET OF NUCLEAR-PARAMETER VALUES           12866001    6
+           FOR ABSOLUTE INSTRUMENTAL NEUTRON ACTIVATION           12866001    7
+           ANALYSIS.                                              12866001    8
+FACILITY   (REAC) LAWRENCE LIVERMORE LABORATORY LPTR RESEARCH     12866001    9
+                  REACTOR FACILITY.                               12866001   10
+METHOD     (ACTIV)                                                12866001   11
+           EPITHERMAL-TO-THERMAL FLUX RATIO WAS MEASURED IN       12866001   12
+             EACH IRRADIATION BY INCLUDING A URANIUM-SCANDIUM     12866001   13
+             STANDARD IN THE IRRADIATION PACKAGE.                 12866001   14
+INC-SPECT  REACTOR SPECTRUM. ALL NUCLIDES IRRADIATED IN POSITION  12866001   15
+            S-2 WITH A CD RATIO OF 3.8 AND IN EITHER POSITION E-1 12866001   16
+            (CD RATIO 2.5) OR POSITION A-4 (CD RATIO 2.0)         12866001   17
+            DEPENDING ON WHETHER PRODUCTS WERE LONG OR SHORT-LIVED12866001   18
+MONITOR    ELEMENT SCANDIUM WAS USED AS AN INTERNAL FLUX MONITOR  12866001   19
+             SCANDIUM VALUES WERE MEASURED BY TAKING MIXTURES OF  12866001   20
+                                COBALT-SCANDIUM                   12866001   21
+                                GOLD-SCANDIUM                     12866001   22
+                                U238-SCANDIUM                     12866001   23
+           ((MONIT1)21-SC-45(N,G)21-SC-46,,SIG)                   12866001   24
+           ((MONIT2)27-CO-59(N,G)27-CO-60,,SIG)                   12866001   25
+           ((MONIT3)79-AU-197(N,G)79-AU-198,,SIG)                 12866001   26
+           ((MONIT4)92-U-238(N,G)92-U-239,,SIG)                   12866001   27
+           ((MONIT5)21-SC-45(N,G)21-SC-46,,RI)                    12866001   28
+           ((MONIT6)27-CO-59(N,G)27-CO-60,,RI)                    12866001   29
+           ((MONIT7)79-AU-197(N,G)79-AU-198,,RI)                  12866001   30
+           ((MONIT8)92-U-238(N,G)92-U-239,,RI)                    12866001   31
+DECAY-MON  (21-SC-46-G,83.9D,DG,1120.5,1.)                        12866001   32
+           (27-CO-60-G,1922.D,DG,1332.51,1.)                      12866001   33
+           (79-AU-198-G,2.70D,DG,411.79,0.968)                    12866001   34
+           (92-U-239,0.01635D,DG,74.67,.593)                      12866001   35
+           (93-NP-239,2.353D,DG,106.07,0.252)                     12866001   36
+DETECTOR   ALL COUNTING WAS DONE ON GAMMA SPECTRAL ANALYZERS      12866001   37
+             TO MEASURE ABSOLUTE PHOTON EMISSION RATES.           12866001   38
+ANALYSIS   ALL SPECTRA GENERATED WERE ANALYZED BY COMPUTER        12866001   39
+             CODE GAMANAL TO OBTAIN A SET OF ABSOLUTE             12866001   40
+             DISINTEGRATION RATES FOR THE NUCLIDES FOUND.         12866001   41
+           THE DISINTEGRATION-RATE DATA THUS OBTAINED WERE        12866001   42
+             FURTHER ANALYZED BY ANOTHER COMPUTER CODE NADAC      12866001   43
+             TO COMPUTE THE EFFECTIVE CROSS SECTION FOR           12866001   44
+             EACH ACTIVATION PRODUCT.                             12866001   45
+ERR-ANALYS DETAILS NOT GIVEN                                      12866001   46
+             FOR SOME ELEMENTS THE ERRORS REFLECT THE EFFECTS OF  12866001   47
+             CONCENTRATION ERROR OR EVAPORATION LOSS.             12866001   48
+CORRECTION NO CORRECTION FOR THE INTERFERENCE DUE TO (N,P)        12866001   49
+             REACTION WAS DONE.                                   12866001   50
+           CORRECTION DUE TO U-235 FISSION REACTION IS IMPLIED.   12866001   51
+STATUS     (APRVD) R.E.HEFT, 84/12/27.                            12866001   52
+HISTORY    (840410C)                                              12866001   53
+ENDBIB              51                                            12866001   54
+COMMON              10          6                                 12866001   55
+MONIT1     MONIT1-ERR MONIT2     MONIT3     MONIT4     MONIT5     12866001   56
+MONIT5-ERR MONIT6     MONIT7     MONIT8                           12866001   57
+B          B          B          B          B          B          12866001   58
+B          B          B          B                                12866001   59
+27.7       0.5        37.5       98.8       2.720      12.2       12866001   60
+0.6        75.        1550.      280.                             12866001   61
+ENDCOMMON            6                                            12866001   62
+ENDSUBENT           61                                            1286600199999
+SUBENT        12866192     841227                                 12866192    1
+BIB                  3          3                                 12866192    2
+REACTION   (78-PT-190(N,G)78-PT-191,,SIG,,SPA)                    12866192    3
+SAMPLE     NATURAL SAMPLE,ASSUMED 0.0127 PERCENT ABUNDANCE.       12866192    4
+DECAY-DATA (78-PT-191,3.000+00D,DG,538.87,0.134)                  12866192    5
+ENDBIB               3                                            12866192    6
+NOCOMMON             0          0                                 12866192    7
+DATA                 3          1                                 12866192    8
+EN-DUMMY   DATA       DATA-ERR                                    12866192    9
+EV         B          B                                           12866192   10
+0.025      152.       4.                                          12866192   11
+ENDDATA              3                                            12866192   12
+ENDSUBENT           11                                            1286619299999
+ENDENTRY             2                                            1286699999999
+ENDREQUEST           1                                            Z999999999999

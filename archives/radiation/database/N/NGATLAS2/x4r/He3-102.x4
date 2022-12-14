@@ -1,0 +1,456 @@
+REQUEST           1001   20010914          3     135636               0  0    0
+ENTRY            10919     801001                                 10919000    1
+SUBENT        10919001     801001                                 10919001    1
+BIB                 11         12                                 10919001    2
+INSTITUTE  (1USAANL)                                              10919001    3
+REFERENCE  (P,USNDC-7,21,7306)                                    10919001    4
+AUTHOR     (L.M.BOLLINGER,J.R.SPECHT,G.E.THOMAS)                  10919001    5
+TITLE      RADIATIVE CAPTURE OF THERMAL NEUTRONS IN HE-3          10919001    6
+FACILITY   (REAC) HIGH FLUX REGION OF CP-5 REACTOR                10919001    7
+SAMPLE     NO INFORMATION                                         10919001    8
+DETECTOR   (NAICR) LARGE ARRAY OF NAI(TL) SCINTILLATORS           10919001    9
+MONITOR    NO INFORMATION                                         10919001   10
+METHOD     NO INFORMATION                                         10919001   11
+ERR-ANALYS MAJOR SOURCE OF ERROR IS UNCERTAINTY IN                10919001   12
+            DETECTOR SYSTEM EFFICIENCY                            10919001   13
+HISTORY    (800824C)                                              10919001   14
+ENDBIB              12                                            10919001   15
+NOCOMMON                                                          10919001   16
+ENDSUBENT           15                                            1091900199999
+SUBENT        10919002     801001                                 10919002    1
+BIB                  2          2                                 10919002    2
+REACTION   (2-HE-3(N,G)2-HE-4,,SIG,,SPA)                          10919002    3
+INC-SPECT  THERMAL NEUTRONS                                       10919002    4
+ENDBIB               2                                            10919002    5
+NOCOMMON                                                          10919002    6
+DATA                 4          1                                 10919002    7
+EN-DUMMY   E          DATA       DATA-ERR                         10919002    8
+EV         MEV        MICRO-B    MICRO-B                          10919002    9
+ 0.0253     20.6       60.        30.                             10919002   10
+ENDDATA              3                                            10919002   11
+ENDSUBENT           10                                            1091900299999
+ENDENTRY             2                                            1091999999999
+ENTRY            11009     820106                                 11009000    1
+SUBENT        11009001     820106                                 11009001    1
+BIB                  6          8                                 11009001    2
+INSTITUTE  (1USABNL)                                              11009001    3
+REFERENCE  (J,BAP,5,19(E11),60)                                   11009001    4
+AUTHOR     (A.GALLMANN,J.KANE,R.PIXLEY)                           11009001    5
+TITLE      THERMAL NEUTRON CAPTURE IN HE3.                        11009001    6
+STATUS     (SCSRS)                                                11009001    7
+HISTORY    (760628T) TRANSLATED FROM SCISRS                       11009001    8
+           (800606U) CONVERTED TO REACTION FORMALISM              11009001    9
+           (820106A) CONVERTED TO REACTION FORMALISM              11009001   10
+ENDBIB               8                                            11009001   11
+NOCOMMON             0          0                                 11009001   12
+ENDSUBENT           11                                            1100900199999
+SUBENT        11009002     820106                                 11009002    1
+BIB                  2          2                                 11009002    2
+REACTION   (2-HE-3(N,G)2-HE-4,,SIG,,SPA)                          11009002    3
+INC-SPECT   REACTOR SPECTRUM                                      11009002    4
+ENDBIB               2                                            11009002    5
+NOCOMMON             0          0                                 11009002    6
+DATA                 2          1                                 11009002    7
+EN-DUMMY   DATA-MAX                                               11009002    8
+MEV        B                                                      11009002    9
+ 2.53   -08 1.     -04                                            11009002   10
+ENDDATA              3                                            11009002   11
+ENDSUBENT           10                                            1100900299999
+ENDENTRY             2                                            1100999999999
+ENTRY            11169     800814                                 11169000    1
+SUBENT        11169001     800814                                 11169001    1
+BIB                  6          8                                 11169001    2
+INSTITUTE  (1USAPEN)                                              11169001    3
+REFERENCE  (J,PR,132,751,6310)                                    11169001    4
+AUTHOR     (R.W.ZIRMUEHLE,W.E.STEPHENS,H.H.STAUB)                 11169001    5
+TITLE      GAMMA RAYS FROM NEUTRON CAPTURE IN HELIUM-3 AND        11169001    6
+            DEUTERON CAPTURE IN DEUTERIUM.                        11169001    7
+STATUS     (SCSRS)                                                11169001    8
+HISTORY    (760924T) TRANSLATED FROM SCISRS                       11169001    9
+           (800814A) CONVERTED TO REACTION FORMALISM              11169001   10
+ENDBIB               8                                            11169001   11
+NOCOMMON             0          0                                 11169001   12
+ENDSUBENT           11                                            1116900199999
+SUBENT        11169003     800814                                 11169003    1
+BIB                  4          6                                 11169003    2
+REACTION   (2-HE-3(N,G)2-HE-4,,SIG)                               11169003    3
+STATUS     (DEP)                                                  11169003    4
+ANALYSIS   INTEGRATED FROM C/S AT 90 DEGR.AND ASSUMED SINE-       11169003    5
+            SQUARED ANGULAR DISTRIBUTION.                         11169003    6
+INC-SPECT  ENERGIES FROM 2.45 TO 4.6MEV, WITH LESS THAN 30PERCENT 11169003    7
+            UNDER 4MEV.                                           11169003    8
+ENDBIB               6                                            11169003    9
+NOCOMMON             0          0                                 11169003   10
+DATA                 3          1                                 11169003   11
+EN         EN-RSL     DATA                                        11169003   12
+MEV        MEV        B                                           11169003   13
+ 4.0    +00 6.     -01 4.2    -05                                 11169003   14
+ENDDATA              3                                            11169003   15
+ENDSUBENT           14                                            1116900399999
+ENDENTRY             2                                            1116999999999
+ENTRY            13185     900301                                 13185000    1
+SUBENT        13185001     900301                                 13185001    1
+BIB                 11         17                                 13185001    2
+INSTITUTE  (1USAANL,1USANIS)                                      13185001    3
+REFERENCE  (J,PRL,63,2721,8912)                                   13185001    4
+AUTHOR     (F.L.H.WOLFS,S.J.FREEDMAN,J.E.NELSON,M.S.DEWEY,        13185001    5
+           G.L.GREENE)                                            13185001    6
+TITLE      MEASUREMENT OF THE 3HE(N,GAMMA)4HE CROSS SECTION AT    13185001    7
+            THERMAL NEUTRON ENERGIES                              13185001    8
+FACILITY   (REAC,2FR ILL)                                         13185001    9
+SAMPLE     3HE-N(2) MIXTURE; 63.2% 3HE BY VOLUME                  13185001   10
+MONITOR    (7-N-14(N,G)7-N-15,PAR,SIG)                            13185001   11
+DETECTOR   (NAICR) NAI CRYSTAL SURROUNDED BY A PLASTIC CYLINDER   13185001   12
+            LOADED WITH LI-CO(3), AND A NE102 SCINTILLATOR ANIT-  13185001   13
+            COINCIDENCE SHIELD FOR COSMIC RAY REJECTION. DETECTED 13185001   14
+            10.8- AND 20.6-MEV CAPTURE GAMMAS.                    13185001   15
+ERR-ANALYS (DATA-ERR) DOMINATED BY THE STATISTICAL UNCERTAINTY IN 13185001   16
+            THE PHOTOPEAK YIELD OF THE 20.6-MEV GAMMAS            13185001   17
+STATUS     (APRVD) BY F.WOLFS, 90/2/22.                           13185001   18
+HISTORY    (900202C)                                              13185001   19
+ENDBIB              17                                            13185001   20
+NOCOMMON             0          0                                 13185001   21
+ENDSUBENT           20                                            1318500199999
+SUBENT        13185002     900213                                 13185002    1
+BIB                  1          1                                 13185002    2
+REACTION   (2-HE-3(N,G)2-HE-4,,SIG)                               13185002    3
+ENDBIB               1                                            13185002    4
+NOCOMMON             0          0                                 13185002    5
+DATA                 6          1                                 13185002    6
+EN-DUMMY   DATA       DATA-ERR   E-NRM      MONIT      MONIT-ERR  13185002    7
+EV         MICRO-B    MICRO-B    MEV        MB         MB         13185002    8
+ 0.0253     54.         6.        10.8       11.06       0.38     13185002    9
+ENDDATA              3                                            13185002   10
+ENDSUBENT            9                                            1318500299999
+ENDENTRY             2                                            1318599999999
+ENTRY            13590     931227                                 13590000    1
+SUBENT        13590001     931227                                 13590001    1
+BIB                 15         32                                 13590001    2
+INSTITUTE  (1CANQU ,1CANCRC)                                      13590001    3
+REFERENCE  (J,PR/C,48,2375,9311)                                  13590001    4
+AUTHOR     (R.J.KOMAR,H.B.MAK,J.R.LESLIE,H.C.EVANS,E.BONVIN,      13590001    5
+           E.D.EARLE,T.K.ALEXANDER)                               13590001    6
+TITLE      3He(n,gamma)4He cross section and the photo-           13590001    7
+            disintegration of 4He                                 13590001    8
+FACILITY   (VDG,1CANQU )                                          13590001    9
+INC-SOURCE (P-LI7)                                                13590001   10
+SAMPLE     3He proportional counter, encased in Cd metal.         13590001   11
+           Fill gas mixture of 3He and CO2.                       13590001   12
+METHOD     (GSPEC)                                                13590001   13
+MONITOR    Total number of neutrons determined from from          13590001   14
+            measurements of 7Be activity within Li target.        13590001   15
+ANALYSIS   Pure dipole distribution in c.m. system assumed for    13590001   16
+            gamma rays.                                           13590001   17
+DETECTOR   (SCIN) Spectrometer consisting of                      13590001   18
+           . bismuth germanate oxide (BGO) scintillator for       13590001   19
+             detecting gamma rays,                                13590001   20
+           . active plastic scintillator shield for vetoing       13590001   21
+             cosmic ray muon events                               13590001   22
+           . passive shield (90% W, 10% Ni) for attenuating       13590001   23
+             neutrons and background capture gammas.              13590001   24
+CORRECTION Corrected for:                                         13590001   25
+           . background                                           13590001   26
+           . dead time                                            13590001   27
+           . 2nd neutron group from 7Li(p,n) source reaction      13590001   28
+ERR-ANALYS (ERR-S) Statistical uncertainty                        13590001   29
+           (ERR-1) Total systematic uncertainty                   13590001   30
+           Uncertainty in effective solid angle insignificant.    13590001   31
+STATUS     Data taken from Table IV in article.                   13590001   32
+           (APRVD) R.J. Komar, 93/12/20                           13590001   33
+HISTORY    (931130C)                                              13590001   34
+ENDBIB              32                                            13590001   35
+NOCOMMON             0          0                                 13590001   36
+ENDSUBENT           35                                            1359000199999
+SUBENT        13590003     931201                                 13590003    1
+BIB                  3          4                                 13590003    2
+REACTION   (2-HE-3(N,G)2-HE-4,,SIG)                               13590003    3
+ANALYSIS   From differential cross section at 90 degrees          13590003    4
+            assuming dipole distribution.                         13590003    5
+STATUS     (DEP,13590002)                                         13590003    6
+ENDBIB               4                                            13590003    7
+NOCOMMON             0          0                                 13590003    8
+DATA                 4          5                                 13590003    9
+EN         DATA       ERR-S      ERR-1                            13590003   10
+MEV        MICRO-B    MICRO-B    MICRO-B                          13590003   11
+0.135      19.2        2.3        1.0                             13590003   12
+0.571      33.5        1.3        1.8                             13590003   13
+1.068      56.7        2.6        7.1                             13590003   14
+1.530      63.1        3.4        3.4                             13590003   15
+1.999      75.3        4.4        4.1                             13590003   16
+ENDDATA              7                                            13590003   17
+ENDSUBENT           16                                            1359000399999
+ENDENTRY             2                                            1359099999999
+ENTRY            21311     801103                                 21311000    1
+SUBENT        21311001     801103                                 21311001    1
+BIB                 12         22                                 21311001    2
+INSTITUTE  (2FR ILL) R.B. AND EXPERIMENTAL SITE.                  21311001    3
+           (2FR STR) M.S.                                         21311001    4
+REFERENCE  (J,NP/A,318,1,54,7904)                                 21311001    5
+AUTHOR     (M.SUFFERT,R.BERTHOLLET)                               21311001    6
+TITLE      -OBSERVATION OF DOUBLY RADIATIVE NEUTRON CAPTURE BY    21311001    7
+            HE-3.-                                                21311001    8
+FACILITY   (REAC ) HIGH-FLUX REACTOR AT ILL, GRENOBLE.            21311001    9
+INC-SOURCE (THCOL) THE H22 THERMAL NEUTRON GUIDE AT THE REACTOR.  21311001   10
+INC-SPECT  THE THERMAL NEUTRON FLUX AT THE SAMPLE WAS             21311001   11
+            2.6E+09 +- 0.1E+09 NEUTRONS/S.                        21311001   12
+SAMPLE     .PURE HE-3 GAS IN A 90 MM LONG GAS TARGET WITH A       21311001   13
+            PRESSURE OF 2 BAR.                                    21311001   14
+METHOD     (COINC) A STANDARD FAST-SLOW COINCIDENCE ELECTRONIC    21311001   15
+            SYSTEM WAS USED.                                      21311001   16
+DETECTOR   (NAICR) TWO NAI(TL) DETECTORS, 25 CM IN DIA. AND 30    21311001   17
+            CM LONG, EACH SURROUNDED,EXCEPT FOR THE FRONT SIDE,BY 21311001   18
+            A THICK PLASTIC SCINTILLATOR.                         21311001   19
+           .THE NAI(TL) DETECTORS WERE PEAK EFFICIENCY CALIBRATED 21311001   20
+            BY MEANS OF THE H-3(P,G)HE-4 REACTION AT EP=1.0 MEV.  21311001   21
+STATUS     .DATA TAKEN FROM REFERENCE.                            21311001   22
+HISTORY    (800206C) CN.                                          21311001   23
+           (800213E)                                              21311001   24
+ENDBIB              22                                            21311001   25
+COMMON               1          3                                 21311001   26
+EN-DUMMY                                                          21311001   27
+EV                                                                21311001   28
+ 2.5300E-02                                                       21311001   29
+ENDCOMMON            3                                            21311001   30
+ENDSUBENT           29                                            2131100199999
+SUBENT        21311002     801103                                 21311002    1
+BIB                  6          9                                 21311002    2
+REACTION   (2-HE-3(N,G)2-HE-4,,SIG,,MXW)                          21311002    3
+METHOD     .THE MEASUREMENT WAS DONE AT AN ANGLE OF 45 DEGREES,   21311002    4
+            AND INTEGRATED ASSUMING ISOTROPY.                     21311002    5
+STATUS     .DATA TAKEN FROM TEXT.                                 21311002    6
+HISTORY    (800206C)                                              21311002    7
+CORRECTION .NO INFORMATION GIVEN.                                 21311002    8
+ERR-ANALYS .THE MAIN ERROR IN THE RESULT STEMS FROM THE ILL-      21311002    9
+            DEFINED DETECTION GEOMETRY CHOSE TO GIVE MAXIMUM      21311002   10
+            EFFICIENCY.                                           21311002   11
+ENDBIB               9                                            21311002   12
+NOCOMMON             0          0                                 21311002   13
+DATA                 3          1                                 21311002   14
+E          DATA       DATA-ERR                                    21311002   15
+MEV        MICRO-B    MICRO-B                                     21311002   16
+ 2.0600E+01 6.0000E+01 1.2000E+01                                 21311002   17
+ENDDATA              3                                            21311002   18
+ENDSUBENT           17                                            2131100299999
+ENDENTRY             2                                            2131199999999
+ENTRY            22139     891211                                 22139000    1
+SUBENT        22139001     891211                                 22139001    1
+BIB                 16         51                                 22139001    2
+REFERENCE  (J,NSE,102,428,89)                                     22139001    3
+TITLE      -CROSS SECTION MEASUREMENT OF THE 3-HE(N,GAMMA)        22139001    4
+            REACTION AT EN = 24.5 KEV.                            22139001    5
+AUTHOR     (R.WERVELMAN,H.POSTMA,K.ABRAHAMS,F.STECHER-RASMUSSEN,  22139001    6
+            G.J.DAVIDS,G.J.C.BOTS)                                22139001    7
+INSTITUTE  (2NEDRCN) R.W., K.A., F.S. AND EXPERIMENTAL SITE.      22139001    8
+           (2NEDDEL) H.P., G.J.D., G.J.C.B.                       22139001    9
+FACILITY   (REAC ) HIGH FLUX REACTOR IN PETTEN.                   22139001   10
+INC-SOURCE (REAC ) 24.5 KEV NEUTRONS WERE PRODUCED BY FILTERING   22139001   11
+            THE REACTOR NEUTRONS IN ONE OF THE HORIZONTAL BEAM    22139001   12
+            TUBES. THE 2.4 CM DIAMETER FILTER CONSISTED OF 22.5 CM22139001   13
+            IRON, 36 CM ALUMINIUM AND 6.5 CM SULPHUR. THE 24.5 KEV22139001   14
+            NEUTRON FLUX WAS 3.6 +/- 0.3 TIMES E+5 NEUTRONS/CM2   22139001   15
+            AND SECOND.                                           22139001   16
+INC-SPECT  .QUASIMONOENERGETIC 24.5 KEV NEUTRON BEAM WITH A CON-  22139001   17
+            TAMINATION OF A FEW PERCENT EPITHERMAL NEUTRONS.      22139001   18
+METHOD     (EXTB ) THE 3-HE TARGET WAS IRRADIATED BY THE FILTERED 22139001   19
+            24.5 KEV NEUTRON BEAM.                                22139001   20
+           (ACTIV) ACTIVATION OF GOLD FOILS WERE USED AS NEUTRON  22139001   21
+            FLUX MONITOR.                                         22139001   22
+DETECTOR   (NAICR) THE CAPTURE GAMMA-RAYS WERE MEASURED WITH A    22139001   23
+            3 X 3 INCH NAI/TL/ DETECTOR, PLACED 9.4 CM FROM THE   22139001   24
+            TARGET AND PERPENDICULAR TO THE BEAM. THE DETECTOR WAS22139001   25
+            SHIELDED WITH 10 CM OF LEAD AND WITH HYDROGEN- AND    22139001   26
+            BORON-CONTAINING MATERIALS.                           22139001   27
+           (SCIN ) ACTIVE SHIELDING AGAINST COSMIC RAYS WAS PRO-  22139001   28
+            VIDED BY A LARGE DETECTOR, 1000 CM2, WHICH CONSISTED  22139001   29
+            OF LAYERS OF SCINTILLATING PLASTIC SANDWICHED WITH 5  22139001   30
+            CM THICK LAYERS OF LEAD. THE RESPONSE OF THE NAI      22139001   31
+            DETECTOR FOR 20.6 MEV GAMMA-RAYS WAS MEASURED USING   22139001   32
+            PROTON CAPTURE GAMMA-RAYS AT THE UTRECHT VDG ACCELER- 22139001   33
+            ATOR. THE EFFICIENCY OF THE DETECTOR WAS CALCULATED   22139001   34
+            WITH A MONTE CARLO SIMULATION COMPUTER CODE.          22139001   35
+PART-DET   (G    )                                                22139001   36
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG) A STACK OF NINE 50      22139001   37
+            MG/CM2 THICK AU FOILS, COVERED ON BOTH SIDES WITH 1 MM22139001   38
+            THICK CADMIUM SHEETS, WAS USED FOR NEUTRON FLUX DETER-22139001   39
+            MINATION. BY STUDYING THE ACTIVITIES THROUGH THE      22139001   40
+            FOILS, CORRECTIONS FOR THE EPITHERMAL NEUTRONS COULD  22139001   41
+            BE APPLIED.                                           22139001   42
+SAMPLE     .TO ABTAIN A SIZABLE 3-HE TARGET DENSITY, AN ALUMINIUM 22139001   43
+            TARGET GAS CELL, 10.2 CM LONG, 3.0 CM IN DIAMETER AND 22139001   44
+            WITH 0.3 CM THICK WALLS, WAS KEPT AT A TEMPERATURE OF 22139001   45
+            11.8 +/- 0.4 K AND A PRESSURE OF 23.0 +/- 0.4 BARS.   22139001   46
+            THIS RESULTED IN A 3-HE DENSITY OF 1.48 +/- 0.05 TIMES22139001   47
+            E+22 NUCLEI/CM3.                                      22139001   48
+CORRECTION .CORRECTION WAS APPLIED FOR THE EPITHERMAL NEUTRONS.   22139001   49
+ERR-ANALYS (DATA-ERR) NO DETAILS GIVEN.                           22139001   50
+STATUS     .DATA OBTAINED FROM MAIN REF.                          22139001   51
+HISTORY    (891109C) N.O.                                         22139001   52
+           (891211E)                                              22139001   53
+ENDBIB              51                                            22139001   54
+NOCOMMON             0          0                                 22139001   55
+ENDSUBENT           54                                            2213900199999
+SUBENT        22139002     891211                                 22139002    1
+BIB                  3          4                                 22139002    2
+REACTION   (2-HE-3(N,G)2-HE-4,,SIG)                               22139002    3
+STATUS     .DATA TAKEN FROM MAIN REF.                             22139002    4
+HISTORY    (891109C) N.O.                                         22139002    5
+           (891211E)                                              22139002    6
+ENDBIB               4                                            22139002    7
+NOCOMMON             0          0                                 22139002    8
+DATA                 3          1                                 22139002    9
+EN         DATA       DATA-ERR                                    22139002   10
+KEV        MICRO-B    MICRO-B                                     22139002   11
+ 2.4500E+01 9.2000E+00 2.0000E+00                                 22139002   12
+ENDDATA              3                                            22139002   13
+ENDSUBENT           12                                            2213900299999
+ENDENTRY             2                                            2213999999999
+ENTRY            22230     930329                                 22230000    1
+SUBENT        22230001     930329                                 22230001    1
+BIB                 10         16                                 22230001    2
+REFERENCE  (J,NP/A,526,265,91)                                    22230001    3
+TITLE      -NUCLEON CAPTURE BY 3HE AND THE PRODUCTION OF SOLAR    22230001    4
+            HEP-NEUTRINOS - CROSS SECTIONS AND SHELL-MODEL CAL-   22230001    5
+            CULATIONS.                                            22230001    6
+AUTHOR     (R.WERVELMAN,K.ABRAHAMS,H.POSTMA,J.G.L.BOOTEN,         22230001    7
+            A.G.M.VAN HEES)                                       22230001    8
+INSTITUTE  (2NEDRCN) R.W., K.A. AND EXPERIMENTAL SITE.            22230001    9
+           (2NEDDEL) H.P.                                         22230001   10
+           (2NEDUTR) J.G.L.B. AND A.G.M.V H.                      22230001   11
+FACILITY   (REAC ) THE HIGH FLUX REACTOR IN PETTEN.               22230001   12
+METHOD     (GSPEC)                                                22230001   13
+PART-DET   (G    )                                                22230001   14
+ERR-ANALYS (DATA-ERR)                                             22230001   15
+STATUS     .DATA TAKEN FROM MAIN REF.                             22230001   16
+HISTORY    (921219C) N.O.                                         22230001   17
+           (930329E)                                              22230001   18
+ENDBIB              16                                            22230001   19
+NOCOMMON             0          0                                 22230001   20
+ENDSUBENT           19                                            2223000199999
+SUBENT        22230002     930329                                 22230002    1
+BIB                  8         29                                 22230002    2
+REACTION   (2-HE-3(N,G)2-HE-4,,SIG,,MXW)                          22230002    3
+INC-SOURCE (REAC ) THE HORIZONTAL BEAM-TUBE HB11, WHICH HAS A SYS-22230002    4
+            TEM OF FOCUSING NEUTRON MIRRORS NEAR THE REACTOR CORE,22230002    5
+            WAS USED. TRANSMISSION OF NEUTRONS CAN ONLY TAKE PLACE22230002    6
+            BY TOTAL REFLECTION AT THE NICKEL MIRROR SURFACES,    22230002    7
+            WHICH THUS ACT AS A LOW-PASS NEUTRON FILTER. THE 6 CM 22230002    8
+            DIAMETER NEUTRON BEAM WAS SHAPED WITH AN ADDITIONAL   22230002    9
+            BORON PLASTIC AND LIF DIAPHRAGM NEAR THE TARGET.      22230002   10
+INC-SPECT  .THE NEUTRON SPECTRUM EAS DETERMINED BY IRRADIATING TWO22230002   11
+            STACKS OF TWENTY 400 MG/CM2 THICK 2.5 X 2.5 CM2 GOLD  22230002   12
+            FOILS, ONE BEFORE AND ONE AFTER THE TARGET GAS CELL.  22230002   13
+DETECTOR   (NAICR) THE 20.5 MEV CAPTURE GAMMA RAYS WERE DETECTED  22230002   14
+            BY TWO 25 CM DIAMETER BY 25 CM LONG NAI-TL DETECTORS, 22230002   15
+            BOTH PLACED 32.6 CM FROM THE TARGET CELL AND AT 90    22230002   16
+            DEGREES WITH RESPECT TO THE NEUTRON BEAM. THE DETEC-  22230002   17
+            TORS WERE SHIELDED AGAINST SCATTERED NEUTRONS AND     22230002   18
+            GAMMA-RAYS NOT ORIGINATING FROM THE TARGET. THE RES-  22230002   19
+            PONSE FUNCTION WAS CALCULATED WITH A MONTE CARLO CODE.22230002   20
+SAMPLE     .THE TARGET CELL CONSISTED OF AN ALUMINUM CYLINDRICAL  22230002   21
+            CONTAINER, 9 CM IN LENGTH AND 8 CM IN DIAMETER, WITH  22230002   22
+            40 MICROMETER THICK ARAMID FOILS AS ENTRANCE AND EXIT 22230002   23
+            WINDOWS. THE TARGET GAS WAS HIGH PURITY, RESEARCH     22230002   24
+            GRADE HELIUM-3 GAS. THE GAS PRESSURE WAS 700-750 TORR.22230002   25
+MONITOR    (79-AU-197(N,G)79-AU-198-G,,SIG) THE NEUTRON FLUX WAS  22230002   26
+            DETERMINED BY IRRADIATION OF 100 MG/CM2 THICK GOLD    22230002   27
+            FOILS.                                                22230002   28
+STATUS     .DATA TAKEN FROM MAIN REF.                             22230002   29
+HISTORY    (921219C) N.O.                                         22230002   30
+           (930329E)                                              22230002   31
+ENDBIB              29                                            22230002   32
+COMMON               2          3                                 22230002   33
+MONIT      MONIT-ERR                                              22230002   34
+B          B                                                      22230002   35
+ 9.8650E+01 9.0000E-02                                            22230002   36
+ENDCOMMON            3                                            22230002   37
+DATA                 3          1                                 22230002   38
+EN-DUMMY   DATA       DATA-ERR                                    22230002   39
+EV         MICRO-B    MICRO-B                                     22230002   40
+ 2.5300E-02 5.5000E+01 3.0000E+00                                 22230002   41
+ENDDATA              3                                            22230002   42
+ENDSUBENT           41                                            2223000299999
+SUBENT        22230003     930329                                 22230003    1
+BIB                  8         22                                 22230003    2
+REACTION   (2-HE-3(N,G)2-HE-4,,SIG)                               22230003    3
+INC-SOURCE (REAC ) THE FILTERED BEAM FACILITY HB12, WHICH CONTAINS22230003    4
+            24 CM OF IRON, 36 CM OF ALUMINUM AND 6 CM OF SULPHUR, 22230003    5
+            WAS USED. BY TAPERED SOLLER-SLIT COLLIMATORS, A BEAM  22230003    6
+            DIMENSION OF 4 X 10 CM2 WAS OBTAINED.                 22230003    7
+INC-SPECT  .QUASI-MONOENERGETIC BEAM OF 24.5 KEV.                 22230003    8
+DETECTOR   (NAICR) THE 20.5 MEV CAPTURE GAMMA RAYS WERE DETECTED  22230003    9
+            BY A 25 CM DIAMETER BY 25 CM LONG NAI-TL DETECTOR,    22230003   10
+            PLACED AT 25 CM FROM THE TARGET CELL AND AT 90 DEGREES22230003   11
+            WITH RESPECT TO THE NEUTRON BEAM. THE DETECTOR WAS    22230003   12
+            SHIELDED AGAINST SCATTERED NEUTRONS AND GAMMA-RAYS NOT22230003   13
+            ORIGINATING FROM THE TARGET. THE RESPONSE FUNCTION WAS22230003   14
+            CALCULATED WITH A MONTE CARLO CODE.                   22230003   15
+SAMPLE     .A CRYOGENIC LIQUID 3HE TARGET, OPERATING AT A TEMPE-  22230003   16
+            RATURE OF 1.28+/-0.02 K WAS USED.                     22230003   17
+MONITOR    (79-AU-197(N,G)79-AU-198-G,,SIG) THE NEUTRON FLUX WAS  22230003   18
+            DETERMINED BY IRRADIATION OF A 350 MG/CM2 THICK GOLD  22230003   19
+            FOIL, SANDWICHED BETWEEN TWO 600 MG/CM2 GOLD PLATES   22230003   20
+            AND 1 MM CADMIUM SHEETS.                              22230003   21
+STATUS     .DATA TAKEN FROM MAIN REF.                             22230003   22
+HISTORY    (921219C) N.O.                                         22230003   23
+           (930329E)                                              22230003   24
+ENDBIB              22                                            22230003   25
+COMMON               2          3                                 22230003   26
+MONIT      MONIT-ERR                                              22230003   27
+MB         MB                                                     22230003   28
+ 6.2300E+02 9.0000E+00                                            22230003   29
+ENDCOMMON            3                                            22230003   30
+DATA                 4          1                                 22230003   31
+EN         EN-RSL-HW  DATA       DATA-ERR                         22230003   32
+KEV        KEV        MICRO-B    MICRO-B                          22230003   33
+ 2.4500E+01 1.8000E+00 9.1000E+00 8.0000E-01                      22230003   34
+ENDDATA              3                                            22230003   35
+ENDSUBENT           34                                            2223000399999
+ENDENTRY             3                                            2223099999999
+ENTRY            40656     960123                                 40656000    1
+SUBENT        40656001     960123                                 40656001    1
+BIB                 13         18                                 40656001    2
+TITLE       RADIATION CAPTURE OF THERMAL NEUTRONS BY HE-3         40656001    3
+AUTHOR     (V.P.ALFIMENKOV,S.B.BORZAKOV,G.G.BUNATJAN,             40656001    4
+           J.WIERZBICKI,L.B.PIKEL'NER,E.I.SHARAPOV)               40656001    5
+INSTITUTE  (4ZZZDUB)                                              40656001    6
+REFERENCE  (J,YF,31,(1),21,8001)                                  40656001    7
+MONITOR     NO INFORMATION, PROBABLY ABSOLUTE MEASUREMENTS        40656001    8
+METHOD     (TOF) FLIGHT BASE IS 15 M                              40656001    9
+FACILITY   (REAC) FAST PULSE REACTOR IBR-30                       40656001   10
+SAMPLE      GASEOUS SAMPLE IN ALUMINIUM CONTAINER 200 MM LONG     40656001   11
+            AND 170 MM DIAMETER. HE-3 PRESSURE IS 780 TORR        40656001   12
+DETECTOR   (NAICR) NA-J(TL) CRYSTAL                               40656001   13
+PART-DET   (G)                                                    40656001   14
+CORRECTION   ON THE NEUTRON BACKGROUND                            40656001   15
+ERR-ANALYS (ERR-1) SYSTEMATIC ERROR                               40656001   16
+HISTORY    (840102C)                                              40656001   17
+           (860702U)    SOME MINOR ERRORS CORRECTED               40656001   18
+           (950926A) DATA CORRECTED ACCORDING TO MEMO 4C-3/373    40656001   19
+           (960123U) SAN 002 CORRECTED ACCORDING TO MEMO 4C-3/379 40656001   20
+ENDBIB              18                                            40656001   21
+COMMON               1          3                                 40656001   22
+ERR-S                                                             40656001   23
+PER-CENT                                                          40656001   24
+ 15.                                                              40656001   25
+ENDCOMMON            3                                            40656001   26
+ENDSUBENT           25                                            4065600199999
+SUBENT        40656002     960123                                 40656002    1
+BIB                  3          5                                 40656002    2
+REACTION   (2-HE-3(N,G)2-HE-4,,SIG)                               40656002    3
+FLAG       (1.) DATA READ FROM A CURVE                            40656002    4
+HISTORY    (950926A)  DATA UNITS CORRECTED FROM MB TO MICROB      40656002    5
+           (960123U)  'STATUS' KEYWORD DELETED                    40656002    6
+                              ACCORDING TO MEMO 4C-3/379          40656002    7
+ENDBIB               5                                            40656002    8
+NOCOMMON             0          0                                 40656002    9
+DATA                 5          4                                 40656002   10
+EN         DATA       ERR-1      DATA-ERR   FLAG                  40656002   11
+EV         MICRO-B    MICRO-B    MICRO-B    NO-DIM                40656002   12
+0.025       27.        9.                                         40656002   13
+0.028       17.                   5.          1.                  40656002   14
+0.062       14.                   4.          1.                  40656002   15
+0.37         5.                   2.          1.                  40656002   16
+ENDDATA              6                                            40656002   17
+ENDSUBENT           16                                            4065600299999
+ENDENTRY             2                                            4065699999999
+ENDREQUEST           1                                            Z999999999999

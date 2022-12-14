@@ -1,0 +1,188 @@
+REQUEST           1001   20010914          3     144236               0  0    0
+ENTRY            11429     860429                                 11429000    1
+SUBENT        11429001     860429                                 11429001    1
+BIB                 11         14                                 11429001    2
+INSTITUTE  (1USALRL)                                              11429001    3
+REFERENCE  (J,PR,112,226,58)                                      11429001    4
+AUTHOR     (R.BOOTH,W.P.BALL,M.H.MAC GREGOR)                      11429001    5
+TITLE      NEUTRON ACTIVATION CROSS SECTIONS AT 25KEV.            11429001    6
+INC-SOURCE (PHOTO) SB-BE SOURCE                                   11429001    7
+INC-SPECT  ENERGY CORRECTED TO 24 KEV BY NNDC.                    11429001    8
+MONITOR    ((MONIT1)53-I-127(N,G)53-I-128,,SIG) AT 24 KEV.        11429001    9
+           ((MONIT2)53-I-127(N,G)53-I-128,,SIG) AT THERMAL.       11429001   10
+METHOD     (ACTIV).                                               11429001   11
+PART-DET   (B,DG)                                                 11429001   12
+STATUS     (SCSRS)                                                11429001   13
+HISTORY    (761016T) TRANSLATED FROM SCISRS                       11429001   14
+           (820813A) CONVERTED TO REACTION FORMALISM              11429001   15
+           (860429A) BIB UPDATE. I-127 MONITOR MOVED TO SAN 1.    11429001   16
+ENDBIB              14                                            11429001   17
+COMMON               8          6                                 11429001   18
+EN         EN-RSL     MONIT1     MONIT1-ERR EN-NRM2    MONIT2     11429001   19
+MONIT2-ERR EN-NRM3                                                11429001   20
+KEV        KEV        MB         MB         EV         B          11429001   21
+B          EV                                                     11429001   22
+ 24.        5.0000E+00 820.       60.        0.0253     5.5       11429001   23
+ 0.5        0.0253                                                11429001   24
+ENDCOMMON            6                                            11429001   25
+ENDSUBENT           24                                            1142900199999
+SUBENT        11429032     860429                                 11429032    1
+BIB                  3          3                                 11429032    2
+REACTION   (83-BI-209(N,G)83-BI-210-G,,SIG)                       11429032    3
+MONITOR    ((MONIT3)83-BI-209(N,G)83-BI-210,,SIG) AT THERMAL.     11429032    4
+DECAY-DATA (83-BI-210-G,5.D)                                      11429032    5
+ENDBIB               3                                            11429032    6
+NOCOMMON             0          0                                 11429032    7
+DATA                 4          1                                 11429032    8
+DATA       DATA-ERR   MONIT3     MONIT3-ERR                       11429032    9
+MB         MB         B          PER-CENT                         11429032   10
+ 1.8        0.7        0.019      10.                             11429032   11
+ENDDATA              3                                            11429032   12
+ENDSUBENT           11                                            1142903299999
+ENDENTRY             2                                            1142999999999
+ENTRY            11484     860325                                 11484000    1
+SUBENT        11484001     860325                                 11484001    1
+BIB                 10         14                                 11484001    2
+INSTITUTE  (1USAARK)                                              11484001    3
+REFERENCE  (J,PR,115,989,59)                                      11484001    4
+AUTHOR     (A.POULARIKAS,R.W.FINK)                                11484001    5
+TITLE      ABSOLUTE ACTIVATION CROSS SECTIONS FOR REACTIONS OF    11484001    6
+           BISMUTH, COPPER, TITANIUM AND ALUMINUM WITH 14.8 MEV   11484001    7
+           NEUTRONS.                                              11484001    8
+FACILITY   (CCW)                                                  11484001    9
+INC-SOURCE (D-T)                                                  11484001   10
+METHOD     (ACTIV)                                                11484001   11
+MONITOR    (29-CU-63(N,2N)29-CU-62,,SIG)                          11484001   12
+STATUS     (SCSRS)                                                11484001   13
+HISTORY    (760715T) TRANSLATED FROM SCISRS                       11484001   14
+           (821124A) CONVERTED TO REACTION FORMALISM              11484001   15
+           (860325A) BIB UPDATE.                                  11484001   16
+ENDBIB              14                                            11484001   17
+COMMON               3          3                                 11484001   18
+EN-NRM     MONIT      MONIT-ERR                                   11484001   19
+MEV        MB         MB                                          11484001   20
+ 14.1       556.       28.                                        11484001   21
+ENDCOMMON            3                                            11484001   22
+ENDSUBENT           21                                            1148400199999
+SUBENT        11484016     870120                                 11484016    1
+BIB                  3          3                                 11484016    2
+REACTION   (83-BI-209(N,G)83-BI-210-G,,SIG)                       11484016    3
+DECAY-DATA (83-BI-210-G,5.10D,B) HALF-LIFE UNCERTAIN              11484016    4
+HISTORY    (870120A) REACTION PRODUCT CORRECTED.                  11484016    5
+ENDBIB               3                                            11484016    6
+NOCOMMON             0          0                                 11484016    7
+DATA                 3          1                                 11484016    8
+EN         EN-RSL     DATA-MAX                                    11484016    9
+MEV        MEV        MB                                          11484016   10
+ 14.8       0.9        1.7                                        11484016   11
+ENDDATA              3                                            11484016   12
+ENDSUBENT           11                                            1148401699999
+ENDENTRY             2                                            1148499999999
+ENTRY            21438     801218                                 21438000    1
+SUBENT        21438001     801218                                 21438001    1
+BIB                 16         33                                 21438001    2
+INSTITUTE  (2UK ALD)                                              21438001    3
+REFERENCE  (J,PPS,72,505,58)                                      21438001    4
+AUTHOR     (J.L.PERKIN,L.P.O'CONNOR,R.F.COLEMAN)                  21438001    5
+TITLE      -RADIATIVE CAPTURE CROSS SECTIONS FOR 14.5 MEV         21438001    6
+            NEUTRONS.-                                            21438001    7
+FACILITY   .NOT SPECIFIED.                                        21438001    8
+INC-SOURCE (D-T  ) 440 KEV DEUTERONS IMPINGING ON A TRITIATED ZR  21438001    9
+            TARGET.                                               21438001   10
+SAMPLE     .ABOUT 100 MG, SPECTROSCOPICALLY PURE CHEMICALS.       21438001   11
+            IN SOME CASES ANALYTICAL GRADE CHEMICALS.             21438001   12
+METHOD     (ACTIV) ACTIVATION ANALYSIS.                           21438001   13
+           (CHSEP) CHEMICAL SEPERATION WAS NECESSARY IN MANY      21438001   14
+            CASES.                                                21438001   15
+DETECTOR   (GEMUC) END WINDOW GEIGER COUNTER, 2 IN. DIAM.,        21438001   16
+            CALIBRATED WITH A 4*PI BETA COUNTER.                  21438001   17
+MONITOR    (1-H-3(D,N)2-HE-4,,SIG)                                21438001   18
+PART-DET   (DG   ) DECAY GAMMAS.                                  21438001   19
+COMMENT    .NEUTRON FLUX MONITORING WITH THE AL-27(N,A) REACTION. 21438001   20
+STATUS     (NDD  ) DATA TAKEN FROM NEUDADA.                       21438001   21
+HISTORY    (800220T) G.C.                                         21438001   22
+           (800318E)                                              21438001   23
+           (801120A) G.C., MONITOR REACTION STRING CORRECTED,     21438001   24
+            ERROR ANALYSIS CHANGED.                               21438001   25
+           (801218E)                                              21438001   26
+CORRECTION .FOR LOW ENERGY NEUTRONS. THESE MAY ORIGINATE FROM     21438001   27
+            DIFFUSION OF THERMAL AND EPITHERMAL NEUTRONS FROM     21438001   28
+            WALLS (NEGLIGIBLE), INELASTIC SCATTERING FROM THE     21438001   29
+            VICINITY (0.5 PERC *SIG(1.MEV)/SIG(14.MEV)) AND FROM  21438001   30
+            D-D-NEUTRONS BY ACCUMULATION OF DEUTERIUM IN THE      21438001   31
+            TRITIUM-TARGET WITH TIME (0.5 PERC*SIG(1.MEV)/SIG(14. 21438001   32
+            MEV) FOR THE TIMES THE TARGET WAS USED BEFORE         21438001   33
+            REPLACEMENT).                                         21438001   34
+ERR-ANALYS (ERR-S) STANDARD DEVIATION IS GIVEN.                   21438001   35
+ENDBIB              33                                            21438001   36
+COMMON               1          3                                 21438001   37
+EN                                                                21438001   38
+MEV                                                               21438001   39
+ 1.4500E+01                                                       21438001   40
+ENDCOMMON            3                                            21438001   41
+ENDSUBENT           40                                            2143800199999
+SUBENT        21438029     801218                                 21438029    1
+BIB                  3          6                                 21438029    2
+REACTION   (83-BI-209(N,G)83-BI-210-G,,SIG)                       21438029    3
+STATUS     (NDD  ) DATA TAKEN FROM NEUDADA.                       21438029    4
+HISTORY    (800220T) G.C.                                         21438029    5
+           (800318E)                                              21438029    6
+           (801120A) G.C., DATA HEADINGS CHANGED.                 21438029    7
+           (801218E)                                              21438029    8
+ENDBIB               6                                            21438029    9
+NOCOMMON             0          0                                 21438029   10
+DATA                 2          1                                 21438029   11
+DATA       ERR-S                                                  21438029   12
+MB         PER-CENT                                               21438029   13
+ 1.4500E+00 1.2000E+01                                            21438029   14
+ENDDATA              3                                            21438029   15
+ENDSUBENT           14                                            2143802999999
+ENDENTRY             2                                            2143899999999
+ENTRY            30023     850219                                 30023000    1
+SUBENT        30023001     850219                                 30023001    1
+BIB                 12         23                                 30023001    2
+INSTITUTE  (3HUNDEB)                                              30023001    3
+REFERENCE  (J,AHP,28,257,7001) EXPERIMENT AND RESULTS, DATA       30023001    4
+AUTHOR     (M.DIKSIC, P.STROHAL, G.PETO, P.BORNEMISZA-PAUSPERTL,  30023001    5
+           I.HUNYADI, J.KAROLYI)                                  30023001    6
+TITLE      ADDITIONAL MEASUREMENTS OF THE RADIATIVE CAPTURE CROSS 30023001    7
+           SECTIONS FOR 3 MEV NEUTRONS.                           30023001    8
+INC-SOURCE (D-D) D(D,N) REACTION                                  30023001    9
+SAMPLE     SAMPLES IN PURE OR COMPOUND FORM WERE MOUNTED IN THIN  30023001   10
+           POLYETHYLENE FOILS AND IRRADIATED TOGETHER WITH MONITOR30023001   11
+           MATERIALS                                              30023001   12
+METHOD     (ACTIV) ACTIVATION                                     30023001   13
+DETECTOR   (GEMUC,NAICR) GEIGER-MULLER FOR BETA ACTIVITIES AND    30023001   14
+           NAI(TL) CRYSTAL SPECTROMETER FOR GAMMAS.               30023001   15
+STATUS            DATA FROM ACTA PHYSICA HUNGARICAE 28,257,1/70   30023001   16
+           (APRVD) APPROVED BY PETO (5/9/72)                      30023001   17
+HISTORY    (671107R) DATA RECEIVED FROM CSIKAI, PRIV COM          30023001   18
+           (700626T) PREVIOUSLY DASTAR-00740,CHECKED WITH         30023001   19
+                     AHP 28 257 JAN 1970                          30023001   20
+CORRECTION THE BETA COUNTING RATE WAS CORRECTED FOR COUNTING      30023001   21
+           EFFICIENCY, SCATTERING AND ABSORPTION, FOR THE GAMMAS  30023001   22
+           THE PHOTO PEAK EFFICIENCY WAS TAKEN INTO ACCOUNT       30023001   23
+ERR-ANALYS ERRORS INDICATED ARE DUE TO STATISTICS, HALF-LIFE ERROR30023001   24
+           AND ERROR OF STANDARD CROSS-SECTIONS.                  30023001   25
+ENDBIB              23                                            30023001   26
+COMMON               2          3                                 30023001   27
+EN         EN-RSL                                                 30023001   28
+MEV        MEV                                                    30023001   29
+ 3.0000E+00 2.0000E-01                                            30023001   30
+ENDCOMMON            3                                            30023001   31
+ENDSUBENT           30                                            3002300199999
+SUBENT        30023013     840503                                 30023013    1
+BIB                  3          3                                 30023013    2
+REACTION   (83-BI-209(N,G)83-BI-210-G,,SIG)                       30023013    3
+MONITOR    (16-S-32(N,P)15-P-32,,SIG)                             30023013    4
+PART-DET   (B-) BETA                                              30023013    5
+ENDBIB               3                                            30023013    6
+NOCOMMON             0          0                                 30023013    7
+DATA                 4          1                                 30023013    8
+DATA       DATA-ERR   MONIT      MONIT-ERR                        30023013    9
+MB         MB         MB         MB                               30023013   10
+ 1.5300E+00 5.1000E-01 1.1000E+02 1.0000E+01                      30023013   11
+ENDDATA              3                                            30023013   12
+ENDSUBENT           11                                            3002301399999
+ENDENTRY             2                                            3002399999999
+ENDREQUEST           1                                            Z999999999999

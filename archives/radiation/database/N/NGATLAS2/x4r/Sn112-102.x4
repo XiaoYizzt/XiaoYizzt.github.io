@@ -1,0 +1,124 @@
+REQUEST           1001   20010914          3     141934               0  0    0
+ENTRY            11927     830802                                 11927000    1
+SUBENT        11927001     830802                                 11927001    1
+BIB                  8         10                                 11927001    2
+INSTITUTE  (1USAUCS)                                              11927001    3
+REFERENCE  (J,NSE,31,545,68)                                      11927001    4
+AUTHOR     (R.S.TILBURY,H.H.KRAMER)                               11927001    5
+TITLE      REACTOR NEUTRON CROSS SECTIONS FOR SOME (N,GAMMA)      11927001    6
+           REACTIONS.                                             11927001    7
+METHOD     (ACTIV) ACTIVATION                                     11927001    8
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)                         11927001    9
+STATUS     (SCSRS)                                                11927001   10
+HISTORY    (760802T) TRANSLATED FROM SCISRS                       11927001   11
+           (830802A) CONVERTED TO REACTION FORMALISM              11927001   12
+ENDBIB              10                                            11927001   13
+COMMON               1          3                                 11927001   14
+MONIT                                                             11927001   15
+B                                                                 11927001   16
+ 98.8                                                             11927001   17
+ENDCOMMON            3                                            11927001   18
+ENDSUBENT           17                                            1192700199999
+SUBENT        11927004     830802                                 11927004    1
+BIB                  3          3                                 11927004    2
+REACTION   (50-SN-112(N,G)50-SN-113-G,,SIG,,SPA)                  11927004    3
+DECAY-DATA (50-SN-113-G,118.D,DG,390.,0.65)                       11927004    4
+INC-SPECT   REACTOR SPECTRUM                                      11927004    5
+ENDBIB               3                                            11927004    6
+COMMON               1          3                                 11927004    7
+HL                                                                11927004    8
+D                                                                 11927004    9
+  118.                                                            11927004   10
+ENDCOMMON            3                                            11927004   11
+DATA                 3          1                                 11927004   12
+EN-DUMMY   DATA       DATA-ERR                                    11927004   13
+MEV        B          B                                           11927004   14
+ 2.53   -08 7.10   -01 1.00   -01                                 11927004   15
+ENDDATA              3                                            11927004   16
+ENDSUBENT           15                                            1192700499999
+ENDENTRY             2                                            1192799999999
+ENTRY            11972     830802                                 11972000    1
+SUBENT        11972001     830802                                 11972001    1
+BIB                 10         11                                 11972001    2
+INSTITUTE  (1USABNL)                                              11972001    3
+REFERENCE  (J,PR,124,1186,61)                                     11972001    4
+AUTHOR     (M.SCHMORAK,G.EMERY,G.SHARFF-GOLDHABER)                11972001    5
+TITLE      M3 ISOMERIC TRANSITION IN TIN-113.                     11972001    6
+INC-SPECT  REACTOR SPECTRUM                                       11972001    7
+SAMPLE     ENRICHED TO 72 PERCENT SN-112                          11972001    8
+METHOD     (ACTIV) ACTIVATION                                     11972001    9
+DETECTOR   (NAICR) NAI CRYSTAL SPECTROMETER                       11972001   10
+STATUS     (SCSRS)                                                11972001   11
+HISTORY    (760802T) TRANSLATED FROM SCISRS                       11972001   12
+           (830802A) CONVERTED TO REACTION FORMALISM              11972001   13
+ENDBIB              11                                            11972001   14
+NOCOMMON             0          0                                 11972001   15
+ENDSUBENT           14                                            1197200199999
+SUBENT        11972002     830802                                 11972002    1
+BIB                  5          5                                 11972002    2
+REACTION   (50-SN-112(N,G)50-SN-113-G,,SIG,,SPA)                  11972002    3
+STATUS     (DEP,11972004)                                         11972002    4
+ANALYSIS   CALCULATED FROM MEASURED ISOMERIC RATIO (M/G)          11972002    5
+MONITOR    (50-SN-112(N,G)50-SN-113-G,M+,SIG)                     11972002    6
+DECAY-DATA (50-SN-113-G,118.D)                                    11972002    7
+ENDBIB               5                                            11972002    8
+NOCOMMON             0          0                                 11972002    9
+DATA                 4          1                                 11972002   10
+EN-DUMMY   DATA       DATA-ERR   MONIT                            11972002   11
+MEV        B          B          B                                11972002   12
+ 2.53   -08 9.     -01 3.     -01 1.3                             11972002   13
+ENDDATA              3                                            11972002   14
+ENDSUBENT           13                                            1197200299999
+ENDENTRY             2                                            1197299999999
+ENTRY            20731     840201                                 20731000    1
+SUBENT        20731001     840201                                 20731001    1
+BIB                 15         32                                 20731001    2
+INSTITUTE  (2BLGGHT)                                              20731001    3
+REFERENCE  (J,JRC,16,39,73)                                       20731001    4
+AUTHOR     (W.MAENHAUT,F.ADAMS,J.HOSTE)                           20731001    5
+TITLE      -INTERFERENCES IN THE DETERMINATION OF TRACE           20731001    6
+            ELEMENTS IN HIGH-PURITY TIN.-                         20731001    7
+INC-SOURCE (REAC ) THESIS REACTOR IN GHENT AND BR-2               20731001    8
+            REACTOR (MOL,BELGIUM).                                20731001    9
+INC-SPECT  .THERMAL,EPITHERMAL AND FAST NEUTRON FLUX.             20731001   10
+SAMPLE     .HIGH PURITY TIN FOILS.                                20731001   11
+METHOD     (ACTIV) ACTIVATION.                                    20731001   12
+DETECTOR   (GELI ) COAXIAL GE(LI)-DETECTOR.                       20731001   13
+ANALYSIS   .IRRADIATIONS WITH AND WITHOUT CD-FILTER.              20731001   14
+MONITOR    (27-CO-59(N,G)27-CO-60,,RI)                            20731001   15
+            THERMAL CROSS SECTION = 37 B,                         20731001   16
+            RESONANCE INTEGRAL INCLUDING 1/V-PART = 75 B.         20731001   17
+           (79-AU-197(N,G)79-AU-198,,RI)                          20731001   18
+            THERMAL CROSS SECTION = 98.8 B,                       20731001   19
+            RESONANCE INTEGRAL INCLUDING 1/V-PART  = 1550 B.      20731001   20
+           (28-NI-58(N,P)27-CO-58,,SIG,,FIS)                      20731001   21
+            AVERAGE FISSION SPECTRUM CROSS                        20731001   22
+            SECTION = 102 MB.                                     20731001   23
+           (13-AL-27(N,A)11-NA-24,,SIG,,FIS)                      20731001   24
+            AVERAGE FISSION SPECTRUM CROSS                        20731001   25
+            SECTION = 0.60 MB.                                    20731001   26
+           (28-NI-58(N,2N)28-NI-57,,SIG,,FIS)                     20731001   27
+            AVERAGE FISSION SPECTRUM CROSS                        20731001   28
+            SECTION = 0.0045 MB.                                  20731001   29
+STATUS     .TAKEN FROM J.RADIOANAL.CHEMISTRY,16(1973)39.          20731001   30
+HISTORY    (770407C)                                              20731001   31
+           (780307E)                                              20731001   32
+CORRECTION .FOR THE INTERFERENCE REACTIONS.                       20731001   33
+ERR-ANALYS .NO ERRORS GIVEN.                                      20731001   34
+ENDBIB              32                                            20731001   35
+NOCOMMON             0          0                                 20731001   36
+ENDSUBENT           35                                            2073100199999
+SUBENT        20731002     840201                                 20731002    1
+BIB                  2          2                                 20731002    2
+REACTION   (50-SN-112(N,G)50-SN-113-G,,SIG,,MXW)                  20731002    3
+HALF-LIFE  (HL,50-SN-113-G) HALF-LIFE USED IN THE EXPERIMENT.     20731002    4
+ENDBIB               2                                            20731002    5
+NOCOMMON             0          0                                 20731002    6
+DATA                 3          1                                 20731002    7
+EN-DUMMY   DATA       HL                                          20731002    8
+EV         B          D                                           20731002    9
+ 2.5300E-02 5.2000E-01 1.1500E+02                                 20731002   10
+ENDDATA              3                                            20731002   11
+ENDSUBENT           10                                            2073100299999
+ENDENTRY             2                                            2073199999999
+ENDREQUEST           1                                            Z999999999999

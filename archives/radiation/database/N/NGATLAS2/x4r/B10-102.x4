@@ -1,0 +1,105 @@
+REQUEST           1001   20010914          3     135702               0  0    0
+ENTRY            11014     820106                                 11014000    1
+SUBENT        11014001     820106                                 11014001    1
+BIB                  6          8                                 11014001    2
+INSTITUTE  (1CANCRC)                                              11014001    3
+REFERENCE  (J,CJP,35,1347,57)                                     11014001    4
+AUTHOR     (G.A.BARTHOLOMEW,P.J.CAMPION)                          11014001    5
+TITLE      NEUTRON CAPTURE GAMMA RAYS FROM LITHIUM, BORON AND     11014001    6
+           NITROGEN.                                              11014001    7
+STATUS     (SCSRS)                                                11014001    8
+HISTORY    (760628T) TRANSLATED FROM SCISRS                       11014001    9
+           (820106A) CONVERTED TO REACTION FORMALISM              11014001   10
+ENDBIB               8                                            11014001   11
+NOCOMMON             0          0                                 11014001   12
+ENDSUBENT           11                                            1101400199999
+SUBENT        11014004     820106                                 11014004    1
+BIB                  4          5                                 11014004    2
+REACTION   (5-B-10(N,G)5-B-11,,SIG,,SPA)                          11014004    3
+SAMPLE     POWDERED B(4)-C SAMPLE                                 11014004    4
+MONITOR    (28-NI-0(N,G),,SIG)                                    11014004    5
+            BASED ON NI CAPTURE                                   11014004    6
+INC-SPECT  REACTOR SPECTRUM                                       11014004    7
+ENDBIB               5                                            11014004    8
+NOCOMMON             0          0                                 11014004    9
+DATA                 3          1                                 11014004   10
+EN-DUMMY   DATA       DATA-ERR                                    11014004   11
+MEV        B          B                                           11014004   12
+ 2.53   -08 5.     -01 2.     -01                                 11014004   13
+ENDDATA              3                                            11014004   14
+ENDSUBENT           13                                            1101400499999
+ENDENTRY             2                                            1101499999999
+ENTRY            12659     840411                                 12659000    1
+SUBENT        12659001     840411                                 12659001    1
+BIB                  9          9                                 12659001    2
+INSTITUTE  (1USAORL)                                              12659001    3
+REFERENCE  (R,ORNL-TM-1271,6509)                                  12659001    4
+AUTHOR     (J.A.BIGGERSTAFF)                                      12659001    5
+TITLE      SEARCH FOR GAMMA RAYS FROM B-10(N,G) NEAR 230 KEV      12659001    6
+FACILITY   (VDG) 3 MEV PULSED VAN DE GRAAFF                       12659001    7
+DETECTOR   (NAICR) 9 BY 12 INCH NAI CRYSTAL                       12659001    8
+SAMPLE     20 KEV THICK SAMPLE.                                   12659001    9
+STATUS     (PRELM)                                                12659001   10
+HISTORY    (840410C)                                              12659001   11
+ENDBIB               9                                            12659001   12
+NOCOMMON             0          0                                 12659001   13
+ENDSUBENT           12                                            1265900199999
+SUBENT        12659002     840411                                 12659002    1
+BIB                  2          3                                 12659002    2
+REACTION   (5-B-10(N,G)5-B-11,,SIG)                               12659002    3
+COMMENT    A SEARCH FOR GAMMA RAYS ABOVE 0.5 MEV WAS NOT          12659002    4
+             SUCCESSFUL.                                          12659002    5
+ENDBIB               3                                            12659002    6
+NOCOMMON             0          0                                 12659002    7
+DATA                 2          1                                 12659002    8
+EN         DATA-MAX                                               12659002    9
+KEV        MB                                                     12659002   10
+230.       10.                                                    12659002   11
+ENDDATA              3                                            12659002   12
+ENDSUBENT           11                                            1265900299999
+ENDENTRY             2                                            1265999999999
+ENTRY            22383   19980623   19991117                      22383000    1
+SUBENT        22383001   19980623   19991117                      22383001    1
+BIB                 11         20                                 22383001    2
+TITLE       .MEASUREMENTS OF KEV-NEUTRONS CAPTURE GAMMA RAYS      22383001    3
+AUTHOR     (M.IGASHIRA,K.MASUDA,S.MIZUNO,M.MIZUMACHI,T.OHSAKI,    22383001    4
+           T.S.SUZUKI,Y.NAGAY,H.KITAZAWA)                         22383001    5
+INSTITUTE  (2JPNTIT)                                              22383001    6
+REFERENCE  (C,94BOLOGN,,269,199411) MAIN REFERENCE. DATA PARTLY   22383001    7
+                                   GIVEN                          22383001    8
+           (J,NP/A,457,301,1986)  EXPERIMENTAL DETAILS            22383001    9
+           (J,PR/C,41,458,1990)   EXPERIMENTAL DETAILS            22383001   10
+FACILITY   (CYCLO)  3-MEV PELLETRON ACCELERATOR OF THE TOKYO      22383001   11
+                    INSTITUTE OF TECHNOLOGY                       22383001   12
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)                         22383001   13
+METHOD     (TOF)  TIME-OF-FLIGHT                                  22383001   14
+DETECTOR   (NAICR) NA-I(TL) LARGE ANTI-COMPTON DETECTOR FOR GAMMA 22383001   15
+           (SCIN)  SCINTILLATION DETECTOR LOCATED 30 CM AWAY FROM 22383001   16
+                  NEUTRON SOURCE FOR NEUTRON ENERGY DETERMINATION 22383001   17
+CORRECTION .CORRECTIONS WERE MADE ON SELF-SHIELDING, MULTIPLE     22383001   18
+            SCATTERING AND WATER CONTENT IN SAMPLES               22383001   19
+INC-SOURCE (P-LI7)  1.5 NSEC BUNCHED PROTON BEAM, CURRENT 3 TO    22383001   20
+                    7 MICROAMP, 2 MHZ REPETITION RATE             22383001   21
+HISTORY    (19980624C)  + +  COMPILED BY S.MAEV  + +              22383001   22
+ENDBIB              20                                            22383001   23
+NOCOMMON             0          0                                 22383001   24
+ENDSUBENT           23                                            2238300199999
+SUBENT        22383003   19980623   19991117                      22383003    1
+BIB                  3          5                                 22383003    2
+REACTION   (5-B-10(N,G)5-B-11,,SIG)                               22383003    3
+SAMPLE      DISK WITH 9 CM DIAMETER, 0.1 - 3 CM THICKNESS LOCATED 22383003    4
+            15.6 OR 11.8 CM AWAY FROM THE NEUTRON SOURCE AT THE   22383003    5
+            ANGLE 0 ADEG WITH RESPECT TO THE PROTON BEAM DIRECTION22383003    6
+STATUS     (DEP,22383002)                                         22383003    7
+ENDBIB               5                                            22383003    8
+NOCOMMON             0          0                                 22383003    9
+DATA                 3          3                                 22383003   10
+EN         DATA       DATA-ERR                                    22383003   11
+KEV        MICRO-B    MICRO-B                                     22383003   12
+  23.       424.       26.                                        22383003   13
+  40.       288.       17.                                        22383003   14
+  61.       258.       21.                                        22383003   15
+ENDDATA              5                                            22383003   16
+ENDSUBENT           15                                            2238300399999
+ENDENTRY             2                                            2238399999999
+ENDREQUEST           1                                            Z999999999999

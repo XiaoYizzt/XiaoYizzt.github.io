@@ -1,0 +1,170 @@
+REQUEST           1001   20010914          3     144123               0  0    0
+ENTRY            11927     830802                                 11927000    1
+SUBENT        11927001     830802                                 11927001    1
+BIB                  8         10                                 11927001    2
+INSTITUTE  (1USAUCS)                                              11927001    3
+REFERENCE  (J,NSE,31,545,68)                                      11927001    4
+AUTHOR     (R.S.TILBURY,H.H.KRAMER)                               11927001    5
+TITLE      REACTOR NEUTRON CROSS SECTIONS FOR SOME (N,GAMMA)      11927001    6
+           REACTIONS.                                             11927001    7
+METHOD     (ACTIV) ACTIVATION                                     11927001    8
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)                         11927001    9
+STATUS     (SCSRS)                                                11927001   10
+HISTORY    (760802T) TRANSLATED FROM SCISRS                       11927001   11
+           (830802A) CONVERTED TO REACTION FORMALISM              11927001   12
+ENDBIB              10                                            11927001   13
+COMMON               1          3                                 11927001   14
+MONIT                                                             11927001   15
+B                                                                 11927001   16
+ 98.8                                                             11927001   17
+ENDCOMMON            3                                            11927001   18
+ENDSUBENT           17                                            1192700199999
+SUBENT        11927012     830802                                 11927012    1
+BIB                  4          4                                 11927012    2
+REACTION   (80-HG-196(N,G)80-HG-197-M,,SIG,,SPA)                  11927012    3
+DECAY-DATA (80-HG-197-M,24.HR,DG,135.,0.31)                       11927012    4
+SAMPLE     HG-O SAMPLE                                            11927012    5
+INC-SPECT   REACTOR SPECTRUM                                      11927012    6
+ENDBIB               4                                            11927012    7
+COMMON               1          3                                 11927012    8
+HL                                                                11927012    9
+HR                                                                11927012   10
+   24.                                                            11927012   11
+ENDCOMMON            3                                            11927012   12
+DATA                 3          1                                 11927012   13
+EN-DUMMY   DATA       DATA-ERR                                    11927012   14
+MEV        B          B                                           11927012   15
+ 2.53   -08 1.25   +02 1.3    +01                                 11927012   16
+ENDDATA              3                                            11927012   17
+ENDSUBENT           16                                            1192701299999
+ENDENTRY             2                                            1192799999999
+ENTRY            12866     851106                                 12866000    1
+SUBENT        12866001     851106                                 12866001    1
+BIB                 15         51                                 12866001    2
+INSTITUTE  (1USALRL)                                              12866001    3
+REFERENCE  (C,78MAYAG,,495,7805)                                  12866001    4
+AUTHOR     (R.E.HEFT)                                             12866001    5
+TITLE      A CONSISTENT SET OF NUCLEAR-PARAMETER VALUES           12866001    6
+           FOR ABSOLUTE INSTRUMENTAL NEUTRON ACTIVATION           12866001    7
+           ANALYSIS.                                              12866001    8
+FACILITY   (REAC) LAWRENCE LIVERMORE LABORATORY LPTR RESEARCH     12866001    9
+                  REACTOR FACILITY.                               12866001   10
+METHOD     (ACTIV)                                                12866001   11
+           EPITHERMAL-TO-THERMAL FLUX RATIO WAS MEASURED IN       12866001   12
+             EACH IRRADIATION BY INCLUDING A URANIUM-SCANDIUM     12866001   13
+             STANDARD IN THE IRRADIATION PACKAGE.                 12866001   14
+INC-SPECT  REACTOR SPECTRUM. ALL NUCLIDES IRRADIATED IN POSITION  12866001   15
+            S-2 WITH A CD RATIO OF 3.8 AND IN EITHER POSITION E-1 12866001   16
+            (CD RATIO 2.5) OR POSITION A-4 (CD RATIO 2.0)         12866001   17
+            DEPENDING ON WHETHER PRODUCTS WERE LONG OR SHORT-LIVED12866001   18
+MONITOR    ELEMENT SCANDIUM WAS USED AS AN INTERNAL FLUX MONITOR  12866001   19
+             SCANDIUM VALUES WERE MEASURED BY TAKING MIXTURES OF  12866001   20
+                                COBALT-SCANDIUM                   12866001   21
+                                GOLD-SCANDIUM                     12866001   22
+                                U238-SCANDIUM                     12866001   23
+           ((MONIT1)21-SC-45(N,G)21-SC-46,,SIG)                   12866001   24
+           ((MONIT2)27-CO-59(N,G)27-CO-60,,SIG)                   12866001   25
+           ((MONIT3)79-AU-197(N,G)79-AU-198,,SIG)                 12866001   26
+           ((MONIT4)92-U-238(N,G)92-U-239,,SIG)                   12866001   27
+           ((MONIT5)21-SC-45(N,G)21-SC-46,,RI)                    12866001   28
+           ((MONIT6)27-CO-59(N,G)27-CO-60,,RI)                    12866001   29
+           ((MONIT7)79-AU-197(N,G)79-AU-198,,RI)                  12866001   30
+           ((MONIT8)92-U-238(N,G)92-U-239,,RI)                    12866001   31
+DECAY-MON  (21-SC-46-G,83.9D,DG,1120.5,1.)                        12866001   32
+           (27-CO-60-G,1922.D,DG,1332.51,1.)                      12866001   33
+           (79-AU-198-G,2.70D,DG,411.79,0.968)                    12866001   34
+           (92-U-239,0.01635D,DG,74.67,.593)                      12866001   35
+           (93-NP-239,2.353D,DG,106.07,0.252)                     12866001   36
+DETECTOR   ALL COUNTING WAS DONE ON GAMMA SPECTRAL ANALYZERS      12866001   37
+             TO MEASURE ABSOLUTE PHOTON EMISSION RATES.           12866001   38
+ANALYSIS   ALL SPECTRA GENERATED WERE ANALYZED BY COMPUTER        12866001   39
+             CODE GAMANAL TO OBTAIN A SET OF ABSOLUTE             12866001   40
+             DISINTEGRATION RATES FOR THE NUCLIDES FOUND.         12866001   41
+           THE DISINTEGRATION-RATE DATA THUS OBTAINED WERE        12866001   42
+             FURTHER ANALYZED BY ANOTHER COMPUTER CODE NADAC      12866001   43
+             TO COMPUTE THE EFFECTIVE CROSS SECTION FOR           12866001   44
+             EACH ACTIVATION PRODUCT.                             12866001   45
+ERR-ANALYS DETAILS NOT GIVEN                                      12866001   46
+             FOR SOME ELEMENTS THE ERRORS REFLECT THE EFFECTS OF  12866001   47
+             CONCENTRATION ERROR OR EVAPORATION LOSS.             12866001   48
+CORRECTION NO CORRECTION FOR THE INTERFERENCE DUE TO (N,P)        12866001   49
+             REACTION WAS DONE.                                   12866001   50
+           CORRECTION DUE TO U-235 FISSION REACTION IS IMPLIED.   12866001   51
+STATUS     (APRVD) R.E.HEFT, 84/12/27.                            12866001   52
+HISTORY    (840410C)                                              12866001   53
+ENDBIB              51                                            12866001   54
+COMMON              10          6                                 12866001   55
+MONIT1     MONIT1-ERR MONIT2     MONIT3     MONIT4     MONIT5     12866001   56
+MONIT5-ERR MONIT6     MONIT7     MONIT8                           12866001   57
+B          B          B          B          B          B          12866001   58
+B          B          B          B                                12866001   59
+27.7       0.5        37.5       98.8       2.720      12.2       12866001   60
+0.6        75.        1550.      280.                             12866001   61
+ENDCOMMON            6                                            12866001   62
+ENDSUBENT           61                                            1286600199999
+SUBENT        12866200     841227                                 12866200    1
+BIB                  3          3                                 12866200    2
+REACTION   (80-HG-196(N,G)80-HG-197-M,,SIG,,SPA)                  12866200    3
+SAMPLE     NATURAL SAMPLE,ASSUMED 0.146 PERCENT ABUNDANCE.        12866200    4
+DECAY-DATA (80-HG-197-M,1.000+00D,DG,133.94,0.341)                12866200    5
+ENDBIB               3                                            12866200    6
+NOCOMMON             0          0                                 12866200    7
+DATA                 3          1                                 12866200    8
+EN-DUMMY   DATA       DATA-ERR                                    12866200    9
+EV         B          B                                           12866200   10
+0.025      107.3      1.5                                         12866200   11
+ENDDATA              3                                            12866200   12
+ENDSUBENT           11                                            1286620099999
+ENDENTRY             2                                            1286699999999
+ENTRY            20254     831122                                 20254000    1
+SUBENT        20254001     831122                                 20254001    1
+BIB                 13         30                                 20254001    2
+INSTITUTE  (2BLGGHT)                                              20254001    3
+REFERENCE  (J,RCA,8,165,6712)                                     20254001    4
+AUTHOR     (J.I.KIM, F.ADAMS)                                     20254001    5
+TITLE      - THE THERMAL NEUTRON CROSS-SECTIONS AND THE RESONANCE 20254001    6
+             INTEGRALS OF HG-196 AND HG-202 -                     20254001    7
+FACILITY   .BR1-REACTOR.                                          20254001    8
+INC-SPECT  .MAXWELLIAN SPECTRUM ASSUMED FOR THE THERMAL NEUTRONS. 20254001    9
+           .1/E BEHAVIOR ASSUMED FOR EPITHERMAL NEUTRONS.         20254001   10
+           .CADMIUM CUT-OFF ENERGY ESTIMATED TO BE 0.50 EV.       20254001   11
+METHOD     (ACTIV)    ACTIVATION                                  20254001   12
+DETECTOR   (GELI )    GERMANIUM-LITHIUM DETECTOR                  20254001   13
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)                         20254001   14
+            = 98.8 +- 0.3 BARNS, 2200 M/SEC. VALUE.               20254001   15
+           (27-CO-59(N,G)27-CO-60,,SIG)                           20254001   16
+            = 37 BARNS, 2200 M/SEC. VALUE.                        20254001   17
+           .THE RESONANCE INTEGRALS INCLUDING THE                 20254001   18
+            1/V-TAIL ARE BASED ON THE RESONANCE INTEGRAL          20254001   19
+            OF COBALT I(CO) = 75 BARNS AND GOLD                   20254001   20
+            I(AU) = 1550 BARNS, NUCLEONICS 24, 108(1966)          20254001   21
+            GOLD CROSS-SECTIONS USED AS PRIMARY STANDARD          20254001   22
+PART-DET   (DG   )    DECAY GAMMAS                                20254001   23
+STATUS     .DATA FROM RAD.CHIM.ACTA,8(1967)165.                   20254001   24
+HISTORY    (721005C)                                              20254001   25
+           (740521E)                                              20254001   26
+ERR-ANALYS .STANDARD DEVIATIONS GIVEN INCLUDE ERRORS DUE TO       20254001   27
+            WEIGHTING OF SAMPLES, PREPARATION OF THE SAMPLES FOR  20254001   28
+            IRRADIATION, POST IRRADIATION TREATMENT, MEASUREMENT  20254001   29
+            OF ACTIVITY. NOT INCLUDED ARE ERRORS DUE TO THE       20254001   30
+            EVALUATION OF ACTIVITIES AND A POSSIBLE CALIBRATION   20254001   31
+            ERROR OF THE DETECTOR (3 TO 4 PERCENT).               20254001   32
+ENDBIB              30                                            20254001   33
+NOCOMMON             0          0                                 20254001   34
+ENDSUBENT           33                                            2025400199999
+SUBENT        20254003     831122                                 20254003    1
+BIB                  3          4                                 20254003    2
+REACTION   (80-HG-196(N,G)80-HG-197-M,,SIG)                       20254003    3
+ANALYSIS   .REDUCED TO 2200 M/SEC CROSS-SECTION.                  20254003    4
+HISTORY    (721005C)                                              20254003    5
+           (740521E)                                              20254003    6
+ENDBIB               4                                            20254003    7
+NOCOMMON             0          0                                 20254003    8
+DATA                 4          1                                 20254003    9
+EN         HL         DATA       DATA-ERR                         20254003   10
+MEV        HR         B          B                                20254003   11
+ 2.5300E-08 2.4000E+01 1.0670E+02 1.2800E+01                      20254003   12
+ENDDATA              3                                            20254003   13
+ENDSUBENT           12                                            2025400399999
+ENDENTRY             2                                            2025499999999
+ENDREQUEST           1                                            Z999999999999

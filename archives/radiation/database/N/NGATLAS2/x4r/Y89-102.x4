@@ -1,0 +1,173 @@
+REQUEST           1001   20010914          3     141227               0  0    0
+ENTRY            11590     870120                                 11590000    1
+SUBENT        11590001     870120                                 11590001    1
+BIB                 10         16                                 11590001    2
+INSTITUTE  (1USAARK)                                              11590001    3
+REFERENCE  (J,PR,131,2649,6309)                                   11590001    4
+AUTHOR     (E.T.BRAMLITT,R.W.FINK)                                11590001    5
+TITLE      RARE NUCLEAR REACTIONS INDUCED BY 14.7-MEV NEUTRONS.   11590001    6
+FACILITY   (CCW)                                                  11590001    7
+INC-SOURCE (D-T) T(D,N) SOURCE                                    11590001    8
+METHOD     (ACTIV) ACTIVATION                                     11590001    9
+DETECTOR   (PROPC). BETAS                                         11590001   10
+           (SCIN) PLASTIC SCINTILLATOR. BETAS.                    11590001   11
+           (NAICR). GAMMAS.                                       11590001   12
+STATUS     (SCSRS)                                                11590001   13
+HISTORY    (760718T) TRANSLATED FROM SCISRS                       11590001   14
+           (830815A) CONVERTED TO REACTION FORMALISM              11590001   15
+           (840731A) BIB CORRECTIONS.                             11590001   16
+           (860714A) ENERGY MOVED TO SUBENTRY 1.                  11590001   17
+           (870120A) BIB CORRECTIONS.                             11590001   18
+ENDBIB              16                                            11590001   19
+COMMON               2          3                                 11590001   20
+EN         EN-RSL                                                 11590001   21
+MEV        MEV                                                    11590001   22
+ 14.7       0.2                                                   11590001   23
+ENDCOMMON            3                                            11590001   24
+ENDSUBENT           23                                            1159000199999
+SUBENT        11590036     860714                                 11590036    1
+BIB                  3          3                                 11590036    2
+REACTION   (39-Y-89(N,G)39-Y-90-G,,SIG)                           11590036    3
+DECAY-DATA (39-Y-90-G,64.HR)                                      11590036    4
+MONITOR    (39-Y-89(N,G)39-Y-90,,SIG)                             11590036    5
+ENDBIB               3                                            11590036    6
+NOCOMMON             0          0                                 11590036    7
+DATA                 3          1                                 11590036    8
+DATA       DATA-ERR   MONIT                                       11590036    9
+B          B          MB                                          11590036   10
+ 1.8    -03 6.     -04 2.9                                        11590036   11
+ENDDATA              3                                            11590036   12
+ENDSUBENT           11                                            1159003699999
+ENDENTRY             2                                            1159099999999
+ENTRY            11882     830919                                 11882000    1
+SUBENT        11882001     830919                                 11882001    1
+BIB                  7         10                                 11882001    2
+INSTITUTE  (1USALOK)                                              11882001    3
+REFERENCE  (J,NP/A,94,157,6703)                                   11882001    4
+AUTHOR     (H.A.GRENCH,K.L.COOP,H.O.MENLOVE,F.J.VAUGHN)           11882001    5
+TITLE      A STUDY OF THE SPIN DEPENDENCE OF THE NUCLEAR LEVEL    11882001    6
+           DENSITY BY MEANS OF THE Y89(N,GAMMA)Y90G,90M REACTIONS 11882001    7
+           WITH FAST NEUTRONS.                                    11882001    8
+METHOD     (ACTIV) ACTIVATION                                     11882001    9
+STATUS     (SCSRS)                                                11882001   10
+HISTORY    (760731T) TRANSLATED FROM SCISRS                       11882001   11
+           (830919A) CONVERTED TO REACTION FORMALISM              11882001   12
+ENDBIB              10                                            11882001   13
+NOCOMMON             0          0                                 11882001   14
+ENDSUBENT           13                                            1188200199999
+SUBENT        11882003     830919                                 11882003    1
+BIB                  4          5                                 11882003    2
+REACTION   (39-Y-89(N,G)39-Y-90-G,,SIG)                           11882003    3
+N-SOURCE   (P-LI7) LI-7(P,N) SOURCE                               11882003    4
+MONITOR    (92-U-235(N,F),,SIG)                                   11882003    5
+            BASED ON U235 FISSION.                                11882003    6
+DECAY-DATA (39-Y-90-G,64.2HR)                                     11882003    7
+ENDBIB               5                                            11882003    8
+NOCOMMON             0          0                                 11882003    9
+DATA                 4         12                                 11882003   10
+EN         EN-RSL     DATA       MONIT                            11882003   11
+MEV        MEV        MB         MB                               11882003   12
+ 1.43   -01 3.2    -02 10.79      1515.                           11882003   13
+ 2.23   -01 3.5    -02  7.96      1379.                           11882003   14
+ 3.18   -01 3.3    -02  8.11      1305.                           11882003   15
+ 4.26   -01 2.9    -02  6.39      1250.                           11882003   16
+ 5.25   -01 3.1    -02  6.45      1219.                           11882003   17
+ 6.09   -01 3.1    -02  6.31      1198.                           11882003   18
+ 7.24   -01 3.1    -02  6.60      1180.                           11882003   19
+ 8.24   -01 3.4    -02  6.34      1184.                           11882003   20
+ 9.26   -01 3.4    -02  5.57      1205.                           11882003   21
+ 1.027  +00 3.0    -02  4.74      1234.                           11882003   22
+ 1.085  +00 3.2    -02  4.81      1243.                           11882003   23
+ 1.223  +00 3.4    -02  4.73      1250.                           11882003   24
+ENDDATA             14                                            11882003   25
+ENDSUBENT           24                                            1188200399999
+SUBENT        11882005     830919                                 11882005    1
+BIB                  4          4                                 11882005    2
+REACTION   (39-Y-89(N,G)39-Y-90-G,,SIG)                           11882005    3
+N-SOURCE   (P-LI7) LI-7(P,N) SOURCE                               11882005    4
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)                         11882005    5
+DECAY-DATA (39-Y-90-G,64.2HR)                                     11882005    6
+ENDBIB               4                                            11882005    7
+COMMON               1          3                                 11882005    8
+MONIT-ERR                                                         11882005    9
+PER-CENT                                                          11882005   10
+ 15.                                                              11882005   11
+ENDCOMMON            3                                            11882005   12
+DATA                 4         12                                 11882005   13
+EN         EN-RSL     DATA       MONIT                            11882005   14
+MEV        MEV        MB         MB                               11882005   15
+ 0.142      0.032      9.61       294.                            11882005   16
+ 0.223      0.035      7.56       272.                            11882005   17
+ 0.318      0.033      7.81       229.                            11882005   18
+ 0.426      0.029      6.52       182.                            11882005   19
+ 0.525      0.031      6.60       155.                            11882005   20
+ 0.609      0.031      6.91       138.                            11882005   21
+ 0.724      0.031      7.02       117.                            11882005   22
+ 0.824      0.034      6.63       106.                            11882005   23
+ 0.926      0.034      5.80        98.7                           11882005   24
+ 1.027      0.030      5.32        94.0                           11882005   25
+ 1.085      0.032      5.35        92.4                           11882005   26
+ 1.223      0.034      5.28        89.5                           11882005   27
+ENDDATA             14                                            11882005   28
+ENDSUBENT           27                                            1188200599999
+ENDENTRY             3                                            1188299999999
+ENTRY            30077     890209                                 30077000    1
+SUBENT        30077001     890209                                 30077001    1
+BIB                 14         36                                 30077001    2
+TITLE      NEUTRON ACTIVATION CROSS-SECTIONS AT 24 KEV            30077001    3
+AUTHOR     (S.S.HASAN,A.K.CHAUBEY, M.L.SEHGAL)                    30077001    4
+INSTITUTE  (3INDMUA)                                              30077001    5
+EXP-YEAR   (68)                                                   30077001    6
+REFERENCE  (J,NC/B,58,402,6812) TABLE OF CROSS SECTIONS GIVEN     30077001    7
+SAMPLE     POWDER,PURITY BETTER THAN 99.9PERCENT,SAMPLE SANDWICHED30077001    8
+           BETWEEN 2 CELLOTAPES, PERSPEX RING FOR FIXED GEOMETRY  30077001    9
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)                           30077001   10
+INC-SOURCE ANTIMONY-BERYLLIUM, 1.7 CM DIAM. * 3.3 CM HEIGHT,      30077001   11
+           FLUX GREATER THAN  10E+7 NEUTRONS/SEC                  30077001   12
+METHOD     (ACTIV) BETA DECAY MEASURED - ACTIVATION METHOD        30077001   13
+DETECTOR   (GEMUC) END WINDOW BETA COUNTER                        30077001   14
+ERR-ANALYS (DATA-ERR) GIVEN ERROR CONSISTS OF                     30077001   15
+           1.) 1 PERCENT IN ESTIMATION OF TOTAL NUMBER OF TARGET  30077001   16
+               NUCLEI.                                            30077001   17
+           2.) 2 PERCENT IN MEASUREMENT OF SAMPLE-SOURCE GEOMETRY 30077001   18
+               EFFECT WHICH WILL DEPEND UPON REPRODUCIBILITY OF   30077001   19
+               THE GEOMETRY.                                      30077001   20
+           3.) IRRADIATION TIME MEASURED WITH AN ACCURACY OF      30077001   21
+               BETTER THAN 1 PERCENT.                             30077001   22
+           4.) ABOUT 2 PERCENT ERROR IN MEASUREMENT OF THE CROSS- 30077001   23
+               SECTIONS ESTIMATED TO BE DUE TO THE GAMMA-RAYS     30077001   24
+               DETECTED BY BETA-COUNTER.                          30077001   25
+           5.) STATISTICAL ERROR VARIES FROM ONE CASE TO ANOTHER. 30077001   26
+CORRECTION ABSENCE OF THERMAL NEUTRONS DETERMINED, INFLUENCE OF   30077001   27
+           SCATTERED NEUTRONS OF LOWER THAN 24. KEV ENERGY        30077001   28
+           NEGLIGIBLE DUE TO GEOMETRY,I.E. LARGE ROOM, REMOTE     30077001   29
+           LOCATION OF NEUTRON SOURCE FROM THE FLOOR (=1.3 M)     30077001   30
+           AND NO SHIELDING MATERIAL AROUND THE SOURCE.           30077001   31
+STATUS     NUOVO CIMENTO, VOL. 58B, PAGE 402 (1968)               30077001   32
+HISTORY    (691124C) DATA COMPILED FROM NUOVO CIM. 58B,402(1968)  30077001   33
+           INTO DASTAR-01014                                      30077001   34
+           (691203) PROOF COPY SENT TO AUTHOR                     30077001   35
+           (701211T) CONVERTED FROM DASTAR-01014                  30077001   36
+           (880601A) TMK CODING CHANGE FROM ISO-QUANT TO REACTION 30077001   37
+                        DECAY-DATA ADDED.                         30077001   38
+ENDBIB              36                                            30077001   39
+COMMON               2          3                                 30077001   40
+EN         MONIT                                                  30077001   41
+KEV        B                                                      30077001   42
+24.        0.82                                                   30077001   43
+ENDCOMMON            3                                            30077001   44
+ENDSUBENT           43                                            3007700199999
+SUBENT        30077008     890209                                 30077008    1
+BIB                  2          2                                 30077008    2
+REACTION   (39-Y-89(N,G)39-Y-90-G,,SIG)                           30077008    3
+DECAY-DATA (39-Y-90-G,64.HR,B-)                                   30077008    4
+ENDBIB               2                                            30077008    5
+NOCOMMON             0          0                                 30077008    6
+DATA                 2          1                                 30077008    7
+DATA       DATA-ERR                                               30077008    8
+MB         MB                                                     30077008    9
+ 25.         5.                                                   30077008   10
+ENDDATA              3                                            30077008   11
+ENDSUBENT           10                                            3007700899999
+ENDENTRY             2                                            3007799999999
+ENDREQUEST           1                                            Z999999999999

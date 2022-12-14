@@ -1,0 +1,279 @@
+REQUEST           1001   20010914          3     144218               0  0    0
+ENTRY            10243     821018                                 10243000    1
+SUBENT        10243001     821018                                 10243001    1
+BIB                 14         22                                 10243001    2
+INSTITUTE  (1USAMTR)                                              10243001    3
+REFERENCE  (J,PR/C,4,2249,7112)                                   10243001    4
+AUTHOR     (R.C.GREENWOOD,C.W.REICH)                              10243001    5
+TITLE      ABSOLUTE CROSS SECTIONS FOR 2-KEV NEUTRON CAPTURE IN   10243001    6
+            204-PB AND 207-PB.                                    10243001    7
+FACILITY    REAC  2-KEV NEUTRON BEAM FACILITY OF THE MATERIALS    10243001    8
+            TESTING REATCOR.                                      10243001    9
+N-SOURCE   (REAC) BEAM FILTERED THROUGH SCANDIUM METAL.           10243001   10
+SAMPLE      SOLID  NATURAL LEAD METAL, THICKNESSES FROM 11.85 TO  10243001   11
+            20.87 G/CM**2. ISOTOPIC RATIOS OF PB-204/206/207/208  10243001   12
+            WERE 1.34/24.8/21.2/52.7 WT.PERCENT.                  10243001   13
+METHOD     (ASSOP) PRIMARY CAPTURE GAMMA RAY LINES FROM PB-204 AND10243001   14
+            PB-207 WERE OBSERVED.                                 10243001   15
+DETECTOR   (GELI) A 5-CUBIC CM. GE(LI) DETECTOR WAS USED.         10243001   16
+MONITOR    (5-B-10(N,A)3-LI-7,,SIG)                               10243001   17
+ANALYSIS   CROSS SECTIONS INFERRED FROM GAMMA RAY INTENSITIES     10243001   18
+            AND FLUX MEASUREMENTS USING B-10 AS MONITOR           10243001   19
+ERR-ANALYS NO INFORMATION                                         10243001   20
+STATUS     (APRVD) APPROVED BY AUTHOR.                            10243001   21
+HISTORY    (720515C)                                              10243001   22
+           (751118A) UPDATED SAN/4.                               10243001   23
+           (821018A) CONVERTED TO REACTION FORMALISM              10243001   24
+ENDBIB              22                                            10243001   25
+COMMON               3          3                                 10243001   26
+EN         EN-RSL     MONIT                                       10243001   27
+KEV        KEV        B                                           10243001   28
+1.95        .7         13.55                                      10243001   29
+ENDCOMMON            3                                            10243001   30
+ENDSUBENT           29                                            1024300199999
+SUBENT        10243004     821018                                 10243004    1
+BIB                  2          2                                 10243004    2
+REACTION   (82-PB-207(N,G)82-PB-208,,SIG)                         10243004    3
+PART-DET   (G) DETECTED 7.369 MEV GAMMAS FROM PB-208.             10243004    4
+ENDBIB               2                                            10243004    5
+NOCOMMON             0          0                                 10243004    6
+DATA                 2          1                                 10243004    7
+DATA       DATA-ERR                                               10243004    8
+MB         MB                                                     10243004    9
+3.2        1.2                                                    10243004   10
+ENDDATA              3                                            10243004   11
+ENDSUBENT           10                                            1024300499999
+ENDENTRY             2                                            1024399999999
+ENTRY            10972     870505                                 10972000    1
+SUBENT        10972001     870505                                 10972001    1
+BIB                 11         15                                 10972001    2
+INSTITUTE  (1USABNL)                                              10972001    3
+REFERENCE  (P,USNDC-7,36,7306)                                    10972001    4
+AUTHOR     (O.A.WASSON,R.E.CHRIEN,R.C.GREENWOOD)                  10972001    5
+TITLE      THE 24.3 KEV NEUTRON BEAM FACILITY AT THE HFBR         10972001    6
+FACILITY   (REAC) BNL-HIGH FLUX BEAM REACTOR,HFBR                 10972001    7
+INC-SOURCE (REAC)                                                 10972001    8
+METHOD     (ACTIV)                                                10972001    9
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)                         10972001   10
+DETECTOR   (GELI)                                                 10972001   11
+ERR-ANALYS TOTAL UNCERTAINTY IS RMS SUM OF STATISTICAL,           10972001   12
+            NORMALIZATION AND SYSTEMATIC UNCERTAINTIES.           10972001   13
+           SYSTEMATIC UNCERTAINTY INCLUDES UNCERTAINTY IN         10972001   14
+            CORRECTION FOR EPITHERMAL CAPTURE (4.9 EV RESONANCE)  10972001   15
+            IN GOLD (10%).                                        10972001   16
+HISTORY    (861001C)                                              10972001   17
+ENDBIB              15                                            10972001   18
+COMMON               1          3                                 10972001   19
+MONIT                                                             10972001   20
+MB                                                                10972001   21
+ 660.                                                             10972001   22
+ENDCOMMON            3                                            10972001   23
+ENDSUBENT           22                                            1097200199999
+SUBENT        10972002     870505                                 10972002    1
+BIB                  1          1                                 10972002    2
+REACTION   (82-PB-207(N,G)82-PB-208,,SIG)                         10972002    3
+ENDBIB               1                                            10972002    4
+NOCOMMON             0          0                                 10972002    5
+DATA                 3          1                                 10972002    6
+EN         DATA       DATA-ERR                                    10972002    7
+KEV        MB         MB                                          10972002    8
+ 24.3       1.1        0.3                                        10972002    9
+ENDDATA              3                                            10972002   10
+ENDSUBENT            9                                            1097200299999
+ENDENTRY             2                                            1097299999999
+ENTRY            11133     800814                                 11133000    1
+SUBENT        11133001     800814                                 11133001    1
+BIB                  9         10                                 11133001    2
+INSTITUTE  (1USALAS)                                              11133001    3
+REFERENCE  ((R,ANL-6797,236,6311)=(C,63ANL,,236,6310))            11133001    4
+AUTHOR     (E.JURNEY,H.MOTZ)                                      11133001    5
+TITLE      THERMAL NEUTRON CAPTURE IN D AND O16.                  11133001    6
+N-SOURCE   (THCOL) THERMAL COLUMN                                 11133001    7
+INC-SPECT  THERMAL SPECTRUM                                       11133001    8
+METHOD     CAPTURE GAMMA-RAY SPECTRA                              11133001    9
+STATUS     (SCSRS)                                                11133001   10
+HISTORY    (760628T) TRANSLATED FROM SCISRS                       11133001   11
+           (800814A) CONVERTED TO REACTION FORMALISM              11133001   12
+ENDBIB              10                                            11133001   13
+NOCOMMON             0          0                                 11133001   14
+ENDSUBENT           13                                            1113300199999
+SUBENT        11133008     800814                                 11133008    1
+BIB                  3          4                                 11133008    2
+REACTION   (82-PB-207(N,G)82-PB-208,,SIG,,MXW)                    11133008    3
+STATUS     (DEP)                                                  11133008    4
+ANALYSIS   FROM MEASURED PB-204/PB-207 AND PB-206/PB-207 RATIOS   11133008    5
+            AND NATURAL PB CAPTURE = 171+-2 MB.                   11133008    6
+ENDBIB               4                                            11133008    7
+NOCOMMON             0          0                                 11133008    8
+DATA                 3          1                                 11133008    9
+EN-DUMMY   DATA       DATA-ERR                                    11133008   10
+EV         MB         MB                                          11133008   11
+ 0.0253     709.       10.                                        11133008   12
+ENDDATA              3                                            11133008   13
+ENDSUBENT           12                                            1113300899999
+ENDENTRY             2                                            1113399999999
+ENTRY            11507     860715                                 11507000    1
+SUBENT        11507001     860715                                 11507001    1
+BIB                 10         12                                 11507001    2
+INSTITUTE  (1USAORL)                                              11507001    3
+REFERENCE  (J,PR,88,412,52)                                       11507001    4
+AUTHOR     (H.POMERANCE)                                          11507001    5
+TITLE      THERMAL NEUTRON CAPTURE CROSS SECTIONS.                11507001    6
+FACILITY   (OSCIP) PILE OSCILLATOR                                11507001    7
+INC-SPECT  THERMAL SPECTRUM                                       11507001    8
+METHOD     (ACTIV).                                               11507001    9
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)                         11507001   10
+STATUS     (SCSRS)                                                11507001   11
+HISTORY    (760715T) TRANSLATED FROM SCISRS                       11507001   12
+           (821124A) CONVERTED TO REACTION FORMALISM              11507001   13
+           (860715A) ENERGY MOVED TO SUBENTRY 1.                  11507001   14
+ENDBIB              12                                            11507001   15
+COMMON               2          3                                 11507001   16
+EN-DUMMY   MONIT                                                  11507001   17
+EV         B                                                      11507001   18
+ 0.0253     95.                                                   11507001   19
+ENDCOMMON            3                                            11507001   20
+ENDSUBENT           19                                            1150700199999
+SUBENT        11507101     860715                                 11507101    1
+BIB                  1          1                                 11507101    2
+REACTION   (82-PB-207(N,G)82-PB-208,,SIG,,MXW)                    11507101    3
+ENDBIB               1                                            11507101    4
+NOCOMMON             0          0                                 11507101    5
+DATA                 2          1                                 11507101    6
+DATA       DATA-ERR                                               11507101    7
+B          PER-CENT                                               11507101    8
+ 7.     -01 10.                                                   11507101    9
+ENDDATA              3                                            11507101   10
+ENDSUBENT            9                                            1150710199999
+ENDENTRY             2                                            1150799999999
+ENTRY            11575     830412                                 11575000    1
+SUBENT        11575001     830412                                 11575001    1
+BIB                  7         10                                 11575001    2
+INSTITUTE  (1USAORL)                                              11575001    3
+REFERENCE  (J,PR/B,136,695,6411)                                  11575001    4
+           (W,GIBBONS,7403) GRAPHS                                11575001    5
+AUTHOR     (R.L.MACKLIN,P.J.PASMA,J.H.GIBBONS)                    11575001    6
+TITLE      RESONANCE NEUTRON CAPTURE AND TRANSMISSION IN SULFUR,  11575001    7
+           IRON AND LEAD.                                         11575001    8
+DETECTOR   (MOXR)                                                 11575001    9
+STATUS     (SCSRS)                                                11575001   10
+HISTORY    (760715T) TRANSLATED FROM SCISRS                       11575001   11
+           (830412A) CONVERTED TO REACTION FORMALISM              11575001   12
+ENDBIB              10                                            11575001   13
+NOCOMMON             0          0                                 11575001   14
+ENDSUBENT           13                                            1157500199999
+SUBENT        11575015     830412                                 11575015    1
+BIB                  3          4                                 11575015    2
+REACTION   (82-PB-207(N,G)82-PB-208,,SIG)                         11575015    3
+SAMPLE     SAMPLE THICKNESS 0.01181 ATOMS/B.                      11575015    4
+MONITOR    (73-TA-0(N,G),,SIG)                                    11575015    5
+            BASED ON TA CAPTURE=8600*E**(-0.697)MB.               11575015    6
+ENDBIB               4                                            11575015    7
+NOCOMMON             0          0                                 11575015    8
+DATA                 3         38                                 11575015    9
+EN         DATA       DATA-ERR                                    11575015   10
+MEV        B          B                                           11575015   11
+ 1.37   -02 8.4    -03 3.2    -03                                 11575015   12
+ 1.48   -02 4.0    -03 3.0    -03                                 11575015   13
+ 1.55   -02 1.05   -02 3.5    -03                                 11575015   14
+ 1.62   -02 1.63   -02 3.4    -03                                 11575015   15
+ 1.68   -02 2.18   -02 3.3    -03                                 11575015   16
+ 1.73   -02 2.03   -02 4.2    -03                                 11575015   17
+ 1.80   -02 8.8    -03 2.6    -03                                 11575015   18
+ 1.86   -02 8.5    -03 2.4    -03                                 11575015   19
+ 1.94   -02 1.9    -03 1.7    -03                                 11575015   20
+ 2.02   -02 0.     +00                                            11575015   21
+ 2.10   -02 5.     -04 1.4    -03                                 11575015   22
+ 2.18   -02 0.     +00                                            11575015   23
+ 2.26   -02 0.     +00                                            11575015   24
+ 2.36   -02 6.     -04 8.     -04                                 11575015   25
+ 2.45   -02 4.     -04 1.1    -03                                 11575015   26
+ 2.56   -02 8.     -04 1.1    -03                                 11575015   27
+ 2.69   -02 2.6    -03 1.4    -03                                 11575015   28
+ 2.80   -02 1.1    -03 1.1    -03                                 11575015   29
+ 2.91   -02 5.0    -03 1.2    -03                                 11575015   30
+ 3.00   -02 8.7    -03 1.5    -03                                 11575015   31
+ 3.10   -02 7.6    -03 1.4    -03                                 11575015   32
+ 3.20   -02 1.04   -02 1.4    -03                                 11575015   33
+ 3.30   -02 9.3    -03 1.2    -03                                 11575015   34
+ 3.40   -02 1.03   -02 1.2    -03                                 11575015   35
+ 3.54   -02 8.0    -03 1.1    -03                                 11575015   36
+ 3.66   -02 1.05   -02 1.0    -03                                 11575015   37
+ 3.78   -02 1.52   -02 1.1    -03                                 11575015   38
+ 3.93   -02 1.98   -02 1.2    -03                                 11575015   39
+ 4.05   -02 2.54   -02 1.4    -03                                 11575015   40
+ 4.21   -02 2.80   -02 1.3    -03                                 11575015   41
+ 4.37   -02 3.12   -02 1.2    -03                                 11575015   42
+ 4.54   -02 2.87   -02 1.3    -03                                 11575015   43
+ 4.72   -02 2.24   -02 1.2    -03                                 11575015   44
+ 4.90   -02 1.69   -02 1.0    -03                                 11575015   45
+ 5.10   -02 1.14   -02 9.     -04                                 11575015   46
+ 5.31   -02 6.5    -03 8.     -04                                 11575015   47
+ 5.56   -02 3.3    -03 7.     -04                                 11575015   48
+ 5.79   -02 1.9    -03 6.     -04                                 11575015   49
+ENDDATA             40                                            11575015   50
+ENDSUBENT           49                                            1157501599999
+ENDENTRY             2                                            1157599999999
+ENTRY            22400   19980808   19991117                      22400000    1
+SUBENT        22400001   19980808   19991117                      22400001    1
+BIB                 11         26                                 22400001    2
+TITLE      .STELLAR CAPTURE RATES FOR S-PROCESS STRONG COMPONENT  22400001    3
+            ELEMENTS                                              22400001    4
+AUTHOR     (P.MUTTI,F.CORVI,K.ATHANASSOPULOS,H.BEER,              22400001    5
+           P.KRUPCHITSKY)                                         22400001    6
+INSTITUTE  (2ZZZGEL)  MUTTI, CORVI, ATHANASSOPULOS                22400001    7
+           (2GERKFK)  BEER                                        22400001    8
+           (4RUSITE)  KRUPCHITSKY                                 22400001    9
+REFERENCE  (C,97TRIEST,2,1584,199705) MAIN REFERENCE. DATA FOR    22400001   10
+            MAXWELL-AVERAGED CROSS-SECTIONS ARE GIVEN             22400001   11
+FACILITY   (LINAC,2ZZZGEL) PULSED LINEAR ACCELERATOR - GELINA.    22400001   12
+                  BEAM ENERGY IS 100 MEV, AVERAGED CURRENT IS     22400001   13
+                  70 MICROAMPERES. ELECTRON BURSTS WIDTH IS 2 NS  22400001   14
+                  REPETITION RATE 800 Hz                          22400001   15
+METHOD     (TOF)  FLIGHT DISTANCE IS 59.42 M                      22400001   16
+DETECTOR   (STANK) FOUR C6-D6 LIQUID SCINTILLATORS                22400001   17
+           (IOCH)  FOR NEUTRON FLUX MEASUREMENT                   22400001   18
+MONITOR    (47-AG-0(N,G),,SIG)                                    22400001   19
+INC-SOURCE (PHOTO) NEUTRONS PRODUCED INSIDE OF URANIUM TARGET BY  22400001   20
+                   BREMSSTRAHLUNG GAMMA AND MODERATED IN TWO 4-CM 22400001   21
+                   THICK WATER SLABS CANNED IN BERYLLIUM          22400001   22
+ERR-ANALYS (ERR-T) .TOTAL ERROR                                   22400001   23
+           (ERR-1) .RELATIVE ERROR DUE TO THE NORMALIZATION       22400001   24
+                    PROCEDURE AND AND FLUX DETERMINATION          22400001   25
+           (ERR-2) .UNCERTAINTY ON CALCULATED AVERAGE CROSS-      22400001   26
+                    SECTION VALUES                                22400001   27
+HISTORY    (19980807C)  + +  COMPILED BY S.MAEV  + +              22400001   28
+ENDBIB              26                                            22400001   29
+COMMON               3          3                                 22400001   30
+EN-NRM     ERR-1      ERR-2                                       22400001   31
+EV         PER-CENT   PER-CENT                                    22400001   32
+  5.2        5.         30.                                       22400001   33
+ENDCOMMON            3                                            22400001   34
+ENDSUBENT           33                                            2240000199999
+SUBENT        22400002   19980808   19991117                      22400002    1
+BIB                  4          6                                 22400002    2
+REACTION   (82-PB-207(N,G)82-PB-208,,SIG,,MXW/FCT) AVERAGED SIGMA 22400002    3
+              TIMES VELOCITY DIVIDED BY THERMAL VELOCITY          22400002    4
+SAMPLE     .METALLIC DISK 80 MM DIAMETER AND 2 MM THICKNESS,      22400002    5
+            TOTAL MASS 83.4 GRAM. PB-207 CONTENT IS 90.4 PC       22400002    6
+COMMENT    .EN-MEAN IN DATA SECTION IS (3/2)*KT                   22400002    7
+STATUS     (TABLE)  DATA ARE TAKEN FROM TABLE 1 OF MAIN REFERENCE 22400002    8
+ENDBIB               6                                            22400002    9
+NOCOMMON             0          0                                 22400002   10
+DATA                 3         10                                 22400002   11
+EN-MEAN    DATA       ERR-T                                       22400002   12
+KEV        MB         MB                                          22400002   13
+  7.5       13.91       1.12                                      22400002   14
+ 12.0       12.25       1.07                                      22400002   15
+ 15.0       12.25       1.13                                      22400002   16
+ 18.0       12.36       1.19                                      22400002   17
+ 22.5       12.32       1.24                                      22400002   18
+ 30.0       11.64       1.25                                      22400002   19
+ 37.5       10.67       1.26                                      22400002   20
+ 45.0        9.70       1.30                                      22400002   21
+ 60.0        8.10       1.37                                      22400002   22
+ 75.0        6.91       1.38                                      22400002   23
+ENDDATA             12                                            22400002   24
+ENDSUBENT           23                                            2240000299999
+ENDENTRY             2                                            2240099999999
+ENDREQUEST           1                                            Z999999999999

@@ -1,0 +1,62 @@
+REQUEST           1001   20010914          3     141043               0  0    0
+ENTRY            21563     800612                                 21563000    1
+SUBENT        21563001     800612                                 21563001    1
+BIB                 12         31                                 21563001    2
+INSTITUTE  (2FR SAC)                                              21563001    3
+REFERENCE  (C,77PARIS,1,431,771219) IAEA-PUBL. 475.               21563001    4
+AUTHOR     (M.LUCAS,R.HAGEMANN,R.NAUDET,C.RENSON,C.CHEVALIER)     21563001    5
+TITLE      -DETERMINATION BY IRRADIATION IN THE TRITON REACTOR    21563001    6
+            OF NEUTRON CAPTURE CROSS SECTIONS FOR ISOTOPES        21563001    7
+            INVOLVED IN THE OKLO PHENOMENON.- (IN FRENCH WITH     21563001    8
+            ABSTRACT IN ENGLISH).-                                21563001    9
+FACILITY   (REAC,2FR SAC) SWIMMING POOL REACTOR TRITON AT         21563001   10
+            SACLAY, AT TEMPERATURE OF 40 DEG-C.                   21563001   11
+INC-SOURCE (REAC ) REACTOR NEUTRONS.                              21563001   12
+METHOD     (ACTIV) ACTIVATION ANALYSIS, USING                     21563001   13
+           (CHSEP) CHEMICAL SEPARATION AND                        21563001   14
+           (ASEP ) MASS SPECTROMETRY AFTER THERMOIONIZATION.      21563001   15
+            ALSO ISOTOPIC DILUTION TECHNIQUES USED.               21563001   16
+           .USING THE FORMULA SIGMA=SIGMA0*G+R*I,(WHERE R         21563001   17
+            IS THE SPECTRAL INDEX AND I THE 1/V-CORRECTED         21563001   18
+            RESONANCE INTEGRAL),AND THE RESULTS OF 2              21563001   19
+            MEASUREMENTS WITH DIFFERENT VALUES OF R, THE          21563001   20
+            QUANTITIES SIGMA0 AND I CAN BE OBTAINED. THE          21563001   21
+            G-FACTOR IS DETERMINED BY THE TEMPERATURE AND         21563001   22
+            THE SPECTRAL INDICES R ARE DETERMINED BY THE          21563001   23
+            ENVIRONMENT AND ARE CALCULATED WITH THE COMPUTER      21563001   24
+            CODES APOLLO AND BINOCLE. 4 DIFFERENT IRRADIATIONS    21563001   25
+            HAVE BEEN DONE.                                       21563001   26
+MONITOR   1(92-U-238(N,G)92-U-239,,SIG)                           21563001   27
+          2(92-U-238(N,G)92-U-239,,RI,,RNV) CUT OFF AT 0.5 EV.    21563001   28
+STATUS     .DATA FROM TEXT, 77PARIS,1,431.                        21563001   29
+HISTORY    (800602C) G.C.                                         21563001   30
+           (800612E)                                              21563001   31
+CORRECTION .RADIOACTIVE DECAY.                                    21563001   32
+ERR-ANALYS .DETERMINED BY THREE DIFFERENT MEASUREMENTS.           21563001   33
+ENDBIB              31                                            21563001   34
+COMMON               3          3                                 21563001   35
+EN-NRM     MONIT1     MONIT2                                      21563001   36
+EV         B          B                                           21563001   37
+ 2.5300E-02 2.7200E+00 2.8000E+02                                 21563001   38
+ENDCOMMON            3                                            21563001   39
+ENDSUBENT           38                                            2156300199999
+SUBENT        21563009     800612                                 21563009    1
+BIB                  4          8                                 21563009    2
+REACTION   (36-KR-82(N,G)36-KR-83-G,,SIG) 2200 M/SEC VALUE.       21563009    3
+SAMPLE     .SAMPLES IN FORM OF GAS AT 1 ATM. TOTAL                21563009    4
+            QUANTITY IRRADIATED 1.5 ML.                           21563009    5
+           .ISOTOPIC COMPOSITION GIVEN IN TABLE 7 OF              21563009    6
+            PUBLICATION.                                          21563009    7
+STATUS     .TEXT 77PARIS,1,431.                                   21563009    8
+HISTORY    (800502C) G.C.                                         21563009    9
+           (800612E)                                              21563009   10
+ENDBIB               8                                            21563009   11
+NOCOMMON             0          0                                 21563009   12
+DATA                 3          1                                 21563009   13
+EN         DATA       DATA-ERR                                    21563009   14
+EV         B          B                                           21563009   15
+ 2.5300E-02 1.8000E+01 4.0000E+00                                 21563009   16
+ENDDATA              3                                            21563009   17
+ENDSUBENT           16                                            2156300999999
+ENDENTRY             2                                            2156399999999
+ENDREQUEST           1                                            Z999999999999

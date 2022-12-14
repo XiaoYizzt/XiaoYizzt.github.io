@@ -1,0 +1,144 @@
+REQUEST           1001   20010914          3     140032               0  0    0
+ENTRY            10152   20001211   20010328                      10152000    1
+SUBENT        10152001   20001211   20010328                      10152001    1
+BIB                 12         25                                 10152001    2
+INSTITUTE  (1USALAS)                                              10152001    3
+REFERENCE  (J,PR/C,3,208,197101)                                  10152001    4
+AUTHOR     (D.F.BECKSTRAND,E.B.SHERA)                             10152001    5
+TITLE      40K(n,gamma)41K Reaction and the Level Structure of    10152001    6
+            41K                                                   10152001    7
+FACILITY   (REAC) Omega West Reactor.                             10152001    8
+INC-SOURCE (THCOL)                                                10152001    9
+SAMPLE     55.7 mg of potassium carbonate enriched to 30.3% 40K.  10152001   10
+            Natural potassium sample also used to study the       10152001   11
+            capture gammas from other isotopes.                   10152001   12
+DETECTOR   (GELI) Lithium drifted germanium detector surrounded by10152001   13
+            NaI annulus.                                          10152001   14
+MONITOR    Below 2 mev, detector efficiency and energy calibration10152001   15
+            determined from calibrated radioactive sources.       10152001   16
+           Above 2 mev, detector calibrated using 14N(n,gamma)    10152001   17
+            lines emitted from a melamine target.                 10152001   18
+CORRECTION Correction for the non-linearity of the electronic     10152001   19
+            system using a precision pulser. Digital gain         10152001   20
+            stabilization used to prevent electronic drifts.      10152001   21
+STATUS     (APRVD) Approved by author                             10152001   22
+           Data taken from reference.                             10152001   23
+HISTORY    (19720723C)                                            10152001   24
+           (19750702U) BIB changes.                               10152001   25
+           (19820527A) Converted to REACTION formalism            10152001   26
+           (20001211A) Converted to new date formats, lower case. 10152001   27
+ENDBIB              25                                            10152001   28
+NOCOMMON             0          0                                 10152001   29
+ENDSUBENT           28                                            1015200199999
+SUBENT        10152002   20001211   20010328                      10152002    1
+BIB                  3          3                                 10152002    2
+REACTION   (19-K-40(N,G)19-K-41,,SIG,,MXW)                        10152002    3
+ERR-ANALYS (DATA-ERR) No information on source of uncertainty.    10152002    4
+HISTORY    (19750702A) ISO-QUANT corrected                        10152002    5
+ENDBIB               3                                            10152002    6
+NOCOMMON             0          0                                 10152002    7
+DATA                 3          1                                 10152002    8
+EN-DUMMY   DATA       DATA-ERR                                    10152002    9
+EV         B          B                                           10152002   10
+0.0253     30.        8.                                          10152002   11
+ENDDATA              3                                            10152002   12
+ENDSUBENT           11                                            1015200299999
+ENDENTRY             2                                            1015299999999
+ENTRY            11507     860715                                 11507000    1
+SUBENT        11507001     860715                                 11507001    1
+BIB                 10         12                                 11507001    2
+INSTITUTE  (1USAORL)                                              11507001    3
+REFERENCE  (J,PR,88,412,52)                                       11507001    4
+AUTHOR     (H.POMERANCE)                                          11507001    5
+TITLE      THERMAL NEUTRON CAPTURE CROSS SECTIONS.                11507001    6
+FACILITY   (OSCIP) PILE OSCILLATOR                                11507001    7
+INC-SPECT  THERMAL SPECTRUM                                       11507001    8
+METHOD     (ACTIV).                                               11507001    9
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)                         11507001   10
+STATUS     (SCSRS)                                                11507001   11
+HISTORY    (760715T) TRANSLATED FROM SCISRS                       11507001   12
+           (821124A) CONVERTED TO REACTION FORMALISM              11507001   13
+           (860715A) ENERGY MOVED TO SUBENTRY 1.                  11507001   14
+ENDBIB              12                                            11507001   15
+COMMON               2          3                                 11507001   16
+EN-DUMMY   MONIT                                                  11507001   17
+EV         B                                                      11507001   18
+ 0.0253     95.                                                   11507001   19
+ENDCOMMON            3                                            11507001   20
+ENDSUBENT           19                                            1150700199999
+SUBENT        11507009     860715                                 11507009    1
+BIB                  1          1                                 11507009    2
+REACTION   (19-K-40(N,G)19-K-41,,SIG,,MXW)                        11507009    3
+ENDBIB               1                                            11507009    4
+NOCOMMON             0          0                                 11507009    5
+DATA                 2          1                                 11507009    6
+DATA       DATA-ERR                                               11507009    7
+B          PER-CENT                                               11507009    8
+ 6.6    +01   30.                                                 11507009    9
+ENDDATA              3                                            11507009   10
+ENDSUBENT            9                                            1150700999999
+ENDENTRY             2                                            1150799999999
+ENTRY            11603     830815                                 11603000    1
+SUBENT        11603001     830815                                 11603001    1
+BIB                  5          6                                 11603001    2
+INSTITUTE  (1USAORL)                                              11603001    3
+REFERENCE  (P,ORNL-4013,2,6609)                                   11603001    4
+AUTHOR     (J.H.GILLETTE)                                         11603001    5
+TITLE      THERMAL NEUTRON REACTIONS                              11603001    6
+HISTORY    (770607C)                                              11603001    7
+           (830815A) CONVERTED TO REACTION FORMALISM              11603001    8
+ENDBIB               6                                            11603001    9
+NOCOMMON             0          0                                 11603001   10
+ENDSUBENT            9                                            1160300199999
+SUBENT        11603003     830815                                 11603003    1
+BIB                  2          2                                 11603003    2
+REACTION   (19-K-40(N,G)19-K-41,,SIG,,MXW)                        11603003    3
+INC-SPECT  THERMAL SPECTRUM                                       11603003    4
+ENDBIB               2                                            11603003    5
+NOCOMMON             0          0                                 11603003    6
+DATA                 2          1                                 11603003    7
+EN-DUMMY   DATA-MAX                                               11603003    8
+EV         B                                                      11603003    9
+ 0.0253     70.                                                   11603003   10
+ENDDATA              3                                            11603003   11
+ENDSUBENT           10                                            1160300399999
+ENDENTRY             2                                            1160399999999
+ENTRY            21302     810205                                 21302000    1
+SUBENT        21302001     810205                                 21302001    1
+BIB                  9         14                                 21302001    2
+INSTITUTE  (2FR ILL) EXPERIMENTAL SITE AND M.A..                  21302001    3
+           (2FR LYO) INSTITUTE DE PHYSIQUE NUCLEAIRE, A.E..       21302001    4
+REFERENCE  (C,78BNL,549,780918) DATA.                             21302001    5
+AUTHOR     (M.ASGHAR,A.EMSALLEM)                                  21302001    6
+TITLE      -A SYSTEMATIC SEARCH FOR AND STUDY OF (N(TH),          21302001    7
+            GAMMA-ALPHA) AND (N(TH),GAMMA-P) REACTIONS-           21302001    8
+FACILITY   (REAC ) HIGH FLUX.                                     21302001    9
+INC-SOURCE (REAC )                                                21302001   10
+INC-SPECT  .THERMAL.                                              21302001   11
+STATUS     .DATA TAKEN FROM CONF.PROC..                           21302001   12
+HISTORY    (800117C) WWO.                                         21302001   13
+           (800129E)                                              21302001   14
+           (800507A) REACTION STRINGS CORRECTED.                  21302001   15
+           (800603E)                                              21302001   16
+ENDBIB              14                                            21302001   17
+COMMON               1          3                                 21302001   18
+EN-DUMMY                                                          21302001   19
+EV                                                                21302001   20
+ 2.5000E-02                                                       21302001   21
+ENDCOMMON            3                                            21302001   22
+ENDSUBENT           21                                            2130200199999
+SUBENT        21302010     800129                                 21302010    1
+BIB                  3          3                                 21302010    2
+REACTION   (19-K-40(N,G)19-K-41,,SIG,,MXW)                        21302010    3
+SAMPLE     .K-CL ENRICHED TO 82.8PC.                              21302010    4
+STATUS     .DATA TAKEN FROM CONF.PROC..                           21302010    5
+ENDBIB               3                                            21302010    6
+NOCOMMON             0          0                                 21302010    7
+DATA                 1          1                                 21302010    8
+DATA                                                              21302010    9
+B                                                                 21302010   10
+ 3.0000E+01                                                       21302010   11
+ENDDATA              3                                            21302010   12
+ENDSUBENT           11                                            2130201099999
+ENDENTRY             2                                            2130299999999
+ENDREQUEST           1                                            Z999999999999

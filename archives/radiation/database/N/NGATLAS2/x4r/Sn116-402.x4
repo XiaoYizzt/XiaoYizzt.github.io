@@ -1,0 +1,191 @@
+REQUEST           1001   20010914          3     141953               0  0    0
+ENTRY            11961     830802                                 11961000    1
+SUBENT        11961001     830802                                 11961001    1
+BIB                  9         10                                 11961001    2
+INSTITUTE  (1USAORL)                                              11961001    3
+REFERENCE  (R,ORNL-828,50)                                        11961001    4
+AUTHOR     (C.NELSON,B.KETELLE,G.BOYD)                            11961001    5
+TITLE      STUDIES ON THE NUCLEAR CHEMISTRY OF TIN.               11961001    6
+INC-SPECT  REACTOR SPECTRUM                                       11961001    7
+METHOD     (ACTIV) ACTIVATION                                     11961001    8
+MONITOR    (27-CO-59(N,G)27-CO-60,,SIG)                           11961001    9
+STATUS     (SCSRS)                                                11961001   10
+HISTORY    (760802T) TRANSLATED FROM SCISRS                       11961001   11
+           (830802A) CONVERTED TO REACTION FORMALISM              11961001   12
+ENDBIB              10                                            11961001   13
+COMMON               1          3                                 11961001   14
+DATA-ERR                                                          11961001   15
+PER-CENT                                                          11961001   16
+ 20.                                                              11961001   17
+ENDCOMMON            3                                            11961001   18
+ENDSUBENT           17                                            1196100199999
+SUBENT        11961005     830802                                 11961005    1
+BIB                  3          3                                 11961005    2
+REACTION   (50-SN-116(N,G)50-SN-117-M,,SIG,,SPA)                  11961005    3
+DECAY-DATA (50-SN-117-M,15.D)                                     11961005    4
+SAMPLE     SAMPLE ENRICHED TO 76.3 PERCENT SN-116.                11961005    5
+ENDBIB               3                                            11961005    6
+NOCOMMON             0          0                                 11961005    7
+DATA                 2          1                                 11961005    8
+EN-DUMMY   DATA                                                   11961005    9
+EV         B                                                      11961005   10
+ 0.0253     6.     -03                                            11961005   11
+ENDDATA              3                                            11961005   12
+ENDSUBENT           11                                            1196100599999
+ENDENTRY             2                                            1196199999999
+ENTRY            12866     851106                                 12866000    1
+SUBENT        12866001     851106                                 12866001    1
+BIB                 15         51                                 12866001    2
+INSTITUTE  (1USALRL)                                              12866001    3
+REFERENCE  (C,78MAYAG,,495,7805)                                  12866001    4
+AUTHOR     (R.E.HEFT)                                             12866001    5
+TITLE      A CONSISTENT SET OF NUCLEAR-PARAMETER VALUES           12866001    6
+           FOR ABSOLUTE INSTRUMENTAL NEUTRON ACTIVATION           12866001    7
+           ANALYSIS.                                              12866001    8
+FACILITY   (REAC) LAWRENCE LIVERMORE LABORATORY LPTR RESEARCH     12866001    9
+                  REACTOR FACILITY.                               12866001   10
+METHOD     (ACTIV)                                                12866001   11
+           EPITHERMAL-TO-THERMAL FLUX RATIO WAS MEASURED IN       12866001   12
+             EACH IRRADIATION BY INCLUDING A URANIUM-SCANDIUM     12866001   13
+             STANDARD IN THE IRRADIATION PACKAGE.                 12866001   14
+INC-SPECT  REACTOR SPECTRUM. ALL NUCLIDES IRRADIATED IN POSITION  12866001   15
+            S-2 WITH A CD RATIO OF 3.8 AND IN EITHER POSITION E-1 12866001   16
+            (CD RATIO 2.5) OR POSITION A-4 (CD RATIO 2.0)         12866001   17
+            DEPENDING ON WHETHER PRODUCTS WERE LONG OR SHORT-LIVED12866001   18
+MONITOR    ELEMENT SCANDIUM WAS USED AS AN INTERNAL FLUX MONITOR  12866001   19
+             SCANDIUM VALUES WERE MEASURED BY TAKING MIXTURES OF  12866001   20
+                                COBALT-SCANDIUM                   12866001   21
+                                GOLD-SCANDIUM                     12866001   22
+                                U238-SCANDIUM                     12866001   23
+           ((MONIT1)21-SC-45(N,G)21-SC-46,,SIG)                   12866001   24
+           ((MONIT2)27-CO-59(N,G)27-CO-60,,SIG)                   12866001   25
+           ((MONIT3)79-AU-197(N,G)79-AU-198,,SIG)                 12866001   26
+           ((MONIT4)92-U-238(N,G)92-U-239,,SIG)                   12866001   27
+           ((MONIT5)21-SC-45(N,G)21-SC-46,,RI)                    12866001   28
+           ((MONIT6)27-CO-59(N,G)27-CO-60,,RI)                    12866001   29
+           ((MONIT7)79-AU-197(N,G)79-AU-198,,RI)                  12866001   30
+           ((MONIT8)92-U-238(N,G)92-U-239,,RI)                    12866001   31
+DECAY-MON  (21-SC-46-G,83.9D,DG,1120.5,1.)                        12866001   32
+           (27-CO-60-G,1922.D,DG,1332.51,1.)                      12866001   33
+           (79-AU-198-G,2.70D,DG,411.79,0.968)                    12866001   34
+           (92-U-239,0.01635D,DG,74.67,.593)                      12866001   35
+           (93-NP-239,2.353D,DG,106.07,0.252)                     12866001   36
+DETECTOR   ALL COUNTING WAS DONE ON GAMMA SPECTRAL ANALYZERS      12866001   37
+             TO MEASURE ABSOLUTE PHOTON EMISSION RATES.           12866001   38
+ANALYSIS   ALL SPECTRA GENERATED WERE ANALYZED BY COMPUTER        12866001   39
+             CODE GAMANAL TO OBTAIN A SET OF ABSOLUTE             12866001   40
+             DISINTEGRATION RATES FOR THE NUCLIDES FOUND.         12866001   41
+           THE DISINTEGRATION-RATE DATA THUS OBTAINED WERE        12866001   42
+             FURTHER ANALYZED BY ANOTHER COMPUTER CODE NADAC      12866001   43
+             TO COMPUTE THE EFFECTIVE CROSS SECTION FOR           12866001   44
+             EACH ACTIVATION PRODUCT.                             12866001   45
+ERR-ANALYS DETAILS NOT GIVEN                                      12866001   46
+             FOR SOME ELEMENTS THE ERRORS REFLECT THE EFFECTS OF  12866001   47
+             CONCENTRATION ERROR OR EVAPORATION LOSS.             12866001   48
+CORRECTION NO CORRECTION FOR THE INTERFERENCE DUE TO (N,P)        12866001   49
+             REACTION WAS DONE.                                   12866001   50
+           CORRECTION DUE TO U-235 FISSION REACTION IS IMPLIED.   12866001   51
+STATUS     (APRVD) R.E.HEFT, 84/12/27.                            12866001   52
+HISTORY    (840410C)                                              12866001   53
+ENDBIB              51                                            12866001   54
+COMMON              10          6                                 12866001   55
+MONIT1     MONIT1-ERR MONIT2     MONIT3     MONIT4     MONIT5     12866001   56
+MONIT5-ERR MONIT6     MONIT7     MONIT8                           12866001   57
+B          B          B          B          B          B          12866001   58
+B          B          B          B                                12866001   59
+27.7       0.5        37.5       98.8       2.720      12.2       12866001   60
+0.6        75.        1550.      280.                             12866001   61
+ENDCOMMON            6                                            12866001   62
+ENDSUBENT           61                                            1286600199999
+SUBENT        12866102     841227                                 12866102    1
+BIB                  4          6                                 12866102    2
+REACTION   (50-SN-116(N,G)50-SN-117-M,,SIG,,SPA)                  12866102    3
+SAMPLE     NATURAL SAMPLE,ASSUMED 14.30 PERCENT ABUNDANCE.        12866102    4
+DECAY-DATA (50-SN-117-M,1.400E+01D,DG,158.56,0.650)               12866102    5
+COMMENT    SN-116 WITH LARGE RI/SIGMA PRODUCED EFFECTIVE SIGMA    12866102    6
+             VALUE THAT COULD BE FIT ONLY WITH A SMALL NEGATIVE   12866102    7
+             VALUE FOR SIGMA.                                     12866102    8
+ENDBIB               6                                            12866102    9
+NOCOMMON             0          0                                 12866102   10
+DATA                 3          1                                 12866102   11
+EN-DUMMY   DATA       DATA-ERR                                    12866102   12
+EV         B          B                                           12866102   13
+0.025      -0.015      0.001                                      12866102   14
+ENDDATA              3                                            12866102   15
+ENDSUBENT           14                                            1286610299999
+ENDENTRY             2                                            1286699999999
+ENTRY            41001     910815                                 41001000    1
+SUBENT        41001001     910815                                 41001001    1
+BIB                 13         15                                 41001001    2
+TITLE       NEUTRON RADIATION CAPTURE CROSS-SECTIONS FOR NUCLEI   41001001    3
+            OF MEDIUM AND LARGE MASSES AT THE NEUTRON ENERGY      41001001    4
+            1 MEV                                                 41001001    5
+AUTHOR     (YU.N.TROFIMOV)                                        41001001    6
+INSTITUTE  (4CCPRI )                                              41001001    7
+REFERENCE  (C,87KIEV,3,331,8709) DATA TABLE IS GIVEN              41001001    8
+FACILITY   (VDG)  VAN-DE-GRAAFF ACELERATOR                        41001001    9
+METHOD     (ACTIV) ACTIVATION                                     41001001   10
+DETECTOR   (GELI)  DETECTOR VOLUME IS 38 CM**3                    41001001   11
+MONITOR    ((MONIT1),79-AU-197(N,G)79-AU-198,,SIG)                41001001   12
+MONITOR    ((MONIT2),49-IN-115(N,G)49-IN-116-M,,SIG)              41001001   13
+MONITOR    ((MONIT3),49-IN-115(N,INL)49-IN-115,,SIG)              41001001   14
+ERR-ANALYS (DATA-ERR) ERROR IS NOT SPECIFIED                      41001001   15
+STATUS      DATA ARE TAKEN FROM THE REFERENCE                     41001001   16
+HISTORY    (891031C) COMPILED AT THE CENTRE - CJD                 41001001   17
+ENDBIB              15                                            41001001   18
+COMMON               6          3                                 41001001   19
+MONIT1     MONIT1-ERR MONIT2     MONIT2-ERR MONIT3     MONIT3-ERR 41001001   20
+MB         MB         MB         MB         MB         MB         41001001   21
+ 83.         6.         182.       19.        64.        6.       41001001   22
+ENDCOMMON            3                                            41001001   23
+ENDSUBENT           22                                            4100100199999
+SUBENT        41001013     891031                                 41001013    1
+BIB                  1          1                                 41001013    2
+REACTION   (50-SN-116(N,G)50-SN-117-M,,SIG)                       41001013    3
+ENDBIB               1                                            41001013    4
+NOCOMMON             0          0                                 41001013    5
+DATA                 3          1                                 41001013    6
+EN         DATA       DATA-ERR                                    41001013    7
+MEV        MB         MB                                          41001013    8
+  1.         4.1        0.6                                       41001013    9
+ENDDATA              3                                            41001013   10
+ENDSUBENT            9                                            4100101399999
+ENDENTRY             2                                            4100199999999
+ENTRY            41190     960415                                 41190000    1
+SUBENT        41190001     960415                                 41190001    1
+BIB                 11         13                                 41190001    2
+TITLE       ISOMER PRODUCTION CROSS-SECTIONS FOR TIN ISOTOPES     41190001    3
+            FOR NEUTRONS IN THE ENERGY RANGE 0.3 - 0.7 MEV        41190001    4
+AUTHOR     (V.A.TOLSTIKOV,A.N.DAVLETSHIN,E.V.TEPLOV,O.A.TIPUNKOV) 41190001    5
+INSTITUTE  (4RUSFEI)                                              41190001    6
+REFERENCE  (J,YK,1994,(4),46,9505)   DATA ARE GIVEN               41190001    7
+           (J,YK,1992,(1),41,92)   EXPERIMENTAL DETAILS           41190001    8
+METHOD     (ACTIV)  ACTIVATION                                    41190001    9
+DETECTOR   (GELI)                                                 41190001   10
+FACILITY   (VDG)  CASCADE ACCELERATOR KG-2,5                      41190001   11
+INC-SOURCE (P-T)                                                  41190001   12
+STATUS      DATA ARE TAKEN FROM THE REFERENCE                     41190001   13
+ERR-ANALYS (ERR-T)   TOTAL ERROR                                  41190001   14
+HISTORY    (960409C)  + + COMPILED AT THE CENTRE - CJD + +        41190001   15
+ENDBIB              13                                            41190001   16
+NOCOMMON             0          0                                 41190001   17
+ENDSUBENT           16                                            4119000199999
+SUBENT        41190003     960415                                 41190003    1
+BIB                  4          5                                 41190003    2
+REACTION   (50-SN-116(N,G)50-SN-117-M,,SIG)                       41190003    3
+SAMPLE      METALLIC DISK 2 CM DIAMETER, O.04 CM THICKNESS,       41190003    4
+            MASS NEAR 1 GRAMM, SN-116 CONTENT IS 97.6+-0.2 PC     41190003    5
+DECAY-DATA (50-SN-117-M,13.6D,DG,158.6)                           41190003    6
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)                         41190003    7
+ENDBIB               5                                            41190003    8
+NOCOMMON             0          0                                 41190003    9
+DATA                 6          3                                 41190003   10
+EN         EN-RSL     DATA       ERR-T      MONIT      MONIT-ERR  41190003   11
+KEV        KEV        MB         PER-CENT   MB         PER-CENT   41190003   12
+  411.5       49.5      3.46      3.          158.3      1.2      41190003   13
+  523.        47.       3.93      3.          126.7      1.3      41190003   14
+  683.5       46.       5.10      3.3          97.5      1.7      41190003   15
+ENDDATA              5                                            41190003   16
+ENDSUBENT           15                                            4119000399999
+ENDENTRY             2                                            4119099999999
+ENDREQUEST           1                                            Z999999999999

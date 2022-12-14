@@ -1,0 +1,107 @@
+REQUEST           1001   20010914          3     143152               0  0    0
+ENTRY            12138     821012                                 12138000    1
+SUBENT        12138001     821012                                 12138001    1
+BIB                  9         11                                 12138001    2
+INSTITUTE  (1USAANL,1USACHI)                                      12138001    3
+REFERENCE  (J,PR,75,1500,4905)                                    12138001    4
+AUTHOR     (R.J.HAYDEN,J.H.REYNOLDS,M.G.INGHRAM)                  12138001    5
+TITLE      REACTIONS INDUCED BY SLOW NEUTRON IRRADIATION OF       12138001    6
+           EUROPIUM.                                              12138001    7
+FACILITY   (SPECM) MASS SPECTROMETER                              12138001    8
+INC-SPECT  REACTOR SPECTRUM                                       12138001    9
+MONITOR    (63-EU-0(N,ABS),,SIG)                                  12138001   10
+STATUS     (SCSRS)                                                12138001   11
+HISTORY    (760803T) TRANSLATED FROM SCISRS                       12138001   12
+           (821012A) CONVERTED TO REACTION FORMALISM              12138001   13
+ENDBIB              11                                            12138001   14
+COMMON               1          3                                 12138001   15
+MONIT                                                             12138001   16
+B                                                                 12138001   17
+ 2600.                                                            12138001   18
+ENDCOMMON            3                                            12138001   19
+ENDSUBENT           18                                            1213800199999
+SUBENT        12138005     821012                                 12138005    1
+BIB                  1          1                                 12138005    2
+REACTION   (63-EU-154(N,G)63-EU-155,,SIG,,SPA)                    12138005    3
+ENDBIB               1                                            12138005    4
+NOCOMMON             0          0                                 12138005    5
+DATA                 2          1                                 12138005    6
+EN-DUMMY   DATA                                                   12138005    7
+EV         B                                                      12138005    8
+ 0.0253     880.                                                  12138005    9
+ENDDATA              3                                            12138005   10
+ENDSUBENT            9                                            1213800599999
+ENDENTRY             2                                            1213899999999
+ENTRY            21898     840710                                 21898000    1
+SUBENT        21898001     840710                                 21898001    1
+BIB                 13         16                                 21898001    2
+INSTITUTE  (2JPNJAE)                                              21898001    3
+REFERENCE  (P,NEANDC(J)-94,8309)                                  21898001    4
+AUTHOR     (T.SEKINE,S.ICHIKAWA,S.BABA)                           21898001    5
+TITLE      -SUCCESSIVE NEUTRON CAPTURE OF EU-153                  21898001    6
+FACILITY   (REAC,2JPNJAE)                                         21898001    7
+INC-SPECT  .THERMAL REACTOR SPECTRUM.                             21898001    8
+SAMPLE     .ENRICHMENT=99 PERCENT                                 21898001    9
+           .MASS=10 MICRO-GR                                      21898001   10
+           .IMPLANTED INTO AL-FOIL                                21898001   11
+METHOD     (ACTIV)                                                21898001   12
+DETECTOR   (GELI )                                                21898001   13
+PART-DET   (DG   )                                                21898001   14
+STATUS     .MAIN REFERENCE TABLE 1                                21898001   15
+HISTORY    (840705C)BL                                            21898001   16
+           (840710E)                                              21898001   17
+ERR-ANALYS .NO DETAILS GIVEN                                      21898001   18
+ENDBIB              16                                            21898001   19
+NOCOMMON             0          0                                 21898001   20
+ENDSUBENT           19                                            2189800199999
+SUBENT        21898002     840710                                 21898002    1
+BIB                  3          4                                 21898002    2
+REACTION   (63-EU-154(N,G)63-EU-155,,SIG,,MXW)                    21898002    3
+STATUS     .MAIN REFERENCE TABLE 1                                21898002    4
+HISTORY    (840705C)                                              21898002    5
+           (840710E)                                              21898002    6
+ENDBIB               4                                            21898002    7
+NOCOMMON             0          0                                 21898002    8
+DATA                 3          1                                 21898002    9
+EN-DUMMY   DATA       DATA-ERR                                    21898002   10
+EV         B          B                                           21898002   11
+ 2.5000E-02 1.8400E+03 9.0000E+01                                 21898002   12
+ENDDATA              3                                            21898002   13
+ENDSUBENT           12                                            2189800299999
+ENDENTRY             2                                            2189899999999
+ENTRY            40753     840618                                 40753000    1
+SUBENT        40753001     840618                                 40753001    1
+BIB                  9         16                                 40753001    2
+INSTITUTE  (4CCPIJI)                                              40753001    3
+REFERENCE  (J,YK,5/49,16,82)                                      40753001    4
+           (C,71KIEV,2,255,71) EXPERIMENTAL DETAILS               40753001    5
+AUTHOR     (V.P.VERTEBNYJ,P.N.VORONA,A.I.KAL'CHENKO,              40753001    6
+           V.G.KRIVENKO,V.A.PSHENICHNYJ)                          40753001    7
+TITLE       NEUTRON RESONANCES OF THE RADIOACTIVE NUCLIDES        40753001    8
+            EU-154 AND EU-155                                     40753001    9
+FACILITY   (REAC)                                                 40753001   10
+SAMPLE      EUROPIUM-OXIDE EU2-O3. FIRST SAMPLE = 242 MILLIGRAM   40753001   11
+            OF THE OXIDE PLUS 1.5244 GRAM AL, EU-153 CONTENT 99.7 40753001   12
+            PERCENT. SECOND SAMPLE = .3446 GRAM OF THE OXIDE PLUS 40753001   13
+            1.33586 GRAM AL, EU-153 CONTENT 99.1 PERCENT, EU-151  40753001   14
+            0.9 PERCENT                                           40753001   15
+METHOD     (TOF)  RESOLUTION IS 55 NSEC/M                         40753001   16
+ANALYSIS   (SHAPE) ON THE BASIS OF ONE-LEVEL BREIT-WIGNER FORMULA 40753001   17
+HISTORY    (840618C)                                              40753001   18
+ENDBIB              16                                            40753001   19
+NOCOMMON             0          0                                 40753001   20
+ENDSUBENT           19                                            4075300199999
+SUBENT        40753004     840618                                 40753004    1
+BIB                  2          2                                 40753004    2
+REFERENCE  (C,79KNOX,,881,7910)                                   40753004    3
+REACTION   (63-EU-154(N,G)63-EU-155,,SIG)                         40753004    4
+ENDBIB               2                                            40753004    5
+NOCOMMON             0          0                                 40753004    6
+DATA                 3          1                                 40753004    7
+EN         DATA       DATA-ERR                                    40753004    8
+EV         B          B                                           40753004    9
+ 2.5000E-02 1.2500E+03 1.6000E+02                                 40753004   10
+ENDDATA              3                                            40753004   11
+ENDSUBENT           10                                            4075300499999
+ENDENTRY             2                                            4075399999999
+ENDREQUEST           1                                            Z999999999999

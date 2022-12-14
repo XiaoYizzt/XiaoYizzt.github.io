@@ -1,0 +1,191 @@
+REQUEST           1001   20010914          3     140842               0  0    0
+ENTRY            11823     830919                                 11823000    1
+SUBENT        11823001     830919                                 11823001    1
+BIB                  7          9                                 11823001    2
+INSTITUTE  (1USABNL)                                              11823001    3
+REFERENCE  (J,PR,108,766,57)                                      11823001    4
+AUTHOR     (E.DER MATEOSIAN,M.GOLDHABER)                          11823001    5
+TITLE      THERMAL-NEUTRON ACTIVATION CROSS SECTIONS OF GE AND THE11823001    6
+           ISOMERIC RATIO RULE.                                   11823001    7
+METHOD     (ACTIV)                                                11823001    8
+STATUS     (SCSRS)                                                11823001    9
+HISTORY    (760731T) TRANSLATED FROM SCISRS                       11823001   10
+           (830919A) CONVERTED TO REACTION FORMALISM              11823001   11
+ENDBIB               9                                            11823001   12
+NOCOMMON             0          0                                 11823001   13
+ENDSUBENT           12                                            1182300199999
+SUBENT        11823005     830919                                 11823005    1
+BIB                  5          6                                 11823005    2
+REACTION   (32-GE-76(N,G)32-GE-77-G,,SIG,,MXW)                    11823005    3
+MONITOR    (13-AL-27(N,G)13-AL-28,,SIG)                           11823005    4
+            BASED ON ALUMINUM CAPTURE.                            11823005    5
+INC-SPECT   THERMAL SPECTRUM                                      11823005    6
+DECAY-DATA (32-GE-77-G,12.HR,B)                                   11823005    7
+DECAY-MON  (13-AL-28,2.3MIN,B)                                    11823005    8
+ENDBIB               6                                            11823005    9
+NOCOMMON             0          0                                 11823005   10
+DATA                 3          1                                 11823005   11
+EN-DUMMY   DATA       DATA-ERR                                    11823005   12
+MEV        B          B                                           11823005   13
+ 2.53   -08 7.6    -02 1.5    -02                                 11823005   14
+ENDDATA              3                                            11823005   15
+ENDSUBENT           14                                            1182300599999
+ENDENTRY             2                                            1182399999999
+ENTRY            12866     851106                                 12866000    1
+SUBENT        12866001     851106                                 12866001    1
+BIB                 15         51                                 12866001    2
+INSTITUTE  (1USALRL)                                              12866001    3
+REFERENCE  (C,78MAYAG,,495,7805)                                  12866001    4
+AUTHOR     (R.E.HEFT)                                             12866001    5
+TITLE      A CONSISTENT SET OF NUCLEAR-PARAMETER VALUES           12866001    6
+           FOR ABSOLUTE INSTRUMENTAL NEUTRON ACTIVATION           12866001    7
+           ANALYSIS.                                              12866001    8
+FACILITY   (REAC) LAWRENCE LIVERMORE LABORATORY LPTR RESEARCH     12866001    9
+                  REACTOR FACILITY.                               12866001   10
+METHOD     (ACTIV)                                                12866001   11
+           EPITHERMAL-TO-THERMAL FLUX RATIO WAS MEASURED IN       12866001   12
+             EACH IRRADIATION BY INCLUDING A URANIUM-SCANDIUM     12866001   13
+             STANDARD IN THE IRRADIATION PACKAGE.                 12866001   14
+INC-SPECT  REACTOR SPECTRUM. ALL NUCLIDES IRRADIATED IN POSITION  12866001   15
+            S-2 WITH A CD RATIO OF 3.8 AND IN EITHER POSITION E-1 12866001   16
+            (CD RATIO 2.5) OR POSITION A-4 (CD RATIO 2.0)         12866001   17
+            DEPENDING ON WHETHER PRODUCTS WERE LONG OR SHORT-LIVED12866001   18
+MONITOR    ELEMENT SCANDIUM WAS USED AS AN INTERNAL FLUX MONITOR  12866001   19
+             SCANDIUM VALUES WERE MEASURED BY TAKING MIXTURES OF  12866001   20
+                                COBALT-SCANDIUM                   12866001   21
+                                GOLD-SCANDIUM                     12866001   22
+                                U238-SCANDIUM                     12866001   23
+           ((MONIT1)21-SC-45(N,G)21-SC-46,,SIG)                   12866001   24
+           ((MONIT2)27-CO-59(N,G)27-CO-60,,SIG)                   12866001   25
+           ((MONIT3)79-AU-197(N,G)79-AU-198,,SIG)                 12866001   26
+           ((MONIT4)92-U-238(N,G)92-U-239,,SIG)                   12866001   27
+           ((MONIT5)21-SC-45(N,G)21-SC-46,,RI)                    12866001   28
+           ((MONIT6)27-CO-59(N,G)27-CO-60,,RI)                    12866001   29
+           ((MONIT7)79-AU-197(N,G)79-AU-198,,RI)                  12866001   30
+           ((MONIT8)92-U-238(N,G)92-U-239,,RI)                    12866001   31
+DECAY-MON  (21-SC-46-G,83.9D,DG,1120.5,1.)                        12866001   32
+           (27-CO-60-G,1922.D,DG,1332.51,1.)                      12866001   33
+           (79-AU-198-G,2.70D,DG,411.79,0.968)                    12866001   34
+           (92-U-239,0.01635D,DG,74.67,.593)                      12866001   35
+           (93-NP-239,2.353D,DG,106.07,0.252)                     12866001   36
+DETECTOR   ALL COUNTING WAS DONE ON GAMMA SPECTRAL ANALYZERS      12866001   37
+             TO MEASURE ABSOLUTE PHOTON EMISSION RATES.           12866001   38
+ANALYSIS   ALL SPECTRA GENERATED WERE ANALYZED BY COMPUTER        12866001   39
+             CODE GAMANAL TO OBTAIN A SET OF ABSOLUTE             12866001   40
+             DISINTEGRATION RATES FOR THE NUCLIDES FOUND.         12866001   41
+           THE DISINTEGRATION-RATE DATA THUS OBTAINED WERE        12866001   42
+             FURTHER ANALYZED BY ANOTHER COMPUTER CODE NADAC      12866001   43
+             TO COMPUTE THE EFFECTIVE CROSS SECTION FOR           12866001   44
+             EACH ACTIVATION PRODUCT.                             12866001   45
+ERR-ANALYS DETAILS NOT GIVEN                                      12866001   46
+             FOR SOME ELEMENTS THE ERRORS REFLECT THE EFFECTS OF  12866001   47
+             CONCENTRATION ERROR OR EVAPORATION LOSS.             12866001   48
+CORRECTION NO CORRECTION FOR THE INTERFERENCE DUE TO (N,P)        12866001   49
+             REACTION WAS DONE.                                   12866001   50
+           CORRECTION DUE TO U-235 FISSION REACTION IS IMPLIED.   12866001   51
+STATUS     (APRVD) R.E.HEFT, 84/12/27.                            12866001   52
+HISTORY    (840410C)                                              12866001   53
+ENDBIB              51                                            12866001   54
+COMMON              10          6                                 12866001   55
+MONIT1     MONIT1-ERR MONIT2     MONIT3     MONIT4     MONIT5     12866001   56
+MONIT5-ERR MONIT6     MONIT7     MONIT8                           12866001   57
+B          B          B          B          B          B          12866001   58
+B          B          B          B                                12866001   59
+27.7       0.5        37.5       98.8       2.720      12.2       12866001   60
+0.6        75.        1550.      280.                             12866001   61
+ENDCOMMON            6                                            12866001   62
+ENDSUBENT           61                                            1286600199999
+SUBENT        12866042     851106                                 12866042    1
+BIB                  5          8                                 12866042    2
+REACTION   (32-GE-76(N,G)32-GE-77-G,,SIG,,SPA)                    12866042    3
+SAMPLE     NATURAL SAMPLE,ASSUMED 7.76 PERCENT ABUNDANCE.         12866042    4
+DECAY-DATA (32-GE-77-G,4.710E-01D,DG,264.45,0.540)                12866042    5
+MONITOR    ((32-GE-76(N,G)32-GE-77,,RI)/                          12866042    6
+           (32-GE-76(N,G)32-GE-77,,SIG))                          12866042    7
+           RATIO WAS ADOPTED FROM RICABARRA,CAN.J.PHYS.,          12866042    8
+             50,1978,1972.                                        12866042    9
+HISTORY    (851106A) MONITOR CORRECTED.                           12866042   10
+ENDBIB               8                                            12866042   11
+NOCOMMON             0          0                                 12866042   12
+DATA                 3          1                                 12866042   13
+EN-DUMMY   DATA       DATA-ERR                                    12866042   14
+EV         B          B                                           12866042   15
+0.025      0.055      0.001                                       12866042   16
+ENDDATA              3                                            12866042   17
+ENDSUBENT           16                                            1286604299999
+ENDENTRY             2                                            1286699999999
+ENTRY            30086     850219                                 30086000    1
+SUBENT        30086001     850219                                 30086001    1
+BIB                 14         40                                 30086001    2
+INSTITUTE  (3INDMUA)                                              30086001    3
+REFERENCE  (J,NP/A,117,545,6809)                                  30086001    4
+           (J,PR,152,1055,6612)                                   30086001    5
+           (J,NP,66,267,65)                                       30086001    6
+AUTHOR     (A.K.CHAUBEY, M.L.SEHGAL)                              30086001    7
+TITLE      NEUTRON ACTIVATION CROSS SECTIONS AT 24 KEV            30086001    8
+EXP-YEAR   (68)                                                   30086001    9
+INC-SOURCE ANTIMONY-BERYLLIUM, 1.7CM DIAM.*3.3CM HEIGHT,          30086001   10
+           FLUX APPROXIMATELY 10E+7 NEUTRONS/SEC                  30086001   11
+SAMPLE     POWDER,PURITY BETTER THAN 99.9PERCENT,SAMPLE SANDWICHED30086001   12
+           BETWEEN 2 CELLOTAPES, PERSPEX RING FOR FIXED GEOMETRY  30086001   13
+METHOD     (ACTIV) BETA ACTIVITY MEASURED                         30086001   14
+DETECTOR   (GEMUC) END WINDOW BETA COUNTER                        30086001   15
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)                           30086001   16
+             I-127(N,GAMMA) CROSS-SECTION =0.82 BARNS             30086001   17
+           FROM R.L.MACKLIN ET AL.,PHYS.REV.107,PAGE 504(1957)    30086001   18
+PART-DET   (B-) BETA PARTICLES DETECTED                           30086001   19
+HISTORY    (691124C) DATA COMPILED FROM NUCL.PHS. VOL A117 (1968) 30086001   20
+           INTO DASTAR-1013                                       30086001   21
+           (691203A) PROOF COPY SENT TO AUTHOR                    30086001   22
+           (701207T) DATA CONVERTED FROM DASTAR-01013             30086001   23
+           (761001U)  TWO REFERENCES ADDED. HALF-LIVES REPLACED   30086001   24
+                      IN 'COMMON'. COMMENTS REVISED. YAG.         30086001   25
+CORRECTION ABSENCE OF THERMAL NEUTRONS DETERMINED, INFLUENCE OF   30086001   26
+           SCATTERED NEUTRONS OF LOWER THAN 24. KEV ENERGY        30086001   27
+           NEGLIGIBLE DUE TO GEOMETRY, I.E. LARGE ROOM, REMOTE    30086001   28
+           LOCATION OF NEUTRON SOURCE FROM THE FLOOR (=1.3 M)     30086001   29
+           AND NO SHIELDING MATERIAL AROUND THE SOURCE            30086001   30
+ERR-ANALYS (DATA-ERR) GIVEN ERROR CONSISTS OF                     30086001   31
+           1.) 1 PERCENT IN ESTIMATION OF TOTAL NUMBER OF TARGET  30086001   32
+               NUCLEI.                                            30086001   33
+           2.) 2 PERCENT IN MEASUREMENT OF SAMPLE-SOURCE GEOMETRY 30086001   34
+               EFFECT WHICH WILL DEPEND UPON REPRODUCIBILITY OF   30086001   35
+               THE GEOMETRY.                                      30086001   36
+           3.) IRRADIATION TIME MEASURED WITH AN ACCURACY OF      30086001   37
+               BETTER THAN 1 PERCENT.                             30086001   38
+           4.) ABOUT 2 PERCENT ERROR IN MEASUREMENT OF THE CROSS- 30086001   39
+               SECTIONS ESTIMATED TO BE DUE TO THE GAMMA-RAYS     30086001   40
+               DETECTED BY BETA-COUNTER.                          30086001   41
+           5.) STATISTICAL ERROR VARIES FROM ONE CASE TO ANOTHER  30086001   42
+ENDBIB              40                                            30086001   43
+COMMON               1          3                                 30086001   44
+EN                                                                30086001   45
+KEV                                                               30086001   46
+ 2.4000E+01                                                       30086001   47
+ENDCOMMON            3                                            30086001   48
+ENDSUBENT           47                                            3008600199999
+SUBENT        30086003     840503                                 30086003    1
+BIB                  2          9                                 30086003    2
+REACTION   (32-GE-76(N,G)32-GE-77-G,,SIG)                         30086003    3
+           PHYS.A117,PAGE 545 (1968).ENTRY 30087.003              30086003    4
+COMMENT    THIS EXPERIMENT IS A REPETITION OF MEASUREMENTS BY THE 30086003    5
+           SAME AUTHORS WITH THE SAME EXPERIMENTAL PROCEDURE BUT  30086003    6
+           TAKES INTO ACCOUNT 24 PERCENT DECAY BY ISOMERIC        30086003    7
+           TRANSITION OF THE METASTABLE STATE (H-LIFE = 59 SEC)   30086003    8
+           TO THE GROUND STATE (H-LIFE = 11.3 HR).                30086003    9
+           DATA SUPERSEDES DATA FOR SAME NUCLEUS IN PHYS.REV.152, 30086003   10
+           1055(1966) AND ENTRY 30079.011.                        30086003   11
+ENDBIB               9                                            30086003   12
+COMMON               1          3                                 30086003   13
+HL                                                                30086003   14
+HR                                                                30086003   15
+ 1.1300E+01                                                       30086003   16
+ENDCOMMON            3                                            30086003   17
+DATA                 2          1                                 30086003   18
+DATA       DATA-ERR                                               30086003   19
+MB         MB                                                     30086003   20
+ 1.0000E+01 3.0000E+00                                            30086003   21
+ENDDATA              3                                            30086003   22
+ENDSUBENT           21                                            3008600399999
+ENDENTRY             2                                            3008699999999
+ENDREQUEST           1                                            Z999999999999

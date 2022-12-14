@@ -1,0 +1,208 @@
+REQUEST           1001   20010914          3     144206               0  0    0
+ENTRY            10243     821018                                 10243000    1
+SUBENT        10243001     821018                                 10243001    1
+BIB                 14         22                                 10243001    2
+INSTITUTE  (1USAMTR)                                              10243001    3
+REFERENCE  (J,PR/C,4,2249,7112)                                   10243001    4
+AUTHOR     (R.C.GREENWOOD,C.W.REICH)                              10243001    5
+TITLE      ABSOLUTE CROSS SECTIONS FOR 2-KEV NEUTRON CAPTURE IN   10243001    6
+            204-PB AND 207-PB.                                    10243001    7
+FACILITY    REAC  2-KEV NEUTRON BEAM FACILITY OF THE MATERIALS    10243001    8
+            TESTING REATCOR.                                      10243001    9
+N-SOURCE   (REAC) BEAM FILTERED THROUGH SCANDIUM METAL.           10243001   10
+SAMPLE      SOLID  NATURAL LEAD METAL, THICKNESSES FROM 11.85 TO  10243001   11
+            20.87 G/CM**2. ISOTOPIC RATIOS OF PB-204/206/207/208  10243001   12
+            WERE 1.34/24.8/21.2/52.7 WT.PERCENT.                  10243001   13
+METHOD     (ASSOP) PRIMARY CAPTURE GAMMA RAY LINES FROM PB-204 AND10243001   14
+            PB-207 WERE OBSERVED.                                 10243001   15
+DETECTOR   (GELI) A 5-CUBIC CM. GE(LI) DETECTOR WAS USED.         10243001   16
+MONITOR    (5-B-10(N,A)3-LI-7,,SIG)                               10243001   17
+ANALYSIS   CROSS SECTIONS INFERRED FROM GAMMA RAY INTENSITIES     10243001   18
+            AND FLUX MEASUREMENTS USING B-10 AS MONITOR           10243001   19
+ERR-ANALYS NO INFORMATION                                         10243001   20
+STATUS     (APRVD) APPROVED BY AUTHOR.                            10243001   21
+HISTORY    (720515C)                                              10243001   22
+           (751118A) UPDATED SAN/4.                               10243001   23
+           (821018A) CONVERTED TO REACTION FORMALISM              10243001   24
+ENDBIB              22                                            10243001   25
+COMMON               3          3                                 10243001   26
+EN         EN-RSL     MONIT                                       10243001   27
+KEV        KEV        B                                           10243001   28
+1.95        .7         13.55                                      10243001   29
+ENDCOMMON            3                                            10243001   30
+ENDSUBENT           29                                            1024300199999
+SUBENT        10243003     821018                                 10243003    1
+BIB                  1          1                                 10243003    2
+REACTION   (82-PB-204(N,G)82-PB-205,,SIG)                         10243003    3
+ENDBIB               1                                            10243003    4
+NOCOMMON             0          0                                 10243003    5
+DATA                 2          1                                 10243003    6
+DATA       DATA-ERR                                               10243003    7
+B          B                                                      10243003    8
+1.8        .5                                                     10243003    9
+ENDDATA              3                                            10243003   10
+ENDSUBENT            9                                            1024300399999
+ENDENTRY             2                                            1024399999999
+ENTRY            11507     860715                                 11507000    1
+SUBENT        11507001     860715                                 11507001    1
+BIB                 10         12                                 11507001    2
+INSTITUTE  (1USAORL)                                              11507001    3
+REFERENCE  (J,PR,88,412,52)                                       11507001    4
+AUTHOR     (H.POMERANCE)                                          11507001    5
+TITLE      THERMAL NEUTRON CAPTURE CROSS SECTIONS.                11507001    6
+FACILITY   (OSCIP) PILE OSCILLATOR                                11507001    7
+INC-SPECT  THERMAL SPECTRUM                                       11507001    8
+METHOD     (ACTIV).                                               11507001    9
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)                         11507001   10
+STATUS     (SCSRS)                                                11507001   11
+HISTORY    (760715T) TRANSLATED FROM SCISRS                       11507001   12
+           (821124A) CONVERTED TO REACTION FORMALISM              11507001   13
+           (860715A) ENERGY MOVED TO SUBENTRY 1.                  11507001   14
+ENDBIB              12                                            11507001   15
+COMMON               2          3                                 11507001   16
+EN-DUMMY   MONIT                                                  11507001   17
+EV         B                                                      11507001   18
+ 0.0253     95.                                                   11507001   19
+ENDCOMMON            3                                            11507001   20
+ENDSUBENT           19                                            1150700199999
+SUBENT        11507099     860715                                 11507099    1
+BIB                  1          1                                 11507099    2
+REACTION   (82-PB-204(N,G)82-PB-205,,SIG,,MXW)                    11507099    3
+ENDBIB               1                                            11507099    4
+NOCOMMON             0          0                                 11507099    5
+DATA                 2          1                                 11507099    6
+DATA       DATA-ERR                                               11507099    7
+B          PER-CENT                                               11507099    8
+ 9.     -01   70.                                                 11507099    9
+ENDDATA              3                                            11507099   10
+ENDSUBENT            9                                            1150709999999
+ENDENTRY             2                                            1150799999999
+ENTRY            11679     860715                                 11679000    1
+SUBENT        11679001     860715                                 11679001    1
+BIB                 10         15                                 11679001    2
+INSTITUTE  (1USAORL)                                              11679001    3
+REFERENCE  (J,PR,159,1007,67)                                     11679001    4
+AUTHOR     (R.L.MACKLIN,J.H.GIBBONS)                              11679001    5
+TITLE      CAPTURE-CROSS-SECTION STUDIES FOR 30-220-KEV NEUTRONS  11679001    6
+           USING A NEW TECHNIQUE.                                 11679001    7
+INC-SOURCE (P-LI7) LI-7(P,N) SOURCE                               11679001    8
+DETECTOR   (SCIN) LIQUID SCINTILLATION COUNTER                    11679001    9
+MONITOR    (73-TA-0(N,G),,SIG)                                    11679001   10
+            BASED ON TA (N,GAMMA) = 810 * (EN**-0.697) MB.        11679001   11
+ERR-ANALYS (DATA-ERR) STANDARD DEVIATION. INCLUDES UNCERTAINTY IN 11679001   12
+            STANDARD CROSS SECTION.                               11679001   13
+STATUS     (SCSRS)                                                11679001   14
+HISTORY    (760730T) TRANSLATED FROM SCISRS                       11679001   15
+           (831011A) CONVERTED TO REACTION FORMALISM              11679001   16
+           (860715A) BIB, DATA HEADING UPDATE.                    11679001   17
+ENDBIB              15                                            11679001   18
+NOCOMMON             0          0                                 11679001   19
+ENDSUBENT           18                                            1167900199999
+SUBENT        11679024     860715                                 11679024    1
+BIB                  1          1                                 11679024    2
+REACTION   (82-PB-204(N,G)82-PB-205,,SIG)                         11679024    3
+ENDBIB               1                                            11679024    4
+NOCOMMON             0          0                                 11679024    5
+DATA                 4          5                                 11679024    6
+EN         EN-RSL-FW  DATA       DATA-ERR                         11679024    7
+MEV        MEV        B          B                                11679024    8
+ 3.0    -02 1.0    -02 4.26   -02 5.4    -03                      11679024    9
+ 5.0    -02 1.0    -02 3.19   -02 3.3    -03                      11679024   10
+ 8.5    -02 1.7    -02 3.56   -02 4.0    -03                      11679024   11
+ 1.04   -01 1.5    -02 2.76   -02 3.7    -03                      11679024   12
+ 1.57   -01 2.1    -02 2.54   -02 6.4    -03                      11679024   13
+ENDDATA              7                                            11679024   14
+ENDSUBENT           13                                            1167902499999
+ENDENTRY             2                                            1167999999999
+ENTRY            12210     821012                                 12210000    1
+SUBENT        12210001     821012                                 12210001    1
+BIB                  6          7                                 12210001    2
+INSTITUTE  (1USAANL)                                              12210001    3
+REFERENCE  (J,PR,111,590,58)                                      12210001    4
+AUTHOR     (J.WING,C.STEVENS,J.HUIZENGA)                          12210001    5
+TITLE      RADIOACTIVITY OF LEAD-205.                             12210001    6
+STATUS     (SCSRS)                                                12210001    7
+HISTORY    (760803T) TRANSLATED FROM SCISRS                       12210001    8
+           (821012A) CONVERTED TO REACTION FORMALISM              12210001    9
+ENDBIB               7                                            12210001   10
+NOCOMMON             0          0                                 12210001   11
+ENDSUBENT           10                                            1221000199999
+SUBENT        12210002     821012                                 12210002    1
+BIB                  2          2                                 12210002    2
+REACTION   (82-PB-204(N,G)82-PB-205,,SIG,,SPA)                    12210002    3
+FACILITY   (SPECM) MASS SPECTROMETER                              12210002    4
+ENDBIB               2                                            12210002    5
+NOCOMMON             0          0                                 12210002    6
+DATA                 3          1                                 12210002    7
+EN-DUMMY   DATA       DATA-ERR                                    12210002    8
+EV         MB         MB                                          12210002    9
+ 0.0253     700.       20.                                        12210002   10
+ENDDATA              3                                            12210002   11
+ENDSUBENT           10                                            1221000299999
+ENDENTRY             2                                            1221099999999
+ENTRY            12237     840821                                 12237000    1
+SUBENT        12237001     840821                                 12237001    1
+BIB                  6          7                                 12237001    2
+INSTITUTE  (1USALAS,1USAISU)                                      12237001    3
+REFERENCE  (J,NP/A,94,351,6703)                                   12237001    4
+AUTHOR     (E.T.JURNEY,H.T.MOTZ,S.H.VEGORS JR)                    12237001    5
+TITLE      GAMMA-RAY SPECTRUM FROM PB-204(N,GAMMA)PB-205.         12237001    6
+STATUS     (SCSRS)                                                12237001    7
+HISTORY    (760803T) TRANSLATED FROM SCISRS                       12237001    8
+           (840821A) CONVERTED TO REACTION FORMALISM              12237001    9
+ENDBIB               7                                            12237001   10
+NOCOMMON             0          0                                 12237001   11
+ENDSUBENT           10                                            1223700199999
+SUBENT        12237002     840821                                 12237002    1
+BIB                  3          3                                 12237002    2
+REACTION   (82-PB-204(N,G)82-PB-205,,SIG,,MXW)                    12237002    3
+INC-SPECT   THERMAL SPECTRUM                                      12237002    4
+MONITOR    (7-N-14(N,G)7-N-15,,SIG)                               12237002    5
+ENDBIB               3                                            12237002    6
+NOCOMMON             0          0                                 12237002    7
+DATA                 4          1                                 12237002    8
+EN-DUMMY   DATA       DATA-ERR   MONIT                            12237002    9
+MEV        MB         MB         MB                               12237002   10
+ 2.53   -08 661.       70.        75.                             12237002   11
+ENDDATA              3                                            12237002   12
+ENDSUBENT           11                                            1223700299999
+ENDENTRY             2                                            1223799999999
+ENTRY            12758   20000726   20010328                      12758000    1
+SUBENT        12758001   20000726   20010328                      12758001    1
+BIB                 10         17                                 12758001    2
+INSTITUTE  (1USAORL)                                              12758001    3
+REFERENCE  (J,PR/C,29,2126,198406)                                12758001    4
+AUTHOR     (D.J.HOREN,R.L.MACKLIN,J.A.HARVEY,N.W.HILL)            12758001    5
+TITLE      Measurements of the neutron transmission and capture   12758001    6
+            cross sections in 204Pb                               12758001    7
+FACILITY   (LINAC) Oak Ridge Electron Linear Accelerator          12758001    8
+INC-SOURCE 10B filter used.                                       12758001    9
+SAMPLE     Sample enriched to 71.4% 204Pb. Sample thickness       12758001   10
+             0.0629 atoms/b (1/n = 15.9 b/atom).                  12758001   11
+           Transmission measured on natural sample and on sample  12758001   12
+            enriched to 88.4% 206Pb to compensate for non-204Pb   12758001   13
+            content of target sample.                             12758001   14
+METHOD     (TOF) 79.46-m flight path                              12758001   15
+STATUS     (APRVD) Approved by D. Wiarda, 26 July 2000.           12758001   16
+HISTORY    (19821025C)                                            12758001   17
+           (19840806A) Reference and BIB update.                  12758001   18
+           (20000721A) Updated to new date formats, lower case.   12758001   19
+ENDBIB              17                                            12758001   20
+NOCOMMON             0          0                                 12758001   21
+ENDSUBENT           20                                            1275800199999
+SUBENT        12758006   20000721   20010328                      12758006    1
+BIB                  3          4                                 12758006    2
+REACTION   (82-PB-204(N,G)82-PB-205,,SIG,,MXW)                    12758006    3
+            Stellar temperature.                                  12758006    4
+ERR-ANALYS (DATA-ERR) No information on source of uncertainty.    12758006    5
+HISTORY    (19840716C)                                            12758006    6
+ENDBIB               4                                            12758006    7
+NOCOMMON             0          0                                 12758006    8
+DATA                 3          1                                 12758006    9
+EN-MEAN    DATA       DATA-ERR                                    12758006   10
+KEV        B          B                                           12758006   11
+ 30.        89.5        4.5                                       12758006   12
+ENDDATA              3                                            12758006   13
+ENDSUBENT           12                                            1275800699999
+ENDENTRY             2                                            1275899999999
+ENDREQUEST           1                                            Z999999999999

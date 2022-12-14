@@ -1,0 +1,37 @@
+REQUEST           1001   20010914          3     141653               0  0    0
+ENTRY            12612     830808                                 12612000    1
+SUBENT        12612001     830808                                 12612001    1
+BIB                 11         16                                 12612001    2
+INSTITUTE  (1USAMHG)                                              12612001    3
+REFERENCE  (J,PR,90,140,5305)                                     12612001    4
+AUTHOR     (W.MEINKE)                                             12612001    5
+TITLE      HALF-LIFE OF PD-109 AND NEUTRON ACTIVATION CROSS       12612001    6
+            SECTION OF PD-102                                     12612001    7
+N-SOURCE   (REAC) CHALK RIVER NRX REACTOR                         12612001    8
+INC-SPECT  PILE SPECTRUM                                          12612001    9
+METHOD     (ACTIV) ACTIVATION                                     12612001   10
+DETECTOR   (GEMUC) CHLORINE-QUENCHED ARGON-FILLED GEIGER-MULLER   12612001   11
+            TUBE.                                                 12612001   12
+DECAY-DATA (47-AG-111-G,7.6D)                                     12612001   13
+           (46-PD-103,17.D)                                       12612001   14
+           (46-PD-109-G,13.6HR)                                   12612001   15
+ERR-ANALYS ERROR BASED ON 20 PERCENT ERROR OF PD-108 CROSS SECTION12612001   16
+HISTORY    (780502C)                                              12612001   17
+           (820827U) DECAY DATA CORRECTED.                        12612001   18
+ENDBIB              16                                            12612001   19
+NOCOMMON             0          0                                 12612001   20
+ENDSUBENT           19                                            1261200199999
+SUBENT        12612002     780525                                 12612002    1
+BIB                  2          2                                 12612002    2
+REACTION   (46-PD-102(N,G)46-PD-103,,SIG,,SPA)                    12612002    3
+MONITOR    (46-PD-108(N,G)46-PD-109,,SIG,,SPA)                    12612002    4
+ENDBIB               2                                            12612002    5
+NOCOMMON                                                          12612002    6
+DATA                 4          1                                 12612002    7
+EN-DUMMY   DATA       MONIT      MONIT-ERR                        12612002    8
+EV         B          B          B                                12612002    9
+0.0253     4.8        11.7       2.3                              12612002   10
+ENDDATA              3                                            12612002   11
+ENDSUBENT           10                                            1261200299999
+ENDENTRY             2                                            1261299999999
+ENDREQUEST           1                                            Z999999999999

@@ -1,0 +1,263 @@
+REQUEST           1001   20010914          3     141206               0  0    0
+ENTRY            11679     860715                                 11679000    1
+SUBENT        11679001     860715                                 11679001    1
+BIB                 10         15                                 11679001    2
+INSTITUTE  (1USAORL)                                              11679001    3
+REFERENCE  (J,PR,159,1007,67)                                     11679001    4
+AUTHOR     (R.L.MACKLIN,J.H.GIBBONS)                              11679001    5
+TITLE      CAPTURE-CROSS-SECTION STUDIES FOR 30-220-KEV NEUTRONS  11679001    6
+           USING A NEW TECHNIQUE.                                 11679001    7
+INC-SOURCE (P-LI7) LI-7(P,N) SOURCE                               11679001    8
+DETECTOR   (SCIN) LIQUID SCINTILLATION COUNTER                    11679001    9
+MONITOR    (73-TA-0(N,G),,SIG)                                    11679001   10
+            BASED ON TA (N,GAMMA) = 810 * (EN**-0.697) MB.        11679001   11
+ERR-ANALYS (DATA-ERR) STANDARD DEVIATION. INCLUDES UNCERTAINTY IN 11679001   12
+            STANDARD CROSS SECTION.                               11679001   13
+STATUS     (SCSRS)                                                11679001   14
+HISTORY    (760730T) TRANSLATED FROM SCISRS                       11679001   15
+           (831011A) CONVERTED TO REACTION FORMALISM              11679001   16
+           (860715A) BIB, DATA HEADING UPDATE.                    11679001   17
+ENDBIB              15                                            11679001   18
+NOCOMMON             0          0                                 11679001   19
+ENDSUBENT           18                                            1167900199999
+SUBENT        11679006     860715                                 11679006    1
+BIB                  1          1                                 11679006    2
+REACTION   (38-SR-87(N,G)38-SR-88,,SIG)                           11679006    3
+ENDBIB               1                                            11679006    4
+NOCOMMON             0          0                                 11679006    5
+DATA                 4          3                                 11679006    6
+EN         EN-RSL-FW  DATA       DATA-ERR                         11679006    7
+MEV        MEV        B          B                                11679006    8
+ 3.0    -02 1.0    -02 1.087  -01 8.9    -03                      11679006    9
+ 6.5    -02 2.0    -02 5.60   -02 4.5    -03                      11679006   10
+ 1.25   -01 2.3    -02 3.76   -02 2.9    -03                      11679006   11
+ENDDATA              5                                            11679006   12
+ENDSUBENT           11                                            1167900699999
+ENDENTRY             2                                            1167999999999
+ENTRY            13634     961204                                 13634000    1
+SUBENT        13634001     961204                                 13634001    1
+BIB                 13         27                                 13634001    2
+INSTITUTE  (1USALRL)                                              13634001    3
+REFERENCE  (J,PR/C,43,2004,9104)                                  13634001    4
+AUTHOR     (R.W.BAUER,G.BAZAN,J.A.BECKER,R.E.HOWE,G.J.MATHEWS)    13634001    5
+TITLE      Neutron capture cross sections of 86Sr and 87Sr from   13634001    6
+            100 eV to 1 MeV, the conditions for the astrophysical 13634001    7
+            s process, and the 87Rb-87Sr cosmochronometer         13634001    8
+FACILITY   (LINAC)                                                13634001    9
+INC-SOURCE (EVAP) Electrons on water-cooled tantalum target.      13634001   10
+METHOD     (GSPEC)                                                13634001   11
+DETECTOR   (SCIN) Pair of 1-liter deuterated benzene (C6D6) liquid13634001   12
+            scintillators.                                        13634001   13
+           (GLASD) Neutron flux and spectrum measured using 6Li   13634001   14
+            glass scintillator.                                   13634001   15
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG) Taken from Bao and      13634001   16
+            Kaeppeler,At.Data and Nucl.Data Tables 36, 411 (1987).13634001   17
+CORRECTION Corrected for                                          13634001   18
+           .background,                                           13634001   19
+           .multiple scattering and self-absorption,              13634001   20
+           .neutron capture in sample container,                  13634001   21
+           .gamma absorption in sample,                           13634001   22
+           .neutrons scattered from target                        13634001   23
+ERR-ANALYS (DATA-ERR) Data uncertainties given include statistical13634001   24
+            and systematic uncertainties.                         13634001   25
+STATUS     Data taken from article.                               13634001   26
+           Unable to obtain pointwise data from author.           13634001   27
+           No reply to author proof.                              13634001   28
+HISTORY    (961023C)                                              13634001   29
+ENDBIB              27                                            13634001   30
+NOCOMMON             0          0                                 13634001   31
+ENDSUBENT           30                                            1363400199999
+SUBENT        13634003     961023                                 13634003    1
+BIB                  2          2                                 13634003    2
+REACTION   (38-SR-87(N,G)38-SR-88,,SIG,,SPA)                      13634003    3
+SAMPLE     Metallic powder sample enriched to 87.75% in 87Sr.     13634003    4
+ENDBIB               2                                            13634003    5
+NOCOMMON             0          0                                 13634003    6
+DATA                 3          6                                 13634003    7
+KT         DATA       DATA-ERR                                    13634003    8
+KEV        MB         MB                                          13634003    9
+ 10.       197.        8.                                         13634003   10
+ 20.       128.        6.                                         13634003   11
+ 30.        97.        5.                                         13634003   12
+ 40.        79.        4.                                         13634003   13
+ 50.        68.        4.                                         13634003   14
+100.        40.        3.                                         13634003   15
+ENDDATA              8                                            13634003   16
+ENDSUBENT           15                                            1363400399999
+ENDENTRY             2                                            1363499999999
+ENTRY            22037     881229                                 22037000    1
+SUBENT        22037001     881229                                 22037001    1
+BIB                  8         15                                 22037001    2
+REFERENCE  (R,KFK-3706,8404) MAIN REF.                            22037001    3
+           (J,NSE,93,(4),357,8608)                                22037001    4
+           (J,AAA,142,268,85)                                     22037001    5
+TITLE      -TEMPERATUR UND NEUTRONENDICHTE DER SCHWACHEN          22037001    6
+            KOMPONENTE DES S-PROZESSES.                           22037001    7
+AUTHOR     (G.WALTER)                                             22037001    8
+INSTITUTE  (2GERKFK)                                              22037001    9
+FACILITY   (VDG,2GERKFK) KARLSRUHE 3.75 MV VAN DE GRAAFF          22037001   10
+            ACCELERATOR.                                          22037001   11
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG) FROM ENDF/B-V.          22037001   12
+STATUS     .DATA WERE TAKEN FROM MAIN REF.                        22037001   13
+HISTORY    (861127C)  NO.                                         22037001   14
+           (870827E)                                              22037001   15
+           (880129U) IF.                                          22037001   16
+           (880129E)                                              22037001   17
+ENDBIB              15                                            22037001   18
+NOCOMMON             0          0                                 22037001   19
+ENDSUBENT           18                                            2203700199999
+SUBENT        22037015     881229                                 22037015    1
+BIB                 10         54                                 22037015    2
+REACTION   (38-SR-87(N,G)38-SR-88,,SIG,,MXW) MAXWELLIAN AVERAGE   22037015    3
+            CAPTURE CROSS SECTION.                                22037015    4
+METHOD     (TOF  ) TIME-OF-FLIGHT TECHNIQUES.                     22037015    5
+INC-SOURCE (P-LI7) PRINCIPAL PARAMETERS OF THE NEUTRON SOURCE     22037015    6
+            AND THE ACCELERATOR,                                  22037015    7
+               .E(P)= 1.9 - 2.0 MEV                               22037015    8
+               .BEAM CURRENT= 4 MICRO-A AT 0.5 MHZ                22037015    9
+               .PULSE WIDTH LT 1 NANO-SEC                         22037015   10
+               .TIME RESOLUTION=ABOUT 1 NANO-SEC                  22037015   11
+               .FLIGHT PATH = 60.5 CM                             22037015   12
+               .ENERGY RESOLUTION=ABOUT 0.2-0.5 KEV AT 30 KEV     22037015   13
+              -FOR THE METALLIC LI TARGET                         22037015   14
+               .THICKNESS=3 MICRO-M                               22037015   15
+               .DIAMETER=6 MM                                     22037015   16
+               .SUPPORT TA (THICKNESS=0.3 MM) WATER-COOLED.       22037015   17
+INC-SPECT  .A WHITE NEUTRON SPECTRUM FROM 4 TO 200 KEV WAS USED.  22037015   18
+DETECTOR   (SCIN ) 2 C6D6 SCINTILLATORS, PLACED AT AN ANGLE OF    22037015   19
+            90 DEG WITH RESPECT TO THE NEUTRON BEAM IN AN         22037015   20
+            EFFICIENT SHIELDING.                                  22037015   21
+SAMPLE     .THE SAMPLES WERE PLACED AT A DISTANCE OF 60.5 CM      22037015   22
+            FROM THE NEUTRON TARGET.                              22037015   23
+           .THE SR SAMPLES WERE PRESSED FROM SRCO3 POWDER TO      22037015   24
+            DISCS OF 25 MM DIAMETER BY 3 MM THICK, AND CANNED     22037015   25
+            IN 9 MICRO-M AL-FOIL.                                 22037015   26
+           .ISOTOPIC COMPOSITION                                  22037015   27
+               SAMPLE      ISOTOPE     ENRICHMENT(IN PERCENT)     22037015   28
+               SR-87        SR-87           84.88                 22037015   29
+                            SR-84            0.02                 22037015   30
+                            SR-86            1.26                 22037015   31
+                            SR-88           13.84                 22037015   32
+CORRECTION .CORRECTIONS WERE APPLIED FOR NEUTRON MULTIPLE         22037015   33
+            SCATTERING AND SELF-SHIELDING AND FOR GAMMA-RAY       22037015   34
+            SELF-ABSORPTION IN THE SAMPLES. CORRECTIONS WERE      22037015   35
+            ALSO APPLIED FOR PILE-UP EVENTS AND FOR THE LOST      22037015   36
+            FRACTION OF LOW ENERGY GAMMA-RAYS WHICH WERE CUT      22037015   37
+            OFF BY THE ELECTRONIC PULSE-HEIGHT THRESHOLD.         22037015   38
+ERR-ANALYS (ERR-T) TOTAL ERRORS, COMPOSED OF                      22037015   39
+            * ERROR IN AU STANDARD                  4   PER CENT  22037015   40
+            * WEIGHTING FUNCTION                    2   PER CENT  22037015   41
+            * SAMPLE MASS                         0.1   PER CENT  22037015   42
+            * LOWER ELECTRONIC                                    22037015   43
+              THRESHOLD CORRECTION                0.5   PER CENT  22037015   44
+            * PILE-UP CORRECTION                    2   PER CENT  22037015   45
+            * NEUTRON MULTIPLE SCATTERING           4   PER CENT  22037015   46
+            * SELF-ABSORPTION CORRECTION            1   PER CENT  22037015   47
+            * ISOTOPIC IMPURITIES                 1.5   PER CENT  22037015   48
+            * TIME DEPENDENT BACKGROUND           1.7   PER CENT  22037015   49
+            * STATISTICS                          1.6   PER CENT  22037015   50
+                            TOTAL         ABOUT   7.0   PER CENT  22037015   51
+STATUS     .DATA TAKEN FROM MAIN REF.                             22037015   52
+HISTORY    (861127C)  NO.                                         22037015   53
+           (870827E)                                              22037015   54
+           (880129U) IF.                                          22037015   55
+           (880129E)                                              22037015   56
+ENDBIB              54                                            22037015   57
+NOCOMMON             0          0                                 22037015   58
+DATA                 3          4                                 22037015   59
+KT         DATA       ERR-T                                       22037015   60
+KEV        MB         MB                                          22037015   61
+ 2.0000E+01 1.3500E+02 1.0000E+01                                 22037015   62
+ 3.0000E+01 1.0000E+02 7.0000E+00                                 22037015   63
+ 4.0000E+01 8.2000E+01 6.0000E+00                                 22037015   64
+ 5.0000E+01 7.1000E+01 5.0000E+00                                 22037015   65
+ENDDATA              6                                            22037015   66
+ENDSUBENT           65                                            2203701599999
+ENDENTRY             3                                            2203799999999
+ENTRY            30487     930426                                 30487000    1
+SUBENT        30487001     930426                                 30487001    1
+BIB                 14         34                                 30487001    2
+TITLE      -RADIATIVE NEUTRON CAPTURE OF SR-86 AND -87.-          30487001    3
+AUTHOR     (A.R.DEL.MUSGROVE,B.J.ALLEN,J.W.BOLDEMAN,G.HICKS,      30487001    4
+           R.L.MACKLIN)                                           30487001    5
+INSTITUTE  (1USAORL) LAST AUTHOR'S ADDRESS.                       30487001    6
+           (3AULAUA)                                              30487001    7
+REFERENCE  (J,AUJ,35,267,82) FINAL PUBLICATION                    30487001    8
+           (J,NSE,82,(2),230,82) NO CORRECTION FACTOR FOR NEUTRON 30487001    9
+            CAPTURE CROSS-SECTION IS REQUIRED.                    30487001   10
+           (C,78HARWELL,,449,7809)                                30487001   11
+           (W,ALLEN,790724)RES.PAR.(CITED AS HICKS+ IN 78HARWELL) 30487001   12
+SAMPLE     ENRICHED SAMPLE IN SR-CO(3),                           30487001   13
+                                    SR-86        SR-87            30487001   14
+             ENRICHMENT (PERC.)     84.1         91.2             30487001   15
+             THICKNESS (ATOM/B)      0.00641      0.00727         30487001   16
+             THICKNESS( CM.  )      0.89         0.95             30487001   17
+MONITOR    (3-LI-6(N,T)2-HE-4,,SIG)                               30487001   18
+FACILITY   (LINAC,1USAORL)                                        30487001   19
+INC-SOURCE (PHOTO)                                                30487001   20
+METHOD     (TOF) TIME OF FLIGHT, PATH = 40 M.                     30487001   21
+DETECTOR   (SCIN)                                                 30487001   22
+           A PAIR OF NON-HYDROGENOUS FLUOROCARBON LIQUID          30487001   23
+           SCINTILLATORS, OPERATING AS TOTAL-ENERGY DETECTORS.    30487001   24
+           .THIN LI-6 GLASS SCINTILLATOR IN TRANSMISSION MODE, FOR30487001   25
+           NEUTRON-FLUX MONITORING.                               30487001   26
+PART-DET   (G)                                                    30487001   27
+ERR-ANALYS UNCERTAINTY OF 10(PERC.) ASSIGNED TO NORMALIZATION     30487001   28
+           DEAD-TIME AND BACKGROUND CORRECTIONS                   30487001   29
+STATUS     (APRVD) APPROVED BY B.ALLEN,79/07/24.                  30487001   30
+HISTORY    (790531C) KO.                                          30487001   31
+           (790830U) KO.-NEW ENTRIES .008 AND .009 FOR RES.PARS., 30487001   32
+            CORRECTIONS OF .004 AND .007.-                        30487001   33
+           (821109U) DG.-INSERTION OF AUST.J.PHYS.35(1982)267 AND 30487001   34
+             CORRIGENDUM IN REFERENCE,CORRECTION OF.013 AND .014.-30487001   35
+           (930202U) HW.-SEQUENCE INSTITUTE CODES ALTERED.-       30487001   36
+ENDBIB              34                                            30487001   37
+NOCOMMON                                                          30487001   38
+ENDSUBENT           37                                            3048700199999
+SUBENT        30487005     850121                                 30487005    1
+BIB                  3          6                                 30487005    2
+REACTION   (38-SR-87(N,G)38-SR-88,,SIG,,AV)                       30487005    3
+STATUS     DATA TAKEN FROM TABLE II OF 1978 HARWELL CONF. ON      30487005    4
+           NEUTRON PHYSICS AND NUCLEAR DATA, P.449                30487005    5
+           LATER THE VALUES HAVE BEEN REVISED AS IN TABLE 4 OF    30487005    6
+            AUST.J.PHYS.35(1982)267.                              30487005    7
+HISTORY    (821109A) DG.-CORRECTION AFTER AUST.J.PHYS.35(1982)267.30487005    8
+ENDBIB               6                                            30487005    9
+NOCOMMON             0          0                                 30487005   10
+DATA                 4         15                                 30487005   11
+EN-MIN     EN-MAX     DATA       DATA-ERR                         30487005   12
+KEV        KEV        MB         MB                               30487005   13
+ 3.0000E+00 4.0000E+00 2.3200E+02 2.5000E+01                      30487005   14
+ 4.0000E+00 5.0000E+00 2.5300E+02 4.0000E+01                      30487005   15
+ 5.0000E+00 6.0000E+00 2.9600E+02 3.0000E+01                      30487005   16
+ 6.0000E+00 8.0000E+00 2.2800E+02 2.5000E+01                      30487005   17
+ 8.0000E+00 1.0000E+01 1.7300E+02 2.0000E+01                      30487005   18
+ 1.0000E+01 1.5000E+01 1.2400E+02 2.0000E+01                      30487005   19
+ 1.5000E+01 2.0000E+01 9.7000E+01 2.0000E+01                      30487005   20
+ 2.0000E+01 3.0000E+01 8.2000E+01 1.6000E+01                      30487005   21
+ 3.0000E+01 4.0000E+01 6.6000E+01 1.3000E+01                      30487005   22
+ 4.0000E+01 5.0000E+01 6.2000E+01 1.2000E+01                      30487005   23
+ 5.0000E+01 6.0000E+01 5.7000E+01 1.1000E+01                      30487005   24
+ 6.0000E+01 8.0000E+01 4.2000E+01 9.0000E+00                      30487005   25
+ 8.0000E+01 1.0000E+02 3.9000E+01 8.0000E+00                      30487005   26
+ 1.0000E+02 1.5000E+02 3.2000E+01 6.0000E+00                      30487005   27
+ 1.5000E+02 2.0000E+02 2.8000E+01 6.0000E+00                      30487005   28
+ENDDATA             17                                            30487005   29
+ENDSUBENT           28                                            3048700599999
+SUBENT        30487006     850121                                 30487006    1
+BIB                  2          5                                 30487006    2
+REACTION   (38-SR-87(N,G)38-SR-88,,SIG,,SPA)                      30487006    3
+           MAXWELLIAN CAPTURE CROSS-SECTION AT ''KT'' = 30 KEV.   30487006    4
+STATUS     DATA TAKEN FROM TABLE VIII OF 1978 HARWELL CONF. ON    30487006    5
+           NEUTRON PHYSICS AND NUCLEAR DATA, P.449.               30487006    6
+           AND FROM TABLE 4 OF AUST.J.PHYS.35(1982)267.           30487006    7
+ENDBIB               5                                            30487006    8
+NOCOMMON             0          0                                 30487006    9
+DATA                 3          1                                 30487006   10
+EN-DUMMY   DATA       DATA-ERR                                    30487006   11
+KEV        MB         MB                                          30487006   12
+ 4.5000E+01 7.4000E+01 1.0000E+01                                 30487006   13
+ENDDATA              3                                            30487006   14
+ENDSUBENT           13                                            3048700699999
+ENDENTRY             3                                            3048799999999
+ENDREQUEST           1                                            Z999999999999

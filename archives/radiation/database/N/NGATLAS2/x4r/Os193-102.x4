@@ -1,0 +1,79 @@
+REQUEST           1001   20010914          3     143953               0  0    0
+ENTRY            13512     930225                                 13512000    1
+SUBENT        13512001     930225                                 13512001    1
+BIB                 12         15                                 13512001    2
+INSTITUTE  (1USAORL)                                              13512001    3
+REFERENCE  (C,91JUELIC,,595,9105)                                 13512001    4
+AUTHOR     (S.MIRZADEH,F.F.KNAPP,A.P.CALLAHAN)                    13512001    5
+TITLE      PRODUCTION OF TUNGSTEN-188 AND OSMIUM-194 IN A NUCLEAR 13512001    6
+            REACTOR FOR NEW CLINICAL GENERATORS                   13512001    7
+FACILITY   (REAC,1USABNL) HFBR                                    13512001    8
+SAMPLE     193OS PRODUCED BY CAPTURE IN OS TARGET ENRICHED TO     13512001    9
+            99.3% 192OS.                                          13512001   10
+METHOD     (ACTIV) IRRADIATION TIME 24 DAYS. DECAY TIME 6 MONTHS. 13512001   11
+DETECTOR   (GE-IN)                                                13512001   12
+DECAY-DATA (76-OS-194,6.0YR,DG,328.4,0.13)                        13512001   13
+ERR-ANALYS (DATA-ERR) NO INFORMATION ON SOURCE OF UNCERTAINTY     13512001   14
+STATUS     (APRVD) S.MIRZADEH, 91/10/15                           13512001   15
+HISTORY    (910916C)                                              13512001   16
+           (930225A) REFERENCE UPDATE. CONVERTED TO LOWER CASE    13512001   17
+ENDBIB              15                                            13512001   18
+NOCOMMON             0          0                                 13512001   19
+ENDSUBENT           18                                            1351200199999
+SUBENT        13512002     910916                                 13512002    1
+BIB                  3          3                                 13512002    2
+REACTION   (76-OS-193(N,G)76-OS-194,,SIG,,SPA)                    13512002    3
+MONITOR    (26-FE-58(N,G)26-FE-59,,SIG,,SPA)                      13512002    4
+ASSUMED    (ASSUM,76-OS-192(N,G)76-OS-193,,SIG,,SPA)              13512002    5
+ENDBIB               3                                            13512002    6
+NOCOMMON             0          0                                 13512002    7
+DATA                 6          1                                 13512002    8
+EN-DUMMY   DATA       DATA-ERR   MONIT      ASSUM      ASSUM-ERR  13512002    9
+EV         B          B          MB         B          B          13512002   10
+ 0.0253     240.        40.       1.28       2.0        0.1       13512002   11
+ENDDATA              3                                            13512002   12
+ENDSUBENT           11                                            1351200299999
+ENDENTRY             2                                            1351299999999
+ENTRY            20820     840208                                 20820000    1
+SUBENT        20820001     840208                                 20820001    1
+BIB                 12         21                                 20820001    2
+INSTITUTE  (2FR ILL) EXPERIMENTAL SITE.                           20820001    3
+           (1USABNL) R.F.CASTEN.                                  20820001    4
+           (1USANRL) A.I.NAMENSON.                                20820001    5
+REFERENCE  (J,BAP,22,997,7709)                                    20820001    6
+           (R,DOE-12,30,7804)                                     20820001    7
+AUTHOR     (R.F.CASTEN,W.F.DAVIDSON,D.D.WARNER,H.G.BORNER,        20820001    8
+            A.I.NAMENSON)                                         20820001    9
+TITLE      -GAMMA-RAY TRANSITIONS IN 194-OS FROM TWOFOLD NEUTRON  20820001   10
+            CAPTURE ON 192-OS-                                    20820001   11
+FACILITY   (REAC ) ILL HIGH FLUX REACTOR.                         20820001   12
+INC-SOURCE (REAC )                                                20820001   13
+SAMPLE     .192-OS TARGET.                                        20820001   14
+DETECTOR   .HIGH PRECISION CRYSTAL SPECTROMETERS GAMS1 AND        20820001   15
+            GAMS23.                                               20820001   16
+PART-DET   (G    )                                                20820001   17
+COMMENT    .MEASURED THERMAL X-SEC. IN COMPLETE DISAGREEMENT      20820001   18
+            WITH OLDER QUOTED VALUES (2 ORDERS OF MAGNITUDE)      20820001   19
+            (COMPILER).                                           20820001   20
+STATUS     .DATA TAKEN FROM BAP,22.                               20820001   21
+HISTORY    (790130C) WWO.                                         20820001   22
+           (790306E)                                              20820001   23
+ENDBIB              21                                            20820001   24
+NOCOMMON             0          0                                 20820001   25
+ENDSUBENT           24                                            2082000199999
+SUBENT        20820002     840208                                 20820002    1
+BIB                  3          4                                 20820002    2
+REACTION   (76-OS-193(N,G)76-OS-194,,SIG,,MXW)                    20820002    3
+STATUS     .DATA TAKEN FROM BAP,22.                               20820002    4
+HISTORY    (790130C) WWO.                                         20820002    5
+           (790306E)                                              20820002    6
+ENDBIB               4                                            20820002    7
+NOCOMMON             0          0                                 20820002    8
+DATA                 3          1                                 20820002    9
+EN-DUMMY   DATA       DATA-ERR                                    20820002   10
+EV         B          B                                           20820002   11
+ 2.5000E-02 3.1000E+01 5.0000E+00                                 20820002   12
+ENDDATA              3                                            20820002   13
+ENDSUBENT           12                                            2082000299999
+ENDENTRY             2                                            2082099999999
+ENDREQUEST           1                                            Z999999999999

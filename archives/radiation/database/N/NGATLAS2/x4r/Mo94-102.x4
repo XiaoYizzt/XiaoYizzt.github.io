@@ -1,0 +1,154 @@
+REQUEST           1001   20010914          3     141402               0  0    0
+ENTRY            30357     930426                                 30357000    1
+SUBENT        30357001     930426                                 30357001    1
+BIB                 16         58                                 30357001    2
+TITLE      AVERAGE NEUTRON RESONANCE PARAMETERS AND RADIATIVE     30357001    3
+           CAPTURE CROSS SECTIONS FOR THE ISOTOPES OF MOLYBDENUM  30357001    4
+AUTHOR     (A.R.DEL.MUSGROVE,B.J.ALLEN,J.W.BOLDEMAN,R.L.MACKLIN)  30357001    5
+INSTITUTE  (1USAORL) LAST AUTHOR'S ADDRESS                        30357001    6
+           (3AULAUA)                                              30357001    7
+REFERENCE  (J,NP/A,270,108,7610)                                  30357001    8
+           (C,78HARWELL,449,7809) AV.SIG.(REVISED)+AV.RES.PAR.ONLY30357001    9
+           (J,NSE,82,(2),230,82) CORRECTION FACTOR (=0.9833) FOR  30357001   10
+            NEUTRON CAPTURE CROSS-SECTION IS GIVEN.               30357001   11
+SAMPLE     ENRICHED METALLIC SAMPLE,                              30357001   12
+                                MO-92    MO-94    MO-95    MO-96  30357001   13
+             ENRICHMENT(PERC.)  97.1     94.0     96.6     96.5   30357001   14
+             THICKNESS(ATOM/B)  0.0056   0.0027   0.0051   0.0053 30357001   15
+                              ----------------------------------- 30357001   16
+                                MO-97    MO-98    MO-100          30357001   17
+             ENRICHMENT(PERC.)  92.8     98.4     96.0            30357001   18
+             THICKNESS(ATOM/B)  0.0044   0.0018   0.0023          30357001   19
+MONITOR    (3-LI-6(N,T)2-HE-4,,SIG) UTTLEY ET AL.,3RD CONF.NEUTRON30357001   20
+            CROSS-SECTION AND TECH.,KNOXVILLE 1971,P.551.         30357001   21
+FACILITY   (LINAC) OAK RIDGE ELECTRON LINEAR ACCELERATOR (ORLEA). 30357001   22
+INC-SOURCE (PHOTO)                                                30357001   23
+METHOD     (TOF) TIME OF FLIGHT, PATH = 40 M.                     30357001   24
+DETECTOR   (SCIN) A PAIR OF FLUOROCARBON (NON-HYDROGENOUS) LIQUID 30357001   25
+           SCINTILLATORS WITH LOW SENSITIVITY TO SCATTERED        30357001   26
+           NEUTRONS AND TYPICALLY 15 PERCENT EFFICIENCY FOR       30357001   27
+           DETECTING A GAMMA-RAY CASCADE.  THE DETECTOR RESPONSE  30357001   28
+           IS PROPORTIONAL ONLY TO THE TOTAL GAMMA RAY ENERGY     30357001   29
+           RELEASE                                                30357001   30
+PART-DET   (G) GAMMAS                                             30357001   31
+ANALYSIS   (AREA) MODIFIED VERSION OF THE ORNL/RPI MONTE CARLO    30357001   32
+           AREA ANALYSIS CODE, J.G.SULLIVAN ET AL.,USAEC REPORT   30357001   33
+           RPI-328-155 (1969).                                    30357001   34
+           .IN ADDITION IN SOME CASES, NEUTRON WIDTHS WERE        30357001   35
+           OBTAINED BY DIRECT SHAPE FITTING OF THE DATA.          30357001   36
+CORRECTION THE ANALYSIS CODE INCLUDES THE CORRECTIONS FOR         30357001   37
+           MULTIPLE-SCATTERING AND SELF-SHIELDING EFFECTS.        30357001   38
+ERR-ANALYS STATISTICAL ERRORS (ABOUT 3 PERC.) ARE USUALLY         30357001   39
+           NEGLIGIBLE IN COMPARISON WITH THE ABSOLUTE NORMALI-    30357001   40
+           SATION ERROR(12 PERC.).                                30357001   41
+           THE ERROR QUOTED FOR RESONANCE ENERGIES ARE ESTIMATED  30357001   42
+           FROM CONSISTENCY CHECK BETWEEN THIS DATA AND ENERGIES  30357001   43
+           REPORTED BY THE GROUP OF COLUMBIA NEVIS CYCLOTRON,     30357001   44
+           PHYS.REV.,166(1968)1234.                               30357001   45
+STATUS     (APRVD) PROOF-COPY WAS APPROVED BY MUSGROVE(LETT. FROM 30357001   46
+            ALLEN,77/02/04) AND CONFIRMED AS FOLLOWS,             30357001   47
+            RES.ENERGY OF 27965 IN TABLE 5 AND                    30357001   48
+            RES.ENERGY OF 3984 IN TABLE6 OF NUCL.PHYS.A270('76)10830357001   49
+            SHOULD BE READ AS 17965 AND 3084, RESPECTIVELY.       30357001   50
+HISTORY    (760929C) KO.                                          30357001   51
+           (770505U) KO.-'APPROVED' ADDED.-                       30357001   52
+           (790523U) KO.-REVISED DATA IN SUBENTRIES.004,.007,.010,30357001   53
+            .013,.016,.019,.022  AND NEWENTRIES .023 TO .027 FROM 30357001   54
+            1978 HARWELL CONF.-                                   30357001   55
+           (790906U) KO. -NEWENTRIES .028,.029 AND .030.-         30357001   56
+           (810320U) STANDARD CODING CORR.-OS                     30357001   57
+           (821122U) DG.-INSERTION OF CORRIGENDUM IN REFERENCE,   30357001   58
+            CONVERSION FROM ISO-QUANT TO REACTION FORMALISM.-     30357001   59
+           (930202U) HW.-SEQUENCE INSTITUTE CODES ALTERED.-       30357001   60
+ENDBIB              58                                            30357001   61
+NOCOMMON                                                          30357001   62
+ENDSUBENT           61                                            3035700199999
+SUBENT        30357007     840530                                 30357007    1
+BIB                  3          7                                 30357007    2
+REACTION   (42-MO-94(N,G)42-MO-95,,SIG,,AV)                       30357007    3
+STATUS     FINAL DATA TAKEN FROM TABLE III OF 1978HARWELL CONF. ON30357007    4
+           NEUTRON PHYSICS AND NUCL.DATA,P.449.                   30357007    5
+           LATER THE VALUES HAVE BEEN MULTIPLIED BY 0.9833.       30357007    6
+HISTORY    (790523A) KO.-ALTERATION AND ADDITION OF DATA.-        30357007    7
+           (821122A) DG.-THE VALUES HAVE BEEN CORRECTED,          30357007    8
+            CONVERSION FROM ISO-QUANT TO REACTION FORMALISM.-     30357007    9
+ENDBIB               7                                            30357007   10
+NOCOMMON             0          0                                 30357007   11
+DATA                 4         15                                 30357007   12
+EN-MIN     EN-MAX     DATA       DATA-ERR                         30357007   13
+KEV        KEV        MB         MB                               30357007   14
+ 3.0000E+00 4.0000E+00 4.8100E+02 5.9000E+01                      30357007   15
+ 4.0000E+00 5.0000E+00 6.3900E+02 7.9000E+01                      30357007   16
+ 5.0000E+00 6.0000E+00 2.5500E+02 2.9000E+01                      30357007   17
+ 6.0000E+00 8.0000E+00 1.1700E+02 1.2000E+01                      30357007   18
+ 8.0000E+00 1.0000E+01 3.0000E+02 3.4000E+01                      30357007   19
+ 1.0000E+01 1.5000E+01 2.1100E+02 2.5000E+01                      30357007   20
+ 1.5000E+01 2.0000E+01 1.1800E+02 1.4000E+01                      30357007   21
+ 2.0000E+01 3.0000E+01 1.2800E+02 1.5000E+01                      30357007   22
+ 3.0000E+01 4.0000E+01 9.8000E+01 1.4000E+01                      30357007   23
+ 4.0000E+01 5.0000E+01 9.0000E+01 1.0000E+01                      30357007   24
+ 5.0000E+01 6.0000E+01 6.9000E+01 9.0000E+00                      30357007   25
+ 6.0000E+01 8.0000E+01 6.9000E+01 9.0000E+00                      30357007   26
+ 8.0000E+01 1.0000E+02 5.8000E+01 7.0000E+00                      30357007   27
+ 1.0000E+02 1.5000E+02 4.9000E+01 6.0000E+00                      30357007   28
+ 1.5000E+02 2.0000E+02 4.6000E+01 5.0000E+00                      30357007   29
+ENDDATA             17                                            30357007   30
+ENDSUBENT           29                                            3035700799999
+SUBENT        30357029     840530                                 30357029    1
+BIB                  3          6                                 30357029    2
+REACTION   (42-MO-94(N,G)42-MO-95,,SIG,,SPA) SPECT.AV.FOR STELLAR 30357029    3
+           TEMPERATURE (MAXWELLIAN AVERAGED AT ''KT'' = 30 KEV)   30357029    4
+STATUS     NUMERICAL DATA WERE SENT FROM B.ALLEN, AS PRIV.COMM.   30357029    5
+           79/07/24.                                              30357029    6
+HISTORY    (790906C) KO. -NEW ENTRY.-                             30357029    7
+           (821122U) DG.-CONVERT.FROM ISO-QUANT TO REACTION FORM.-30357029    8
+ENDBIB               6                                            30357029    9
+NOCOMMON             0          0                                 30357029   10
+DATA                 3          1                                 30357029   11
+EN-DUMMY   DATA       DATA-ERR                                    30357029   12
+KEV        MB         MB                                          30357029   13
+ 4.5000E+01 1.1100E+02 1.5000E+01                                 30357029   14
+ENDDATA              3                                            30357029   15
+ENDSUBENT           14                                            3035702999999
+ENDENTRY             3                                            3035799999999
+ENTRY            30506     840911                                 30506000    1
+SUBENT        30506001     840911                                 30506001    1
+BIB                 13         17                                 30506001    2
+INSTITUTE  (3AULAUA)                                              30506001    3
+REFERENCE  (P,AAEC/PR-34P,9,7104)                                 30506001    4
+           (P,INDC(SEC)-28,285,7209) SIMILAR NOTE AS AAEC/PR-34P  30506001    5
+AUTHOR     (D.B.STROUD,D.M.H.CHAN)                                30506001    6
+TITLE      -NEUTRON CAPTURE CROSS-SECTIONS AT 30 KEV.-            30506001    7
+FACILITY   (VDG,3AULAUA) 3 MEV PULSED VAN DE GRAAFF AT LUCAS      30506001    8
+           HEIGHTS.                                               30506001    9
+INC-SOURCE (P-LI7)                                                30506001   10
+INC-SPECT  AVERAGED NEUTRON ENERGY OF 30 KEV.                     30506001   11
+METHOD     (TOF)                                                  30506001   12
+DETECTOR   (MOXR)                                                 30506001   13
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)                         30506001   14
+           NO FURTHER INFORMATION AVAILABLE.                      30506001   15
+STATUS     NUMERICAL DATA WERE SENT FROM B.ALLEN,79/07/24.(EXTRACT30506001   16
+           FROM THE THESIS (MELBOURNE UNIV.) BY D.B.STROUD.)      30506001   17
+HISTORY    (790905C) KO.                                          30506001   18
+ERR-ANALYS NO FURTHER INFORMATION.                                30506001   19
+ENDBIB              17                                            30506001   20
+COMMON               1          3                                 30506001   21
+EN                                                                30506001   22
+KEV                                                               30506001   23
+ 3.0000E+01                                                       30506001   24
+ENDCOMMON            3                                            30506001   25
+ENDSUBENT           24                                            3050600199999
+SUBENT        30506011     840911                                 30506011    1
+BIB                  2          2                                 30506011    2
+REACTION   (42-MO-94(N,G)42-MO-95,,SIG)                           30506011    3
+SAMPLE     ENRICHED ISOTOPE.                                      30506011    4
+ENDBIB               2                                            30506011    5
+NOCOMMON             0          0                                 30506011    6
+DATA                 2          1                                 30506011    7
+DATA       DATA-ERR                                               30506011    8
+MB         MB                                                     30506011    9
+ 1.0000E+02 1.2000E+01                                            30506011   10
+ENDDATA              3                                            30506011   11
+ENDSUBENT           10                                            3050601199999
+ENDENTRY             2                                            3050699999999
+ENDREQUEST           1                                            Z999999999999

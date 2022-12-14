@@ -1,0 +1,162 @@
+REQUEST           1001   20010914          3     140459               0  0    0
+ENTRY            10293     830117                                 10293000    1
+SUBENT        10293001     830117                                 10293001    1
+BIB                 11         20                                 10293001    2
+INSTITUTE  (1CANCRC)                                              10293001    3
+REFERENCE  (J,JNE,26,403,7208)                                    10293001    4
+AUTHOR     (R.D.WERNER,D.C.SANTRY)                                10293001    5
+TITLE      NEUTRON CAPTURE CROSS SECTIONS OF NA-22 AND CO-58      10293001    6
+N-SOURCE   (REAC)  NRU REACTOR                                    10293001    7
+METHOD     DEPLETION METHOD USING HIGH RESOLUTION                 10293001    8
+           GAMMA-RAY SPECTROMETRY                                 10293001    9
+DETECTOR   (GELI) 18CC GE(LI) DETECTOR                            10293001   10
+MONITOR    (27-CO-59(N,G)27-CO-60,,SIG) FLUX MONITORED USING      10293001   11
+            CO-AL WIRE.                                           10293001   12
+ERR-ANALYS A 1 PERCENT ERROR IN DETERMINING THE ACTIVITY OF AN    10293001   13
+           IRRADIATED TARGET PRODUCED A 2 PER CENT ERROR IN THE   10293001   14
+           MEASURED CROSS SECTION OF NA-22 AND A 5 PER CENT ERROR 10293001   15
+           IN THE MEASURED CROSS SECTION OF CO-58. +-1.4 PER CENT 10293001   16
+           IN THE INEGRATED FLUX. 1.5 PER CENT OR LESS OF         10293001   17
+           STATISTICAL ERROR IN MEASUREMENT OF ACTIVITY.          10293001   18
+HISTORY    (721120C)                                              10293001   19
+           (780405U) BIB CORRECTION                               10293001   20
+           (830117A) CONVERTED TO REACTION FORMALISM              10293001   21
+STATUS     (APRVD) APPROVED BY AUTHOR.                            10293001   22
+ENDBIB              20                                            10293001   23
+COMMON               2          3                                 10293001   24
+MONIT      MONIT-ERR                                              10293001   25
+B          B                                                      10293001   26
+ 37.09      0.27                                                  10293001   27
+ENDCOMMON            3                                            10293001   28
+ENDSUBENT           27                                            1029300199999
+SUBENT        10293003     830117                                 10293003    1
+BIB                  2          2                                 10293003    2
+REACTION   (27-CO-58(N,G)27-CO-59,,SIG,,MXW)                      10293003    3
+DECAY-DATA (27-CO-58,71.10D)                                      10293003    4
+ENDBIB               2                                            10293003    5
+NOCOMMON             0          0                                 10293003    6
+DATA                 3          1                                 10293003    7
+EN-DUMMY   DATA       DATA-ERR                                    10293003    8
+EV         B          B                                           10293003    9
+0.0253     1.88    +03 0.12   +03                                 10293003   10
+ENDDATA              3                                            10293003   11
+ENDSUBENT           10                                            1029300399999
+ENDENTRY             2                                            1029399999999
+ENTRY            10728     780306                                 10728000    1
+SUBENT        10728001     780306                                 10728001    1
+BIB                 11         15                                 10728001    2
+INSTITUTE  (1USABLN)                                              10728001    3
+REFERENCE  (T,ELGART,71)                                          10728001    4
+           (J,DA/B,32,3245,71)                                    10728001    5
+AUTHOR     (M.F.ELGART)                                           10728001    6
+TITLE      THE THERMAL NEUTRON CAPTURE CROSS SECTIONS OF SOME     10728001    7
+            REACTOR-PRODUCED RADIONUCLIDES.                       10728001    8
+N-SOURCE   (REAC,1USABNL) REACTOR                                 10728001    9
+METHOD     (BURN)SIMULTANEOUS PRODUCTION,DECAY,AND BURNUP IN THE  10728001   10
+            CORE OF A REACTOR USING WESCOTT FORMALISM.            10728001   11
+DETECTOR   (GELI) GE(LI) DETECTOR                                 10728001   12
+MONITOR    (27-CO-59(N,G)27-CO-60,,SIG)                           10728001   13
+           (27-CO-59(N,G)27-CO-60,,RI)                            10728001   14
+ERR-ANALYS NO INFORMATION.                                        10728001   15
+STATUS     (APRVD) APPROVED BY M.F.ELGART, 78/5/23.               10728001   16
+HISTORY    (780224C)                                              10728001   17
+ENDBIB              15                                            10728001   18
+COMMON               2          3                                 10728001   19
+MONIT1     MONIT2                                                 10728001   20
+B          B                                                      10728001   21
+ 37.3       76.1                                                  10728001   22
+ENDCOMMON            3                                            10728001   23
+ENDSUBENT           22                                            1072800199999
+SUBENT        10728006     780306                                 10728006    1
+BIB                  1          1                                 10728006    2
+REACTION   (27-CO-58(N,G)27-CO-59,,SIG,,MXW)                      10728006    3
+ENDBIB               1                                            10728006    4
+NOCOMMON                                                          10728006    5
+DATA                 2          1                                 10728006    6
+EN-DUMMY   DATA                                                   10728006    7
+EV         B                                                      10728006    8
+0.0253     2310.                                                  10728006    9
+ENDDATA              3                                            10728006   10
+ENDSUBENT            9                                            1072800699999
+ENDENTRY             2                                            1072899999999
+ENTRY            12597     830808                                 12597000    1
+SUBENT        12597001     830808                                 12597001    1
+BIB                  7         11                                 12597001    2
+INSTITUTE  (1USAMTR)                                              12597001    3
+REFERENCE  (R,IDO-16744,62)                                       12597001    4
+AUTHOR     (C.H.HOGG,L.D.WEBER,E.C.YATES)                         12597001    5
+TITLE      THERMAL NEUTRON CROSS SECTIONS OF THE CO-58 ISOMERS AND12597001    6
+            THE EFFECT ON FAST FLUX MEASUREMENTS USING NICKEL.    12597001    7
+DETECTOR   GAMMAS MEASURED WITH EITHER A MULTI-CHANNEL PULSE      12597001    8
+            HEIGHT ANALYZER OR A CALIBRATED HIGH PRESSURE         12597001    9
+            IONIZATION CHAMBER.                                   12597001   10
+ERR-ANALYS ERRORS BASED ON INTERNAL CONSISTENCY                   12597001   11
+HISTORY    (780701C)                                              12597001   12
+           (820827A) INSTITUTE,DECAY-DATA CORRECTED.              12597001   13
+ENDBIB              11                                            12597001   14
+NOCOMMON             0          0                                 12597001   15
+ENDSUBENT           14                                            1259700199999
+SUBENT        12597002     780324                                 12597002    1
+BIB                  7         11                                 12597002    2
+REACTION   (27-CO-58(N,G)27-CO-59,,SIG)                           12597002    3
+METHOD     (BURN) BURN-UP                                         12597002    4
+N-SOURCE   (REAC) ENGINEERING TEST REACTOR                        12597002    5
+SAMPLE     20 MIL NI WIRE WAS IRRADIATED FOR 20-40 DAYS.AFTER     12597002    6
+            DECAY OF THE 9.1 HR.ISOMER, THE SAMPLE WAS RE-        12597002    7
+            IRRADIATED IN THE PRESENCE OF AN ADDITIONAL NI        12597002    8
+            SAMPLE USED TO MONITER THE BUILD UP OF CO-58.THIS     12597002    9
+            SECOND IRRADIATION LASTED 10-20 DAYS.                 12597002   10
+ASSUMED    (ASSUM,28-NI-58(N,P)27-CO-58-G,,SIG,,FIS)              12597002   11
+DECAY-DATA (27-CO-58-G,71.3D,EC)                                  12597002   12
+MONITOR    (27-CO-59(N,G)27-CO-60,,SIG)                           12597002   13
+ENDBIB              11                                            12597002   14
+NOCOMMON                                                          12597002   15
+DATA                 4          1                                 12597002   16
+EN         DATA       DATA-ERR   ASSUM                            12597002   17
+EV         B          B          MB                               12597002   18
+0.0253     1650.      150.       61.                              12597002   19
+ENDDATA              3                                            12597002   20
+ENDSUBENT           19                                            1259700299999
+ENDENTRY             2                                            1259799999999
+ENTRY            21427     801107                                 21427000    1
+SUBENT        21427001     801107                                 21427001    1
+BIB                 15         22                                 21427001    2
+INSTITUTE  (2ITYCAS)                                              21427001    3
+REFERENCE  (J,PHY,29,1196,6311) LETTER.                           21427001    4
+AUTHOR     (U.FARINELLI,M.MARTINI)                                21427001    5
+TITLE      -MEASUREMENT OF (N,GAMMA) CROSS SECTIONS OF NA-22      21427001    6
+            AND CO-58 -.                                          21427001    7
+FACILITY   (REAC ) ISPRA 1 REACTOR.                               21427001    8
+INC-SOURCE (REAC ) THERMAL REACTOR NEUTRONS.                      21427001    9
+INC-SPECT  MAXWELLIAN THERMAL NEUTRON SPECTRUM.                   21427001   10
+SAMPLE     .RADIO-ACTIVE SOURCES, NO DETAILS.                     21427001   11
+METHOD     .ACTIVITY DEPLETION METHOD, REDUCTION IN INITIAL       21427001   12
+            RADIOACTIVE SOURCE STRENGTH AFTER IRRADIATION.        21427001   13
+DETECTOR   (NAICR) FAST GAMMA-GAMMA COINCIDENCE WITH NAI(TL)      21427001   14
+            CRYSTALS RELATIVE TO A CALIBRATED CO-60 SOURCE.       21427001   15
+MONITOR    (27-CO-59(N,G)27-CO-60-G,,SIG) NO VALUE GIVEN          21427001   16
+STATUS     .TEXT OF PHY,29,1196.                                  21427001   17
+HISTORY    (800311C)                                              21427001   18
+           (800318E)                                              21427001   19
+CORRECTION .CORRECTED FOR SPURIOUS ACTIVITIES BY IRRADIATION      21427001   20
+            OF DUMMY SOURCES TOGETHER WITH THE RADIOACTIVE        21427001   21
+            SAMPLES. THE CONTRIBUTION FROM THE NI-58(N,P)         21427001   22
+            REACTION WAS NEGLIGIBLE.                              21427001   23
+ERR-ANALYS .NO DETAILS.                                           21427001   24
+ENDBIB              22                                            21427001   25
+NOCOMMON             0          0                                 21427001   26
+ENDSUBENT           25                                            2142700199999
+SUBENT        21427003     800318                                 21427003    1
+BIB                  2          2                                 21427003    2
+REACTION   (27-CO-58(N,G)27-CO-59,,SIG,,MXW) .                    21427003    3
+STATUS     .TEXT, PHY,29,1196.                                    21427003    4
+ENDBIB               2                                            21427003    5
+NOCOMMON             0          0                                 21427003    6
+DATA                 3          1                                 21427003    7
+EN-DUMMY   DATA       DATA-ERR                                    21427003    8
+EV         B          B                                           21427003    9
+ 2.5300E-02 3.1500E+03 1.5000E+02                                 21427003   10
+ENDDATA              3                                            21427003   11
+ENDSUBENT           10                                            2142700399999
+ENDENTRY             2                                            2142799999999
+ENDREQUEST           1                                            Z999999999999

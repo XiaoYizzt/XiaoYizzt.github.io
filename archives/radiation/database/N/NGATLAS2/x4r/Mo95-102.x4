@@ -1,0 +1,433 @@
+REQUEST           1001   20010914          3     141408               0  0    0
+ENTRY            11507     860715                                 11507000    1
+SUBENT        11507001     860715                                 11507001    1
+BIB                 10         12                                 11507001    2
+INSTITUTE  (1USAORL)                                              11507001    3
+REFERENCE  (J,PR,88,412,52)                                       11507001    4
+AUTHOR     (H.POMERANCE)                                          11507001    5
+TITLE      THERMAL NEUTRON CAPTURE CROSS SECTIONS.                11507001    6
+FACILITY   (OSCIP) PILE OSCILLATOR                                11507001    7
+INC-SPECT  THERMAL SPECTRUM                                       11507001    8
+METHOD     (ACTIV).                                               11507001    9
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)                         11507001   10
+STATUS     (SCSRS)                                                11507001   11
+HISTORY    (760715T) TRANSLATED FROM SCISRS                       11507001   12
+           (821124A) CONVERTED TO REACTION FORMALISM              11507001   13
+           (860715A) ENERGY MOVED TO SUBENTRY 1.                  11507001   14
+ENDBIB              12                                            11507001   15
+COMMON               2          3                                 11507001   16
+EN-DUMMY   MONIT                                                  11507001   17
+EV         B                                                      11507001   18
+ 0.0253     95.                                                   11507001   19
+ENDCOMMON            3                                            11507001   20
+ENDSUBENT           19                                            1150700199999
+SUBENT        11507051     860715                                 11507051    1
+BIB                  1          1                                 11507051    2
+REACTION   (42-MO-95(N,G)42-MO-96,,SIG,,MXW)                      11507051    3
+ENDBIB               1                                            11507051    4
+NOCOMMON             0          0                                 11507051    5
+DATA                 2          1                                 11507051    6
+DATA       DATA-ERR                                               11507051    7
+B          PER-CENT                                               11507051    8
+ 1.34   +01 8.                                                    11507051    9
+ENDDATA              3                                            11507051   10
+ENDSUBENT            9                                            1150705199999
+ENDENTRY             2                                            1150799999999
+ENTRY            20638     860210                                 20638000    1
+SUBENT        20638001     860210                                 20638001    1
+BIB                 11         33                                 20638001    2
+INSTITUTE  (2UK HAR)                                              20638001    3
+REFERENCE  (J,JNE/A,12,32,6005)                                   20638001    4
+           (R,AERE-R-2887,59) SAME DATA.                          20638001    5
+           (R,AERE-R/R-2516,59) REPORT SUPERSEDED EXCEPT          20638001    6
+            FOR DATA ON BE,C,NA, NATURAL CD AND GD COMPILED       20638001    7
+            SEPERATELY.                                           20638001    8
+           (B,58GENEVA,16,34,5809) PRELIMINARY RESULTS            20638001    9
+AUTHOR     (R.B.TATTERSALL,H.ROSE,S.K.PATTENDEN,D.JOWITT)         20638001   10
+TITLE      -PILE OSCILLATOR MEASUREMENTS OF RESONANCE             20638001   11
+            ABSORPTION INTEGRALS.-                                20638001   12
+FACILITY   (OSCIP)PILE OSCILLATOR FACILITIES OF DIMPEL REACTOR    20638001   13
+METHOD     .PILE OSCILLATOR TECHNIQUE WITH A 1 MINUTE PERIOD      20638001   14
+            AND A TRANSITION TIME OF ABOUT 1.2 SECOND.            20638001   15
+ANALYSIS   .WESTCOTT FORMALISM                                    20638001   16
+           .THE NEUTRON TEMPERATURE WAS DETERMINED BY USING       20638001   17
+            THE NON-1/V-ABSORBERS  SM-149, CD-113 AND GD-NATURAL  20638001   18
+STATUS     .TAKEN FROM J.NUCL.ENERGY,PART A, 12(1960)32           20638001   19
+HISTORY    (760625C)                                              20638001   20
+           (770331E)                                              20638001   21
+           (800325A) FULL SET OF REFERENCES ADDED AND REACTION    20638001   22
+            STRINGS CONVERTED.                                    20638001   23
+           (800429E)                                              20638001   24
+           (801106A) DATA IN SUBWORK 028 POSITION ADJUSTED.       20638001   25
+           (801124E)                                              20638001   26
+           (860205A)                                              20638001   27
+           (860210E)                                              20638001   28
+CORRECTION .SELF-SCREENING                                        20638001   29
+           .MODERATION OF FAST NEUTRONS BY THE SAMPLE             20638001   30
+           .DIFFERENT SAMPLE LENGTHS                              20638001   31
+           .NITROGEN DISPLACEMENT BY THE SAMPLE                   20638001   32
+ERR-ANALYS .ERROR ON THE BORON CALIBRATIONS LESS THAN 1 PER CENT  20638001   33
+           .ERROR FROM THE UNCERTAINTY IN RESONANCE INTEGRAL OF   20638001   34
+            GOLD.                                                 20638001   35
+ENDBIB              33                                            20638001   36
+NOCOMMON             0          0                                 20638001   37
+ENDSUBENT           36                                            2063800199999
+SUBENT        20638024     840127                                 20638024    1
+BIB                  3          6                                 20638024    2
+REACTION   (42-MO-95(N,G)42-MO-96,,SIG)   2200 M/SEC CROSS SECTION20638024    3
+MONITOR    (5-B-0(N,ABS),,SIG) 2200 M/SEC VALUE 767 +- 4 B.       20638024    4
+HISTORY    (760713C)                                              20638024    5
+           (770331E)                                              20638024    6
+           (800325A) REACTION DEFINITION REVISED.                 20638024    7
+           (800429E)                                              20638024    8
+ENDBIB               6                                            20638024    9
+NOCOMMON             0          0                                 20638024   10
+DATA                 5          1                                 20638024   11
+EN         MONIT      MONIT-ERR  DATA       DATA-ERR              20638024   12
+EV         B          B          B          B                     20638024   13
+ 2.5300E-02 7.6700E+02 4.0000E+00 1.4700E+01 5.0000E-01           20638024   14
+ENDDATA              3                                            20638024   15
+ENDSUBENT           14                                            2063802499999
+ENDENTRY             2                                            2063899999999
+ENTRY            21816     830210                                 21816000    1
+SUBENT        21816001     830210                                 21816001    1
+BIB                 14         58                                 21816001    2
+INSTITUTE  (2FR CAD) EXPERIMENTAL SITE.                           21816001    3
+           (2ZZZITU) AUTHORS.                                     21816001    4
+REFERENCE  (C,82ANTWER,175,8209)                                  21816001    5
+AUTHOR     (A.CRICCHIO,R.ERNSTBERGER,L.KOCH,R.WELLUM)             21816001    6
+TITLE      -THE TACO EXPERIMENT FOR THE DETERMINATION OF          21816001    7
+            INTEGRAL CROSS SECTIONS IN A FAST REACTOR.-           21816001    8
+FACILITY   (REAC,2FR CAD) RAPSODIE FORTISSIMA REACTOR.            21816001    9
+INC-SOURCE (REAC ) REACTOR NEUTRONS.                              21816001   10
+INC-SPECT  .NEUTRONS FROM FAST REACTOR RAPSODIE. THE              21816001   11
+            SPECTRUM IS GIVEN IN TABLE 2 OF THE MAIN              21816001   12
+            REFERENCE.                                            21816001   13
+            ENERGY-RANGE (KEV)           NEUTRONS (PERC.)         21816001   14
+            ---------------------------------------------         21816001   15
+               0.748 -      1.23             0.03                 21816001   16
+               1.23  -      2.04             0.115                21816001   17
+               2.04  -      3.36             0.165                21816001   18
+               3.36  -      5.53             0.207                21816001   19
+               5.53  -      9.12             0.418                21816001   20
+               9.12  -     15.0              0.809                21816001   21
+              15.0   -     24.8              2.00                 21816001   22
+              24.8   -     40.9              3.03                 21816001   23
+              40.9   -     67.4              4.44                 21816001   24
+              67.4   -    111.               7.14                 21816001   25
+             111.    -    183.               9.89                 21816001   26
+             183.    -    302.              14.2                  21816001   27
+             302.    -    498.              13.5                  21816001   28
+             498.    -    821.              17.4                  21816001   29
+             821.    -   1350.              10.6                  21816001   30
+            1350.    -   2230.               8.69                 21816001   31
+            2230.    -   3680.               5.18                 21816001   32
+            3680.    -  14500.               2.17                 21816001   33
+            ---------------------------------------------         21816001   34
+SAMPLE     .EACH NUCLIDE TO BE IRRADIATED WAS DISSOLVED           21816001   35
+            IN NITRIC ACID. ALIQUOTS OF THE SOLUTIONS WERE        21816001   36
+            PLACED IN THIN-WALLED ALUMINIUM CAPSULES AND          21816001   37
+            DRIED UNDER VACUUM. THE NITRATES WERE THEN            21816001   38
+            DECOMPOSED BY HEATING. THE CAPSULES WERE CLOSED       21816001   39
+            UNDER VACUUM AND COLLAPSED WHEN ATMOSPHERIC           21816001   40
+            PRESSURE WAS RESTORED. THE CAPSULES WERE WERE         21816001   41
+            FOLDED AND PLACED IN STAINLESS STEEL CANS OF          21816001   42
+            4.3 MM OUTER DIAMETER AND 30 MM LENGTH WHICH          21816001   43
+            WERE IN TURN SEALED BY ELECTRON BEAM WELDING.         21816001   44
+METHOD     (CHSEP) THE CONCENTRATION OF THE ISOTOPES              21816001   45
+            BEFORE AND AFTER A LONG IRRADIATION WERE              21816001   46
+            DETERMINED BY USING A MASS SPECTROMETER.              21816001   47
+            THEREFORE A NON IRRADIATED SAMPLE WAS KEPT            21816001   48
+            FOR COMPARISON.                                       21816001   49
+COMMENT    .COMPARED WITH VALUES DERIVED FROM POINT-WISE          21816001   50
+            DATA FROM KEDAK.                                      21816001   51
+STATUS     .DATA TAKEN FROM TABLES IN MAIN REFERENCE.             21816001   52
+HISTORY    (830126C) G.C.                                         21816001   53
+           (830210E)                                              21816001   54
+CORRECTION .INTERFERENCES DUE TO NATURAL BACKGROUND FROM THE      21816001   55
+            FILAMENT. CORRECTIONS WERE APPLIED BASED ON           21816001   56
+            SELECTED MASSES, NATURALLY ABUNDANT BUT DEPLETED      21816001   57
+            IN THE IRRADIATED MATERIAL.                           21816001   58
+ERR-ANALYS (ERR-T) NO DETAILS GIVEN. MOST MEASUREMENTS WERE       21816001   59
+            DONE TWICE TO ESTIMATE THE MEASUREMENT ERRORS.        21816001   60
+ENDBIB              58                                            21816001   61
+COMMON               1          3                                 21816001   62
+EN-DUMMY                                                          21816001   63
+MEV                                                               21816001   64
+ 1.5000E+00                                                       21816001   65
+ENDCOMMON            3                                            21816001   66
+ENDSUBENT           65                                            2181600199999
+SUBENT        21816014     830210                                 21816014    1
+BIB                  3          4                                 21816014    2
+REACTION   (42-MO-95(N,G)42-MO-96,,SIG,,SPA)                      21816014    3
+STATUS     .DATA TAKEN FROM TABLE 5 OF MAIN REFERENCE.            21816014    4
+HISTORY    (830126C) G.C.                                         21816014    5
+           (830210E)                                              21816014    6
+ENDBIB               4                                            21816014    7
+NOCOMMON             0          0                                 21816014    8
+DATA                 1          1                                 21816014    9
+DATA                                                              21816014   10
+B                                                                 21816014   11
+ 7.0000E-02                                                       21816014   12
+ENDDATA              3                                            21816014   13
+ENDSUBENT           12                                            2181601499999
+ENDENTRY             2                                            2181699999999
+ENTRY            30357     930426                                 30357000    1
+SUBENT        30357001     930426                                 30357001    1
+BIB                 16         58                                 30357001    2
+TITLE      AVERAGE NEUTRON RESONANCE PARAMETERS AND RADIATIVE     30357001    3
+           CAPTURE CROSS SECTIONS FOR THE ISOTOPES OF MOLYBDENUM  30357001    4
+AUTHOR     (A.R.DEL.MUSGROVE,B.J.ALLEN,J.W.BOLDEMAN,R.L.MACKLIN)  30357001    5
+INSTITUTE  (1USAORL) LAST AUTHOR'S ADDRESS                        30357001    6
+           (3AULAUA)                                              30357001    7
+REFERENCE  (J,NP/A,270,108,7610)                                  30357001    8
+           (C,78HARWELL,449,7809) AV.SIG.(REVISED)+AV.RES.PAR.ONLY30357001    9
+           (J,NSE,82,(2),230,82) CORRECTION FACTOR (=0.9833) FOR  30357001   10
+            NEUTRON CAPTURE CROSS-SECTION IS GIVEN.               30357001   11
+SAMPLE     ENRICHED METALLIC SAMPLE,                              30357001   12
+                                MO-92    MO-94    MO-95    MO-96  30357001   13
+             ENRICHMENT(PERC.)  97.1     94.0     96.6     96.5   30357001   14
+             THICKNESS(ATOM/B)  0.0056   0.0027   0.0051   0.0053 30357001   15
+                              ----------------------------------- 30357001   16
+                                MO-97    MO-98    MO-100          30357001   17
+             ENRICHMENT(PERC.)  92.8     98.4     96.0            30357001   18
+             THICKNESS(ATOM/B)  0.0044   0.0018   0.0023          30357001   19
+MONITOR    (3-LI-6(N,T)2-HE-4,,SIG) UTTLEY ET AL.,3RD CONF.NEUTRON30357001   20
+            CROSS-SECTION AND TECH.,KNOXVILLE 1971,P.551.         30357001   21
+FACILITY   (LINAC) OAK RIDGE ELECTRON LINEAR ACCELERATOR (ORLEA). 30357001   22
+INC-SOURCE (PHOTO)                                                30357001   23
+METHOD     (TOF) TIME OF FLIGHT, PATH = 40 M.                     30357001   24
+DETECTOR   (SCIN) A PAIR OF FLUOROCARBON (NON-HYDROGENOUS) LIQUID 30357001   25
+           SCINTILLATORS WITH LOW SENSITIVITY TO SCATTERED        30357001   26
+           NEUTRONS AND TYPICALLY 15 PERCENT EFFICIENCY FOR       30357001   27
+           DETECTING A GAMMA-RAY CASCADE.  THE DETECTOR RESPONSE  30357001   28
+           IS PROPORTIONAL ONLY TO THE TOTAL GAMMA RAY ENERGY     30357001   29
+           RELEASE                                                30357001   30
+PART-DET   (G) GAMMAS                                             30357001   31
+ANALYSIS   (AREA) MODIFIED VERSION OF THE ORNL/RPI MONTE CARLO    30357001   32
+           AREA ANALYSIS CODE, J.G.SULLIVAN ET AL.,USAEC REPORT   30357001   33
+           RPI-328-155 (1969).                                    30357001   34
+           .IN ADDITION IN SOME CASES, NEUTRON WIDTHS WERE        30357001   35
+           OBTAINED BY DIRECT SHAPE FITTING OF THE DATA.          30357001   36
+CORRECTION THE ANALYSIS CODE INCLUDES THE CORRECTIONS FOR         30357001   37
+           MULTIPLE-SCATTERING AND SELF-SHIELDING EFFECTS.        30357001   38
+ERR-ANALYS STATISTICAL ERRORS (ABOUT 3 PERC.) ARE USUALLY         30357001   39
+           NEGLIGIBLE IN COMPARISON WITH THE ABSOLUTE NORMALI-    30357001   40
+           SATION ERROR(12 PERC.).                                30357001   41
+           THE ERROR QUOTED FOR RESONANCE ENERGIES ARE ESTIMATED  30357001   42
+           FROM CONSISTENCY CHECK BETWEEN THIS DATA AND ENERGIES  30357001   43
+           REPORTED BY THE GROUP OF COLUMBIA NEVIS CYCLOTRON,     30357001   44
+           PHYS.REV.,166(1968)1234.                               30357001   45
+STATUS     (APRVD) PROOF-COPY WAS APPROVED BY MUSGROVE(LETT. FROM 30357001   46
+            ALLEN,77/02/04) AND CONFIRMED AS FOLLOWS,             30357001   47
+            RES.ENERGY OF 27965 IN TABLE 5 AND                    30357001   48
+            RES.ENERGY OF 3984 IN TABLE6 OF NUCL.PHYS.A270('76)10830357001   49
+            SHOULD BE READ AS 17965 AND 3084, RESPECTIVELY.       30357001   50
+HISTORY    (760929C) KO.                                          30357001   51
+           (770505U) KO.-'APPROVED' ADDED.-                       30357001   52
+           (790523U) KO.-REVISED DATA IN SUBENTRIES.004,.007,.010,30357001   53
+            .013,.016,.019,.022  AND NEWENTRIES .023 TO .027 FROM 30357001   54
+            1978 HARWELL CONF.-                                   30357001   55
+           (790906U) KO. -NEWENTRIES .028,.029 AND .030.-         30357001   56
+           (810320U) STANDARD CODING CORR.-OS                     30357001   57
+           (821122U) DG.-INSERTION OF CORRIGENDUM IN REFERENCE,   30357001   58
+            CONVERSION FROM ISO-QUANT TO REACTION FORMALISM.-     30357001   59
+           (930202U) HW.-SEQUENCE INSTITUTE CODES ALTERED.-       30357001   60
+ENDBIB              58                                            30357001   61
+NOCOMMON                                                          30357001   62
+ENDSUBENT           61                                            3035700199999
+SUBENT        30357010     840530                                 30357010    1
+BIB                  3          7                                 30357010    2
+REACTION   (42-MO-95(N,G)42-MO-96,,SIG,,AV)                       30357010    3
+STATUS     FINAL DATA TAKEN FROM TABLE III OF 1978HARWELL CONF. ON30357010    4
+           NEUTRON PHYSICS AND NUCL.DATA,P.449.                   30357010    5
+           AFTER THE VALUES HAVE BEEN MULTIPLIED BY 0.9833.       30357010    6
+HISTORY    (790523A) KO.-ALTERATION AND ADDITION OF DATA.-        30357010    7
+           (821122A) DG.-THE VALUES HAVE BEEN CORRECTED,          30357010    8
+            CONVERSION FROM ISO-QUANT TO REACTION FORMALISM.-     30357010    9
+ENDBIB               7                                            30357010   10
+NOCOMMON             0          0                                 30357010   11
+DATA                 4         15                                 30357010   12
+EN-MIN     EN-MAX     DATA       DATA-ERR                         30357010   13
+KEV        KEV        MB         MB                               30357010   14
+ 3.0000E+00 4.0000E+00 1.2430E+03 1.4700E+02                      30357010   15
+ 4.0000E+00 5.0000E+00 1.1160E+03 1.4700E+02                      30357010   16
+ 5.0000E+00 6.0000E+00 1.0320E+03 1.0800E+02                      30357010   17
+ 6.0000E+00 8.0000E+00 8.5000E+02 8.8000E+01                      30357010   18
+ 8.0000E+00 1.0000E+01 8.2100E+02 8.8000E+01                      30357010   19
+ 1.0000E+01 1.5000E+01 6.5300E+02 7.4000E+01                      30357010   20
+ 1.5000E+01 2.0000E+01 5.4500E+02 6.4000E+01                      30357010   21
+ 2.0000E+01 3.0000E+01 4.2200E+02 4.9000E+01                      30357010   22
+ 3.0000E+01 4.0000E+01 3.6300E+02 4.4000E+01                      30357010   23
+ 4.0000E+01 5.0000E+01 2.9500E+02 3.9000E+01                      30357010   24
+ 5.0000E+01 6.0000E+01 2.6500E+02 3.4000E+01                      30357010   25
+ 6.0000E+01 8.0000E+01 2.2100E+02 2.9000E+01                      30357010   26
+ 8.0000E+01 1.0000E+02 1.9100E+02 2.5000E+01                      30357010   27
+ 1.0000E+02 1.5000E+02 1.6200E+02 2.0000E+01                      30357010   28
+ 1.5000E+02 2.0000E+02 1.4200E+02 2.0000E+01                      30357010   29
+ENDDATA             17                                            30357010   30
+ENDSUBENT           29                                            3035701099999
+SUBENT        30357024     840530                                 30357024    1
+BIB                  3          6                                 30357024    2
+REACTION   (42-MO-95(N,G)42-MO-96,,SIG,,SPA) SPECT.AV.FOR STELLAR 30357024    3
+           TEMPERATURE (MAXWELLIAN AVERAGED AT ''KT'' = 30 KEV).  30357024    4
+STATUS     DATA TAKEN FROM TABLE VIII OF 1978 HARWELL CONF. ON    30357024    5
+           NEUTRON PHYSICS AND NUCLEAR DATA, P.449.               30357024    6
+HISTORY    (790523C) KO.-NEW SUBENTRY -                           30357024    7
+           (821122U) DG.-CONVERT.FROM ISO-QUANT TO REACTION FORM.-30357024    8
+ENDBIB               6                                            30357024    9
+NOCOMMON             0          0                                 30357024   10
+DATA                 3          1                                 30357024   11
+EN-DUMMY   DATA       DATA-ERR                                    30357024   12
+KEV        MB         MB                                          30357024   13
+ 4.5000E+01 3.8000E+02 5.0000E+01                                 30357024   14
+ENDDATA              3                                            30357024   15
+ENDSUBENT           14                                            3035702499999
+ENDENTRY             3                                            3035799999999
+ENTRY            41233     970505                                 41233000    1
+SUBENT        41233001     970505                                 41233001    1
+BIB                 10         13                                 41233001    2
+INSTITUTE  (4RUSLEB)                                              41233001    3
+REFERENCE  (C,64DUBNA,104,6406)                                   41233001    4
+           (S,JINR-1845,104,6406)                                 41233001    5
+AUTHOR     (S.P.KAPCHIGASHEV,YU.P.POPOV)                          41233001    6
+TITLE       NEUTRON CAPTURE CROSS SECTION MEASUREMENTS FOR        41233001    7
+            SEVERAL MOLIBDENUM ISOTOPES                           41233001    8
+MONITOR     NO UNFORMATION                                        41233001    9
+METHOD     (SLODT)    SLOWING-DOWN TIME                           41233001   10
+ERR-ANALYS  ERRORS ARE NOT GIVEN                                  41233001   11
+INC-SOURCE (REAC)                                                 41233001   12
+STATUS     (SCSRS)                                                41233001   13
+HISTORY    (970410C)  +  +  COMPILED AT THE CENTRE - CJD(S.M.) +  41233001   14
+           (970505U)  *  *  NEW REFERENCE ADDED                   41233001   15
+ENDBIB              13                                            41233001   16
+NOCOMMON             0          0                                 41233001   17
+ENDSUBENT           16                                            4123300199999
+SUBENT        41233002     970410                                 41233002    1
+BIB                  2          2                                 41233002    2
+REACTION   (42-MO-95(N,G)42-MO-96,,SIG)                           41233002    3
+HISTORY    (970408T)  CONVERTED FROM SUBENT 80360002              41233002    4
+ENDBIB               2                                            41233002    5
+NOCOMMON             0          0                                 41233002    6
+DATA                 2         47                                 41233002    7
+EN         DATA                                                   41233002    8
+MEV        B                                                      41233002    9
+ 3.2500E-05 2.8000E-01                                            41233002   10
+ 3.5000E-05 1.5700E+00                                            41233002   11
+ 3.8000E-05 3.0000E+00                                            41233002   12
+ 4.2000E-05 5.4000E+00                                            41233002   13
+ 4.5000E-05 6.5000E+00                                            41233002   14
+ 4.9000E-05 4.8000E+00                                            41233002   15
+ 5.4000E-05 2.9800E+00                                            41233002   16
+ 6.2000E-05 1.8500E+00                                            41233002   17
+ 6.8000E-05 1.7500E+00                                            41233002   18
+ 7.7000E-05 1.5000E+00                                            41233002   19
+ 8.6000E-05 1.1200E+00                                            41233002   20
+ 1.0200E-04 2.2000E+00                                            41233002   21
+ 1.1000E-04 3.3000E+00                                            41233002   22
+ 1.1300E-04 4.7000E+00                                            41233002   23
+ 1.2500E-04 5.5000E+00                                            41233002   24
+ 1.3500E-04 6.4000E+00                                            41233002   25
+ 1.4000E-04 5.9000E+00                                            41233002   26
+ 1.6000E-04 4.8000E+00                                            41233002   27
+ 1.7500E-04 3.7500E+00                                            41233002   28
+ 1.8500E-04 2.9000E+00                                            41233002   29
+ 1.9500E-04 2.0000E+00                                            41233002   30
+ 2.3000E-04 1.0500E+00                                            41233002   31
+ 2.9000E-04 1.5500E+00                                            41233002   32
+ 3.2000E-04 2.4000E+00                                            41233002   33
+ 3.5000E-04 3.2000E+00                                            41233002   34
+ 3.8500E-04 3.0000E+00                                            41233002   35
+ 4.4000E-04 2.0000E+00                                            41233002   36
+ 4.6000E-04 1.6500E+00                                            41233002   37
+ 5.3000E-04 2.0000E+00                                            41233002   38
+ 6.5000E-04 2.3500E+00                                            41233002   39
+ 7.5000E-04 2.2000E+00                                            41233002   40
+ 8.5000E-04 1.9000E+00                                            41233002   41
+ 9.5000E-04 1.8000E+00                                            41233002   42
+ 1.1200E-03 1.9000E+00                                            41233002   43
+ 1.3500E-03 1.9500E+00                                            41233002   44
+ 1.6300E-03 1.6500E+00                                            41233002   45
+ 1.9000E-03 1.6300E+00                                            41233002   46
+ 2.4000E-03 1.3000E+00                                            41233002   47
+ 3.1000E-03 1.3000E+00                                            41233002   48
+ 4.2000E-03 1.1500E+00                                            41233002   49
+ 5.7000E-03 9.5000E-01                                            41233002   50
+ 8.5000E-03 8.3000E-01                                            41233002   51
+ 1.2500E-02 6.5000E-01                                            41233002   52
+ 1.7500E-02 5.9000E-01                                            41233002   53
+ 2.5000E-02 4.8000E-01                                            41233002   54
+ 3.0000E-02 4.4000E-01                                            41233002   55
+ 4.6000E-02 2.5500E-01                                            41233002   56
+ENDDATA             49                                            41233002   57
+ENDSUBENT           56                                            4123300299999
+ENDENTRY             2                                            4123399999999
+ENTRY            80360     830816                                 80360000    1
+SUBENT        80360001     830816                                 80360001    1
+BIB                  4          4                                 80360001    2
+INSTITUTE  (4CCPLEB)                                              80360001    3
+REFERENCE  (C,64DUBNA,104,6406)                                   80360001    4
+AUTHOR     (S.P.KAPCHIGASHEV,YU.P.POPOV)                          80360001    5
+METHOD     (SLODT)    SLOWING-DOWN TIME                           80360001    6
+ENDBIB               4                                            80360001    7
+NOCOMMON             0          0                                 80360001    8
+ENDSUBENT            7                                            8036000199999
+SUBENT        80360002     830816                                 80360002    1
+BIB                  1          1                                 80360002    2
+REACTION   (42-MO-95(N,G)42-MO-96,,SIG)                           80360002    3
+ENDBIB               1                                            80360002    4
+NOCOMMON             0          0                                 80360002    5
+DATA                 2         47                                 80360002    6
+EN         DATA                                                   80360002    7
+MEV        B                                                      80360002    8
+ 3.2500E-05 2.8000E-01                                            80360002    9
+ 3.5000E-05 1.5700E+00                                            80360002   10
+ 3.8000E-05 3.0000E+00                                            80360002   11
+ 4.2000E-05 5.4000E+00                                            80360002   12
+ 4.5000E-05 6.5000E+00                                            80360002   13
+ 4.9000E-05 4.8000E+00                                            80360002   14
+ 5.4000E-05 2.9800E+00                                            80360002   15
+ 6.2000E-05 1.8500E+00                                            80360002   16
+ 6.8000E-05 1.7500E+00                                            80360002   17
+ 7.7000E-05 1.5000E+00                                            80360002   18
+ 8.6000E-05 1.1200E+00                                            80360002   19
+ 1.0200E-04 2.2000E+00                                            80360002   20
+ 1.1000E-04 3.3000E+00                                            80360002   21
+ 1.1300E-04 4.7000E+00                                            80360002   22
+ 1.2500E-04 5.5000E+00                                            80360002   23
+ 1.3500E-04 6.4000E+00                                            80360002   24
+ 1.4000E-04 5.9000E+00                                            80360002   25
+ 1.6000E-04 4.8000E+00                                            80360002   26
+ 1.7500E-04 3.7500E+00                                            80360002   27
+ 1.8500E-04 2.9000E+00                                            80360002   28
+ 1.9500E-04 2.0000E+00                                            80360002   29
+ 2.3000E-04 1.0500E+00                                            80360002   30
+ 2.9000E-04 1.5500E+00                                            80360002   31
+ 3.2000E-04 2.4000E+00                                            80360002   32
+ 3.5000E-04 3.2000E+00                                            80360002   33
+ 3.8500E-04 3.0000E+00                                            80360002   34
+ 4.4000E-04 2.0000E+00                                            80360002   35
+ 4.6000E-04 1.6500E+00                                            80360002   36
+ 5.3000E-04 2.0000E+00                                            80360002   37
+ 6.5000E-04 2.3500E+00                                            80360002   38
+ 7.5000E-04 2.2000E+00                                            80360002   39
+ 8.5000E-04 1.9000E+00                                            80360002   40
+ 9.5000E-04 1.8000E+00                                            80360002   41
+ 1.1200E-03 1.9000E+00                                            80360002   42
+ 1.3500E-03 1.9500E+00                                            80360002   43
+ 1.6300E-03 1.6500E+00                                            80360002   44
+ 1.9000E-03 1.6300E+00                                            80360002   45
+ 2.4000E-03 1.3000E+00                                            80360002   46
+ 3.1000E-03 1.3000E+00                                            80360002   47
+ 4.2000E-03 1.1500E+00                                            80360002   48
+ 5.7000E-03 9.5000E-01                                            80360002   49
+ 8.5000E-03 8.3000E-01                                            80360002   50
+ 1.2500E-02 6.5000E-01                                            80360002   51
+ 1.7500E-02 5.9000E-01                                            80360002   52
+ 2.5000E-02 4.8000E-01                                            80360002   53
+ 3.0000E-02 4.4000E-01                                            80360002   54
+ 4.6000E-02 2.5500E-01                                            80360002   55
+ENDDATA             49                                            80360002   56
+ENDSUBENT           55                                            8036000299999
+ENDENTRY             2                                            8036099999999
+ENDREQUEST           1                                            Z999999999999

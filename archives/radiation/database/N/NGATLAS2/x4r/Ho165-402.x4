@@ -1,0 +1,134 @@
+REQUEST           1001   20010914          3     143452               0  0    0
+ENTRY            12091     821012                                 12091000    1
+SUBENT        12091001     821012                                 12091001    1
+BIB                  6          8                                 12091001    2
+INSTITUTE  (1USALRL)                                              12091001    3
+REFERENCE  (J,JIN,30,15,68)                                       12091001    4
+AUTHOR     (D.R.NETHAWAY,M.C.MISSIMER)                            12091001    5
+TITLE      THE HALF-LIVES OF HO-166, TM-167, TM-168 AND THE       12091001    6
+           HO-165 (N,GAMMA) HO-166M CROSS SECTION.                12091001    7
+STATUS     (SCSRS)                                                12091001    8
+HISTORY    (760803T) TRANSLATED FROM SCISRS                       12091001    9
+           (821012A) CONVERTED TO REACTION FORMALISM              12091001   10
+ENDBIB               8                                            12091001   11
+NOCOMMON             0          0                                 12091001   12
+ENDSUBENT           11                                            1209100199999
+SUBENT        12091002     821012                                 12091002    1
+BIB                  5          6                                 12091002    2
+REACTION   (67-HO-165(N,G)67-HO-166-M,,SIG,,MXW)                  12091002    3
+METHOD     (ACTIV)    ACTIVATION                                  12091002    4
+DECAY-DATA (67-HO-166-M,1200.YR,DG,184.,0.74,DG,810./830.,0.655)  12091002    5
+MONITOR    (69-TM-170(N,G)69-TM-171,,SIG)                         12091002    6
+            BASED ON TM170 THERMAL CAPTURE=125B.                  12091002    7
+INC-SPECT   THERMAL SPECTRUM                                      12091002    8
+ENDBIB               6                                            12091002    9
+COMMON               1          3                                 12091002   10
+HL                                                                12091002   11
+YR                                                                12091002   12
+ 1.2    +04                                                       12091002   13
+ENDCOMMON            3                                            12091002   14
+DATA                 4          1                                 12091002   15
+EN-DUMMY   DATA       DATA-ERR   MONIT                            12091002   16
+MEV        B          B          B                                12091002   17
+ 2.53   -08 3.4    +00 5.     -01 125.                            12091002   18
+ENDDATA              3                                            12091002   19
+ENDSUBENT           18                                            1209100299999
+ENDENTRY             2                                            1209199999999
+ENTRY            12094     860707                                 12094000    1
+SUBENT        12094001     860707                                 12094001    1
+BIB                  8          9                                 12094001    2
+INSTITUTE  (1USAMTR)                                              12094001    3
+REFERENCE  (P,WASH-1041,36,6210)                                  12094001    4
+AUTHOR     (B.KEISCH,K.T.FALER)                                   12094001    5
+TITLE      HALF-LIFE DETERMINATION OF LONG-LIVED HO-166.          12094001    6
+INC-SPECT  REACTOR SPECTRUM.                                      12094001    7
+METHOD     (ACTIV)                                                12094001    8
+STATUS     (SCSRS)                                                12094001    9
+HISTORY    (760803T) TRANSLATED FROM SCISRS                       12094001   10
+           (821012A) CONVERTED TO REACTION FORMALISM              12094001   11
+ENDBIB               9                                            12094001   12
+COMMON               1          3                                 12094001   13
+EN-DUMMY                                                          12094001   14
+EV                                                                12094001   15
+ 0.0253                                                           12094001   16
+ENDCOMMON            3                                            12094001   17
+ENDSUBENT           16                                            1209400199999
+SUBENT        12094003     860707                                 12094003    1
+BIB                  3          3                                 12094003    2
+REACTION   (67-HO-165(N,G)67-HO-166-M,,SIG,,SPA)                  12094003    3
+DECAY-DATA (67-HO-166-M,90000.YR,DG,180.)                         12094003    4
+HISTORY    (860702C)                                              12094003    5
+ENDBIB               3                                            12094003    6
+NOCOMMON             0          0                                 12094003    7
+DATA                 1          1                                 12094003    8
+DATA-APRX                                                         12094003    9
+B                                                                 12094003   10
+ 1.                                                               12094003   11
+ENDDATA              3                                            12094003   12
+ENDSUBENT           11                                            1209400399999
+ENDENTRY             2                                            1209499999999
+ENTRY            32582     960502                                 32582000    1
+SUBENT        32582001     960502                                 32582001    1
+BIB                 14         43                                 32582001    2
+INSTITUTE  (3CPRSIU)                                              32582001    3
+REFERENCE  (J,CNP,17,(1),43,95)                                   32582001    4
+           (W,WANG CHUNHAO,9304)PRIVATE COMMUNICATION             32582001    5
+AUTHOR     (XIA YIJUN,WANG CHUNHAO,LONG XIANGUAN,YANG JINGFU,     32582001    6
+           HE FUGING,YANG ZHIHUA,PENG XIUFENG,LIU MANTIAN,        32582001    7
+           LUO XIAOBING,LU HANLIN)                                32582001    8
+TITLE      ACTIVATION CROSS SECTION MEASUREMENT FOR THE           32582001    9
+           HO-165(N,G)HO-166M REACTION.                           32582001   10
+FACILITY   (VDG) SICHUAN UNIVERSITY PULSED 2.5 MV VAN DE GRAAFF   32582001   11
+           ACCELERATOR                                            32582001   12
+INC-SOURCE (P-LI7,P-T)29-230 KEV AND 215-1100 KEV NEUTRONS WERE   32582001   13
+           PRODUCED BY LI-7(P,N) AND T(P,N) REACTION RESPECTIVELY 32582001   14
+           THE SAMPLES WERE IRRADIATED SIMULTANEOUSLY AT 0, 30,   32582001   15
+           60, 90 AND 120 DEGREES WITH RESPECT TO THE INCIDENT    32582001   16
+           PROTON BEAM.                                           32582001   17
+SAMPLE     99.9% PURE HO2O3 POWDER PROCESSED INTO THIN DISKS. THE 32582001   18
+           DIAMETER IS 20 MM. THE SAMPLES WERE SANDWICHED BETWEEN 32582001   19
+           TWO GOLD FOILS WITH THICKNESS 0.1 MM, WRAPPED IN 0.3   32582001   20
+           MM THICK CADMIUM FOILS.                                32582001   21
+METHOD     (ACTIV) THE INDUCED GAMMA-RAY WAS DETECTED AFTER 2     32582001   22
+           MONTHS COOLING.                                        32582001   23
+DETECTOR   (GE-IN)ORTEC GEM-30195 HPGE DETECTOR.THE ENERGY RESOLU-32582001   24
+           TION IS 2.1 KEV FOR 1332 KEV CO-60 PEAK.THE EFFICIENCY 32582001   25
+           WAS CALIBRATED WITH AM-241,CD-109,CO-57,MN-54,ZN-65,   32582001   26
+           EU-152,CO-60,AND NA-22 STANDARD GAMMA SOURCES.         32582001   27
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG) THE DATA WERE TAKEN FROM32582001   28
+           ENDF/B-6.                                              32582001   29
+CORRECTION CORRECTIONS HAVE BEEN MADE FOR NEUTRON SCATTERING      32582001   30
+           AND ATTENUATION.                                       32582001   31
+ERR-ANALYS TOTAL 20.5%,INCLUDING:                                 32582001   32
+           COUNTING STATISTICS ABOUT 19.6%;                       32582001   33
+           DETECTOR EFFICIENCY LESS THAN 1.5%;                    32582001   34
+           CORRECTION ERROR ABOUT 1.0%;                           32582001   35
+           STANDARD CROSS SECTION 3.5%;                           32582001   36
+           IRRADIATION HISTORY LESS THAN 2.0%;                    32582001   37
+           DECAY SCHEME 3.5%;                                     32582001   38
+           BACKGROUND 1.0%;                                       32582001   39
+           GAMMA SELF ABSORPTION IN THE SAMPLE 1.0%;              32582001   40
+           SAMPLE WEIGHTING 0.5%.                                 32582001   41
+STATUS     DATA TAKEN FROM THE PAPER OFFERED BY THE AUTHORS.      32582001   42
+HISTORY    (930416C) COMPILED BY LIU TINGJIN,CNDC IN APRIL 26,199 32582001   43
+           (960502A) HW.- REFERENCE ADDED IN SUB. OO1. DATA       32582001   44
+           CORRECTED IN SUB. 002 AND NEW DATA ADDED.-             32582001   45
+ENDBIB              43                                            32582001   46
+NOCOMMON             0          0                                 32582001   47
+ENDSUBENT           46                                            3258200199999
+SUBENT        32582002     930928                                 32582002    1
+BIB                  2          2                                 32582002    2
+REACTION   (67-HO-165(N,G)67-HO-166-M,,SIG)                       32582002    3
+HISTORY    (960502A) HW.-DATA CORRECTED AND NEW DATA ADDED.-      32582002    4
+ENDBIB               2                                            32582002    5
+NOCOMMON             0          0                                 32582002    6
+DATA                 4          3                                 32582002    7
+EN         EN-ERR     DATA       ERR-T                            32582002    8
+MEV        MEV        MB         MB                               32582002    9
+      0.203       0.30      37.4        5.6                       32582002   10
+      0.676      0.114      12.2        2.4                       32582002   11
+      0.974      0.126      10.9        3.4                       32582002   12
+ENDDATA              5                                            32582002   13
+ENDSUBENT           12                                            3258200299999
+ENDENTRY             2                                            3258299999999
+ENDREQUEST           1                                            Z999999999999

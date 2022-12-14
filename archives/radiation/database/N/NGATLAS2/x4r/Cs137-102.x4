@@ -1,0 +1,75 @@
+REQUEST           1001   20010914          3     142450               0  0    0
+ENTRY            10984     811005                                 10984000    1
+SUBENT        10984001     811005                                 10984001    1
+BIB                 11         11                                 10984001    2
+INSTITUTE  (1USAINL)                                              10984001    3
+REFERENCE  (J,BAP,22,993(AB9),7709)                               10984001    4
+AUTHOR     (R.ANDERL)                                             10984001    5
+TITLE      CAPTURE CROSS SECTION OF 137-CS IN THE CFRMF.          10984001    6
+FACILITY   (REAC) CFRMF                                           10984001    7
+INC-SPECT  FAST REACTOR SPECTRUM                                  10984001    8
+METHOD     (ACTIV)                                                10984001    9
+DETECTOR   (GELI)                                                 10984001   10
+DECAY-DATA (55-CS-138-G,32.MIN,DG,1435.)                          10984001   11
+ERR-ANALYS NO INFORMATION                                         10984001   12
+HISTORY    (810913C)                                              10984001   13
+ENDBIB              11                                            10984001   14
+NOCOMMON             0          0                                 10984001   15
+ENDSUBENT           14                                            1098400199999
+SUBENT        10984002     811005                                 10984002    1
+BIB                  2          2                                 10984002    2
+REACTION   (55-CS-137(N,G)55-CS-138-G,,SIG,,SPA)                  10984002    3
+ASSUMED    (ASSUM,55-CS-137(N,G)55-CS-138-M,,SIG)                 10984002    4
+ENDBIB               2                                            10984002    5
+NOCOMMON             0          0                                 10984002    6
+DATA                 4          1                                 10984002    7
+EN-DUMMY   DATA       DATA-ERR   ASSUM                            10984002    8
+EV         MB         MB         MB                               10984002    9
+ 1.         85.        13.       0.                               10984002   10
+ENDDATA              3                                            10984002   11
+ENDSUBENT           10                                            1098400299999
+ENDENTRY             2                                            1098499999999
+ENTRY            22239     931129                                 22239000    1
+SUBENT        22239001     931129                                 22239001    1
+BIB                  8         19                                 22239001    2
+REFERENCE  (S,JAERI-M-91-032,199,9103) MAIN REF.                  22239001    3
+           (S,NEANDC(J)-160,199,9103) IDENTICAL TO MAIN REF.      22239001    4
+           (S,INDC(JPN)-148,199,9103) IDENTICAL TO MAIN REF.      22239001    5
+            THIS IS AN ADDITIONAL SUBENT TO ENTRY 22174 910716    22239001    6
+TITLE      -MEASUREMENT OF THERMAL NEUTRON CROSS SECTION OF       22239001    7
+            137-CS(N,G)138-CS REACTION.                           22239001    8
+AUTHOR     (H.HARADA,H.WATANABI,T.SEKINE,Y.HATSUKAWA,K.KOBAYASHI, 22239001    9
+            T.KATOH)                                              22239001   10
+INSTITUTE  (2JPNPNC) H.H.,H.W                                     22239001   11
+           (2JPNJAE) T.S, Y.H., K.K. AND EXPERIMENTAL SITE        22239001   12
+           (2JPNNAG) T.K.                                         22239001   13
+FACILITY   (REAC ) SWIMMING-POOL-TYPE JRR-4 REACTOR               22239001   14
+SAMPLE     .ABOUT 0.4 MBQ OF CS137 WAS IRRADIATED TOGETHER WITH   22239001   15
+            CO, AU AND MO FLUX MONITORS BU USING A PNEUMATIC TUBE 22239001   16
+            EQUIPPED WITH A MOVABLE CD SHIELD. IRRADIATIONS WERE  22239001   17
+            CARRIED OUT WITH AND WITHOUT THE CD FOR 10 AND 2 MIN. 22239001   18
+STATUS     .DATA TAKEN FROM SECTION 3 OF THE MAIN REF.            22239001   19
+HISTORY    (930712C) N.O.                                         22239001   20
+           (931129E)                                              22239001   21
+ENDBIB              19                                            22239001   22
+NOCOMMON             0          0                                 22239001   23
+ENDSUBENT           22                                            2223900199999
+SUBENT        22239002     931129                                 22239002    1
+BIB                  4          7                                 22239002    2
+REACTION   (55-CS-137(N,G)55-CS-138-G,,SIG,,MXW/SPA)              22239002    3
+ANALYSIS   .A WEIGHTED MEAN OF THE CROSS-SECTION AT 2200M/S WAS   22239002    4
+            DEDUCED FROM THE INTENSITY, WITH AND WITHOUT THE CD   22239002    5
+            SHIELD, OF THE 1436 KEV GAMMA-RAY.                    22239002    6
+STATUS     .DATA TAKEN FROM SECTION 3 OF THE MAIN REF.            22239002    7
+HISTORY    (930712C) N.O.                                         22239002    8
+           (931129E)                                              22239002    9
+ENDBIB               7                                            22239002   10
+NOCOMMON             0          0                                 22239002   11
+DATA                 2          1                                 22239002   12
+DATA       DATA-ERR                                               22239002   13
+B          B                                                      22239002   14
+0.25       0.02                                                   22239002   15
+ENDDATA              3                                            22239002   16
+ENDSUBENT           15                                            2223900299999
+ENDENTRY             2                                            2223999999999
+ENDREQUEST           1                                            Z999999999999

@@ -1,0 +1,55 @@
+REQUEST           1001   20010914          3     135640               0  0    0
+ENTRY            11014     820106                                 11014000    1
+SUBENT        11014001     820106                                 11014001    1
+BIB                  6          8                                 11014001    2
+INSTITUTE  (1CANCRC)                                              11014001    3
+REFERENCE  (J,CJP,35,1347,57)                                     11014001    4
+AUTHOR     (G.A.BARTHOLOMEW,P.J.CAMPION)                          11014001    5
+TITLE      NEUTRON CAPTURE GAMMA RAYS FROM LITHIUM, BORON AND     11014001    6
+           NITROGEN.                                              11014001    7
+STATUS     (SCSRS)                                                11014001    8
+HISTORY    (760628T) TRANSLATED FROM SCISRS                       11014001    9
+           (820106A) CONVERTED TO REACTION FORMALISM              11014001   10
+ENDBIB               8                                            11014001   11
+NOCOMMON             0          0                                 11014001   12
+ENDSUBENT           11                                            1101400199999
+SUBENT        11014002     820106                                 11014002    1
+BIB                  3          4                                 11014002    2
+REACTION   (3-LI-6(N,G)3-LI-7,,SIG,,SPA)                          11014002    3
+MONITOR    (11-NA-23(N,G)11-NA-24,,SIG)                           11014002    4
+            BASED ON SODIUM THERMAL CAPTURE=505MB.                11014002    5
+INC-SPECT   REACTOR SPECTRUM                                      11014002    6
+ENDBIB               4                                            11014002    7
+NOCOMMON             0          0                                 11014002    8
+DATA                 4          1                                 11014002    9
+EN-DUMMY   DATA       DATA-ERR   MONIT                            11014002   10
+MEV        B          B          MB                               11014002   11
+ 2.53   -08 2.8    -02 8.     -03 505.                            11014002   12
+ENDDATA              3                                            11014002   13
+ENDSUBENT           12                                            1101400299999
+ENDENTRY             2                                            1101499999999
+ENTRY            60345     820331                                 60345000    1
+SUBENT        60345001     820331                                 60345001    1
+BIB                  6          6                                 60345001    2
+INSTITUTE  (2SWTETH)                                              60345001    3
+REFERENCE  (J,HPA,34,483,61)                                      60345001    4
+AUTHOR     (L.JARCZYK,J.LANG,R.MULLER,W.WOLFLI)                   60345001    5
+TITLE       (N,GAMMA)SPECTRUM AND CROSS SECTION OF LI, BE AND C.  60345001    6
+INC-SPECT   THERMAL SPECTRUM                                      60345001    7
+STATUS     (SCSRS)                                                60345001    8
+ENDBIB               6                                            60345001    9
+NOCOMMON             0          0                                 60345001   10
+ENDSUBENT            9                                            6034500199999
+SUBENT        60345002     820331                                 60345002    1
+BIB                  1          1                                 60345002    2
+REACTION   (3-LI-6(N,G)3-LI-7,,SIG,,MXW)                          60345002    3
+ENDBIB               1                                            60345002    4
+NOCOMMON             0          0                                 60345002    5
+DATA                 3          1                                 60345002    6
+EN-DUMMY   DATA       DATA-ERR                                    60345002    7
+MEV        B          B                                           60345002    8
+ 2.5300E-08 4.8000E-02 1.5000E-02                                 60345002    9
+ENDDATA              3                                            60345002   10
+ENDSUBENT            9                                            6034500299999
+ENDENTRY             2                                            6034599999999
+ENDREQUEST           1                                            Z999999999999

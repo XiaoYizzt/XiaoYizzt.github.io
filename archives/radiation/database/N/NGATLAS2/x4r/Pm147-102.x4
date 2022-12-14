@@ -1,0 +1,305 @@
+REQUEST           1001   20010914          3     142924               0  0    0
+ENTRY            10151   20001211   20010328                      10151000    1
+SUBENT        10151001   20001211   20010328                      10151001    1
+BIB                 11         21                                 10151001    2
+INSTITUTE  (1CANCRC)                                              10151001    3
+REFERENCE  (J,CJP,49,108,197101)                                  10151001    4
+AUTHOR     (R.S.MOWATT,W.H.WALKER)                                10151001    5
+TITLE      Decay Schemes for the Isomers of 148Pm and the Cross   10151001    6
+            Sections for Their Production by Neutron Capture in   10151001    7
+            147Pm                                                 10151001    8
+SAMPLE     3.2x10**14 atoms of Pm147.                             10151001    9
+METHOD     (ACTIV) Cross sections were measured by absolute gamma 10151001   10
+            counting of irradiated 147Pm. A 1% Co in Al alloy     10151001   11
+            wire was used as flux monitor.                        10151001   12
+DETECTOR   (GELI) GeLi planar diode with 2 mm depletion depth.    10151001   13
+           147Pm source was placed 2 cm directly above diode.     10151001   14
+MONITOR    (27-CO-59(N,G)27-CO-60,,SIG)                           10151001   15
+CORRECTION Correction was made for epithermal capture.            10151001   16
+STATUS     (APRVD) Approved by author.                            10151001   17
+           Data taken from reference.                             10151001   18
+HISTORY    (19720518)                                             10151001   19
+           (19740103A) BIB changes. Half-life added to data       10151001   20
+                       section.                                   10151001   21
+           (19820527A) Converted to REACTION formalism            10151001   22
+           (20001211A) Converted to new date formats, lower case. 10151001   23
+ENDBIB              21                                            10151001   24
+COMMON               1          3                                 10151001   25
+MONIT                                                             10151001   26
+B                                                                 10151001   27
+ 37.2                                                             10151001   28
+ENDCOMMON            3                                            10151001   29
+ENDSUBENT           28                                            1015100199999
+SUBENT        10151002   20001211   20010328                      10151002    1
+BIB                  3          4                                 10151002    2
+REACTION   (61-PM-147(N,G)61-PM-148-G,,SIG,,MXW)                  10151002    3
+DECAY-DATA (61-PM-148-G,5.4D,DG)                                  10151002    4
+ERR-ANALYS (DATA-ERR) Main source of uncertainty (10%) is decay   10151002    5
+            probability of selected gamma ray.                    10151002    6
+ENDBIB               4                                            10151002    7
+NOCOMMON             0          0                                 10151002    8
+DATA                 3          1                                 10151002    9
+EN-DUMMY   DATA       DATA-ERR                                    10151002   10
+EV         B          B                                           10151002   11
+0.0253     94.        10.                                         10151002   12
+ENDDATA              3                                            10151002   13
+ENDSUBENT           12                                            1015100299999
+ENDENTRY             2                                            1015199999999
+ENTRY            12100     821012                                 12100000    1
+SUBENT        12100001     821012                                 12100001    1
+BIB                  7          9                                 12100001    2
+INSTITUTE  (1USAMTR)                                              12100001    3
+REFERENCE  (J,NSE,12,519,62)                                      12100001    4
+AUTHOR     (R.P.SCHUMAN,J.R.BERRETH)                              12100001    5
+TITLE      NEUTRON ACTIVATION CROSS SECTIONS OF PM147, PM148, AND 12100001    6
+           PM148M.                                                12100001    7
+METHOD     (ACTIV) ACTIVATION                                     12100001    8
+STATUS     (SCSRS)                                                12100001    9
+HISTORY    (760803T) TRANSLATED FROM SCISRS                       12100001   10
+           (821012A) CONVERTED TO REACTION FORMALISM              12100001   11
+ENDBIB               9                                            12100001   12
+NOCOMMON             0          0                                 12100001   13
+ENDSUBENT           12                                            1210000199999
+SUBENT        12100004     821012                                 12100004    1
+BIB                  1          1                                 12100004    2
+REACTION   (61-PM-147(N,G)61-PM-148-G,,SIG,,MXW)                  12100004    3
+ENDBIB               1                                            12100004    4
+COMMON               1          3                                 12100004    5
+HL                                                                12100004    6
+D                                                                 12100004    7
+ 5.39                                                             12100004    8
+ENDCOMMON            3                                            12100004    9
+DATA                 3          1                                 12100004   10
+EN-DUMMY   DATA       DATA-ERR                                    12100004   11
+MEV        B          B                                           12100004   12
+ 2.53   -08 1.24   +02 1.3    +01                                 12100004   13
+ENDDATA              3                                            12100004   14
+ENDSUBENT           13                                            1210000499999
+ENDENTRY             2                                            1210099999999
+ENTRY            12126     821012                                 12126000    1
+SUBENT        12126001     821012                                 12126001    1
+BIB                  7         11                                 12126001    2
+INSTITUTE  (1USAORL)                                              12126001    3
+REFERENCE  (C,60VIENNA,,239,6010)                                 12126001    4
+AUTHOR     (R.W.STOUGHTON,J.HALPERIN,R.E.DRUSCHEL,F.J.JOHNSTON,   12126001    5
+           P.M.LANTZ,J.H.OLIVER,G.W.PARKER)                       12126001    6
+TITLE      MEASUREMENTS OF THERMAL CROSS-SECTIONS AND RESONANCE   12126001    7
+           INTEGRALS USING PILE NEUTRONS AND ACTIVATION           12126001    8
+           TECHNIQUES.                                            12126001    9
+METHOD     (ACTIV)                                                12126001   10
+STATUS     (SCSRS)                                                12126001   11
+HISTORY    (760803T) TRANSLATED FROM SCISRS                       12126001   12
+           (821012A) CONVERTED TO REACTION FORMALISM              12126001   13
+ENDBIB              11                                            12126001   14
+NOCOMMON             0          0                                 12126001   15
+ENDSUBENT           14                                            1212600199999
+SUBENT        12126004     821012                                 12126004    1
+BIB                  3          3                                 12126004    2
+REACTION   (61-PM-147(N,G)61-PM-148-G,,SIG,,SPA)                  12126004    3
+DECAY-DATA (61-PM-148-G,5.3D)                                     12126004    4
+INC-SPECT   REACTOR SPECTRUM                                      12126004    5
+ENDBIB               3                                            12126004    6
+NOCOMMON             0          0                                 12126004    7
+DATA                 2          1                                 12126004    8
+EN-DUMMY   DATA                                                   12126004    9
+MEV        B                                                      12126004   10
+ 2.53   -08 1.40   +02                                            12126004   11
+ENDDATA              3                                            12126004   12
+ENDSUBENT           11                                            1212600499999
+ENDENTRY             2                                            1212699999999
+ENTRY            20458     840120                                 20458000    1
+SUBENT        20458001     840120                                 20458001    1
+BIB                 14         35                                 20458001    2
+INSTITUTE  (2UK HAR)                                              20458001    3
+REFERENCE  (J,JIN,32,3433,7011)                                   20458001    4
+AUTHOR     (M.J.CABELL)                                           20458001    5
+TITLE      -ACTIVATION MEASUREMENTS OF THE CROSS SECTION OF THE   20458001    6
+            REACTION PM147(N,G)PM148G FOR REACTOR NEUTRONS.-      20458001    7
+INC-SOURCE (REAC )    DIDO REACTOR, ABOUT 10 HR IRRADIATION AT A  20458001    8
+            PNEUMATIC CARRIER POSITION OF 12HGR2 HOLE WHICH RUNS  20458001    9
+            THROUGH THE GRAPHITE REFLECTOR UNDER THE HEAVY WATER  20458001   10
+            TANK.                                                 20458001   11
+SAMPLE     .SMALL SEALED SILICA AMPOULES CONTAINING               20458001   12
+            BETWEEN 1.5 AND 3 MICR-G PM-147 DISSOLVED IN ABOUT    20458001   13
+            100 MICRO-L M HCL.                                    20458001   14
+METHOD     (ACTIV)    ACTIVATION ANALYSIS.                        20458001   15
+DETECTOR    4*PI*BETA-GAMMA COINCIDENCE COUNTER.                  20458001   16
+ANALYSIS    SEPARATION OF EXPONENTS. THE FOLLOWING HALF-LIFE      20458001   17
+            VALUES WERE USED                                      20458001   18
+            PM-147 2.623 +- 0.001 YR, PM-148G 5.370 +- 0.009 D,   20458001   19
+            AU-198 2.4946 +- 0.001 D, CO-60 5.260 +- 0.003 Y.     20458001   20
+MONITOR    (27-CO-59(N,G)27-CO-60,,SIG)                           20458001   21
+            = 37.37 +- 0.11 B, BY SILK ET AL.,                    20458001   22
+            AERE-R 6059(1969),                                    20458001   23
+           (79-AU-197(N,G)79-AU-198,,SIG)                         20458001   24
+            = 98.7 +- 0.2 B, BY HANNA ET AL.,ATOM.                20458001   25
+            ENERGY REV,7(1969)3.                                  20458001   26
+COMMENT     ADDITIONAL EXPERIMENTS INVOLVING THE IRRADIATION OF   20458001   27
+            GOLD-ALUMINIUM ALLOYS, BOTH WITH AND WITHOUT CADMIUM  20458001   28
+            BOXES, SHOWED THAT EPITHERMAL INDEX                   20458001   29
+            R * SQUARE ROOT(T/T0) WAS ALWAYS WITHIN THE RANGE     20458001   30
+            0.0012+-0.0001. MAXWELLIAN TEMPERATURE WAS 60 DEG-C.  20458001   31
+HISTORY    (710811C)                                              20458001   32
+           (760112E)                                              20458001   33
+CORRECTION  CORRECTION FOR THE FLUX VARIATION AT THE POSITION OF  20458001   34
+            IRRADIATION AND THE CORRECTION FOR PHOTO-PEAK AREA    20458001   35
+            WERE CONSIDERED.                                      20458001   36
+ERR-ANALYS NO INFORMATION                                         20458001   37
+ENDBIB              35                                            20458001   38
+COMMON               1          3                                 20458001   39
+EN-DUMMY                                                          20458001   40
+MEV                                                               20458001   41
+ 2.5300E-08                                                       20458001   42
+ENDCOMMON            3                                            20458001   43
+ENDSUBENT           42                                            2045800199999
+SUBENT        20458002     840120                                 20458002    1
+BIB                  4          5                                 20458002    2
+REACTION   (61-PM-147(N,G)61-PM-148-G,,SIG,,MXW)                  20458002    3
+PART-DET   (B-,DG)    DECAY BETA- AND GAMMAS.                     20458002    4
+STATUS      DATA FROM THE PUBLICATION.                            20458002    5
+HISTORY    (710811C)                                              20458002    6
+           (760112E)                                              20458002    7
+ENDBIB               5                                            20458002    8
+NOCOMMON             0          0                                 20458002    9
+DATA                 2          1                                 20458002   10
+DATA       DATA-ERR                                               20458002   11
+B          B                                                      20458002   12
+ 9.6000E+01 1.8000E+00                                            20458002   13
+ENDDATA              3                                            20458002   14
+ENDSUBENT           13                                            2045800299999
+ENDENTRY             2                                            2045899999999
+ENTRY            20631     840127                                 20631000    1
+SUBENT        20631001     840127                                 20631001    1
+BIB                 14         33                                 20631001    2
+INSTITUTE  (2UK ALD)                                              20631001    3
+REFERENCE  (J,JIN,29,2147,67)                                     20631001    4
+           (P,EANDC(UK)-75,,65) PRELIMINARY RESULTS.              20631001    5
+AUTHOR     (N.C.FENNER,R.S.LARGE)                                 20631001    6
+TITLE      -MEASUREMENT OF THE NEUTRON CAPTURE CROSS SECTIONS     20631001    7
+            OF PM-147, PM-148, PM-148M AND SM-147.-               20631001    8
+FACILITY   (SPECM) TWO-STAGE,15-IN.RADIUS MASS SPECTROMETER       20631001    9
+            AT A.W.R.E.                                           20631001   10
+INC-SOURCE (REAC ) DIDO REACTOR AT A.E.R.E.,HARWELL.              20631001   11
+SAMPLE     .BEFORE IRRADIATION CHEMICAL SEPARATION FROM THE       20631001   12
+            DAUGHTER PRODUCTS AND OTHER RARE EARTH IMPURITIES     20631001   13
+            AND CONVERTION TO OXIDE.                              20631001   14
+METHOD     (CHSEP) CHEMICAL SEPARATION,MASS SPECTROMETRY.         20631001   15
+ANALYSIS   .FOR THE THERMAL CROSS SECTIONS IRRADIATIONS IN        20631001   16
+            A THERMAL COLUMN.                                     20631001   17
+           .FOR THE RES.INTEGRALS IRRADIATIONS IN AN EPITHERMAL   20631001   18
+            NEUTRON FLUX AND CALCULATIONS ACCORDING TO THE        20631001   19
+            WESTCOTT FORMALISM.                                   20631001   20
+           .THE SAMARIUM DAUGHTER PRODUCTS FORMED DURING AND      20631001   21
+            AFTER IRRADIATION WAS SEPARATED CHEMICALLY FROM THE   20631001   22
+            PROMETHIUM AND THE CROSS SECTION DERIVED FROM THE     20631001   23
+            RELATIVE ABUNDANCE OF THE SAMARIUM ISOTOPES.          20631001   24
+MONITOR    (27-CO-59(N,G)27-CO-60,,SIG,,MXW)                      20631001   25
+            THERMAL CROSS SECTION = 37.4 B.                       20631001   26
+           .THE G-FACTORS IS ASSUMED TO BE = 1.                   20631001   27
+STATUS     .TAKEN FROM J.INORG.NUCL.CHEM.,29(1967)2147.           20631001   28
+HISTORY    (760901C)                                              20631001   29
+           (770331E)                                              20631001   30
+CORRECTION .FOR SELF-SHIELDING OF CO MONITORS.                    20631001   31
+ERR-ANALYS .5 PER CENT ERROR BECAUSE OF THE DIFFERENCE OF THE     20631001   32
+            FLUX THROUGHT THE SAMPLE AND COBALT MONITOR.          20631001   33
+           .9 PER CENT ERROR FOR THE RATIO OF THE RADIATION       20631001   34
+            PRODUCTS TO THE SAMPLE IRRADIATED.                    20631001   35
+ENDBIB              33                                            20631001   36
+NOCOMMON             0          0                                 20631001   37
+ENDSUBENT           36                                            2063100199999
+SUBENT        20631003     840127                                 20631003    1
+BIB                  3          6                                 20631003    2
+REACTION   (61-PM-147(N,G)61-PM-148-G,,SIG,,MXW)                  20631003    3
+            THERMAL CROSS SECTION FOR                             20631003    4
+            THE BUILDING OF THE GROUND STATE (5.4 D).             20631003    5
+HALF-LIFE  (HL,61-PM-148-G)  HALF LIFE USED IN THE EXPERIMENT.    20631003    6
+HISTORY    (760901C)                                              20631003    7
+           (770331E)                                              20631003    8
+ENDBIB               6                                            20631003    9
+NOCOMMON             0          0                                 20631003   10
+DATA                 4          1                                 20631003   11
+EN-DUMMY   DATA       DATA-ERR   HL                               20631003   12
+EV         B          B          D                                20631003   13
+ 2.5300E-02 8.2000E+01 8.0000E+00 5.4000E+00                      20631003   14
+ENDDATA              3                                            20631003   15
+ENDSUBENT           14                                            2063100399999
+ENDENTRY             2                                            2063199999999
+ENTRY            22376   19990604   19991117                      22376000    1
+SUBENT        22376001   19990604   19991117                      22376001    1
+BIB                 13         35                                 22376001    2
+TITLE       EXPERIMENTAL DETERMINATION OF THE STELLAR NEUTRON     22376001    3
+            CAPTURE CROSS SECTIONS OF THE SHORT-LIVED RADIOACTIVE 22376001    4
+            ISOTOPE 147-PM                                        22376001    5
+AUTHOR     (TH.W.GERSTENHOEFER)                                   22376001    6
+INSTITUTE  (2GERKFK)                                              22376001    7
+REFERENCE  (R,KFK-5180,199303) THESIS OF THE HEIDELBERG RUPRECHT- 22376001    8
+                KARLS-UNIVERSITY'S GENERAL FACULTY.               22376001    9
+                                MAIN REFERENCE, DATA ARE GIVEN    22376001   10
+           (J,NIM/A,292,595,1990)        EXPERIMENTAL DETAILS     22376001   11
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)                         22376001   12
+METHOD     (ACTIV) ACTIVATION                                     22376001   13
+FACILITY   (VDG,2GERKFK)  3.75 MV VAN DE GRAAFF ACCELERATOR.      22376001   14
+             PROTONS FOR NEUTRON PRODUCTION WER PRODUCED BY HIGH- 22376001   15
+             FREQUENCY GAS DISCHARGE. PROTON PULSE WIDTH IS APPR. 22376001   16
+             1 NS.                                                22376001   17
+DETECTOR   (GLASD) LI-6 GLASS DETECTOR FOR TRANSMISSION MEASURE-  22376001   18
+                   MENTS                                          22376001   19
+INC-SOURCE (P-LI7) WATER-COOLED METALLIC LI TARGET OF ABOUT       22376001   20
+                   0.5 MG/CM2 (10 MICROMETER) THICKNESS ON 1 CM   22376001   21
+                   IN DIAMETER COPPER BACKING.                    22376001   22
+INC-SPECT  .PROTON  ENERGY IS 31 KEV ABOVE THE REACTION THRESHOLD 22376001   23
+            1.881 MeV GIVING APPROXIMATELY MAXWELL NEUTRON ENERGY 22376001   24
+            DISTRIBUTION WITH TEMPERATURE 25 KEV                  22376001   25
+SAMPLE     .COMMON SAMPLES - ALL ROUND DISKS WITH 1-0.8 MM DIAM.  22376001   26
+           -FOUR METALLIC GOLD SAMPLES OF 0.025 AND 0.1 MM THICK- 22376001   27
+            NESS, MASSES 27.82-152.91 MG CANNED IN POLYETHYLENE   22376001   28
+            FOILS 5 AND 10 MICRONS                                22376001   29
+           -SCATTERING SAMPLE OF BISMUTH OXIDE BI2-O3 939.88 MG   22376001   30
+            1.6 MM THICK                                          22376001   31
+           -TWO LEAD SCATTERING SAMPLES 0.1MM THICK, MASSES 78.47 22376001   32
+            AND 51.08 MG                                          22376001   33
+            WERE PRESENT IN ALL MEASUREMENTS' RUNS                22376001   34
+COMMENT    .EN-MEAN IN COMMON SECTION IS (3/2)*KT                 22376001   35
+HISTORY    (19980215C)  + +  COMPILED BY S.MAEV   + +             22376001   36
+           (19990604A) DATE is corrected                          22376001   37
+ENDBIB              35                                            22376001   38
+COMMON               1          3                                 22376001   39
+EN-MEAN                                                           22376001   40
+KEV                                                               22376001   41
+  37.5                                                            22376001   42
+ENDCOMMON            3                                            22376001   43
+ENDSUBENT           42                                            2237600199999
+SUBENT        22376002   19990604   19991117                      22376002    1
+BIB                  6         19                                 22376002    2
+REACTION   (61-PM-147(N,G)61-PM-148-G,,SIG,,MXW)                  22376002    3
+DETECTOR   (HPGE) HIGH PURITY GERMANIUM DETECTOR                  22376002    4
+DECAY-DATA (61-PM-147,2.626YR,B-,223.0,1.00)                      22376002    5
+           (61-PM-147,2.626YR,G,121.0,0.0000285)                  22376002    6
+           (61-PM-148-G,5.370D,DG)                                22376002    7
+SAMPLE     .PROMETIUM OXIDE PM2-O3 POWDER DISK 1 MM DIAMETER      22376002    8
+            ENRICHED BY ISOTOPE PM-147 TO 72 PC. THICKNESS IS     22376002    9
+            0.1-0.2 MM, MASSE 2.51 Ci, CANNED IN POLYETHYLENE     22376002   10
+            FOIL 10 MICRON. SAMARIUM-147 ADMIXTURE CONTENT        22376002   11
+            IS 28 PC                                              22376002   12
+STATUS     .DATA ARE TAKEN FROM MAIN REFERENCE                    22376002   13
+ERR-ANALYS (ERR-T)  TOTAL ERROR EQUAL TO SUM 0F STATISTICAL AND   22376002   14
+                    TOTAL SYSTEMATIC ERROR.                       22376002   15
+           (ERR-1) ERROR DUE TO REGISTRATION                      22376002   16
+           (ERR-2) ERROR DUE TO SAMPLE THICKNESS                  22376002   17
+           (ERR-3) ERROR DUE TO TIME-OF-FLIGHT UNCERTAINTY        22376002   18
+           (ERR-4) ERROR DUE TO GAMMA-RAY INTENSITY               22376002   19
+           (ERR-5) ERROR DUE TO DETECTOR EFFICIENCY               22376002   20
+           (ERR-6) ERROR DUE TO STANDARD CROSS-SECTION            22376002   21
+ENDBIB              19                                            22376002   22
+NOCOMMON             0          0                                 22376002   23
+DATA                 8          1                                 22376002   24
+DATA       ERR-T      ERR-1      ERR-2      ERR-3      ERR-4      22376002   25
+ERR-5      ERR-6                                                  22376002   26
+MB         MB         PER-CENT   PER-CENT   PER-CENT   PER-CENT   22376002   27
+PER-CENT   PER-CENT                                               22376002   28
+  301.       42.        5.         10.         1.         5.      22376002   29
+      4.        1.5                                               22376002   30
+ENDDATA              6                                            22376002   31
+ENDSUBENT           30                                            2237600299999
+ENDENTRY             2                                            2237699999999
+ENDREQUEST           1                                            Z999999999999

@@ -1,0 +1,209 @@
+REQUEST           1001   20010914          3     141846               0  0    0
+ENTRY            11447     850410                                 11447000    1
+SUBENT        11447001     850410                                 11447001    1
+BIB                  6          8                                 11447001    2
+INSTITUTE  (1USAANL)                                              11447001    3
+REFERENCE  (J,PR,72,888,4711)                                     11447001    4
+AUTHOR     (L.SEREN,H.N.FRIEDLANDER,S.H.TURKEL)                   11447001    5
+METHOD     (ACTIV)                                                11447001    6
+STATUS     (SCSRS)                                                11447001    7
+HISTORY    (760715T) TRANSLATED FROM SCISRS                       11447001    8
+           (820813A) CONVERTED TO REACTION FORMALISM              11447001    9
+           (840410A) ENERGY CORRECTED.                            11447001   10
+ENDBIB               8                                            11447001   11
+COMMON               1          3                                 11447001   12
+EN-DUMMY                                                          11447001   13
+EV                                                                11447001   14
+ 0.0253                                                           11447001   15
+ENDCOMMON            3                                            11447001   16
+ENDSUBENT           15                                            1144700199999
+SUBENT        11447071     820813                                 11447071    1
+BIB                  3          3                                 11447071    2
+REACTION   (48-CD-116(N,G)48-CD-117-M,,SIG,,SPA)                  11447071    3
+INC-SPECT  REACTOR SPECTRUM                                       11447071    4
+DECAY-DATA (48-CD-117-M,3.75HR,B)                                 11447071    5
+ENDBIB               3                                            11447071    6
+NOCOMMON             0          0                                 11447071    7
+DATA                 2          1                                 11447071    8
+DATA       DATA-ERR                                               11447071    9
+B          PER-CENT                                               11447071   10
+ 1.4        20.                                                   11447071   11
+ENDDATA              3                                            11447071   12
+ENDSUBENT           11                                            1144707199999
+ENDENTRY             2                                            1144799999999
+ENTRY            20252     831122                                 20252000    1
+SUBENT        20252001     831122                                 20252001    1
+BIB                 10         14                                 20252001    2
+INSTITUTE  (2BLGMOL)                                              20252001    3
+REFERENCE  (J,RCA,6,29,6608)                                      20252001    4
+AUTHOR     (D.DECAT, P.DEL MARMOL)                                20252001    5
+TITLE      - THERMAL NEUTRON ACTIVATION CROSS-SECTION OF CD-116   20252001    6
+             FOR PRODUCTION OF THE CD-117 ISOMERS -               20252001    7
+INC-SOURCE (REAC )    BR1-REACTOR, NEUTRON FLUX = 8E11            20252001    8
+            NEUTRONS/CM**2/SEC. SLOW PILE SPECTRUM.               20252001    9
+METHOD     (ACTIV)    ACTIVATION AND CHEMICAL SEPARATION.         20252001   10
+DETECTOR   (NAICR)    SODIUM-IODIDE CRYSTAL                       20252001   11
+PART-DET   (DG   )    565-KEV GAMMA-RAYS OF IN-117, DECAY SCHEME  20252001   12
+            IN FIG. 1 OF RAD.CHIM.ACTA,6(1966)29.                 20252001   13
+STATUS     .DATA FROM RAD.CHIM.ACTA,6(1966)29.                    20252001   14
+HISTORY    (721005C)                                              20252001   15
+           (740521E)                                              20252001   16
+ENDBIB              14                                            20252001   17
+COMMON               1          3                                 20252001   18
+EN-DUMMY                                                          20252001   19
+MEV                                                               20252001   20
+ 2.5300E-08                                                       20252001   21
+ENDCOMMON            3                                            20252001   22
+ENDSUBENT           21                                            2025200199999
+SUBENT        20252002     831122                                 20252002    1
+BIB                  5          8                                 20252002    2
+REACTION   (48-CD-116(N,G)48-CD-117-M,,SIG,,SPA)                  20252002    3
+MONITOR    (29-CU-63(N,G)29-CU-64,,SIG)                           20252002    4
+            = 4.3 +- 0.2 BARN.                                    20252002    5
+STATUS     (DEP)      DEPENDENT ON RATIO IN SUBENTRY .003 AND     20252002    6
+            GROUND STATE CROSS-SECTION IN SUBENTRY .004.          20252002    7
+HISTORY    (740401C)                                              20252002    8
+           (740521E)                                              20252002    9
+ERR-ANALYS .FROM ERRORS IN SUBENTRIES .003 AND .004.              20252002   10
+ENDBIB               8                                            20252002   11
+NOCOMMON             0          0                                 20252002   12
+DATA                 3          1                                 20252002   13
+HL         DATA       DATA-ERR                                    20252002   14
+HR         B          B                                           20252002   15
+ 3.3000E+00 2.7000E-02 5.0000E-03                                 20252002   16
+ENDDATA              3                                            20252002   17
+ENDSUBENT           16                                            2025200299999
+ENDENTRY             2                                            2025299999999
+ENTRY            30246     930217                                 30246000    1
+SUBENT        30246001     930217                                 30246001    1
+BIB                 16         28                                 30246001    2
+TITLE      NEW ISOMERIC CROSS SECTION RATIOS IN NEUTRON CAPTURE   30246001    3
+           REACTIONS                                              30246001    4
+AUTHOR     (A.LAKSHMANA RAO,K.PARTHASARADHI,J.RAMA RAO)           30246001    5
+INSTITUTE  (3INDAUW)                                              30246001    6
+EXP-YEAR   (70)                                                   30246001    7
+REFERENCE  (C,70MADURAI,2,19,7012)                                30246001    8
+SAMPLE     NATURAL ELEMENTS IN METALLIC POWDER OR OXIDE FORM      30246001    9
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)                           30246001   10
+INC-SOURCE (PHOTO) ANTIMONY-BERYLLIUM PHOTONEUTRON SOURCE OF 20 C.30246001   11
+METHOD     (ACTIV) ACTIVATION METHOD PLUS ABSOLUTE GAMMA COUNTING.30246001   12
+           DECAY HALF-LIFE WAS FOLLOWED FOR UNIQUE IDENTIFICATION 30246001   13
+           OF THE REACTION PRODUCT.                               30246001   14
+DETECTOR   (SCIN) CALIBRATED 7F8 HARSHAW CRYSTAL SCINTILLATION    30246001   15
+           SPECTROMETER                                           30246001   16
+PART-DET   (DG) DECAY GAMMAS                                      30246001   17
+ANALYSIS   SPIN CUT-OFF FACTORS DEDUCED USING THE HUIZENGA-       30246001   18
+           VANDENBOSCH FORMALISM.                                 30246001   19
+ERR-ANALYS NO DETAIL GIVEN                                        30246001   20
+COMMENT    EXPERIMENTAL VALUES OF THE SPIN CUT-OFF FACTOR ARE     30246001   21
+           COMPARED WITH THE PREDICTIONS OF THE SHIFTED FERMI-GAS 30246001   22
+           MODEL,INDEPENDING PAIRING MODEL AND SUPERCONDUCTOR     30246001   23
+           MODEL                                                  30246001   24
+STATUS     DATA TAKEN FROM 70MADURAI,2,19,7012                    30246001   25
+HISTORY    (730621C) FM.                                          30246001   26
+           (790621U) KO. -SUBENTRIES.008 TO .010,.023 TO .025 ARE 30246001   27
+            SUPERSEDED. -                                         30246001   28
+           (910114U) HW.-SUBENTS 002 TO 007, 014, 015, 016, 020,  30246001   29
+           021, 022 SUPERSEDED, OBSOLETE KEYWORDS/CODES CONVERTED 30246001   30
+ENDBIB              28                                            30246001   31
+NOCOMMON                                                          30246001   32
+ENDSUBENT           31                                            3024600199999
+SUBENT        30246011     930217                                 30246011    1
+BIB                  1          1                                 30246011    2
+REACTION   (48-CD-116(N,G)48-CD-117-M,,SIG)                       30246011    3
+ENDBIB               1                                            30246011    4
+COMMON               4          3                                 30246011    5
+EN         EN-RSL     MONIT      MONIT-ERR                        30246011    6
+KEV        KEV        MB         MB                               30246011    7
+25.        5.         832.       26.                              30246011    8
+ENDCOMMON            3                                            30246011    9
+DATA                 2          1                                 30246011   10
+DATA       DATA-ERR                                               30246011   11
+MB         MB                                                     30246011   12
+18.2       1.5                                                    30246011   13
+ENDDATA              3                                            30246011   14
+ENDSUBENT           13                                            3024601199999
+ENDENTRY             2                                            3024699999999
+ENTRY            30567     840911                                 30567000    1
+SUBENT        30567001     840911                                 30567001    1
+BIB                 16         47                                 30567001    2
+INSTITUTE  (3POLIBJ)                                              30567001    3
+REFERENCE  (J,NP/A,357,1,8103) FINAL RESULT.                      30567001    4
+           (C,79KNOX,,307,7910) SE78,80,82, CD114,116, OS190,192. 30567001    5
+           (R,INDC(NDS)-103,40,7905) NO DATA GIVEN.               30567001    6
+           ((P,INR-1773/I/PL/A,17,7809)=(P,INDC(POL)-9,17,7809))  30567001    7
+             OLD VALUES OF PD,CD (AND IR),WHICH WERE REVISED LATER30567001    8
+             BY PRIV.COMM. FROM MARCINKOWSKI,80/01/28.(1ST REV.)  30567001    9
+           ((P,INR-1809/I/PL/A,1,7906)=(P,INDC(POL)-10,1,7906))   30567001   10
+             OLD VALUES OF OS190, SAME VALUES OF OS192. 1ST REV.  30567001   11
+             BY PRIV.COMM. FROM MARCINKOWSKI,80/01/28.            30567001   12
+            ===COMPILER'S NOTE 81/04/28.-                         30567001   13
+            OLD VALUES AND IDENTICAL VALUES COMPILED IN EXFOR     30567001   14
+            30482 AND 30512 HAVE BEEN SUPERCEDED BY THIS EXFOR    30567001   15
+            30567, ACCORDINGLY. SEE SUBENTRIES. ===               30567001   16
+AUTHOR     (M.HERMAN,A.MARCINKOWSKI)                              30567001   17
+TITLE      CROSS SECTIONS FOR FAST NEUTRON CAPTURE ON THE SE, PD, 30567001   18
+           CD, OS AND PT ISOTOPES. (NEW EXP.)                     30567001   19
+FACILITY   (VDG,3POLIBJ)                                          30567001   20
+INC-SOURCE (P-T)                                                  30567001   21
+METHOD     (ACTIV)                                                30567001   22
+DETECTOR   (GELI) 60 CM3 GE(LI) DETECTOR                          30567001   23
+           THE RELATIVE DETECTION EFFICIENCY WAS DETERMINED WITH  30567001   24
+           YB-169, BA-113 AND RA-226.                             30567001   25
+MONITOR    (49-IN-115(N,G)49-IN-116-M1+M2,,SIG/SUM,,,EVAL)        30567001   26
+MONIT-REF  (,F.SCHMITTROTH,R,BNL-NCS-50446,158,75)ENDF/B-3 MAT641630567001   27
+            ALSO REFERRED,R.SHER,BNL-NCS-50446(1975)150.(ENDF/B-3,30567001   28
+           MAT 6406)                                              30567001   29
+DECAY-MON  (49-IN-116-M1,54.2MIN,DG,417.,0.32) CONV.COEF.= 0.011. 30567001   30
+PART-DET   (DG)                                                   30567001   31
+STATUS     DATA TAKEN FROM TABLE 2 OF NUCL.PHYS.A357(1981)1.      30567001   32
+           (APRVD) APPROVED BY M.HERMAN,81/06/15.                 30567001   33
+HISTORY    (810428C) KO.                                          30567001   34
+           (810624U) KO. -'APRVD' ADDED -                         30567001   35
+CORRECTION THE CROSS-SECTIONS WERE CORRECTED FOR THE ATTENUATION  30567001   36
+           OF THE GAMMA-RAYS IN THE SAMPLES AND FOR SUMMING OF    30567001   37
+           CASCADE GAMMA-RAYS IN THE GE(LI) DETECTOR.             30567001   38
+ERR-ANALYS (ERR-T)                                                30567001   39
+           STATISTICAL AND SYSTEMATIC UNCERTAINTIES INCLUDING     30567001   40
+           THE UNCERTAINTY OF THE STANDARD (MONITOR) CROSS SECTION30567001   41
+            *SYSTEMATIC ERRORS CONSIST OF THE UNCERTAINTY         30567001   42
+            1)CAUSED BY BEAM CURRENT FLUCTUATION,  0.4 TO 0.8 P.C.30567001   43
+            2)OF SAMPLE WEIGHT                  ,  0.1 PER-CENT,  30567001   44
+            3)OF COUNTING EFFICIENCY            ,  1.5 TO 10 P.C.,30567001   45
+            4)OF GAMMA ATTENUATION IN THE SAMPLE,  0.5 TO 16 P.C.,30567001   46
+            5)IN THE INTEGRATION OF PULSE-HEIGHT SECT.,  3 PERCENT30567001   47
+            6)IN DETERMINATING PULSE-SUMMING IN GE(LI), 0 TO 1.7PC30567001   48
+            7)OF THE CROSS-SECTION OF REFERENCE ,        7 PERCENT30567001   49
+ENDBIB              47                                            30567001   50
+NOCOMMON             0          0                                 30567001   51
+ENDSUBENT           50                                            3056700199999
+SUBENT        30567008     840911                                 30567008    1
+BIB                  4          9                                 30567008    2
+REACTION  1(48-CD-116(N,G)48-CD-117-M,,SIG)                       30567008    3
+          2(48-CD-116(N,G)48-CD-117-G,,SIG)                       30567008    4
+SAMPLE     HIGH PURITY NATURAL ELEMENT.                           30567008    5
+DECAY-DATA1(48-CD-117-M,3.4HR,DG,715.,0.01,                       30567008    6
+                              DG,1094.,0.231)                     30567008    7
+            FROM R.J.AUBLE,NUCL.DATA SHEETS,25(1978)315.          30567008    8
+          2(48-CD-117-G,2.5HR,DG,1303.,0.184)                     30567008    9
+            FROM R.J.AUBLE,NUCL.DATA SHEETS,25(1978)315.          30567008   10
+STATUS     THIS ENTRY REPLACES EXFOR 30482.005.                   30567008   11
+ENDBIB               9                                            30567008   12
+NOCOMMON             0          0                                 30567008   13
+DATA                 7          4                                 30567008   14
+EN         EN-RSL     DATA      1ERR-T     1DATA      2ERR-T     230567008   15
+MONIT                                                             30567008   16
+MEV        MEV        MB         MB         MB         MB         30567008   17
+MB                                                                30567008   18
+ 5.3000E-01 1.4000E-01 9.8000E+00 1.1000E+00 1.8300E+01 2.0000E+0030567008   19
+ 1.8000E+02                                                       30567008   20
+ 8.6000E-01 2.1000E-01 6.5000E+00 9.0000E-01 1.2900E+01 1.5000E+0030567008   21
+ 2.0000E+02                                                       30567008   22
+ 1.2000E+00 1.5000E-01 7.2000E+00 7.0000E-01 1.1100E+01 1.2000E+0030567008   23
+ 1.7600E+02                                                       30567008   24
+ 1.3100E+00 7.0000E-02 6.7000E+00 6.0000E-01 9.0000E+00 1.0000E+0030567008   25
+ 1.7000E+02                                                       30567008   26
+ENDDATA             12                                            30567008   27
+ENDSUBENT           26                                            3056700899999
+ENDENTRY             2                                            3056799999999
+ENDREQUEST           1                                            Z999999999999

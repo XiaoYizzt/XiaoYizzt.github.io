@@ -1,0 +1,108 @@
+REQUEST           1001   20010914          3     143654               0  0    0
+ENTRY            21403     801105                                 21403000    1
+SUBENT        21403001     801105                                 21403001    1
+BIB                 13         18                                 21403001    2
+INSTITUTE  (2ITYMIL)                                              21403001    3
+REFERENCE  (J,EN,14,228,6704)                                     21403001    4
+AUTHOR     (A.FOGLIO PARA,M.MMANDELLI BETTONI)                    21403001    5
+TITLE      -ISOMERIC CROSS SECTION RATIOS FOR SOME (N,GAMMA)      21403001    6
+            REACTIONS -.                                          21403001    7
+FACILITY   (REAC ) L54 REACTOR OF CESNEF, THERMAL COLUMN.         21403001    8
+INC-SOURCE (REAC ) IN THERMAL COLUMN WITH FLUX OF 1.6 10*9        21403001    9
+            OR NEAR CORE WITH FLUX 4.5 10*11.                     21403001   10
+INC-SPECT  MAXWELLIAN SPECTRUM.                                   21403001   11
+METHOD     (ACTIV) ACTIVATION.                                    21403001   12
+DETECTOR   (NAICR) NAI(TL) CRYSTAL.                               21403001   13
+MONITOR    (79-AU-197(N,G)79-AU-198-G,,SIG) VALUE AT 2200 M/SEC   21403001   14
+            TAKEN AS 98.8+-0.3 B.                                 21403001   15
+STATUS     (NDD  ) DATA FROM PUBLICATION.                         21403001   16
+HISTORY    (800226T)                                              21403001   17
+           (800303E)                                              21403001   18
+ERR-ANALYS .TOTAL ERROR GIVEN AS SUM OF CONTRIBUTIONS FROM        21403001   19
+            STAISTICS, CORRECTIONS AND NORMALISATION ERRORS.      21403001   20
+ENDBIB              18                                            21403001   21
+COMMON               3          3                                 21403001   22
+EN-DUMMY   MONIT      MONIT-ERR                                   21403001   23
+EV         B          B                                           21403001   24
+ 2.5300E-02 9.8800E+01 3.0000E-01                                 21403001   25
+ENDCOMMON            3                                            21403001   26
+ENDSUBENT           25                                            2140300199999
+SUBENT        21403009     800303                                 21403009    1
+BIB                  5          6                                 21403009    2
+REACTION   (72-HF-177(N,G)72-HF-178-M,,SIG,,MXW) CROSS            21403009    3
+            SECTION TO MS.                                        21403009    4
+SAMPLE     .NATURAL HAFNIUM.                                      21403009    5
+DECAY-DATA (72-HF-178,4.24SEC,DG,427.,)                           21403009    6
+STATUS     .TABLE 1.                                              21403009    7
+HISTORY    (800227C)                                              21403009    8
+ENDBIB               6                                            21403009    9
+NOCOMMON             0          0                                 21403009   10
+DATA                 2          1                                 21403009   11
+DATA       DATA-ERR                                               21403009   12
+MB         MB                                                     21403009   13
+ 1.0000E+03 1.0000E+02                                            21403009   14
+ENDDATA              3                                            21403009   15
+ENDSUBENT           14                                            2140300999999
+ENDENTRY             2                                            2140399999999
+ENTRY            31467     970521                                 31467000    1
+SUBENT        31467001     970521                                 31467001    1
+BIB                 12         15                                 31467001    2
+INSTITUTE  (3DDRROS)                                              31467001    3
+REFERENCE  (J,NP,32,482,62)                                       31467001    4
+AUTHOR     (K.ALEXANDER,H.BRINCKMANN)                             31467001    5
+TITLE      Activation cross sections of Hf178m (4.3 sec) and      31467001    6
+           Hf179m (18.6 sec) for thermal neutrons.                31467001    7
+FACILITY   (REAC,3DDRROS)                                         31467001    8
+SAMPLE     Circular shaped sample of 206 mg/cm**2 Hfo2, with a    31467001    9
+           diameter of 3 cm.                                      31467001   10
+INC-SOURCE (REAC)                                                 31467001   11
+INC-SPECT  Thermal spectrum                                       31467001   12
+METHOD     (ACTIV) Activation                                     31467001   13
+MONITOR    (5-B-10(N,A)3-LI-7,,SIG)                               31467001   14
+STATUS     Data are from table 2 of Nucl. Phys. 32 (1962)         31467001   15
+           pp. 482 - 489.                                         31467001   16
+HISTORY    (970521C) Data from previous entry 70111 recompiled.   31467001   17
+ENDBIB              15                                            31467001   18
+NOCOMMON             0          0                                 31467001   19
+ENDSUBENT           18                                            3146700199999
+SUBENT        31467002     970521                                 31467002    1
+BIB                  2          2                                 31467002    2
+REACTION   (72-HF-177(N,G)72-HF-178-M1,,SIG,,MXW)                 31467002    3
+DECAY-DATA (72-HF-178-M1,4.3SEC,DG,427.,.00394)                   31467002    4
+ENDBIB               2                                            31467002    5
+NOCOMMON             0          0                                 31467002    6
+DATA                 4          1                                 31467002    7
+EN-DUMMY   DATA       DATA-ERR   MONIT                            31467002    8
+MEV        B          B          B                                31467002    9
+ 2.5300E-08 1.4000E+00 6.0000E-01 762.                            31467002   10
+ENDDATA              3                                            31467002   11
+ENDSUBENT           10                                            3146700299999
+ENDENTRY             2                                            3146799999999
+ENTRY            70111     820406                                 70111000    1
+SUBENT        70111001     820406                                 70111001    1
+BIB                  6          7                                 70111001    2
+INSTITUTE  (3DDRROS)                                              70111001    3
+REFERENCE  (J,NP,32,482,62)                                       70111001    4
+AUTHOR     (K.ALEXANDER,H.BRINCKMANN)                             70111001    5
+TITLE      ACTIVATION CROSS SECTIONS OF HF178M (4.3 SEC) AND      70111001    6
+           HF179M (18.6 SEC) FOR THERMAL NEUTRONS.                70111001    7
+METHOD     (ACTIV) ACTIVATION                                     70111001    8
+STATUS     (SCSRS)                                                70111001    9
+ENDBIB               7                                            70111001   10
+NOCOMMON             0          0                                 70111001   11
+ENDSUBENT           10                                            7011100199999
+SUBENT        70111002     820406                                 70111002    1
+BIB                  3          3                                 70111002    2
+REACTION   (72-HF-177(N,G)72-HF-178-M1,,SIG,,MXW)                 70111002    3
+DECAY-DATA (72-HF-178-M1,4.3SEC)                                  70111002    4
+MONITOR    (5-B-0(N,ABS),,SIG)                                    70111002    5
+ENDBIB               3                                            70111002    6
+NOCOMMON             0          0                                 70111002    7
+DATA                 4          1                                 70111002    8
+EN-DUMMY   DATA       DATA-ERR   MONIT                            70111002    9
+MEV        B          B          B                                70111002   10
+ 2.5300E-08 1.4000E+00 6.0000E-01 762.                            70111002   11
+ENDDATA              3                                            70111002   12
+ENDSUBENT           11                                            7011100299999
+ENDENTRY             2                                            7011199999999
+ENDREQUEST           1                                            Z999999999999

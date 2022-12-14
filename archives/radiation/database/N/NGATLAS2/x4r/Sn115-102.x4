@@ -1,0 +1,226 @@
+REQUEST           1001   20010914          3     141948               0  0    0
+ENTRY            22377   19990604   19991117                      22377000    1
+SUBENT        22377001   19990604   19991117                      22377001    1
+BIB                 10         36                                 22377001    2
+TITLE       STELLAR NEUTRON CAPTURE CROSS SECTIONS OF THE TIN     22377001    3
+            ISOTOPES                                              22377001    4
+AUTHOR     (K.WISSHAK,F.VOSS,CH.THEIS,F.KAEPPELER,K.GUBER,        22377001    5
+           L.KAZAKOV,N.KORNILOV,G.REFFO)                          22377001    6
+INSTITUTE  (2GERKFK) WISSHAK, VOSS, THEIS, KAEPPELER              22377001    7
+           (1USAORL) GUBER                                        22377001    8
+           (4RUSFEI) KAZAKOV, KORNILOV                            22377001    9
+           (2ITYBOL) REFFO                                        22377001   10
+REFERENCE  (J,PR/C,54,(3),1451,199609)  MAIN REFERENCE, DATA GIVEN22377001   11
+           (J,NIM/A,292,595,1990) EXPERIMENTAL DETAILS            22377001   12
+           (J,PR/C,45,2470,1992)  EXPERIMENTAL DETAILS            22377001   13
+           (J,PR/C,48,(3),1401,199309)  EXPERIMENTAL DETAILS      22377001   14
+           (R,KFK-5067,1992)            EXPERIMENTAL DETAILS      22377001   15
+MONITOR    .GIVEN, IF RELEVANT, IN PROPER SUBENTS                 22377001   16
+FACILITY   (VDG,2GERKFK)  3.75 MV VAN DE GRAAFF ACCELERATOR       22377001   17
+             PULSE WIDTH IS APPRX. 1 NS, REPETITION RATE 250 kHz, 22377001   18
+             AVERAGE BEAM CURRENT 1.5-2 MICROAMPERES              22377001   19
+DETECTOR   (D4PI,SCIN)  KARLSRUHE 4PI-BA-F2 DETECTOR CONSISTING   22377001   20
+             OF 42 HEXAGONAL AND PENTAGONAL CRYSTALS FORMING      22377001   21
+            A SPHERICAL BA-F2 SHELL OF 15 CM THICKNESS AND 20 CM  22377001   22
+            INNER DIAMETER. RESOLUTION IS 7 PC AT 2.5 MEV GAMMA   22377001   23
+            ENERGY, TIME RESOLUTION 500 PS, PEAK EFFICIENCY       22377001   24
+            90 PC AT 1 MEV                                        22377001   25
+           (GLASD)  LI-6 GLASS DETECTORS FOR NEUTRON TOTAL CROSS- 22377001   26
+                    SECTION MEASUREMENT                           22377001   27
+INC-SOURCE (P-LI7) METALLIC LI TARGET OF ABOUT 0.5 MG/CM2 THICK-  22377001   28
+             NESS ON 0.2 MM THICK COPPER BACKING.                 22377001   29
+SAMPLE     .COMMON SAMPLES - ALL CYLINDRICAL WITH 15 MM DIAMETER  22377001   30
+           -METALLIC GOLD SAMPLE OF 0.25 THICKNESS(1.5048E-03     22377001   31
+            ATOMS/B), 1.871 GRAM MASS CANNED IN C-H2 POLYETHYLENE 22377001   32
+            FOIL 5.4 AND 7.2 MG WEIGHT                            22377001   33
+           -GRAPHITE SAMPLE 1.4 MM (11.9881-03 ATOMS/B)THICKNESS, 22377001   34
+            0.909 GRAM MASS -                                     22377001   35
+            WERE PRESENT IN ALL MEASUREMENTS' RUNS                22377001   36
+HISTORY    (19980208C)  + +  COMPILED BY S.MAEV   + +             22377001   37
+           (19990604A) DATE is corrected                          22377001   38
+ENDBIB              36                                            22377001   39
+NOCOMMON             0          0                                 22377001   40
+ENDSUBENT           39                                            2237700199999
+SUBENT        22377017   19990604   19991117                      22377017    1
+BIB                  5         10                                 22377017    2
+REACTION   (50-SN-115(N,G)50-SN-116,,SIG,,AV)       AVERAGED OVER 22377017    3
+             ENERGY INTERVAL GIVEN IN DATA SECTION                22377017    4
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)                         22377017    5
+METHOD     (TOF)  FLIGHT PATH IS 78.6 CM                          22377017    6
+STATUS     (TABLE) DATA TAKEN FROM TABLE VII OF MAIN REFERENCE    22377017    7
+           (DEP,22377011)                                         22377017    8
+ERR-ANALYS (ERR-T)  TOTAL ERROR EQUAL TO SUM 0F STATISTICAL AND   22377017    9
+                    TOTAL SYSTEMATIC ERROR                        22377017   10
+           (ERR-1) TOTAL SYSTEMATIC ERROR = QUADRATIC SUM OF      22377017   11
+                   CONSTITUENT ERRORS                             22377017   12
+ENDBIB              10                                            22377017   13
+COMMON               1          3                                 22377017   14
+ERR-1                                                             22377017   15
+PER-CENT                                                          22377017   16
+ 1.5                                                              22377017   17
+ENDCOMMON            3                                            22377017   18
+DATA                 6         15                                 22377017   19
+EN-MIN     EN-MAX     DATA       ERR-S      ERR-T      MONIT      22377017   20
+KEV        KEV        MB         PER-CENT   PER-CENT   MB         22377017   21
+ 10.        12.5       513.2      8.8        8.9         1066.7   22377017   22
+ 12.5       15.        450.3      7.0        7.2          878.0   22377017   23
+ 15.        20.        453.8      3.4        3.7          738.8   22377017   24
+ 20.        25.        422.5      2.4        2.8          600.0   22377017   25
+ 25.        30.        361.9      2.0        2.5          570.8   22377017   26
+ 30.        40.        360.6      1.3        2.0          500.4   22377017   27
+ 40.        50.        308.4      1.3        2.0          433.3   22377017   28
+ 50.        60.        258.6      1.3        2.0          389.6   22377017   29
+ 60.        80.        216.3      1.1        1.9          349.4   22377017   30
+ 80.       100.        190.4      1.1        1.9          298.3   22377017   31
+100.       120.        179.1      1.2        2.0          290.1   22377017   32
+120.       150.        154.5      1.9        2.4          274.1   22377017   33
+150.       175.        150.4      2.0        2.5          263.7   22377017   34
+175.       200.        149.2      2.1        2.6          252.6   22377017   35
+200.       225.        144.8      3.2        3.5          248.5   22377017   36
+ENDDATA             17                                            22377017   37
+ENDSUBENT           36                                            2237701799999
+SUBENT        22377023   19990604   19991117                      22377023    1
+BIB                  5         18                                 22377023    2
+REACTION   (50-SN-115(N,G)50-SN-116,,SIG,,MXW)                    22377023    3
+ANALYSIS   .MAXWELL AVERAGED CROSS-SECTION IS CALCULATED IN THE   22377023    4
+            ENERGY INTERVAL 1 - 700 KEV DIVIDED INTO THREE SUB-   22377023    5
+            INTERVALS.                                            22377023    6
+            1-st. ZERO-3 KEV WHERE CROSS-SECTION WAS DETERMINED   22377023    7
+             FROM STATISTICAL MODEL CALCULATION AND JOINT EVALU-  22377023    8
+             ATED FILE BOTH FITTED TO PRESENT MEASUREMENTS IN A   22377023    9
+             REGION OF OVERLAPPING.                               22377023   10
+            2-nd. 3 - 225 KEV - PRESENT MEASUREMENTS              22377023   11
+            3-d.  225 - 700 KEV - TO 460 KEV DATA WERE TAKEN FROM 22377023   12
+             TIMOKHOV ET.AL. MEASUREMENTS AND TO 700 KEV FROM     22377023   13
+             JOINT EVALUATED FILE, BOTH FITTED TO PRESENT DATA    22377023   14
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)                         22377023   15
+STATUS     (TABLE)  DATA TAKEN FROM TABLE XI OF MAIN REFERENCE    22377023   16
+           (DEP,22377017)                                         22377023   17
+ERR-ANALYS (ERR-T)  QUASI-TOTAL ERROR EQUAL TO SUM 0F STATISTICAL 22377023   18
+                    AND TOTAL SYSTEMATIC ERROR WITHOUT GOLD       22377023   19
+                    STANDARD ERROR                                22377023   20
+ENDBIB              18                                            22377023   21
+NOCOMMON             0          0                                 22377023   22
+DATA                 3         13                                 22377023   23
+KT         DATA       ERR-T                                       22377023   24
+KEV        MB         MB                                          22377023   25
+ 10.        550.7      42.                                        22377023   26
+ 12.        512.4      33.                                        22377023   27
+ 20.        413.2      16.                                        22377023   28
+ 25.        373.2      11.                                        22377023   29
+ 30.        342.4       8.7                                       22377023   30
+ 40.        298.5       6.3                                       22377023   31
+ 50.        268.8       5.2                                       22377023   32
+ 52.        263.9       5.0                                       22377023   33
+ 60.        247.4       4.5                                       22377023   34
+ 70.        231.3       4.0                                       22377023   35
+ 80.        218.5       3.8                                       22377023   36
+ 90.        208.0       3.4                                       22377023   37
+100.        198.9       3.3                                       22377023   38
+ENDDATA             15                                            22377023   39
+ENDSUBENT           38                                            2237702399999
+ENDENTRY             3                                            2237799999999
+ENTRY            40960     920729                                 40960000    1
+SUBENT        40960001     920729                                 40960001    1
+BIB                 13         29                                 40960001    2
+TITLE       AVERAGE SROSS-SECTIONS FOR NEUTRON RADIATION CAPTURE, 40960001    3
+            TRANSMISSION AND AVERAGE RESONANCE PARAMETERS FOR     40960001    4
+            TIN ISOTOPES                                          40960001    5
+AUTHOR     (V.M.TIMOKHOV,M.V.BOKHOVKO,M.V.ISAKOV,L.E.KAZAKOV,     40960001    6
+           V.N.KONONOV,G.N.MANTUROV,E.D.POLETAEV,V.G.PRONYAEV)    40960001    7
+INSTITUTE  (4CCPFEI)                                              40960001    8
+REFERENCE  (R,FEI-1921,8806)  DATA TABLES ARE GIVEN               40960001    9
+           (J,YF,50,(3),609,8909)                                 40960001   10
+FACILITY   (VDG)  ACCELERATOR EG-1 IN PULSE OPERATING MODE        40960001   11
+                PROTON PULSE DURATION 3-4 NANOSEC, REPETITION     40960001   12
+                FREQUENCY 500 KHZ AND AVERAGE CURRENT 2 MICROAMP  40960001   13
+INC-SOURCE (P-LI7)                                                40960001   14
+METHOD     (TOF)   FLIGHT BASE IS 2.1 AND 2.7 M                   40960001   15
+SAMPLE      METALLIC SAMPLES OF THE TIN ISOTOPES PLACED           40960001   16
+            IN THE CYLINDRICAL ALUMINIUM CONTAINER 40 MM AND      40960001   17
+            15 MM IN DIAMETER                                     40960001   18
+DETECTOR   (STANK) TOLUOL FLUID SCINTILLATION DETECTOR FOR        40960001   19
+                   N-GAMMA CS MEASUREMENTS                        40960001   20
+           (GLASD) GLASS DETECTOR FOR NEUTRON FLUX DETECTION      40960001   21
+           (NAICR) NA-I(TL) DETECTOR FOR GAMMAS                   40960001   22
+STATUS     (APRVD)   BOKHOVKO, 880820                             40960001   23
+MONITOR     SEVERAL ELEMENTS GIVEN IN THE PROPER SUBENTS          40960001   24
+HISTORY    (880907C)  COMPILED AT THE CJD                         40960001   25
+           (910306U)  ONE  REFERENCE AND TWO AUTHORS ADDED        40960001   26
+           (920729U)  MONIT-REF AND REACTION CODES IN MANY        40960001   27
+                      SUBENTS CORRECTED                           40960001   28
+ERR-ANALYS (ERR-1)  ERROR CAUSED BY THE NEUTRON MULTIPLE          40960001   29
+                    SCATTERING                                    40960001   30
+           (ERR-2)  SYSTEMATIC ERROR                              40960001   31
+ENDBIB              29                                            40960001   32
+COMMON               2          3                                 40960001   33
+ERR-1      ERR-2                                                  40960001   34
+PER-CENT   PER-CENT                                               40960001   35
+  .6         .3                                                   40960001   36
+ENDCOMMON            3                                            40960001   37
+ENDSUBENT           36                                            4096000199999
+SUBENT        40960004     920729                                 40960004    1
+BIB                  5          6                                 40960004    2
+REACTION   (50-SN-115(N,G)50-SN-116,,SIG,,AV)   AVERAGED OVER     40960004    3
+                 ENERGY INTERVAL EN-MIN - EN-MAX                  40960004    4
+DETECTOR   (STANK,NAICR)                                          40960004    5
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)                         40960004    6
+MONIT-REF  (40890001,KAZAKOV+,J,YK,,(2),44,85)                    40960004    7
+HISTORY    (920729U)   REF-CODE IN MONIT-REF CORRECTED            40960004    8
+ENDBIB               6                                            40960004    9
+NOCOMMON                                                          40960004   10
+DATA                 4         48                                 40960004   11
+EN-MIN     EN-MAX     DATA       ERR-T                            40960004   12
+KEV        KEV        MB         MB                               40960004   13
+  20.      24.         582.      32.                              40960004   14
+  24.      28.         451.      24.                              40960004   15
+  28.      32.         435.      23.                              40960004   16
+  32.      36.         461.      24.                              40960004   17
+  36.      40.         391.      20.                              40960004   18
+  40.      44.         384.      20.                              40960004   19
+  44.      48.         321.      16.                              40960004   20
+  48.      52.         356.      18.                              40960004   21
+  52.      56.         303.      16.                              40960004   22
+  56.      60.         305.      16.                              40960004   23
+  60.      64.         278.      14.                              40960004   24
+  64.      68.         262.      13.                              40960004   25
+  68.      72.         248.      12.                              40960004   26
+  72.      76.         256.      13.                              40960004   27
+  76.      80.         241.      12.                              40960004   28
+  80.      84.         232.      12.                              40960004   29
+  84.      88.         228.      12.                              40960004   30
+  88.      92.         226.      11.                              40960004   31
+  92.      96.         206.      10.                              40960004   32
+  96.      100.         199.      10.                             40960004   33
+ 100.      110.         204.      10.                             40960004   34
+ 110.      120.         190.      10.                             40960004   35
+ 120.      130.         174.      10.                             40960004   36
+ 130.      140.         171.      10.                             40960004   37
+ 140.      150.         159.       9.                             40960004   38
+ 150.      160.         157.       9.                             40960004   39
+ 160.      170.         159.       9.                             40960004   40
+ 170.      180.         168.      10.                             40960004   41
+ 180.      190.         152.       9.                             40960004   42
+ 190.      200.         156.       9.                             40960004   43
+ 200.      210.         145.       8.                             40960004   44
+ 210.      220.         148.       9.                             40960004   45
+ 220.      230.         149.       9.                             40960004   46
+ 230.      240.         153.       9.                             40960004   47
+ 240.      250.         153.       9.                             40960004   48
+ 250.      260.         153.       9.                             40960004   49
+ 260.      270.         157.       9.                             40960004   50
+ 270.      280.         160.       9.                             40960004   51
+ 280.      290.         157.       9.                             40960004   52
+ 290.      300.         156.       9.                             40960004   53
+ 300.      320.         141.       8.                             40960004   54
+ 320.      340.         144.       9.                             40960004   55
+ 340.      360.         139.       8.                             40960004   56
+ 360.      380.         138.       8.                             40960004   57
+ 380.      400.         139.       8.                             40960004   58
+ 400.      420.         137.       8.                             40960004   59
+ 420.      440.         139.       8.                             40960004   60
+ 440.      460.         146.       9.                             40960004   61
+ENDDATA             50                                            40960004   62
+ENDSUBENT           61                                            4096000499999
+ENDENTRY             2                                            4096099999999
+ENDREQUEST           1                                            Z999999999999

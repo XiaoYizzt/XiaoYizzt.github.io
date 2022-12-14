@@ -1,0 +1,74 @@
+REQUEST           1001   20010914          3     142227               0  0    0
+ENTRY            12046     830802                                 12046000    1
+SUBENT        12046001     830802                                 12046001    1
+BIB                  8          9                                 12046001    2
+INSTITUTE  (1USAANL) ARGONNE CANCER RESEARCH HOSPITAL             12046001    3
+REFERENCE  (P,ACRH-15,92,61)                                      12046001    4
+AUTHOR     (P.V.HARPER,W.D.SIEMENS,K.A.LATHROP,H.ENDLICH)         12046001    5
+TITLE      PRODUCTION AND USE OF I-125                            12046001    6
+METHOD     (ACTIV) ACTIVATION                                     12046001    7
+MONITOR    (27-CO-59(N,G)27-CO-60,,SIG)                           12046001    8
+STATUS     (SCSRS)                                                12046001    9
+HISTORY    (760802T) TRANSLATED FROM SCISRS                       12046001   10
+           (830802A) CONVERTED TO REACTION FORMALISM              12046001   11
+ENDBIB               9                                            12046001   12
+NOCOMMON             0          0                                 12046001   13
+ENDSUBENT           12                                            1204600199999
+SUBENT        12046002     830802                                 12046002    1
+BIB                  2          2                                 12046002    2
+REACTION   (53-I-125(N,G)53-I-126,,SIG,,MXW)                      12046002    3
+DECAY-DATA (53-I-126,60.D)                                        12046002    4
+ENDBIB               2                                            12046002    5
+NOCOMMON             0          0                                 12046002    6
+DATA                 2          1                                 12046002    7
+EN-DUMMY   DATA                                                   12046002    8
+EV         B                                                      12046002    9
+ 0.0253     890.                                                  12046002   10
+ENDDATA              3                                            12046002   11
+ENDSUBENT           10                                            1204600299999
+ENDENTRY             2                                            1204699999999
+ENTRY            20629     840127                                 20629000    1
+SUBENT        20629001     840127                                 20629001    1
+BIB                 15         23                                 20629001    2
+INSTITUTE  (2ZZZISP)                                              20629001    3
+REFERENCE  (J,JIN,26,1625,6410)                                   20629001    4
+AUTHOR     (M.BRESESTI,A.M.BRESESTI DEL TURCO,H.NEUMANN,E.ORVINI).20629001    5
+TITLE      -THE THERMAL NEUTRON CAPTURE CROSS-SECTION AND         20629001    6
+            RESONANCE CAPTURE INTEGRAL OF I-125.-                 20629001    7
+INC-SOURCE (REAC ) ISPRA 1 REACTOR.                               20629001    8
+SAMPLE     .SOLUTION OF I-125 EVAPORATED ON THIN DISK OF ALUMINIUM20629001    9
+METHOD     (ACTIV) ACTIVATION.                                    20629001   10
+DETECTOR   (NAICR) NAI (TL)-CRYSTAL.                              20629001   11
+ANALYSIS   .CADMIUM-MEASUREMENTS,WESTCOTT-FORMALISM.              20629001   12
+MONITOR    (27-CO-59(N,G)27-CO-60,,RI)                            20629001   13
+            THERMAL CROSS SECTION = 37.3 B,                       20629001   14
+            RES.INTEGRAL INCLUDING THE 1/V-PART = 75 B.           20629001   15
+COMMENT    .SAME EXPERIMENTAL SERIES AS IN J.INORG.NUCL.CHEM.,    20629001   16
+            26(1964)9 , 27(1965)1175 AND 29(1967)2477.            20629001   17
+STATUS     .TAKEN FROM J.INORG.NUCL.CHEM.,26(1964)1625.           20629001   18
+HISTORY    (761012C)                                              20629001   19
+           (770331E)                                              20629001   20
+CORRECTION .BECAUSE OF THE THIN SAMPLE NO CORRECTION IS NEEDED    20629001   21
+            FOR SELF-SHIELDING AND SELF-ABSORPTION.               20629001   22
+ERR-ANALYS .SYSTEMATIC ERRORS BY THE MEASUREMENTS OF GAMMA ACTI-  20629001   23
+            VITIES AND NEUTRON FLUX +-10 PER CENT FOR THERMAL     20629001   24
+            CROSS SECTION AND +-15 PER CENT FOR RES.INTEGRAL.     20629001   25
+ENDBIB              23                                            20629001   26
+NOCOMMON             0          0                                 20629001   27
+ENDSUBENT           26                                            2062900199999
+SUBENT        20629002     840127                                 20629002    1
+BIB                  2          4                                 20629002    2
+REACTION   (53-I-125(N,G)53-I-126,,SIG,,MXW)                      20629002    3
+            THERMAL CROSS SECTION.                                20629002    4
+HISTORY    (761012C)                                              20629002    5
+           (770331E)                                              20629002    6
+ENDBIB               4                                            20629002    7
+NOCOMMON             0          0                                 20629002    8
+DATA                 3          1                                 20629002    9
+EN-DUMMY   DATA       DATA-ERR                                    20629002   10
+EV         B          B                                           20629002   11
+ 2.5300E-02 8.9400E+02 9.0000E+01                                 20629002   12
+ENDDATA              3                                            20629002   13
+ENDSUBENT           12                                            2062900299999
+ENDENTRY             2                                            2062999999999
+ENDREQUEST           1                                            Z999999999999

@@ -1,0 +1,42 @@
+REQUEST           1001   20010914          3     140131               0  0    0
+ENTRY            20035     830901                                 20035000    1
+SUBENT        20035001     830901                                 20035001    1
+BIB                 14         19                                 20035001    2
+INSTITUTE  (2AUSSGA)                                              20035001    3
+REFERENCE  (J,ARI,19,593,6801)                                    20035001    4
+AUTHOR     (Z.T.BAK,P.RIEHS)                                      20035001    5
+TITLE      -THE REACTOR NEUTRON CROSS-SECTION OF 21-SC-46.-       20035001    6
+FACILITY   (REAC )    ASTRA REACTOR SEIBERSDORF                   20035001    7
+INC-SOURCE (REAC)     REACTOR                                     20035001    8
+INC-SPECT  .NEUTRON-FLUX = 3.8E+13 NEUTRONS/CM-SQ/SEC.            20035001    9
+           .IRRADIATED 19 DAYS IN CORE POSITION                   20035001   10
+METHOD     (ACTIV)    ACTIVATION                                  20035001   11
+DETECTOR   (GELI)     GERMANIUM-LITHIUM DETECTOR                  20035001   12
+MONITOR    (27-CO-59(N,G)27-CO-60,,SIG)                           20035001   13
+               SIGMA = 3.72+-0.6 BARN                             20035001   14
+STATUS                DATA FROM PUBLICATION.                      20035001   15
+HISTORY    (701116C)                                              20035001   16
+           (710908E)                                              20035001   17
+CORRECTION .EPITHERMAL FLUX IS SUBTRACTED BY MEANS OF CADMIUM     20035001   18
+            SHIELDED SAMPLES                                      20035001   19
+ERR-ANALYS .STATISTICAL ERROR 2 SIGMA = 0.5 BARN                  20035001   20
+           .ADDED SYSTEMATIC ERRORS +- 1.2 B                      20035001   21
+ENDBIB              19                                            20035001   22
+NOCOMMON             0          0                                 20035001   23
+ENDSUBENT           22                                            2003500199999
+SUBENT        20035002     830901                                 20035002    1
+BIB                  3          4                                 20035002    2
+REACTION   (21-SC-46(N,G)21-SC-47,,SIG,,SPA)                      20035002    3
+PART-DET   (G    )    160KEV GAMMA, RELATIVE INTENSITY 68+-2 PERC.20035002    4
+HISTORY    (701116C)                                              20035002    5
+           (710908E)                                              20035002    6
+ENDBIB               4                                            20035002    7
+NOCOMMON             0          0                                 20035002    8
+DATA                 3          1                                 20035002    9
+EN-DUMMY   DATA       DATA-ERR                                    20035002   10
+MEV        B          B                                           20035002   11
+ 2.5300E-08 7.5000E+00 1.7000E+00                                 20035002   12
+ENDDATA              3                                            20035002   13
+ENDSUBENT           12                                            2003500299999
+ENDENTRY             2                                            2003599999999
+ENDREQUEST           1                                            Z999999999999

@@ -1,0 +1,299 @@
+REQUEST           1001   20010914          3     135952               0  0    0
+ENTRY            11277     810428                                 11277000    1
+SUBENT        11277001     810428                                 11277001    1
+BIB                  7          9                                 11277001    2
+INSTITUTE  (1USAPSU)                                              11277001    3
+REFERENCE  (J,DA/B,27,919,6609)                                   11277001    4
+AUTHOR     (D.W.KAPPE)                                            11277001    5
+TITLE      A SELF-CONSISTENT SET OF THERMAL NEUTRON ACTIVATION    11277001    6
+            CROSS SECTIONS.                                       11277001    7
+INC-SPECT  THERMAL SPECTRUM                                       11277001    8
+METHOD     (ACTIV) ACTIVATION                                     11277001    9
+HISTORY    (770301C)                                              11277001   10
+           (810428A) CONVERTED TO REACTION FORMALISM              11277001   11
+ENDBIB               9                                            11277001   12
+COMMON               1          3                                 11277001   13
+EN-DUMMY                                                          11277001   14
+EV                                                                11277001   15
+ 0.0253                                                           11277001   16
+ENDCOMMON            3                                            11277001   17
+ENDSUBENT           16                                            1127700199999
+SUBENT        11277003     810428                                 11277003    1
+BIB                  4          6                                 11277003    2
+REACTION  1((16-S-34(N,G)16-S-35,,SIG,,MXW)/                      11277003    3
+           (11-NA-23(N,G)11-NA-24,,SIG,,MXW))                     11277003    4
+          2(16-S-34(N,G)16-S-35,,SIG,,MXW)                        11277003    5
+SAMPLE     NA(2)S(2)O(3).5H2O SAMPLE                              11277003    6
+MONITOR   2(11-NA-23(N,G)11-NA-24,,SIG,,MXW)                      11277003    7
+DECAY-DATA (16-S-35,86.7D,B-,167.,1.0)                            11277003    8
+ENDBIB               6                                            11277003    9
+NOCOMMON             0          0                                 11277003   10
+DATA                 5          1                                 11277003   11
+DATA      1DATA-ERR  1DATA      2DATA-ERR  2MONIT     2           11277003   12
+NO-DIM     PER-CENT   B          PER-CENT   B                     11277003   13
+ 0.443      4.         0.238      4.         0.536                11277003   14
+ENDDATA              3                                            11277003   15
+ENDSUBENT           14                                            1127700399999
+ENDENTRY             2                                            1127799999999
+ENTRY            11447     850410                                 11447000    1
+SUBENT        11447001     850410                                 11447001    1
+BIB                  6          8                                 11447001    2
+INSTITUTE  (1USAANL)                                              11447001    3
+REFERENCE  (J,PR,72,888,4711)                                     11447001    4
+AUTHOR     (L.SEREN,H.N.FRIEDLANDER,S.H.TURKEL)                   11447001    5
+METHOD     (ACTIV)                                                11447001    6
+STATUS     (SCSRS)                                                11447001    7
+HISTORY    (760715T) TRANSLATED FROM SCISRS                       11447001    8
+           (820813A) CONVERTED TO REACTION FORMALISM              11447001    9
+           (840410A) ENERGY CORRECTED.                            11447001   10
+ENDBIB               8                                            11447001   11
+COMMON               1          3                                 11447001   12
+EN-DUMMY                                                          11447001   13
+EV                                                                11447001   14
+ 0.0253                                                           11447001   15
+ENDCOMMON            3                                            11447001   16
+ENDSUBENT           15                                            1144700199999
+SUBENT        11447009     820813                                 11447009    1
+BIB                  3          3                                 11447009    2
+REACTION   (16-S-34(N,G)16-S-35,,SIG,,SPA)                        11447009    3
+INC-SPECT  REACTOR                                                11447009    4
+DECAY-DATA (16-S-35,87.1D,B-)                                     11447009    5
+ENDBIB               3                                            11447009    6
+NOCOMMON             0          0                                 11447009    7
+DATA                 2          1                                 11447009    8
+DATA       DATA-ERR                                               11447009    9
+B          PER-CENT                                               11447009   10
+ 2.6    -01 20.                                                   11447009   11
+ENDDATA              3                                            11447009   12
+ENDSUBENT           11                                            1144700999999
+ENDENTRY             2                                            1144799999999
+ENTRY            11549     830412                                 11549000    1
+SUBENT        11549001     830412                                 11549001    1
+BIB                  8         10                                 11549001    2
+INSTITUTE  (1CANCRC)                                              11549001    3
+REFERENCE  (J,NCS,19,4,61)                                        11549001    4
+AUTHOR     (R.W.DURHAM,F.GIRARDI)                                 11549001    5
+TITLE      EFFECTIVE NEUTRON ACTIVATION CROSS-SECTIONS OF SOME    11549001    6
+           CHLORINE AND SULPHUR REACTIONS IN NRX.                 11549001    7
+METHOD     (ACTIV)                                                11549001    8
+MONITOR    (27-CO-59(N,G)27-CO-60,,SIG)                           11549001    9
+STATUS     (SCSRS)                                                11549001   10
+HISTORY    (760715T) TRANSLATED FROM SCISRS                       11549001   11
+           (830412A) CONVERTED TO REACTION FORMALISM              11549001   12
+ENDBIB              10                                            11549001   13
+COMMON               1          3                                 11549001   14
+MONIT                                                             11549001   15
+B                                                                 11549001   16
+ 36.4                                                             11549001   17
+ENDCOMMON            3                                            11549001   18
+ENDSUBENT           17                                            1154900199999
+SUBENT        11549002     830412                                 11549002    1
+BIB                  2          2                                 11549002    2
+REACTION   (16-S-34(N,G)16-S-35,,SIG,,SPA)                        11549002    3
+INC-SPECT   REACTOR SPECTRUM                                      11549002    4
+ENDBIB               2                                            11549002    5
+NOCOMMON             0          0                                 11549002    6
+DATA                 3          1                                 11549002    7
+EN-DUMMY   DATA       DATA-ERR                                    11549002    8
+MEV        B          B                                           11549002    9
+ 2.53   -08 2.70   -01 4.0    -02                                 11549002   10
+ENDDATA              3                                            11549002   11
+ENDSUBENT           10                                            1154900299999
+ENDENTRY             2                                            1154999999999
+ENTRY            12896     860923                                 12896000    1
+SUBENT        12896001     860923                                 12896001    1
+BIB                 13         19                                 12896001    2
+INSTITUTE  (1USALAS,1USAORL)                                      12896001    3
+REFERENCE  (J,PR/C,32,18,8507)                                    12896001    4
+AUTHOR     (S.RAMAN,R.F.CARLTON,J.C.WELLS,E.T.JURNEY,J.E.LYNN)    12896001    5
+TITLE       THERMAL NEUTRON CAPTURE GAMMA RAYS FROM SULFUR        12896001    6
+             ISOTOPES. EXPERIMENT AND THEORY.                     12896001    7
+FACILITY   (REAC,1USALAS) LOS ALAMOS OMEGA WEST REACTOR           12896001    8
+MONITOR    (1-H-1(N,G)1-H-2,,SIG) 1/V DEPENDENCE ASSUMED          12896001    9
+METHOD     GAMMA-RAY SPECTROSCOPY.                                12896001   10
+INC-SOURCE (THCOL)                                                12896001   11
+INC-SPECT  SPECTUM TEMPERATURE 350 DEG(K).                        12896001   12
+DETECTOR   (GELI) 26-CM3 GE(LI) COAXIAL DETECTOR WITH A NAI(TL)   12896001   13
+                 ANNULUS.                                         12896001   14
+ERR-ANALYS 7 PERCENT MINIMUM UNCERTAINTY COMBINED WITH A          12896001   15
+            STATISTICAL UNCERTAINTY RELATED TO THE MEASURED       12896001   16
+            NUMBER OF COUNTS UNDER A GIVEN PEAK.                  12896001   17
+STATUS     NO REPLY TO AUTHOR PROOF.                              12896001   18
+HISTORY    (840820C)                                              12896001   19
+           (860226A) UPDATE FROM PHYS.REV.32,18                   12896001   20
+           (860923A) BIB UPDATE. ENERGY FIELD REPLACED.           12896001   21
+ENDBIB              19                                            12896001   22
+COMMON               3          3                                 12896001   23
+EN-DUMMY   MONIT      MONIT-ERR                                   12896001   24
+EV         MB         MB                                          12896001   25
+ 0.0253     332.       0.002                                      12896001   26
+ENDCOMMON            3                                            12896001   27
+ENDSUBENT           26                                            1289600199999
+SUBENT        12896003     860317                                 12896003    1
+BIB                  3          3                                 12896003    2
+REACTION   (16-S-34(N,G)16-S-35,,SIG,,MXW)                        12896003    3
+SAMPLE     1.09-G OF 77.7 PERCENT ENRICHED 34-S.                  12896003    4
+ANALYSIS   BASED ON SUBSEQUENT BETA-DECAY OF 37-S.                12896003    5
+ENDBIB               3                                            12896003    6
+NOCOMMON             0          0                                 12896003    7
+DATA                 2          1                                 12896003    8
+DATA       DATA-ERR                                               12896003    9
+MB         MB                                                     12896003   10
+ 294.       15.                                                   12896003   11
+ENDDATA              3                                            12896003   12
+ENDSUBENT           11                                            1289600399999
+ENDENTRY             2                                            1289699999999
+ENTRY            20301     840409                                 20301000    1
+SUBENT        20301001     840409                                 20301001    1
+BIB                 14         29                                 20301001    2
+INSTITUTE  (2JPNJAE)                                              20301001    3
+            RADIOISOTOPE SCHOOL, TOKYO.                           20301001    4
+REFERENCE  (J,NIM,109,493,7306)                                   20301001    5
+AUTHOR     (H.ISHIKAWA)                                           20301001    6
+TITLE      -MEASUREMENTS OF NEUTRON REACTION CROSS-SECTIONS USING 20301001    7
+            A LIQUID SCINTILLATION SPECTROMETER.-                 20301001    8
+INC-SOURCE (REAC )    JRR-2, JRR-3 REACTORS AT TOKAI.             20301001    9
+INC-SPECT   REACTOR THERMAL NEUTRON, CADMIUM RATIO OF AROUND 200. 20301001   10
+METHOD     (ACTIV)    ACTIVATION.  ACTIVITIES HAVE BEEN MEASURED  20301001   11
+            BY VARIOUS WAY SUCH AS DIRECT COMPARISON, CHANNEL     20301001   12
+            RATIO, EXTERNAL STANDARD, INTERNAL STANDARD AND       20301001   13
+            SPILL OVER METHOD.                                    20301001   14
+DETECTOR   (SCIN )    LIQUID SCINTILLATION SPECTROMETER,          20301001   15
+            PACKARD MODEL 3320 TRICARB.  INSTA-GEL(PACKARD INC.)  20301001   16
+            AS SCINTILLATOR SOLUTION.                             20301001   17
+           (NAICR)    3 INCH DIAM. 3 INCH NAI(TL) CRYSTAL FOR     20301001   18
+            STANDARD RADIOACTIVITY OF CR-51.                      20301001   19
+ANALYSIS   .AVERAGE VALUE OF VALUES OBTAINED BY VARIOUS METHODS.  20301001   20
+MONITOR    (24-CR-50(N,G)24-CR-51,,SIG)                           20301001   21
+            = 15.9 B AT THERMAL. T(1/2) = 27.8 DAY                20301001   22
+            FOR CR-51.                                            20301001   23
+PART-DET   (B-   )    DECAY BETA-.                                20301001   24
+STATUS     .TABLE 5 OF NUCL.INSTR. AND METH.109(1973)493          20301001   25
+HISTORY    (730921C)                                              20301001   26
+           (740626E)                                              20301001   27
+           (840106U) A.P.T. JAPAN CODE CHANGED TO JPN             20301001   28
+           (840106E)                                              20301001   29
+ERR-ANALYS  UNCERTAINTIES ON RADIOACTIVITY, NUMBER OF TARGET ATOMS20301001   30
+            NEUTRON FLUX DENSITY AND HALF-LIFE WERE INCLUDED.     20301001   31
+ENDBIB              29                                            20301001   32
+COMMON               1          3                                 20301001   33
+EN-DUMMY                                                          20301001   34
+MEV                                                               20301001   35
+ 2.5300E-08                                                       20301001   36
+ENDCOMMON            3                                            20301001   37
+ENDSUBENT           36                                            2030100199999
+SUBENT        20301004     831122                                 20301004    1
+BIB                  3          4                                 20301004    2
+REACTION   (16-S-34(N,G)16-S-35,,SIG,,SPA)                        20301004    3
+SAMPLE      NATURAL, CA-SO(4)-2H(2)O.                             20301004    4
+HISTORY    (730921C)                                              20301004    5
+           (740626E)                                              20301004    6
+ENDBIB               4                                            20301004    7
+NOCOMMON             0          0                                 20301004    8
+DATA                 2          1                                 20301004    9
+DATA       DATA-ERR                                               20301004   10
+B          B                                                      20301004   11
+ 2.3000E-01 3.0000E-03                                            20301004   12
+ENDDATA              3                                            20301004   13
+ENDSUBENT           12                                            2030100499999
+ENDENTRY             2                                            2030199999999
+ENTRY            22424   19991222   20010329                      22424000    1
+SUBENT        22424001   19991222   20010329                      22424001    1
+BIB                 14         23                                 22424001    2
+TITLE      .THE STELLAR (N,GAMMA) CROSS SECTION OF 34Sulfur       22424001    3
+AUTHOR     (R.REIFARTH,K.SCHWARZ, F KAEPPELER)                    22424001    4
+INSTITUTE  (2GERKFK)                                              22424001    5
+REFERENCE  (C,97TRIEST,2,1621,199705)  Main Reference             22424001    6
+FACILITY   (VDG,2GERKFK) 3.75 Karlsruhe Van de Graaf accelerator  22424001    7
+           (REAC,2GERMNZ)  TRIGA-Reactor of the University Mainz  22424001    8
+             for obtaining a number of sample atoms and detector  22424001    9
+             efficiensy using well-known thermal cross section    22424001   10
+             of 34-S                                              22424001   11
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)                         22424001   12
+INC-SOURCE (P-LI7)                                                22424001   13
+DETECTOR   (SILI)                                                 22424001   14
+PART-DET   (B-)                                                   22424001   15
+INC-SPECT   At a proton energy 1912 keV reaction 7Li(p,n) gives   22424001   16
+            a quasi-stellar neutron spectrum correcponding to     22424001   17
+            thermal energy of kT=25 keV                           22424001   18
+SAMPLE     .Sample was prepared by the electro-spraying technique 22424001   19
+            on a rotating table with 0.125 mm Al-backing foil.    22424001   20
+            A clean 34-S sample 12 mm in diameter was covered by  22424001   21
+            20 microgram/cm2 carbon foil to avoid sublimation     22424001   22
+STATUS     .Data taken from main reference                        22424001   23
+ERR-ANALYS .Not relevant                                          22424001   24
+HISTORY    (19991222C)  + + COMPILED by S.M.        + +           22424001   25
+ENDBIB              23                                            22424001   26
+NOCOMMON                                                          22424001   27
+ENDSUBENT           26                                            2242400199999
+SUBENT        22424002   19991222   20010329                      22424002    1
+BIB                  4          5                                 22424002    2
+REACTION   (16-S-34(N,G)16-S-35,,SIG,,MXW)                        22424002    3
+DECAY-DATA (16-S-35,87.5D,B-)                                     22424002    4
+ASSUMED    (ASSUM,16-S-34(N,G)16-S-35,,SIG)  For thermal energy   22424002    5
+COMMENT    .Normalization energy EN-NRM in COMMON section refers  22424002    6
+            to ASSUM value                                        22424002    7
+ENDBIB               5                                            22424002    8
+COMMON               2          3                                 22424002    9
+EN-NRM     ASSUM                                                  22424002   10
+EV         MB                                                     22424002   11
+ 2.5300E-02 227.                                                  22424002   12
+ENDCOMMON            3                                            22424002   13
+DATA                 2          1                                 22424002   14
+EN-MEAN    DATA-MAX                                               22424002   15
+KEV        MICRO-B                                                22424002   16
+  37.5       200.                                                 22424002   17
+ENDDATA              3                                            22424002   18
+ENDSUBENT           17                                            2242400299999
+ENDENTRY             2                                            2242499999999
+ENTRY            22446   20000122   20010329                      22446000    1
+SUBENT        22446001   20000122   20010329                      22446001    1
+BIB                 15         27                                 22446001    2
+TITLE       Measurement of Direct Neutron Capture by Neutron-Rich 22446001    3
+            Sulphur Isotopes                                      22446001    4
+AUTHOR     (H.BEER, C.COCEVA, R.HOFINGER, P.MOHR, H.OBERHUMMER,   22446001    5
+            P.V.SEDYSHEV, YU.P.POPOV)                             22446001    6
+INSTITUTE  (2GERKFK)  Beer                                        22446001    7
+           (2ITYBOL)  Coceva                                      22446001    8
+           (2AUSTHV)  Hofinger, Mohr, Oberhummer                  22446001    9
+           (4ZZZDUB)  Sedyshev, Popov                             22446001   10
+           (2BLGMOL)  Experimental Site                           22446001   11
+REFERENCE  (J,NP/A,621,235,1997)  Main Reference                  22446001   12
+FACILITY   (REAC,2BLGMOL)  Reactor BR1 of the "Studiecentrum      22446001   13
+             Voor Kernenergie" in Mol, Belgium                    22446001   14
+INC-SOURCE (REAC)                                                 22446001   15
+INC-SPECT   Thermal Spectrum of the Reactor Br1                   22446001   16
+DETECTOR   (GE-IN)                                                22446001   17
+MONITOR    .17-CO-35 FOR NEUTRON FLUX MONITORING. NO ADDITIONAL   22446001   18
+                     INFORMATION                                  22446001   19
+METHOD     (ACTIV,SITA)   Activation Method For Single-Target     22446001   20
+                          Irradiation                             22446001   21
+SAMPLE      Sample of Elemental Sulfur, Total Weight 313.6 Mg,    22446001   22
+            Contained in a Teflon Cylinder of 6 mm Inner Diam.    22446001   23
+            Was Enriched in 34S by 93.26% and in 36S by 5.933%.   22446001   24
+ADD-RES    (STRUC,THEO)                                           22446001   25
+ERR-ANALYS (DATA-ERR)  Errors are not Specified                   22446001   26
+STATUS     (TABLE)  Data are Taken from Table 1 of Main Ref.      22446001   27
+HISTORY    (20000122C)  + +  Compiled by S.M.                     22446001   28
+           (20000122U) Last checking has been done.               22446001   29
+ENDBIB              27                                            22446001   30
+COMMON               1          3                                 22446001   31
+EN-DUMMY                                                          22446001   32
+EV                                                                22446001   33
+   2.53E-02                                                       22446001   34
+ENDCOMMON            3                                            22446001   35
+ENDSUBENT           34                                            2244600199999
+SUBENT        22446003   20000122   20010329                      22446003    1
+BIB                  2          2                                 22446003    2
+REACTION   (16-S-34(N,G)16-S-35,,SIG,,MXW)                        22446003    3
+STATUS     (DEP,22446002)                                         22446003    4
+ENDBIB               2                                            22446003    5
+NOCOMMON                                                          22446003    6
+DATA                 2          1                                 22446003    7
+DATA       DATA-ERR                                               22446003    8
+MB         MB                                                     22446003    9
+      247.3        8.8                                            22446003   10
+ENDDATA              3                                            22446003   11
+ENDSUBENT           10                                            2244600399999
+ENDENTRY             2                                            2244699999999
+ENDREQUEST           1                                            Z999999999999

@@ -1,0 +1,131 @@
+REQUEST           1001   20010914          3     144034               0  0    0
+ENTRY            11447     850410                                 11447000    1
+SUBENT        11447001     850410                                 11447001    1
+BIB                  6          8                                 11447001    2
+INSTITUTE  (1USAANL)                                              11447001    3
+REFERENCE  (J,PR,72,888,4711)                                     11447001    4
+AUTHOR     (L.SEREN,H.N.FRIEDLANDER,S.H.TURKEL)                   11447001    5
+METHOD     (ACTIV)                                                11447001    6
+STATUS     (SCSRS)                                                11447001    7
+HISTORY    (760715T) TRANSLATED FROM SCISRS                       11447001    8
+           (820813A) CONVERTED TO REACTION FORMALISM              11447001    9
+           (840410A) ENERGY CORRECTED.                            11447001   10
+ENDBIB               8                                            11447001   11
+COMMON               1          3                                 11447001   12
+EN-DUMMY                                                          11447001   13
+EV                                                                11447001   14
+ 0.0253                                                           11447001   15
+ENDCOMMON            3                                            11447001   16
+ENDSUBENT           15                                            1144700199999
+SUBENT        11447123     820813                                 11447123    1
+BIB                  3          3                                 11447123    2
+REACTION   (78-PT-196(N,G)78-PT-197-G,,SIG,,SPA)                  11447123    3
+INC-SPECT  THERMAL SPECTRUM                                       11447123    4
+DECAY-DATA (78-PT-197-G,18.HR,B)                                  11447123    5
+ENDBIB               3                                            11447123    6
+NOCOMMON             0          0                                 11447123    7
+DATA                 2          1                                 11447123    8
+DATA       DATA-ERR                                               11447123    9
+B          PER-CENT                                               11447123   10
+ 1.1        20.                                                   11447123   11
+ENDDATA              3                                            11447123   12
+ENDSUBENT           11                                            1144712399999
+ENDENTRY             2                                            1144799999999
+ENTRY            22010     880126                                 22010000    1
+SUBENT        22010001     880126                                 22010001    1
+BIB                 12         19                                 22010001    2
+REFERENCE  (P,NEANDC(E)-272,(5),10,8606)                          22010001    3
+TITLE      -MEASUREMENT OF THE CAPTURE CROSS SECTIONS OF          22010001    4
+            DY-156 AND PT-194-M, PT-196, PT-198.                  22010001    5
+AUTHOR     (H.BEER)                                               22010001    6
+INSTITUTE  (2GERKFK)                                              22010001    7
+FACILITY   (VDG,2GERKFK) KFK 3.75 MV VAN DE GRAAFF ACCELERATOR.   22010001    8
+METHOD     (ACTIV)                                                22010001    9
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG,,MXW) MAXWELLIAN         22010001   10
+            AVERAGE CAPTURE CROSS SECTION.                        22010001   11
+DECAY-MON  (79-AU-198,2.69D,DG,412.,.955)                         22010001   12
+SAMPLE     .NO DETAILS GIVEN.                                     22010001   13
+CORRECTION .NO DETAILS GIVEN.                                     22010001   14
+STATUS     .DATA WERE TAKEN FROM MAIN REF.                        22010001   15
+HISTORY    (861125C)  NO.                                         22010001   16
+           (861212E)                                              22010001   17
+           (870605U) IF.                                          22010001   18
+           (870827E)                                              22010001   19
+           (880126U) IF.                                          22010001   20
+           (880129E)                                              22010001   21
+ENDBIB              19                                            22010001   22
+COMMON               1          3                                 22010001   23
+MONIT                                                             22010001   24
+MB                                                                22010001   25
+ 6.5700E+02                                                       22010001   26
+ENDCOMMON            3                                            22010001   27
+ENDSUBENT           26                                            2201000199999
+SUBENT        22010005     870309                                 22010005    1
+BIB                  4          5                                 22010005    2
+REACTION   (78-PT-196(N,G)78-PT-197-G,,SIG,,MXW) MAXWELLIAN       22010005    3
+DECAY-DATA (78-PT-197-G,18.3HR,DG,77.,.17)                        22010005    4
+STATUS     .DATA WERE TAKEN FROM MAIN REF. PRELIMINARY RESULTS.   22010005    5
+HISTORY    (861125C)  NO.                                         22010005    6
+           (861212E)                                              22010005    7
+ENDBIB               5                                            22010005    8
+NOCOMMON             0          0                                 22010005    9
+DATA                 2          1                                 22010005   10
+KT         DATA                                                   22010005   11
+KEV        MB                                                     22010005   12
+ 2.3400E+01 2.1300E+02                                            22010005   13
+ENDDATA              3                                            22010005   14
+ENDSUBENT           13                                            2201000599999
+ENDENTRY             2                                            2201099999999
+ENTRY            30492     850121                                 30492000    1
+SUBENT        30492001     850121                                 30492001    1
+BIB                 13         21                                 30492001    2
+INSTITUTE  (3INDAUW)                                              30492001    3
+REFERENCE  (J,NCL,5,(16),1025,7212)                               30492001    4
+           (C,70MADURAI,2,19,7012) PREVIOUS RESULT FOR PD110,PT19630492001    5
+AUTHOR     (A.LAKSHMANA RAO,J.RAMA RAO)                           30492001    6
+TITLE      ISOMER RATIOS AND THE SHIFTED FERMI GAS MODEL.         30492001    7
+EXP-YEAR   (72)                                                   30492001    8
+INC-SOURCE ANTIMONY-BERYLLIUM NEUTRON SOURCE OF 20 CURIE.         30492001    9
+METHOD     (ACTIV)                                                30492001   10
+            EXP.DETAIL, SEE A.LAKSHMANA RAO,J.RAMA RAO,JOURN.OF   30492001   11
+           PHYS.,A5(1972)1262.                                    30492001   12
+DETECTOR   (NAICR) 7F8 HARSHAW WELL-TYPE NAI(TL) AND 100 CHANNEL  30492001   13
+           ANALYSER.                                              30492001   14
+MONITOR    (53-I-127(N,G)53-I-128,,SIG) = 832+-6 MB.              30492001   15
+            FOR NEUTRON FLUX DETERMINATION.                       30492001   16
+            ===THIS INFORMATION IS GIVEN IN PROC.NUCL.PHY.AND SOL.30492001   17
+            STATE PHYS.SYMP.,MADURAI,DEC.27-30,(1970) P.19. ===   30492001   18
+PART-DET   (DG)                                                   30492001   19
+STATUS     DATA TAKEN FROM TABLE 1 OF LETT.AL NUOVO CIMENTO,5,(16)30492001   20
+            (1972)1026.                                           30492001   21
+HISTORY    (790622C) KO.                                          30492001   22
+ERR-ANALYS NO FURTHER INFORMATION.                                30492001   23
+ENDBIB              21                                            30492001   24
+COMMON               4          3                                 30492001   25
+EN         EN-RSL     MONIT      MONIT-ERR                        30492001   26
+KEV        KEV        MB         MB                               30492001   27
+ 2.5000E+01 5.0000E+00 8.3200E+02 2.6000E+01                      30492001   28
+ENDCOMMON            3                                            30492001   29
+ENDSUBENT           28                                            3049200199999
+SUBENT        30492004     850121                                 30492004    1
+BIB                  3         10                                 30492004    2
+REACTION  M(78-PT-196(N,G)78-PT-197-M,,SIG)                       30492004    3
+          G(78-PT-196(N,G)78-PT-197-G,,SIG)                       30492004    4
+          R(78-PT-196(N,G)78-PT-197-M/T,,SIG/RAT)                 30492004    5
+COMMENT   R THE EXPERIMENTAL ISOMER RATIO GIVEN BELOW IS          30492004    6
+           REPRODUCED BY THE HUIZENGA-VANDENBOSCH FORMALISM WHEN  30492004    7
+           USING                                                  30492004    8
+            1) SHIFTED FERMI-GAS MODEL(S.F.M.)  =  0.164,         30492004    9
+            2) INDEPENDENT PAIRING MODEL(I.P.M.)=  0.15,          30492004   10
+            3) SUPER CONDUCTOR MODEL (S.C.M.)   =  0.147.         30492004   11
+STATUS     THIS ENTRY REPLACES EXFOR30246.023 TO 30246.025.       30492004   12
+ENDBIB              10                                            30492004   13
+NOCOMMON             0          0                                 30492004   14
+DATA                 6          1                                 30492004   15
+DATA      MDATA-ERR  MDATA      GDATA-ERR  GDATA      RDATA-ERR  R30492004   16
+MB         MB         MB         MB         NO-DIM     NO-DIM     30492004   17
+ 1.2000E+01 2.0000E+00 6.2000E+01 8.0000E+00 1.6200E-01 5.2000E-0230492004   18
+ENDDATA              3                                            30492004   19
+ENDSUBENT           18                                            3049200499999
+ENDENTRY             2                                            3049299999999
+ENDREQUEST           1                                            Z999999999999

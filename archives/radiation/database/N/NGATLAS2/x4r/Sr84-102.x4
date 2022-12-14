@@ -1,0 +1,228 @@
+REQUEST           1001   20010914          3     141143               0  0    0
+ENTRY            12866     851106                                 12866000    1
+SUBENT        12866001     851106                                 12866001    1
+BIB                 15         51                                 12866001    2
+INSTITUTE  (1USALRL)                                              12866001    3
+REFERENCE  (C,78MAYAG,,495,7805)                                  12866001    4
+AUTHOR     (R.E.HEFT)                                             12866001    5
+TITLE      A CONSISTENT SET OF NUCLEAR-PARAMETER VALUES           12866001    6
+           FOR ABSOLUTE INSTRUMENTAL NEUTRON ACTIVATION           12866001    7
+           ANALYSIS.                                              12866001    8
+FACILITY   (REAC) LAWRENCE LIVERMORE LABORATORY LPTR RESEARCH     12866001    9
+                  REACTOR FACILITY.                               12866001   10
+METHOD     (ACTIV)                                                12866001   11
+           EPITHERMAL-TO-THERMAL FLUX RATIO WAS MEASURED IN       12866001   12
+             EACH IRRADIATION BY INCLUDING A URANIUM-SCANDIUM     12866001   13
+             STANDARD IN THE IRRADIATION PACKAGE.                 12866001   14
+INC-SPECT  REACTOR SPECTRUM. ALL NUCLIDES IRRADIATED IN POSITION  12866001   15
+            S-2 WITH A CD RATIO OF 3.8 AND IN EITHER POSITION E-1 12866001   16
+            (CD RATIO 2.5) OR POSITION A-4 (CD RATIO 2.0)         12866001   17
+            DEPENDING ON WHETHER PRODUCTS WERE LONG OR SHORT-LIVED12866001   18
+MONITOR    ELEMENT SCANDIUM WAS USED AS AN INTERNAL FLUX MONITOR  12866001   19
+             SCANDIUM VALUES WERE MEASURED BY TAKING MIXTURES OF  12866001   20
+                                COBALT-SCANDIUM                   12866001   21
+                                GOLD-SCANDIUM                     12866001   22
+                                U238-SCANDIUM                     12866001   23
+           ((MONIT1)21-SC-45(N,G)21-SC-46,,SIG)                   12866001   24
+           ((MONIT2)27-CO-59(N,G)27-CO-60,,SIG)                   12866001   25
+           ((MONIT3)79-AU-197(N,G)79-AU-198,,SIG)                 12866001   26
+           ((MONIT4)92-U-238(N,G)92-U-239,,SIG)                   12866001   27
+           ((MONIT5)21-SC-45(N,G)21-SC-46,,RI)                    12866001   28
+           ((MONIT6)27-CO-59(N,G)27-CO-60,,RI)                    12866001   29
+           ((MONIT7)79-AU-197(N,G)79-AU-198,,RI)                  12866001   30
+           ((MONIT8)92-U-238(N,G)92-U-239,,RI)                    12866001   31
+DECAY-MON  (21-SC-46-G,83.9D,DG,1120.5,1.)                        12866001   32
+           (27-CO-60-G,1922.D,DG,1332.51,1.)                      12866001   33
+           (79-AU-198-G,2.70D,DG,411.79,0.968)                    12866001   34
+           (92-U-239,0.01635D,DG,74.67,.593)                      12866001   35
+           (93-NP-239,2.353D,DG,106.07,0.252)                     12866001   36
+DETECTOR   ALL COUNTING WAS DONE ON GAMMA SPECTRAL ANALYZERS      12866001   37
+             TO MEASURE ABSOLUTE PHOTON EMISSION RATES.           12866001   38
+ANALYSIS   ALL SPECTRA GENERATED WERE ANALYZED BY COMPUTER        12866001   39
+             CODE GAMANAL TO OBTAIN A SET OF ABSOLUTE             12866001   40
+             DISINTEGRATION RATES FOR THE NUCLIDES FOUND.         12866001   41
+           THE DISINTEGRATION-RATE DATA THUS OBTAINED WERE        12866001   42
+             FURTHER ANALYZED BY ANOTHER COMPUTER CODE NADAC      12866001   43
+             TO COMPUTE THE EFFECTIVE CROSS SECTION FOR           12866001   44
+             EACH ACTIVATION PRODUCT.                             12866001   45
+ERR-ANALYS DETAILS NOT GIVEN                                      12866001   46
+             FOR SOME ELEMENTS THE ERRORS REFLECT THE EFFECTS OF  12866001   47
+             CONCENTRATION ERROR OR EVAPORATION LOSS.             12866001   48
+CORRECTION NO CORRECTION FOR THE INTERFERENCE DUE TO (N,P)        12866001   49
+             REACTION WAS DONE.                                   12866001   50
+           CORRECTION DUE TO U-235 FISSION REACTION IS IMPLIED.   12866001   51
+STATUS     (APRVD) R.E.HEFT, 84/12/27.                            12866001   52
+HISTORY    (840410C)                                              12866001   53
+ENDBIB              51                                            12866001   54
+COMMON              10          6                                 12866001   55
+MONIT1     MONIT1-ERR MONIT2     MONIT3     MONIT4     MONIT5     12866001   56
+MONIT5-ERR MONIT6     MONIT7     MONIT8                           12866001   57
+B          B          B          B          B          B          12866001   58
+B          B          B          B                                12866001   59
+27.7       0.5        37.5       98.8       2.720      12.2       12866001   60
+0.6        75.        1550.      280.                             12866001   61
+ENDCOMMON            6                                            12866001   62
+ENDSUBENT           61                                            1286600199999
+SUBENT        12866068     841227                                 12866068    1
+BIB                  3          3                                 12866068    2
+REACTION   (38-SR-84(N,G)38-SR-85-G,,SIG,,SPA)                    12866068    3
+SAMPLE     NATURAL SAMPLE,ASSUMED 0.56 PERCENT ABUNDANCE.         12866068    4
+DECAY-DATA (38-SR-85-G,6.519E+01D,DG,513.98,0.992)                12866068    5
+ENDBIB               3                                            12866068    6
+NOCOMMON             0          0                                 12866068    7
+DATA                 3          1                                 12866068    8
+EN-DUMMY   DATA       DATA-ERR                                    12866068    9
+EV         B          B                                           12866068   10
+0.025      0.199      0.010                                       12866068   11
+ENDDATA              3                                            12866068   12
+ENDSUBENT           11                                            1286606899999
+ENDENTRY             2                                            1286699999999
+ENTRY            21116     800328                                 21116000    1
+SUBENT        21116001     800328                                 21116001    1
+BIB                 15         40                                 21116001    2
+INSTITUTE  (2ITYMIL)                                              21116001    3
+REFERENCE  (J,NP,1,420,5605)                                      21116001    4
+AUTHOR     (M.ASDENTE,A.BISI,E.GERMAGNOLI,L.ZAPPA)                21116001    5
+TITLE      -ON THE RATIO BETWEEN THE ACTIVATION CROSS-SECTIONS    21116001    6
+            OF SR-84 AND SR-88 FOR SLOW NEUTRONS-                 21116001    7
+FACILITY   (REAC,2UK HAR) REACTOR IRRADIATED SAMPLES PROVIDED BY  21116001    8
+                   AERE HARWELL.                                  21116001    9
+INC-SOURCE (REAC ) REACTOR.                                       21116001   10
+INC-SPECT  NO OTHER INFORMATION THAN SLOW NEUTRONS GIVEN.         21116001   11
+SAMPLE     .SR-CO3 SAMPLES.                                       21116001   12
+METHOD     (ACTIV) ACTIVATION.                                    21116001   13
+DETECTOR   .FOR THE SR-85 ACTIVITY-                               21116001   14
+           (PROPC) AR/CH4 PROPORTIONAL COUNTER OF KNOWN           21116001   15
+                   EFFICIENCY TO MEASURE K X-RAYS FROM K-CAPTURE  21116001   16
+           (COIN,PROPC,SCIN) X-GAMMA COINCIDENCE SPECTROMETER     21116001   17
+                   CONSISTING OF PROPORTIONAL COUNTER TO DETECT   21116001   18
+                   K X-RAYS AND NAI(TL) SCINTILLATOR TO DETECT    21116001   19
+                   GAMMAS.                                        21116001   20
+           (SCIN ) SCINTILLATOR FOR COMPARISON OF 513 KEV SR-85   21116001   21
+                   PHOTOPEAK AND THE ANNIHILATION RADIATION PHOTO-21116001   22
+                   PEAK FROM NA-22 WHOSE ABSOLUTE INTENSITY HAD   21116001   23
+                   BEEN CALIBRATED.                               21116001   24
+           .FOR THE SR-89 ACTIVITY-                               21116001   25
+           .INTERMEDIATE IMAGE MAGNETIC BETA SPECTROMETER.        21116001   26
+            TRANSMISSION MEASURED USING CS-137 SOURCE CALIBRATED  21116001   27
+            WITH THE AR/CH4 PROPORTIONAL COUNTER.                 21116001   28
+DECAY-DATA (38-SR-85,65.D,EC,,1.,DG,513.) K CONVERSION COEFF.     21116001   29
+            OF THE 513 KEV GAMMAS WAS TAKEN AS 0.008.             21116001   30
+           (38-SR-89,50.4D,B-,1462.,1.)                           21116001   31
+RAD-DET    (38-SR-85,XR,DG) K X-RAYS FROM SR-85 AND 513 KEV       21116001   32
+            GAMMAS FROM RB-85 FOLLOWING THE DECAY FROM SR-85.     21116001   33
+           (38-SR-89,B-) DECAY BETAS FROM SR-89.                  21116001   34
+STATUS     (NDD  ) FROM NEUDADA. DATA ALSO IN TEXT OF             21116001   35
+                   PUBLICATION.                                   21116001   36
+HISTORY    (790918C)                                              21116001   37
+           (791112E)                                              21116001   38
+CORRECTION .CORRECTION FOR GAMMAS FROM THE ISOMERIC LEVEL OF      21116001   39
+            RB-85 (HALF-LIFE 0.9 MICRO-SEC) MISSED BY THE         21116001   40
+            COINCIDENCE APPARATUS BECAUSE OF ITS RELATIVELY       21116001   41
+            SHORT (3.7 MICRO-SEC) RESOLVING TIME.                 21116001   42
+ENDBIB              40                                            21116001   43
+COMMON               1          3                                 21116001   44
+EN-DUMMY                                                          21116001   45
+EV                                                                21116001   46
+ 2.5300E-02                                                       21116001   47
+ENDCOMMON            3                                            21116001   48
+ENDSUBENT           47                                            2111600199999
+SUBENT        21116003     800328                                 21116003    1
+BIB                  4          6                                 21116003    2
+REACTION   (38-SR-84(N,G)38-SR-85-G,,SIG,,SPA)                    21116003    3
+ANALYSIS   .FROM MEASURED RATIO OF SR-84 TO SR-88 CROSS-SECTION   21116003    4
+            AND ASSUMED VALUE OF SR-88(N,G) CROSS-SECTION.        21116003    5
+MONITOR    (38-SR-88(N,G)38-SR-89,,SIG) VALUE OF 5 MB             21116003    6
+            TAKEN FROM L.SEREN ET AL.,PHYS.REV.,72,(1947),888.    21116003    7
+STATUS     .FROM TEXT OF PUBLICATION.                             21116003    8
+ENDBIB               6                                            21116003    9
+NOCOMMON             0          0                                 21116003   10
+DATA                 3          1                                 21116003   11
+MONIT      DATA       DATA-ERR                                    21116003   12
+MB         B          B                                           21116003   13
+ 5.0000E+00 1.5900E+00 1.1000E-01                                 21116003   14
+ENDDATA              3                                            21116003   15
+ENDSUBENT           14                                            2111600399999
+ENDENTRY             2                                            2111699999999
+ENTRY            21403     801105                                 21403000    1
+SUBENT        21403001     801105                                 21403001    1
+BIB                 13         18                                 21403001    2
+INSTITUTE  (2ITYMIL)                                              21403001    3
+REFERENCE  (J,EN,14,228,6704)                                     21403001    4
+AUTHOR     (A.FOGLIO PARA,M.MMANDELLI BETTONI)                    21403001    5
+TITLE      -ISOMERIC CROSS SECTION RATIOS FOR SOME (N,GAMMA)      21403001    6
+            REACTIONS -.                                          21403001    7
+FACILITY   (REAC ) L54 REACTOR OF CESNEF, THERMAL COLUMN.         21403001    8
+INC-SOURCE (REAC ) IN THERMAL COLUMN WITH FLUX OF 1.6 10*9        21403001    9
+            OR NEAR CORE WITH FLUX 4.5 10*11.                     21403001   10
+INC-SPECT  MAXWELLIAN SPECTRUM.                                   21403001   11
+METHOD     (ACTIV) ACTIVATION.                                    21403001   12
+DETECTOR   (NAICR) NAI(TL) CRYSTAL.                               21403001   13
+MONITOR    (79-AU-197(N,G)79-AU-198-G,,SIG) VALUE AT 2200 M/SEC   21403001   14
+            TAKEN AS 98.8+-0.3 B.                                 21403001   15
+STATUS     (NDD  ) DATA FROM PUBLICATION.                         21403001   16
+HISTORY    (800226T)                                              21403001   17
+           (800303E)                                              21403001   18
+ERR-ANALYS .TOTAL ERROR GIVEN AS SUM OF CONTRIBUTIONS FROM        21403001   19
+            STAISTICS, CORRECTIONS AND NORMALISATION ERRORS.      21403001   20
+ENDBIB              18                                            21403001   21
+COMMON               3          3                                 21403001   22
+EN-DUMMY   MONIT      MONIT-ERR                                   21403001   23
+EV         B          B                                           21403001   24
+ 2.5300E-02 9.8800E+01 3.0000E-01                                 21403001   25
+ENDCOMMON            3                                            21403001   26
+ENDSUBENT           25                                            2140300199999
+SUBENT        21403006     800303                                 21403006    1
+BIB                  6          9                                 21403006    2
+REACTION   (38-SR-84(N,G)38-SR-85-G,,SIG,,MXW) CROSS SECTION,GS.  21403006    3
+SAMPLE     .NATURAL STRONTIUM.                                    21403006    4
+ANALYSIS   .UPPER LIMIT DERIVED FROM DIFFERENCE BETWEEN THE       21403006    5
+            TOTAL CROSS SECTION AND THAT TO THE META-STABLE       21403006    6
+            STATE.                                                21403006    7
+DECAY-DATA (38-SR-85,65.D,DG,513.,1.0)                            21403006    8
+           (38-SR-85,70.MIN,DG,388.,) POORLY RESOLVED.            21403006    9
+STATUS     .TABLE 1.                                              21403006   10
+HISTORY    (800227C)                                              21403006   11
+ENDBIB               9                                            21403006   12
+NOCOMMON             0          0                                 21403006   13
+DATA                 1          1                                 21403006   14
+DATA-MAX                                                          21403006   15
+MB                                                                21403006   16
+ 2.4000E+02                                                       21403006   17
+ENDDATA              3                                            21403006   18
+ENDSUBENT           17                                            2140300699999
+ENDENTRY             2                                            2140399999999
+ENTRY            31246     851217                                 31246000    1
+SUBENT        31246001     851217                                 31246001    1
+BIB                  6          7                                 31246001    2
+INSTITUTE  (3INDMUA)                                              31246001    3
+REFERENCE  (J,NP,20,183,60)                                       31246001    4
+AUTHOR     (H.S.HANS,M.L.SEHGAL,P.S.GILL)                         31246001    5
+TITLE      THERMAL NEUTRON CROSS SECTIONS FOR PRODUCING ISOMERS   31246001    6
+            (II).                                                 31246001    7
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)                         31246001    8
+HISTORY    (771115T) CONVERTED FROM EXFOR 70246                   31246001    9
+ENDBIB               7                                            31246001   10
+COMMON               1          3                                 31246001   11
+MONIT                                                             31246001   12
+B                                                                 31246001   13
+ 9.8000E+01                                                       31246001   14
+ENDCOMMON            3                                            31246001   15
+ENDSUBENT           14                                            3124600199999
+SUBENT        31246006     851217                                 31246006    1
+BIB                  5          5                                 31246006    2
+REACTION   (38-SR-84(N,G)38-SR-85-G,,SIG,,SPA)                    31246006    3
+INC-SPECT   REACTOR SPECTRUM                                      31246006    4
+METHOD     (ACTIV)    ACTIVATION                                  31246006    5
+DECAY-DATA (38-SR-85-G,70.MIN)                                    31246006    6
+STATUS     (SCSRS)                                                31246006    7
+ENDBIB               5                                            31246006    8
+NOCOMMON             0          0                                 31246006    9
+DATA                 3          1                                 31246006   10
+EN-DUMMY   DATA       DATA-ERR                                    31246006   11
+MEV        B          B                                           31246006   12
+ 2.5300E-08 6.0000E-01 2.0000E-01                                 31246006   13
+ENDDATA              3                                            31246006   14
+ENDSUBENT           13                                            3124600699999
+ENDENTRY             2                                            3124699999999
+ENDREQUEST           1                                            Z999999999999

@@ -1,0 +1,1095 @@
+<title>ZVVIEW: User's Guide</title>
+<BODY BGCOLOR="#c0c0c0">
+
+<center>
+<img src=iaeabw.gif><br>
+<font face="helvetica" size="1">
+International Atomic Energy Agency<br>
+Wagramer Strasse 5, P.O.Box 100, A-1400 Vienna, Austria<br>
+Tel:(+43 1) 2600-21714; Fax:(+43 1) 26007<br>
+</font>
+</center>
+
+<br><br>
+<br><br>
+<br>
+<center>
+<font size =+3><b>ZVView</b></font><br>
+<font size =+2>Graphic Software for Nuclear Data Analysis</font>
+<br>
+
+
+<small>Version 9.2</small>
+<br>
+<br>
+Download:
+<a href="http://www-nds.iaea.org/ndspub/zvview/">http://www-nds.iaea.org/ndspub/zvview/</a><br>
+<br><br>
+<br><br>
+<br><br>
+
+<font size =+5><b>User's Guide</b></font><br>
+<br><br>
+
+
+</center>
+
+<table border=0 cellspacing=1 cellpadding=1 align=right>
+<tr>
+<td align=right>Created:</td>
+<td><i>by VZ, 11/1998</i></td>
+</tr>
+<tr>
+<td align=right valign=top>Modified:</td>
+<td>
+<i>
+by PO, 05/1999<br>
+by VZ, 06/1999<br>
+by VZ, 10/1999<br>
+</i>
+</td>
+</tr>
+<script language="JavaScript">
+  document.write("<tr><td>Last Updated:</td><td><i>"+
+           document.lastModified+"</i></td></tr>")
+</script>
+</table>
+<br><br><br><br>
+<br><br><br><br>
+<center><!img src=atwork.gif></center>
+<br><br><br><br>
+
+<center>
+<font face="helvetica" size="1">
+Viktor Zerkin, 1996-1999<br>
+<a href="mailto:zerkin@iaeand.iaea.org">zerkin@iaeand.iaea.org</a><br>
+</font>
+<br>
+</center>
+
+<br><br><br><br>
+<br><br><br><br>
+<br><br><br><br>
+<hr>
+
+<p>
+<ul>
+Contents
+  <li><a href="#Abstract"> Abstract</a></li>
+  <li><a href="#Requirements"> 1. Technical Requirements</a></li>
+  <li><a href="#Installation"> 2. Installation</a></li>
+  <ul>
+    <li><a href="#InstallationAlone"> 2.a) Installation for standalone use</a></li>
+    <li><a href="#InstallationWeb"> 2.b) Installation for use with Web browser</a></li>
+  </ul>
+  <li><a href="#Execution">    3. Execution</a></li>
+  <li><a href="#HowItWorks">   4. How it works</a></li>
+  <li><a href="#Interaction">  5. Interaction </a></li>
+  <li><a href="#Dialogue">     6. Dialogue </a></li>
+  <li><a href="#Saving">       7. Saving Pictures and Printing </a></li>
+  <ul>
+    <li><a href="#SavingPCX"> 7.a)  Saving Picture in PCX file</a></li>
+    <li><a href="#SavingPS">  7.b)  Saving Picture in PS file</a></li>
+  </ul>
+  <li><a href="#Appendix1">Appendix 1. Summary of Commands </a></li>
+</ul>
+</p>
+<br><br>
+
+<hr width=100%>
+
+<h2 align=center><b><i>
+<a name="Abstract">
+Abstract
+</a>
+</i></b></h2>
+
+<p align=justify style="margin-left:5%; margin-right:5%;">
+ZVView is a multi-platform software designed for nuclear reactions data
+evaluators to perform efficient interactive visual analysis of cross section
+data retrieved from EXFOR and ENDF libraries. The main function of ZVView
+is plotting and inter comparison of data, including variety of options
+for looking into numerous details of graphical, numerical and bibliographic
+information involved, along with a possibility to analyse results of own
+evaluation.
+ZVView allows user to change plotting attributes, logarithmic and
+linear scales, zooming, split plot to sub-windows, smoothing by least
+square method, choose authors to be plotted and scan their points,
+changing language on the fly, saving picture in Postscript and PCX formats, etc.
+</p>
+
+<hr>
+
+<h2 align=center><b><i>
+<a name="Requirements">
+1. Technical Requirements
+</a>
+</i></b></h2>
+
+<p>
+<table border=1 cellspacing=0 cellpadding=2>
+<caption>
+ZVView has been developed, tested and installed on the following 
+platforms:
+</caption>
+<tr>
+<td><i>OS</i></td>
+<td><i>Processor</i></td>
+<td><i>Executable</i></td>
+<td><i>Size</i></td>
+<td><i>Graphics</i></td>
+<td><i>Requirements</i></td>
+</tr><tr>
+<td>Open VMS</td><td>DEC-Alpha</td><td>zvv90a.exe</td><td>512.Kb</td>
+<td>X-windows</td>
+<td>VMS-7.1</td>
+</tr><tr>
+<td>DECUNIX</td><td>DEC-Alpha</td><td>zvv88u.exe</td><td>472.Kb</td>
+<td>X-windows</td>
+<td>&nbsp;</td>
+</tr><tr>
+<td>AIX-4.2</td><td>RS6000</td><td>zvv88r.exe</td><td>719.Kb</td>
+<td>X-windows</td>
+<td>&nbsp;</td>
+</tr><tr>
+<td>Linix</td><td>Intel</td><td>zvv90l.exe</td><td>796.Kb</td>
+<td>X-windows</td>
+<td>&nbsp;</td>
+</tr><tr>
+<td valign=top>MS-DOS</td><td valign=top>Intel</td><td valign=top>zvv88d.exe</td>
+<td valign=top>125.Kb</td>
+<td valign=top>EGA<br>VGA<br>SVGA</td>
+<td> MS-DOS 3.3 and higher, MS-Mouse driver for modes 
+     higher than 640*480, ~500 Kb RAM available for EXE programs
+     (depends on data)</td>
+</tr><tr>
+<td>W-3.1/9x/NT</td><td>Intel</td><td>zvv88w.exe</td><td>263.Kb</td>
+<td>any</td>
+<td>16-bit</td>
+</tr><tr>
+<td>W-9x/NT</td><td>Intel</td><td>zvv90nt.exe</td><td>260.Kb</td>
+<td>any</td>
+<td>32-bit</td>
+</tr>
+</table>
+</p>
+
+<hr>
+
+<h2 align=center><b><i>
+<a name="Installation">
+2. Installation
+</a>
+</i></b></h2>
+
+
+<h3 align=center><b><i>
+<a name="InstallationAlone">
+2.a) Installation for standalone use
+</a>
+</i></b></h3>
+
+<dl>
+<dt><b>VMS-7.1</b>
+<dd>
+Define symbol ZVV:
+<pre>
+..$ zvv:==$sa1:[path]zvv89a.exe
+</pre>
+To run Zvview use symbol ZVV in Unix style (see Example 1.)
+<br><br>
+<dt><b>MS-DOS, Linux, DECUNIX, AIX/R6000</b>
+<dd>
+Copy executable into directory that is included into the system environment 
+PATH.
+To run ZVView  type executable name with parameters (see Example 2.)
+<br><br>
+
+<dt><b>Windows-3.1, Windows-95, Windows-NT</b>
+<dd>
+Associate* files of the type .zvv, .zvd with application \path\zvv88w.exe<br>
+Prepare by any editor text file with extension .zvv putting there list of 
+parameters (see Example 3.).<br>
+Double click to the file .zvv will invoke ZVView.<br>
+<br>
+
+* You may associate files with extension .zvv by double clicking or 
+"more manually":<br>
+ Example for W-NT:<br>
+Explorer --> View --> Options --> File Types --> New Type -->
+fill in form:<br>
+<pre>
+    Description of Type:    zvd
+    Content Type (MIME):    image/zvd
+    Default Extension:      zvd
+    Action:                 open
+</pre>
+<img src="ms_newt.gif"><br>
+<br>
+ &nbsp; --> Edit --> fill in form:<br>
+<img src="ms_newa.gif"><br>
+</dl>
+
+<br><br><br>
+
+<hr width=50%>
+
+<h3 align=center><b><i>
+<a name="InstallationWeb">
+2.b) Installation for use with Web browser
+</a>
+</i></b></h3>
+
+<p align=justify>
+ZVView can be used as a application-helper under Netscape (Internet Explorer, etc.)
+on local computer. EXFOR+ENDF retrieval system coupling with ZVView
+is now available on the NDS Web server:
+<a href="http://www-nds.iaea.org/zvd/">http://www-nds.iaea.org/zvd/</a>.
+</p>
+
+
+<dl>
+<dt><b>Netscape 3.</b>
+<dd>
+On Alpha VMS check symbol:<br>
+<tt>    $ sh sym zvv<br>
+        $ zvv=="sa1:[pubsoft.zvv]zvv_alpha.exe"
+</tt>
+<pre>
+    --> Options
+        --> General Preferences
+            --> Helpers
+                --> New
+                    --> Set up:
+                          Description: ZVD
+                                 Type: image/zvd
+                               Suffix: zvd
+                  [check] Application: zvv %s
+</pre>
+<img src="mime3e.gif">
+<hr>
+<br>
+
+<dt><b>Netscape 4.</b>
+<dd>
+<pre>
+    --> Edit
+        --> Preferences
+            --> Navigator
+                --> Applications
+                    --> New Type
+                        --> Set up:
+                         Description Type: ZVD
+                           File extention: zvd
+                                MIME Type: image/zvd
+                       Application to use: /path/zvview.exe %1
+                    for Unix: Application: /path/zvview.exe %s
+</pre>
+
+<img src="mime4n.gif">
+<!img src="mime4e.gif">
+<hr>
+<br>
+
+<dt><b>Internet Explorer.</b>
+<dd>
+It will work automatically if you already installed
+ZVView for standalone use. If not, Explorer will propose you
+to define Application for file extention 'zvd', and you will define
+ZVView (see 2.a).
+
+</dl>
+</p>
+<p align=justify>
+Operations with use ZVView as a helper (viewer) have been checked
+in the following environment: Netscape Navigator and Communicator
+on VMS, DECUNIX, W-3.1, W-95, W-NT, Linux and Internet Explorer
+on W-95, W-NT.
+</p>
+
+
+<hr>
+
+<h2 align=center><b><i>
+<a name="Execution">
+3. Execution
+</a>
+</i></b></h2>
+
+<p align=justify>
+ZVView can handle up to 16 different files with data in several formats.
+User either supplies specification for files to be preceeded,
+or uses files with 'default' extensions.
+The format and content of data files can be specified by 
+option (switch) that follows the file name:
+<br>
+ <tt>/t</tt> - experimental data, computational format '.table' generated by CSISRS*<br>
+ <tt>/r</tt> - reference file '.xref' generated by CSISRS*<br>
+ <tt>/d</tt> - evaluated data, computational format '.dat' generated by ENDF*<br>
+ <tt>/3</tt> - evaluated data in ENDF format, MF=3 (point wise data)<br>
+ <tt>/u</tt> - title (control) file<br>
+ &nbsp;&nbsp;&nbsp; <i>* On-line Nuclear Data Services on Alpha/VMS</i><br>
+<br>
+Default extentions (case insensetive):
+<pre>
+        /t   .TABLE, .TAB
+        /x   .XREF, .XRE
+        /d   .DAT
+        /3   .DAT3, .MT3
+        /u   .TITLE, .TIT, .TXT
+</pre>
+
+Each file can contain several functions, total number of functions 
+in all files is limited to 16. 
+<p>
+<b>Example 1:</b> Open VMS execution command involving 4 data files 
+and 1 text (title) file:
+<table border=1 bgcolor=white width=80% cellspacing=0 cellpadding=3>
+<tr>
+<td>
+ <i><u>run ZVView:</u></i><pre>
+    $ zvv f1.dat/3 f2.dat/d f3.table/t f3.xref/r title.tit
+</pre>
+</td></tr></table>
+
+If ZVView is invoked without parameters, it expects existence of the file 
+'execute.zvv'. The code reads this file line by line, and looks for names of 
+data files.
+</p>
+<p>
+<b>Example 2:</b> file 'execute.zvv' consists of 4 lines containing
+names of 3 data files and 1 text file:
+<table border=1 bgcolor=white width=80% cellspacing=0 cellpadding=3>
+<tr>
+<td>
+ <i><u>execute.zvv:</u></i> <pre>
+    f1.dat/3
+    f2.dat/d
+    f3.table/t
+    title.tit
+</pre>
+</td>
+</tr>
+<tr>
+<td>
+ <i><u>run ZVView:</u></i> <pre>
+    $ zvv 
+</pre>
+</td></tr>
+</table>
+
+<p>
+<b>Example 3:</b> file 'execute.zvv' consists of 1 line with the name of the 
+composite file 'al27na.zvv',
+where the file 'al27na.zvv' consists of 6 lines with names of 5 data 
+files and 1 text file
+<table border=1 bgcolor=white width=80% cellspacing=0 cellpadding=2>
+<tr>
+<td>
+ <i><u>execute.zvv:</u></i> <pre>
+    @al27na.zvv
+</pre>
+</td>
+</tr>
+<tr>
+<td>
+ <i><u>al27na.zvv:</u></i> <pre>
+    al27na.table/t
+    al27na.xref/r
+    al27na_6.dat/d
+    al27na_f.dat/d
+    al27na_r.dat/d
+    title.tit
+</pre>
+</td>
+</tr>
+<tr>
+<td>
+ <i><u>run ZVView:</u></i> <pre>
+    $ zvv 
+</pre>
+</td></tr>
+</table>
+
+
+<p>
+It should be noted that, as soon as the reference file exists, it must follow
+the table file. 
+The files f1.dat, f2.dat, f3.table, f3.xref are nuclear data files, the 
+file title.tit is the text file.
+
+<p>
+The 'title.tit' contains the title (header) of the graphical image created 
+by the ZVView, names of X and Y axis, type of scales, ranges of scales,
+grids, initial size of window, appearance of buttons and text information
+about comparing functions.
+All those parameters are optional and are applied if they appear in the 'title' file.
+In an example below, the 'title.txt' consists of 20 lines:
+<table border=1 bgcolor=white width=80% cellspacing=0 cellpadding=2>
+<tr>
+<td>
+ <i><u>title.txt:</u></i> <pre>
+    tit: {+55}Mn(n,{|g}){+56}Mn
+    tit2: Experimental data and evaluations
+    x-scale: log
+    y-scale: log
+    x-units: kev
+    y-units: barn
+    y-range: 1E-4 1e2
+    x-range: 1e-4 1e5
+    x-grid: 0
+    y-grid: 1
+    lx-win: 1000
+    ly-win: 700
+    buttons: 1
+    nostat: 1
+    x: E
+    x-long: Incident Energy
+    y: Cross Section
+    !neq: all
+    eq: 30942002 = 30982002
+    eq: 40975 = 41001
+    neq: 40244
+</pre>
+</td></tr>
+</table>
+
+
+<hr>
+
+<h2 align=center><b><i>
+<a name="HowItWorks">
+4. How it works
+</a>
+</i></b></h2>
+
+<p align=justify>
+ZVView works with functions <i>Y<sub>i</sub>=Y(X<sub>i</sub>)</i>, 
+where <i>i</i> is the index of the data point 
+of a given function. Each function represents a set of data points such as experimental 
+cross sections of 1 or several experiments retrieved from the CSISRS database, or a 
+curve of cross sections retrieved from an evaluated data library. The functions are 
+identified by their sequence number f1,f2,...,f64
+(16 for versions below 8.9). The sequence numbers are generated by ZVView.
+</p>
+<p align=justify>
+After loading the data, the code identifies functions and defines 
+'Automatic range' using min and max of X and Y for the whole set of functions. 
+Then, the code generates a window on the screen, creates plots of X and Y axis, 
+followed by plots of each function. Functions are plotted in different style, 
+depending on the type of data. Finally, the code writes explanatory 
+information at the bottom of the screen, draws the MARKER and waits for 
+commands from user.  
+
+</p>
+<p align=justify>
+User can give commands by a keyboard or by a mouse. The code ZVView analyzes 
+the command and executes it.
+ 
+</p>
+<p align=justify>
+A lot of commands can be given by using the MARKER that marks a data point of 
+selected (currently scanned) function. The code draws graphical 
+presentation of the MARKER at its actual location. 
+At the bottom of the screen, the code provides numerical information 
+describing the MARKER location (sequence number of the data function, index 
+referring to the marked data point, its absolute position in terms of X and Y 
+values - see Fig.1). In addition, for each function, the code identifies a 
+point (X) located next to the marker and provides information on its index, 
+Y-value and the corresponding X-value. 
+
+</p>
+<p align=justify>
+At the beginning, the MARKER is drawn like a short line under the point referring to 
+the index 1 of the function no 1, that means the point [X(1),Y(1)]. User can move 
+MARKER in different directions by increasing or decreasing an index of the marked 
+point, or by changing the number of the marked function. MARKER location can be 
+used in different ways, for example as a point to define a new range of the displayed 
+window.
+
+</p>
+<p align=justify>
+Fig.1 explains meaning of terms adopted in present document.
+</p>
+<center>
+<img src="al27na.gif"><br>
+Fig.1.<br>
+</center>
+<center>
+<table border=1 cellspacing=0 cellpadding=2>
+<tr>
+  <td align=center> <i>n</i> </td>
+  <td> <i>Term</i> </td>
+  <td> <i>Explanation</i> </td>
+</tr>
+<tr>
+  <td align=center> 1 </td>
+  <td> <b>Marker</b> </td>
+  <td> <img src="n01.gif"> Pointer to current position of currently scanned function</td>
+</tr>
+<tr>
+  <td align=center> 2 </td>
+  <td> <b>Marked Point</b> </td>
+  <td> <img src="n02.gif"> Point on currently scanned function reffered by Marker </td>
+</tr>
+<tr>
+  <td align=center> 3 </td>
+  <td> <b>Marked Function</b> </td>
+  <td> <img src="n03.gif"> Currently scanned function </td>
+</tr>
+<tr>
+  <td align=center> 4 </td>
+  <td> <b>X-Range</b> </td>
+  <td> <img src="n04.gif"> Currently displayed window on X-axis </td>
+</tr>
+<tr>
+  <td align=center> 5 </td>
+  <td> <b>Y-Range</b> </td>
+  <td> <img src="n05.gif"> Currently displayed window on Y-axis </td>
+</tr>
+<tr>
+  <td align=center> 6 </td>
+  <td> <b>Plank</b> </td>
+  <td> <img src="n06.gif"> Bar showing current X, Y ranges on automatic range. </td>
+</tr>
+<tr>
+  <td align=center> 7 </td>
+  <td> <b>Statistics</b> </td>
+  <td> <img src="n07.gif"> Information to compare functions </td>
+</tr>
+<tr>
+  <td align=center> 8 </td>
+  <td> <b>Nearest Point</b> </td>
+  <td> <img src="n08.gif"> Point on each function with X nearest to Marker:
+       Index, Y, X
+  </td>
+</tr>
+<tr>
+  <td align=center> 9 </td>
+  <td> <b>Local Maximum</b> </td>
+  <td> <img src="n09.gif"> Maximum Y of each function in current X-Range </td>
+</tr>
+<tr>
+  <td align=center> 10 </td>
+  <td> <b>Marker Location</b> </td>
+  <td> <img src="n10.gif"> Index, X, Y (Marker) and <img src="n11.gif"> 
+       related information (depend of function) </td>
+</tr>
+<tr>
+  <td align=center> 11 </td>
+  <td> <b>Marker Location</b> </td>
+  <td> <img src="n12.gif"> Short help </td>
+</tr>
+</table>
+</center>
+
+<hr>
+
+<h2 align=center><b><i>
+<a name="Interaction">
+5. Interaction
+</a>
+</i></b></h2>
+
+<p align=justify>
+User can interact with ZVView in several ways explained below.
+
+<ol>
+<li> Move MARKER along
+.<ul>
+.<li> indexes (arrow Left, arrow Right)</li>
+.<li> functions (arrow Up, arrow Down)</li>
+.<li> peaks (Ctrl/Left, Ctrl/Right; may be impractical for smooth functions)</li>
+.<li> begin-end of plot (MS-DOS: Home-End; VMS: Insert-Remove)</li>
+.<li> begin-end of marked function (Ctrl/Home, Ctrl/End)</li>
+.</ul>
+</li>
+<li> Change displayed window by setting
+.<ul>
+.<li> X-axis window near the marker (+ and - some number of points)</li>
+.<li> starting range of scales (Shift/A)</li>
+.<li> next (previous) range of X-axis:<br>
+..X0_PICTURE := X0_PICTURE + LX_PICTURE (PageDown, PageUp)</li>
+.<li> Y-range automatically for present X-axis window (+ some additional space)</li>
+.<li> additional space for Y-window (Shift/Y)</li>
+.<li> X-window automatically (maximum range for all functions; Y-window does not 
+..change)</li>
+.<li> increase/decrease X-axis window size (in steps of the factor of 2)</li>
+.<li> new Y-window and X-window manually</li>
+.<li> logarithmic to linear (and back) Y-scale (L)</li>
+.<li> logarithmic to linear (and back) X-scale (Shift/L)</li>
+.</ul>
+</li>
+<li> Change function attributes
+.<ul>
+.<li> how to draw marked function (S)
+.<li> connection of points by selecting option No, Line, Histogram
+.<li> how to draw data points by selecting option Dot, Cross, Square, Circle
+.<li> draw (or not) error bars
+.<li> use different type of shadowing (filling space under the curve)
+.<li> define color
+.<li> define shift of curve in pixels
+.</ul>
+</li>
+<li> Other plotting settings
+.<ul>
+.<li> exclude function (draw or not) manually (E), or exclude every function and leave 
+.only the marked function (O)
+.<li> the code can split graphics part of the screen by several 
+.windows and draw functions in different windows (C).</li>
+.<li>in order to change default splitting and locations of functions (K).
+.Windows have numeration 0,1,...,N-1 for X and Y axis.
+.</ul>
+</li>
+</ol>
+</p>
+
+<hr>
+
+<h2 align=center><b><i>
+<a name="Dialogue">
+6. Dialogue
+</a>
+</i></b></h2>
+
+<p align=justify>
+In order to input parameters or make a choice, ZVView uses dialogue 
+systems 'Input' and 'Menu'. 'Input' allows user to input different types 
+of parameters (strings, numbers, alternatives and others). 'Menu' provides 
+choice from a set of alternatives.
+</p>
+
+<dl>
+<table border=1 cellspacing=0 cellpadding=4>
+<tr>
+  <td width=10%><i> Command <br>(Key)</i></td>
+  <td width=90%><i> Response</i></td>
+</tr><tr>
+<td colspan=2 align=center><big><i><b>'Input' features</b></i></big></td>
+</tr><tr>
+<td><b>  Enter <br> ESC </b> </td>
+<td>
+    After user types a string, Enter (VMS: Return) and ESC keys should be 
+    used to accept / reject the string 
+<br width=50%>
+    When user does not change the value of the string where the cursor is 
+    located, Enter and ESC keys should be used to accept or reject the whole 
+    table
+</td>
+</tr><tr>
+<td><b>  Left, Right, BackSpace, Insert, Home, End, Delete</b></td>
+<td>  Provide the usual effect </td>
+</tr><tr>
+<td><b>  Up / Down </b></td>
+<td>   Go to previous/next input field </td>
+</tr><tr>
+<td><b>  F1 </b></td>
+<td>  Short help appears </td>
+</tr><tr>
+<td><b>  F2 </b></td>
+<td>  Menu mode for choice among several values of alternative </td>
+</tr><tr>
+<td colspan=2 align=center><br><big><i><b>'Menu' features</b></i></big></td>
+</tr><tr>
+<td><b>  Enter </b></td>
+<td>  Accept the choice</td>
+</tr><tr>
+<td><b>  ESC </b></td>
+<td>  Reject the choice</td>
+</tr>
+</table>
+
+</p>
+
+<hr>
+
+<h2 align=center><b><i>
+<a name="Saving">
+7. Saving Pictures and Printing
+</a>
+</i></b></h2>
+
+</p>
+
+<hr width=50%>
+
+<h3 align=center><b><i>
+<a name="SavingPCX">
+7.a)  Saving Picture in PCX file
+</a>
+</i></b></h3>
+
+<dl>
+<i>For VMS, Linux, MS-Windows, DECUNIX, AIX:</i>
+<dt><b>  LShift/D</b>:
+<dd>
+  create color '.pcx' file
+<dt><b>  LCtrl/D</b>:
+<dd>
+  create black and white '.pcx' file
+</dl>
+
+<dl>
+<i>For MS-DOS:</i>
+<dt><b>  Alt/Shift/D</b>:
+<dd>
+  save screen in '.pcx' file
+</dl>
+
+Use <b>PaintBrush</b> to edit and print under Windows. <br>
+Use <b>XV</b> (Unix,VMS,...) to save in GIF format and then print by NETSCAPE 
+or save by XV directly to .PS format.
+
+</p>
+<hr width=50%>
+
+<h3 align=center><b><i>
+<a name="SavingPS">
+7.b) Saving Picture in PostScript file.
+</a>
+</i></b></h3>
+
+<dl>
+<i>  PostScript output realized by ZVView 8.9 and later versions.</i>
+<dt><b>LShift/P</b>
+<dd>
+then, after additional dialogue
+program will create files in current directory with names: zv00.ps, zv01.ps, 
+etc.<br>
+<img src=dia_ps.gif><br>
+</dl>
+
+
+<hr>
+
+<h3 align=right>
+<a name="Appendix1">
+Appendix 1.
+</a>
+</h3>
+
+<h3 align=center>
+Summary of Commands
+</h3>
+
+<p align=justify>
+The Appendix summarizes commands that can be used by a user. Specified
+below is a command (a character to by typed, or a key to be pressed at 
+the keyboard) and the response of the ZVView.
+</p>
+
+<form>
+<table border=1 cellspacing=0 cellpadding=4>
+<tr>
+  <td colspan=2 align=center width=12%><i>Command</i></td>
+  <td colspan=2><i>Response</i></td>
+</tr><tr>
+  <td colspan=1 align=center width=8%><i>Key(s)</i></td>
+  <td colspan=1 align=center width=4%><i>MouseButton*</i></td>
+  <td colspan=1 align=center width=3%><i>[SubCommand</i></td>
+  <td colspan=1><i>Response]</i></td>
+</tr><tr>
+  <td colspan=4 align=left>
+    <i><small>
+    *Note:
+a) You can use (click by mouse) those buttons to call most of given commands<br>
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+b) After mouse stays a few seconds at the button a small help will appear
+    </small></i>
+  </td>
+</tr><tr>
+  <td colspan=1 align=center>   F1 </td>
+  <td align=center> <input type="button" value=" ? "> </td>
+  <td colspan=2 >   On-line help</td>
+</tr><tr>
+  <td colspan=1 align=center>   F2 </td>
+  <td colspan=1 align=center>   <input type="button" value="Menu"> </td>
+  <td colspan=2 >   On-line menu</td>
+</tr><tr>
+  <td colspan=1 align=center>     Esc, Q </td>
+  <td colspan=1 align=center>  <input type="button" value="Quit"> </td>
+  <td colspan=2 >Quit</td>
+</tr><tr>
+  <td colspan=1 align=center>    Shift/K </td>
+  <td colspan=1 align=center>    <input type="button" value="x butt"> </td>
+  <td colspan=2 >    Draw/not buttons at the top of screen
+  </td>
+</tr><tr>
+  <td colspan=4 align=center>
+    <b><i><br>
+    a. Marker Movement
+    </i></b>
+  </td>
+</tr><tr>
+  <td colspan=1 align=center> arrow Left, Right</td>
+  <td colspan=1 align=center> <input type="button" value=" < ">
+  <input type="button" value=" > "> </td>
+  <td colspan=2 > Change index by +1, -1</td>
+</tr><tr>
+  <td colspan=1 align=center>  arrow Up, Down</td>
+  <td align=center> <input type="button" value=" ^ ">
+                    <input type="button" value=" v "> </td>
+  <td colspan=2 > Change function number by +1, -1</td>
+</tr><tr>
+  <td colspan=1 align=center>   Ctrl/Left, Ctrl/Right</td>
+  <td align=center> <input type="button" value="P<">
+                    <input type="button" value=">P"> </td>
+  <td colspan=2 > Jump to next or previous peak</td>
+</tr><tr>
+  <td colspan=1 align=center>    Home, End </td>
+  <td align=center> <input type="button" value="Home">
+                    <input type="button" value="End"> </td>
+  <td colspan=2 > Go to begin or end of X-axis window</td>
+</tr><tr>
+  <td colspan=4 align=left>
+    <i><small>
+    *Note: In the Open VMS use keys &lt;InsertHere&gt;, &lt;Remove&gt; 
+    instead of &lt;Home&gt;, &lt;End&gt.
+    </small></i>
+  </td>
+</tr><tr>
+  <td colspan=4 align=center>
+    <b><i><br>
+b. Window Changing
+    </i></b>
+<br>
+The window, that means that part of the full plot that will be actually 
+displayed at the screen, can be changed in 3 ways. By setting the position 
+of the marker at the boundary of the displayed plot, by selecting a space 
+around the marker, and by commands defining the scale.
+  </td>
+</tr><tr>
+  <td colspan=1 align=center>  [ &nbsp; ] </td>
+  <td align=center> <input type="button" value=" [ ">
+                    <input type="button" value=" ] "> </td>
+  <td colspan=2 > X boundary (left/right) set up to X(Marker)</td>
+</tr><tr>
+  <td colspan=1 align=center>  B  H </td>
+  <td align=center> <input type="button" value=" B ">
+                    <input type="button" value=" H "> </td>
+  <td colspan=2 > Y boundary (top/bottom) set up to Y(Marker)</td>
+</tr><tr>
+  <td colspan=1 align=center>   Space </td>
+  <td align=center> <input type="button" value="+-1%"> </td>
+  <td colspan=2 >  X scale set up to +-1% points around marker</td>
+</tr><tr>
+  <td colspan=1 align=center>    LShift/Space </td>
+  <td align=center> <input type="button" value="+-2%"> </td>
+  <td colspan=2 >   X scale set up to +-2% points around marker</td>
+</tr><tr>
+  <td colspan=1 align=center>    RShift/Space </td>
+  <td align=center> <input type="button" value="+-5%"> </td>
+  <td colspan=2 >   X scale set up to +-5% points around marker</td>
+</tr><tr>
+  <td colspan=1 align=center>     Shift/A  </td>
+  <td align=center> &nbsp; </td>
+  <td colspan=2 >    Window adjusts to starting scale</td>
+</tr><tr>
+  <td colspan=1 align=center>   PageDown, PageUp </td>
+  <td align=center> <input type="button" value=">>">
+                    <input type="button" value="<<"> </td>
+  <td colspan=2 >   Set next/previous X-axis window</td>
+</tr><tr>
+  <td colspan=1 align=center>   Y</td>
+  <td align=center> <input type="button" value="Auto-Y"> </td>
+  <td colspan=2 >Set Y-window automatically, X-window does not change</td>
+</tr><tr>
+  <td colspan=1 align=center>    Shift/Y </td>
+  <td align=center> <input type="button" value="Y-Range"> </td>
+  <td colspan=2 >Set "some" percents for Y-window</td>
+</tr><tr>
+  <td colspan=1 align=center>    X </td>
+  <td align=center> &nbsp; </td>
+  <td colspan=2 >Set X-window automatically, Y-window does not change</td>
+</tr><tr>
+  <td colspan=1 align=center>    + - </td>
+  <td align=center> <input type="button" value="< >">
+                    <input type="button" value="> <"> </td>
+  <td colspan=2 >Increase/decrease X-axis window size (each step = 2x)</td>
+</tr><tr>
+  <td colspan=1 align=center>    A </td>
+  <td align=center> <input type="button" value="XY-Scale"> </td>
+  <td colspan=2 >Set new Y-window and X-window manually</td>
+</tr><tr>
+  <td colspan=1 align=center>    L </td>
+  <td align=center> <input type="button" value="Log-Y"> </td>
+  <td colspan=2 >Set Logarithmic/Linear Y-scale</td>
+</tr><tr>
+  <td colspan=1 align=center>   Shift/L </td>
+  <td align=center> <input type="button" value="Log-X"> </td>
+  <td colspan=2 >Set Logarithmic/Linear X-scale</td>
+</tr><tr>
+  <td colspan=4 align=center>
+    <b><i><br>
+c. Handling
+    </i></b>
+<br>
+User can modify displayed functions by several commands. (Function means a 
+set of experimental data as generated by CSISRS or a curve of evaluated 
+cross sections from ENDF/B).
+  </td>
+</tr><tr>
+  <td colspan=1 align=center>   S </td>
+  <td align=center> <input type="button" value="Fun"> </td>
+  <td colspan=2 >   Input parameters: How to draw function
+    <br><small><i>Last option: Smoothing draw/not</i></small>
+  </td>
+</tr><tr>
+  <td colspan=1 align=center>  LShift/S </td>
+  <td align=center> <input type="button" value="Smooth"> </td>
+  <td colspan=2 >   Setting of smoothing parameters
+    <br><small><i>Note: 'Type' means level of smoothing, if type=0:
+                  the code does not draw the curve</i></small>
+  </td>
+</tr><tr>
+  <td colspan=1 align=center>   E </td>
+  <td align=center> <input type="button" value="Exclude"> </td>
+  <td colspan=2 >   Exclude/include functions from picture</td>
+</tr><tr>
+  <td colspan=1 align=center>   K </td>
+  <td align=center> <input type="button" value="SetQua"> </td>
+  <td colspan=2 >   Define quadrant for functions</td>
+</tr><tr>
+  <td colspan=1 align=center>   R </td>
+  <td align=center> &nbsp; </td>
+  <td colspan=2 >   Redraw (refresh) picture</td>
+</tr><tr>
+  <td colspan=1 align=center>   C </td>
+  <td align=center> <input type="button" value="Split"> </td>
+  <td colspan=2 >   On/off multi-windows screen</td>
+</tr><tr>
+  <td colspan=1 align=center>   P </td>
+  <td align=center> <input type="button" value="Plank"> </td>
+  <td colspan=2 >   On/off Range-Bar</td>
+</tr><tr>
+  <td colspan=1 align=center>   N </td>
+  <td align=center> <input type="button" value="Stat"> </td>
+  <td colspan=2 >   On/off statistics at the bottom of the screen</td>
+</tr><tr>
+  <td colspan=1 align=center>   O </td>
+  <td align=center> <input type="button" value="Only"> </td>
+  <td colspan=2 >   Draw graphic marked function only (exclude others)</td>
+</tr><tr>
+  <td colspan=1 align=center>   I </td>
+  <td align=center> <input type="button" value="Inv"> </td>
+  <td colspan=2 >   Invert palette of the screen</td>
+</tr><tr>
+  <td colspan=1 align=center>   M </td>
+  <td align=center> <input type="button" value="Mrk-type"> </td>
+  <td colspan=2 >Change shape of the MARKER in the following sequence:
+           <br>  short --&gt; long --&gt; short [X-value] --&gt;
+            short [Y-value] --&gt; short [X-value][Y-value] --&gt; short
+  </td>
+</tr><tr>
+  <td colspan=1 align=center>   RShift/M </td>
+  <td align=center> <input type="button" value="M-rotate"> </td>
+  <td colspan=2 >   Rotation of text over the MARKER</td>
+</tr><tr>
+  <td colspan=1 align=center>   T </td>
+  <td align=center> <input type="button" value=" T "> </td>
+  <td colspan=2 >   Leave MARKER on the screen 
+    <br><small><i>Note: After redrawing screen these images disappear</i></small>
+  </td>
+
+
+</tr><tr>
+  <td colspan=4 align=center>
+    <b><i><br>
+d. Save Picture
+    </i></b>
+  </td>
+</tr><tr>
+  <td colspan=1 align=center>   LShift/D </td>
+  <td align=center> &nbsp; </td>
+  <td colspan=2 >   Create 256-color zvXX.pcx file in current directory</td>
+</tr><tr>
+  <td colspan=1 align=center>   LCtrl/D </td>
+  <td align=center> &nbsp; </td>
+  <td colspan=2 >   Create black/white zvXX.pcx file in current directory</td>
+</tr><tr>
+  <td colspan=1 align=center>   LShift/P </td>
+  <td align=center> <input type="button" value="PS"> </td>
+  <td colspan=2 >   After input parameters and confirmation,
+                      creates zvXX.pcx file in current directory
+    <br><small><i>Note: If you already have driven authors list,
+    it will appear automatically in your PostScript output.</i></small>
+  </td>
+
+
+
+</tr><tr>
+  <td colspan=4 align=center>
+    <b><i><br>
+e. Other Commands
+    </i></b>
+  </td>
+</tr><tr>
+  <td colspan=1 rowspan=4 align=center>   F4 </td>
+  <td rowspan=4 align=center> <input type="button" value="F4"> </td>
+  <td colspan=2 valign=top> Scan list of authors of data of the marked function.
+   <br> Then:
+  </td>
+</tr><tr>
+  <td colspan=1 nowrap align=center>   I </td>
+  <td colspan=1 valign=top> insert/not to the list of viewed authors (yellow)</td>
+</tr><tr>
+  <td colspan=1 nowrap align=center>   Enter </td>
+  <td colspan=1 valign=top> scan the table of experimental points of chosen author</td>
+</tr><tr>
+  <td colspan=1 nowrap align=center>   Esc </td>
+  <td colspan=1 valign=top> go back to Marker</td>
+
+</tr><tr>
+  <td colspan=1 rowspan=3 align=center>   F5 </td>
+  <td rowspan=3 align=center> <input type="button" value="F5"> </td>
+  <td colspan=2 valign=top> Scan list of experimental points around the Marker.
+   <br> Then:
+  </td>
+</tr><tr>
+  <td colspan=1 noowrap align=center>   Enter </td>
+  <td colspan=1 valign=top>set Marker to the chosen point</td>
+</tr><tr>
+  <td colspan=1 noowrap align=center>   Esc </td>
+  <td colspan=1 valign=top> go back to Marker</td>
+
+</tr><tr>
+  <td colspan=1  align=center>   F </td>
+  <td colspan=3 >Set regime same/different symbols for drawing of points</td>
+</tr><tr>
+  <td colspan=1 rowspan=5 valign=top align=center>    LShift/U<br>RShift/U<br>U </td>
+  <td rowspan=5 valign=top align=center>
+     <input type="button" value=" Le0 "><br>
+     <input type="button" value=" Le1 "><br>
+     <input type="button" value=" Ref ">
+  </td>
+  <td colspan=2 valign=top>
+	Draw legends of curves and authors which have point in current window<br>
+	Draw legends of curves and all authors<br>
+	Draw legends with last location of the box and other
+                        parameters. 
+   <br> Then:
+  </td>
+</tr><tr>
+  <td colspan=2 valign=top> Mouse left button drags the table to new location on the screen</td>
+</tr><tr>
+  <td colspan=1 nowrap align=center>   R </td>
+  <td colspan=1 valign=top>refresh the picture</td>
+</tr><tr>
+  <td colspan=1 nowrap align=center>   S </td>
+  <td colspan=1 valign=top>Set parameters of legend box:<br>
+	user can split box with legends to several parts, set up their width
+	and location; then move them by mouse on the screen separatly. 
+  </td>
+</tr><tr>
+  <td colspan=1 nowrap align=center>   Esc </td>
+  <td colspan=1 valign=top> go back to Marker</td>
+
+
+
+</tr>
+</table>
+
+</form>
+
+</BODY>
+</HTML>

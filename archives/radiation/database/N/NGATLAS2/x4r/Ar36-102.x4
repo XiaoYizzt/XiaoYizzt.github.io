@@ -1,0 +1,34 @@
+REQUEST           1001   20010914          3     140012               0  0    0
+ENTRY            13573     930216                                 13573000    1
+SUBENT        13573001     930216                                 13573001    1
+BIB                 14         14                                 13573001    2
+INSTITUTE  (1CANCRC)                                              13573001    3
+REFERENCE  (J,PR,77,840,5003)                                     13573001    4
+AUTHOR     (G.E.MC MURTRIE,D.P.CRAWFORD)                          13573001    5
+TITLE      THE THERMAL NEUTRON-CAPTURE CROSS SECTION OF A36       13573001    6
+FACILITY   (REAC) NRX                                             13573001    7
+INC-SOURCE (THCOL)                                                13573001    8
+SAMPLE     COMMERCIAL ARGON                                       13573001    9
+METHOD     (ACTIV)                                                13573001   10
+DETECTOR   (PROPC)                                                13573001   11
+DECAY-DATA (18-AR-37,34.1D)                                       13573001   12
+MONITOR    (5-B-0(N,G),,SIG,,MXW)                                 13573001   13
+ERR-ANALYS (DATA-ERR) STANDARD ERROR                              13573001   14
+STATUS     DATA TAKEN FROM ARTICLE                                13573001   15
+HISTORY    (930212C)                                              13573001   16
+ENDBIB              14                                            13573001   17
+NOCOMMON             0          0                                 13573001   18
+ENDSUBENT           17                                            1357300199999
+SUBENT        13573002     930216                                 13573002    1
+BIB                  1          1                                 13573002    2
+REACTION   (18-AR-36(N,G)18-AR-37,,SIG,,MXW)                      13573002    3
+ENDBIB               1                                            13573002    4
+NOCOMMON             0          0                                 13573002    5
+DATA                 3          1                                 13573002    6
+EN-DUMMY   DATA       DATA-ERR                                    13573002    7
+EV         B          B                                           13573002    8
+0.0253      6.5        1.0                                        13573002    9
+ENDDATA              3                                            13573002   10
+ENDSUBENT            9                                            1357300299999
+ENDENTRY             2                                            1357399999999
+ENDREQUEST           1                                            Z999999999999

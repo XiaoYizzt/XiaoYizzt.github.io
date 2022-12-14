@@ -1,0 +1,163 @@
+REQUEST           1001   20010914          3     140115               0  0    0
+ENTRY            10168   20001214   20010328                      10168000    1
+SUBENT        10168001   20001214   20010328                      10168001    1
+BIB                 12         27                                 10168001    2
+INSTITUTE  (1USALRL)                                              10168001    3
+REFERENCE  (J,NP/A,169,95,197101)                                 10168001    4
+           (J,NP/A,153,413,1970) Description of experiment B      10168001    5
+           (R,UCRL-51060,197105) Description of experiment C      10168001    6
+AUTHOR     (F.P.CRANSTON,D.H.WHITE)                               10168001    7
+TITLE      Thermal neutron capture cross sections in calcium      10168001    8
+FACILITY   (REAC) LLR pool-type reactor.                          10168001    9
+INC-SOURCE (THCOL)                                                10168001   10
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)                         10168001   11
+SAMPLE     Experiment A- CaCO3 sample                             10168001   12
+                      B- Sample enriched to 50.43% 40Ca and       10168001   13
+                         43.35% 46Ca.                             10168001   14
+                      C- Two samples of CaCO3 enriched to 94.54%  10168001   15
+                         42Ca and 98.61% 44Ca.                    10168001   16
+DETECTOR   Experiment A- Moxon-Rae detector                       10168001   17
+                      B- Ge(Li) and NaI(Tl) detectors             10168001   18
+                      C- Ge(Li) and NaI(Tl) detectors             10168001   19
+ERR-ANALYS (DATA-ERR) Cross section uncertainties based on an     10168001   20
+            assumed 10% uncertainty in the gamma-ray intensities  10168001   21
+            coupled with uncertainty in the least-squares         10168001   22
+            normalization.                                        10168001   23
+STATUS     (APRVD) Approved by author                             10168001   24
+HISTORY    (19720831C)                                            10168001   25
+           (19750902A) BIB changes                                10168001   26
+           (19781116A) BIB changes. COMMON added.                 10168001   27
+           (19820527A) Converted to REACTION formalism            10168001   28
+           (20001214A) Converted to new date formats, lower case. 10168001   29
+ENDBIB              27                                            10168001   30
+COMMON               2          3                                 10168001   31
+MONIT      MONIT-ERR                                              10168001   32
+B          B                                                      10168001   33
+ 98.8       0.3                                                   10168001   34
+ENDCOMMON            3                                            10168001   35
+ENDSUBENT           34                                            1016800199999
+SUBENT        10168006   20001214   20010328                      10168006    1
+BIB                  2          3                                 10168006    2
+REACTION   (20-CA-46(N,G)20-CA-47,,SIG,,MXW)                      10168006    3
+ANALYSIS   From consistent least-squares adjustment of all data.  10168006    4
+            Experiment B value = 0.73+-0.11 b.                    10168006    5
+ENDBIB               3                                            10168006    6
+NOCOMMON             0          0                                 10168006    7
+DATA                 3          1                                 10168006    8
+EN-DUMMY   DATA       DATA-ERR                                    10168006    9
+EV         B          B                                           10168006   10
+0.025      0.70       0.11                                        10168006   11
+ENDDATA              3                                            10168006   12
+ENDSUBENT           11                                            1016800699999
+ENDENTRY             2                                            1016899999999
+ENTRY            11577     830412                                 11577000    1
+SUBENT        11577001     830412                                 11577001    1
+BIB                  5          6                                 11577001    2
+INSTITUTE  (1CANCRC)                                              11577001    3
+REFERENCE  (J,PR,90,1121,5306)                                    11577001    4
+AUTHOR     (L.G.COOK,K.D.SHAFER)                                  11577001    5
+TITLE      THE NEUTRON ACTIVATION OF CA-46.                       11577001    6
+HISTORY    (770614C)                                              11577001    7
+           (830412A) CONVERTED TO REACTION FORMALISM              11577001    8
+ENDBIB               6                                            11577001    9
+NOCOMMON             0          0                                 11577001   10
+ENDSUBENT            9                                            1157700199999
+SUBENT        11577002     830412                                 11577002    1
+BIB                  3          3                                 11577002    2
+REACTION   (20-CA-46(N,G)20-CA-47,,SIG,,MXW)                      11577002    3
+METHOD     (ACTIV) ACTIVATION                                     11577002    4
+DECAY-DATA (20-CA-47,4.8D)                                        11577002    5
+ENDBIB               3                                            11577002    6
+NOCOMMON             0          0                                 11577002    7
+DATA                 3          1                                 11577002    8
+EN-DUMMY   DATA       DATA-ERR                                    11577002    9
+EV         B          B                                           11577002   10
+ 0.0253     0.25       0.1                                        11577002   11
+ENDDATA              3                                            11577002   12
+ENDSUBENT           11                                            1157700299999
+ENDENTRY             2                                            1157799999999
+ENTRY            12866     851106                                 12866000    1
+SUBENT        12866001     851106                                 12866001    1
+BIB                 15         51                                 12866001    2
+INSTITUTE  (1USALRL)                                              12866001    3
+REFERENCE  (C,78MAYAG,,495,7805)                                  12866001    4
+AUTHOR     (R.E.HEFT)                                             12866001    5
+TITLE      A CONSISTENT SET OF NUCLEAR-PARAMETER VALUES           12866001    6
+           FOR ABSOLUTE INSTRUMENTAL NEUTRON ACTIVATION           12866001    7
+           ANALYSIS.                                              12866001    8
+FACILITY   (REAC) LAWRENCE LIVERMORE LABORATORY LPTR RESEARCH     12866001    9
+                  REACTOR FACILITY.                               12866001   10
+METHOD     (ACTIV)                                                12866001   11
+           EPITHERMAL-TO-THERMAL FLUX RATIO WAS MEASURED IN       12866001   12
+             EACH IRRADIATION BY INCLUDING A URANIUM-SCANDIUM     12866001   13
+             STANDARD IN THE IRRADIATION PACKAGE.                 12866001   14
+INC-SPECT  REACTOR SPECTRUM. ALL NUCLIDES IRRADIATED IN POSITION  12866001   15
+            S-2 WITH A CD RATIO OF 3.8 AND IN EITHER POSITION E-1 12866001   16
+            (CD RATIO 2.5) OR POSITION A-4 (CD RATIO 2.0)         12866001   17
+            DEPENDING ON WHETHER PRODUCTS WERE LONG OR SHORT-LIVED12866001   18
+MONITOR    ELEMENT SCANDIUM WAS USED AS AN INTERNAL FLUX MONITOR  12866001   19
+             SCANDIUM VALUES WERE MEASURED BY TAKING MIXTURES OF  12866001   20
+                                COBALT-SCANDIUM                   12866001   21
+                                GOLD-SCANDIUM                     12866001   22
+                                U238-SCANDIUM                     12866001   23
+           ((MONIT1)21-SC-45(N,G)21-SC-46,,SIG)                   12866001   24
+           ((MONIT2)27-CO-59(N,G)27-CO-60,,SIG)                   12866001   25
+           ((MONIT3)79-AU-197(N,G)79-AU-198,,SIG)                 12866001   26
+           ((MONIT4)92-U-238(N,G)92-U-239,,SIG)                   12866001   27
+           ((MONIT5)21-SC-45(N,G)21-SC-46,,RI)                    12866001   28
+           ((MONIT6)27-CO-59(N,G)27-CO-60,,RI)                    12866001   29
+           ((MONIT7)79-AU-197(N,G)79-AU-198,,RI)                  12866001   30
+           ((MONIT8)92-U-238(N,G)92-U-239,,RI)                    12866001   31
+DECAY-MON  (21-SC-46-G,83.9D,DG,1120.5,1.)                        12866001   32
+           (27-CO-60-G,1922.D,DG,1332.51,1.)                      12866001   33
+           (79-AU-198-G,2.70D,DG,411.79,0.968)                    12866001   34
+           (92-U-239,0.01635D,DG,74.67,.593)                      12866001   35
+           (93-NP-239,2.353D,DG,106.07,0.252)                     12866001   36
+DETECTOR   ALL COUNTING WAS DONE ON GAMMA SPECTRAL ANALYZERS      12866001   37
+             TO MEASURE ABSOLUTE PHOTON EMISSION RATES.           12866001   38
+ANALYSIS   ALL SPECTRA GENERATED WERE ANALYZED BY COMPUTER        12866001   39
+             CODE GAMANAL TO OBTAIN A SET OF ABSOLUTE             12866001   40
+             DISINTEGRATION RATES FOR THE NUCLIDES FOUND.         12866001   41
+           THE DISINTEGRATION-RATE DATA THUS OBTAINED WERE        12866001   42
+             FURTHER ANALYZED BY ANOTHER COMPUTER CODE NADAC      12866001   43
+             TO COMPUTE THE EFFECTIVE CROSS SECTION FOR           12866001   44
+             EACH ACTIVATION PRODUCT.                             12866001   45
+ERR-ANALYS DETAILS NOT GIVEN                                      12866001   46
+             FOR SOME ELEMENTS THE ERRORS REFLECT THE EFFECTS OF  12866001   47
+             CONCENTRATION ERROR OR EVAPORATION LOSS.             12866001   48
+CORRECTION NO CORRECTION FOR THE INTERFERENCE DUE TO (N,P)        12866001   49
+             REACTION WAS DONE.                                   12866001   50
+           CORRECTION DUE TO U-235 FISSION REACTION IS IMPLIED.   12866001   51
+STATUS     (APRVD) R.E.HEFT, 84/12/27.                            12866001   52
+HISTORY    (840410C)                                              12866001   53
+ENDBIB              51                                            12866001   54
+COMMON              10          6                                 12866001   55
+MONIT1     MONIT1-ERR MONIT2     MONIT3     MONIT4     MONIT5     12866001   56
+MONIT5-ERR MONIT6     MONIT7     MONIT8                           12866001   57
+B          B          B          B          B          B          12866001   58
+B          B          B          B                                12866001   59
+27.7       0.5        37.5       98.8       2.720      12.2       12866001   60
+0.6        75.        1550.      280.                             12866001   61
+ENDCOMMON            6                                            12866001   62
+ENDSUBENT           61                                            1286600199999
+SUBENT        12866014     851106                                 12866014    1
+BIB                  5          9                                 12866014    2
+REACTION   (20-CA-46(N,G)20-CA-47,,SIG,,SPA)                      12866014    3
+SAMPLE     NATURAL SAMPLE,ASSUMED 0.0033 PERCENT ABUNDANCE.       12866014    4
+DECAY-DATA (20-CA-47,4.540E+00D,DG,1296.95,0.760)                 12866014    5
+           (21-SC-47,3.430E+00D,DG,159.38,0.730)                  12866014    6
+MONITOR    ((20-CA-46(N,G)20-CA-47,,RI)/                          12866014    7
+           (20-CA-46(N,G)20-CA-47,,SIG))                          12866014    8
+           THE RATIO WAS ADOPTED FROM STEINNES,J.INORG.NUCL.CHEM.,12866014    9
+             34,2699(1972).                                       12866014   10
+HISTORY    (851106A) MONITOR CORRECTED.                           12866014   11
+ENDBIB               9                                            12866014   12
+NOCOMMON             0          0                                 12866014   13
+DATA                 3          1                                 12866014   14
+EN-DUMMY   DATA       DATA-ERR                                    12866014   15
+EV         B          B                                           12866014   16
+0.025      0.72       0.03                                        12866014   17
+ENDDATA              3                                            12866014   18
+ENDSUBENT           17                                            1286601499999
+ENDENTRY             2                                            1286699999999
+ENDREQUEST           1                                            Z999999999999

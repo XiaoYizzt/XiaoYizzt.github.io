@@ -1,0 +1,753 @@
+<html>
+<title>PGAA/ZVV</title>
+
+<!-- Mirrored from www-nds.iaea.org/pgaa/pgaa7/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 14 Dec 2022 10:21:28 GMT -->
+<head>
+<script language="javascript" src="iso.js"></script>
+<script language="javascript" src="ele.js"></script>
+<script language="javascript">
+
+//
+//	Author:		Viktor Zerkin, V.Zerkin@iaea.org
+//	Last modified:	22-May-2012, by V.Zerkin
+//	Created:	01-Jan-2003
+//	Property of:	International Atomic Energy Agency
+//	Organization:	Nuclear Data Section
+//			International Atomic Energy Agency (IAEA)
+//			Wagramer Strasse 5, P.O.Box 100, A-1400
+//			Vienna, Austria
+//	Project:	Prompt Gamma-ray Neutron Activation Analysis
+//	Usage:		with permission and proper acknowlegement to the IAEA-NDS
+//			and author
+//	Distribution:	restricted while the project remains unfinished
+//	Modifications:	can be done with permission of IAEA-NDS and author
+//	Note:		non-commercial software and comes with
+//			NO WARRANTY
+
+    var gam;
+    var txtFlag=0;
+
+
+    function nisoz(zz) {
+	var i, zzi, niso;
+	for (i=0, niso=0; i<iso.length; i++) {
+	    zzi = iso[i].zz;
+	    if (zzi==zz) niso++;
+	}
+	return(niso);
+    }
+
+
+    function sel(ie)
+    {
+	var i, isoi, zzi, namei, symi, smrk;
+	i=ie-1;
+	zzi=ele[i].zz;
+	namei=ele[i].name;
+	symi=ele[i].sym;
+	smrk='';
+	if (zzi==57) smrk='<b>'+'*'+'</b>';
+	else
+	if (zzi==89) smrk='<b>'+'**'+'</b>';
+	document.write('<td>');
+	if (nisoz(zzi)>0) {
+	    document.write('<font size=1 color=blue>'+zzi+smrk+'<br></font>&nbsp;');
+	    document.write('<a href='+zzi+'-'+symi+' ');
+	    document.write('onClick="javascript:elem(\''+zzi+'\',\''+symi+'\',\''+namei+'\',event.screenX,event.screenY);');
+	    document.write(' return(false);">'+symi);
+	    if (symi.length<=1) document.write('&nbsp;');
+	    document.write('</b></a>');
+	}
+	else {
+	    document.write('<font color=#404040>');
+	    document.write('<font size=1>'+zzi+smrk+'<br></font>&nbsp;');
+	    document.write(symi+'</font>');
+	}
+	document.write('</td>');
+    }
+    function empty(ll)
+    {
+	document.write('<td colspan='+ll+'></td>\n');
+    }
+
+
+    var fSelected = 'h1-102';
+    var rSelected = 'H1(n,g)';
+    var zSelected=0;
+    var flagIni=0;
+    var typeGamma=0;
+    var typeSort=0;
+
+    function elem(zz,element,name,xMouse,yMouse) {
+	var i, isoi, zzi, namei, niso, ii, ll, namee, ngele;
+//	document.request.element.value = zz+'-'+element+' '+name;
+//	document.request.element.value = 'Z='+zz+' '+name;
+	document.request.element.value = 
+	'Z='+zz+', '+name
+	+'\n'+'A='+ele[zz-1].aa
+	+'\n'+'CS='+ele[zz-1].cs
+	;
+	for (i=document.request.isotope.length; i>0; i--) {
+	    document.request.isotope.options[i-1] = null;
+	}
+	for (i=0,ngele=0; i<iso.length; i++) {
+	    if (zz==iso[i].zz) ngele+=iso[i].ng;
+	}
+//	namee=zz+'-'+ele[zz-1].sym;
+	namee=zz+'-'+ele[zz-1].name+' ('+ngele+')';
+	niso=0;
+	optionName = new Option(namee, namee);
+	document.request.isotope.options[niso] = optionName;
+	niso++;
+	for (i=0; i<iso.length; i++) {
+	    isoi  = iso[i];
+	    zzi   = isoi.zz;
+//	    namei = element+'-'+isoi.aa;
+	    namei = element+'-'+isoi.aa+' ('+isoi.ng+')';
+	    ll=namei.length;
+	    for (ii=0; ii<18-ll; ii++) namei=namei+' ';
+	    if (zzi==zz) {
+		optionName = new Option(namei, namei);
+		document.request.isotope.options[niso] = optionName;
+		niso++;
+	    }
+	}
+//??	document.request.isotope.size = niso; // writable in IE only
+	document.request.isotope.size = 10;
+	zSelected=zz;
+//	alert('niso='+niso);
+	if (flagIni!=0) showElement();
+	flagIni=1;
+    }
+
+    function addIt(iSelected) {
+	var iNeeded;
+//	alert('zz='+zSelected+' i='+iSelected);
+	if (iSelected==0) {
+	    showEleGammas(zSelected);
+	    return(0);
+	}
+	iNeeded=iSelected-1;
+	for (i=0, niso=0; i<iso.length; i++) {
+	    isoi  = iso[i];
+	    zzi   = isoi.zz;
+	    if (zzi==zSelected) {
+		if (niso==iNeeded) {
+		    namei = isoi.fname;
+//		    document.plot.src='gif/'+namei+'.gif';
+//		    document."ZvdLink".href='zvd/'+namei+'.zvd';
+		    fSelected=namei;
+		    rSelected=isoi.reacode;
+		    showIsoGammas(zzi,i);
+		    break;
+		}
+		niso++;
+	    }
+	}
+    }
+
+    var xWin = null;
+
+    function showDat() {
+	var url;
+//	alert(fSelected);
+	if (fSelected!=null) {
+	    url = 'dat/'+fSelected+'.dat';
+//	    alert(url);
+
+//	cFeatures='width=300,height=400,status,menubar,resizable,scrollbars,screenX=10,screenY=10'
+	cFeatures=
+	 'width=680,height=560'
+	+',resizable=yes'
+	+',status=1'
+	+',menubar=1'
+	+',scrollbars=yes'
+	+',toolbar=yes'
+	+',location=1'
+//	+',directories=1'
+//	+',copyhistory=0'
+	+',screenX=10,screenY=10'
+	;
+	if ((xWin==null)||(xWin.closed)) xWin=window.open(url,'txt',cFeatures);
+	else xWin.document.location=url;
+	xWin.focus();
+//	document.URL=url;
+	}
+    }
+
+    function showElement() {
+	var urlGif,urlZvd,isoi,zzi,i,namei,namee='',namefull='',iel;
+	var cs;
+	var xdoc;
+	var imgSize=' width="296" height="195"';
+
+	var cFeatures='width=500,height=360,resizable=yes,status=1'
+	+',menubar=1,scrollbars=yes,toolbar=yes,location=1'
+	+',screenX=10,screenY=10';
+	if ((xWin==null)||(xWin.closed)) xWin=window.open('','txt',cFeatures);
+	for (iel=0; iel<ele.length; iel++) {
+	    if (ele[iel].zz==zSelected) {
+		namee = ele[iel].sym;
+		namefull = ele[iel].name;
+		break;
+	    }
+	}
+	xdoc=xWin.document;
+	xdoc.open();
+	xdoc.write('<html>');
+	xdoc.write('<head>');
+	writeSendZvd(xdoc);
+	xdoc.write('</head>');
+	xdoc.writeln('<body bgcolor="#c0c0c0">');
+	xdoc.writeln('<center>');
+//	xdoc.writeln('<font size=+2 color="#c000c0"><b>PGAA</b></font>');
+	xdoc.writeln('<table border=0 cellpadding=0 cellspacing=0 align=right>');
+	xdoc.writeln('<tr><td>');
+	xdoc.writeln('<font size=6 color=red><b>'+namee+'</b></font>');
+	xdoc.writeln('</td></tr></table>');
+	xdoc.writeln('<table border=0 cellpadding=1 cellspacing=1>');
+	xdoc.writeln('<tr><td align=center colspan=2>');
+	xdoc.writeln('<big> '+ele[iel].zz+'-'+namefull+' </big>');
+	xdoc.writeln('</td></tr>');
+//	xdoc.writeln('<tr><td align=right> Z = </td><td>'+ele[iel].zz+'</td></tr>');
+	xdoc.writeln('<tr><td align=right> Atomic weight (amu)= </td><td>'+ele[iel].aa+'</td></tr>');
+	xdoc.writeln('<tr><td align=right> Elemental Capture Cross Section (barns) = </td><td>'+ele[iel].cs+'</td></tr>');
+	xdoc.writeln('</table>');
+
+	xdoc.writeln('<table border=1 cellpadding=2 cellspacing=0>');
+	xdoc.writeln('<tr>');
+	xdoc.writeln('<td> Isotope </td>');
+	if (txtFlag!=0) {
+		xdoc.writeln('<td> Abundance(%) </td>');
+		xdoc.writeln('<td> Cross Section </td>');
+		xdoc.writeln('<td> g-factor </td>');
+		xdoc.writeln('<td> N gammas </td>');
+	}
+	else {
+		xdoc.writeln('<td align=center>&theta;<i>(%)</i></td>');
+		xdoc.writeln('<td align=center>&sigma;<sub>&gamma;</sub><sup>Z</sup>(b)</td>');
+		xdoc.writeln('<td align=center><i>g</i><sub>w</sub></td>');
+		xdoc.writeln('<td align=center><i>N</i><sub>&gamma;</sub></td>');
+	}
+	xdoc.writeln('</tr>');
+	for (i=0; i<iso.length; i++) {
+	    zzi   = iso[i].zz;
+	    if (zzi==zSelected) {
+		isoi  = iso[i];
+		xdoc.writeln('<tr>');
+		xdoc.writeln('<td> '+namee+'-'+isoi.aa+' </td>');
+		xdoc.writeln('<td align=right> '+isoi.abu+'&nbsp; </td>');
+//		xdoc.writeln('<td> '+isoi.cs+' </td>');
+		cs=isoi.cs;
+//		if (cs=='') cs='&nbsp;';
+		xdoc.writeln('<td align=right> '+cs+'&nbsp; </td>');
+		xdoc.writeln('<td align=center> '+isoi.gf+' </td>');
+		xdoc.writeln('<td align=right> '+isoi.ng+'&nbsp; </td>');
+		xdoc.writeln('</tr>');
+	    }
+	}
+	xdoc.writeln('</table>');
+	xdoc.writeln('</center>');
+
+//---gifs
+	xdoc.writeln('<center>');
+	for (i=0; i<iso.length; i++) {
+	    zzi   = iso[i].zz;
+	    if (zzi==zSelected) {
+		isoi  = iso[i];
+		if (isoi.ng<=0) continue;
+		urlGif='gif/'+ele[zzi-1].sym+'-'+isoi.aa+'.gif';
+		urlZvd='zvd/'+ele[zzi-1].sym+'-'+isoi.aa+'.zvd';
+		xdoc.writeln('<br>');
+		xdoc.write('<b>'+ele[zzi-1].sym+'-'+isoi.aa+'</b><br>');
+		xdoc.write('<a href="javascript:sendZvd(\''+urlZvd.toLowerCase()+'\')" onClick=\'sendZvd("'+urlZvd.toLowerCase()+'");return(false);\'')
+		xdoc.write('>');
+		xdoc.write('<img src="'+urlGif+'" border=1'+imgSize+'>');
+		xdoc.writeln('</a><br>');
+	    }
+	}
+
+	xdoc.writeln('</center>');
+	xdoc.writeln('</body>');
+	xdoc.writeln('</html>');
+	xdoc.close();
+	xWin.focus();
+    }
+
+    function checkGLines(zIso,aIso) {
+	var i;
+	for (i=0; i<gam.length; i++) {
+	    if (zIso!=gam[i].zz) continue;
+	    if (aIso!=gam[i].aa) continue;
+	    return(1);
+	}
+	return(0);
+    }
+
+function floatValue(str,def) {
+    flo=parseFloat(str);
+    if (!isNaN(flo)) return(flo);
+    else return(def);
+}
+
+    var flgEMin=1, eMin=1000;
+    var flgEMax=1, eMax=1500;
+    var flgZMin=1, zMin=10;
+    var flgZMax=1, zMax=20;
+    var flgAMin=1, aMin=20;
+    var flgAMax=1, aMax=40;
+    var flgCsMin=1, csMin=0.1;
+    var flgCsMax=1, csMax=1.;
+
+    function getOptions() {
+	if (document.search.gtype[1].checked) typeGamma='p';
+	else if (document.search.gtype[2].checked) typeGamma='d';
+	else typeGamma='';
+	if (document.search.sort[1].checked) typeSort=1;
+	else typeSort=0;
+//	alert(' typeGamma='+typeGamma+' typeSort='+typeSort);
+
+	if (document.search.chkEMin.checked) flgEMin=1;
+	else flgEMin=0;
+	eMin=floatValue(document.search.eMin.value,0);
+	if (document.search.chkEMax.checked) flgEMax=1;
+	else flgEMax=0;
+	eMax=floatValue(document.search.eMax.value,0);
+
+	if (document.search.chkZMin.checked) flgZMin=1;
+	else flgZMin=0;
+	zMin=floatValue(document.search.zMin.value,0);
+	if (document.search.chkZMax.checked) flgZMax=1;
+	else flgZMax=0;
+	zMax=floatValue(document.search.zMax.value,0);
+
+	if (document.search.chkAMin.checked) flgAMin=1;
+	else flgAMin=0;
+	aMin=floatValue(document.search.aMin.value,0);
+	if (document.search.chkZMax.checked) flgAMax=1;
+	else flgAMax=0;
+	aMax=floatValue(document.search.aMax.value,0);
+
+	if (document.search.chkCsMin.checked) flgCsMin=1;
+	else flgCsMin=0;
+	csMin=floatValue(document.search.csMin.value,0);
+	if (document.search.chkCsMax.checked) flgCsMax=1;
+	else flgCsMax=0;
+	csMax=floatValue(document.search.csMax.value,0);
+
+    }
+
+    function writeSendZvd(xdoc) {
+	var urlGif,urlZvd,isoi,zzi,i,namei,namee='',namefull='',iel;
+	var cs,aiso,gami,nn,tt,nnn;
+	var xdoc;
+
+	xdoc.writeln('<script language=\"javascript\">');
+	xdoc.writeln('    function sendZvd(fileName)');
+	xdoc.writeln('    {');
+	xdoc.writeln(' var where, myCgi;');
+//	xdoc.writeln(' myCgi=\"/htbin/zvd_pgaa.cgi?file=\";');
+//	xdoc.writeln(' myCgi=\"/htbin/zvd_pgaa.cgi?file=\";');
+//	xdoc.writeln(' myCgi=\"/cgi-bin/pgaa.cgi?file=\";');
+//	xdoc.writeln(' myCgi=\"http://www-nds.iaea.org/exfor/servlet/X4sZvd?file=http://www-nds.iaea.org/pgaa/pgaa7/\";');
+	xdoc.writeln(' myCgi=\"https://www-nds.iaea.org/exfor/servlet/X4sZvd?file=https://www-nds.iaea.org/pgaa/pgaa7/\";');
+	xdoc.writeln(' where=self.location.protocol;');
+	xdoc.writeln(' if (where==\"file:\") self.location.href=fileName;');
+	xdoc.writeln(' else self.location.href=myCgi+fileName;');
+	xdoc.writeln('    }');
+	xdoc.writeln('<\/script>');
+    }
+
+
+    function showIsoGammas(zIso,iIso) {
+	var urlGif,urlZvd,isoi,zzi,i,namei,namee='',namefull='',iel;
+	var cs,aiso,gami,nn,tt,nnn,url;
+	var xdoc;
+
+	var cFeatures='width=500,height=360,resizable=yes,status=1'
+	+',menubar=1,scrollbars=yes,toolbar=yes,location=1'
+	+',screenX=10,screenY=10';
+	//alert(' showIsoGammas: zIso='+zIso+' iIso='+iIso);
+	iel=zIso-1;
+	namee = ele[iel].sym;
+	namefull = ele[iel].name;
+	isoi = iso[iIso];
+	aIso=isoi.aa;
+	ngIso=isoi.ng;
+	if (ngIso<=0) {
+	    alert('No gamma-lines\n'+' showIsoGammas: zIso='+zIso+' iIso='+iIso+'\n nGammas='+ngIso);
+	    return;
+	}
+//	getOptions();
+	url='isol/'+namee+'-'+aIso+'.htm';
+	if ((xWin==null)||(xWin.closed)) xWin=window.open(url,'txt',cFeatures);
+	else xWin.document.location=url;
+	xWin.focus();
+    }
+
+    function showEleGammas(zIso) {
+	var urlGif,urlZvd,isoi,zzi,i,namei,namee='',namefull='',iel;
+	var cs,aiso,gami,nn,tt,nnn,url;
+	var xdoc;
+
+	var cFeatures='width=500,height=360,resizable=yes,status=1'
+	+',menubar=1,scrollbars=yes,toolbar=yes,location=1'
+	+',screenX=10,screenY=10';
+	//alert(' showIsoGammas: zIso='+zIso);
+	iel=zIso-1;
+	namee = ele[iel].sym;
+	namefull = ele[iel].name;
+	//getOptions();
+	url='elel/'+namee+'-0.htm';
+	if ((xWin==null)||(xWin.closed)) xWin=window.open(url,'txt',cFeatures);
+	else xWin.document.location=url;
+	xWin.focus();
+    }
+
+
+
+
+
+
+
+    function showRequestedGammas() {
+	var urlGif,urlZvd,isoi,zzi,i,namei,namee='',namefull='',iel;
+	var cs,aiso,gami,nn,tt,nnn,ee,rr;
+	var xdoc;
+
+	var cFeatures='width=500,height=360,resizable=yes,status=1'
+	+',menubar=1,scrollbars=yes,toolbar=yes,location=1'
+	+',screenX=10,screenY=10';
+//	alert(' showRequestedGammas: eMin='+eMin+' eMax='+eMax);
+	if ((xWin==null)||(xWin.closed)) xWin=window.open('','txt',cFeatures);
+
+	getOptions();
+//	alert(' showRequestedGammas: eMin='+eMin+':'+flgEMin+' eMax='+eMax+':'+flgEMax);
+
+	xdoc=xWin.document;
+	xdoc.open();
+	xdoc.write('<html>');
+	xdoc.writeln('<body bgcolor="#c0c0c0">');
+	xdoc.writeln('<center>');
+	xdoc.writeln('<font size=6 color=red><b>- P G A A -</b></font>');
+	xdoc.writeln('</center>');
+
+
+	xdoc.write('<hr>');
+//	xdoc.write('<small>');
+	xdoc.write('<i>Type of Ray: Prompt(p) or Delayed(d)</i>');
+	xdoc.write('<pre>');
+	xdoc.writeln('    n Energy,keV   Isotope Sigma,b  Type   Half-life k0');
+	for (i=0, nnn=0; i<gam.length; i++) {
+	    ii  = i;
+	    if (typeSort==1) ii=gam[i].ics;
+//	    else ii=iEne[i];
+	    gami = gam[ii];
+	    if (typeGamma!='') {
+		if (gami.typ!=typeGamma) continue;
+	    }
+
+	    if ((flgEMin!=0)||(flgEMax!=0)) {
+		rr=getFloatValue(gami.ee,0.);
+		if (flgEMin!=0) if (rr<eMin) continue;
+		if (flgEMax!=0) if (rr>eMax) continue;
+	    }
+
+	    rr=getFloatValue(gami.zz,0.);
+	    if (flgZMin!=0) if (rr<zMin) continue;
+	    if (flgZMax!=0) if (rr>zMax) continue;
+
+	    rr=getFloatValue(gami.aa,0.);
+	    if (flgAMin!=0) if (rr<aMin) continue;
+	    if (flgAMax!=0) if (rr>aMax) continue;
+
+	    rr=getFloatValue(gami.cs,0.);
+	    if (flgCsMin!=0) if (rr<csMin) continue;
+	    if (flgCsMax!=0) if (rr>csMax) continue;
+
+	    nnn++;
+	    tt=gami.tt;
+	    if (tt=='St') tt='Stable';
+//for table	    else if (tt=='') tt='&nbsp;';
+/*
+	    xdoc.write(' '+nnn);
+	    xdoc.write(' '+gami.ee);
+	    xdoc.write(' '+ele[(gami.zz-1)].sym+'-'+gami.aa);
+	    xdoc.write(' '+gami.cs);
+	    xdoc.write(' '+gami.typ);
+	    xdoc.write(' '+tt);
+	    xdoc.write(' '+gami.k0);
+//	    xdoc.writeln('<br>');
+	    xdoc.writeln();
+*/
+	    xdoc.write(padstr(' '+nnn,5));
+	    xdoc.write(' '+strpad(gami.ee,13));
+	    xdoc.write(' '+strpad(ele[(gami.zz-1)].sym+'-'+gami.aa,6));
+	    xdoc.write(' '+strpad(gami.cs,11));
+	    xdoc.write(' '+gami.typ+' ');
+	    xdoc.write(' '+strpad(tt,9));
+	    xdoc.write(' '+gami.k0);
+//	    xdoc.writeln('<br>');
+	    xdoc.writeln();
+
+	}
+	xdoc.writeln('</pre>');
+	xdoc.writeln('<hr>');
+//	xdoc.write('</small>');
+	if (nnn<=0) {
+	    xdoc.writeln('<center>');
+	    xdoc.writeln('<font color=red><big><blink>No data found</blink></big></font>');
+	    xdoc.writeln('</center>');
+	}
+	xdoc.writeln('</body>');
+	xdoc.writeln('</html>');
+	xdoc.close();
+	xWin.focus();
+    }
+
+    function myErr() {
+	xWin.document.close();
+	return(false);
+    }
+
+
+    function xWinRedirect(url) {
+	xWin.document.open();
+	xWin.document.write('<html>');
+	xWin.document.writeln('<head>');
+	xWin.document.writeln('</head>');
+	xWin.document.writeln('<center>');
+	xWin.document.writeln(' '+rSelected+'<br>');
+	xWin.document.writeln('<font size=+2 color=#ff0000><b>EXFOR DATA...</b></font>');
+	xWin.document.writeln('</center>');
+	xWin.document.writeln('<script language=\"javascript\">');
+	xWin.document.writeln('	window.onerror = null;');
+//	xWin.document.writeln(' self.document.location="'+url+'";');
+//	xWin.document.writeln(' document.write("'+url+'");');
+	xWin.document.writeln('<\/script>');
+	xWin.document.writeln('<br>');
+	xWin.document.close();
+    }
+
+    function showX4() {
+	var url;
+//	alert(fSelected);
+	if (fSelected!=null) {
+	    url = 'x4r/'+fSelected+'.x4';
+//	    alert(url);
+
+//	cFeatures='width=300,height=400,status,menubar,resizable,scrollbars,screenX=10,screenY=10'
+	cFeatures=
+	 'width=680,height=560'
+	+',resizable=yes'
+	+',status=1'
+	+',menubar=1'
+	+',scrollbars=yes'
+	+',toolbar=yes'
+	+',location=1'
+//	+',directories=1'
+//	+',copyhistory=0'
+	+',screenX=10,screenY=10'
+	;
+	window.onerror = null;
+//	if ((xWin==null)||(xWin.closed)) xWin=window.open(url,'txt',cFeatures);
+//	else xWin.document.location=url;
+	if ((xWin==null)||(xWin.closed)) xWin=window.open('','txt',cFeatures);
+	xWinRedirect(url);
+	xWin.document.location=url;
+	xWin.focus();
+//	xwin.onerror = null;
+//	document.URL=url;
+	}
+    }
+
+    function showUrl(url) {
+//	alert(url);
+//	cFeatures='width=300,height=400,status,menubar,resizable,scrollbars,screenX=10,screenY=10'
+	cFeatures=
+	 'width=640,height=560'
+	+',resizable=yes'
+	+',status=1'
+	+',menubar=1'
+	+',scrollbars=yes'
+	+',toolbar=yes'
+	+',location=1'
+//	+',directories=1'
+//	+',copyhistory=0'
+	+',screenX=10,screenY=10'
+	;
+	if ((xWin==null)||(xWin.closed)) xWin=window.open(url,'txt',cFeatures);
+	else xWin.document.location=url;
+	xWin.focus();
+    }
+
+    function zvdSend(fileName)
+    {
+	var where, myCgi;
+//	myCgi="/htbin/zvd_nga.cgi?file=";
+	myCgi="https://www-nds.iaea.org/cgi-bin/nga.cgi?file=";
+	where=self.location.protocol;
+	if (where=="file:") self.location.href=fileName;
+	else self.location.href=myCgi+fileName;
+    }
+
+    var zWin = null;
+    function showZvd() {
+	var url;
+	url = 'zvd/'+fSelected+'.zvd';
+//	document.location=url;
+	zvdSend(url.toLowerCase());
+    }
+
+</script>
+</head>
+<body xBACKGROUND="bkgrbr2.gif" xbgcolor=#c0c0c0 
+onload="javascript:elem(1,'H','Hydrogen',0,0);">
+
+<center>
+<table>
+<tr>
+<td>
+</td>
+<td valign=middle><img src="iaealogo80.png"></td>
+
+</tr>
+
+</table>
+
+<font face="helvetica" size="2">
+International Atomic Energy Agency<br><br>
+<!---Wagramer Strasse 5, P.O.Box 100, A-1400 Vienna, Austria<br>
+Tel:(+43 1) 2600-21714; Fax:(+43 1) 26007<br>--->
+</font>
+</center>
+<!br>
+
+<!---
+<script language=javascript>
+ document.writeln('Total elements: '+ele.length+'<br>');
+ document.writeln('Total isotopes: '+iso.length+'<br>');
+ document.writeln('Total g-lines: '+gam.length+'<br>');
+</script>
+--->
+
+<center>
+<font size=+3 color=#c000c0><b>P G A A</b></font>
+<br>
+<font size=+1 color=#0000ff>Prompt Gamma-ray Neutron Activation Analysis</font>
+<br>
+<!---
+<small>
+<a href=a.htm onClick='showUrl("readme.htm");return(false);'>Readme</a> &nbsp;
+<a href="#links">Links</a> &nbsp;
+<a href="#addresses">Authors</a> &nbsp;
+</small>
+--->
+</center>
+
+<p align=justify style="margin-left:1%; margin-right:3%;">
+<font face="helvetica" size="2">
+This database has been developed as part of a Coordinated Research Project 
+for the Development of a Database for Prompt Gamma-ray Neutron Activation 
+Analysis sponsored by the International Atomic Energy Agency (IAEA).
+The data are derived from the isotopic measurements 
+compiled in the Evaluated Nuclear Structure Data File (ENSDF), updated when 
+necessary, and from elemental measurements performed at the Budapest Reactor 
+Centre. The data were received from Richard B. Firestone 
+(Lawrence Berkeley National Laboratory, USA). 
+The program "Viewer" was developed by Viktor Zerkin (IAEA, NDS).
+</font>
+</p>
+
+<center>
+<font color=#a000a0><b>PGAA: Target Elements and Isotopes</b></font>
+</center>
+
+<table border=0 cellspacing=0 cellpaddind=0>
+<tr>
+
+<td valign=top bgcolor=#e0e0e0>
+<form name="request">
+ <i>Selected Element</i><br>
+ <!input type="text" name="element" value="--Element--" size=19>
+ <!textarea name="element" cols=16 rows=3>
+ <!/textarea>
+ <!br>
+ <input type=hidden name="element" value="--Element--" size=19>
+ <select name="isotope" size=10
+  onChange="
+	addIt(this.selectedIndex);
+  "
+ >
+   <option> _______Isotope_______
+   <option> 
+ </select>
+</form>
+</td>
+
+<td valign=top bgcolor=#e0e0e0>
+<script language="javascript" src="per.js"></script>
+</td>
+</tr>
+</table>
+
+
+<!/center>
+
+<br>
+<hr>
+
+<!center>
+
+<table border=0 cellspacing=0 cellpaddind=0>
+<tr>
+
+<td valign=top align=left>
+  <font color=#FF0000><b><u>Database Search:</u></b></font><br>
+&#149; <a href=small/index2.html target=i2>from smaller version of database</a> &nbsp;
+  <br>
+&#149; <a href=index2.html target=i2>from full database</a> &nbsp;
+  <br>
+&nbsp; (see: <a href=index1.html target=i1>limitations</a>) &nbsp;
+  <br>
+</td>
+
+<td valign=top align=left>
+  <font color=#a000a0><b>Display:</b></font><br>
+&#149; <a href=ele.html target=tbl>Table of elements</a> &nbsp;
+  <br>
+&#149; <a href=eleiso.html target=tbl>Table of elements & isotopes</a> &nbsp;
+  <br>
+</td>
+
+<td valign=top align=left>
+  <font color=#a000a0><b>Download:</b></font><br>
+&#149; <a href=pgaadata.zip>PGAA data as plain text</b></a> &nbsp; <br>
+&#149; <a href="../Annex1/Table-III-Chap7.pdf">Adopted Gamma Rays for Elements</b></a> &nbsp; <br>
+&#149; <a href="../Annex1/Table-IV-Chap7.pdf">Most Intense Gamma Rays</b></a> &nbsp; <br>
+</td>
+
+<td valign=top align=left>
+  <font color=#a000a0><b>Link:</b></font><br>
+&#149; <a href=http://www-nds.iaea.org/ndspub/zvview/
+ onClick='showUrl("http://www-nds.iaea.org/ndspub/zvview/");return(false);'
+>ZVView: plotting program</a><br>
+</td>
+
+<td valign=top><!img src="gif/h1-102.gif/index.html" name="plot" align=top border=1></td>
+</tr>
+</table>
+
+<!/center>
+<br>
+
+
+<hr>
+<font face="helvetica" size="1">
+ Web design: <a HREF="mailto:zerkin@iaeand.iaea.org">V.Zerkin</a>, IAEA, August-2002<br>
+  <script language="javascript">  document.write(" Last updated: "+document.lastModified) </script>
+</font>
+<script>(function(){var js = "window['__CF$cv$params']={r:'7796362a6c2daf7f',m:'FF3DmfLrz3xyW_guoE1XFLG5o5lODzNP0x4cHOzocV0-1671013275-0-AZChLQC1VkdmTpNlJY1zD6UQ9PBECY2UZPScsuOi85plOq0Dg7080JooQ9OMU2hcsiS6rgk/iM2ADrtmXlaQOF3E1q1XnQoF7k2cJwMiUKAFrvUIB3s3eFg00dQw//jg22R5mXH4t1HJv0KptA4n7mo=',s:[0x3a9b703436,0xab24caa4a2],u:'/cdn-cgi/challenge-platform/h/b'};var now=Date.now()/1000,offset=14400,ts=''+(Math.floor(now)-Math.floor(now%offset)),_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='../../cdn-cgi/challenge-platform/h/b/scripts/alpha/invisible5615.js?ts='+ts,document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.position = 'absolute';_0xh.style.top = 0;_0xh.style.left = 0;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.nonce = '';_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();</script></body>
+
+<!-- Mirrored from www-nds.iaea.org/pgaa/pgaa7/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 14 Dec 2022 10:21:33 GMT -->
+</html>

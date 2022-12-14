@@ -1,0 +1,103 @@
+REQUEST           1001   20010914          3     144106               0  0    0
+ENTRY            40908   19981116   19990308                      40908000    1
+SUBENT        40908001   19981116   19990308                      40908001    1
+BIB                 11         14                                 40908001    2
+INSTITUTE  (4UKRKGU)                                              40908001    3
+REFERENCE  (C,84ALMAAT,,329,198404)                               40908001    4
+AUTHOR     (V.L.DEMEKHIN,B.E.LESHCHENKO,V.K.MAYDANYUK,G.PETO,     40908001    5
+           V.A.PLYUYKO)                                           40908001    6
+TITLE      .AU-198 ISOMERIC STATE EXCITATION IN THE REACTION      40908001    7
+            (N-GAMMA) AT THE NEUTRON ENERGY 14.6 MEV              40908001    8
+FACILITY   (VDG)       NEUTRON GENERATOR                          40908001    9
+METHOD     (ACTIV)     ACTIVATION                                 40908001   10
+DETECTOR   (GELI)                                                 40908001   11
+MONITOR    .NO INFORMATION                                        40908001   12
+ERR-ANALYS (DATA-ERR)  NOT SPECIFIED)                             40908001   13
+STATUS      FROM THE ABOVE-MENTIONED REFERENCE                    40908001   14
+HISTORY    (19861010C)   COMPILED AC CJD                          40908001   15
+           (19981116U)  CORRECTED AT CJD                          40908001   16
+ENDBIB              14                                            40908001   17
+NOCOMMON             0          0                                 40908001   18
+ENDSUBENT           17                                            4090800199999
+SUBENT        40908002   19981116   19990308                      40908002    1
+BIB                  5          5                                 40908002    2
+REACTION   (79-AU-197(N,G)79-AU-198-M,,SIG)                       40908002    3
+DECAY-DATA (79-AU-198-M,2.30D,DG,811.7)                           40908002    4
+DECAY-MON  (79-AU-198-G,2.69D,DG,411.8)                           40908002    5
+STATUS     (COREL,41000002)                                       40908002    6
+HISTORY    (19981116T)  COINCIDES WITH 88029002                   40908002    7
+ENDBIB               5                                            40908002    8
+NOCOMMON             0          0                                 40908002    9
+DATA                 3          1                                 40908002   10
+EN         DATA       DATA-ERR                                    40908002   11
+MEV        B          B                                           40908002   12
+ 14.6          4.00E-4    1.00E-4                                 40908002   13
+ENDDATA              3                                            40908002   14
+ENDSUBENT           13                                            4090800299999
+ENDENTRY             2                                            4090899999999
+ENTRY            41000   19981123   19990308                      41000000    1
+SUBENT        41000001   19981123   19990308                      41000001    1
+BIB                  9         12                                 41000001    2
+INSTITUTE  (4UKRKGU)                                              41000001    3
+REFERENCE  (C,87KIEV,3.329,198709)                                41000001    4
+AUTHOR     (V.K.MAYDANYUK,V.M.NEPLYUEV,G.I.PRIMENKO,A.I.SANZHUR,  41000001    5
+           V.K.TARAKANOV)                                         41000001    6
+TITLE       DETERMINATION OF THE EXCITATION CROSS-SECTION OF THE  41000001    7
+            ISOMERIC STATE OF AU-198 ARISING IN THE (N,G)         41000001    8
+METHOD     (ACTIV)                                                41000001    9
+DETECTOR   (GELI)                                                 41000001   10
+ERR-ANALYS (DATA-ERR) ERRORS ARE NOT SPECIFIED                    41000001   11
+STATUS      DATA ARE TAKEN FROM THE REFERENCE                     41000001   12
+HISTORY    (19891021C)  COMPILED AT THE CENTRE - CJD              41000001   13
+           (19981123U)  CORRECTED AT CJD                          41000001   14
+ENDBIB              12                                            41000001   15
+COMMON               1          3                                 41000001   16
+EN                                                                41000001   17
+MEV                                                               41000001   18
+  14.6                                                            41000001   19
+ENDCOMMON            3                                            41000001   20
+ENDSUBENT           19                                            4100000199999
+SUBENT        41000002   19981123   19990308                      41000002    1
+BIB                  4          4                                 41000002    2
+REACTION   (79-AU-197(N,G)79-AU-198-M,,SIG)                       41000002    3
+MONITOR    (79-AU-197(N,2N)79-AU-196,,SIG)                        41000002    4
+DECAY-DATA (79-AU-198-M,,DG,180.)                                 41000002    5
+STATUS     (COREL,40908002)                                       41000002    6
+ENDBIB               4                                            41000002    7
+NOCOMMON             0          0                                 41000002    8
+DATA                 4          1                                 41000002    9
+DATA       DATA-ERR   MONIT      MONIT-ERR                        41000002   10
+B          B          B          B                                41000002   11
+    5. E-04    2. E-04   1.42E-01     8.E-03                      41000002   12
+ENDDATA              3                                            41000002   13
+ENDSUBENT           12                                            4100000299999
+ENDENTRY             2                                            4100099999999
+ENTRY            88029     861211                                 88029000    1
+SUBENT        88029001     861211                                 88029001    1
+BIB                  7          9                                 88029001    2
+INSTITUTE  (4CCPKGU)                                              88029001    3
+REFERENCE  (C,84ALMAAT,,329,8404)                                 88029001    4
+AUTHOR     (V.L.DEMEKHIN,B.E.LESHCHENKO,V.K.MAIDANYUK,G.PETO,     88029001    5
+           V.A.PLYUIKO)                                           88029001    6
+TITLE      ISOMERIC STATE OF 198AU IN THE REACTION (N,GAMMA)      88029001    7
+            FOR E(N)=14.6 MEV.                                    88029001    8
+METHOD     (ACTIV)                                                88029001    9
+ERR-ANALYS NO INFORMATION                                         88029001   10
+HISTORY    (861211C)                                              88029001   11
+ENDBIB               9                                            88029001   12
+NOCOMMON             0          0                                 88029001   13
+ENDSUBENT           12                                            8802900199999
+SUBENT        88029002     861211                                 88029002    1
+BIB                  2          2                                 88029002    2
+REACTION   (79-AU-197(N,G)79-AU-198-M,,SIG)                       88029002    3
+DECAY-DATA (79-AU-198-M,2.30D,DG,811.7)                           88029002    4
+ENDBIB               2                                            88029002    5
+NOCOMMON             0          0                                 88029002    6
+DATA                 3          1                                 88029002    7
+EN         DATA       DATA-ERR                                    88029002    8
+MEV        MICRO-B    MICRO-B                                     88029002    9
+ 1.4600E+01 4.0000E+02 1.4000E+02                                 88029002   10
+ENDDATA              3                                            88029002   11
+ENDSUBENT           10                                            8802900299999
+ENDENTRY             2                                            8802999999999
+ENDREQUEST           1                                            Z999999999999

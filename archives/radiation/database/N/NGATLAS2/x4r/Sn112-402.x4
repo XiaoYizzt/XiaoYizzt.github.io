@@ -1,0 +1,35 @@
+REQUEST           1001   20010914          3     141937               0  0    0
+ENTRY            11972     830802                                 11972000    1
+SUBENT        11972001     830802                                 11972001    1
+BIB                 10         11                                 11972001    2
+INSTITUTE  (1USABNL)                                              11972001    3
+REFERENCE  (J,PR,124,1186,61)                                     11972001    4
+AUTHOR     (M.SCHMORAK,G.EMERY,G.SHARFF-GOLDHABER)                11972001    5
+TITLE      M3 ISOMERIC TRANSITION IN TIN-113.                     11972001    6
+INC-SPECT  REACTOR SPECTRUM                                       11972001    7
+SAMPLE     ENRICHED TO 72 PERCENT SN-112                          11972001    8
+METHOD     (ACTIV) ACTIVATION                                     11972001    9
+DETECTOR   (NAICR) NAI CRYSTAL SPECTROMETER                       11972001   10
+STATUS     (SCSRS)                                                11972001   11
+HISTORY    (760802T) TRANSLATED FROM SCISRS                       11972001   12
+           (830802A) CONVERTED TO REACTION FORMALISM              11972001   13
+ENDBIB              11                                            11972001   14
+NOCOMMON             0          0                                 11972001   15
+ENDSUBENT           14                                            1197200199999
+SUBENT        11972003     830802                                 11972003    1
+BIB                  5          5                                 11972003    2
+REACTION   (50-SN-112(N,G)50-SN-113-M,,SIG,,SPA)                  11972003    3
+STATUS     (DEP,11972004)                                         11972003    4
+ANALYSIS   CALCULATED FROM MEASURED ISOMERIC RATIO (M/G)          11972003    5
+MONITOR    (50-SN-112(N,G)50-SN-113-G,M+,SIG)                     11972003    6
+DECAY-DATA (50-SN-113-M,20.MIN)                                   11972003    7
+ENDBIB               5                                            11972003    8
+NOCOMMON             0          0                                 11972003    9
+DATA                 4          1                                 11972003   10
+EN-DUMMY   DATA       DATA-ERR   MONIT                            11972003   11
+MEV        B          B          B                                11972003   12
+ 0.0253 -06 0.39       0.10       1.3                             11972003   13
+ENDDATA              3                                            11972003   14
+ENDSUBENT           13                                            1197200399999
+ENDENTRY             2                                            1197299999999
+ENDREQUEST           1                                            Z999999999999

@@ -1,0 +1,187 @@
+REQUEST           1001   20010914          3     142141               0  0    0
+ENTRY            11998     830802                                 11998000    1
+SUBENT        11998001     830802                                 11998001    1
+BIB                  8          9                                 11998001    2
+INSTITUTE  (1USAUI)                                               11998001    3
+REFERENCE  (J,PR,76,333,4908)                                     11998001    4
+AUTHOR     (R.HILL)                                               11998001    5
+TITLE      LONG-LIVED TELLURIUM ISOMERS.                          11998001    6
+INC-SPECT  THERMAL SPECTRUM                                       11998001    7
+METHOD     (ACTIV) ACTIVATION                                     11998001    8
+STATUS     (SCSRS)                                                11998001    9
+HISTORY    (760802T) TRANSLATED FROM SCISRS                       11998001   10
+           (830802A) CONVERTED TO REACTION FORMALISM              11998001   11
+ENDBIB               9                                            11998001   12
+NOCOMMON             0          0                                 11998001   13
+ENDSUBENT           12                                            1199800199999
+SUBENT        11998002     830802                                 11998002    1
+BIB                  2          2                                 11998002    2
+REACTION   (52-TE-124(N,G)52-TE-125-M,,SIG,,MXW)                  11998002    3
+DECAY-DATA (52-TE-125-M,58.D)                                     11998002    4
+ENDBIB               2                                            11998002    5
+NOCOMMON             0          0                                 11998002    6
+DATA                 2          1                                 11998002    7
+EN-DUMMY   DATA-APRX                                              11998002    8
+MEV        B                                                      11998002    9
+ 2.53   -08 5.     +00                                            11998002   10
+ENDDATA              3                                            11998002   11
+ENDSUBENT           10                                            1199800299999
+ENDENTRY             2                                            1199899999999
+ENTRY            31417     960506                                 31417000    1
+SUBENT        31417001     960506                                 31417001    1
+BIB                 15         26                                 31417001    2
+INSTITUTE  (3CZRUJF)                                              31417001    3
+REFERENCE  (J,ZP/A,345,429,93)                                    31417001    4
+           (W,HONZATKO,930122)                                    31417001    5
+AUTHOR     (J.HONZATKO,K.KONECNY,I.TOMANDL)                       31417001    6
+TITLE      THE CROSS SECTION FOR (N,GAMMA) PRODUCTION OF THE      31417001    7
+           145 KEV (11/2-) ISOMERIC LEVEL IN TE-125.              31417001    8
+FACILITY   (REAC) VVR-S REACTOR AT REZ.                           31417001    9
+INC-SPECT  THERMAL NEUTRONS                                       31417001   10
+SAMPLE     1.5 G. METALLIC TE, ENRICHED IN TE-124 TO 92.4%.       31417001   11
+METHOD     (GSPEC,COINC)                                          31417001   12
+DETECTOR   (COIN,GELI,GELI) COINCIDENCE GAMMASPECTRA              31417001   13
+           (GELI) SINGLE GAMMASPECTRA                             31417001   14
+ANALYSIS   THE CROSS SECTION FOR PRODUCTION OF THE 145 KEV        31417001   15
+           ISOMERIC LEVEL IN TE-125 WAS DERIVED FROM THE          31417001   16
+           INTENSITIES OBSERVED AND TOTAL INTERNAL-CONVERSION     31417001   17
+           COEFFICIENTS OF THE TRANSITIONS FEEDING THIS STATE,    31417001   18
+           AND FROM THE TE-125-M+G CAPTURE CROSS SECTION.         31417001   19
+MONITOR    (52-TE-124(N,G)52-TE-125,,SIG,,MXW)                    31417001   20
+MONIT-REF  (,S.F.MUGHABGHAB+,B,NEUT.CS 1A,,81)                    31417001   21
+           (,S.F.MUGHABGHAB+,B,NEUT.CS 1B,,84)                    31417001   22
+ERR-ANALYS NO ERROR ANALYSIS GIVEN                                31417001   23
+STATUS     DATA TAKEN FROM TABLE I OF J. ACT. PHYS. POL., VOL.    31417001   24
+           20B (1989), NO. 7, P. 627.                             31417001   25
+HISTORY    (921209C) HW                                           31417001   26
+           (931028U) HW.-REFERENCE ADDED IN SUBENT 001.-          31417001   27
+           (960506A) HW.-CORRECTIONS IN SUB. OO2.-                31417001   28
+ENDBIB              26                                            31417001   29
+COMMON               1          3                                 31417001   30
+EN-DUMMY                                                          31417001   31
+EV                                                                31417001   32
+0.0253                                                            31417001   33
+ENDCOMMON            3                                            31417001   34
+ENDSUBENT           33                                            3141700199999
+SUBENT        31417002     960506                                 31417002    1
+BIB                  3          4                                 31417002    2
+REACTION  1(52-TE-124(N,G)52-TE-125-M,,SIG,,MXW)                  31417002    3
+          2(52-TE-124(N,G)52-TE-125-M/T,,SIG/RAT,,MXW)            31417002    4
+DECAY-DATA (52-TE-125-M,58.D)                                     31417002    5
+HISTORY    (960506A) HW.-DATA CORRECTED.                          31417002    6
+ENDBIB               4                                            31417002    7
+NOCOMMON             0          0                                 31417002    8
+DATA                 4          1                                 31417002    9
+DATA-MIN  1DATA-MAX  1DATA-MIN  2DATA-MAX  2                      31417002   10
+B          B          NO-DIM     NO-DIM                           31417002   11
+1.0        5.3        0.1        0.6                              31417002   12
+ENDDATA              3                                            31417002   13
+ENDSUBENT           12                                            3141700299999
+ENDENTRY             2                                            3141799999999
+ENTRY            41039     910405                                 41039000    1
+SUBENT        41039001     910405                                 41039001    1
+BIB                 14         26                                 41039001    2
+TITLE       RESONANCE INTEGRALS AND THERMAL NEUTRON CROSS-SECTIONS41039001    3
+            FOR THE LONG-LIVING ISOMER FORMATION IN THE REACTIONS 41039001    4
+            TE-122(N,GAMMA)TE-123-M AND TE-124(N,GAMMA)TE-125-M   41039001    5
+INSTITUTE  (4CCPITE,4CCPKUR)                                      41039001    6
+AUTHOR     (V.G.ALPATOV,A.V.DAVYDOV,G.R.KARTASHOV,M.M.KOROTKOV,   41039001    7
+           G.V.KOSTINA,P.A.POLOZOV,A.A.SADOVSKIY)                 41039001    8
+REFERENCE  (R,ITEF-32-90,9002)                                    41039001    9
+FACILITY   (REAC,4CCPKUR) REACTOR IR-8                            41039001   10
+DETECTOR   (GELI)                                                 41039001   11
+METHOD     (CADMB) CADMIUM DIFFERENCE METHOD                      41039001   12
+MONITOR    (27-CO-59(N,G)27-CO-60,,SIG)                           41039001   13
+           (27-CO-59(N,G)27-CO-60,,RI)                            41039001   14
+ASSUMED    (ASSUM1,27-CO-60(N,G)27-CO-61,,SIG)                    41039001   15
+           (ASSUM2,27-CO-60(N,G)27-CO-61,,RI)                     41039001   16
+DECAY-DATA (27-CO-57,271.81D,DG,136.474,0.106)                    41039001   17
+           (27-CO-60,5.217YR,DG,1332.507,0.999818)                41039001   18
+           (58-CE-139,137.67D,DG,165.857,0.7988)                  41039001   19
+SAMPLE      CO-59 CONTENT IS 100 PERCENT, MASS WITH CADMIUM       41039001   20
+            3. MILLIGRAM, MASS WITHOUT CADMIUM 0.320 MILLIGRAM    41039001   21
+ERR-ANALYS (ERR-1) MAXIMAL ERROR DUE TO THE UNCERTAINTY OF THE    41039001   22
+                   ACTIVITY OF THE STANDARD GAMMA SOURCE          41039001   23
+           (ERR-2) MAXIMAL ERROR DUE TO THE WEIGHTING             41039001   24
+                   OF THE SAMPLES                                 41039001   25
+           (ERR-3) MAXIMAL STATISTICAL ERROR                      41039001   26
+STATUS     DATA ARE TAKEN FROM THE REFERENCE                      41039001   27
+HISTORY    (910405C) + + COMPILED AT THE CENTRE - CJD + +         41039001   28
+ENDBIB              26                                            41039001   29
+COMMON              11          6                                 41039001   30
+ASSUM1     ASSUM1-ERR ASSUM2     ASSUM2-ERR MONIT1     MONIT1-ERR 41039001   31
+MONIT2     MONIT2-ERR ERR-1      ERR-2      ERR-3                 41039001   32
+B          B          B          B          B          B          41039001   33
+B          B          PER-CENT   PER-CENT   PER-CENT              41039001   34
+  2.0        0.2        4.3       0.9        37.18      0.06      41039001   35
+     74.       2.         3.         3.         1.                41039001   36
+ENDCOMMON            6                                            41039001   37
+ENDSUBENT           36                                            4103900199999
+SUBENT        41039004     910405                                 41039004    1
+BIB                  6         13                                 41039004    2
+REACTION   (52-TE-124(N,G)52-TE-125-M,,SIG)                       41039004    3
+ASSUMED    (ASSUM3,52-TE-124(N,G)52-TE-125,,SIG) CROSS-SECTION    41039004    4
+                                             FOR THERMAL ENERGIES 41039004    5
+           (ASSUM4,52-TE-124(N,G)52-TE-125,,SIG) CROSS-SECTION    41039004    6
+                                           FOR RESONANCE ENERGIES 41039004    7
+           (ASSUM,52-TE-125(N,G)52-TE-126,,SIG)  CROSS-SECTION    41039004    8
+                                             FOR THERMAL ENERGIES 41039004    9
+MISC-COL   (MISC) (52-TE-125(N,G)52-TE-126,,SIG) CROSS-SECTION    41039004   10
+                                          FOR RESONANCE ENERGIES  41039004   11
+SAMPLE      TE-122 CONTENT IS 92.4 PERCENT, MASS IN CADMIUM       41039004   12
+            IS 11.09 MILLIGRAM, MAS OUT OF CADMIUM IS 10.52 MG    41039004   13
+DECAY-DATA (52-TE-125-M,58.D,DG,109.27,0.00283)                   41039004   14
+INC-SPECT   THERMAL NEUTRONS OF THE REACTOR                       41039004   15
+ENDBIB              13                                            41039004   16
+NOCOMMON                                                          41039004   17
+DATA                11          1                                 41039004   18
+EN-DUMMY   DATA       ERR-T      ASSUM3     ASSUM3-ERR ASSUM4     41039004   19
+ASSUM4-ERR ASSUM      ASSUM-ERR  MISC       MISC-ERR              41039004   20
+EV         B          B          B          B          B          41039004   21
+B          B          B          B          B                     41039004   22
+   2.53E-02   1.12      0.07       6.8        1.3        5.2      41039004   23
+  0.7        1.55          0.16      21.         4.               41039004   24
+ENDDATA              6                                            41039004   25
+ENDSUBENT           24                                            4103900499999
+ENDENTRY             2                                            4103999999999
+ENTRY            41168     950511                                 41168000    1
+SUBENT        41168001     950511                                 41168001    1
+BIB                 14         20                                 41168001    2
+TITLE       PRODUCTION OF LONG-LIVING TELLURIUM ISOMERS           41168001    3
+            IN (N,GAMMA) REACTIONS                                41168001    4
+AUTHOR     (V.G.ALPATOV,A.V.DAVYDOV,G.R.KARTASHOV,M.M.KOROTKOV,   41168001    5
+           G.V.KOSTINA,P.A.POLOZOV,A.A.SADOVSKIY)                 41168001    6
+INSTITUTE  (4RUSITE,4RUSKUR)                                      41168001    7
+REFERENCE  (J,YF,58,(1),15,9501)   DATA ARE GIVEN                 41168001    8
+FACILITY   (REAC,4RUSKUR)    IR-8 REACTOR OF 4RUSKUR              41168001    9
+METHOD     (ACTIV)    ACTIVATION                                  41168001   10
+ANALYSIS    CADMIUM DIFFERENCE ANALYSIS                           41168001   11
+MONITOR    (27-CO-59(N,G)27-CO-60,,SIG)                           41168001   12
+           (79-AU-197(N,G)79-AU-198,,SIG)                         41168001   13
+DETECTOR   (GELI)                                                 41168001   14
+SAMPLE      COBALT SAMPLES HAVE MASSES 0.320+-0.018 AND           41168001   15
+            0.359 MILLIGRAM. GOLD SAMPLE HAS MASS 3.95            41168001   16
+            MILLIGRAM. CORRESPONDING ISOTOPE CONTENT 100 PC       41168001   17
+STATUS      DATA ARE TAKEN FROM THE REFERENCE ONE                 41168001   18
+ERR-ANALYS (DATA-ERR)  ERRORS ARE NOT SPECIFIED                   41168001   19
+HISTORY    (950511C)  + + COMPILED AT THE CENTRE - CJD + +        41168001   20
+INC-SPECT   THERMAL AND EPICADMIUM SPECTRA OF THE THERMAL         41168001   21
+            REACTOR                                               41168001   22
+ENDBIB              20                                            41168001   23
+NOCOMMON             0          0                                 41168001   24
+ENDSUBENT           23                                            4116800199999
+SUBENT        41168004     950511                                 41168004    1
+BIB                  2          3                                 41168004    2
+REACTION   (52-TE-124(N,G)52-TE-125-M,,SIG)                       41168004    3
+SAMPLE      METALLIC POWDER, WEIGHT 7.20+-0.07 MILLIGRAM (WITH-   41168004    4
+            OUT CADMIUM), TE-124 CONTENT IS 92.4+-0.1 PC          41168004    5
+ENDBIB               3                                            41168004    6
+NOCOMMON             0          0                                 41168004    7
+DATA                 3          1                                 41168004    8
+EN         DATA       DATA-ERR                                    41168004    9
+EV         B          B                                           41168004   10
+   2.53E-02    1.12        0.07                                   41168004   11
+ENDDATA              3                                            41168004   12
+ENDSUBENT           11                                            4116800499999
+ENDENTRY             2                                            4116899999999
+ENDREQUEST           1                                            Z999999999999

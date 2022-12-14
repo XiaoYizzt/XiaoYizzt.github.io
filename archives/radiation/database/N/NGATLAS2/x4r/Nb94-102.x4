@@ -1,0 +1,64 @@
+REQUEST           1001   20010914          3     141344               0  0    0
+ENTRY            21655     840409                                 21655000    1
+SUBENT        21655001     840409                                 21655001    1
+BIB                 18         35                                 21655001    2
+INSTITUTE  (2JPNJAE)                                              21655001    3
+REFERENCE  (R,NEANDC(J)-64/AL,210,8003) MAIN REFERENCE.           21655001    4
+           (J,JIN,40,(12),1973,7812)                              21655001    5
+           (P,NEANDC(J)-44/L,42,7608)                             21655001    6
+AUTHOR     (T.SEKINE)                                             21655001    7
+TITLE      -THE ISOMERIC CROSS SECTION RATIO IN DOUBLE NEUTRON    21655001    8
+            CAPTURE OF NB-93.- (IN JAPANESE WITH ABSTRACT IN      21655001    9
+            ENGLISH).-                                            21655001   10
+FACILITY   (REAC,2JPNJAE) JAPANESE RESEARCH REACTOR 3             21655001   11
+            (THERMAL REACTOR).                                    21655001   12
+INC-SOURCE (REAC )                                                21655001   13
+INC-SPECT  .THERMAL MAXWELLIAN FROM JRR-3.                        21655001   14
+SAMPLE     .30 MILLI-GRAMS NB(2)-O(5), CHEMICALLY PROCESSED       21655001   15
+            TO REMOVE TA-183 FROM THE SAMPLE.                     21655001   16
+METHOD     (ACTIV) ACTIVATION, IRRADIATION OF 216 HOURS.          21655001   17
+DETECTOR   (GELI )                                                21655001   18
+ANALYSIS   .AREA OF GAMMA PEAKS.                                  21655001   19
+MONITOR    (27-CO-59(N,G)27-CO-60-G+M,,SIG/SUM,,MXW) A            21655001   20
+            COBALT-ALUMINIUM ALLOY WIRE, CONTAINING 0.425         21655001   21
+            PERCENT COBALT IS USED AS FLUX MONITOR.               21655001   22
+PART-DET   (DG   ) DECAY GAMMAS.                                  21655001   23
+COMMENT    .COMPARED WITH RESULTS OF OTHER AUTHORS IN TABLE 3     21655001   24
+            OF REFERENCE.                                         21655001   25
+           .ISOMERIC CROSS SECTION RATIO COMPARED WITH THE        21655001   26
+            THEORY OF VANDENBOSCH AND HUIZENGA IN TABLE 4         21655001   27
+            OF MAIN REFERENCE.                                    21655001   28
+STATUS     .COMPILED FROM MAIN REFERENCE.                         21655001   29
+HISTORY    (800930C) A.H.                                         21655001   30
+           (801015E)                                              21655001   31
+           (840106U) A.P.T. JAPAN CODE CHANGED TO JPN             21655001   32
+           (840106E)                                              21655001   33
+CORRECTION .GAMMA RAY SELF SHIELDING OF THE SAMPLE.               21655001   34
+ERR-ANALYS (DATA-ERR) INCLUDES THE UNCERTAINTY OF THE COUNTER     21655001   35
+            EFFICIENCY OF 1.5 PERCENT AND THE STATISTICAL ERROR   21655001   36
+            OF THE GAMMA PEAK AREA.                               21655001   37
+ENDBIB              35                                            21655001   38
+COMMON               1          3                                 21655001   39
+EN-DUMMY                                                          21655001   40
+EV                                                                21655001   41
+ 2.5300E-02                                                       21655001   42
+ENDCOMMON            3                                            21655001   43
+ENDSUBENT           42                                            2165500199999
+SUBENT        21655003     801015                                 21655003    1
+BIB                  4          6                                 21655003    2
+REACTION   (41-NB-94(N,G)41-NB-95-G,,SIG,,MXW) CAPTURE CROSS      21655003    3
+            SECTION TO THE GROUND STATE.                          21655003    4
+DECAY-DATA (41-NB-95-G,35.15D,DG,765.,1.0)                        21655003    5
+STATUS     .DATA FROM TABLE 3 OF MAIN REFERENCE.                  21655003    6
+HISTORY    (800930C) A.H.                                         21655003    7
+           (801015E)                                              21655003    8
+ENDBIB               6                                            21655003    9
+NOCOMMON             0          0                                 21655003   10
+DATA                 2          1                                 21655003   11
+DATA       DATA-ERR                                               21655003   12
+B          B                                                      21655003   13
+ 1.4600E+01 3.0000E-01                                            21655003   14
+ENDDATA              3                                            21655003   15
+ENDSUBENT           14                                            2165500399999
+ENDENTRY             2                                            2165599999999
+ENDREQUEST           1                                            Z999999999999

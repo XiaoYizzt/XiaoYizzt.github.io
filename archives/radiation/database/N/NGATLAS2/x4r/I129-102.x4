@@ -1,0 +1,78 @@
+REQUEST           1001   20010914          3     142319               0  0    0
+ENTRY            12014     860618                                 12014000    1
+SUBENT        12014001     860618                                 12014001    1
+BIB                  8          9                                 12014001    2
+INSTITUTE  (1USAWIS)                                              12014001    3
+REFERENCE  (J,JCP,44,970,66)                                      12014001    4
+AUTHOR     (D.D.WILKEY,J.E.WILLARD)                               12014001    5
+TITLE      ISOMER OF I130.                                        12014001    6
+INC-SPECT  REACTOR SPECTRUM.                                      12014001    7
+DETECTOR   (NAICR)                                                12014001    8
+STATUS     (SCSRS)                                                12014001    9
+HISTORY    (760802T) TRANSLATED FROM SCISRS                       12014001   10
+           (860618A) BIB UPDATES.                                 12014001   11
+ENDBIB               9                                            12014001   12
+NOCOMMON             0          0                                 12014001   13
+ENDSUBENT           12                                            1201400199999
+SUBENT        12014003     860618                                 12014003    1
+BIB                  5          5                                 12014003    2
+REACTION   (53-I-129(N,G)53-I-130-G,,SIG,,SPA)                    12014003    3
+DECAY-DATA (53-I-130-G,12.5HR,DG)                                 12014003    4
+STATUS     (DEP,12014004)                                         12014003    5
+ASSUMED    (ASSUM,53-I-129(N,G)53-I-130,,SIG,,SPA)                12014003    6
+HISTORY    (790731U) BIB CORRECTION.                              12014003    7
+ENDBIB               5                                            12014003    8
+NOCOMMON             0          0                                 12014003    9
+DATA                 3          1                                 12014003   10
+EN-DUMMY   DATA       ASSUM                                       12014003   11
+MEV        B          B                                           12014003   12
+ 2.53   -08 8.     +00 24.                                        12014003   13
+ENDDATA              3                                            12014003   14
+ENDSUBENT           13                                            1201400399999
+ENDENTRY             2                                            1201499999999
+ENTRY            21393     900312                                 21393000    1
+SUBENT        21393001     900312                                 21393001    1
+BIB                 13         22                                 21393001    2
+REFERENCE  (J,CJC,34,293,56)                                      21393001    3
+TITLE      -THE YIELDS OF I-129 IN NATURAL AND IN NEUTRON         21393001    4
+            INDUCED FISSION OF URANIUM -.                         21393001    5
+AUTHOR     (B.C.PURKAYASTHA,G.R.MARTIN)                           21393001    6
+INSTITUTE  (2UK DUR)                                              21393001    7
+FACILITY   (REAC ) BEPO REACTOR AT A.E.R.E. HARWELL.              21393001    8
+INC-SOURCE (REAC ) REACTOR NEUTRONS AND SPONTANEOUS FISSION.      21393001    9
+METHOD     (ACTIV) ACTIVATION.                                    21393001   10
+DETECTOR   (GEMUC) GEIGER-MULLER TUBE.                            21393001   11
+SAMPLE     .IODINE EXTRACTED FROM PITCHBLENDE AND FROM PILE       21393001   12
+            IRRADIATED URANIUM METAL.                             21393001   13
+CORRECTION .CORRECTED FOR CONTAMINATIONS WITH SIMILAR HALF        21393001   14
+            LIVES SUCH AS NA-24, K-42 ETC. ALSO CORRECTED FOR     21393001   15
+            LOSSES DUE TO FINITE RESOLVING POWER OF COUNTER,      21393001   16
+            SELF ABSORPTION IN SAMPLE, RADIOACTIVE DECAY, AND     21393001   17
+            CHEMICAL YIELD IN SEPERATION PROCEDURES.              21393001   18
+ERR-ANALYS .NO ERRORS GIVEN.                                      21393001   19
+STATUS     .TEXT.                                                 21393001   20
+HISTORY    (800229C)                                              21393001   21
+           (800303E)                                              21393001   22
+           (890907A) CUM NOT IND YIELDS IN SUBENTS 3 AND 4        21393001   23
+           (890919E)                                              21393001   24
+ENDBIB              22                                            21393001   25
+NOCOMMON             0          0                                 21393001   26
+ENDSUBENT           25                                            2139300199999
+SUBENT        21393002     801105                                 21393002    1
+BIB                  5          6                                 21393002    2
+REACTION   (53-I-129(N,G)53-I-130-G,,SIG,,MXW) CAPTURE CROSS      21393002    3
+            SECTION FOR PILE NEUTRONS.                            21393002    4
+INC-SPECT  MAXWELLIAN PILE SPECTRUM.                              21393002    5
+DECAY-DATA (53-I-130-G,12.6HR,B-)                                 21393002    6
+MONITOR    (29-CU-63(N,G)29-CU-64,,SIG,,MXW) FOR FLUX MONITOR.    21393002    7
+STATUS     .TEXT, PAGE 298.                                       21393002    8
+ENDBIB               6                                            21393002    9
+NOCOMMON             0          0                                 21393002   10
+DATA                 3          1                                 21393002   11
+EN-DUMMY   MONIT      DATA                                        21393002   12
+EV         B          B                                           21393002   13
+ 2.5300E-02 4.2400E+00 3.5000E+01                                 21393002   14
+ENDDATA              3                                            21393002   15
+ENDSUBENT           14                                            2139300299999
+ENDENTRY             2                                            2139399999999
+ENDREQUEST           1                                            Z999999999999

@@ -1,0 +1,150 @@
+REQUEST           1001   20010914          3     143157               0  0    0
+ENTRY            10154   20001211   20010328                      10154000    1
+SUBENT        10154001   20001211   20010328                      10154001    1
+BIB                 12         25                                 10154001    2
+INSTITUTE  (1CANCRC)                                              10154001    3
+REFERENCE  (J,CJP,48,1933,197008)                                 10154001    4
+AUTHOR     (R.S.MOWATT)                                           10154001    5
+TITLE      Effective neutron capture cross section and half-life  10154001    6
+            of 155Eu                                              10154001    7
+FACILITY   (REAC) NRU Reactor at Chalk River Nuclear Laboratories 10154001    8
+METHOD     (ACTIV) Amount of 155Eu depleted from a sample during  10154001    9
+            irradiation determined by counting the 105.2-keV gamma10154001   10
+            ray before and after irradiation. The effective cross 10154001   11
+            section was determined using the Westcott convention. 10154001   12
+DETECTOR   (GELI) Ge(Li) planar diode (depletion depth = 2 mm).   10154001   13
+MONITOR    ((MONIT1)27-CO-59(N,G)27-CO-60,,SIG,,MXW)              10154001   14
+           (27-CO-59(N,G)27-CO-60,,RI) = 58 b.                    10154001   15
+            Used to deduce neutron flux.                          10154001   16
+CORRECTION Includes factor of=0.9935 to account for contributions 10154001   17
+            from 152Sm chain.                                     10154001   18
+ERR-ANALYS (DATA-ERR) Data error given is standard deviation      10154001   19
+            based on least squares fits to counting data and to   10154001   20
+            the decay curves.                                     10154001   21
+STATUS     (APRVD) Approved by author.                            10154001   22
+           Data taken from reference.                             10154001   23
+HISTORY    (19720526C)                                            10154001   24
+           (19760205A) ISO-QUANT corrected                        10154001   25
+           (19820527A) Converted to REACTION formalism            10154001   26
+           (20001211A) Converted to new date formats, lower case. 10154001   27
+ENDBIB              25                                            10154001   28
+NOCOMMON             0          0                                 10154001   29
+ENDSUBENT           28                                            1015400199999
+SUBENT        10154002   20001211   20010328                      10154002    1
+BIB                  1          1                                 10154002    2
+REACTION   (63-EU-155(N,G)63-EU-156,,SIG,,MXW)                    10154002    3
+ENDBIB               1                                            10154002    4
+NOCOMMON             0          0                                 10154002    5
+DATA                 4          1                                 10154002    6
+EN-DUMMY   DATA       DATA-ERR   MONIT1                           10154002    7
+EV         B          B          B                                10154002    8
+0.0253     4040.      125.        37.2                            10154002    9
+ENDDATA              3                                            10154002   10
+ENDSUBENT            9                                            1015400299999
+ENDENTRY             2                                            1015499999999
+ENTRY            12138     821012                                 12138000    1
+SUBENT        12138001     821012                                 12138001    1
+BIB                  9         11                                 12138001    2
+INSTITUTE  (1USAANL,1USACHI)                                      12138001    3
+REFERENCE  (J,PR,75,1500,4905)                                    12138001    4
+AUTHOR     (R.J.HAYDEN,J.H.REYNOLDS,M.G.INGHRAM)                  12138001    5
+TITLE      REACTIONS INDUCED BY SLOW NEUTRON IRRADIATION OF       12138001    6
+           EUROPIUM.                                              12138001    7
+FACILITY   (SPECM) MASS SPECTROMETER                              12138001    8
+INC-SPECT  REACTOR SPECTRUM                                       12138001    9
+MONITOR    (63-EU-0(N,ABS),,SIG)                                  12138001   10
+STATUS     (SCSRS)                                                12138001   11
+HISTORY    (760803T) TRANSLATED FROM SCISRS                       12138001   12
+           (821012A) CONVERTED TO REACTION FORMALISM              12138001   13
+ENDBIB              11                                            12138001   14
+COMMON               1          3                                 12138001   15
+MONIT                                                             12138001   16
+B                                                                 12138001   17
+ 2600.                                                            12138001   18
+ENDCOMMON            3                                            12138001   19
+ENDSUBENT           18                                            1213800199999
+SUBENT        12138006     821012                                 12138006    1
+BIB                  1          1                                 12138006    2
+REACTION   (63-EU-155(N,G)63-EU-156,,SIG,,SPA)                    12138006    3
+ENDBIB               1                                            12138006    4
+NOCOMMON             0          0                                 12138006    5
+DATA                 2          1                                 12138006    6
+EN-DUMMY   DATA                                                   12138006    7
+EV         B                                                      12138006    8
+ 0.0253     7900.                                                 12138006    9
+ENDDATA              3                                            12138006   10
+ENDSUBENT            9                                            1213800699999
+ENDENTRY             2                                            1213899999999
+ENTRY            21898     840710                                 21898000    1
+SUBENT        21898001     840710                                 21898001    1
+BIB                 13         16                                 21898001    2
+INSTITUTE  (2JPNJAE)                                              21898001    3
+REFERENCE  (P,NEANDC(J)-94,8309)                                  21898001    4
+AUTHOR     (T.SEKINE,S.ICHIKAWA,S.BABA)                           21898001    5
+TITLE      -SUCCESSIVE NEUTRON CAPTURE OF EU-153                  21898001    6
+FACILITY   (REAC,2JPNJAE)                                         21898001    7
+INC-SPECT  .THERMAL REACTOR SPECTRUM.                             21898001    8
+SAMPLE     .ENRICHMENT=99 PERCENT                                 21898001    9
+           .MASS=10 MICRO-GR                                      21898001   10
+           .IMPLANTED INTO AL-FOIL                                21898001   11
+METHOD     (ACTIV)                                                21898001   12
+DETECTOR   (GELI )                                                21898001   13
+PART-DET   (DG   )                                                21898001   14
+STATUS     .MAIN REFERENCE TABLE 1                                21898001   15
+HISTORY    (840705C)BL                                            21898001   16
+           (840710E)                                              21898001   17
+ERR-ANALYS .NO DETAILS GIVEN                                      21898001   18
+ENDBIB              16                                            21898001   19
+NOCOMMON             0          0                                 21898001   20
+ENDSUBENT           19                                            2189800199999
+SUBENT        21898003     840710                                 21898003    1
+BIB                  3          4                                 21898003    2
+REACTION   (63-EU-155(N,G)63-EU-156,,SIG,,MXW)                    21898003    3
+STATUS     .MAIN REFERENCE TABLE 1                                21898003    4
+HISTORY    (840705C)                                              21898003    5
+           (840710E)                                              21898003    6
+ENDBIB               4                                            21898003    7
+NOCOMMON             0          0                                 21898003    8
+DATA                 3          1                                 21898003    9
+EN-DUMMY   DATA       DATA-ERR                                    21898003   10
+EV         B          B                                           21898003   11
+ 2.5000E-02 3.7600E+03 1.7000E+02                                 21898003   12
+ENDDATA              3                                            21898003   13
+ENDSUBENT           12                                            2189800399999
+ENDENTRY             2                                            2189899999999
+ENTRY            40753     840618                                 40753000    1
+SUBENT        40753001     840618                                 40753001    1
+BIB                  9         16                                 40753001    2
+INSTITUTE  (4CCPIJI)                                              40753001    3
+REFERENCE  (J,YK,5/49,16,82)                                      40753001    4
+           (C,71KIEV,2,255,71) EXPERIMENTAL DETAILS               40753001    5
+AUTHOR     (V.P.VERTEBNYJ,P.N.VORONA,A.I.KAL'CHENKO,              40753001    6
+           V.G.KRIVENKO,V.A.PSHENICHNYJ)                          40753001    7
+TITLE       NEUTRON RESONANCES OF THE RADIOACTIVE NUCLIDES        40753001    8
+            EU-154 AND EU-155                                     40753001    9
+FACILITY   (REAC)                                                 40753001   10
+SAMPLE      EUROPIUM-OXIDE EU2-O3. FIRST SAMPLE = 242 MILLIGRAM   40753001   11
+            OF THE OXIDE PLUS 1.5244 GRAM AL, EU-153 CONTENT 99.7 40753001   12
+            PERCENT. SECOND SAMPLE = .3446 GRAM OF THE OXIDE PLUS 40753001   13
+            1.33586 GRAM AL, EU-153 CONTENT 99.1 PERCENT, EU-151  40753001   14
+            0.9 PERCENT                                           40753001   15
+METHOD     (TOF)  RESOLUTION IS 55 NSEC/M                         40753001   16
+ANALYSIS   (SHAPE) ON THE BASIS OF ONE-LEVEL BREIT-WIGNER FORMULA 40753001   17
+HISTORY    (840618C)                                              40753001   18
+ENDBIB              16                                            40753001   19
+NOCOMMON             0          0                                 40753001   20
+ENDSUBENT           19                                            4075300199999
+SUBENT        40753005     840618                                 40753005    1
+BIB                  2          2                                 40753005    2
+REFERENCE  (C,79KNOX,,881,7910)                                   40753005    3
+REACTION   (63-EU-155(N,G)63-EU-156,,SIG)                         40753005    4
+ENDBIB               2                                            40753005    5
+NOCOMMON             0          0                                 40753005    6
+DATA                 3          1                                 40753005    7
+EN         DATA       DATA-ERR                                    40753005    8
+EV         B          B                                           40753005    9
+ 2.5000E-02 3.9500E+03 4.0000E+02                                 40753005   10
+ENDDATA              3                                            40753005   11
+ENDSUBENT           10                                            4075300599999
+ENDENTRY             2                                            4075399999999
+ENDREQUEST           1                                            Z999999999999

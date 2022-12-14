@@ -1,0 +1,468 @@
+REQUEST           1001   20010914          3     142205               0  0    0
+ENTRY            11447     850410                                 11447000    1
+SUBENT        11447001     850410                                 11447001    1
+BIB                  6          8                                 11447001    2
+INSTITUTE  (1USAANL)                                              11447001    3
+REFERENCE  (J,PR,72,888,4711)                                     11447001    4
+AUTHOR     (L.SEREN,H.N.FRIEDLANDER,S.H.TURKEL)                   11447001    5
+METHOD     (ACTIV)                                                11447001    6
+STATUS     (SCSRS)                                                11447001    7
+HISTORY    (760715T) TRANSLATED FROM SCISRS                       11447001    8
+           (820813A) CONVERTED TO REACTION FORMALISM              11447001    9
+           (840410A) ENERGY CORRECTED.                            11447001   10
+ENDBIB               8                                            11447001   11
+COMMON               1          3                                 11447001   12
+EN-DUMMY                                                          11447001   13
+EV                                                                11447001   14
+ 0.0253                                                           11447001   15
+ENDCOMMON            3                                            11447001   16
+ENDSUBENT           15                                            1144700199999
+SUBENT        11447086     820813                                 11447086    1
+BIB                  3          3                                 11447086    2
+REACTION   (52-TE-128(N,G)52-TE-129-G,,SIG,,SPA)                  11447086    3
+INC-SPECT  REACTOR SPECTRUM                                       11447086    4
+DECAY-DATA (52-TE-129-G,72.MIN,B)                                 11447086    5
+ENDBIB               3                                            11447086    6
+NOCOMMON             0          0                                 11447086    7
+DATA                 2          1                                 11447086    8
+DATA       DATA-ERR                                               11447086    9
+B          PER-CENT                                               11447086   10
+ 0.133      20.                                                   11447086   11
+ENDDATA              3                                            11447086   12
+ENDSUBENT           11                                            1144708699999
+ENDENTRY             2                                            1144799999999
+ENTRY            21258     801024                                 21258000    1
+SUBENT        21258001     801024                                 21258001    1
+BIB                 11         16                                 21258001    2
+INSTITUTE  (2ITYPAV)                                              21258001    3
+REFERENCE  (J,NSE,35,88,6901)                                     21258001    4
+           (J,ANS,11,70,6806)                                     21258001    5
+AUTHOR     (V.MAXIA,E.ORVINI,M.A.ROLLIER)                         21258001    6
+TITLE      -THE THERMAL NEUTRON ACTIVATION CROSS SECTIONS         21258001    7
+            AND RESONANCE INTEGRALS FOR TE-128(N,GAMMA)           21258001    8
+            TE-129(GROUND) AND TE-128(N,GAMMA)TE-129              21258001    9
+            (METASTABLE).-                                        21258001   10
+FACILITY   (REAC ) TRIGA MARK II LENA REACTOR.                    21258001   11
+INC-SOURCE (THCOL) THERMAL COLUMN.                                21258001   12
+SAMPLE     .96.5 PC ENRICHED TE-128.                              21258001   13
+METHOD     (ACTIV) ACTIVATION ANALYSIS.                           21258001   14
+DETECTOR   (NAICR) SODIUM-IODIDE CRYSTAL.                         21258001   15
+STATUS     (NDD  ) DATA TAKEN FROM NEUDADA.                       21258001   16
+HISTORY    (800116T) G.C.                                         21258001   17
+           (800129E)                                              21258001   18
+ENDBIB              16                                            21258001   19
+NOCOMMON             0          0                                 21258001   20
+ENDSUBENT           19                                            2125800199999
+SUBENT        21258004     800129                                 21258004    1
+BIB                  6         13                                 21258004    2
+REACTION   (52-TE-128(N,G)52-TE-129-G,,SIG,,MXW)                  21258004    3
+INC-SPECT          MAXWELLIAN NEUTRON SPECTRUM FROM THERMAL       21258004    4
+            COLUMN.                                               21258004    5
+DECAY-DATA (52-TE-129-G,70.0MIN)                                  21258004    6
+MONITOR    (79-AU-197(N,G)79-AU-198-G,,SIG)                       21258004    7
+STATUS     (NDD  ) DATA TAKEN FROM NEUDADA.                       21258004    8
+ERR-ANALYS .DATA IS AVERAGE OF 4 INDEPENT RESULTS. OVERALL ERROR  21258004    9
+            STATED OF ABOUT 4 PC, CONSISTING OF 2 PC STATISTICAL  21258004   10
+            ERROR, 1.6 PC STANDARD DEVIATION OF THE THERMAL FLUX  21258004   11
+            MEASUREMENT, 3 PC STANDARD DEVIATION OF THE MEASURED  21258004   12
+            CROSS SECTIONS, AND 1 PC STANDARD DEVIATION OF THE    21258004   13
+            PHOTOPEAK EFFICIENCY. UNCERTAINTIES OF THE AU-197,    21258004   14
+            CO-59 AND TE-129 PARAMETERS NOT TAKEN INTO ACCOUNT.   21258004   15
+ENDBIB              13                                            21258004   16
+NOCOMMON             0          0                                 21258004   17
+DATA                 5          1                                 21258004   18
+EN-DUMMY   EN-NRM     MONIT      DATA       DATA-ERR              21258004   19
+EV         EV         B          B          B                     21258004   20
+ 2.5300E-02 2.5300E-02 9.8800E+01 1.9970E-01 8.0000E-03           21258004   21
+ENDDATA              3                                            21258004   22
+ENDSUBENT           21                                            2125800499999
+ENDENTRY             2                                            2125899999999
+ENTRY            30079     850219                                 30079000    1
+SUBENT        30079001     850219                                 30079001    1
+BIB                 15         42                                 30079001    2
+INSTITUTE  (3INDMUA)                                              30079001    3
+REFERENCE  (J,PR,152,1055,6612) DATA TABLE,CFD OTHER+STATISTIC TH 30079001    4
+           (J,NP,66,267,65) EXP DETAILS,ERR ANAL,ACTIV,BETA DET   30079001    5
+AUTHOR     (A.K.CHAUBEY, M.L.SEHGAL)                              30079001    6
+TITLE      MEASUREMENT OF NEUTRON CAPTURE CROSS SECTIONS BY       30079001    7
+           ACTIVATION AT 24 KEV AND COMPARISON WITH STATISTICAL   30079001    8
+           THEORY                                                 30079001    9
+EXP-YEAR   (66)                                                   30079001   10
+INC-SOURCE ANTIMONY-BERYLLIUM, 1.7CM DIAM. * 3.3CM HEIGHT,        30079001   11
+           FLUX APPROXIMATELY 10E+7 NEUTRONS/SEC                  30079001   12
+SAMPLE     POWDER,PURITY BETTER THAN 99.9PERCENT,SAMPLE SANDWICHED30079001   13
+           BETWEEN 2 CELLOTAPES, PERSPEX RING FOR FIXED GEOMETRY  30079001   14
+METHOD     (ACTIV) ACTIVATION. BETA ACTIVITY MEASURED             30079001   15
+DETECTOR   (GEMUC)    END WINDOW BETA COUNTER                     30079001   16
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)                           30079001   17
+              I-127(N,GAMMA)I-128 SIGMA = 0.82 BARN               30079001   18
+           ASSUMED                                                30079001   19
+PART-DET   (B-) BETA PARTICLES DETECTED                           30079001   20
+STATUS     DATA FROM PHYS.REV. 152,1055(1966), TABLE 1.           30079001   21
+HISTORY    (691124C) DATA COMPILED INTO DASTAR-1012               30079001   22
+           (691203A) PROOF COPY SENT TO AUTHOR                    30079001   23
+           (701130T) DATA CONVERTED FROM DASTAR INTO EXFOR        30079001   24
+           (761209A) COMMENTS REVISED. HALF-LIVES PUT IN 'COMMON' 30079001   25
+           OR WITH 'RESID-NUC'.             YAG.                  30079001   26
+           (770907U) OS. BIB UPDATE.                              30079001   27
+CORRECTION ABSENCE OF THERMAL NEUTRONS DETERMINED, INFLUENCE OF   30079001   28
+           SCATTERED NEUTRONS OF LOWER THAN 24. KEV ENERGY        30079001   29
+           NEGLIGIBLE DUE TO GEOMETRY, I.E. LARGE ROOM, REMOTE    30079001   30
+           LOCATION OF NEUTRON SOURCE FROM THE FLOOR (=1.3 M)     30079001   31
+           AND NO SHIELDING MATERIAL AROUND THE SOURCE            30079001   32
+ERR-ANALYS (DATA-ERR) GIVEN ERROR CONSISTS OF                     30079001   33
+           1.) 1 PERCENT IN ESTIMATION OF TOTAL NUMBER OF TARGET  30079001   34
+               NUCLEI.                                            30079001   35
+           2.) 2 PERCENT IN MEASUREMENT OF SAMPLE-SOURCE GEOMETRY 30079001   36
+               EFFECT WHICH WILL DEPEND UPON REPRODUCIBILITY OF   30079001   37
+               THE GEOMETRY.                                      30079001   38
+           3.) IRRADIATION TIME MEASURED WITH AN ACCURACY OF      30079001   39
+               BETTER THAN 1 PERCENT.                             30079001   40
+           4.) ABOUT 2 PERCENT ERROR IN MEASUREMENT OF THE CROSS- 30079001   41
+               SECTIONS ESTIMATED TO BE DUE TO THE GAMMA-RAYS     30079001   42
+               DETECTED BY BETA-COUNTER.                          30079001   43
+           5.) STATISTICAL ERROR VARIES FROM ONE CASE TO ANOTHER  30079001   44
+ENDBIB              42                                            30079001   45
+COMMON               1          3                                 30079001   46
+EN                                                                30079001   47
+KEV                                                               30079001   48
+ 2.4000E+01                                                       30079001   49
+ENDCOMMON            3                                            30079001   50
+ENDSUBENT           49                                            3007900199999
+SUBENT        30079026     840503                                 30079026    1
+BIB                  2          5                                 30079026    2
+REACTION   (52-TE-128(N,G)52-TE-129-G,,SIG)                       30079026    3
+ANALYSIS   AUTHORS HAVE CONSIDERED POSSIBLE EFFECTS OF THE        30079026    4
+           ISOMERIC STATE,H-LIFE = 33 DAY, IN TE-129. THE         30079026    5
+           TABULATED DATA REPRESENT THE CROSS SECTION FOR         30079026    6
+           POPULATION OF THE GROUND STATE ONLY.                   30079026    7
+ENDBIB               5                                            30079026    8
+COMMON               1          3                                 30079026    9
+HL                                                                30079026   10
+MIN                                                               30079026   11
+ 7.2000E+01                                                       30079026   12
+ENDCOMMON            3                                            30079026   13
+DATA                 2          1                                 30079026   14
+DATA       DATA-ERR                                               30079026   15
+MB         MB                                                     30079026   16
+ 1.4500E+02 2.5000E+01                                            30079026   17
+ENDDATA              3                                            30079026   18
+ENDSUBENT           17                                            3007902699999
+ENDENTRY             2                                            3007999999999
+ENTRY            30390     930208                                 30390000    1
+SUBENT        30390001     930208                                 30390001    1
+BIB                 17         62                                 30390001    2
+TITLE      MEASUREMENT OF ISOTOPIC NEUTRON CAPTURE CROSS-SECTIONS 30390001    3
+           FOR V-51,CU-63,GA-71,GE-74,AS-75,MO-98,MO-100,RU-104,  30390001    4
+           IN-115,TE-128,TE-130,CE-140,CE-142,HO-165 AT THE       30390001    5
+           NEUTRON ENERGY OF (25+-5) KEV.                         30390001    6
+AUTHOR     (R.P.ANAND,D.BHATTACHARYA,M.L.JHINGAN,E.KONDAIAH)      30390001    7
+INSTITUTE  (3INDTRM) 1ST AUTHOR'S ADDRESS AND LOCATION OF FACILITY30390001    8
+           (3INDTAT)                                              30390001    9
+REFERENCE  (J,NC/A,50,274,7903) WERE CONSIDERED AS FINAL DATA     30390001   10
+           WHICH ARE DIFFERENT FROM DATA UNDER SECOND REFERENCE   30390001   11
+           (C,74BOMBAY,2,101,7412) PRELIM.DATA                    30390001   12
+           ((P,BARC-831,20,75)=(P,INDC(SEC)-50,152,7601)) NDG.    30390001   13
+SAMPLE     SAMPLES WERE IN THE FORMS OF FOILS,METALLIC POWDERS OR 30390001   14
+           POWDERS OXIDES.                                        30390001   15
+MONITOR    (53-I-127(N,G)53-I-128,,SIG) 6120+120 MB FOR THERMAL,  30390001   16
+            BYVES,J.NUCL.ENERGY,24(1970)35.  832+-26 MB AT 25KEV, 30390001   17
+            ROBERTSON,NUCL.PHYS.71(1965)417.                      30390001   18
+           .THERMAL (N,GAMMA) CROSS-SECTION FOR EACH REACTION.    30390001   19
+           THE VALUES ARE NOT GIVEN.                              30390001   20
+FACILITY   MONOENERGETIC FILTERED NEUTRON BEAM FACILITY AT THE    30390001   21
+           REACTOR CIRUS,B.A.R.C.(FACILITY BELONGS TO THE AUTHORS)30390001   22
+INC-SOURCE (REAC) REACTOR CIRUS,BHABHA ATOMIC RESEARCH CENTRE.    30390001   23
+INC-SPECT  THE ABOVE-MENTIONED FACILITY GIVES A FLUX OF ABOUT     30390001   24
+           E+5 N/CM2/SEC WITH ENERGY OF (25+-5)KEV OVER AN AREA OF30390001   25
+           3 INCH DIAMETER.                                       30390001   26
+           AND THERMAL NEUTRON WAS ALSO USED.                     30390001   27
+METHOD     (ACTIV) ACTIVATION IN THE SAME GEOMETRY USING THE KEV  30390001   28
+           AND THERMAL FLUXES.                                    30390001   29
+           MEASUREMENT OF THE AREA UNDER THE PHOTOPEAK OF THE     30390001   30
+           CHARACTERISTIC GAMMA-RAY.                              30390001   31
+DETECTOR   (NAICR) A WELL SHIELDED 3 INCH*3 INCH NAI(TL) CRYSTAL. 30390001   32
+ANALYSIS   THE CAPTURE CROSS-SECTION AT 25KEV,SIG(KEV),IS GIVEN AS30390001   33
+            SIG(KEV)= SIG(THR)*A(KEV)*I(THR)*F(KEV)/              30390001   34
+             (A(THR)*I(KEV)*F(THR)), WHERE (KEV) AND (THR) STAND  30390001   35
+            FOR THE VALUES AT THE IRRADIATION WITH 25KEV AND      30390001   36
+           THERMAL FLUX, RESPECTIVELY.  'A' IS THE AREA UNDER THE 30390001   37
+           PHOTOPEAK OF THE CHARACTERISTIC GAMMA RAY, 'F' IS A    30390001   38
+           FUNCTION OF TIMES OF IRRADIATION AND COUNTING AND HALF-30390001   39
+           LIFE OF THE PRODUCT NUCLEUS,AND 'I' IS THE N-FLUX.     30390001   40
+CORRECTION THE DATA WAS CORRECTED FOR SELF-SHIELDING OF NEUTRONS. 30390001   41
+ERR-ANALYS TOTAL ERROR IS GIVEN.                                  30390001   42
+            STAT.ERROR IN THE AREA UNDER PHOTOPEAK   1 TO 2 PERC. 30390001   43
+            ERROR IN TIME MEASUREMENTS         LESS THAN 1 PERC.  30390001   44
+            MAJOR CONTRIBUTION TO THE ERROR COMES FROM THE ERRORS 30390001   45
+           IN THE STANDARD VALUES.                                30390001   46
+COMMENT     COMPILER'S NOTE =  IT MIGHT BE PERTINENT TO USE       30390001   47
+            'EN-MAX' AND 'EN-MIN' WITH (NG,SPA) INSTEAD OF 'EN'   30390001   48
+            AND 'EN-RSL'.  HOWEVER THE ENTRY FOLLOWS AFTER THE    30390001   49
+            AUTHOR'S DESCRIPTION LITERALLY.                       30390001   50
+           ===THE DECISION TO SUPERSEDE THE DATA PUBL.AT FIRST    30390001   51
+            REF.BY DATA FROM THIRD REF.WAS TAKEN BY COMPILER (VP) 30390001   52
+            AND BASED ON THE PRINCIPLE THAT LATEST PUBLICATION    30390001   53
+            MUST CONTAIN THE FINAL RESULTS - 81/05/29 COMPILER.== 30390001   54
+STATUS     DATA TAKEN FROM TABLE1 OF PROC.OF NUCL.PHYS.AND SOLID  30390001   55
+           STATE PHYS.SYMMP.,DEC 1974,VOL.B,P.101.                30390001   56
+           WERE SUPERSEDED LATER BY DATA TAKEN FROM NUOV.CIM.,50A,30390001   57
+           TABLE 1,P.251-252,(1979)                               30390001   58
+HISTORY    (770302C) KO.                                          30390001   59
+           (810529A) NUMERICAL DATA WERE SUPERSEDED BY DATA       30390001   60
+           FROM TABLE1, NUOV.CIM.,50A,P.251-252,(1979). VP.       30390001   61
+           (890829A) VOF.-MONITOR UPDATED.-                       30390001   62
+           (930115A) HW.- SEQUENCE OF INST. CODES ALTERED IN      30390001   63
+           SUBENT. 001, REACTION CODE IN SUBENT 015 ALTERED.      30390001   64
+ENDBIB              62                                            30390001   65
+COMMON               6          3                                 30390001   66
+EN         EN-RSL     MONIT1     MONIT1-ERR MONIT2     MONIT2-ERR 30390001   67
+KEV        MEV        MB         MB         MB         MB         30390001   68
+25.        5.         6120.      120.       832.       26.        30390001   69
+ENDCOMMON            3                                            30390001   70
+ENDSUBENT           69                                            3039000199999
+SUBENT        30390011     850121                                 30390011    1
+BIB                  2          2                                 30390011    2
+REACTION   (52-TE-128(N,G)52-TE-129-G,,SIG)                       30390011    3
+DECAY-DATA (52-TE-129-G,68.7MIN,DG,455.)                          30390011    4
+ENDBIB               2                                            30390011    5
+NOCOMMON             0          0                                 30390011    6
+DATA                 2          1                                 30390011    7
+DATA       ERR-T                                                  30390011    8
+MB         MB                                                     30390011    9
+ 5.2000E+01 6.0000E+00                                            30390011   10
+ENDDATA              3                                            30390011   11
+ENDSUBENT           10                                            3039001199999
+ENDENTRY             2                                            3039099999999
+ENTRY            31248     900312                                 31248000    1
+SUBENT        31248001     900312                                 31248001    1
+BIB                 10         22                                 31248001    2
+TITLE      THERMAL NEUTRON ACTIVATION CROSS-SECTION FOR ISOMER    31248001    3
+           PRODUCTION                                             31248001    4
+AUTHOR     (S.K.MANGAL, P.S.GILL)                                 31248001    5
+INSTITUTE  (3INDMUA)                                              31248001    6
+REFERENCE  (J,NP,36,542,6208)                                     31248001    7
+FACILITY   (REAC)TROMBAY SWIMMING POOL REACTOR.                   31248001    8
+INC-SOURCE (THCOL) THERMAL COLUMN FLUX = 10E+7 N/CM-SQ/SEC.SOME   31248001    9
+           SAMPLE WERE IRRADIATED NEAR THE CORE IN A FLUX =       31248001   10
+           10E+11 N/CM-SQ/SEC.                                    31248001   11
+METHOD     (ACTIV)                                                31248001   12
+           ACTIVATION OF SAMPLES WAS PERFORMED IN A THERMAL REAC- 31248001   13
+           TOR SPECTRUM. THE FLUX WAS CALIBRATED SIMULTANEOUSLY   31248001   14
+           WITH THE HELP OF STANDARD REACTION. MOST OF THE SAMPLE 31248001   15
+           ACTIVITY WAS FOLLOWED FOR 3 TO 4 HALF-LIVES AFTER      31248001   16
+           IRRADIATION.                                           31248001   17
+ERR-ANALYS NO FURTHER INFORMATION.                                31248001   18
+STATUS     DATA TAKEN FROM J. NUCL. PHYS.36(1962)542.             31248001   19
+HISTORY    (771115T) CONVERTED FROM EXFOR 70248                   31248001   20
+           (780531A) ISO-QUANT IN SAN .006 CORRECTED, REF.CODING  31248001   21
+                     CORR., STANDARD CS IN SAN.001 CODED,ISO-QUANT31248001   22
+                     STANDARD AND HL IN  SAN.013 CORRECTED.  OS   31248001   23
+           (790309A) ND.-RECOMPILED FROM REF. NEW SUBENT .015 --  31248001   24
+ENDBIB              22                                            31248001   25
+COMMON               1          3                                 31248001   26
+EN-DUMMY                                                          31248001   27
+EV                                                                31248001   28
+0.0253                                                            31248001   29
+ENDCOMMON            3                                            31248001   30
+ENDSUBENT           29                                            3124800199999
+SUBENT        31248010     891205                                 31248010    1
+BIB                  7         10                                 31248010    2
+REACTION   (52-TE-128(N,G)52-TE-129-G,,SIG,,MXW)                  31248010    3
+REFERENCE  (C,62MADRAS,95,6202)                                   31248010    4
+MONITOR    (25-MN-55(N,G)25-MN-56,,SIG) = 13.4+-0.3 B.VALUE GIVEN 31248010    5
+           IN BNL-325(1955).                                      31248010    6
+HALF-LIFE  (HL,52-TE-129-G)                                       31248010    7
+DETECTOR   (GEMUC) END WINDOW BETA COUNTER                        31248010    8
+PART-DET   (B-) ELECTRONS                                         31248010    9
+HISTORY    (800116U) ND MINOR CHANGES IN BIB. AFTER NNDC MEMO OF  31248010   10
+            79/12/17.                                             31248010   11
+           (890919A) VOF.-REACTION CORRECTED + REF. ADDED         31248010   12
+ENDBIB              10                                            31248010   13
+COMMON               1          3                                 31248010   14
+HL                                                                31248010   15
+MIN                                                               31248010   16
+   67.                                                            31248010   17
+ENDCOMMON            3                                            31248010   18
+DATA                 2          1                                 31248010   19
+DATA       DATA-ERR                                               31248010   20
+MB         PER-CENT                                               31248010   21
+178.       15.                                                    31248010   22
+ENDDATA              3                                            31248010   23
+ENDSUBENT           22                                            3124801099999
+ENDENTRY             2                                            3124899999999
+ENTRY            40006     970909                                 40006000    1
+SUBENT        40006001     970909                                 40006001    1
+BIB                 13         53                                 40006001    2
+TITLE      RADIATIVE CAPTURE CROSS-SECTIONS FOR NEUTRONS WITH     40006001    3
+           ENERGY 0.2 - 3.0 MEV BY NUCLEI TE-128 AND TE-130       40006001    4
+AUTHOR     (A.G.DOVBENKO,V.E.KOLESOV,V.P.KOROLEVA,V.A.TOLSTIKOV,  40006001    5
+           YU.N.SHUBIN)                                           40006001    6
+INSTITUTE  (4RUSFEI)                                              40006001    7
+REFERENCE  (J,AE,25,(6),529,6812) GRAPHS ONLY.EN.RANGE 0.2-3.0 MEV40006001    8
+           (R,YFI-66,11,68) DATA IN FORM OF TABLES.ENERGY RANGE   40006001    9
+                            10.-350.KEV                           40006001   10
+           (J,SJA,25,1376,6812) ENGL.TRANSL.OF AT.EN.25,529,6812  40006001   11
+           (J,EAF,25,120,6812) FRENCH TRANSL.OF AT.EN.25,529,6812 40006001   12
+           (J,AE,27,406,6911) GRAPHS ONLY.ENERGY RANGE 10.-350.KEV40006001   13
+           (J,SJA,27,1185,6911) ENGL.TRANSL.OF AT.EN.27,406,6911  40006001   14
+           (J,EAF,27,41,6911) FRENCH TRANSL.OF AT.EN.27,406,6911  40006001   15
+METHOD     (ACTIV) ACTIVATION METHOD                              40006001   16
+FACILITY   (VDG) 2.5 MEV AND 5.0 MEV VAN DE GRAAFF                40006001   17
+DETECTOR   (PROPC) TWO END-TYPE BETA-COUNTERS IN GEOMETRY         40006001   18
+            NEAR 4PI                                              40006001   19
+           (FISCH) FISSION CHAMBER FOR REGISTRATION OF U-235      40006001   20
+            FISSION EVENTS                                        40006001   21
+           (LONGC) LONG COUNTER FOR BACKGROUND MEASUREMENTS,      40006001   22
+            NEUTRON FLUX MONITORING AND ETC.                      40006001   23
+INC-SOURCE (P-LI7) PROTON-LITHIUM-7 IN NEUTRON ENERGY RANGE FROM  40006001   24
+            0.01 MEV UP TO 0.3 MEV                                40006001   25
+           (P-T) PROTON-TRITIUM IN ENERGY RANGE OF NEUTRONS FROM  40006001   26
+            0.3 MEV UP TO 3.0 MEV                                 40006001   27
+PART-DET   (B-) DECAY BETA-                                       40006001   28
+CORRECTION  CORRECTIONS WERE INTRODUCED                           40006001   29
+            ON BACKGROUND OF NEUTRONS SCATTERED FROM MATERIAL OF  40006001   30
+            TARGET UNDERLAYER AND TARGETHOLDER                    40006001   31
+            ON BACKGROUND OF NEUTRONS SCATTERED IN MEASURING ROOM 40006001   32
+            ON BACKGROUND OF NEUTRONS FROM FOREIGN REACTIONS      40006001   33
+            ON NEUTRON FLUX ATTENUATION WITH DISTANCE FROM TARGET 40006001   34
+            ON 92-U-238 FISSION                                   40006001   35
+            ON DEVIATION OF U-235 FISSION CROSS-SECTION ENERGY    40006001   36
+            DEPENDENCE FROM 1/V LAW IN THERMAL NEUTRONS ENERGY    40006001   37
+            RANGE                                                 40006001   38
+ERR-ANALYS (+EN-ERR)  ENERGY ERRORS ARE EXPLAINED BY SCATTER OF   40006001   39
+           (-EN-ERR)  PROTON ENERGY,FINAL THICKNESS OF TARGET,    40006001   40
+                      ANGULAR DIMENSIONS OF IRRADIATED SAMPLE     40006001   41
+                      AND CHAMBER                                 40006001   42
+           (ERR-1    ) INCLUDES ERROR IN ENERGY DEPENDENCE OF     40006001   43
+            MEASURED CROSS-SECTION,NAMELY STATISTICAL ERRORS,     40006001   44
+            ERRORS OF CORRECTIONS,ERRORS OF U-235 FISSION CROSS   40006001   45
+            SECTION                                               40006001   46
+           (ERR-T)     INCLUDES ALL ERRORS OF EXPERIMENT,ERRORS   40006001   47
+            OF SUPPORTING CROSS-SECTIONS                          40006001   48
+STATUS     .DATA REVISED BY V.P.KOROLEVA WITH ACCOUNTING          40006001   49
+            NEW VALUES OF STANDARDS (1968). DATA RECEIVED FROM    40006001   50
+            AUTHORS                                               40006001   51
+HISTORY    (700708C) DATA COMPILED AT THE CENTRE                  40006001   52
+           (880519U) ISO-QUANT INTO REACTION CONVERTED            40006001   53
+           (970909U) INSTITUTE CODE, ONE AUTHOR NAME, TWO         40006001   54
+                     REFERENCES IN SAN 001 CORRECTED              40006001   55
+ENDBIB              53                                            40006001   56
+NOCOMMON             0          0                                 40006001   57
+ENDSUBENT           56                                            4000600199999
+SUBENT        40006002     970909                                 40006002    1
+BIB                  5         16                                 40006002    2
+REACTION   (52-TE-128(N,G)52-TE-129-G,,SIG)                       40006002    3
+MONITOR    ((MONIT1)92-U-235(N,F),,SIG) AT THERMAL ENERGY,SEE     40006002    4
+            M.D.GOLDBERG E.A.NEUTRON CROSS-SECTION,BNL-325,2ND    40006002    5
+            EDITION,SUPPL.2,V.2A,1966.                            40006002    6
+           ((MONIT2)52-TE-128(N,G)52-TE-129-G,,SIG) AT THERMAL    40006002    7
+            ENERGY,M.D.GOLDBERG ET AL.NEUTRON CROSS-SECTION,      40006002    8
+            BNL-325,SECOND EDITION,SUPPL.NO.2,P.41 TO 60,1966     40006002    9
+           (92-U-235(N,F),,SIG)  FOR ABSOLUTE NORMALIZATION OF CS 40006002   10
+            IN ENERGY RANGE FROM 0.3 MEV UP TO 3.5 MEV            40006002   11
+            SEE M.DAVEY,NUCL.SCI.AND ENG.,26,149,1966             40006002   12
+            FOR ABSOLUTE NORMALIZATION OF CROSS-SECTION BELOW 0.3 40006002   13
+            MEV THE DATA OF THIS SUBENTRY ABOVE 0.3 MEV USED      40006002   14
+SAMPLE      NATURAL MIXTURE OF ISOTOPES.METALLIC DISK             40006002   15
+            WITH THICKNESS 0.165 G/CM**2                          40006002   16
+HALF-LIFE  (HL,52-TE-129-G)                                       40006002   17
+HISTORY    (970909U) MONIT1 AND MONIT2 DEFINED IN BIB-SECTION     40006002   18
+ENDBIB              16                                            40006002   19
+COMMON               6          3                                 40006002   20
+EN-NRM     MONIT1     MONIT1-ERR MONIT2     MONIT2-ERR HL         40006002   21
+EV         B          B          B          B          MIN        40006002   22
+ 2.5300E-02 5.7710E+02 9.0000E-01 1.5500E-01 4.0000E-02 6.7000E+0140006002   23
+ENDCOMMON            3                                            40006002   24
+DATA                 6         25                                 40006002   25
+EN         +EN-ERR    -EN-ERR    DATA       ERR-1      ERR-T      40006002   26
+KEV        KEV        KEV        MB         PER-CENT   PER-CENT   40006002   27
+ 1.1000E+01 3.6000E+00 3.6000E+00 7.7500E+01 1.1500E+01 2.8400E+0140006002   28
+ 2.4000E+01 5.3000E+00 5.3000E+00 5.3500E+01 9.4000E+00 2.7600E+0140006002   29
+ 5.0000E+01 5.8000E+00 5.8000E+00 2.6600E+01 9.5000E+00 2.7600E+0140006002   30
+ 5.6000E+01 5.0000E+00 5.0000E+00 2.4300E+01 1.4300E+01 2.9600E+0140006002   31
+ 1.0200E+02 9.0000E+00 9.0000E+00 1.7200E+01 1.3800E+01 2.9400E+0140006002   32
+ 1.5000E+02 1.0000E+01 1.0000E+01 1.5400E+01 1.3800E+01 2.9400E+0140006002   33
+ 2.0000E+02 1.1000E+01 1.1000E+01 1.3100E+01 7.6000E+00 2.7000E+0140006002   34
+ 2.5000E+02 5.4000E+01 6.0000E+01 1.2700E+01 1.0100E+01 2.7800E+0140006002   35
+ 3.3800E+02 3.7000E+01 3.7000E+01 1.2200E+01 9.0000E+00 2.7500E+0140006002   36
+ 3.9400E+02 6.0000E+01 6.0000E+01 1.1400E+01 5.1000E+00 2.6500E+0140006002   37
+ 4.3300E+02 5.5000E+01 6.8000E+01 1.1700E+01 8.1000E+00 2.7200E+0140006002   38
+ 5.1500E+02 6.2000E+01 7.5000E+01 1.2200E+01 9.6000E+00 2.7600E+0140006002   39
+ 6.1200E+02 5.6000E+01 5.6000E+01 1.2200E+01 5.3000E+00 2.6500E+0140006002   40
+ 6.9000E+02 7.0000E+01 8.0000E+01 1.1600E+01 8.1000E+00 2.7200E+0140006002   41
+ 7.2000E+02 7.2000E+01 8.6000E+01 1.1600E+01 5.2000E+00 2.6500E+0140006002   42
+ 8.2400E+02 5.3000E+01 5.3000E+01 1.0100E+01 6.9000E+00 2.6800E+0140006002   43
+ 8.3500E+02 7.5000E+01 8.8000E+01 1.0500E+01 8.6000E+00 2.7300E+0140006002   44
+ 9.3000E+02 5.2000E+01 5.2000E+01 8.3500E+00 7.6000E+00 2.7300E+0140006002   45
+ 9.9200E+02 8.9000E+01 8.9000E+01 7.2400E+00 5.2000E+00 2.6500E+0140006002   46
+ 1.3000E+03 8.2000E+01 8.2000E+01 6.9100E+00 6.1000E+00 2.6700E+0140006002   47
+ 1.9170E+03 7.3000E+01 7.3000E+01 6.7900E+00 6.2000E+00 2.6700E+0140006002   48
+ 2.1200E+03 7.1000E+01 7.1000E+01 6.7500E+00 7.2000E+00 2.7000E+0140006002   49
+ 2.3230E+03 6.9000E+01 6.9000E+01 5.8400E+00 5.6000E+00 2.6600E+0140006002   50
+ 2.7230E+03 6.6000E+01 6.6000E+01 4.4400E+00 6.2000E+00 2.6700E+0140006002   51
+ 3.1280E+03 6.5000E+01 6.5000E+01 4.0900E+00 7.4000E+00 2.7000E+0140006002   52
+ENDDATA             27                                            40006002   53
+ENDSUBENT           52                                            4000600299999
+ENDENTRY             2                                            4000699999999
+ENTRY            40331     890425                                 40331000    1
+SUBENT        40331001     890425                                 40331001    1
+BIB                 14         31                                 40331001    2
+TITLE       RADIATIVE CAPTURE CROSS SECTIONS OF FAST NEUTRONS IN  40331001    3
+            ENERGY REGION 10-350 KEV                              40331001    4
+AUTHOR     (A.G.DOVBENKO,V.E.KOLESOV,V.P.KOROLEVA,V.A.TOLSTIKOV)  40331001    5
+INSTITUTE  (4CCPFEI)                                              40331001    6
+REFERENCE  (J,AE,27,(5),406,6911) GRAPHS ARE GIVEN                40331001    7
+MONITOR     DATA FOR NORMALIZATION OF THE CROSS SECTIONS WERE     40331001    8
+             TAKEN FROM J,AE,21,45,1968,J.AE,25,529,1968,J,AE,24, 40331001    9
+             187, 1968,  AND OTHER SOURCES                        40331001   10
+             FOR NEUTRON FLUX MONITORING FISSION CROSS SECTION OF 40331001   11
+             U-235 WERE USED                                      40331001   12
+METHOD     (ACTIV) ACTIVATION                                     40331001   13
+FACILITY   (VDG) VAN DE GRAAFF ACCELERATOR                        40331001   14
+DETECTOR   (FISCH) FISSION CHAMBER AND BETA COUNTERS              40331001   15
+           (FISCH) FISSION CHAMBER                                40331001   16
+INC-SOURCE (P-LI7)  LI-7(P,N)BE-7 REACTION                        40331001   17
+PART-DET   (B) BETAS                                              40331001   18
+CORRECTION  CORRECTION FOR NEUTRON SCATTERING ON CONSTRUCTION OF  40331001   19
+            TARGET AND WALLS OF BUILDING WERE TAKEN INTO ACCOUNT. 40331001   20
+            FOR SB-121,SB-124 NUCLEI IT WAS NEAR 15 PERCENTS      40331001   21
+ERR-ANALYS (DATA-ERR) EXPERIMENTAL ERROR AND ERROR OF FISSION     40331001   22
+                      CROSS-SECTION OF  U-235                     40331001   23
+            EN-ERR) THE THICKNESS OF TARGET,SAMPLES GEOMETRY AND  40331001   24
+            UNSTABILITY OF ACCELERATOR POTENTIAL WERE TAKEN INTO  40331001   25
+            ACCOUNT                                               40331001   26
+STATUS     (APRVD)        DATA RECEIVED FROM AUTHORS 751016       40331001   27
+HISTORY    (760125C) COMPILED AT THE CENTRE                       40331001   28
+           (870120A) SUBENT 40331009 DELETED DUE TO THE ITS REPE- 40331001   29
+                     TITION WITH SUBENT 40004003. ISO-QUANT IN    40331001   30
+                     REACTION CONVERTED. ALSO SAN 011 AND 014     40331001   31
+                     DELETED DUE TO THE DATA REPETITION IN        40331001   32
+                     SUBENTS 40005003 AND 40005004                40331001   33
+ENDBIB              31                                            40331001   34
+NOCOMMON             0          0                                 40331001   35
+ENDSUBENT           34                                            4033100199999
+SUBENT        40331012     870120                                 40331012    1
+BIB                  1          3                                 40331012    2
+REACTION   (52-TE-128(N,G)52-TE-129-G,,SIG) PARTIAL N-GAMMA       40331012    3
+                   CROSS-SECTION, POPULATING THE GROUND STATE     40331012    4
+                   OF THE NUCLEUS                                 40331012    5
+ENDBIB               3                                            40331012    6
+NOCOMMON             0          0                                 40331012    7
+DATA                 5         10                                 40331012    8
+EN         +EN-ERR    -EN-ERR    DATA       DATA-ERR              40331012    9
+KEV        KEV        KEV        MB         PER-CENT              40331012   10
+ 11.        3.6        3.6       77.5       28.4                  40331012   11
+ 24.        5.3        5.3       53.5       27.6                  40331012   12
+ 50.        5.8        5.8       26.6       27.6                  40331012   13
+ 56.        5.         5.        24.3       29.6                  40331012   14
+102.        9.         9.        17.2       29.4                  40331012   15
+150.       10.        10.        15.4       29.4                  40331012   16
+200.       11.        11.        13.1       27.0                  40331012   17
+250.       54.        60.        12.7       27.8                  40331012   18
+338.       37.        37.        12.2       27.5                  40331012   19
+394.       60.        60.        11.4       26.5                  40331012   20
+ENDDATA             12                                            40331012   21
+ENDSUBENT           20                                            4033101299999
+ENDENTRY             2                                            4033199999999
+ENDREQUEST           1                                            Z999999999999

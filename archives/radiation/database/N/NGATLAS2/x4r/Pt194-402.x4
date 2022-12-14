@@ -1,0 +1,161 @@
+REQUEST           1001   20010914          3     144026               0  0    0
+ENTRY            11994     860812                                 11994000    1
+SUBENT        11994001     860812                                 11994001    1
+BIB                 10         12                                 11994001    2
+INSTITUTE  (1USABNL)                                              11994001    3
+REFERENCE  (J,PR,128,761,62)                                      11994001    4
+AUTHOR     (M.SEHGAL)                                             11994001    5
+TITLE      ISOMERIC CROSS-SECTION RATIOS IN (N,GAMMA) REACTIONS.  11994001    6
+FACILITY   (REAC)                                                 11994001    7
+INC-SPECT  THERMAL SPECTRUM.                                      11994001    8
+METHOD     (ACTIV)                                                11994001    9
+DETECTOR   (NAICR)                                                11994001   10
+STATUS     (SCSRS)                                                11994001   11
+HISTORY    (760802T) TRANSLATED FROM SCISRS                       11994001   12
+           (830802A) CONVERTED TO REACTION FORMALISM              11994001   13
+           (860812A) ENERGY MOVED TO SUBENTRY 001, BIB UPDATE.    11994001   14
+ENDBIB              12                                            11994001   15
+COMMON               1          3                                 11994001   16
+EN-DUMMY                                                          11994001   17
+EV                                                                11994001   18
+ 0.0253                                                           11994001   19
+ENDCOMMON            3                                            11994001   20
+ENDSUBENT           19                                            1199400199999
+SUBENT        11994011     860812                                 11994011    1
+BIB                  3          3                                 11994011    2
+REACTION   (78-PT-194(N,G)78-PT-195-M,,SIG,,MXW)                  11994011    3
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)                         11994011    4
+DECAY-DATA (78-PT-195-M,3.8D)                                     11994011    5
+ENDBIB               3                                            11994011    6
+NOCOMMON             0          0                                 11994011    7
+DATA                 3          1                                 11994011    8
+DATA       DATA-ERR   MONIT                                       11994011    9
+MB         MB         B                                           11994011   10
+ 87.        13.        97.                                        11994011   11
+ENDDATA              3                                            11994011   12
+ENDSUBENT           11                                            1199401199999
+ENDENTRY             2                                            1199499999999
+ENTRY            12866     851106                                 12866000    1
+SUBENT        12866001     851106                                 12866001    1
+BIB                 15         51                                 12866001    2
+INSTITUTE  (1USALRL)                                              12866001    3
+REFERENCE  (C,78MAYAG,,495,7805)                                  12866001    4
+AUTHOR     (R.E.HEFT)                                             12866001    5
+TITLE      A CONSISTENT SET OF NUCLEAR-PARAMETER VALUES           12866001    6
+           FOR ABSOLUTE INSTRUMENTAL NEUTRON ACTIVATION           12866001    7
+           ANALYSIS.                                              12866001    8
+FACILITY   (REAC) LAWRENCE LIVERMORE LABORATORY LPTR RESEARCH     12866001    9
+                  REACTOR FACILITY.                               12866001   10
+METHOD     (ACTIV)                                                12866001   11
+           EPITHERMAL-TO-THERMAL FLUX RATIO WAS MEASURED IN       12866001   12
+             EACH IRRADIATION BY INCLUDING A URANIUM-SCANDIUM     12866001   13
+             STANDARD IN THE IRRADIATION PACKAGE.                 12866001   14
+INC-SPECT  REACTOR SPECTRUM. ALL NUCLIDES IRRADIATED IN POSITION  12866001   15
+            S-2 WITH A CD RATIO OF 3.8 AND IN EITHER POSITION E-1 12866001   16
+            (CD RATIO 2.5) OR POSITION A-4 (CD RATIO 2.0)         12866001   17
+            DEPENDING ON WHETHER PRODUCTS WERE LONG OR SHORT-LIVED12866001   18
+MONITOR    ELEMENT SCANDIUM WAS USED AS AN INTERNAL FLUX MONITOR  12866001   19
+             SCANDIUM VALUES WERE MEASURED BY TAKING MIXTURES OF  12866001   20
+                                COBALT-SCANDIUM                   12866001   21
+                                GOLD-SCANDIUM                     12866001   22
+                                U238-SCANDIUM                     12866001   23
+           ((MONIT1)21-SC-45(N,G)21-SC-46,,SIG)                   12866001   24
+           ((MONIT2)27-CO-59(N,G)27-CO-60,,SIG)                   12866001   25
+           ((MONIT3)79-AU-197(N,G)79-AU-198,,SIG)                 12866001   26
+           ((MONIT4)92-U-238(N,G)92-U-239,,SIG)                   12866001   27
+           ((MONIT5)21-SC-45(N,G)21-SC-46,,RI)                    12866001   28
+           ((MONIT6)27-CO-59(N,G)27-CO-60,,RI)                    12866001   29
+           ((MONIT7)79-AU-197(N,G)79-AU-198,,RI)                  12866001   30
+           ((MONIT8)92-U-238(N,G)92-U-239,,RI)                    12866001   31
+DECAY-MON  (21-SC-46-G,83.9D,DG,1120.5,1.)                        12866001   32
+           (27-CO-60-G,1922.D,DG,1332.51,1.)                      12866001   33
+           (79-AU-198-G,2.70D,DG,411.79,0.968)                    12866001   34
+           (92-U-239,0.01635D,DG,74.67,.593)                      12866001   35
+           (93-NP-239,2.353D,DG,106.07,0.252)                     12866001   36
+DETECTOR   ALL COUNTING WAS DONE ON GAMMA SPECTRAL ANALYZERS      12866001   37
+             TO MEASURE ABSOLUTE PHOTON EMISSION RATES.           12866001   38
+ANALYSIS   ALL SPECTRA GENERATED WERE ANALYZED BY COMPUTER        12866001   39
+             CODE GAMANAL TO OBTAIN A SET OF ABSOLUTE             12866001   40
+             DISINTEGRATION RATES FOR THE NUCLIDES FOUND.         12866001   41
+           THE DISINTEGRATION-RATE DATA THUS OBTAINED WERE        12866001   42
+             FURTHER ANALYZED BY ANOTHER COMPUTER CODE NADAC      12866001   43
+             TO COMPUTE THE EFFECTIVE CROSS SECTION FOR           12866001   44
+             EACH ACTIVATION PRODUCT.                             12866001   45
+ERR-ANALYS DETAILS NOT GIVEN                                      12866001   46
+             FOR SOME ELEMENTS THE ERRORS REFLECT THE EFFECTS OF  12866001   47
+             CONCENTRATION ERROR OR EVAPORATION LOSS.             12866001   48
+CORRECTION NO CORRECTION FOR THE INTERFERENCE DUE TO (N,P)        12866001   49
+             REACTION WAS DONE.                                   12866001   50
+           CORRECTION DUE TO U-235 FISSION REACTION IS IMPLIED.   12866001   51
+STATUS     (APRVD) R.E.HEFT, 84/12/27.                            12866001   52
+HISTORY    (840410C)                                              12866001   53
+ENDBIB              51                                            12866001   54
+COMMON              10          6                                 12866001   55
+MONIT1     MONIT1-ERR MONIT2     MONIT3     MONIT4     MONIT5     12866001   56
+MONIT5-ERR MONIT6     MONIT7     MONIT8                           12866001   57
+B          B          B          B          B          B          12866001   58
+B          B          B          B                                12866001   59
+27.7       0.5        37.5       98.8       2.720      12.2       12866001   60
+0.6        75.        1550.      280.                             12866001   61
+ENDCOMMON            6                                            12866001   62
+ENDSUBENT           61                                            1286600199999
+SUBENT        12866194     841227                                 12866194    1
+BIB                  3          3                                 12866194    2
+REACTION   (78-PT-194(N,G)78-PT-195-M,,SIG,,SPA)                  12866194    3
+SAMPLE     NATURAL SAMPLE,ASSUMED 32.90 PERCENT ABUNDANCE.        12866194    4
+DECAY-DATA (78-PT-195-M,4.100+00D,DG,98.85,0.111)                 12866194    5
+ENDBIB               3                                            12866194    6
+NOCOMMON             0          0                                 12866194    7
+DATA                 3          1                                 12866194    8
+EN-DUMMY   DATA       DATA-ERR                                    12866194    9
+EV         B          B                                           12866194   10
+0.025      0.036      0.004                                       12866194   11
+ENDDATA              3                                            12866194   12
+ENDSUBENT           11                                            1286619499999
+ENDENTRY             2                                            1286699999999
+ENTRY            22010     880126                                 22010000    1
+SUBENT        22010001     880126                                 22010001    1
+BIB                 12         19                                 22010001    2
+REFERENCE  (P,NEANDC(E)-272,(5),10,8606)                          22010001    3
+TITLE      -MEASUREMENT OF THE CAPTURE CROSS SECTIONS OF          22010001    4
+            DY-156 AND PT-194-M, PT-196, PT-198.                  22010001    5
+AUTHOR     (H.BEER)                                               22010001    6
+INSTITUTE  (2GERKFK)                                              22010001    7
+FACILITY   (VDG,2GERKFK) KFK 3.75 MV VAN DE GRAAFF ACCELERATOR.   22010001    8
+METHOD     (ACTIV)                                                22010001    9
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG,,MXW) MAXWELLIAN         22010001   10
+            AVERAGE CAPTURE CROSS SECTION.                        22010001   11
+DECAY-MON  (79-AU-198,2.69D,DG,412.,.955)                         22010001   12
+SAMPLE     .NO DETAILS GIVEN.                                     22010001   13
+CORRECTION .NO DETAILS GIVEN.                                     22010001   14
+STATUS     .DATA WERE TAKEN FROM MAIN REF.                        22010001   15
+HISTORY    (861125C)  NO.                                         22010001   16
+           (861212E)                                              22010001   17
+           (870605U) IF.                                          22010001   18
+           (870827E)                                              22010001   19
+           (880126U) IF.                                          22010001   20
+           (880129E)                                              22010001   21
+ENDBIB              19                                            22010001   22
+COMMON               1          3                                 22010001   23
+MONIT                                                             22010001   24
+MB                                                                22010001   25
+ 6.5700E+02                                                       22010001   26
+ENDCOMMON            3                                            22010001   27
+ENDSUBENT           26                                            2201000199999
+SUBENT        22010003     870309                                 22010003    1
+BIB                  4          5                                 22010003    2
+REACTION   (78-PT-194(N,G)78-PT-195-M,,SIG,,MXW) MAXWELLIAN       22010003    3
+DECAY-DATA (78-PT-195-M,4.02D,DG,99.,.111)                        22010003    4
+STATUS     .DATA WERE TAKEN FROM MAIN REF. PRELIMINARY RESULTS.   22010003    5
+HISTORY    (861125C)  NO.                                         22010003    6
+           (861212E)                                              22010003    7
+ENDBIB               5                                            22010003    8
+NOCOMMON             0          0                                 22010003    9
+DATA                 2          1                                 22010003   10
+KT         DATA                                                   22010003   11
+KEV        MB                                                     22010003   12
+ 2.3400E+01 3.1000E+01                                            22010003   13
+ENDDATA              3                                            22010003   14
+ENDSUBENT           13                                            2201000399999
+ENDENTRY             2                                            2201099999999
+ENDREQUEST           1                                            Z999999999999

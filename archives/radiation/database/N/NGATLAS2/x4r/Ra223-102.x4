@@ -1,0 +1,32 @@
+REQUEST           1001   20010914          3     144248               0  0    0
+ENTRY            12258     840821                                 12258000    1
+SUBENT        12258001     840821                                 12258001    1
+BIB                  6          8                                 12258001    2
+INSTITUTE  (1USABNL)                                              12258001    3
+REFERENCE  (J,JIN,1,253,55)                                       12258001    4
+AUTHOR     (G.HARBOTTLE)                                          12258001    5
+TITLE      THE THERMAL NEUTRON-CAPTURE CROSS-SECTION OF           12258001    6
+           RADIUM-223.                                            12258001    7
+STATUS     (SCSRS)                                                12258001    8
+HISTORY    (760803T) TRANSLATED FROM SCISRS                       12258001    9
+           (840821A) CONVERTED TO REACTION FORMALISM              12258001   10
+ENDBIB               8                                            12258001   11
+NOCOMMON             0          0                                 12258001   12
+ENDSUBENT           11                                            1225800199999
+SUBENT        12258002     840821                                 12258002    1
+BIB                  4          5                                 12258002    2
+REACTION   (88-RA-223(N,G)88-RA-224,,SIG,,SPA)                    12258002    3
+METHOD     (ACTIV)    ACTIVATION                                  12258002    4
+MONITOR    (27-CO-59(N,G)27-CO-60,,SIG)                           12258002    5
+            BASED ON COBALT THERMAL CAPTURE =35B.                 12258002    6
+INC-SPECT   REACTOR SPECTRUM                                      12258002    7
+ENDBIB               5                                            12258002    8
+NOCOMMON             0          0                                 12258002    9
+DATA                 4          1                                 12258002   10
+EN-DUMMY   DATA       DATA-ERR   MONIT                            12258002   11
+MEV        B          B          B                                12258002   12
+ 2.53   -08 1.25   +02 1.5    +01 35.                             12258002   13
+ENDDATA              3                                            12258002   14
+ENDSUBENT           13                                            1225800299999
+ENDENTRY             2                                            1225899999999
+ENDREQUEST           1                                            Z999999999999

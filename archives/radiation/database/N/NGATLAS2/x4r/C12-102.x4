@@ -1,0 +1,251 @@
+REQUEST           1001   20010914          3     135712               0  0    0
+ENTRY            11133     800814                                 11133000    1
+SUBENT        11133001     800814                                 11133001    1
+BIB                  9         10                                 11133001    2
+INSTITUTE  (1USALAS)                                              11133001    3
+REFERENCE  ((R,ANL-6797,236,6311)=(C,63ANL,,236,6310))            11133001    4
+AUTHOR     (E.JURNEY,H.MOTZ)                                      11133001    5
+TITLE      THERMAL NEUTRON CAPTURE IN D AND O16.                  11133001    6
+N-SOURCE   (THCOL) THERMAL COLUMN                                 11133001    7
+INC-SPECT  THERMAL SPECTRUM                                       11133001    8
+METHOD     CAPTURE GAMMA-RAY SPECTRA                              11133001    9
+STATUS     (SCSRS)                                                11133001   10
+HISTORY    (760628T) TRANSLATED FROM SCISRS                       11133001   11
+           (800814A) CONVERTED TO REACTION FORMALISM              11133001   12
+ENDBIB              10                                            11133001   13
+NOCOMMON             0          0                                 11133001   14
+ENDSUBENT           13                                            1113300199999
+SUBENT        11133004     800814                                 11133004    1
+BIB                  2          3                                 11133004    2
+REACTION   (6-C-12(N,G)6-C-13,,SIG,,MXW)                          11133004    3
+METHOD     GAMMA-RAY INTENSITIES WEIGHTED ACCORDING TO FRACTION   11133004    4
+            OF BINDING ENERGY.                                    11133004    5
+ENDBIB               3                                            11133004    6
+NOCOMMON             0          0                                 11133004    7
+DATA                 3          1                                 11133004    8
+EN-DUMMY   DATA       DATA-ERR                                    11133004    9
+MEV        B          B                                           11133004   10
+ 2.53   -08 3.8    -03 4.     -04                                 11133004   11
+ENDDATA              3                                            11133004   12
+ENDSUBENT           11                                            1113300499999
+ENDENTRY             2                                            1113399999999
+ENTRY            11345     820324                                 11345000    1
+SUBENT        11345001     820324                                 11345001    1
+BIB                  6          7                                 11345001    2
+INSTITUTE  (1USAANL)                                              11345001    3
+REFERENCE  (R,BNL-489,19,57)                                      11345001    4
+AUTHOR     (G.R.HENNIG)                                           11345001    5
+TITLE      THE SLOW NEUTRON ABSORPTION CROSS SECTION OF GRAPHITE. 11345001    6
+STATUS     (SCSRS)                                                11345001    7
+HISTORY    (760714T) TRANSLATED FROM SCISRS                       11345001    8
+           (820324A) CONVERTED TO REACTION FORMALISM              11345001    9
+ENDBIB               7                                            11345001   10
+NOCOMMON             0          0                                 11345001   11
+ENDSUBENT           10                                            1134500199999
+SUBENT        11345002     820324                                 11345002    1
+BIB                  3          3                                 11345002    2
+REACTION   (6-C-12(N,G)6-C-13,,SIG,,SPA)                          11345002    3
+METHOD     (ACTIV)    ACTIVATION                                  11345002    4
+INC-SPECT   REACTOR SPECTRUM                                      11345002    5
+ENDBIB               3                                            11345002    6
+NOCOMMON             0          0                                 11345002    7
+DATA                 3          1                                 11345002    8
+EN-DUMMY   DATA       DATA-ERR                                    11345002    9
+MEV        B          B                                           11345002   10
+ 2.53   -08 3.29   -03 1.5    -04                                 11345002   11
+ENDDATA              3                                            11345002   12
+ENDSUBENT           11                                            1134500299999
+ENDENTRY             2                                            1134599999999
+ENTRY            12744     840917                                 12744000    1
+SUBENT        12744001     840917                                 12744001    1
+BIB                 14         16                                 12744001    2
+INSTITUTE  (1USALAS)                                              12744001    3
+REFERENCE  (J,PR/C,25,2810,8205)                                  12744001    4
+AUTHOR     (E.T.JURNEY,P.J.BENDT,J.C.BROWNE)                      12744001    5
+TITLE      THERMAL NEUTRON CAPTURE CROSS SECTION OF DEUTERIUM     12744001    6
+INC-SOURCE (THCOL) THERMAL COLUMN OF OMEGA WEST REACTOR.          12744001    7
+INC-SPECT  MAXWELLIAN SPECTRUM.                                   12744001    8
+SAMPLE     SAMPLE IS 1-CM DIAMETER,1-G DISC OF DEUTERATED         12744001    9
+           POLYETHYLENE                                           12744001   10
+MONITOR    FLUX MONITORED BY U-235 FISSION COUNTER.               12744001   11
+METHOD     PROMPT GAMMA DETECTION.                                12744001   12
+DETECTOR   (GELI,NAICR) GELI DETECTOR INSIDE NA-I ANNULUS.        12744001   13
+ASSUMED    ASSUMED 1/V DEPENDENCE OF CROSS SECTIONS FOR H1,H2,C12.12744001   14
+ERR-ANALYS NO INFORMATION.                                        12744001   15
+STATUS     (APRVD) APPROVED 82/10/19 BY E.T.JURNEY.               12744001   16
+HISTORY    (820907C)                                              12744001   17
+           (840917A) BIB CORRECTIONS.                             12744001   18
+ENDBIB              16                                            12744001   19
+COMMON               1          3                                 12744001   20
+EN-DUMMY                                                          12744001   21
+EV                                                                12744001   22
+ 0.0253                                                           12744001   23
+ENDCOMMON            3                                            12744001   24
+ENDSUBENT           23                                            1274400199999
+SUBENT        12744003     840917                                 12744003    1
+BIB                  3          3                                 12744003    2
+REACTION   (6-C-12(N,G)6-C-13,,SIG,,MXW)                          12744003    3
+MONITOR    (1-H-1(N,G)1-H-2,,SIG)                                 12744003    4
+PART-DET   (G) DETECTED 4.946 MEV PROMPT GAMMAS.                  12744003    5
+ENDBIB               3                                            12744003    6
+NOCOMMON             0          0                                 12744003    7
+DATA                 4          1                                 12744003    8
+DATA       DATA-ERR   MONIT      MONIT-ERR                        12744003    9
+MB         MB         MB         MB                               12744003   10
+ 3.53       0.07       332.       2.                              12744003   11
+ENDDATA              3                                            12744003   12
+ENDSUBENT           11                                            1274400399999
+ENDENTRY             2                                            1274499999999
+ENTRY            22271     961022                                 22271000    1
+SUBENT        22271001     961022                                 22271001    1
+BIB                 15         64                                 22271001    2
+INSTITUTE  (2JPNTIT) Y.N., K.T., S.M., T.O., M.I., N.M., F.U.,    22271001    3
+            T.A., H.K. AND EXPERIMENTAL SITE.                     22271001    4
+           (2JPNTOK) T.F.                                         22271001    5
+AUTHOR     (Y.NAGAI,K.TAKEDA,S.MOTOYAMA,T.OHSAKI,M.IGASHIRA,      22271001    6
+            N.MUKAI,F.UESAWA,T.ANDO,H.KITAZAWA,T.FUKUDA)          22271001    7
+TITLE      -NEUTRON CAPTURE CROSS SECTIONS OF LIGHT NUCLEI IN PRE-22271001    8
+            MORDIAL NUCLEOSYNTHESIS.                              22271001    9
+FACILITY   (VDGT,2JPNTIT) THE 3.2 MV PELLETRON ACCELERATOR OF THE 22271001   10
+            RESEARCH LABORATORY FOR NUCLEAR REACTORS AT THE TOKYO 22271001   11
+            INSTITUTE OF TECHNOLOGY.                              22271001   12
+INC-SOURCE (P-LI7) NEUTRONS WERE PRODUCED BY BOMBARDING A NATURAL 22271001   13
+            LI SAMPLE, EVAPORATED ONTO A COPPER DISK, WITH A      22271001   14
+            PULSED 1.898 MEV PROTON BEAM. THE BEAM PULSE WIDTH WAS22271001   15
+            1.5 NS AND THE PROTON BEAM CURRENT 6 - 9 MICROAMPS.   22271001   16
+INC-SPECT  .THE NEUTRON SPECTRUM HAD A MOST PROBABLE ENERGY OF 30 22271001   17
+            KEV. THERMAL NEUTRONS WERE DISCRIMINATED BY TIME-OF-  22271001   18
+            FLIGHT.                                               22271001   19
+SAMPLE     .THE SAMPLES WERE MADE FROM NATURAL CARBON AND NATURAL 22271001   20
+            LITHIUM, SHAPED AS DISKS WITH A DIAMETER OF 5.4 CM BY 22271001   21
+            1.5 CM THICK AND 6.0 CM DIAMETER BY 2.6 CM THICK, RES-22271001   22
+            PECTIVELY. THE LITHIUM SAMPLE WAS WRAPPED IN A VINYL  22271001   23
+            FILM. A GOLD SAMPLE WAS USED FOR CROSS SECTION        22271001   24
+            NORMALIZATION. THE SAMPLES WERE PLACED ON THE BEAM    22271001   25
+            AXIS AT A DISTANCE OF 8.1 CM FROM THE NEUTRON TARGET, 22271001   26
+            WHICH WAS SUFFICIENT TO DISCRIMINATE GAMMA-RAYS FROM  22271001   27
+            THE LATTER WITH TIME-OF-FLIGHT TECHNIQUES. THE MEA-   22271001   28
+            SUREMENTS WERE DONE CYCLICALLY, USING THE GOLD AND    22271001   29
+            CARBON OR LITHIUM SAMPLES, AND A BLANK BACKGROUND.    22271001   30
+METHOD     (GSPEC) PROMPT GAMMA-RAY SPECTROSCOPY.                 22271001   31
+           (TOF  ) TIME-OF-FLIGHT TECHNIQUES USED TO DISCRIMINATE 22271001   32
+            BACKGROUND.                                           22271001   33
+DETECTOR   (NAICR) PROMPT GAMMA-RAYS FROM NEUTRON CAPTURE WERE    22271001   34
+            DETECTED WITH AN ANTI-COMPTON NAI DETECTOR, LOCATED   22271001   35
+            80 CM FROM THE SAMPLE AT AN ANGLE OF 125 DEGREES WITH 22271001   36
+            RESPECT TO THE PROTON BEAM. IT CONSISTED OF A 7.6 CM  22271001   37
+            DIAMETER BY 15.2 CM THICK CENTRAL NAI DETECTOR,       22271001   38
+            SURROUNDED BY AN ANNULAR NAI DETECTOR WITH A DIAMETER 22271001   39
+            OF 25.4 CM AND A THICKNESS OF 28.0 CM. THE DETECTOR   22271001   40
+            WAS SHIELDED WITH LIH, PB, CD AND BORATED PARAFFIN.   22271001   41
+            THE ENERGY SCALE WAS CALIBRATED USING KNOWN GAMMA-RAYS22271001   42
+            FROM NA-22, K-40 AND FE-57. THE RESPONSE FUNCTIONS    22271001   43
+            WERE DETERMINED EXPERIMENTALLY BY CALIBRATED GAMMA-   22271001   44
+            RAY SOURCES.                                          22271001   45
+           .THE GAMMA-RAY EVENTS WERE STORED AS TWO-DIMENSIONAL   22271001   46
+            SPECTRA OF TIME-OF-FLIGHT VERSUS PULSE-HEIGHT.        22271001   47
+           (GLASD) THE NEUTRON SPECTRUM WAS MEASURED WITH A 6-LI  22271001   48
+            GLASS DETECTOR, OPERATED IN TIME-OF-FLIGHT MODE, AND  22271001   49
+            LOCATED AT AN ANGLE OF 14 DEGREES WITH RESPECT TO THE 22271001   50
+            PROTON BEAM. THIS DETECTOR WAS ALSO USED TO NORMALIZE 22271001   51
+            THE DIFFERENT RUNS TO EACH OTHER.                     22271001   52
+PART-DET   (G    )                                                22271001   53
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG) NO CROSS SECTION        22271001   54
+            VALUE GIVEN.                                          22271001   55
+CORRECTION .THE SPECTRA WERE CORRECTED FOR BACKGROUND BY SUBTRAC- 22271001   56
+            TING A SPECTRUM WITH A TIME-OF-FLIGHT GATE OUTSIDE THE22271001   57
+            NEUTRON PEAK.                                         22271001   58
+ERR-ANALYS (DATA-ERR) NO DETAILS GIVEN.                           22271001   59
+STATUS     .DATA TAKEN FROM MAIN REF.                             22271001   60
+HISTORY    (931226C) N.O.                                         22271001   61
+           (950420E)                                              22271001   62
+           (961022A)  * *  CORRECTED BY S. MAEV                   22271001   63
+                           THIS ENTRY COMBINED WITH 22272         22271001   64
+                           REFERENCE MOVED IN PROPER SUBENTS      22271001   65
+              FACILITY AND MONITOR CODE CORRECTED IN SAN 001  * * 22271001   66
+ENDBIB              64                                            22271001   67
+COMMON               1          3                                 22271001   68
+EN                                                                22271001   69
+KEV                                                               22271001   70
+ 3.0000E+01                                                       22271001   71
+ENDCOMMON            3                                            22271001   72
+ENDSUBENT           71                                            2227100199999
+SUBENT        22271007     961022                                 22271007    1
+BIB                  4          6                                 22271007    2
+REACTION   (6-C-12(N,G)6-C-13,,SIG)                               22271007    3
+REFERENCE  (J,NIM/B,56/57,492,91)                                 22271007    4
+STATUS     .DATA TAKEN FROM MAIN REF.                             22271007    5
+HISTORY    (931226C) N.O.                                         22271007    6
+           (950420E)                                              22271007    7
+           (961022U)       REFERENCE ADDED                        22271007    8
+ENDBIB               6                                            22271007    9
+NOCOMMON             0          0                                 22271007   10
+DATA                 2          1                                 22271007   11
+DATA       DATA-ERR                                               22271007   12
+MICRO-B    MICRO-B                                                22271007   13
+ 1.6800E+01 2.1000E+00                                            22271007   14
+ENDDATA              3                                            22271007   15
+ENDSUBENT           14                                            2227100799999
+ENDENTRY             2                                            2227199999999
+ENTRY            22345     970825                                 22345000    1
+SUBENT        22345001     970825                                 22345001    1
+BIB                 10         25                                 22345001    2
+TITLE      .EXPERIMENTAL STUDIES OF KEV ENERGY NEUTRON-INDUCED    22345001    3
+            REACTIONS RELEVANT TO ASTROPHYSICS AND NUCLEAR        22345001    4
+            PHYSICS                                               22345001    5
+AUTHOR     (T.SHIMA,T.KII,T.KIKUCHI,F.OKAZAKI,T.KOBAYASHI,T.BABA, 22345001    6
+           Y.NAGAI,M.IGASHIRA)                                    22345001    7
+INSTITUTE  (2JPNTIT) DEPARTMENT OF APPLIED PHYSICS AND RESEARCH   22345001    8
+             LABORATORY FOR NUCLEAR REACTORS (M.IGASHIRA) OF THE  22345001    9
+             TOKYO INSTITUTE OF TECHNOLOGY                        22345001   10
+REFERENCE  ((S,JAERI-97-004,131,9604)=(R,INDC(JPN)-178/U,47,9604))22345001   11
+                                   MAIN REFERENCE, DATA ARE GIVEN 22345001   12
+           (J,NIM/A,356,347,95)    EXPERIMENTAL DETAILS           22345001   13
+FACILITY   (VDG) SUPPOSED PROTON VAN-DE-GRAAFF, PROTONS ENERGIES  22345001   14
+               WERE ADJUSTED TO 1.955, 2.13 AND 2.48 MEV IN ORDER 22345001   15
+               TO PRODUCE NEUTRONS IN ENERGY RANGES FROM 10 KEV   22345001   16
+               TO 600 KEV. EXPERIMENT WAS CARRIED OUT AT THE RLNR-22345001   17
+               RESEARCH LAB. FOR NUCLEAR REACTORS                 22345001   18
+METHOD     (TOF)   .TIME-OF-FLIGHT METHOD WAS USED FOR NEUTRON    22345001   19
+                    ENERGY DETERMINATION                          22345001   20
+DETECTOR   (SCIN)  .LI-6 GLASS SCINTILLATION DETECTOR FOR NEUTRON 22345001   21
+                    BEAM MONITORING                               22345001   22
+INC-SOURCE (P-LI7) .NEUTRONS WERE PRODUCED IN THE ENERGY RANGES   22345001   23
+                   10-75, 30-250 AND 450-600 KEV. 1.5 NS PULSED   22345001   24
+                   NEUTRON BEAM WAS USED                          22345001   25
+STATUS     . DATA ARE TAKEN FROM THE MAIN REFERENCE               22345001   26
+HISTORY    (970828C)  + +  COMPILED BY S.MAEV   + +               22345001   27
+ENDBIB              25                                            22345001   28
+NOCOMMON             0          0                                 22345001   29
+ENDSUBENT           28                                            2234500199999
+SUBENT        22345003     970828                                 22345003    1
+BIB                  7         14                                 22345003    2
+REACTION   (6-C-12(N,G)6-C-13,,SIG)                               22345003    3
+METHOD     (GSPEC) PROMPT GAMMA SPECTROMETRY                      22345003    4
+DETECTOR   (NAICR) ONE CENTRAL NA-I(TL) SCINTILLATION COUNTER WITH22345003    5
+            DIAMETER OF 7.6 CM AND A LENGTH OF 15.5 CM AND ANOTHER22345003    6
+            CYLINDROCAL ONE WITH DIAMETER OF 25.4 CM AND LENGTH OF22345003    7
+            28 CM WERE USED FOR GAMMA-RAYS DETECTION              22345003    8
+PART-DET   (G,N)                                                  22345003    9
+SAMPLE     .NATURAL CARBON SAMPLE MADE OF GRAPHITE OF THE REACTOR 22345003   10
+            GRADE. THICKNESS IS 24.8 MM, DIAMETER IS 60.2 MM,     22345003   11
+            MASS DENSITY IS 1.66 G/CM3, NUMBER DENSITY IS 0.2041  22345003   12
+            ATOMS/BARN                                            22345003   13
+ERR-ANALYS (ERR-T)  ERRORS ARE NOT SPECIFIED. ASSUMED TOTAL       22345003   14
+                    BY THE COMPILER                               22345003   15
+STATUS     (DEP,22345002)                                         22345003   16
+ENDBIB              14                                            22345003   17
+NOCOMMON             0          0                                 22345003   18
+DATA                 4          6                                 22345003   19
+EN-MIN     EN-MAX     DATA       ERR-T                            22345003   20
+KEV        KEV        MICRO-B    MICRO-B                          22345003   21
+ 12.        26.         11.9       2.2                            22345003   22
+ 30.        50.         11.2       1.7                            22345003   23
+ 30.        70.         13.1       1.6                            22345003   24
+ 30.        75.         15.9       3.4                            22345003   25
+ 70.       130.         15.2       1.7                            22345003   26
+160.       250.         21.6       4.1                            22345003   27
+ENDDATA              8                                            22345003   28
+ENDSUBENT           27                                            2234500399999
+ENDENTRY             2                                            2234599999999
+ENDREQUEST           1                                            Z999999999999

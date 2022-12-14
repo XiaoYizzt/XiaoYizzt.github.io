@@ -1,0 +1,320 @@
+REQUEST           1001   20010914          3     140023               0  0    0
+ENTRY            11130     860513                                 11130000    1
+SUBENT        11130001     860513                                 11130001    1
+BIB                  7         14                                 11130001    2
+INSTITUTE  (1USATNC)                                              11130001    3
+REFERENCE  (R,WADC-TN-59-107,59)                                  11130001    4
+AUTHOR     (N.A.BOSTROM,I.L.MORGAN,J.T.PRUD'HOMME,P.L.OKHUYSEN,   11130001    5
+           O.M.HUDSON JR)                                         11130001    6
+TITLE      NEUTRON INTERACTIONS IN LITHIUM, CARBON, NITROGEN,     11130001    7
+           ALUMINUM, ARGON, MANGANESE, YTTRIUM, ZIRCONIUM,        11130001    8
+           RADIOLEAD AND BISMUTH.                                 11130001    9
+INC-SPECT  INCIDENT ENERGY CORRECTED DUE TO RECALCULATION OF      11130001   10
+            THRESHOLD.                                            11130001   11
+STATUS     (SCSRS)                                                11130001   12
+HISTORY    (760628T) TRANSLATED FROM SCISRS                       11130001   13
+           (800814A) CONVERTED TO REACTION FORMALISM              11130001   14
+           (850117A) DELETED SANS 012,020,025.                    11130001   15
+           (860513A) BIB CORRECTION.                              11130001   16
+ENDBIB              14                                            11130001   17
+NOCOMMON             0          0                                 11130001   18
+ENDSUBENT           17                                            1113000199999
+SUBENT        11130007     800814                                 11130007    1
+BIB                  5          5                                 11130007    2
+REACTION   (18-AR-40(N,G)18-AR-41,,SIG)                           11130007    3
+N-SOURCE   (P-T) T (P,N) SOURCE                                   11130007    4
+ERR-ANALYS STATISTICAL ERROR GIVEN                                11130007    5
+COMMENT    DATA READ FROM CURVE IN REPORT                         11130007    6
+METHOD     (ACTIV)    ACTIVATION                                  11130007    7
+ENDBIB               5                                            11130007    8
+NOCOMMON             0          0                                 11130007    9
+DATA                 3          5                                 11130007   10
+EN         DATA       DATA-ERR                                    11130007   11
+MEV        B          B                                           11130007   12
+ 1.36   -01 2.2    -03 8.     -04                                 11130007   13
+ 2.     -01 1.9    -03 7.     -04                                 11130007   14
+ 3.     -01 1.30   -03 4.7    -04                                 11130007   15
+ 4.     -01 1.28   -03 4.6    -04                                 11130007   16
+ 1.     +00 9.3    -04 3.4    -04                                 11130007   17
+ENDDATA              7                                            11130007   18
+ENDSUBENT           17                                            1113000799999
+ENDENTRY             2                                            1113099999999
+ENTRY            11585     840719                                 11585000    1
+SUBENT        11585001     840719                                 11585001    1
+BIB                  7         10                                 11585001    2
+INSTITUTE  (1USAGIT)                                              11585001    3
+REFERENCE  (J,NP/A,128,333,69)                                    11585001    4
+AUTHOR     (N.RANAKUMAR,E.KARTTUNEN,R.W.FINK)                     11585001    5
+TITLE      THERMAL AND 14.4 MEV NEUTRON ACTIVATION CROSS SECTIONS 11585001    6
+           OF ARGON.                                              11585001    7
+METHOD     (ACTIV) ACTIVATION                                     11585001    8
+STATUS     (SCSRS)                                                11585001    9
+HISTORY    (760718T) TRANSLATED FROM SCISRS                       11585001   10
+           (830815A) CONVERTED TO REACTION FORMALISM              11585001   11
+           (840719A) BIB CORRECTIONS.                             11585001   12
+ENDBIB              10                                            11585001   13
+NOCOMMON             0          0                                 11585001   14
+ENDSUBENT           13                                            1158500199999
+SUBENT        11585003     840719                                 11585003    1
+BIB                  4          4                                 11585003    2
+REACTION   (18-AR-40(N,G)18-AR-41,,SIG,,MXW)                      11585003    3
+DECAY-DATA (18-AR-41,1.83HR,DG,1293.,0.99)                        11585003    4
+MONITOR    (25-MN-55(N,G)25-MN-56,,SIG)                           11585003    5
+INC-SPECT   THERMAL SPECTRUM                                      11585003    6
+ENDBIB               4                                            11585003    7
+NOCOMMON             0          0                                 11585003    8
+DATA                 5          1                                 11585003    9
+EN-DUMMY   DATA       DATA-ERR   MONIT      MONIT-ERR             11585003   10
+MEV        B          B          B          B                     11585003   11
+ 2.53   -08 5.10   -01 2.5    -02 13.3       0.1                  11585003   12
+ENDDATA              3                                            11585003   13
+ENDSUBENT           12                                            1158500399999
+ENDENTRY             2                                            1158599999999
+ENTRY            11596     830815                                 11596000    1
+SUBENT        11596001     830815                                 11596001    1
+BIB                  7          8                                 11596001    2
+INSTITUTE  (1USAANL)                                              11596001    3
+REFERENCE  (J,PR,78,632,5006)                                     11596001    4
+AUTHOR     (D.J.HUGHES,D.SHERMAN)                                 11596001    5
+TITLE      FAST NEUTRON CROSS SECTIONS AND NUCLEAR SHELLS         11596001    6
+METHOD     (ACTIV) ACTIVATION                                     11596001    7
+STATUS     (SCSRS)                                                11596001    8
+HISTORY    (760718T) TRANSLATED FROM SCISRS                       11596001    9
+           (830815A) CONVERTED TO REACTION FORMALISM              11596001   10
+ENDBIB               8                                            11596001   11
+NOCOMMON             0          0                                 11596001   12
+ENDSUBENT           11                                            1159600199999
+SUBENT        11596002     860113                                 11596002    1
+BIB                  5          6                                 11596002    2
+REACTION   (18-AR-40(N,G)18-AR-41,,SIG,,FIS)                      11596002    3
+INC-SPECT  FISSION NEUTRONS FROM U-235 IN THERMAL BEAM.           11596002    4
+MONITOR    (18-AR-40(N,G)18-AR-41,,SIG,,MXW)                      11596002    5
+           STANDARD VALUES TAKEN FROM PHYS.REV. 91,1423 (1953).   11596002    6
+DECAY-DATA (18-AR-41,110.MIN)                                     11596002    7
+HISTORY    (860113U) STANDARD REFERENCE CORRECTED.                11596002    8
+ENDBIB               6                                            11596002    9
+NOCOMMON             0          0                                 11596002   10
+DATA                 3          1                                 11596002   11
+EN-DUMMY   DATA       MONIT                                       11596002   12
+MEV        B          B                                           11596002   13
+ 1.         9.3    -04 1.2    +00                                 11596002   14
+ENDDATA              3                                            11596002   15
+ENDSUBENT           14                                            1159600299999
+ENDENTRY             2                                            1159699999999
+ENTRY            11597     830815                                 11597000    1
+SUBENT        11597001     830815                                 11597001    1
+BIB                  8         10                                 11597001    2
+INSTITUTE  (1USABNL)                                              11597001    3
+REFERENCE  (J,PR,87,886,5209)                                     11597001    4
+AUTHOR     (S.KATCOFF)                                            11597001    5
+TITLE      THERMAL NEUTRON CAPTURE CROSS SECTION OF AR-40 AND     11597001    6
+            OBSERVATION OF AR-42.                                 11597001    7
+DETECTOR   (PROPC) PROPORTIONAL COUNTER                           11597001    8
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)                         11597001    9
+STATUS     (SCSRS)                                                11597001   10
+HISTORY    (760718T) TRANSLATED FROM SCISRS                       11597001   11
+           (830815A) CONVERTED TO REACTION FORMALISM              11597001   12
+ENDBIB              10                                            11597001   13
+NOCOMMON             0          0                                 11597001   14
+ENDSUBENT           13                                            1159700199999
+SUBENT        11597002     830815                                 11597002    1
+BIB                  3          3                                 11597002    2
+REACTION   (18-AR-40(N,G)18-AR-41,,SIG,,SPA)                      11597002    3
+INC-SPECT  REACTOR SPECTRUM                                       11597002    4
+HISTORY    (780804A) ISO-QUANT CORRECTED                          11597002    5
+ENDBIB               3                                            11597002    6
+NOCOMMON             0          0                                 11597002    7
+DATA                 4          1                                 11597002    8
+EN-DUMMY   DATA       DATA-ERR   MONIT                            11597002    9
+EV         B          B          B                                11597002   10
+ 0.0253     0.53       0.03       95.                             11597002   11
+ENDDATA              3                                            11597002   12
+ENDSUBENT           11                                            1159700299999
+ENDENTRY             2                                            1159799999999
+ENTRY            20648     840127                                 20648000    1
+SUBENT        20648001     840127                                 20648001    1
+BIB                 15         30                                 20648001    2
+INSTITUTE  (2UK UKW)                                              20648001    3
+REFERENCE  (J,NP,65,225,6503)                                     20648001    4
+AUTHOR     (R.L.D.FRENCH , B.BRADLEY)                             20648001    5
+TITLE      -THE AR-40 THERMAL ACTIVATION CROSS SECTION AND        20648001    6
+            RESONANCE INTEGRAL.-                                  20648001    7
+INC-SOURCE (REAC ) B.E.P.O. REACTOR                               20648001    8
+SAMPLE     .ARGON (PURITY 99.995 PER CENT)IN 1ML SILICA AMPOULES  20648001    9
+           .FOR GOLD THIN FOIL AND FOR COBALT WIRE OF 0.128 MM.   20648001   10
+METHOD     (ACTIV) ACTIVATION                                     20648001   11
+DETECTOR   (NAICR) NAI (TL)-CRYSTAL.                              20648001   12
+ANALYSIS   .CADMIUM RATIO MEASUREMENTS                            20648001   13
+           .WESTCOTT-FORMALISM.                                   20648001   14
+           .THE G-FACTOR OF ARGON IS ASSUMED TO BE UNITY.         20648001   15
+MONITOR    (79-AU-197(N,G)79-AU-198,,RI)                          20648001   16
+            THERMAL CROSS SECTION = 98.4 BARNS,                   20648001   17
+            RESONANCE INTEGRAL INCLUDING 1/V-CONTRIBUTION =       20648001   18
+            1490 +- 40 BARNS, G-FACTOR = 1.0086.                  20648001   19
+           (27-CO-59(N,G)27-CO-60,,SIG,,MXW)                      20648001   20
+            THERMAL CROSS SECTION = 37.7 BARNS.                   20648001   21
+COMMENT    .THE RESONANCE INTEGRAL OF ARGON HAD NOT PREVIOUSLY    20648001   22
+            BEEN MEASURED.                                        20648001   23
+STATUS     .TAKEN FROM NUCLEAR PHYSICS 65(1965)225.               20648001   24
+HISTORY    (760713C)                                              20648001   25
+           (770331E)                                              20648001   26
+CORRECTION .FOR THERMAL AND EPITHERMAL SELF SHIELDING OF COBALT   20648001   27
+            WIRE.                                                 20648001   28
+ERR-ANALYS .5 PER CENT ACCURACY FOR THE DETECTOR EFFICIENCY.      20648001   29
+           .STANDARD DEVIATION.                                   20648001   30
+           .ERROR FROM THE UNCERTAINTIES  OF RESONANCE INTEGRAL   20648001   31
+            OF GOLD.                                              20648001   32
+ENDBIB              30                                            20648001   33
+NOCOMMON             0          0                                 20648001   34
+ENDSUBENT           33                                            2064800199999
+SUBENT        20648002     840127                                 20648002    1
+BIB                  2          4                                 20648002    2
+REACTION   (18-AR-40(N,G)18-AR-41,,SIG,,MXW)                      20648002    3
+           CAPTURE THERMAL CROSS SECTION                          20648002    4
+HISTORY    (760713C)                                              20648002    5
+           (770331E)                                              20648002    6
+ENDBIB               4                                            20648002    7
+NOCOMMON             0          0                                 20648002    8
+DATA                 3          1                                 20648002    9
+EN-DUMMY   DATA       DATA-ERR                                    20648002   10
+EV         B          B                                           20648002   11
+ 2.5300E-02 7.2300E-01 2.5000E-02                                 20648002   12
+ENDDATA              3                                            20648002   13
+ENDSUBENT           12                                            2064800299999
+ENDENTRY             2                                            2064899999999
+ENTRY            21357     810722                                 21357000    1
+SUBENT        21357001     810722                                 21357001    1
+BIB                 14         33                                 21357001    2
+INSTITUTE  (2GERMUN)                                              21357001    3
+REFERENCE  (J,ZN/A,18,1339,63)                                    21357001    4
+AUTHOR     (W.KOEHLER)                                            21357001    5
+TITLE      -THE ACTIVATION CROSS SECTION OF AR-40 FOR THERMAL     21357001    6
+            NEUTRONS.- (IN GERMAN).                               21357001    7
+FACILITY   (REAC,2GERMUN) FRM.                                    21357001    8
+INC-SOURCE (REAC )                                                21357001    9
+INC-SPECT  IRRADIATION DONE IN THE WATER POOL OF THE              21357001   10
+            REACTOR, AT A 12 CM DISTANCE OF THE SURFACE OF THE    21357001   11
+            GRAPHITE REFLECTOR.                                   21357001   12
+SAMPLE     .99.95 PER-CENT AR, 300 MG IN A SI-O(2) AMPULE         21357001   13
+            (7 GRAM), AU WIRE(RADIUS 0.05 MM), NA-F IN SMALL      21357001   14
+            POLYETHYLENE AMPULE. ALL THESE SAMPLES WERE CONTAINED 21357001   15
+            IN AL CAPSULE.                                        21357001   16
+METHOD     (ACTIV) ACTIVATION ANALYSIS, TARGETS OF AR,AU AND NA   21357001   17
+            IRRADIATED SIMULTANEOUSLY ON A ROTATING SUPPORT (I.E. 21357001   18
+            IN THE SAME MEAN POSITION)                            21357001   19
+DETECTOR   (PROPC) C-H(4) GAS FLOW COUNTER WITH LEAD CATHODE.     21357001   20
+STATUS     (NDD  ) DATA TAKEN FROM NEUDADA.                       21357001   21
+HISTORY    (800214T) G.C.                                         21357001   22
+           (800222E)                                              21357001   23
+           (801127A) G.C., ERROR ANALYSIS CHANGED, MONITOR REACTIO21357001   24
+            STRINGS CORRECTED.                                    21357001   25
+           (801218E)                                              21357001   26
+CORRECTION .NEUTRON FUX ATTENUATION IN THE SAMPLE, NEUTRON FLUX   21357001   27
+            PERTURBATIONS, EPITHERMAL NEUTRON FLUX (MEASUREMENTS  21357001   28
+            WITH CADMIUM COVER).                                  21357001   29
+ERR-ANALYS (ERR-T) TOTAL ERROR IS QUADRATIC SUM OF ERRORS DUE TO  21357001   30
+            IRRADIATION (LOCATION OF THE SAMPLE), SPECIFIC        21357001   31
+            ACTIVITY DETERMINATION (COUNTING STATISTICS +         21357001   32
+            ENERGY DEPENDENCE OF THE COUNTER), AND CORRECTIONS.   21357001   33
+            THIS TOTAL ERROR IS MUCH GREATER THAN THE MEAN SPREAD 21357001   34
+            OF THE DATA FROM SINGLE MEASUREMENTS.                 21357001   35
+ENDBIB              33                                            21357001   36
+COMMON               1          3                                 21357001   37
+EN-DUMMY                                                          21357001   38
+EV                                                                21357001   39
+ 2.5300E-02                                                       21357001   40
+ENDCOMMON            3                                            21357001   41
+ENDSUBENT           40                                            2135700199999
+SUBENT        21357002     801218                                 21357002    1
+BIB                  5          9                                 21357002    2
+REACTION   (18-AR-40(N,G)18-AR-41,,SIG,,MXW)                      21357002    3
+DECAY-DATA (79-AU-198-G,2.69D,DG)                                 21357002    4
+           (18-AR-41,110.MIN,DG)                                  21357002    5
+MONITOR    (79-AU-197(N,G)79-AU-198-G+M,,SIG/SUM)                 21357002    6
+STATUS     (NDD  ) DATA TAKEN FROM NEUDADA.                       21357002    7
+HISTORY    (800214T) G.C.                                         21357002    8
+           (800222E)                                              21357002    9
+           (801127A) G.C., MONITOR REACTION STRING CORRECTED.     21357002   10
+           (801218E)                                              21357002   11
+ENDBIB               9                                            21357002   12
+NOCOMMON             0          0                                 21357002   13
+DATA                 4          1                                 21357002   14
+EN-NRM     MONIT      DATA       ERR-T                            21357002   15
+EV         B          B          B                                21357002   16
+ 2.5300E-02 9.8800E+01 6.3000E-01 2.0000E-02                      21357002   17
+ENDDATA              3                                            21357002   18
+ENDSUBENT           17                                            2135700299999
+SUBENT        21357003     801218                                 21357003    1
+BIB                  5          9                                 21357003    2
+REACTION   (18-AR-40(N,G)18-AR-41,,SIG,,MXW)                      21357003    3
+DECAY-DATA (18-AR-41,110.MIN,DG)                                  21357003    4
+           (11-NA-24,14.97HR,DG)                                  21357003    5
+MONITOR    (11-NA-23(N,G)11-NA-24,,SIG,,MXW)                      21357003    6
+STATUS     (NDD  ) DATA TAKEN FROM NEUDADA.                       21357003    7
+HISTORY    (800214T) G.C.                                         21357003    8
+           (800222E)                                              21357003    9
+           (801127A) G.C., MONITOR REACTION STRING CORRECTED.     21357003   10
+           (801218E)                                              21357003   11
+ENDBIB               9                                            21357003   12
+NOCOMMON             0          0                                 21357003   13
+DATA                 4          1                                 21357003   14
+MONIT      MONIT-ERR  DATA       ERR-T                            21357003   15
+B          B          B          B                                21357003   16
+ 5.2400E-01 1.0000E-02 6.6000E-01 2.0000E-02                      21357003   17
+ENDDATA              3                                            21357003   18
+ENDSUBENT           17                                            2135700399999
+SUBENT        21357004     801218                                 21357004    1
+BIB                  5          9                                 21357004    2
+REACTION   (18-AR-40(N,G)18-AR-41,,SIG,,MXW)                      21357004    3
+DECAY-DATA (18-AR-41,110.MIN,DG)                                  21357004    4
+           (11-NA-24,14.97HR,DG)                                  21357004    5
+MONITOR    (11-NA-23(N,ABS),,SIG,,MXW)                            21357004    6
+STATUS     (NDD  ) DATA TAKEN FROM NEUDADA.                       21357004    7
+HISTORY    (800214T) G.C.                                         21357004    8
+           (800222E)                                              21357004    9
+           (801127A) G.C., DATA HEADINGS CORRECTED.               21357004   10
+           (801218E)                                              21357004   11
+ENDBIB               9                                            21357004   12
+NOCOMMON             0          0                                 21357004   13
+DATA                 3          1                                 21357004   14
+MONIT      DATA       ERR-T                                       21357004   15
+B          B          B                                           21357004   16
+ 5.0500E-01 6.3000E-01 2.0000E-02                                 21357004   17
+ENDDATA              3                                            21357004   18
+ENDSUBENT           17                                            2135700499999
+ENDENTRY             4                                            2135799999999
+ENTRY            22008     861212                                 22008000    1
+SUBENT        22008001     861212                                 22008001    1
+BIB                 11         13                                 22008001    2
+INSTITUTE  (2GERKFK)                                              22008001    3
+REFERENCE  (P,NEANDC(E)-272U,(5),5,8606)                          22008001    4
+AUTHOR     (H.BEER,R.D.PENZHORN)                                  22008001    5
+TITLE      -THE AR-40 CAPTURE CROSS SECTION AND THE AR-40         22008001    6
+            SOLAR ABUNDANCE.                                      22008001    7
+FACILITY   (VDG,2GERKFK) KFK 3.75 MV VAN DE GRAAFF ACCELERATOR.   22008001    8
+SAMPLE     .CHEMICAL FIXATION OF ARGON IN ZEOLITE 5A.             22008001    9
+METHOD     (ACTIV) A SPECIAL ACTIVATION TECHNIQUE.                22008001   10
+STATUS     .DATA WERE TAKEN FROM MAIN REF.                        22008001   11
+HISTORY    (861125C)  NO.                                         22008001   12
+           (861212E)                                              22008001   13
+CORRECTION .NO DETAILS GIVEN.                                     22008001   14
+ERR-ANALYS (DATA-ERR) NO DETAILS GIVEN.                           22008001   15
+ENDBIB              13                                            22008001   16
+NOCOMMON             0          0                                 22008001   17
+ENDSUBENT           16                                            2200800199999
+SUBENT        22008002     870309                                 22008002    1
+BIB                  3          4                                 22008002    2
+REACTION   (18-AR-40(N,G)18-AR-41,,SIG,,MXW) MAXWELLIAN           22008002    3
+STATUS     .DATA WERE TAKEN FROM MAIN REF.                        22008002    4
+HISTORY    (861125C)  NO.                                         22008002    5
+           (861212E)                                              22008002    6
+ENDBIB               4                                            22008002    7
+NOCOMMON             0          0                                 22008002    8
+DATA                 3          1                                 22008002    9
+KT         DATA       DATA-ERR                                    22008002   10
+KEV        B          B                                           22008002   11
+ 2.3400E+01 2.5500E+00 1.5000E-01                                 22008002   12
+ENDDATA              3                                            22008002   13
+ENDSUBENT           12                                            2200800299999
+ENDENTRY             2                                            2200899999999
+ENDREQUEST           1                                            Z999999999999

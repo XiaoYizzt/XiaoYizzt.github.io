@@ -1,0 +1,438 @@
+REQUEST           1001   20010914          3     141103               0  0    0
+ENTRY            11596     830815                                 11596000    1
+SUBENT        11596001     830815                                 11596001    1
+BIB                  7          8                                 11596001    2
+INSTITUTE  (1USAANL)                                              11596001    3
+REFERENCE  (J,PR,78,632,5006)                                     11596001    4
+AUTHOR     (D.J.HUGHES,D.SHERMAN)                                 11596001    5
+TITLE      FAST NEUTRON CROSS SECTIONS AND NUCLEAR SHELLS         11596001    6
+METHOD     (ACTIV) ACTIVATION                                     11596001    7
+STATUS     (SCSRS)                                                11596001    8
+HISTORY    (760718T) TRANSLATED FROM SCISRS                       11596001    9
+           (830815A) CONVERTED TO REACTION FORMALISM              11596001   10
+ENDBIB               8                                            11596001   11
+NOCOMMON             0          0                                 11596001   12
+ENDSUBENT           11                                            1159600199999
+SUBENT        11596003     860113                                 11596003    1
+BIB                  5          6                                 11596003    2
+REACTION   (36-KR-84(N,G)36-KR-85-M,,SIG,,FIS)                    11596003    3
+INC-SPECT  FISSION NEUTRONS FROM U-235 IN THERMAL BEAM.           11596003    4
+MONITOR    (36-KR-84(N,G)36-KR-85,,SIG,,MXW)                      11596003    5
+           STANDARD VALUES TAKEN FROM PHYS.REV. 91,1423 (1953).   11596003    6
+DECAY-DATA (36-KR-85-M,4.5HR)                                     11596003    7
+HISTORY    (860113U) STANDARD REFERENCE CORRECTED.                11596003    8
+ENDBIB               6                                            11596003    9
+NOCOMMON             0          0                                 11596003   10
+DATA                 3          1                                 11596003   11
+EN-DUMMY   DATA       MONIT                                       11596003   12
+MEV        B          B                                           11596003   13
+ 1.         1.9    -03 1.     -01                                 11596003   14
+ENDDATA              3                                            11596003   15
+ENDSUBENT           14                                            1159600399999
+ENDENTRY             2                                            1159699999999
+ENTRY            11883     830919                                 11883000    1
+SUBENT        11883001     830919                                 11883001    1
+BIB                 10         12                                 11883001    2
+INSTITUTE  (1USAGIT)                                              11883001    3
+REFERENCE  (J,NP/A,120,329,6811)                                  11883001    4
+AUTHOR     (E.KONDAIAH,N.RANAKUMAR,R.W.FINK)                      11883001    5
+TITLE      THERMAL NEUTRON ACTIVATION CROSS SECTIONS FOR KR AND XE11883001    6
+           ISOTOPES.                                              11883001    7
+INC-SPECT  THERMAL SPECTRUM                                       11883001    8
+METHOD     (ACTIV) ACTIVATION                                     11883001    9
+DETECTOR   (GELI) GE(LI) DETECTOR                                 11883001   10
+MONITOR    (25-MN-55(N,G)25-MN-56,,SIG)                           11883001   11
+STATUS     (SCSRS)                                                11883001   12
+HISTORY    (760731T) TRANSLATED FROM SCISRS                       11883001   13
+           (830919A) CONVERTED TO REACTION FORMALISM              11883001   14
+ENDBIB              12                                            11883001   15
+COMMON               2          3                                 11883001   16
+MONIT      MONIT-ERR                                              11883001   17
+B          B                                                      11883001   18
+ 13.3       0.1                                                   11883001   19
+ENDCOMMON            3                                            11883001   20
+ENDSUBENT           19                                            1188300199999
+SUBENT        11883006     830919                                 11883006    1
+BIB                  2          2                                 11883006    2
+REACTION   (36-KR-84(N,G)36-KR-85-M,,SIG,,MXW)                    11883006    3
+DECAY-DATA (36-KR-85-M,4.4HR,DG,150.,0.77)                        11883006    4
+ENDBIB               2                                            11883006    5
+NOCOMMON             0          0                                 11883006    6
+DATA                 3          1                                 11883006    7
+EN-DUMMY   DATA       DATA-ERR                                    11883006    8
+MEV        B          B                                           11883006    9
+ 2.53   -08 9.0    -02 1.3    -02                                 11883006   10
+ENDDATA              3                                            11883006   11
+ENDSUBENT           10                                            1188300699999
+ENDENTRY             2                                            1188399999999
+ENTRY            11887     860505                                 11887000    1
+SUBENT        11887001     860505                                 11887001    1
+BIB                  7          9                                 11887001    2
+INSTITUTE  (1USAANL)                                              11887001    3
+REFERENCE  (B,RCS,,642(70),51)                                    11887001    4
+AUTHOR     (E.HOAGLAND,N.SUGARMAN)                                11887001    5
+INC-SPECT  REACTOR SPECTRUM                                       11887001    6
+METHOD     (ACTIV)                                                11887001    7
+STATUS     (SCSRS)                                                11887001    8
+HISTORY    (760731T) TRANSLATED FROM SCISRS                       11887001    9
+           (830919A) CONVERTED TO REACTION FORMALISM              11887001   10
+           (860505A) BIB UPDATES.                                 11887001   11
+ENDBIB               9                                            11887001   12
+COMMON               1          3                                 11887001   13
+EN-DUMMY                                                          11887001   14
+EV                                                                11887001   15
+ 0.0253                                                           11887001   16
+ENDCOMMON            3                                            11887001   17
+ENDSUBENT           16                                            1188700199999
+SUBENT        11887003     860505                                 11887003    1
+BIB                  3          3                                 11887003    2
+REACTION   (36-KR-84(N,G)36-KR-85-M,,SIG,,SPA)                    11887003    3
+DECAY-DATA (36-KR-85-M,4.5HR,B,950.,,DG,170.,,DG,370.)            11887003    4
+HISTORY    (860501C)                                              11887003    5
+ENDBIB               3                                            11887003    6
+NOCOMMON             0          0                                 11887003    7
+DATA                 1          1                                 11887003    8
+DATA                                                              11887003    9
+B                                                                 11887003   10
+ 0.096                                                            11887003   11
+ENDDATA              3                                            11887003   12
+ENDSUBENT           11                                            1188700399999
+ENDENTRY             2                                            1188799999999
+ENTRY            21896     840807                                 21896000    1
+SUBENT        21896001     840807                                 21896001    1
+BIB                 11         31                                 21896001    2
+INSTITUTE  (2GERKFK) IRCH AND IAK.                                21896001    3
+REFERENCE  (J,ZN/A,38,712,83)                                     21896001    4
+AUTHOR     (R.D.PENZHORN, G.WALTER, H.BEER)                       21896001    5
+TITLE      -.THE CHEMICAL FIXATION OF KR ISOTOPES                 21896001    6
+            IN ZEOLITE 5A. PREREQUISITE FOR THE                   21896001    7
+            DETERMINATION OF 25 KEV NEUTRON CAPTURE               21896001    8
+            CROSS SECTIONS WITH THE ACTIVATION METHOD.-           21896001    9
+            (IN GERMAN. THE ORIGINAL TITLE IS                     21896001   10
+            DIE CHEMISCHE FIXIERUNG VON KRYPTONISOTOPEN           21896001   11
+            IN ZEOLITH 5A-.VORAUSSETZUNG FUER DIE MESSUNG         21896001   12
+            VON 25 KEV NEUTRONENEINFANGQUERSCHNITTEN MIT          21896001   13
+            DER AKTIVIERUNGSTECHNIK.)                             21896001   14
+SAMPLE     .MG(4.90)A-ZEOLITE, LOADED WITH NATURAL KR             21896001   15
+            (57 PER CENT KR-84) AT A PRESSURE OF 1610 BAR         21896001   16
+            AND A TEMPERATURE OF 520 DEGREES CELCIUS.             21896001   17
+            EMPLOYED ZEOLITE LOADING WAS 52.8 STP KR/G ZEOLITE.   21896001   18
+           .CA(5.66)A-ZEOLITE, LOADED WITH NATURAL KR             21896001   19
+            AT A PRESSURE OF 1930 BAR AND A TEMPERATURE           21896001   20
+            OF 520 DEGREES CELCIUS.                               21896001   21
+            EMPLOYED ZEOLITE LOADING WAS 66.3 STP KR/G ZEOLITE.   21896001   22
+METHOD     (ACTIV)                                                21896001   23
+           .IRRADIATION TIME WAS 4 HOURS, DECAY GAMMAS WERE       21896001   24
+            DETECTED FOR SEVERAL HOURS.                           21896001   25
+DETECTOR   (GELI )                                                21896001   26
+DECAY-DATA (36-KR-85-M,4.48HR,DG,151.,0.7826,                     21896001   27
+                               DG,305.,0.14)                      21896001   28
+ADD-RES    .THE VALUE OBTAINED AT 25 KEV IS OF RELEVANCE TO       21896001   29
+            THE STELLAR NUCLEOSYNTHESIS OF HEAVY ELEMENTS.        21896001   30
+STATUS     .DATA TAKEN FROM REF.                                  21896001   31
+HISTORY    (840202C) BN.                                          21896001   32
+           (840202E)                                              21896001   33
+ENDBIB              31                                            21896001   34
+NOCOMMON             0          0                                 21896001   35
+ENDSUBENT           34                                            2189600199999
+SUBENT        21896002     840807                                 21896002    1
+BIB                  9         15                                 21896002    2
+REACTION   (36-KR-84(N,G)36-KR-85-M,,SIG,,MXW)                    21896002    3
+FACILITY   (VDG  )                                                21896002    4
+INC-SOURCE (P-LI7) IRRADIATION OF METALLIC LI.                    21896002    5
+           .THE PROTON ENERGY WAS ABOVE 1.881 MEV TO HAVE         21896002    6
+            A COLLIMATED NEUTRON BEAM.                            21896002    7
+INC-SPECT  .INCOMIMG SPECTRUM CORRESPONDS TO                      21896002    8
+            MAXWELLIAN SPECTRUM AT KT= 25 KEV.                    21896002    9
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)                         21896002   10
+           .DATA TAKEN FROM ENDF/B-IV.                            21896002   11
+FLAG       (1.) DATUM FOR CA-ZEOLITE.                             21896002   12
+           (2.) DATUM FOR MG-ZEOLITE.                             21896002   13
+STATUS     .DATA TAKEN FROM REF.                                  21896002   14
+HISTORY    (840202C)                                              21896002   15
+           (840202E)                                              21896002   16
+ERR-ANALYS .NO INFORMATION GIVEN                                  21896002   17
+ENDBIB              15                                            21896002   18
+NOCOMMON             0          0                                 21896002   19
+DATA                 6          2                                 21896002   20
+EN-DUMMY   DATA       DATA-ERR   MONIT      MONIT-ERR  FLAG       21896002   21
+KEV        MB         MB         MB         MB         NO-DIM     21896002   22
+ 2.5000E+01 2.1600E+01 1.6000E+00 6.5700E+02 1.6000E+01 1.0000E+0021896002   23
+ 2.5000E+01 2.1100E+01 1.6000E+00 6.5700E+02 1.6000E+01 2.0000E+0021896002   24
+ENDDATA              4                                            21896002   25
+ENDSUBENT           24                                            2189600299999
+SUBENT        21896003     840807                                 21896003    1
+BIB                  8         10                                 21896003    2
+REACTION   (36-KR-84(N,G)36-KR-85-M,,SIG,,MXW)                    21896003    3
+FACILITY   (REAC ) KARLSRUHE FR2 REACTOR.                         21896003    4
+INC-SOURCE (REAC ) KARLSRUHE FR2 REACTOR.                         21896003    5
+INC-SPECT  .MAXWELLIAN SPECTRUM                                   21896003    6
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)                         21896003    7
+           .DATA TAKEN FROM ENDF/B-IV.                            21896003    8
+STATUS     .DATA TAKEN FROM REF.                                  21896003    9
+HISTORY    (840202C)                                              21896003   10
+           (840202E)                                              21896003   11
+ERR-ANALYS .NO INFORMATION GIVEN.                                 21896003   12
+ENDBIB              10                                            21896003   13
+NOCOMMON             0          0                                 21896003   14
+DATA                 5          1                                 21896003   15
+EN-DUMMY   DATA       DATA-ERR   MONIT      MONIT-ERR             21896003   16
+EV         MB         MB         B          B                     21896003   17
+ 2.5000E-02 8.5000E+01 6.0000E+00 9.8800E+01 3.0000E-01           21896003   18
+ENDDATA              3                                            21896003   19
+ENDSUBENT           18                                            2189600399999
+ENDENTRY             3                                            2189699999999
+ENTRY            22145     910716                                 22145000    1
+SUBENT        22145001     910716                                 22145001    1
+BIB                 18         87                                 22145001    2
+REFERENCE  (J,PR/C,35,936,8703)                                   22145001    3
+           (J,PR/C,21,534,8002) DESCRIPTION OF P-LI7 INC-SOURCE   22145001    4
+TITLE      -STELLAR KRYPTON CROSS SECTIONS AT KT = 25 AND 52 KEV  22145001    5
+AUTHOR     (F.KAEPPELER,A.A.NAQVI,M.AL-OHALI)                     22145001    6
+INSTITUTE  (2GERKFK) F.K. AND EXPERIMENTAL SITE                   22145001    7
+           (3SARDHA) A.A.N., M.A.-O.                              22145001    8
+FACILITY   (VDG  ) 3.75MV PULSED 1 MHZ RATE, WITH 18 NS WIDTH AND 22145001    9
+            2 MUA BEAM CURRENT DURING 52 KEV SPECTRUM MEASUREMENTS22145001   10
+CRITIQUE   .ALTHOUGH THE TERM 'MAXWELLIAN SPECTRUM' IS USED       22145001   11
+            THROUGHOUT THE PAPER THIS IS UNDERSTOOD IN A STELLAR  22145001   12
+            CONTEXT, THE ACTUAL AVERAGE CROSS SECTION (<SIGMA>KT) 22145001   13
+            BEING DEFINED AS THE AVERAGED REACTION RATE (CROSS    22145001   14
+            SECTION MULTIPLIED BY VELOCITY) DIVIDED BY THE MEAN   22145001   15
+            THERMAL VELOCITY (VT) WITHIN THE STELLAR PLASMA OF    22145001   16
+            THERMAL ENERGY KT :                                   22145001   17
+               <SIGMA>KT  = <SIGMA X VELOCITY>/ VT                22145001   18
+            USING THE ACCEPTED MAXWELL VELOCITY DISTRIBUTION      22145001   19
+            FORMULA THE TERM VT CAN EASILY BE SHOWN TO BE         22145001   20
+            (2KT/M)**0.5, M BEING THE REDUCED MASS. THIS IS EQUI- 22145001   21
+            VALENT TO FOLDING THE CROSS SECTION WITH AN ENERGY    22145001   22
+            SPECTRUM PROPORTIONAL TO A MAXWELLIAN DISTRIBUTION    22145001   23
+            TIMES VELOCITY (E(N) X EXP(-E(N)/KT)) WITH A NORMAL-  22145001   24
+            ISATION FACTOR OF 2/(PI)**0.5, INSTEAD OF A TRUE      22145001   25
+            MAXWELLIAN (E(N)**0.5 X EXP(-E(N)/KT)). IT IS THIS    22145001   26
+            FORMER SPECTRUM THAT IS REPRODUCED EXPERIMENTALLY     22145001   27
+            USING THE P-LI7 SOURCE, AND THE RESULTING AVERAGE     22145001   28
+            CROSS SECTION APPEARS IN THE DATA TABLE. IT IS        22145001   29
+            ASSUMED THAT THE 2/(PI)**0.5 FACTOR HAS BEEN APPLIED. 22145001   30
+INC-SOURCE (P-LI7) USED FOR APPROXIMATION TO MAXWELLIAN           22145001   31
+            KT = 25 KEV SHAPE. 1.911 MEV PROTONS ON METALLIC LI-7 22145001   32
+            LAYER WITH COPPER BACKING OF 0.5 MM. KINEMATICALLY    22145001   33
+            COLLIMATED NEUTRON BEAM FORMING A 120 DEGREE CONE.    22145001   34
+            MAXIMUM NEUTRON ENERGY OF 106 KEV. NEUTRON SCATTERING 22145001   35
+            ON THE CU BACKING WAS NEGLECTED WITH UNCERTAINTY      22145001   36
+            ESTIMATED AT LESS THAN 0.2 PERCENT.                   22145001   37
+           (P-T  ) USED FOR APPROXIMATION TO MAXWELLIAN KT = 52KEV22145001   38
+            SHAPE. 1099 KEV PROTONS ON TRITIUM LOADED TITANIUM    22145001   39
+            LAYERS (1.0 MG/CM-SQ) EVAPORATED ON 0.3 MM THICK      22145001   40
+            TUNGSTEN DISK, COVERED BY A ALUMINIUM LAYER OF        22145001   41
+            50 MICRO-G/CM-SQ. SPECIFIC TARGET ACTIVITY WAS        22145001   42
+            3.0E10 BQ/CM-SQ. COOLING WATER FLOWS IN 0.8 MM GAP    22145001   43
+            BETWEEN W BACKING AND 0.1 MM OUTER STAINLESS STEEL    22145001   44
+            WINDOW. KINEMATICALLY COLLIMATED NEUTRON BEAM FORMING 22145001   45
+            120 DEGREE CONE. MAX NEUTRON ENERGY 225 KEV FOR       22145001   46
+            KT = 52 KEV. TRANSMISSION OF TARGET AT 30 KEV ONLY    22145001   47
+            89 PERCENT OWING TO N-P SCATTERING IN COOLING WATER   22145001   48
+            LEADING TO ADDITIONAL UNCERTAINTY IN CROSS SECTION    22145001   49
+            MEASUREMENT.                                          22145001   50
+INC-SPECT  .THE NEUTRON SPECTRA ARE CLOSELY APPROXIMATED TO MAX-  22145001   51
+            WELLIAN SHAPES WITH TEMPERATURES OF 25 AND 52 KEV.    22145001   52
+METHOD     (ACTIV)                                                22145001   53
+DETECTOR   (GELI ) 1.6 KEV RESOLUTION AT E-GAMMA = 514 KEV.       22145001   54
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG,,MXW) VALUES AT KT = 25  22145001   55
+            AND 52 KEV NORMALISED TO THAT AT 30 KEV.              22145001   56
+MONIT-REF  (,BAO+,J,AND,36,411,8705) FOR C.S. AT KT = 30 KEV.     22145001   57
+           .THE STANDARD 197-AU (N,G) CROSS SECTION FOR KT = 25   22145001   58
+            AND 30 KEV IS REASSESSED IN PR/C,37,595,8802,         22145001   59
+            WORK NO. 22099.                                       22145001   60
+SAMPLE     .NATURAL AND ENRICHED KR TRAPPED IN ZEOLITE 5A CRYSTAL 22145001   61
+            LATTICE, TYPICALLY 50 CUBIC-CM PER GRAM ZEOLITE,      22145001   62
+            SANDWICHED BETWEEN GOLD FOILS OF SAME DIAMETER 6 MM.  22145001   63
+CORRECTION .GAMMA-RAY SELF ABSORPTION IN SAMPLE, BACKGROUND,      22145001   64
+            GE(LI) DETECTOR EFFICIENCY, NEUTRON FLUX DISPERSION   22145001   65
+            AND MULTIPLE SCATTERING, IRRADIATION HISTORY,         22145001   66
+            DEVIATION OF FLUX FROM MAXWELLIAN SHAPE.              22145001   67
+ERR-ANALYS (ERR-T) TOTAL ERROR.                                   22145001   68
+           (ERR-S) COUNTING STATISTICS            0.4-8.7 PERCENT 22145001   69
+           (ERR-1) SYSTEMATIC ERROR:                              22145001   70
+            AU STANDARD CROSS SECTION             3.5 PERCENT     22145001   71
+            ACTIVATION VIA SCATTERED NEUTRONS    <3 PERCENT       22145001   72
+            NEUTRON FLUX DISPERSION INCLUDING     2.8-7.1 PERCENT 22145001   73
+              NEUTRON MULTIPLE SCATTERING AND                     22145001   74
+              SELF ABSORPTION                                     22145001   75
+            IRRADIATION HISTORY                  <2   PERCENT     22145001   76
+            DEVIATION OF NEUTRON SPECTRUM FROM   <2   PERCENT     22145001   77
+              MAXWELLIAN SHAPE                                    22145001   78
+            ABSOLUTE GAMMA-RAY INTENSITY PER      3-6 PERCENT     22145001   79
+              DECAY                                               22145001   80
+            GE(LI) EFFICIENCY                     2 PERCENT       22145001   81
+            GAMMA RAY SELF ABSORPTION IN SAMPLE  <1 PERCENT       22145001   82
+            TOTAL SYSTEMATIC UNCERTAINTIES        6.5-11.7 PERCENT22145001   83
+DECAY-MON  (79-AU-198-G,2.696D,DG,412.,0.955)                     22145001   84
+STATUS     .TABLES IN MAIN REFERENCE.                             22145001   85
+HISTORY    (900525C) S.W.                                         22145001   86
+           (900917E)                                              22145001   87
+           (910716A) S.W. CRITIQUE ADDED                          22145001   88
+           (910722E)                                              22145001   89
+ENDBIB              87                                            22145001   90
+NOCOMMON             0          0                                 22145001   91
+ENDSUBENT           90                                            2214500199999
+SUBENT        22145002     900917                                 22145002    1
+BIB                  6         14                                 22145002    2
+REACTION   (36-KR-84(N,G)36-KR-85-M,,SIG,,MXW)                    22145002    3
+DECAY-DATA (36-KR-85-M,4.48HR,DG,151.,0.753,                      22145002    4
+                              DG,305.,0.14)                       22145002    5
+FLAG       (1.) INTERPOLATED FROM DATA AT KT = 25 AND 52 KEV,     22145002    6
+            THE ERROR INCLUDES AN ADDITIONAL 3% FROM THE INTER-   22145002    7
+            POLATION.                                             22145002    8
+COMMENT    .THE STANDARD 197-AU (N,G) CROSS SECTION FOR KT = 25   22145002    9
+            AND 30 KEV IS REASSESSED IN PR/C,37,595,8802,         22145002   10
+            WORK NO. 22099, LEADING TO A REVISED RECOMMENDED      22145002   11
+            VALUE FOR THE 84-KR(N,G)85-KR-M CROSS SECTION AT      22145002   12
+            KT = 30 KEV OF 17.6 +- 1.1 MB.                        22145002   13
+STATUS     .TABLES IN MAIN REFERENCE.                             22145002   14
+HISTORY    (900525C) S.W.                                         22145002   15
+           (900917E)                                              22145002   16
+ENDBIB              14                                            22145002   17
+NOCOMMON             0          0                                 22145002   18
+DATA                 8          3                                 22145002   19
+KT         MONIT      MONIT-ERR  DATA       ERR-T      ERR-S      22145002   20
+ERR-1      FLAG                                                   22145002   21
+KEV        MB         MB         MB         MB         PER-CENT   22145002   22
+PER-CENT   NO-DIM                                                 22145002   23
+ 2.5000E+01 6.1900E+02 2.2000E+01 1.9300E+01 1.3000E+00 1.6       22145002   24
+ 6.5                                                              22145002   25
+ 3.0000E+01 5.6200E+02 2.0000E+01 1.6700E+01 1.2000E+00           22145002   26
+            1.                                                    22145002   27
+ 5.2000E+01 4.3100E+02 1.5000E+01 1.0700E+01 9.0000E-01 3.6       22145002   28
+ 8.6                                                              22145002   29
+ENDDATA             10                                            22145002   30
+ENDSUBENT           29                                            2214500299999
+ENDENTRY             2                                            2214599999999
+ENTRY            22253     961126                                 22253000    1
+SUBENT        22253001     961126                                 22253001    1
+BIB                 18         51                                 22253001    2
+INSTITUTE  (2GERKFK)                                              22253001    3
+REFERENCE  (J,AJ,375,823,91)                                      22253001    4
+AUTHOR     (H.BEER)                                               22253001    5
+TITLE      -CAPTURE CROSS SECTION MEASUREMENTS OF KRYPTON AND     22253001    6
+            XENON ISOTOPES AND THE FUNDAMENTAL PARAMETERS OF THE  22253001    7
+            S-PROCESS.                                            22253001    8
+FACILITY   (VDG  ) THE KARLSRUHE PULSED 3 MV VAN DE GRAAFF ACCELE-22253001    9
+            RATOR WAS USED.                                       22253001   10
+INC-SOURCE (P-LI7) NEUTRONS WERE PRODUCED NEAR THE THRESHOLD,     22253001   11
+            WHICH GIVES A KINEMATICALLY COLLIMATED NEUTRON BEAM.  22253001   12
+INC-SPECT  .THE NEUTRON SPECTRUM WAS SIMILAR TO A MAXWELLIAN      22253001   13
+            SPECTRUM WITH A TEMPERATURE OF 25 KEV.                22253001   14
+SAMPLE     .NATURAL KR AND XE WAS USED AS SAMPLE MATERIAL. THE    22253001   15
+            ACTIVATION SAMPLES USED WERE /1/ ZEOLITE TABLETS, 6 MM22253001   16
+            IN DIAMETER, LOADED WITH 52.7 CM3 KR PER GRAM OF      22253001   17
+            SAMPLE, SANDWICHED BETWEEN TWO AU FOILS OF THE SAME   22253001   18
+            DIAMETER OR AN AU FOIL BETWEEN TWO ZEOLITE TABLETS,   22253001   19
+            /2/ A NA4XEO6 TABLET, 6 MM IN DIAMETER, SANDWICHED    22253001   20
+            BETWEEN TWO AU FOILS, /3/ A PRESSURIZED GAS SAMPLE    22253001   21
+            WITH A MIXTURE OF KR AND XE GAS IN A STAINLESS STEEL  22253001   22
+            SPHERE, 20 MM IN DIAMETER, 0.5 MM WALL THICKNESS. FOR 22253001   23
+            BACKGROUND DETERMINATION, AN EMPTY STAINLESS STEEL    22253001   24
+            SPHERE WAS USED.                                      22253001   25
+METHOD     (ACTIV) SIMULTANEOUS ACTIVATION OF TARGET MATERIAL AND 22253001   26
+            STANDARD AU FOILS. A FAST CYCLIC ACTIVATION SYSTEM    22253001   27
+            WITH A FAST SAMPLE CHANGER OPERATING WITH COMPRESSED  22253001   28
+            AIR WAS USED. BOTH THE IRRADIATION AND COUNTING PHASES22253001   29
+            WERE ADJUSTED TO BE 38 SEC.                           22253001   30
+DETECTOR   (GELI ) THE ACTIVITY WAS COUNTED WITH A GELI-DETECTOR, 22253001   31
+            WITH A RELATIVE EFFICIENCY OF 28 PERCENT AND AN ENERGY22253001   32
+            RESOLUTION OF 2.4 KEV AT 1.33 MEV. TO OBTAIN A FAST   22253001   33
+            CYCLIC TIME, THE DETECTOR WAS PLACED CLOSE TO THE     22253001   34
+            NEUTRON GENERATION. IT WAS THEREFORE WELL SHIELDED BY 22253001   35
+            LEAD AND LI-LOADED PARAFFIN. DURING THE ACTIVITY      22253001   36
+            COUNTING PHASE THE NEUTRON GENERATION WAS STOPPED BY  22253001   37
+            A PROTON BEAM STOP IN THE BEAM LINE.                  22253001   38
+           (GLASD) THE NEUTRON FLUX WAS MONITORED BY A LI-6 GLASS 22253001   39
+            SCINTILLATION COUNTER.                                22253001   40
+PART-DET   (DG   )                                                22253001   41
+MONITOR    (79-AU-197(N,G)79-AU-198-G,,SIG,,MXW)                  22253001   42
+MONIT-REF  (,RATYNSKI+,J,PR/C,37,595,88)                          22253001   43
+DECAY-MON  (79-AU-198-G,2.6935D,DG,411.8,.9552)                   22253001   44
+CORRECTION .NO DETAILS GIVEN.                                     22253001   45
+ERR-ANALYS (DATA-ERR) THE ERRORS ARE FROM STATISTICS, GAMMA-RAY   22253001   46
+            INTENSITY PER DECAY, GELI-DETECTOR EFFICIENCY, SAMPLE 22253001   47
+            WEIGHT, RELATIVE ISOTOPIC ABUNDANCE, GAMMA-RAY ATTENU-22253001   48
+            ATION, AND THE AU-197 STANDARD.                       22253001   49
+STATUS     .DATA TAKEN FROM MAIN REF.                             22253001   50
+HISTORY    (940107C) N.O.                                         22253001   51
+           (950420E)                                              22253001   52
+           (961126A)  + +  CORRECTED BY S.MAEV    + +             22253001   53
+ENDBIB              51                                            22253001   54
+COMMON               3          3                                 22253001   55
+KT         MONIT      MONIT-ERR                                   22253001   56
+KEV        MB         MB                                          22253001   57
+ 2.5000E+01 6.4800E+02 1.0000E+01                                 22253001   58
+ENDCOMMON            3                                            22253001   59
+ENDSUBENT           58                                            2225300199999
+SUBENT        22253007     961126                                 22253007    1
+BIB                  4          6                                 22253007    2
+REACTION   (36-KR-84(N,G)36-KR-85-M,,SIG,,MXW)                    22253007    3
+DECAY-DATA (36-KR-85-M,4.48HR,DG,304.9,.140)                      22253007    4
+STATUS     .DATA TAKEN FROM TABLE 2 OF MAIN REF.                  22253007    5
+HISTORY    (940107C) N.O.                                         22253007    6
+           (950420E)                                              22253007    7
+           (961126U)  * *  KT-HEADING DELETED        * *          22253007    8
+ENDBIB               6                                            22253007    9
+NOCOMMON             0          0                                 22253007   10
+DATA                 2          1                                 22253007   11
+DATA       DATA-ERR                                               22253007   12
+MB         MB                                                     22253007   13
+ 2.0000E+01 9.0000E-01                                            22253007   14
+ENDDATA              3                                            22253007   15
+ENDSUBENT           14                                            2225300799999
+ENDENTRY             2                                            2225399999999
+ENTRY            30501     890215                                 30501000    1
+SUBENT        30501001     890215                                 30501001    1
+BIB                 11         24                                 30501001    2
+TITLE      NEUTRON CAPTURE CROSS SECTIONS AT 25 KEV               30501001    3
+AUTHOR     (B.V.THIRUMALA RAO, J.RAMA RAO, E.KONDAIAH)            30501001    4
+INSTITUTE  (3INDAUW)                                              30501001    5
+REFERENCE  (J,JP/A,5,468,7203)                                    30501001    6
+SAMPLE     NO INFORMATION                                         30501001    7
+INC-SOURCE (PHOTO) SB-BE PHOTONEUTRON SOURCE (16 CI)              30501001    8
+           (A-BE). MODERATED NEUTRONS FOR THERMAL STANDARDS FROM  30501001    9
+             RA-BE SOURCE (500 MCI).                              30501001   10
+METHOD     (ACTIV)  ACTIVATION FOLLOWED BY GAMMA-COUNTING.        30501001   11
+           DOUBLE COMPARISON METHOD= BOTH THE IODINE STANDARD     30501001   12
+           AND THE MATERIAL TO BE MEASURED WERE ACTIVATED BY      30501001   13
+           25 KEV AND BY THERMAL NEUTRONS. TAKING THE THERMAL     30501001   14
+           CROSS SECTIONS FROM LITERATURE THE BRANCHING RATIOS    30501001   15
+           OF THE DECAY GAMMAS MEASURED NEED NOT BE KNOWN.        30501001   16
+DETECTOR   (NAICR)                                                30501001   17
+ERR-ANALYS ERRORS GIVEN INCLUDE                                   30501001   18
+           -EXPERIMENTAL ERRORS (MAINLY COUNTING STATISTICS)      30501001   19
+           -COMPOUND ERROR OF THE 3 STANDARD CROSS SECTIONS USED. 30501001   20
+           OVERALL ERROR = ROOT MEAN SQUARE PROJECTION OF ALL     30501001   21
+           ERRORS STATED ABOVE.                                   30501001   22
+STATUS     DATA TAKEN FROM J.PHYS.A5,468 (1972), TABLE 1.         30501001   23
+HISTORY    (790918C) OS.                                          30501001   24
+           (880713A) TMK MONITOR CODING CORRECTED. APPEND THE     30501001   25
+            COMMENT IN SUBENT 6 TO 9.                             30501001   26
+ENDBIB              24                                            30501001   27
+NOCOMMON             0          0                                 30501001   28
+ENDSUBENT           27                                            3050100199999
+SUBENT        30501002     881205                                 30501002    1
+BIB                  3          5                                 30501002    2
+REACTION   (36-KR-84(N,G)36-KR-85-M,,SIG)                         30501002    3
+DECAY-DATA (36-KR-85-M,4.4HR,DG,150.)                             30501002    4
+MONITOR    ((MONIT1)53-I-127(N,G)53-I-128,,SIG,,MXW)              30501002    5
+           ((MONIT2)36-KR-84(N,G)36-KR-85-M,,SIG,,MXW)            30501002    6
+           ((MONIT3)53-I-127(N,G)53-I-128,,SIG)                   30501002    7
+ENDBIB               5                                            30501002    8
+COMMON               4          3                                 30501002    9
+MONIT1     MONIT1-ERR MONIT2     MONIT2-ERR                       30501002   10
+B          B          B          B                                30501002   11
+6.17       0.2        0.090      0.013                            30501002   12
+ENDCOMMON            3                                            30501002   13
+DATA                 5          1                                 30501002   14
+EN         EN-RSL     DATA       DATA-ERR   MONIT3                30501002   15
+KEV        KEV        MB         MB         MB                    30501002   16
+25.        5.         57.        10.        832.                  30501002   17
+ENDDATA              3                                            30501002   18
+ENDSUBENT           17                                            3050100299999
+ENDENTRY             2                                            3050199999999
+ENDREQUEST           1                                            Z999999999999

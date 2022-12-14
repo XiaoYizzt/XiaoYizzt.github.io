@@ -1,0 +1,451 @@
+REQUEST           1001   20010914          3     144654               0  0    0
+ENTRY            10013   19990617   19990622                      10013000    1
+SUBENT        10013001   19990617   19990622                      10013001    1
+BIB                 11         21                                 10013001    2
+INSTITUTE  (1CANCRC)                                              10013001    3
+REFERENCE  (C,70HELSINKI,1,287(2),197006)                         10013001    4
+AUTHOR     (M.LOUNSBURY,R.W.DURHAM,G.C.HANNA)                     10013001    5
+TITLE      Measurements of alpha and of fission cross section     10013001    6
+            ratios for 233U, 235U AND 239Pu at thermal energies   10013001    7
+FACILITY   (SPECM) Consolidated electrodynamics mass spectrometer.10013001    8
+INC-SOURCE (REAC) NRU-reactor. Light water at a controlled        10013001    9
+            temperature                                           10013001   10
+METHOD     (ACTIV,BURN) Mass seperation.                          10013001   11
+            Iterative burn-up calculation performed.              10013001   12
+PART-DET   (RSD) Isotopic composition by mass spectrometry.       10013001   13
+ERR-ANALYS Data error excludes conversion to 2200 m/sec (g-factor 10013001   14
+            error) and is partially correlated with errors in     10013001   15
+            other data of this experiment. It includes errors in  10013001   16
+            isotopic analysis, other nuclear data and neutron     10013001   17
+            spectrum.                                             10013001   18
+STATUS     (APRVD) Approved by author.                            10013001   19
+HISTORY    (19720417C)                                            10013001   20
+           (19731231U) BIB corrections                            10013001   21
+           (19800813A) Converted to REACTION formalism            10013001   22
+           (19860529A) Miscellaneous updates.                     10013001   23
+ENDBIB              21                                            10013001   24
+NOCOMMON             0          0                                 10013001   25
+ENDSUBENT           24                                            1001300199999
+SUBENT        10013008   19990617   19990622                      10013008    1
+BIB                  1          1                                 10013008    2
+REACTION   (94-PU-240(N,G)94-PU-241,,SIG)                         10013008    3
+ENDBIB               1                                            10013008    4
+NOCOMMON             0          0                                 10013008    5
+DATA                 3          1                                 10013008    6
+EN         DATA       DATA-ERR                                    10013008    7
+EV         B          B                                           10013008    8
+0.0253     289.5      1.4                                         10013008    9
+ENDDATA              3                                            10013008   10
+ENDSUBENT            9                                            1001300899999
+ENDENTRY             2                                            1001399999999
+ENTRY            10766     781129                                 10766000    1
+SUBENT        10766001     781129                                 10766001    1
+BIB                 12         28                                 10766001    2
+INSTITUTE  (1USAORL)                                              10766001    3
+REFERENCE  (J,NSE,63,143,77)                                      10766001    4
+           (W,WESTON,7506)                                        10766001    5
+AUTHOR     (L.W.WESTON,J.H.TODD)                                  10766001    6
+TITLE      NEUTRON CAPTURE CROSS SECTION OF PLUTONIUM-240.        10766001    7
+FACILITY   (LINAC) ORELA                                          10766001    8
+SAMPLE     PU-O(2) SAMPLES OF 2 ANG 9 G.                          10766001    9
+           ISOTOPIC COMPOSITION - PU-239 (0.76 PERCENT)           10766001   10
+                                  PU-240 (98.3 PERCENT)           10766001   11
+                                  PU-241 (0.761 PERCENT)          10766001   12
+                                  PU-242 (0.171 PERCENT)          10766001   13
+METHOD     (TOF) TIME-OF-FLIGHT. 20- AND 85-M FLIGHT PATHS        10766001   14
+DETECTOR   (SCIN) NE226 LIQUID SCINTILLATORS FOR GAMMA-RAYS.      10766001   15
+                  NE213 LIQUID SCINTILLATORS FOR NEUTRONS.        10766001   16
+           (IOCH) FLUX MONITORED WITH A PARALLEL-PLATE B10-F(3)   10766001   17
+             IONIZATION CHAMBER WHICH WAS CALIBRATED AGAINST A    10766001   18
+             LI-6 GLASS DETECTOR.                                 10766001   19
+MONITOR    (94-PU-240(N,G)94-PU-241,,SIG) NORMALIZED BETWEEN      10766001   20
+             0.02 AND 0.03 EV TO ENDF/B-IV DATA.                  10766001   21
+           AN ADDITIONAL CHECK ON THE NORMALIZATION WAS MADE BY   10766001   22
+             THE SATURATING RESONANCE TECHNIQUE ON THE 1.06-EV    10766001   23
+             RESONANCE.                                           10766001   24
+ERR-ANALYS ERRORS GIVEN ARE SYSTEMATIC UNCERTAINTIES ARISING FROM 10766001   25
+            - BACKGROUND MEASUREMENT                              10766001   26
+            - MEASUREMENT OF FLUX SHAPE                           10766001   27
+            - DETECTOR EFFICIENCY VARIATIONS                      10766001   28
+STATUS     (APRVD) APPROVED BY L.WESTON, 79/1/30.                 10766001   29
+HISTORY    (781129C)                                              10766001   30
+ENDBIB              28                                            10766001   31
+NOCOMMON                                                          10766001   32
+ENDSUBENT           31                                            1076600199999
+SUBENT        10766002     781129                                 10766002    1
+BIB                  1          1                                 10766002    2
+REACTION   (94-PU-240(N,G)94-PU-241,,SIG,,AV)                     10766002    3
+ENDBIB               1                                            10766002    4
+NOCOMMON                                                          10766002    5
+DATA                 4         33                                 10766002    6
+EN-MIN     EN-MAX     DATA       DATA-ERR                         10766002    7
+KEV        KEV        B          PER-CENT                         10766002    8
+   0.20       0.30      8.71       7.                             10766002    9
+   0.30       0.40     10.27       7.                             10766002   10
+   0.40       0.50      6.60       7.                             10766002   11
+   0.50       0.60      7.14       7.                             10766002   12
+   0.60       0.70      5.09       7.                             10766002   13
+   0.70       0.80      2.63       7.                             10766002   14
+   0.80       0.90      6.63       7.                             10766002   15
+   0.90       1.00      5.53       7.                             10766002   16
+   1.00       1.50      3.50       7.                             10766002   17
+   1.50       2.00      3.03       7.                             10766002   18
+   2.00       3.00      2.42       7.                             10766002   19
+   3.00       4.00      1.89       7.                             10766002   20
+   4.00       5.00      1.67       7.                             10766002   21
+   5.00       6.00      1.55       7.                             10766002   22
+   6.00       7.00      1.38       7.                             10766002   23
+   7.00       8.00      1.36       7.                             10766002   24
+   8.00       9.00      1.32       7.                             10766002   25
+   9.00      10.0       1.28       7.                             10766002   26
+  10.0       15.0       1.06       8.                             10766002   27
+  15.0       20.0       0.935      8.                             10766002   28
+  20.0       30.0       0.790      8.                             10766002   29
+  30.0       40.0       0.691      8.                             10766002   30
+  40.0       50.0       0.592      8.                             10766002   31
+  50.0       60.0       0.583      8.                             10766002   32
+  60.0       70.0       0.468      8.                             10766002   33
+  70.0       80.0       0.420      8.                             10766002   34
+  80.0       90.0       0.382      9.                             10766002   35
+  90.0      100.        0.346     11.                             10766002   36
+ 100.       150.        0.317     13.                             10766002   37
+ 150.       200.        0.271     13.                             10766002   38
+ 200.       250.        0.223     13.                             10766002   39
+ 250.       300.        0.180     13.                             10766002   40
+ 300.       350.        0.160     20.                             10766002   41
+ENDDATA             35                                            10766002   42
+ENDSUBENT           41                                            1076600299999
+ENDENTRY             2                                            1076699999999
+ENTRY            12024     830802                                 12024000    1
+SUBENT        12024001     830802                                 12024001    1
+BIB                  7          9                                 12024001    2
+INSTITUTE  (1USAORL)                                              12024001    3
+REFERENCE  (J,NSE,8,112,60)                                       12024001    4
+AUTHOR     (R.C.BLOCK,G.G.SLAUGHTER,J.A.HARVEY)                   12024001    5
+TITLE      NEUTRON TOTAL CROSS SECTIONS OF U233, U235, PU240,     12024001    6
+           U234, I-129.                                           12024001    7
+FACILITY   (CHOPF) FAST CHOPPER                                   12024001    8
+STATUS     (SCSRS)                                                12024001    9
+HISTORY    (760802T) TRANSLATED FROM SCISRS                       12024001   10
+           (830802A) CONVERTED TO REACTION FORMALISM              12024001   11
+ENDBIB               9                                            12024001   12
+NOCOMMON             0          0                                 12024001   13
+ENDSUBENT           12                                            1202400199999
+SUBENT        12024010     830802                                 12024010    1
+BIB                  4          4                                 12024010    2
+REACTION   (94-PU-240(N,G)94-PU-241,,SIG)                         12024010    3
+STATUS     (DEP,12024011)                                         12024010    4
+ANALYSIS   DERIVED FROM TOTAL, ASSUMING SCATTERING=2+-1B.         12024010    5
+ASSUMED    (ASSUM,94-PU-240(N,EL)94-PU-240,,SIG)                  12024010    6
+ENDBIB               4                                            12024010    7
+NOCOMMON             0          0                                 12024010    8
+DATA                 5          1                                 12024010    9
+EN         DATA       DATA-ERR   ASSUM      ASSUM-ERR             12024010   10
+MEV        B          B          B          B                     12024010   11
+ 2.53   -08 2.88   +02 8.     +00 2.         1.                   12024010   12
+ENDDATA              3                                            12024010   13
+ENDSUBENT           12                                            1202401099999
+ENDENTRY             2                                            1202499999999
+ENTRY            12355     970516                                 12355000    1
+SUBENT        12355001     970516                                 12355001    1
+BIB                 10         17                                 12355001    2
+INSTITUTE  (1CANCRC)                                              12355001    3
+REFERENCE  (C,58GENEVA,16,83,5809)                                12355001    4
+AUTHOR     (D.S.CRAIG,G.C.HANNA,D.G.HURST,S.A.KUSHNERIUK,         12355001    5
+            W.B.LEWIS,A.G.WARN)                                   12355001    6
+TITLE      Long Irradiation of Natural Uranium                    12355001    7
+INC-SOURCE (REAC) NRX reactor.                                    12355001    8
+INC-SPECT  Reactor spectrum.                                      12355001    9
+METHOD     (BURN) BURN-UP                                         12355001   10
+ASSUMED    (ASSUM1,92-U-235(N,ABS),,SIG,,SPA)                     12355001   11
+           (ASSUM2,94-PU-239(N,ABS),,SIG,,SPA)                    12355001   12
+           (ASSUM3,94-PU-241(N,ABS),,SIG,,SPA)                    12355001   13
+STATUS     (SCSRS)                                                12355001   14
+HISTORY    (760804T) TRANSLATED FROM SCISRS                       12355001   15
+           (820519A) CONVERTED TO REACTION FORMALISM              12355001   16
+           (970516A) BIB updated, converted to lower case.        12355001   17
+                     Recompilation of data.                       12355001   18
+                     Superseded subentries deleted.               12355001   19
+ENDBIB              17                                            12355001   20
+COMMON               3          3                                 12355001   21
+ASSUM1     ASSUM2     ASSUM3                                      12355001   22
+B          B          B                                           12355001   23
+ 557.       884.      1086.                                       12355001   24
+ENDCOMMON            3                                            12355001   25
+ENDSUBENT           24                                            1235500199999
+SUBENT        12355009     970516                                 12355009    1
+BIB                  3          3                                 12355009    2
+REACTION   (94-PU-240(N,G)94-PU-241,,SIG,,SPA)                    12355009    3
+SAMPLE     Irradiated fuel rod, disc P.                           12355009    4
+MONITOR    (94-PU-239(N,G)94-PU-240,,SIG,,SPA)                    12355009    5
+ENDBIB               3                                            12355009    6
+NOCOMMON             0          0                                 12355009    7
+DATA                 3          1                                 12355009    8
+EN-DUMMY   DATA       DATA-ERR                                    12355009    9
+EV         B          B                                           12355009   10
+  0.0253     887.       27.                                       12355009   11
+ENDDATA              3                                            12355009   12
+ENDSUBENT           11                                            1235500999999
+ENDENTRY             2                                            1235599999999
+ENTRY            12535     841004                                 12535000    1
+SUBENT        12535001     841004                                 12535001    1
+BIB                  8         19                                 12535001    2
+INSTITUTE  (1USAANL)                                              12535001    3
+REFERENCE  (J,NSE,1,62,5603)                                      12535001    4
+           (C,55GENEVA,7,261,55)                                  12535001    5
+AUTHOR     (P.R.FIELDS,G.L.PYLE,M.G.INGHRAM,H.DIAMOND,            12535001    6
+           M.H.STUDIER,AND W.M.MANNING)                           12535001    7
+TITLE      PILE NEUTRON CROSS SECTIONS OF THE HEAVIER PLUTONIUM   12535001    8
+           ISOTOPES.                                              12535001    9
+SAMPLE     ISOTOPIC COMPOSITION OF SAMPLE (IN PERCENT)            12535001   10
+               SAMPLE        CR-1         CR-2         CR-3       12535001   11
+               ------    ------------ ------------ ------------   12535001   12
+               PU-239    74.31+-0.22  53.3+-0.3    23.82+-0.16    12535001   13
+               PU-240    21.96+-0.20  35.6+-0.2    49.35+-0.40    12535001   14
+               PU-241     3.39+-0.07   9.17+-0.04  17.07+-0.24    12535001   15
+               PU-242     0.337+-0.01  1.96+-0.03   9.76+-0.07    12535001   16
+METHOD     SAMPLES IRRADIATED FOR 6 MONTHS (CR-1, 1 YEAR (CR-2),  12535001   17
+             AND 2 YEARS (CR-3).                                  12535001   18
+STATUS     (SCSRS)                                                12535001   19
+HISTORY    (760804T) TRANSLATED FROM SCISRS                       12535001   20
+           (841004A) CONVERTED TO REACTION FORMALISM              12535001   21
+ENDBIB              19                                            12535001   22
+NOCOMMON             0          0                                 12535001   23
+ENDSUBENT           22                                            1253500199999
+SUBENT        12535002     841004                                 12535002    1
+BIB                  6          9                                 12535002    2
+REACTION   (94-PU-240(N,G)94-PU-241,,SIG,,SPA)                    12535002    3
+FACILITY   (SPECM)    MASS SPECTROMETER                           12535002    4
+INC-SOURCE (REAC) U-D2O REACTOR, NRX                              12535002    5
+MONITOR    (94-PU-239(N,G)94-PU-240,,SIG)                         12535002    6
+            BASED ON PU-239 THERMAL CAPTURE = 358 B               12535002    7
+            AND EFFECTIVE THERMAL ABSORPTION = 1150 B.            12535002    8
+ANALYSIS   AVERAGE OF VALUES FOR 3 IRRADIATIONS - CR-1(560+-55 B),12535002    9
+            CR-2 (550+-55 B), CR-3 (495+-50 B).                   12535002   10
+INC-SPECT   REACTOR SPECTRUM                                      12535002   11
+ENDBIB               9                                            12535002   12
+NOCOMMON             0          0                                 12535002   13
+DATA                 3          1                                 12535002   14
+EN-DUMMY   DATA       DATA-ERR                                    12535002   15
+MEV        B          B                                           12535002   16
+ 2.53   -08 5.30   +02 5.0    +01                                 12535002   17
+ENDDATA              3                                            12535002   18
+ENDSUBENT           17                                            1253500299999
+SUBENT        12535003     841004                                 12535003    1
+BIB                  5          7                                 12535003    2
+REACTION   (94-PU-240(N,G)94-PU-241,,SIG,,SPA)                    12535003    3
+FACILITY   (SPECM)    MASS SPECTROMETER                           12535003    4
+INC-SOURCE (REAC) HANFORD GRAPHITE REACTOR.                       12535003    5
+MONITOR    (94-PU-239(N,G)94-PU-240,,SIG)                         12535003    6
+            BASED ON PU-239 THERMAL CAPTURE = 358 B               12535003    7
+            AND EFFECTIVE THERMAL ABSORPTION = 1150 B.            12535003    8
+INC-SPECT   REACTOR SPECTRUM                                      12535003    9
+ENDBIB               7                                            12535003   10
+NOCOMMON             0          0                                 12535003   11
+DATA                 2          1                                 12535003   12
+EN-DUMMY   DATA                                                   12535003   13
+EV         B                                                      12535003   14
+ 0.0253     515.                                                  12535003   15
+ENDDATA              3                                            12535003   16
+ENDSUBENT           15                                            1253500399999
+ENDENTRY             3                                            1253599999999
+ENTRY            12548     841004                                 12548000    1
+SUBENT        12548001     841004                                 12548001    1
+BIB                  6          8                                 12548001    2
+INSTITUTE  (1CANCRC)                                              12548001    3
+REFERENCE  (C,58GENEVA,16,83,5809)                                12548001    4
+AUTHOR     (D.S.CRAIG,G.C.HANNA,D.G.HURST,S.A.KUSHNERIUK,         12548001    5
+            W.B.LEWIS,A.G.WARD)                                   12548001    6
+TITLE      LONG IRRADIATION OF NATURAL URANIUM.                   12548001    7
+STATUS     (SCSRS)                                                12548001    8
+HISTORY    (760804T) TRANSLATED FROM SCISRS                       12548001    9
+           (841004A) CONVERTED TO REACTION FORMALISM              12548001   10
+ENDBIB               8                                            12548001   11
+NOCOMMON             0          0                                 12548001   12
+ENDSUBENT           11                                            1254800199999
+SUBENT        12548002     841004                                 12548002    1
+BIB                  4          6                                 12548002    2
+REACTION   (94-PU-240(N,G)94-PU-241,,SIG,,SPA)                    12548002    3
+FACILITY   (SPECM)    MASS SPECTROMETER                           12548002    4
+MONITOR    (92-U-235(N,F),,SIG)                                   12548002    5
+            BASED ON EFFECTIVE U235 FISSION=557B,                 12548002    6
+            PU239 FISSION=884B, PU241 FISSION=1086B.              12548002    7
+INC-SPECT   REACTOR SPECTRUM                                      12548002    8
+ENDBIB               6                                            12548002    9
+NOCOMMON             0          0                                 12548002   10
+DATA                 4          1                                 12548002   11
+EN-DUMMY   DATA       DATA-ERR   MONIT                            12548002   12
+MEV        B          B          B                                12548002   13
+ 2.53   -08 1.000  +03 5.0    +01 557.                            12548002   14
+ENDDATA              3                                            12548002   15
+ENDSUBENT           14                                            1254800299999
+ENDENTRY             2                                            1254899999999
+ENTRY            40750     870218                                 40750000    1
+SUBENT        40750001     870218                                 40750001    1
+BIB                 11         22                                 40750001    2
+TITLE       NEUTRON RADIATION CAPTURE BY PU-240 ON THE FAST       40750001    3
+            REACTOR 'BR-5' CORE SPECTRA                           40750001    4
+AUTHOR     (V.I.IVANOV,V.A.TOLSTIKOV)                             40750001    5
+REFERENCE  (J,YK,1/36,26,8003)                                    40750001    6
+INSTITUTE  (4CCPFEI)                                              40750001    7
+METHOD     (ASEP)  MASS-SPECTROMETRIC SEPARATION                  40750001    8
+FACILITY   (REAC)  FAST REACTOR 'BR-5'                            40750001    9
+INC-SOURCE (REAC)                                                 40750001   10
+INC-SPECT     ONE NEUTRON SPECTRUM IS THAT  OF THE REACTOR CORE   40750001   11
+              AND OTHER ONE IS THAT NEAR THE REFLECTOR            40750001   12
+ERR-ANALYS (ERR-1) ERROR OF THE MASS SPECTROMETRY                 40750001   13
+           (ERR-2) ERROR OF THE CORRECTION ON PU-240 AND PU-241   40750001   14
+                   FISSION                                        40750001   15
+           (ERR-3) ERROR OF THE CORRECTION OF PU-241 DECAY        40750001   16
+           (ERR-4) ERROR OF THE BACKGROUND SUBSTRACTION           40750001   17
+           (ERR-5) ERROR OF THE EXTRAPOLATION TO THE CENTRAL      40750001   18
+                   PLANE OF THE REACTOR CORE                      40750001   19
+SAMPLE       MIXTURE OF PU-240 WITH LANTHANUM,PU-239 CONTENT IS   40750001   20
+             8.89+-.22 PERCENTS, PU-241 CONTENT IS .16+-.01 PC    40750001   21
+HISTORY    (840531C) COMPILED AT THE CJD                          40750001   22
+           (870218A) INVALID MULTIPLE REACTION DATA IN FOUR       40750001   23
+                     SUBENTS TRANSFERRED IN NEW ONES              40750001   24
+ENDBIB              22                                            40750001   25
+COMMON               6          3                                 40750001   26
+EN-DUMMY   ERR-1      ERR-2      ERR-3      ERR-4      ERR-5      40750001   27
+MEV        PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   40750001   28
+ 1.0        2.          .4         .3        3.6         4.       40750001   29
+ENDCOMMON            3                                            40750001   30
+ENDSUBENT           29                                            4075000199999
+SUBENT        40750002     840531                                 40750002    1
+BIB                  3          5                                 40750002    2
+REACTION   (94-PU-240(N,G)94-PU-241,,SIG,,SPA) AVERAGED OVER      40750002    3
+                                   REACTOR SPECTRUM               40750002    4
+MONITOR     ABSOLUTE MEASUREMENT,NEUTRON FLUENCE IS(1.31+-        40750002    5
+            0.07)E+22 NEUTRONS/CM-SQ                              40750002    6
+ERR-ANALYS (ERR-6)  ERROR OF THE FLUENCE DETERMINATION            40750002    7
+ENDBIB               5                                            40750002    8
+NOCOMMON             0          0                                 40750002    9
+DATA                 3          1                                 40750002   10
+DATA       ERR-T      ERR-6                                       40750002   11
+B          B          PER-CENT                                    40750002   12
+ .212       .017       5.3                                        40750002   13
+ENDDATA              3                                            40750002   14
+ENDSUBENT           13                                            4075000299999
+SUBENT        40750003     870218                                 40750003    1
+BIB                  2          5                                 40750003    2
+REACTION   (94-PU-240(N,G)94-PU-241,,SIG,,SPA) AVERAGED OVER      40750003    3
+                                        REACTOR SPECTRUM          40750003    4
+MONITOR    (92-U-238(N,G)92-U-239,,SIG,,SPA,CALC) NEUTRON SPECTRUM40750003    5
+            CALCULATED BY 'ARAMACO'-PROGRAM WITH BNAB-78 CONSTANTS40750003    6
+            INDICATOR CALCULATED ACCORDING TO BNAB-78             40750003    7
+ENDBIB               5                                            40750003    8
+NOCOMMON             0          0                                 40750003    9
+DATA                 3          1                                 40750003   10
+DATA       ERR-T      MONIT                                       40750003   11
+MB         MB         MB                                          40750003   12
+ 211.       18.        141.                                       40750003   13
+ENDDATA              3                                            40750003   14
+ENDSUBENT           13                                            4075000399999
+SUBENT        40750004     870218                                 40750004    1
+BIB                  2          5                                 40750004    2
+REACTION   (94-PU-240(N,G)94-PU-241,,SIG,,SPA) AVERAGED OVER      40750004    3
+                                        REACTOR SPECTRUM          40750004    4
+MONITOR    (92-U-235(N,G)92-U-236,,SIG,,SPA,CALC) NEUTRON SPECTRUM40750004    5
+            CALCULATED BY THE 'ARAMACO'-PROGRAM, BNAB-78 CONSTANTS40750004    6
+            INDICATOR CALCULATED ACCORDING TO BNAB-78             40750004    7
+ENDBIB               5                                            40750004    8
+NOCOMMON             0          0                                 40750004    9
+DATA                 3          1                                 40750004   10
+DATA       ERR-T      MONIT                                       40750004   11
+MB         MB         MB                                          40750004   12
+ 202.       14.        239.                                       40750004   13
+ENDDATA              3                                            40750004   14
+ENDSUBENT           13                                            4075000499999
+SUBENT        40750005     870218                                 40750005    1
+BIB                  2          5                                 40750005    2
+REACTION   (94-PU-240(N,G)94-PU-241,,SIG,,SPA) AVERAGED OVER      40750005    3
+                                        REACTOR SPECTRUM          40750005    4
+MONITOR    (92-U-233(N,G)92-U-234,,SIG,,SPA,CALC) NEUTRON SPECTRUM40750005    5
+            CALCULATED BY THE 'ARAMACO'-PROGRAM, BNAB-78 CONSTANTS40750005    6
+            INDICATOR CALCULATED ACCORDING TO BNAB-70             40750005    7
+ENDBIB               5                                            40750005    8
+NOCOMMON             0          0                                 40750005    9
+DATA                 3          1                                 40750005   10
+DATA       ERR-T      MONIT                                       40750005   11
+MB         MB         MB                                          40750005   12
+ 240.       18.        164.                                       40750005   13
+ENDDATA              3                                            40750005   14
+ENDSUBENT           13                                            4075000599999
+SUBENT        40750006     870218                                 40750006    1
+BIB                  2          5                                 40750006    2
+REACTION   (94-PU-240(N,G)94-PU-241,,SIG,,SPA) AVERAGED OVER      40750006    3
+                                        REACTOR SPECTRUM          40750006    4
+MONITOR    (94-PU-239(N,G)94-PU-240,,SIG,,SPA,CALC) NEUTRON       40750006    5
+            SPECTRUM CALCULATED BY THE 'ARAMACO'-PROGRAM, BNAB-78 40750006    6
+            CONSTANTS. INDICATOR CALCULATED ACCORDING TO BNAB-78  40750006    7
+ENDBIB               5                                            40750006    8
+NOCOMMON             0          0                                 40750006    9
+DATA                 3          1                                 40750006   10
+DATA       ERR-T      MONIT                                       40750006   11
+MB         MB         MB                                          40750006   12
+ 190.       13.        156.                                       40750006   13
+ENDDATA              3                                            40750006   14
+ENDSUBENT           13                                            4075000699999
+SUBENT        40750007     870218                                 40750007    1
+BIB                  2          5                                 40750007    2
+REACTION   (94-PU-240(N,G)94-PU-241,,SIG,,SPA)  AVERAGED OVER     40750007    3
+                                       REACTOR SPECTRUM           40750007    4
+MONITOR    (92-U-238(N,G)92-U-239,,SIG,,SPA,CALC) NEUTRON SPECTRUM40750007    5
+            CALCULATED BY THE 'M-26'-PROGRAM, BNAB-70 CONSTANTS   40750007    6
+            INDICATOR CALCULATED ACCORDING TO BNAB-70             40750007    7
+ENDBIB               5                                            40750007    8
+NOCOMMON             0          0                                 40750007    9
+DATA                 3          1                                 40750007   10
+DATA       ERR-T      MONIT                                       40750007   11
+MB         MB         MB                                          40750007   12
+ 221.        19.        148.                                      40750007   13
+ENDDATA              3                                            40750007   14
+ENDSUBENT           13                                            4075000799999
+SUBENT        40750008     870218                                 40750008    1
+BIB                  2          5                                 40750008    2
+REACTION   (94-PU-240(N,G)94-PU-241,,SIG,,SPA) AVERAGED OVER      40750008    3
+                                       REACTOR SPECTRUM           40750008    4
+MONITOR    (92-U-235(N,G)92-U-236,,SIG,,SPA,CALC) NEUTRON SPECTRUM40750008    5
+            CALCULATED BY THE 'ARAMACO'-PROGRAM,BNAB-78 CONSTANTS 40750008    6
+            INDICATOR CALCULATED ACCORDING TO ENDL-76             40750008    7
+ENDBIB               5                                            40750008    8
+NOCOMMON             0          0                                 40750008    9
+DATA                 3          1                                 40750008   10
+DATA       ERR-T      MONIT                                       40750008   11
+MB         MB         MB                                          40750008   12
+  210.       15.        248.                                      40750008   13
+ENDDATA              3                                            40750008   14
+ENDSUBENT           13                                            4075000899999
+SUBENT        40750009     870218                                 40750009    1
+BIB                  2          5                                 40750009    2
+REACTION   (94-PU-240(N,G)94-PU-241,,SIG,,SPA) AVERAGED OVER      40750009    3
+                                       REACTOR SPECTRUM           40750009    4
+MONITOR    (92-U-233(N,G)92-U-234,,SIG,,SPA,CALC) NEUTRON SPECTRUM40750009    5
+            CALCULATED BY THE 'ARAMACO'-PROGRAM,BNAB-78 CONSTANTS 40750009    6
+            INDICATOR CALCULATED ACCORDING TO ENDF                40750009    7
+ENDBIB               5                                            40750009    8
+NOCOMMON             0          0                                 40750009    9
+DATA                 3          1                                 40750009   10
+DATA       ERR-T      MONIT                                       40750009   11
+MB         MB         MB                                          40750009   12
+  203.       15.        136.                                      40750009   13
+ENDDATA              3                                            40750009   14
+ENDSUBENT           13                                            4075000999999
+SUBENT        40750010     870218                                 40750010    1
+BIB                  2          5                                 40750010    2
+REACTION   (94-PU-240(N,G)94-PU-241,,SIG,,SPA) AVERAGED OVER      40750010    3
+                                        REACTOR SPECTRUM          40750010    4
+MONITOR    (94-PU-239(N,G)94-PU-240,,SIG,,SPA,CALC) NEUTRON       40750010    5
+           SPECTRUM CALCULATED BY THE 'ARAMACO'-PROGRAM, BNAB-78  40750010    6
+           CONSTANTS, INDICATOR CALCULATED ACORDING TO ENDF       40750010    7
+ENDBIB               5                                            40750010    8
+NOCOMMON             0          0                                 40750010    9
+DATA                 3          1                                 40750010   10
+DATA       ERR-T      MONIT                                       40750010   11
+MB         MB         MB                                          40750010   12
+  210.       14.        172.                                      40750010   13
+ENDDATA              3                                            40750010   14
+ENDSUBENT           13                                            4075001099999
+ENDENTRY            10                                            4075099999999
+ENDREQUEST           1                                            Z999999999999

@@ -1,0 +1,37 @@
+REQUEST           1001   20010914          3     141217               0  0    0
+ENTRY            12605     830808                                 12605000    1
+SUBENT        12605001     830808                                 12605001    1
+BIB                 10         11                                 12605001    2
+INSTITUTE  (1CANCRC)                                              12605001    3
+REFERENCE  (J,CJP,35,1215,57)                                     12605001    4
+AUTHOR     (L.ROY,J.ROY)                                          12605001    5
+TITLE      REACTOR NEUTRON CAPTURE CROSS SECTION OF 51-DAY SR-89. 12605001    6
+N-SOURCE   (REAC) NRX CHALK RIVER REACTOR                         12605001    7
+INC-SPECT  REACTOR SPECTRUM                                       12605001    8
+METHOD     (ACTIV) ACTIVATION AND MEASUREMENT OF Y-90             12605001    9
+SAMPLE     SPEC-PURE STRONTIUM CARBONATE                          12605001   10
+ERR-ANALYS MOST ERROR FROM 20-PERCENT ERROR IN SR-88 CROSS SECTION12605001   11
+HISTORY    (780411C)                                              12605001   12
+           (820826U) DECAY DATA CORRECTED.                        12605001   13
+ENDBIB              11                                            12605001   14
+NOCOMMON             0          0                                 12605001   15
+ENDSUBENT           14                                            1260500199999
+SUBENT        12605002     830808                                 12605002    1
+BIB                  5          7                                 12605002    2
+REACTION   (38-SR-89(N,G)38-SR-90,,SIG,,SPA)                      12605002    3
+DECAY-DATA (38-SR-89,51.D,B-)                                     12605002    4
+           (38-SR-90,28.YR,B-)                                    12605002    5
+           (39-Y-90-G,64.HR,B-,2260.)                             12605002    6
+ASSUMED    (ASSUM1,38-SR-88(N,G)38-SR-89,,SIG,,SPA)               12605002    7
+MONITOR    (27-CO-59(N,G)27-CO-60,,SIG,,SPA)                      12605002    8
+DETECTOR   ANTHRACENE BETA COUNTER                                12605002    9
+ENDBIB               7                                            12605002   10
+NOCOMMON             0          0                                 12605002   11
+DATA                 6          1                                 12605002   12
+EN-DUMMY   DATA       DATA-ERR   ASSUM1     ASSUM1-ERR MONIT      12605002   13
+EV         B          B          MB         MB         B          12605002   14
+0.0253     0.49       0.1        5.         1.         36.6       12605002   15
+ENDDATA              3                                            12605002   16
+ENDSUBENT           15                                            1260500299999
+ENDENTRY             2                                            1260599999999
+ENDREQUEST           1                                            Z999999999999

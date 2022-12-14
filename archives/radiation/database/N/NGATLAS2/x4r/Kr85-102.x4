@@ -1,0 +1,68 @@
+REQUEST           1001   20010914          3     141107               0  0    0
+ENTRY            10242     830608                                 10242000    1
+SUBENT        10242001     830608                                 10242001    1
+BIB                 12         17                                 10242001    2
+INSTITUTE  (1USAORL)                                              10242001    3
+REFERENCE  (J,NSE,47,371,7203)                                    10242001    4
+AUTHOR     (C.E.BEMIS,JR,R.E.DRUSCHEL,J.HALPERIN,J.R.WALTON)      10242001    5
+TITLE      THERMAL-NEUTRON CAPTURE CROSS SECTION AND RESONANCE    10242001    6
+           INTEGRAL FOR 10.7-YEAR KRYPTON-85                      10242001    7
+FACILITY   (SPECM) MASS SPECTROMETER.                             10242001    8
+N-SOURCE   (REAC) REACTOR                                         10242001    9
+MONITOR    (27-CO-59(N,G)27-CO-60,,SIG)                           10242001   10
+           (27-CO-59(N,G)27-CO-60,,RI)                            10242001   11
+DETECTOR   FOIL DETECTOR                                          10242001   12
+DECAY-DATA (36-KR-85,10.74YR)                                     10242001   13
+ERR-ANALYS NO INFORMATION.                                        10242001   14
+STATUS     (APRVD) APPROVED BY AUTHOR                             10242001   15
+HISTORY    (720831C)                                              10242001   16
+           (740109U) BIB CORRECTIONS.                             10242001   17
+           (821018A) CONVERTED TO REACTION FORMALISM              10242001   18
+           (830608A) COMMON HEADING AND UNIT CORRECTED            10242001   19
+ENDBIB              17                                            10242001   20
+COMMON               2          3                                 10242001   21
+MONIT1     MONIT2                                                 10242001   22
+B          B                                                      10242001   23
+ 37.0            75.                                              10242001   24
+ENDCOMMON            3                                            10242001   25
+ENDSUBENT           24                                            1024200199999
+SUBENT        10242002     821018                                 10242002    1
+BIB                  1          1                                 10242002    2
+REACTION   (36-KR-85(N,G)36-KR-86,,SIG,,MXW)                      10242002    3
+ENDBIB               1                                            10242002    4
+NOCOMMON             0          0                                 10242002    5
+DATA                 3          1                                 10242002    6
+EN-DUMMY   DATA       DATA-ERR                                    10242002    7
+EV         B          B                                           10242002    8
+0.0253     1.66       0.20                                        10242002    9
+ENDDATA              3                                            10242002   10
+ENDSUBENT            9                                            1024200299999
+ENDENTRY             2                                            1024299999999
+ENTRY            11858     830919                                 11858000    1
+SUBENT        11858001     830919                                 11858001    1
+BIB                  7          9                                 11858001    2
+INSTITUTE  (1CANMCM)                                              11858001    3
+REFERENCE  (J,PR,80,296,5010)                                     11858001    4
+AUTHOR     (J.MACNAMARA,H.THODE)                                  11858001    5
+TITLE      THE RELATIVE NEUTRON CAPTURE CROSS SECTIONS OF THE     11858001    6
+           ISOTOPES OF KRYPTON AND XENON.                         11858001    7
+FACILITY   (SPECC) CRYSTAL SPECTROMETER                           11858001    8
+STATUS     (SCSRS)                                                11858001    9
+HISTORY    (760731T) TRANSLATED FROM SCISRS                       11858001   10
+           (830919A) CONVERTED TO REACTION FORMALISM              11858001   11
+ENDBIB               9                                            11858001   12
+NOCOMMON             0          0                                 11858001   13
+ENDSUBENT           12                                            1185800199999
+SUBENT        11858014     830919                                 11858014    1
+BIB                  1          1                                 11858014    2
+REACTION   (36-KR-85(N,G)36-KR-86,,SIG,,MXW)                      11858014    3
+ENDBIB               1                                            11858014    4
+NOCOMMON             0          0                                 11858014    5
+DATA                 2          1                                 11858014    6
+EN-DUMMY   DATA-MAX                                               11858014    7
+EV         B                                                      11858014    8
+ 0.0253     15.                                                   11858014    9
+ENDDATA              3                                            11858014   10
+ENDSUBENT            9                                            1185801499999
+ENDENTRY             2                                            1185899999999
+ENDREQUEST           1                                            Z999999999999

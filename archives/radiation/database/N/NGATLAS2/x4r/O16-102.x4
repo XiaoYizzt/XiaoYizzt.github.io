@@ -1,0 +1,256 @@
+REQUEST           1001   20010914          3     135735               0  0    0
+ENTRY            10141   20001211   20010328                      10141000    1
+SUBENT        10141001   20001211   20010328                      10141001    1
+BIB                 12         21                                 10141001    2
+INSTITUTE  (1USAORL)                                              10141001    3
+REFERENCE  (J,PR/C,3,1737,197105)                                 10141001    4
+AUTHOR     (B.J.ALLEN,R.L.MACKLIN)                                10141001    5
+TITLE      Neutron Capture Cross Sections of 13C and 16O          10141001    6
+FACILITY   (LINAC) Oak Ridge Linear Accelerator                   10141001    7
+SAMPLE     1 g of 58% enriched 13C and 99.992% enriched 7Li2CO3.  10141001    8
+METHOD     Radiative widths of lowest energy resonances in        10141001    9
+            13C and 16O were calculated from capture area.        10141001   10
+            Maxwellian averages at T=30 keV were also calculated. 10141001   11
+DETECTOR   (SCIN) Two liquid scintillator cells flanked sample.   10141001   12
+            Detectors placed 40 m from source.  Detector          10141001   13
+            efficiency was sensitive to shape of response capture 10141001   14
+            spectrum,but response function was not.               10141001   15
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)                           10141001   16
+ERR-ANALYS No information.                                        10141001   17
+STATUS     (APRVD) Approved by author.                            10141001   18
+            Data taken from reference.                            10141001   19
+HISTORY    (19720524)                                             10141001   20
+           (19820527A) Converted to REACTION formalism            10141001   21
+           (19820602A) BIB correction.                            10141001   22
+           (20001211A) Converted to new date formats, lower case. 10141001   23
+ENDBIB              21                                            10141001   24
+NOCOMMON             0          0                                 10141001   25
+ENDSUBENT           24                                            1014100199999
+SUBENT        10141005   20001212   20010328                      10141005    1
+BIB                  3          4                                 10141005    2
+REACTION   (8-O-16(N,G)8-O-17,,SIG,,SPA)                          10141005    3
+INC-SPECT  Averaged over Maxwellian spectrum KT=30 keV            10141005    4
+            to simulate reaction in the sun.                      10141005    5
+HISTORY    (19730509A) ISO-QUANT corrected.                       10141005    6
+ENDBIB               4                                            10141005    7
+NOCOMMON             0          0                                 10141005    8
+DATA                 3          1                                 10141005    9
+KT         DATA       DATA-ERR                                    10141005   10
+KEV        MB         MB                                          10141005   11
+30.        .0002      .0001                                       10141005   12
+ENDDATA              3                                            10141005   13
+ENDSUBENT           12                                            1014100599999
+ENDENTRY             2                                            1014199999999
+ENTRY            10668     860909                                 10668000    1
+SUBENT        10668001     860909                                 10668001    1
+BIB                 12         19                                 10668001    2
+INSTITUTE  (1CANCRC)                                              10668001    3
+REFERENCE  (J,NP/A,281,325,7705)                                  10668001    4
+AUTHOR     (A.B.MC DONALD,E.D.EARLE,M.A.LONE,F.C.KHANNA,H.C.LEE)  10668001    5
+TITLE      DOUBLY RADIATIVE THERMAL NEUTRON CAPTURE IN H-2 AND    10668001    6
+           O-16 EXPERIMENT AND THEORY                             10668001    7
+INC-SOURCE NRU REACTOR THERMAL COLUMN-0.009 EV NEUTRONS FROM      10668001    8
+           BRAGG REFLECTION, THERMALIZED IN THE TARGET BEFORE     10668001    9
+           CAPTURE.                                               10668001   10
+SAMPLE     HEAVY WATER 2-H(2)-O PERMITTED SIMULTANEOUS MEASUREMENT10668001   11
+           OF BOTH H-2 AND O CROSS SECTIONS                       10668001   12
+DETECTOR   (GELI) TWO GERMANIUM-LITHIUM DETECTORS                 10668001   13
+METHOD     (COINC) COINCIDENCE OF PULSES IN GELI DETECTORS        10668001   14
+CORRECTION DATA CORRECTED FOR ACCIDENTAL COINCIDENCES DUE TO      10668001   15
+           REACTIONS IN MATERIALS OTHER THAN THE SAMPLE.          10668001   16
+ERR-ANALYS NO INFORMATION                                         10668001   17
+STATUS     (APRVD) APPROVED BY A.B.MC DONALD, 78/3/2.             10668001   18
+HISTORY    (770610C)                                              10668001   19
+           (780508U) AUTHOR APPROVAL RECEIVED                     10668001   20
+           (860909A) BIB UPDATED. REACTION SF4 ADDED.             10668001   21
+ENDBIB              19                                            10668001   22
+NOCOMMON             0          0                                 10668001   23
+ENDSUBENT           22                                            1066800199999
+SUBENT        10668004     860909                                 10668004    1
+BIB                  2          2                                 10668004    2
+REACTION   (8-O-16(N,G)8-O-17,,SIG)                               10668004    3
+MONITOR    (1-H-2(N,G)1-H-3,,SIG)                                 10668004    4
+ENDBIB               2                                            10668004    5
+NOCOMMON             0          0                                 10668004    6
+DATA                 5          1                                 10668004    7
+EN         DATA       DATA-ERR   MONIT      MONIT-ERR             10668004    8
+EV         MICRO-B    MICRO-B    MICRO-B    MICRO-B               10668004    9
+ 0.0253     202.       28.        521.       9.                   10668004   10
+ENDDATA              3                                            10668004   11
+ENDSUBENT           10                                            1066800499999
+ENDENTRY             2                                            1066899999999
+ENTRY            11133     800814                                 11133000    1
+SUBENT        11133001     800814                                 11133001    1
+BIB                  9         10                                 11133001    2
+INSTITUTE  (1USALAS)                                              11133001    3
+REFERENCE  ((R,ANL-6797,236,6311)=(C,63ANL,,236,6310))            11133001    4
+AUTHOR     (E.JURNEY,H.MOTZ)                                      11133001    5
+TITLE      THERMAL NEUTRON CAPTURE IN D AND O16.                  11133001    6
+N-SOURCE   (THCOL) THERMAL COLUMN                                 11133001    7
+INC-SPECT  THERMAL SPECTRUM                                       11133001    8
+METHOD     CAPTURE GAMMA-RAY SPECTRA                              11133001    9
+STATUS     (SCSRS)                                                11133001   10
+HISTORY    (760628T) TRANSLATED FROM SCISRS                       11133001   11
+           (800814A) CONVERTED TO REACTION FORMALISM              11133001   12
+ENDBIB              10                                            11133001   13
+NOCOMMON             0          0                                 11133001   14
+ENDSUBENT           13                                            1113300199999
+SUBENT        11133006     800814                                 11133006    1
+BIB                  2          2                                 11133006    2
+REACTION   (8-O-16(N,G)8-O-17,,SIG,,MXW)                          11133006    3
+MONITOR    (1-H-1(N,G)1-H-2,,SIG)                                 11133006    4
+ENDBIB               2                                            11133006    5
+NOCOMMON             0          0                                 11133006    6
+DATA                 3          1                                 11133006    7
+EN-DUMMY   DATA       DATA-ERR                                    11133006    8
+MEV        B          B                                           11133006    9
+ 2.53   -08 1.78   -04 2.5    -05                                 11133006   10
+ENDDATA              3                                            11133006   11
+ENDSUBENT           10                                            1113300699999
+ENDENTRY             2                                            1113399999999
+ENTRY            20674     840127                                 20674000    1
+SUBENT        20674001     840127                                 20674001    1
+BIB                 16         46                                 20674001    2
+INSTITUTE  (2GERJUL) INSTITUT FUER KERNPHYSIK,KERNFORSCHUNGS-     20674001    3
+            ANLAGE JUELICH.                                       20674001    4
+REFERENCE  (J,PR/C,19,(4),1153,7904) MAIN REFERENCE.              20674001    5
+           (J,ZP/A,274,(4),349,751015)                            20674001    6
+AUTHOR     (N.WUEST,H.SEYFARTH,L.ALDEA)                           20674001    7
+TITLE      -TWO-QUANTUM RADIATIVE THERMAL NEUTRON CAPTURE         20674001    8
+            IN H-1.-                                              20674001    9
+FACILITY   (REAC ) REACTOR FRJ-2 (DIDO) OF THE KERNFORSCHUNGS-    20674001   10
+            ANLAGE JUELICH.                                       20674001   11
+INC-SOURCE (REAC ) THE NEUTRON BEAM WAS BI-FILTERED WITH A        20674001   12
+            FLUX OF 2*E+8 NEUTRONS/CM2*SEC.                       20674001   13
+INC-SPECT  .THERMAL MAXWELLIAN FLUX.                              20674001   14
+SAMPLE     .1.5G DISTILLED WATER IN A THIN LUCITE CONTAINER,      20674001   15
+            PLACED INSIDE A CYLINDRICAL SHIELD OF 6LID (7 MM      20674001   16
+            THICK).                                               20674001   17
+METHOD     (COINC) GAMMA-GAMMA COINCIDENCE MEASUREMENT WITH       20674001   18
+            CONVENTIONAL FAST-SLOW COINCIDENCE EQUIPMENT.         20674001   19
+DETECTOR   (GELI ) GE(LI) DETECTORS OF 59CM3 AND 62CM3            20674001   20
+            ,FWHM=2.3KEV AND 2.7KEV AT 1.33MEV,RESP., WERE USED   20674001   21
+            IN THE FIRST MEASUREMENT, WHEREAS TWO GE(LI) DETECTORS20674001   22
+            OF 120 AND 127 CM3 RESPECTIVLY WERE USED IN THE THIRD 20674001   23
+            AND FOURTH MEASUREMENTS.                              20674001   24
+           (NAICR) TWO NAI(TL) SCINTILLATORS, 10.2 CM TIMES 10.2  20674001   25
+            CM AND 7.6 CM TIMES 7.6 CM, WERE USED IN THE SECOND   20674001   26
+            MEASUREMENT.                                          20674001   27
+           .LEAD SHIELDING BETWEEN THE DETECTORS TO SURPRESS      20674001   28
+            CROSSTALK.                                            20674001   29
+ANALYSIS   .FOR ANALYSIS OF COINCIDENCE MATRIX SEE REFERENCE.     20674001   30
+COMMENT    .FOUR EXPERIMENTS WERE DONE AND THE DATA GIVEN HERE    20674001   31
+            ARE THE WEIGHTED AVERAGES OF THE RESULTS, FOR MORE    20674001   32
+            DETAILS SEE MAIN REFERENCE.                           20674001   33
+STATUS     .DATA TAKEN FROM MAIN REFERENCE.                       20674001   34
+HISTORY    (761109C)                                              20674001   35
+           (770504E)                                              20674001   36
+           (800808A) UPDATED WITH MAIN REFERENCE.                 20674001   37
+           (800829E)                                              20674001   38
+           (821119A) SUBWORKS 3 AND 4 SUPERSEDED BY DATA IN SUB-  20674001   39
+            WORK 2 AND REACTION STRING IN SUBWORK 2 CORRECTED.    20674001   40
+           (830111E)                                              20674001   41
+CORRECTION .SUBTRACTION OF RANDOM COINCIDENCES,CONTINUOUS         20674001   42
+            BACKGROUND DUE TO COMPTON EVENTS (FROM HIGH ENERGY    20674001   43
+            GAMMA-RAY CASCADES FROM THE EXPERIMENTAL              20674001   44
+            ENVIRONMENT).                                         20674001   45
+           .CORRECTION ALSO FOR FULL ENERGY PEAK EFFICIENCY AND   20674001   46
+            SOLID ANGLE.                                          20674001   47
+ERR-ANALYS .THE ERRORS QUOTED ARE THE SINGLE STANDARD DEVIATIONS. 20674001   48
+ENDBIB              46                                            20674001   49
+COMMON               1          3                                 20674001   50
+EN-DUMMY                                                          20674001   51
+EV                                                                20674001   52
+ 2.5300E-02                                                       20674001   53
+ENDCOMMON            3                                            20674001   54
+ENDSUBENT           53                                            2067400199999
+SUBENT        20674006     840127                                 20674006    1
+BIB                  4          8                                 20674006    2
+REACTION   (8-O-16(N,G)8-O-17,,SIG,,MXW)                          20674006    3
+COMMENT    .TOTAL CAPTURE CROSS SECTION CALCULATED UNDER THE      20674006    4
+            ASSUMPTION THAT THE BRANCHING RATIO FOR THE 1088      20674006    5
+            -(2184)-871 KEV CASCADE IS 82 +- 3 PERCENT.           20674006    6
+STATUS     (DEP,20674005) DATA CALCULATED FOR VALUE IN SUBWORK    20674006    7
+            005.                                                  20674006    8
+HISTORY    (800808C)                                              20674006    9
+           (800829E)                                              20674006   10
+ENDBIB               8                                            20674006   11
+NOCOMMON             0          0                                 20674006   12
+DATA                 2          1                                 20674006   13
+DATA       DATA-ERR                                               20674006   14
+MICRO-B    MICRO-B                                                20674006   15
+ 1.8700E+02 1.0000E+01                                            20674006   16
+ENDDATA              3                                            20674006   17
+ENDSUBENT           16                                            2067400699999
+ENDENTRY             2                                            2067499999999
+ENTRY            22356   19990604   19991116                      22356000    1
+SUBENT        22356001   19990604   19991116                      22356001    1
+BIB                 14         31                                 22356001    2
+TITLE       MEASUREMENT OF THE 16-O(N,GAMMA)17-O REACTION CROSS-  22356001    3
+            SECTION AT STELLAR ENERGY AND THE CRITICAL ROLE OF    22356001    4
+            RESONANT P-WAVE NEUTRON CAPTURE                       22356001    5
+AUTHOR     (M.IGASHIRA,Y.NAGAI,K.MASUDA,T.OHSAKI,H.KITAZAWA)      22356001    6
+INSTITUTE  (2JPNTIT)                                              22356001    7
+REFERENCE  (J,AJ,441,(L),89,199510)  MAIN REFERENCE, DATA ARE     22356001    8
+           GIVEN                                                  22356001    9
+           (J,NP/A,536,285,1992)   EXPERIMENTAL DETAILS           22356001   10
+           (J,AJ,372,683,1991)     EXPERIMENTAL DETAILS           22356001   11
+FACILITY   (CCW,2JPNTIT)  PELLETRON ACCELERATOR                   22356001   12
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)                         22356001   13
+INC-SOURCE (P-LI7)                                                22356001   14
+METHOD     (TOF)                                                  22356001   15
+DETECTOR   (GLASD)  LI-6 GLASS DETECTOR FOR NEUTRON ENERGY        22356001   16
+                    CALIBRATION                                   22356001   17
+           (NAICR)  NA-J(TL) DETECTOR FOR DECAY GAMMA DETECTION   22356001   18
+CORRECTION .CORRECTIONS WERE MADE ON GAMMA-LINES FROM LI-7(N,G)   22356001   19
+            LI-8 REACTION, ON H-1(N,G)H-2 REACTION, ON MULTIPLE   22356001   20
+            SCATTERING OF NEUTRONS IN SAMPLE AND BACKINGS,        22356001   21
+            ON 434-KEV RESONANCE OF O-17 IN FULL N-GAMMA CROSS-   22356001   22
+            SECTION, NAMELY                                       22356001   23
+               ENERGY,KEV   RESONANCE CORRECTION,MICRO-B          22356001   24
+                20.                    0.9                        22356001   25
+                40.                    1.4                        22356001   26
+                60.                    1.9                        22356001   27
+SAMPLE      TWO SAMPLES OF ENRICHED LI7-O2 OF 63.7 MM DIAMETER    22356001   28
+            AND 118.8 MM THICKNESS                                22356001   29
+ERR-ANALYS (ERR-T)  ERR0RS ARE NOT SPECIFIED, SUPPOSED TOTAL      22356001   30
+STATUS     (TABLE)  TABLE ONE OF THE MAIN REFERENCE               22356001   31
+HISTORY    (19971222C)  + +  COMPILED BY S.MAEV  + +              22356001   32
+           (19990604A) DATE is corrected                          22356001   33
+ENDBIB              31                                            22356001   34
+NOCOMMON             0          0                                 22356001   35
+ENDSUBENT           34                                            2235600199999
+SUBENT        22356003   19990604   19991116                      22356003    1
+BIB                  2          3                                 22356003    2
+REACTION   (8-O-16(N,G)8-O-17,,SIG,,RAW) MEASURED DATA, NOT       22356003    3
+             CORRECTED ON 434-KEV RESONANCE                       22356003    4
+STATUS     (DEP,22356002)                                         22356003    5
+ENDBIB               3                                            22356003    6
+NOCOMMON             0          0                                 22356003    7
+DATA                 3          3                                 22356003    8
+EN-MEAN    DATA       ERR-T                                       22356003    9
+KEV        B          B                                           22356003   10
+ 20.        2.1400E-05 5.4000E-06                                 22356003   11
+ 40.        2.6300E-05 3.3000E-06                                 22356003   12
+ 60.        2.9500E-05 5.0000E-06                                 22356003   13
+ENDDATA              5                                            22356003   14
+ENDSUBENT           13                                            2235600399999
+SUBENT        22356004   19990604   19991116                      22356004    1
+BIB                  2          4                                 22356004    2
+REACTION   (8-O-16(N,G)8-O-17,,SIG) DATA CORRECTED ON 434-KEV     22356004    3
+                                    RESONANCE                     22356004    4
+STATUS     (DEP,22356003)                                         22356004    5
+           (DEP,22356004)                                         22356004    6
+ENDBIB               4                                            22356004    7
+NOCOMMON             0          0                                 22356004    8
+DATA                 3          4                                 22356004    9
+EN-MEAN    DATA       ERR-T                                       22356004   10
+KEV        B          B                                           22356004   11
+ 20.        2.0500E-05 5.2000E-06                                 22356004   12
+ 40.        2.4800E-05 3.1000E-06                                 22356004   13
+ 60.        2.7600E-05 4.7000E-06                                 22356004   14
+280.        8.5000E-05 4.2000E-05                                 22356004   15
+ENDDATA              6                                            22356004   16
+ENDSUBENT           15                                            2235600499999
+ENDENTRY             3                                            2235699999999
+ENDREQUEST           1                                            Z999999999999

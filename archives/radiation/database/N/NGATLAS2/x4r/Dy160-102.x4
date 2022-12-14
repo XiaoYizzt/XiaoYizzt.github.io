@@ -1,0 +1,406 @@
+REQUEST           1001   20010914          3     143350               0  0    0
+ENTRY            12082     821012                                 12082000    1
+SUBENT        12082001     821012                                 12082001    1
+BIB                 10         11                                 12082001    2
+INSTITUTE  (1USAKAP)                                              12082001    3
+REFERENCE  (J,BAP,3,337(R6),5808)                                 12082001    4
+AUTHOR     (L.HOUSE,R.FROST)                                      12082001    5
+TITLE      NEUTRON CROSS SECTIONS OF FIVE ISOTOPES OF DYSPROSIUM. 12082001    6
+FACILITY   (OSCIP) PILE OSCILLATOR                                12082001    7
+SAMPLE     ENRICHED SAMPLES OF DY(2)O(3)                          12082001    8
+INC-SPECT  THERMAL SPECTRUM. NEUTRON TEMPERATURE = 0.0265 EV      12082001    9
+MONITOR    (5-B-0(N,ABS),,SIG)                                    12082001   10
+STATUS     (SCSRS)                                                12082001   11
+HISTORY    (760803T) TRANSLATED FROM SCISRS                       12082001   12
+           (821012A) CONVERTED TO REACTION FORMALISM              12082001   13
+ENDBIB              11                                            12082001   14
+NOCOMMON             0          0                                 12082001   15
+ENDSUBENT           14                                            1208200199999
+SUBENT        12082002     821012                                 12082002    1
+BIB                  1          1                                 12082002    2
+REACTION   (66-DY-160(N,G)66-DY-161,,SIG,,SPA)                    12082002    3
+ENDBIB               1                                            12082002    4
+NOCOMMON             0          0                                 12082002    5
+DATA                 3          1                                 12082002    6
+EN-DUMMY   DATA       DATA-ERR                                    12082002    7
+EV         B          B                                           12082002    8
+ 0.0253     130.       130.                                       12082002    9
+ENDDATA              3                                            12082002   10
+ENDSUBENT            9                                            1208200299999
+ENDENTRY             2                                            1208299999999
+ENTRY            12101     821012                                 12101000    1
+SUBENT        12101001     821012                                 12101001    1
+BIB                  9         14                                 12101001    2
+INSTITUTE  (1USAMTR)                                              12101001    3
+REFERENCE  (J,NSE,25,12,66)                                       12101001    4
+           (R,IN-1195,68)                                         12101001    5
+           (J,ANS,10,259,67)                                      12101001    6
+AUTHOR     (J.J.SCOVILLE,E.FAST,J.W.ROGERS)                       12101001    7
+SAMPLE     ENRICHES SAMPLES                                       12101001    8
+METHOD     (REAC) REACTIVITY                                      12101001    9
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)                         12101001   10
+           (79-AU-197(N,G)79-AU-198,,RI)                          12101001   11
+CORRECTION DATA GIVEN AS CORRECTED IN IN-1195(1968) FOR DEVIATION 12101001   12
+            OF SPECTRUM FROM 1/E.                                 12101001   13
+STATUS     (SCSRS)                                                12101001   14
+HISTORY    (760803T) TRANSLATED FROM SCISRS                       12101001   15
+           (821012A) CONVERTED TO REACTION FORMALISM              12101001   16
+ENDBIB              14                                            12101001   17
+COMMON               2          3                                 12101001   18
+MONIT1     MONIT2                                                 12101001   19
+B          B                                                      12101001   20
+ 98.8       1558.                                                 12101001   21
+ENDCOMMON            3                                            12101001   22
+ENDSUBENT           21                                            1210100199999
+SUBENT        12101004     821012                                 12101004    1
+BIB                  1          1                                 12101004    2
+REACTION   (66-DY-160(N,G)66-DY-161,,SIG,,MXW)                    12101004    3
+ENDBIB               1                                            12101004    4
+NOCOMMON             0          0                                 12101004    5
+DATA                 3          1                                 12101004    6
+EN-DUMMY   DATA       DATA-ERR                                    12101004    7
+EV         B          B                                           12101004    8
+ 0.0253      55.        9.                                        12101004    9
+ENDDATA              3                                            12101004   10
+ENDSUBENT            9                                            1210100499999
+ENDENTRY             2                                            1210199999999
+ENTRY            12127     821012                                 12127000    1
+SUBENT        12127001     821012                                 12127001    1
+BIB                 11         15                                 12127001    2
+INSTITUTE  (1CANMCM)                                              12127001    3
+REFERENCE  (T,WALKER,5605)                                        12127001    4
+AUTHOR     (W.H.WALKER)                                           12127001    5
+TITLE      THE RELATIVE ABUNDANCES AND PILE NEUTRON CAPTURE CROSS 12127001    6
+           SECTIONS OF THE ISOTOPES OF SAMARIUM, GADOLINIUM,      12127001    7
+           DYSPROSIUM AND YTTERBIUM.                              12127001    8
+N-SOURCE   (REAC) NRX REACTOR                                     12127001    9
+SAMPLE     LARGE SAMPLES. MANY IMPURITIES (MOSTLY OTHER RARE      12127001   10
+            EARTHS).                                              12127001   11
+FACILITY   (SPECM) MASS SPECTROMETER                              12127001   12
+INC-SPECT  REACTOR SPECTRUM                                       12127001   13
+METHOD     SAMPLES SEPARATED BY MULTIPLE DISTILLATION.            12127001   14
+STATUS     (SCSRS)                                                12127001   15
+HISTORY    (760803T) TRANSLATED FROM SCISRS                       12127001   16
+           (821012A) CONVERTED TO REACTION FORMALISM              12127001   17
+ENDBIB              15                                            12127001   18
+NOCOMMON             0          0                                 12127001   19
+ENDSUBENT           18                                            1212700199999
+SUBENT        12127016     821012                                 12127016    1
+BIB                  2          3                                 12127016    2
+REACTION   (66-DY-160(N,G)66-DY-161,,SIG,,SPA)                    12127016    3
+MONITOR    (66-DY-0(N,G),,SIG)                                    12127016    4
+            RENORMALIZED BY WALKER, PRIVATE COMM.,1969            12127016    5
+ENDBIB               3                                            12127016    6
+NOCOMMON             0          0                                 12127016    7
+DATA                 3          1                                 12127016    8
+EN-DUMMY   DATA-MAX   MONIT                                       12127016    9
+MEV        B          B                                           12127016   10
+ 2.53   -08 9.0    +01 950.                                       12127016   11
+ENDDATA              3                                            12127016   12
+ENDSUBENT           11                                            1212701699999
+ENDENTRY             2                                            1212799999999
+ENTRY            12880     840822                                 12880000    1
+SUBENT        12880001     840822                                 12880001    1
+BIB                 13         16                                 12880001    2
+INSTITUTE  (1USAORL)                                              12880001    3
+REFERENCE  (J,PR/C,30,464,8408)                                   12880001    4
+AUTHOR     (H.BEER,R.L.MACKLIN,G.WALTER,P.J.PACHET)               12880001    5
+TITLE      NEUTRON CAPTURE CROSS SECTIONS AND SOLAR ABUNDANCES OF 12880001    6
+            160,161DY, 170,171YB, 175,176LU AND 176,177HF FOR THE 12880001    7
+            S-PROCESS ANALYSIS OF THE RADIONUCLIDE 176LU.         12880001    8
+FACILITY   (LINAC) ORELA                                          12880001    9
+METHOD     (TOF) 40-M FLIGHT PATH.                                12880001   10
+INC-SOURCE (EVAP ) WATER MODERATED TANTALUM TARGET                12880001   11
+DETECTOR   (SCIN) PAIR OF C6F6 LIQUID SCINTILLATORS               12880001   12
+MONITOR    NO INFORMATION                                         12880001   13
+ANALYSIS   AVERAGE CROSS SECTIONS DERIVED FROM POINT-WISE DATA    12880001   14
+ERR-ANALYS NO INFORMATION AVAILABLE                               12880001   15
+STATUS     DATA FROM PRIVATE COMMUNICATION 84/6/12                12880001   16
+           (APRVD) R.L.MACKLIN, 84/8/10                           12880001   17
+HISTORY    (840720C)                                              12880001   18
+ENDBIB              16                                            12880001   19
+NOCOMMON             0          0                                 12880001   20
+ENDSUBENT           19                                            1288000199999
+SUBENT        12880002     840822                                 12880002    1
+BIB                  1          1                                 12880002    2
+REACTION   (66-DY-160(N,G)66-DY-161,,SIG,,AV)                     12880002    3
+ENDBIB               1                                            12880002    4
+NOCOMMON             0          0                                 12880002    5
+DATA                 3         18                                 12880002    6
+EN-MIN     EN-MAX     DATA                                        12880002    7
+KEV        KEV        MB                                          12880002    8
+   3.         4.       2331.                                      12880002    9
+   4.         6.       1621.                                      12880002   10
+   6.         8.       1329.                                      12880002   11
+   8.        10.       1238.                                      12880002   12
+  10.        15.       1027.                                      12880002   13
+  15.        20.        823.                                      12880002   14
+  20.        30.        705.                                      12880002   15
+  30.        40.        623.                                      12880002   16
+  40.        60.        574.                                      12880002   17
+  60.        80.        492.                                      12880002   18
+  80.       100.        445.                                      12880002   19
+ 100.       150.        335.                                      12880002   20
+ 150.       200.        279.                                      12880002   21
+ 200.       300.        241.                                      12880002   22
+ 300.       400.        206.                                      12880002   23
+ 400.       500.        208.                                      12880002   24
+ 500.       600.        202.                                      12880002   25
+ 600.       700.        210.                                      12880002   26
+ENDDATA             20                                            12880002   27
+ENDSUBENT           26                                            1288000299999
+ENDENTRY             2                                            1288099999999
+ENTRY            21563     800612                                 21563000    1
+SUBENT        21563001     800612                                 21563001    1
+BIB                 12         31                                 21563001    2
+INSTITUTE  (2FR SAC)                                              21563001    3
+REFERENCE  (C,77PARIS,1,431,771219) IAEA-PUBL. 475.               21563001    4
+AUTHOR     (M.LUCAS,R.HAGEMANN,R.NAUDET,C.RENSON,C.CHEVALIER)     21563001    5
+TITLE      -DETERMINATION BY IRRADIATION IN THE TRITON REACTOR    21563001    6
+            OF NEUTRON CAPTURE CROSS SECTIONS FOR ISOTOPES        21563001    7
+            INVOLVED IN THE OKLO PHENOMENON.- (IN FRENCH WITH     21563001    8
+            ABSTRACT IN ENGLISH).-                                21563001    9
+FACILITY   (REAC,2FR SAC) SWIMMING POOL REACTOR TRITON AT         21563001   10
+            SACLAY, AT TEMPERATURE OF 40 DEG-C.                   21563001   11
+INC-SOURCE (REAC ) REACTOR NEUTRONS.                              21563001   12
+METHOD     (ACTIV) ACTIVATION ANALYSIS, USING                     21563001   13
+           (CHSEP) CHEMICAL SEPARATION AND                        21563001   14
+           (ASEP ) MASS SPECTROMETRY AFTER THERMOIONIZATION.      21563001   15
+            ALSO ISOTOPIC DILUTION TECHNIQUES USED.               21563001   16
+           .USING THE FORMULA SIGMA=SIGMA0*G+R*I,(WHERE R         21563001   17
+            IS THE SPECTRAL INDEX AND I THE 1/V-CORRECTED         21563001   18
+            RESONANCE INTEGRAL),AND THE RESULTS OF 2              21563001   19
+            MEASUREMENTS WITH DIFFERENT VALUES OF R, THE          21563001   20
+            QUANTITIES SIGMA0 AND I CAN BE OBTAINED. THE          21563001   21
+            G-FACTOR IS DETERMINED BY THE TEMPERATURE AND         21563001   22
+            THE SPECTRAL INDICES R ARE DETERMINED BY THE          21563001   23
+            ENVIRONMENT AND ARE CALCULATED WITH THE COMPUTER      21563001   24
+            CODES APOLLO AND BINOCLE. 4 DIFFERENT IRRADIATIONS    21563001   25
+            HAVE BEEN DONE.                                       21563001   26
+MONITOR   1(92-U-238(N,G)92-U-239,,SIG)                           21563001   27
+          2(92-U-238(N,G)92-U-239,,RI,,RNV) CUT OFF AT 0.5 EV.    21563001   28
+STATUS     .DATA FROM TEXT, 77PARIS,1,431.                        21563001   29
+HISTORY    (800602C) G.C.                                         21563001   30
+           (800612E)                                              21563001   31
+CORRECTION .RADIOACTIVE DECAY.                                    21563001   32
+ERR-ANALYS .DETERMINED BY THREE DIFFERENT MEASUREMENTS.           21563001   33
+ENDBIB              31                                            21563001   34
+COMMON               3          3                                 21563001   35
+EN-NRM     MONIT1     MONIT2                                      21563001   36
+EV         B          B                                           21563001   37
+ 2.5300E-02 2.7200E+00 2.8000E+02                                 21563001   38
+ENDCOMMON            3                                            21563001   39
+ENDSUBENT           38                                            2156300199999
+SUBENT        21563016     800612                                 21563016    1
+BIB                  4          7                                 21563016    2
+REACTION   (66-DY-160(N,G)66-DY-161,,SIG) 2200 M/SEC VALUE.       21563016    3
+SAMPLE     .SAMPLES IN FORM OF NITRATE IN DRY RESIDU. TOTAL       21563016    4
+            QUANTITY IRRADIATED 2. MG.                            21563016    5
+           .ISOTOPIC COMPOSITION GIVEN IN TABLE 5 OF REF.         21563016    6
+STATUS     .TEXT 77PARIS,1,431.                                   21563016    7
+HISTORY    (800502C) G.C.                                         21563016    8
+           (800612E)                                              21563016    9
+ENDBIB               7                                            21563016   10
+NOCOMMON             0          0                                 21563016   11
+DATA                 2          1                                 21563016   12
+EN         DATA                                                   21563016   13
+EV         B                                                      21563016   14
+ 2.5300E-02 9.5000E+01                                            21563016   15
+ENDDATA              3                                            21563016   16
+ENDSUBENT           15                                            2156301699999
+ENDENTRY             2                                            2156399999999
+ENTRY            40621     841024                                 40621000    1
+SUBENT        40621001     841024                                 40621001    1
+BIB                 13         27                                 40621001    2
+INSTITUTE  (4CCPFEI)                                              40621001    3
+REFERENCE  (C,81GRENOB,,,81)           FOURTH INTERNATIONAL       40621001    4
+                            SYMPOSIUM ON NEUTRON-CAPTURE GAMMA-   40621001    5
+                            RAY SPECTROSCOPY AND RELATED TOPICS   40621001    6
+                            7-11 SEPTEMBER 1981, GRENOBLE         40621001    7
+AUTHOR     (V.N.KONONOV,E.D.POLETAEV,B.D.YURLOV,                  40621001    8
+           M.V.BOKHOVKO,L.E.KAZAKOV,V.M.TIMOKHOV)                 40621001    9
+TITLE       FAST NEUTRON RADIATIVE CAPTURE CROSS-SECTIONS         40621001   10
+            AND D-WAVE  STRENGTH FUNCTIONS                        40621001   11
+FACILITY   (VDG)   FEI  PULSED  VAN-DE-GRAAFF  ACCELERATOR EG-1   40621001   12
+INC-SOURCE (P-LI7)   PROTON-LITHIUM-SEVEN.                        40621001   13
+                     METAL LITHIUM TARGETS WERE USED              40621001   14
+METHOD     (TOF)    RESOLUTION   2 NSEC/M                         40621001   15
+DETECTOR   (STANK)  LIQUID  SCINTILLATION DETECTOR WITH           40621001   16
+                    B-10  LOADED TOLUENE, VOLUME = 17 LITRES      40621001   17
+           (NAICR)   B-10  PLUG AND  NA-I(TL)                     40621001   18
+           (GLASD)  LI-6  THIN  GLASS SCINTILLATOR                40621001   19
+ANALYSIS    AMPLITUDE WEIGHTING METHOD AND SATURATED              40621001   20
+            RESONANCE METHOD WERE USED                            40621001   21
+MONITOR      ABSOLUTE MEASUREMENTS                                40621001   22
+STATUS     (APRVD)    YURLOV, 820315                              40621001   23
+HISTORY    (820316C)                                              40621001   24
+           (821026U)                                              40621001   25
+           (840522U) CORRECTION IN SUBENT 40621033                40621001   26
+CORRECTION  CORRECTIONS HAVE BEEN MADE FOR ISOTOPIC IMPURITIES,   40621001   27
+            MULTIPLE NEUTRON SCATTERING  AND RESONANCE            40621001   28
+            SELFSHIELDING, FOR BACKGROUND                         40621001   29
+ENDBIB              27                                            40621001   30
+NOCOMMON             0          0                                 40621001   31
+ENDSUBENT           30                                            4062100199999
+SUBENT        40621002     841024                                 40621002    1
+BIB                  2          4                                 40621002    2
+REACTION   (66-DY-160(N,G)66-DY-161,,SIG)                         40621002    3
+SAMPLE      OXIDE DY2-O3 POWDER 65.5,  PERCENT ENRICH-            40621002    4
+            MENT, DIAMETER 40 MM, THICKNESS 0.00597               40621002    5
+            NUCLEI/B                                              40621002    6
+ENDBIB               4                                            40621002    7
+NOCOMMON             0          0                                 40621002    8
+DATA                 4         49                                 40621002    9
+EN-MIN     EN-MAX     DATA       ERR-T                            40621002   10
+KEV        KEV        MB         MB                               40621002   11
+ 1.6000E+01 2.0000E+01 1.6490E+03 1.3690E+02                      40621002   12
+ 2.0000E+01 2.4000E+01 1.2970E+03 1.0070E+02                      40621002   13
+ 2.4000E+01 2.8000E+01 1.1890E+03 8.9000E+01                      40621002   14
+ 2.8000E+01 3.2000E+01 1.0610E+03 7.7000E+01                      40621002   15
+ 3.2000E+01 3.6000E+01 1.1360E+03 8.1000E+01                      40621002   16
+ 3.6000E+01 4.0000E+01 9.8300E+02 7.0000E+01                      40621002   17
+ 4.0000E+01 4.4000E+01 9.6000E+02 6.8000E+01                      40621002   18
+ 4.4000E+01 4.8000E+01 8.6000E+02 6.0000E+01                      40621002   19
+ 4.8000E+01 5.2000E+01 8.3600E+02 5.8000E+01                      40621002   20
+ 5.2000E+01 5.6000E+01 8.0000E+02 5.5000E+01                      40621002   21
+ 5.6000E+01 6.0000E+01 7.5500E+02 5.2000E+01                      40621002   22
+ 6.0000E+01 6.4000E+01 7.0800E+02 4.8000E+01                      40621002   23
+ 6.4000E+01 6.8000E+01 7.0500E+02 4.8000E+01                      40621002   24
+ 6.8000E+01 7.2000E+01 7.0300E+02 4.7000E+01                      40621002   25
+ 7.2000E+01 7.6000E+01 6.8400E+02 4.6000E+01                      40621002   26
+ 7.6000E+01 8.0000E+01 6.5900E+02 4.4000E+01                      40621002   27
+ 8.0000E+01 8.4000E+01 6.8800E+02 4.6000E+01                      40621002   28
+ 8.4000E+01 8.8000E+01 6.1600E+02 4.1000E+01                      40621002   29
+ 8.8000E+01 9.2000E+01 6.2900E+02 4.2000E+01                      40621002   30
+ 9.2000E+01 9.6000E+01 5.9500E+02 4.0000E+01                      40621002   31
+ 9.6000E+01 1.0000E+02 5.5200E+02 3.7000E+01                      40621002   32
+ 1.0000E+02 1.1000E+02 4.9800E+02 3.5000E+01                      40621002   33
+ 1.1000E+02 1.2000E+02 4.5400E+02 3.2000E+01                      40621002   34
+ 1.2000E+02 1.3000E+02 4.3500E+02 3.1000E+01                      40621002   35
+ 1.3000E+02 1.4000E+02 4.2500E+02 3.0000E+01                      40621002   36
+ 1.4000E+02 1.5000E+02 3.9000E+02 2.7000E+01                      40621002   37
+ 1.5000E+02 1.6000E+02 3.8500E+02 2.7000E+01                      40621002   38
+ 1.6000E+02 1.7000E+02 3.7400E+02 2.6000E+01                      40621002   39
+ 1.7000E+02 1.8000E+02 3.5900E+02 2.5000E+01                      40621002   40
+ 1.8000E+02 1.9000E+02 3.4300E+02 2.4000E+01                      40621002   41
+ 1.9000E+02 2.0000E+02 3.3200E+02 2.3000E+01                      40621002   42
+ 2.0000E+02 2.1000E+02 3.3000E+02 2.3000E+01                      40621002   43
+ 2.1000E+02 2.2000E+02 3.3500E+02 2.4000E+01                      40621002   44
+ 2.2000E+02 2.3000E+02 3.2200E+02 2.3000E+01                      40621002   45
+ 2.3000E+02 2.4000E+02 3.2700E+02 2.3000E+01                      40621002   46
+ 2.4000E+02 2.5000E+02 2.8700E+02 2.0000E+01                      40621002   47
+ 2.5000E+02 2.6000E+02 3.0800E+02 2.2000E+01                      40621002   48
+ 2.6000E+02 2.7000E+02 2.8700E+02 2.0000E+01                      40621002   49
+ 2.7000E+02 2.8000E+02 3.0600E+02 2.2000E+01                      40621002   50
+ 2.8000E+02 2.9000E+02 3.2300E+02 2.3000E+01                      40621002   51
+ 2.9000E+02 3.0000E+02 2.9900E+02 2.1000E+01                      40621002   52
+ 3.0000E+02 3.2000E+02 2.7200E+02 2.0000E+01                      40621002   53
+ 3.2000E+02 3.4000E+02 2.6900E+02 1.9000E+01                      40621002   54
+ 3.4000E+02 3.6000E+02 2.7900E+02 2.0000E+01                      40621002   55
+ 3.6000E+02 3.8000E+02 2.5500E+02 1.9000E+01                      40621002   56
+ 3.8000E+02 4.0000E+02 2.3800E+02 1.7000E+01                      40621002   57
+ 4.0000E+02 4.2000E+02 2.9100E+02 2.1000E+01                      40621002   58
+ 4.2000E+02 4.4000E+02 1.5300E+02 1.1000E+01                      40621002   59
+ 4.4000E+02 4.6000E+02 2.7500E+02 2.0000E+01                      40621002   60
+ENDDATA             51                                            40621002   61
+ENDSUBENT           60                                            4062100299999
+ENDENTRY             2                                            4062199999999
+ENTRY            41020     900713                                 41020000    1
+SUBENT        41020001     900713                                 41020001    1
+BIB                 11         23                                 41020001    2
+TITLE       THE FAST NEUTRON RADIATION CAPTURE FOR DYSPROSIUM     41020001    3
+            ISOTOPES                                              41020001    4
+AUTHOR     (M.V.BOKHOVKO,L.E.KAZAKOV,V.N.KONONOV,E.D.POLETAEV,    41020001    5
+           V.M.TIMOKHOV)                                          41020001    6
+INSTITUTE  (4CCPFEI)                                              41020001    7
+REFERENCE  (J,YK,,(4),8,8811)  DATA  TABLES ARE GIVEN             41020001    8
+MONITOR     ABSOLUTE MEASUREMENTS                                 41020001    9
+METHOD     (TOF)                                                  41020001   10
+FACILITY   (VDG)  VAN-DE-GRAAFF EG-1 ACCELERATOR                  41020001   11
+DETECTOR   (STANK) LIQUID SCINTILLATION DETECTOR                  41020001   12
+           (GLASD) GLASS LI-6 DETECTOR FOR RELATIVE NEUTRON FLUX  41020001   13
+                   MEASUREMENTS                                   41020001   14
+           (NAICR)                                                41020001   15
+ERR-ANALYS (ERR-S)  MAXIMUM STATISTICAL ERROR                     41020001   16
+           (ERR-1)  MAXIMUM ERROR CONNECTED WITH BACKGROUND       41020001   17
+                    EXTRACTION                                    41020001   18
+           (ERR-2)  MAXIMUM NORMALIZATION ERROR                   41020001   19
+           (ERR-3)  MAXIMUM ERROR OF THE RELATIVE CROSS-SECTION   41020001   20
+                    ENERGY DEPENDENCE                             41020001   21
+           (ERR-4)  MAXIMUM ERROR DUE TO THE FINITE SAMPLE        41020001   22
+                    THICKNESS                                     41020001   23
+STATUS      DATA ARE TAKEN FROM THE REFERENCE                     41020001   24
+HISTORY    (900712C)  -- COMPILED AT THE CENTRE - CJD  --         41020001   25
+ENDBIB              23                                            41020001   26
+COMMON               5          3                                 41020001   27
+ERR-S      ERR-1      ERR-2      ERR-3      ERR-4                 41020001   28
+PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT              41020001   29
+  6.         13.        6.         2.5        3.                  41020001   30
+ENDCOMMON            3                                            41020001   31
+ENDSUBENT           30                                            4102000199999
+SUBENT        41020002     900713                                 41020002    1
+BIB                  2          6                                 41020002    2
+REACTION   (66-DY-160(N,G)66-DY-161,,SIG)                         41020002    3
+SAMPLE      DYSPROSIUM OXIDE DY2-O3, DENTSITY 7.81GRAM/CM2,       41020002    4
+            THICKNESS 5.97E-03 ATOMS/B, ISOTOPIC MASS IS 22.90    41020002    5
+            GRAM,                      DY-160 CONTENT - 63.31 PC, 41020002    6
+            DY-161 CONTENT - 21.58 PC, DY-162 CONTENT -  7.59 PC, 41020002    7
+            DY-163 CONTENT -  7.59 PC, DY-164 CONTENT -  3.35 PC, 41020002    8
+ENDBIB               6                                            41020002    9
+NOCOMMON             0          0                                 41020002   10
+DATA                 4         49                                 41020002   11
+EN-MIN     EN-MAX     DATA       ERR-T                            41020002   12
+KEV        KEV        MB         MB                               41020002   13
+  16.        20.       1308.       166.                           41020002   14
+  20.        24.       1006.        97.                           41020002   15
+  24.        28.        923.        79.                           41020002   16
+  28.        32.        827.        64.                           41020002   17
+  32.        36.        820.        60.                           41020002   18
+  36.        40.        788.        55.                           41020002   19
+  40.        44.        771.        52.                           41020002   20
+  44.        48.        685.        44.                           41020002   21
+  48.        52.        675.        42.                           41020002   22
+  52.        56.        650.        40.                           41020002   23
+  56.        60.        609.        37.                           41020002   24
+  60.        64.        564.        34.                           41020002   25
+  64.        68.        571.        34.                           41020002   26
+  68.        72.        575.        33.                           41020002   27
+  72.        76.        563.        32.                           41020002   28
+  76.        80.        540.        31.                           41020002   29
+  80.        84.        574.        32.                           41020002   30
+  84.        88.        506.        28.                           41020002   31
+  88.        92.        524.        29.                           41020002   32
+  92.        96.        495.        27.                           41020002   33
+  96.       100.        455.        25.                           41020002   34
+ 100.       110.        410.        23.                           41020002   35
+ 110.       120.        371.        21.                           41020002   36
+ 120.       130.        358.        20.                           41020002   37
+ 130.       140.        353.        20.                           41020002   38
+ 140.       150.        325.        21.                           41020002   39
+ 150.       160.        322.        21.                           41020002   40
+ 160.       170.        313.        20.                           41020002   41
+ 170.       180.        301.        20.                           41020002   42
+ 180.       190.        288.        19.                           41020002   43
+ 190.       200.        279.        18.                           41020002   44
+ 200.       210.        279.        19.                           41020002   45
+ 210.       220.        275.        18.                           41020002   46
+ 220.       230.        274.        18.                           41020002   47
+ 230.       240.        283.        19.                           41020002   48
+ 240.       250.        244.        16.                           41020002   49
+ 250.       260.        264.        17.                           41020002   50
+ 260.       270.        244.        16.                           41020002   51
+ 270.       280.        253.        17.                           41020002   52
+ 280.       290.        240.        16.                           41020002   53
+ 290.       300.        245.        16.                           41020002   54
+ 300.       320.        235.        15.                           41020002   55
+ 320.       340.        233.        15.                           41020002   56
+ 340.       360.        246.        16.                           41020002   57
+ 360.       380.        223.        14.                           41020002   58
+ 380.       400.        205.        13.                           41020002   59
+ 400.       420.        215.        14.                           41020002   60
+ 420.       440.        205.        13.                           41020002   61
+ 440.       460.        200.        13.                           41020002   62
+ENDDATA             51                                            41020002   63
+ENDSUBENT           62                                            4102000299999
+ENDENTRY             2                                            4102099999999
+ENDREQUEST           1                                            Z999999999999

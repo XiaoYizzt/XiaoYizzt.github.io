@@ -1,0 +1,45 @@
+REQUEST           1001   20010914          3     142633               0  0    0
+ENTRY            10085   19991013   20000119                      10085000    1
+SUBENT        10085001   19991013   20000119                      10085001    1
+BIB                 11         18                                 10085001    2
+INSTITUTE  (1USAORL)                                              10085001    3
+REFERENCE  (J,JIN,29,584,196701)                                  10085001    4
+AUTHOR     (H.A.O'BRIEN JR,J.S.ELDRIDGE,R.E.DRUSCHEL,J.HALPERIN)  10085001    5
+TITLE      The thermal neutron cross sections and resonance       10085001    6
+            integrals of 139La and 140140                         10085001    7
+INC-SOURCE (REAC) Hydraulic tube facility of the Oak Ridge        10085001    8
+            reactor.                                              10085001    9
+INC-SPECT   Thermal spectrum                                      10085001   10
+SAMPLE     La2O3 samples.                                         10085001   11
+METHOD     Chemical separation                                    10085001   12
+MONITOR    (27-CO-59(N,G)27-CO-60,,SIG)                           10085001   13
+           (27-CO-59(N,G)27-CO-60,,RI)                            10085001   14
+ERR-ANALYS No information.                                        10085001   15
+HISTORY    (19740307C)                                            10085001   16
+           (19760514A) CORRECTION TO SAN 6.                       10085001   17
+           (19811125A) CONVERTED TO REACTION FORMALISM            10085001   18
+           (19820305A) MONITOR CORRECTION.                        10085001   19
+           (19991013A) Converted to new data formalism.           10085001   20
+ENDBIB              18                                            10085001   21
+COMMON               2          3                                 10085001   22
+MONIT1     MONIT2                                                 10085001   23
+B          B                                                      10085001   24
+ 37.        75.                                                   10085001   25
+ENDCOMMON            3                                            10085001   26
+ENDSUBENT           25                                            1008500199999
+SUBENT        10085005   19811125   20000119                      10085005    1
+BIB                  3          4                                 10085005    2
+REACTION   (57-LA-140(N,G)57-LA-141,,SIG,,MXW)                    10085005    3
+ANALYSIS   Calculated from measured effective cross section       10085005    4
+CORRECTION Corrected for the contribution of the observed         10085005    5
+            141Ce due to capture in 140Ce product.                10085005    6
+ENDBIB               4                                            10085005    7
+NOCOMMON             0          0                                 10085005    8
+DATA                 3          1                                 10085005    9
+EN-DUMMY   DATA       DATA-ERR                                    10085005   10
+EV         B          B                                           10085005   11
+ 2.5300E-02 2.7000E+00 3.0000E-01                                 10085005   12
+ENDDATA              3                                            10085005   13
+ENDSUBENT           12                                            1008500599999
+ENDENTRY             2                                            1008599999999
+ENDREQUEST           1                                            Z999999999999

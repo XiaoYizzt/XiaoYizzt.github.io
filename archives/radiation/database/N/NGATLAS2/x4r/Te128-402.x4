@@ -1,0 +1,121 @@
+REQUEST           1001   20010914          3     142209               0  0    0
+ENTRY            11447     850410                                 11447000    1
+SUBENT        11447001     850410                                 11447001    1
+BIB                  6          8                                 11447001    2
+INSTITUTE  (1USAANL)                                              11447001    3
+REFERENCE  (J,PR,72,888,4711)                                     11447001    4
+AUTHOR     (L.SEREN,H.N.FRIEDLANDER,S.H.TURKEL)                   11447001    5
+METHOD     (ACTIV)                                                11447001    6
+STATUS     (SCSRS)                                                11447001    7
+HISTORY    (760715T) TRANSLATED FROM SCISRS                       11447001    8
+           (820813A) CONVERTED TO REACTION FORMALISM              11447001    9
+           (840410A) ENERGY CORRECTED.                            11447001   10
+ENDBIB               8                                            11447001   11
+COMMON               1          3                                 11447001   12
+EN-DUMMY                                                          11447001   13
+EV                                                                11447001   14
+ 0.0253                                                           11447001   15
+ENDCOMMON            3                                            11447001   16
+ENDSUBENT           15                                            1144700199999
+SUBENT        11447087     820813                                 11447087    1
+BIB                  3          3                                 11447087    2
+REACTION   (52-TE-128(N,G)52-TE-129-M,,SIG,,SPA)                  11447087    3
+INC-SPECT  REACTOR SPECTRUM                                       11447087    4
+DECAY-DATA (52-TE-129-M,32.D,B)                                   11447087    5
+ENDBIB               3                                            11447087    6
+NOCOMMON             0          0                                 11447087    7
+DATA                 2          1                                 11447087    8
+DATA       DATA-ERR                                               11447087    9
+B          PER-CENT                                               11447087   10
+ 0.0154     20.                                                   11447087   11
+ENDDATA              3                                            11447087   12
+ENDSUBENT           11                                            1144708799999
+ENDENTRY             2                                            1144799999999
+ENTRY            21258     801024                                 21258000    1
+SUBENT        21258001     801024                                 21258001    1
+BIB                 11         16                                 21258001    2
+INSTITUTE  (2ITYPAV)                                              21258001    3
+REFERENCE  (J,NSE,35,88,6901)                                     21258001    4
+           (J,ANS,11,70,6806)                                     21258001    5
+AUTHOR     (V.MAXIA,E.ORVINI,M.A.ROLLIER)                         21258001    6
+TITLE      -THE THERMAL NEUTRON ACTIVATION CROSS SECTIONS         21258001    7
+            AND RESONANCE INTEGRALS FOR TE-128(N,GAMMA)           21258001    8
+            TE-129(GROUND) AND TE-128(N,GAMMA)TE-129              21258001    9
+            (METASTABLE).-                                        21258001   10
+FACILITY   (REAC ) TRIGA MARK II LENA REACTOR.                    21258001   11
+INC-SOURCE (THCOL) THERMAL COLUMN.                                21258001   12
+SAMPLE     .96.5 PC ENRICHED TE-128.                              21258001   13
+METHOD     (ACTIV) ACTIVATION ANALYSIS.                           21258001   14
+DETECTOR   (NAICR) SODIUM-IODIDE CRYSTAL.                         21258001   15
+STATUS     (NDD  ) DATA TAKEN FROM NEUDADA.                       21258001   16
+HISTORY    (800116T) G.C.                                         21258001   17
+           (800129E)                                              21258001   18
+ENDBIB              16                                            21258001   19
+NOCOMMON             0          0                                 21258001   20
+ENDSUBENT           19                                            2125800199999
+SUBENT        21258002     800129                                 21258002    1
+BIB                  6         14                                 21258002    2
+REACTION   (52-TE-128(N,G)52-TE-129-M,,SIG,,MXW)                  21258002    3
+INC-SPECT          MAXWELLIAN NEUTRON SPECTRUM FROM THERMAL       21258002    4
+            COLUMN.                                               21258002    5
+DECAY-DATA (52-TE-129-M,33.0D)                                    21258002    6
+MONITOR    (79-AU-197(N,G)79-AU-198-G,,SIG)                       21258002    7
+STATUS     (NDD  ) DATA TAKEN FROM NEUDADA.                       21258002    8
+ERR-ANALYS .DATA IS AVERAGE OF 4 INDEPENDENT RESULTS.             21258002    9
+           .OVERALL ERROR OF ABOUT 4 PC CONSISTING OF 2 PC        21258002   10
+            STATISTICAL ERROR, 1.6 PC STANDARD DEVIATION OF       21258002   11
+            NEUTRON FLUX MEASUREMENT, 3 PC STANDARD DEVIATION OF  21258002   12
+            MEASURED CROSS SECTIONS, 1 PC STANDARD DEVIATION IN   21258002   13
+            PHOTOPEAK EFFICIENCY.                                 21258002   14
+           .UNCERTAINTIES IN THE AU-197, CO-59 AND TE-129 PARA-   21258002   15
+            METERS NOT TAKEN INTO ACCOUNT.                        21258002   16
+ENDBIB              14                                            21258002   17
+NOCOMMON             0          0                                 21258002   18
+DATA                 5          1                                 21258002   19
+EN-DUMMY   EN-NRM     MONIT      DATA       DATA-ERR              21258002   20
+EV         EV         B          B          B                     21258002   21
+ 2.5300E-02 2.5300E-02 9.8800E+01 1.6100E-02 7.0000E-04           21258002   22
+ENDDATA              3                                            21258002   23
+ENDSUBENT           22                                            2125800299999
+ENDENTRY             2                                            2125899999999
+ENTRY            41168     950511                                 41168000    1
+SUBENT        41168001     950511                                 41168001    1
+BIB                 14         20                                 41168001    2
+TITLE       PRODUCTION OF LONG-LIVING TELLURIUM ISOMERS           41168001    3
+            IN (N,GAMMA) REACTIONS                                41168001    4
+AUTHOR     (V.G.ALPATOV,A.V.DAVYDOV,G.R.KARTASHOV,M.M.KOROTKOV,   41168001    5
+           G.V.KOSTINA,P.A.POLOZOV,A.A.SADOVSKIY)                 41168001    6
+INSTITUTE  (4RUSITE,4RUSKUR)                                      41168001    7
+REFERENCE  (J,YF,58,(1),15,9501)   DATA ARE GIVEN                 41168001    8
+FACILITY   (REAC,4RUSKUR)    IR-8 REACTOR OF 4RUSKUR              41168001    9
+METHOD     (ACTIV)    ACTIVATION                                  41168001   10
+ANALYSIS    CADMIUM DIFFERENCE ANALYSIS                           41168001   11
+MONITOR    (27-CO-59(N,G)27-CO-60,,SIG)                           41168001   12
+           (79-AU-197(N,G)79-AU-198,,SIG)                         41168001   13
+DETECTOR   (GELI)                                                 41168001   14
+SAMPLE      COBALT SAMPLES HAVE MASSES 0.320+-0.018 AND           41168001   15
+            0.359 MILLIGRAM. GOLD SAMPLE HAS MASS 3.95            41168001   16
+            MILLIGRAM. CORRESPONDING ISOTOPE CONTENT 100 PC       41168001   17
+STATUS      DATA ARE TAKEN FROM THE REFERENCE ONE                 41168001   18
+ERR-ANALYS (DATA-ERR)  ERRORS ARE NOT SPECIFIED                   41168001   19
+HISTORY    (950511C)  + + COMPILED AT THE CENTRE - CJD + +        41168001   20
+INC-SPECT   THERMAL AND EPICADMIUM SPECTRA OF THE THERMAL         41168001   21
+            REACTOR                                               41168001   22
+ENDBIB              20                                            41168001   23
+NOCOMMON             0          0                                 41168001   24
+ENDSUBENT           23                                            4116800199999
+SUBENT        41168008     950511                                 41168008    1
+BIB                  2          3                                 41168008    2
+REACTION   (52-TE-128(N,G)52-TE-129-M,,SIG)                       41168008    3
+SAMPLE      METALLIC POWDER, WEIGHT 8.65 MILLIGRAM (WITH-         41168008    4
+            OUT CADMIUM), TE-128 CONTENT IS 98.2+-0.2 PC          41168008    5
+ENDBIB               3                                            41168008    6
+NOCOMMON             0          0                                 41168008    7
+DATA                 3          1                                 41168008    8
+EN         DATA       DATA-ERR                                    41168008    9
+EV         B          B                                           41168008   10
+   2.53E-02   0.0273      0.0020                                  41168008   11
+ENDDATA              3                                            41168008   12
+ENDSUBENT           11                                            4116800899999
+ENDENTRY             2                                            4116899999999
+ENDREQUEST           1                                            Z999999999999

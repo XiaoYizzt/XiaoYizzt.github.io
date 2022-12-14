@@ -1,0 +1,103 @@
+REQUEST           1001   20010914          3     140959               0  0    0
+ENTRY            30079     850219                                 30079000    1
+SUBENT        30079001     850219                                 30079001    1
+BIB                 15         42                                 30079001    2
+INSTITUTE  (3INDMUA)                                              30079001    3
+REFERENCE  (J,PR,152,1055,6612) DATA TABLE,CFD OTHER+STATISTIC TH 30079001    4
+           (J,NP,66,267,65) EXP DETAILS,ERR ANAL,ACTIV,BETA DET   30079001    5
+AUTHOR     (A.K.CHAUBEY, M.L.SEHGAL)                              30079001    6
+TITLE      MEASUREMENT OF NEUTRON CAPTURE CROSS SECTIONS BY       30079001    7
+           ACTIVATION AT 24 KEV AND COMPARISON WITH STATISTICAL   30079001    8
+           THEORY                                                 30079001    9
+EXP-YEAR   (66)                                                   30079001   10
+INC-SOURCE ANTIMONY-BERYLLIUM, 1.7CM DIAM. * 3.3CM HEIGHT,        30079001   11
+           FLUX APPROXIMATELY 10E+7 NEUTRONS/SEC                  30079001   12
+SAMPLE     POWDER,PURITY BETTER THAN 99.9PERCENT,SAMPLE SANDWICHED30079001   13
+           BETWEEN 2 CELLOTAPES, PERSPEX RING FOR FIXED GEOMETRY  30079001   14
+METHOD     (ACTIV) ACTIVATION. BETA ACTIVITY MEASURED             30079001   15
+DETECTOR   (GEMUC)    END WINDOW BETA COUNTER                     30079001   16
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)                           30079001   17
+              I-127(N,GAMMA)I-128 SIGMA = 0.82 BARN               30079001   18
+           ASSUMED                                                30079001   19
+PART-DET   (B-) BETA PARTICLES DETECTED                           30079001   20
+STATUS     DATA FROM PHYS.REV. 152,1055(1966), TABLE 1.           30079001   21
+HISTORY    (691124C) DATA COMPILED INTO DASTAR-1012               30079001   22
+           (691203A) PROOF COPY SENT TO AUTHOR                    30079001   23
+           (701130T) DATA CONVERTED FROM DASTAR INTO EXFOR        30079001   24
+           (761209A) COMMENTS REVISED. HALF-LIVES PUT IN 'COMMON' 30079001   25
+           OR WITH 'RESID-NUC'.             YAG.                  30079001   26
+           (770907U) OS. BIB UPDATE.                              30079001   27
+CORRECTION ABSENCE OF THERMAL NEUTRONS DETERMINED, INFLUENCE OF   30079001   28
+           SCATTERED NEUTRONS OF LOWER THAN 24. KEV ENERGY        30079001   29
+           NEGLIGIBLE DUE TO GEOMETRY, I.E. LARGE ROOM, REMOTE    30079001   30
+           LOCATION OF NEUTRON SOURCE FROM THE FLOOR (=1.3 M)     30079001   31
+           AND NO SHIELDING MATERIAL AROUND THE SOURCE            30079001   32
+ERR-ANALYS (DATA-ERR) GIVEN ERROR CONSISTS OF                     30079001   33
+           1.) 1 PERCENT IN ESTIMATION OF TOTAL NUMBER OF TARGET  30079001   34
+               NUCLEI.                                            30079001   35
+           2.) 2 PERCENT IN MEASUREMENT OF SAMPLE-SOURCE GEOMETRY 30079001   36
+               EFFECT WHICH WILL DEPEND UPON REPRODUCIBILITY OF   30079001   37
+               THE GEOMETRY.                                      30079001   38
+           3.) IRRADIATION TIME MEASURED WITH AN ACCURACY OF      30079001   39
+               BETTER THAN 1 PERCENT.                             30079001   40
+           4.) ABOUT 2 PERCENT ERROR IN MEASUREMENT OF THE CROSS- 30079001   41
+               SECTIONS ESTIMATED TO BE DUE TO THE GAMMA-RAYS     30079001   42
+               DETECTED BY BETA-COUNTER.                          30079001   43
+           5.) STATISTICAL ERROR VARIES FROM ONE CASE TO ANOTHER  30079001   44
+ENDBIB              42                                            30079001   45
+COMMON               1          3                                 30079001   46
+EN                                                                30079001   47
+KEV                                                               30079001   48
+ 2.4000E+01                                                       30079001   49
+ENDCOMMON            3                                            30079001   50
+ENDSUBENT           49                                            3007900199999
+SUBENT        30079014     840503                                 30079014    1
+BIB                  1          1                                 30079014    2
+REACTION   (34-SE-82(N,G)34-SE-83-M,,SIG)                         30079014    3
+ENDBIB               1                                            30079014    4
+COMMON               1          3                                 30079014    5
+HL                                                                30079014    6
+SEC                                                               30079014    7
+ 7.0000E+01                                                       30079014    8
+ENDCOMMON            3                                            30079014    9
+DATA                 2          1                                 30079014   10
+DATA       DATA-ERR                                               30079014   11
+MB         MB                                                     30079014   12
+ 4.5000E+01 1.5000E+01                                            30079014   13
+ENDDATA              3                                            30079014   14
+ENDSUBENT           13                                            3007901499999
+ENDENTRY             2                                            3007999999999
+ENTRY            67005     780524                                 67005000    1
+SUBENT        67005001     780524                                 67005001    1
+BIB                  8         10                                 67005001    2
+INSTITUTE  (2GERMUN)                                              67005001    3
+REFERENCE  (J,ZP,210,13,68)                                       67005001    4
+AUTHOR     (W.MANNHART,H.VONACH)                                  67005001    5
+TITLE      ISOMERIC CROSS SECTION RATIOS FOR THE 2-P-1/2 AND      67005001    6
+            1-G-9/2 SHELL MODEL STATES FORMED BY THERMAL NEUTRON  67005001    7
+            CAPTURE                                               67005001    8
+INC-SOURCE (THCOL) REACTOR THERMAL COLUMN                         67005001    9
+INC-SPECT  THERMALIZED SPECTRUM                                   67005001   10
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG,,MXW)                    67005001   11
+HISTORY    (780411C)                                              67005001   12
+ENDBIB              10                                            67005001   13
+COMMON               3          3                                 67005001   14
+EN-DUMMY   MONIT      MONIT-ERR                                   67005001   15
+EV         B          B                                           67005001   16
+ 2.5300E-02 9.8500E+01 4.0000E-01                                 67005001   17
+ENDCOMMON            3                                            67005001   18
+ENDSUBENT           17                                            6700500199999
+SUBENT        67005010     780524                                 67005010    1
+BIB                  2          2                                 67005010    2
+REACTION   (34-SE-82(N,G)34-SE-83-M,,SIG,,MXW)                    67005010    3
+DECAY-DATA (34-SE-83-M,69.SEC,DG)                                 67005010    4
+ENDBIB               2                                            67005010    5
+NOCOMMON             0          0                                 67005010    6
+DATA                 2          1                                 67005010    7
+DATA       DATA-ERR                                               67005010    8
+B          B                                                      67005010    9
+ 3.9000E-02 3.0000E-03                                            67005010   10
+ENDDATA              3                                            67005010   11
+ENDSUBENT           10                                            6700501099999
+ENDENTRY             2                                            6700599999999
+ENDREQUEST           1                                            Z999999999999

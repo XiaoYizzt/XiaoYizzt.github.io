@@ -1,0 +1,46 @@
+REQUEST           1001   20010914          3     140135               0  0    0
+ENTRY            13703   19990317   19990426                      13703000    1
+SUBENT        13703001   19990317   19990426                      13703001    1
+BIB                 14         23                                 13703001    2
+INSTITUTE  (1USAORU,1USAROC,3BZLUSP,2GERTHD,1USASTB,1USABRK,      13703001    3
+           2SWTBAS,1USAPUP)                                       13703001    4
+REFERENCE  (J,PR/C,58,2531,199810)                                13703001    5
+AUTHOR     (R.EJNISMAN,I.D.GOLDMAN,K.S.KRANE,P.MOHR,Y.NAKAZAWA,   13703001    6
+           E.B.NORMAN,T.RAUSCHER,J.REEL)                          13703001    7
+TITLE      Neutron capture cross section of 44Ti                  13703001    8
+FACILITY   (REAC,1USAORU)                                         13703001    9
+INC-SOURCE (THCOL)                                                13703001   10
+SAMPLE     4 micro-Ci of 44Ti in HCl solution.                    13703001   11
+METHOD     (ACTIV)                                                13703001   12
+DETECTOR   (GE-IN) High purity Ge detector.                       13703001   13
+MONITOR    Gamma intensities normalized to 1157-keV peak from     13703001   14
+            decay of 44Ti.                                        13703001   15
+           (26-FE-0(N,X)26-FE-59,,SPC) Neutron flux measured      13703001   16
+            relative to intensity of 59Fe gammas.                 13703001   17
+           Detector efficiency and energy resolution measured     13703001   18
+            using 1.33-MeV gamma of 60Co.                         13703001   19
+DECAY-MON  (22-TI-44,59.YR,DG,1157.)                              13703001   20
+CORRECTION Corrected for contributions of sample impurities to    13703001   21
+            511-MeV peak.                                         13703001   22
+STATUS     Data taken from reference.                             13703001   23
+           No reply to author proof from R. Ejnisman.             13703001   24
+HISTORY    (19990216C)                                            13703001   25
+ENDBIB              23                                            13703001   26
+NOCOMMON             0          0                                 13703001   27
+ENDSUBENT           26                                            1370300199999
+SUBENT        13703002   19990216   19990426                      13703002    1
+BIB                  3          4                                 13703002    2
+REACTION   (22-TI-44(N,G)22-TI-45,,SIG,,MXW)                      13703002    3
+DECAY-DATA (22-TI-45,3.08HR,AR,511.)                              13703002    4
+ERR-ANALYS (DATA-ERR) Includes statistical uncertainty (10-15%)   13703002    5
+            and uncertainty in measured neutron flux (10%).       13703002    6
+ENDBIB               4                                            13703002    7
+NOCOMMON             0          0                                 13703002    8
+DATA                 3          1                                 13703002    9
+EN-DUMMY   DATA       DATA-ERR                                    13703002   10
+EV         B          B                                           13703002   11
+ 0.0253     1.1        0.2                                        13703002   12
+ENDDATA              3                                            13703002   13
+ENDSUBENT           12                                            1370300299999
+ENDENTRY             2                                            1370399999999
+ENDREQUEST           1                                            Z999999999999

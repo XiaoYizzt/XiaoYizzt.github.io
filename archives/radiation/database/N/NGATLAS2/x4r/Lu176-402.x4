@@ -1,0 +1,250 @@
+REQUEST           1001   20010914          3     143641               0  0    0
+ENTRY            12088     821012                                 12088000    1
+SUBENT        12088001     821012                                 12088001    1
+BIB                  6          7                                 12088001    2
+INSTITUTE  (1USALRL)                                              12088001    3
+REFERENCE  (J,JIN,29,865,67)                                      12088001    4
+AUTHOR     (D.R.NETHAWAY,B.MENDOZA)                               12088001    5
+TITLE      THE HALF-LIFE AND FORMATION CROSS SECTIONS OF LU177M.  12088001    6
+STATUS     (SCSRS)                                                12088001    7
+HISTORY    (760803T) TRANSLATED FROM SCISRS                       12088001    8
+           (821012A) CONVERTED TO REACTION FORMALISM              12088001    9
+ENDBIB               7                                            12088001   10
+NOCOMMON             0          0                                 12088001   11
+ENDSUBENT           10                                            1208800199999
+SUBENT        12088002     860707                                 12088002    1
+BIB                  6          8                                 12088002    2
+REACTION  1(71-LU-176(N,G)71-LU-177-G/M,,SIG/RAT,,MXW)            12088002    3
+          2(71-LU-176(N,G)71-LU-177-M,,SIG,,MXW)                  12088002    4
+METHOD     (ACTIV)    ACTIVATION                                  12088002    5
+MONITOR   2(71-LU-176(N,G)71-LU-177-G,,SIG,,MXW)                  12088002    6
+INC-SPECT   THERMAL SPECTRUM                                      12088002    7
+DECAY-DATA (71-LU-177-M,161.0D)                                   12088002    8
+           (71-LU-177-G,1.9HR)                                    12088002    9
+HISTORY    (860707A) REACTION UPDATE.                             12088002   10
+ENDBIB               8                                            12088002   11
+NOCOMMON             0          0                                 12088002   12
+DATA                 5          1                                 12088002   13
+EN-DUMMY   DATA      1DATA      2DATA-ERR  2MONIT                 12088002   14
+MEV        NO-DIM     B          B          B                     12088002   15
+ 2.53   -08 300.       7.         2.         2100.                12088002   16
+ENDDATA              3                                            12088002   17
+ENDSUBENT           16                                            1208800299999
+ENDENTRY             2                                            1208899999999
+ENTRY            20096     830901                                 20096000    1
+SUBENT        20096001     830901                                 20096001    1
+BIB                 15         29                                 20096001    2
+INSTITUTE  (2DENCOP)                                              20096001    3
+REFERENCE  (J,PL,1,321,6207)                                      20096001    4
+AUTHOR     (M.JORGENSEN, O.B.NIELSEN, G.SIDENIUS)                 20096001    5
+TITLE      -THREE-PARTICLE EXCITATION IN LU-177.-                 20096001    6
+FACILITY   (REAC )    DR-2 REACTOR,DENMARK                        20096001    7
+INC-SOURCE (REAC )    NEUTRON FLUX OF 8.0E+12 NEUTRONS/CM-SQ/SEC. 20096001    8
+            OF OR-2 REACTOR WAS USED FOR 5 DAYS.                  20096001    9
+INC-SPECT  .REACTOR NEUTRONS.                                     20096001   10
+SAMPLE                LU(2)-O(3).                                 20096001   11
+METHOD     (ACTIV)    ACTIVATION FOR HALF-LIFE MEASUREMENTS.      20096001   12
+           (CHSEP)    A RADIOCHEMICAL ANLYSIS WAS PERFORMED BY    20096001   13
+            CATION EXCHANGE TECHNIQUE WITH AMMONIUM-HYDROXY-      20096001   14
+            ISOBUTYRATE SOLUTION.                                 20096001   15
+           .THE SAMPLE WAS SEPARATED IN THE COPENHAGEN ISOTOPE    20096001   16
+            SEPARATOR.                                            20096001   17
+DETECTOR   (NAICR)    NAI(TL) CRYSTAL. 50 * 50 MM-SQ WELL-TYPE.   20096001   18
+            THE DETECTOR WAS HEAVILY SHIELDED.                    20096001   19
+           .DAILY COUNTINGS PERFORMED WITH ABOUT 1 PER CENT       20096001   20
+            STATISTICAL ACCURACY OVER A PERIOD OF ABOUT 4 MONTHS. 20096001   21
+ANALYSIS   .THE RESULTING HALF-LIFE IS 155 +- 5 DAYS.             20096001   22
+           .THE CROSS SECTION FOR THE LU-176(N,GAMMA)LU-177-M1    20096001   23
+            REACTION WAS CALCULATED FROM HALF-LIFE MEASUREMENTS   20096001   24
+            AND IRRADIATION DATA.                                 20096001   25
+COMMENT    .FURTHER STUDY FOR SPECTROSCOPIC MEASUREMENTS WAS DONE 20096001   26
+            USING THE ISOTOPICALLY SEPARATED SAMPLE.              20096001   27
+STATUS                DATA FROM PUBLICATION.                      20096001   28
+HISTORY    (701014C)                                              20096001   29
+           (710908E)                                              20096001   30
+ERR-ANALYS .NO INFORMATION.                                       20096001   31
+ENDBIB              29                                            20096001   32
+NOCOMMON             0          0                                 20096001   33
+ENDSUBENT           32                                            2009600199999
+SUBENT        20096002     830901                                 20096002    1
+BIB                  3          4                                 20096002    2
+REACTION   (71-LU-176(N,G)71-LU-177-M,,SIG)                       20096002    3
+PART-DET   (DG   )    DECAY GAMMAS.                               20096002    4
+HISTORY    (701014C)                                              20096002    5
+           (710908E)                                              20096002    6
+ENDBIB               4                                            20096002    7
+NOCOMMON             0          0                                 20096002    8
+DATA                 4          1                                 20096002    9
+EN-DUMMY   HL         HL-ERR     DATA                             20096002   10
+MEV        D          D          B                                20096002   11
+ 2.5300E-08 1.5500E+02 5.0000E+00 1.0000E+00                      20096002   12
+ENDDATA              3                                            20096002   13
+ENDSUBENT           12                                            2009600299999
+ENDENTRY             2                                            2009699999999
+ENTRY            20625     840127                                 20625000    1
+SUBENT        20625001     840127                                 20625001    1
+BIB                 16        101                                 20625001    2
+INSTITUTE  (2GERMUN)                                              20625001    3
+REFERENCE  (T,GRYNTAKIS,,7603) THESIS DM-6909(1976),TECHNICAL     20625001    4
+            UNIVERSITY OF MUNICH (IN GERMAN).                     20625001    5
+           (J,RCA,17,191,7210) THERMAL CROSS SECTION AND RES.     20625001    6
+            INTEGRAL OF ND-146,ND-148,ND-150 AND K-41.            20625001    7
+           (J,RCA,22,128,75) CALCULATION OF G-FACTOR FOR          20625001    8
+            (N,G)- AND (N,F)-REACTIONS OF NON 1/V-NUCLIDES.       20625001    9
+AUTHOR     (E.M.GRYNTAKIS)                                        20625001   10
+TITLE      -EXAMINATION OF THE DEPENDENCE OF THE EFFECTIVE CROSS  20625001   11
+            SECTION FROM THE NEUTRON TEMPERATURE, MEASUREMENTS    20625001   12
+            OF THE NEUTRON TEMPERATURE AND DETERMINATION OF SOME  20625001   13
+            CROSS SECTIONS FOR NEUTRON CAPTURE AND NEUTRON        20625001   14
+            FISSION-.                                             20625001   15
+INC-SOURCE (REAC ) PNEUMATIC POSITIONS,REFLECTOR AND ROTATING     20625001   16
+            DISK FACILITY OF FRM-REACTOR IN MUNICH.               20625001   17
+INC-SPECT  . REACTOR THERMAL AND EPITHERMAL NEUTRON SPECTRUM.     20625001   18
+           . REACTOR FAST NEUTRON SPECTRUM.                       20625001   19
+SAMPLE     .FOR U, PA, TA, LU AND EU AN ALIQUOT CONTAINING        20625001   20
+            SOME MICROGRAMS OF  THE NUCLIDE OF INTEREST IS        20625001   21
+            DRIED ON A SMALL PIECE OF PURE AL-FOIL.               20625001   22
+           .FOR ND ,K AND MG  SOME MILLIGRAMS OF POWDER OF THEIR  20625001   23
+            OXIDES HAVE BEEN USED.                                20625001   24
+           .FOR AU AN AU/AL-ALLOY WIRE (AU, 0.132 PER CENT),      20625001   25
+            FOR CO AN CO/AL-ALLOY WIRE (CO, 0.564 PER CENT)       20625001   26
+            AND FOR ALUMINIUM AL-FOILS WERE USED.                 20625001   27
+METHOD     (ACTIV) ACTIVATION.                                    20625001   28
+DETECTOR   (GELI )GE(LI)-DETECTORS COUPLED TO A ND4420 ANALYSER.  20625001   29
+           (SCIN ) THE ALPHA ACTIVITY OF ALPHA EMITTERS WAS       20625001   30
+            MEASURED WITH A HOME-MADE LIQUID SCINTILLATION        20625001   31
+            COUNTER.                                              20625001   32
+ANALYSIS   .FOR THE DETERMINATION OF THE THERMAL CROSS SECTION    20625001   33
+            AND THE RESONANCE INTEGRAL FOR (N,G)-,DOUBLE(N,G)-    20625001   34
+            AND (N,F)-REACTIONS OF 1/V-ABSORBERS (NUCLIDES WHOSE  20625001   35
+            DIFFERENTIAL CROSS SECTION OBEY  THE 1/V-LAW          20625001   36
+            BELOW ABOUT 0.5 EV),THE NORMAL CADMIUM-FILTER         20625001   37
+            METHOD (WESTCOTT-FORMALISM) HAS BEEN USED.            20625001   38
+           .THE EPITHERMAL COMPONENT WAS MEASURED BY USING        20625001   39
+            AU-197 AND CO-59 AS MONITORS.                         20625001   40
+           .FOR THE (N,F)-REACTIONS THE GAMMA RAYS OF THE         20625001   41
+            FISSION PRODUCTS ZR-95 AND LA-140 WERE MEASURED.      20625001   42
+           .FOR THE NON 1/V-ABSORBERS (RESONANCES NEAR OR BELOW   20625001   43
+            ABOUT 0.5 EV) A NEW METHOD HAS BEEN DEVELOPED (SEE    20625001   44
+            COMMENT).                                             20625001   45
+           .FOR THE THRESHOLD REACTIONS THE AVER. FIS. SPECTRUM   20625001   46
+            CROSS SECTION (ACS) WAS DETERMINED FROM THE RELATION  20625001   47
+            ACS = R/F WHERE R IS THE ABSOLUTE REACTION RATE AND   20625001   48
+            F THE EQUIVALENT FISSION FLUX.                        20625001   49
+           .R WAS MEASURED WITH A CALIBRATED GE(LI)-DETECTOR.     20625001   50
+           .F WAS DETERMINED USING THE STANDARD THRESHOLD         20625001   51
+            REACTIONS 58-NI(N,P) ,24-MG(N,P)  AND 27-AL(N,A).     20625001   52
+MONITOR    (79-AU-197(N,G)79-AU-198,,RI)                          20625001   53
+            THERMAL CROSS SECTION = 98.8+-0.3B,                   20625001   54
+            RES.INTEGRAL INCLUDING THE 1/V-PART = 1551 +- 12B.    20625001   55
+           (27-CO-59(N,G)27-CO-60,,RI)                            20625001   56
+            THERMAL CROSS SECTION =37.2 +- 0.6B,                  20625001   57
+            RES.INTEGRAL INCLUDING THE 1/V-PART = 71.1 +- 4.0B.   20625001   58
+           (92-U-235(N,F),,RI)                                    20625001   59
+            THERMAL CROSS SECTION =577.1+-0.9B,                   20625001   60
+            RES.INTEGRAL INCLUDING THE 1/V-PART  = 274+-10 B.     20625001   61
+           .FISSION YIELDS OF ZR-95 AND LA-140 ARE FOR PA-231     20625001   62
+            6.373+-0.034 AND 6.976+-0.042 ,FOR U-232 6.77+-0.05   20625001   63
+            AND 7.49+-0.06 AND FOR U-235 6.20+-0.40 AND           20625001   64
+            6.36+-0.12, RESPECTIVELY.                             20625001   65
+           (28-NI-58(N,P)27-CO-58,,SIG,,FIS)                      20625001   66
+            AVERAGE FISSION SPECTRUM CROSS                        20625001   67
+            SECTION = 113+-7 MB.                                  20625001   68
+           (12-MG-24(N,P)11-NA-24,,SIG,,FIS)                      20625001   69
+            AVERAGE FISSION SPECTRUM CROSS                        20625001   70
+            SECTION = 1.53+-0.09 MB.                              20625001   71
+           (13-AL-27(N,A)11-NA-24,,SIG,,FIS)                      20625001   72
+            AVERAGE FISSION SPECTRUM CROSS                        20625001   73
+            SECTION = 0.725+-0.045 MB.                            20625001   74
+COMMENT    .NEUTRON TEMPERATURE MEASUREMENTS AND CALCULATIONS     20625001   75
+            OF G-FACTORS ARE ALSO INCLUDED.                       20625001   76
+           .FOR DETERMINATION OF THERMAL CROSS SECTION AND        20625001   77
+            RESONANCE INTEGRALS OF NON-1/V-ABSORBERS A NEW        20625001   78
+            METHOD IS DEVELOPED WITHOUT USING CD-FILTER.THIS      20625001   79
+            METHOD WAS USED FOR PA-231 (SEE  J.INORG.NUCL.        20625001   80
+            CHEM. 36(1974)1447 ) AND EU-ISOTOPES(SEE RADIO-       20625001   81
+            CHIMICA ACTA 22(1975)20).                             20625001   82
+STATUS     .TAKEN FROM THESIS DM-6909(1976) TECHNICAL UNIVERSITY  20625001   83
+            OF MUNICH.                                            20625001   84
+HISTORY    (760824C)                                              20625001   85
+           (770331E)                                              20625001   86
+CORRECTION .BECAUSE OF THE THIN SAMPLES NO CORRECTION FOR SELF    20625001   87
+            SHIELDING AND SELF ABSORPTION IS NEEDED.              20625001   88
+           .THE EPITHERMAL SPECTRUM OF THE IRRADIATION POSITIONS  20625001   89
+            HAS A KNOWN 1/E-FORM.                                 20625001   90
+           .FOR THE DISTINCTION OF THE FISSION SPECTRUM OF THE    20625001   91
+            IRRADIATION POSITIONS FROM THE THEORETICAL FISSION    20625001   92
+            SPECTRUM (WATT-SPECTRUM).                             20625001   93
+ERR-ANALYS .UNCERTAINTIES IN THE CROSS SECTIONS OF THE STANDARDS. 20625001   94
+           .UNCERTAINTIES IN THE HALF LIFES AND THE INTENSITIES   20625001   95
+            OF THE MEASURED  GAMMA RAYS.                          20625001   96
+           .THE ALPHA MEASUREMENTS WITH THE LIQUID SCINTILLATION  20625001   97
+            COUNTER HAVE AN ACCURACY OF +- 2 PER CENT.            20625001   98
+           .UNCERTAINTIES IN THE G-FACTORS.                       20625001   99
+           .UNCERTAINTIES IN THE FISSION YIELDS OF THE FISSION    20625001  100
+            PRODUCTS ZR-95 AND LA-140.                            20625001  101
+           .DIFFERENCE OF THE TRUE FISSION SPECTRUM FROM THE      20625001  102
+            THEORETICAL ONE.                                      20625001  103
+ENDBIB             101                                            20625001  104
+NOCOMMON             0          0                                 20625001  105
+ENDSUBENT          104                                            2062500199999
+SUBENT        20625026     840127                                 20625026    1
+BIB                  3          6                                 20625026    2
+REACTION   (71-LU-176(N,G)71-LU-177-M,,SIG,,MXW)                  20625026    3
+            THERMAL CROSS SECTION FOR                             20625026    4
+            THE BUILDING OF THE METASTABLE STATE (155 D).         20625026    5
+HALF-LIFE  (HL,71-LU-177-M1) HALF LIFE USED IN THE EXPERIMENT.    20625026    6
+HISTORY    (760824C)                                              20625026    7
+           (770331E)                                              20625026    8
+ENDBIB               6                                            20625026    9
+NOCOMMON             0          0                                 20625026   10
+DATA                 4          1                                 20625026   11
+EN-DUMMY   DATA       DATA-ERR   HL                               20625026   12
+EV         B          B          D                                20625026   13
+ 2.5300E-02 2.1000E+00 7.0000E-01 1.5500E+02                      20625026   14
+ENDDATA              3                                            20625026   15
+ENDSUBENT           14                                            2062502699999
+ENDENTRY             2                                            2062599999999
+ENTRY            40990     950926                                 40990000    1
+SUBENT        40990001     950926                                 40990001    1
+BIB                 14         19                                 40990001    2
+TITLE       MEASUREMENT OF THE LU-177-M FORMATION CROSS-SECTION   40990001    3
+AUTHOR     (E.A.GRITSAY)                                          40990001    4
+INSTITUTE  (4CCPIJI)                                              40990001    5
+REFERENCE  (C,87KIEV,2,209,8709)                                  40990001    6
+FACILITY   (REAC)                                                 40990001    7
+INC-SOURCE (REAC) HORIZONTAL CHANNEL OF THE REACTOR WWR-M         40990001    8
+MONITOR     ABSOLUTE MEASUREMENT                                  40990001    9
+DETECTOR   (GELI)                                                 40990001   10
+STATUS      DATA ARE TAKEN FROM THE REFERENCE                     40990001   11
+SAMPLE      LU2-O3 OXIDE,LU-175 CONTENT IS 45.6 PC, LU-176        40990001   12
+            CONTENT  IS 54.4 PC                                   40990001   13
+METHOD     (ACTIV)                                                40990001   14
+INC-SPECT    REACTOR NEUTRON SPECTRUM, EPITHERMAL WESTCOTT INDEX  40990001   15
+             IS EQUAL 0.10                                        40990001   16
+ERR-ANALYS (ERR-1)  ERROR DUE TO THE NEUTRON FLUX DETERMINATION   40990001   17
+           (ERR-2)  ERROR DUE TO THE GAMMA-RAYS YIELD             40990001   18
+                     UNCERTAINTY                                  40990001   19
+HISTORY    (890914C) COMPILED AT THE CENTRE - CJD                 40990001   20
+           (950926A) NEUTRON INCIDENT ENERGY CORRECTED            40990001   21
+ENDBIB              19                                            40990001   22
+COMMON               4          3                                 40990001   23
+EN-DUMMY   ERR-1      ERR-2      ERR-S                            40990001   24
+EV         PER-CENT   PER-CENT   PER-CENT                         40990001   25
+    1.0E+00  4.        10.         1.                             40990001   26
+ENDCOMMON            3                                            40990001   27
+ENDSUBENT           26                                            4099000199999
+SUBENT        40990003     890914                                 40990003    1
+BIB                  2          2                                 40990003    2
+REACTION   (71-LU-176(N,G)71-LU-177-M,,SIG)                       40990003    3
+DECAY-DATA (71-LU-177-M,160.10D)                                  40990003    4
+ENDBIB               2                                            40990003    5
+NOCOMMON             0          0                                 40990003    6
+DATA                 2          1                                 40990003    7
+DATA       ERR-T                                                  40990003    8
+B          B                                                      40990003    9
+  3.18       0.30                                                 40990003   10
+ENDDATA              3                                            40990003   11
+ENDSUBENT           10                                            4099000399999
+ENDENTRY             2                                            4099099999999
+ENDREQUEST           1                                            Z999999999999

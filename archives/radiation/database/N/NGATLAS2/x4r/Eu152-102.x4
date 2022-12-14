@@ -1,0 +1,85 @@
+REQUEST           1001   20010914          3     143145               0  0    0
+ENTRY            12138     821012                                 12138000    1
+SUBENT        12138001     821012                                 12138001    1
+BIB                  9         11                                 12138001    2
+INSTITUTE  (1USAANL,1USACHI)                                      12138001    3
+REFERENCE  (J,PR,75,1500,4905)                                    12138001    4
+AUTHOR     (R.J.HAYDEN,J.H.REYNOLDS,M.G.INGHRAM)                  12138001    5
+TITLE      REACTIONS INDUCED BY SLOW NEUTRON IRRADIATION OF       12138001    6
+           EUROPIUM.                                              12138001    7
+FACILITY   (SPECM) MASS SPECTROMETER                              12138001    8
+INC-SPECT  REACTOR SPECTRUM                                       12138001    9
+MONITOR    (63-EU-0(N,ABS),,SIG)                                  12138001   10
+STATUS     (SCSRS)                                                12138001   11
+HISTORY    (760803T) TRANSLATED FROM SCISRS                       12138001   12
+           (821012A) CONVERTED TO REACTION FORMALISM              12138001   13
+ENDBIB              11                                            12138001   14
+COMMON               1          3                                 12138001   15
+MONIT                                                             12138001   16
+B                                                                 12138001   17
+ 2600.                                                            12138001   18
+ENDCOMMON            3                                            12138001   19
+ENDSUBENT           18                                            1213800199999
+SUBENT        12138004     821012                                 12138004    1
+BIB                  1          1                                 12138004    2
+REACTION   (63-EU-152(N,G)63-EU-153,,SIG,,SPA)                    12138004    3
+ENDBIB               1                                            12138004    4
+NOCOMMON             0          0                                 12138004    5
+DATA                 2          1                                 12138004    6
+EN-DUMMY   DATA                                                   12138004    7
+EV         B                                                      12138004    8
+ 0.0253     3200.                                                 12138004    9
+ENDDATA              3                                            12138004   10
+ENDSUBENT            9                                            1213800499999
+ENDENTRY             2                                            1213899999999
+ENTRY            22000     860703                                 22000000    1
+SUBENT        22000001     860703                                 22000001    1
+BIB                 14         26                                 22000001    2
+INSTITUTE  (2GERMUN) FIRST AUTHOR                                 22000001    3
+           (2FR ILL) SECOND AND THIRD AUTHORS, AND EXPERIMENTAL   22000001    4
+            SITE.                                                 22000001    5
+REFERENCE  (J,ZP/A,322,669,8512)                                  22000001    6
+AUTHOR     (T.VON EGIDY,H.G.BOERNER,F.HOYLER)                     22000001    7
+TITLE      -CROSS SECTIONS AND GAMMA-RAYS FROM MULTIPLE NEUTRON   22000001    8
+            CAPTURE IN EU-151                                     22000001    9
+FACILITY   (REAC) THE HIGH FLUX REACTOR OF THE INSTITUTE          22000001   10
+            LAUE LANGEVIN AT GRENOBLE.                            22000001   11
+INC-SOURCE (REAC)                                                 22000001   12
+INC-SPECT  .MAXWELLIAN DISTRIBUTION.                              22000001   13
+SAMPLE     .THREE DIFFERENT TARGETS WERE USED --  TARGET 1 --     22000001   14
+            4.5 MG EU-151 OXIDE + 40 MG GRAPHITE POWDER,          22000001   15
+            TARGET 2 -- 6.8 MG EU-151 OXIDE + 56.4 MG GRAPHITE    22000001   16
+            POWDER, TARGET 3 -- 4.5 MG EU-151 OXIDE + 42.5 MG     22000001   17
+            GRAPHITE POWDER + 15.0 MG NACL. THE ENRICHMENT        22000001   18
+            OF EU-151 WAS 97.7 PC.                                22000001   19
+DETECTOR   (GELI) IN THE PAIR SPECTROMETER. RESOLUTION 4.3 KEV    22000001   20
+            NEAR 6.3 MEV.                                         22000001   21
+MONITOR    (17-CL-35(N,G)17-CL-36,,SIG)FOR GAMMA-RAY ENERGY AND   22000001   22
+            RELATIVE  NEUTRON INTENSITY CALIBRATIONS.             22000001   23
+PART-DET   (G   )                                                 22000001   24
+STATUS     .DATA TAKEN FROM MAIN REFERENCE.                       22000001   25
+HISTORY    (860214C) Y.N.                                         22000001   26
+           (860703E)                                              22000001   27
+ERR-ANALYS .NO DESCRIPTION GIVEN IN THE MAIN REFERENCE.           22000001   28
+ENDBIB              26                                            22000001   29
+NOCOMMON             0          0                                 22000001   30
+ENDSUBENT           29                                            2200000199999
+SUBENT        22000002     860703                                 22000002    1
+BIB                  4          7                                 22000002    2
+REACTION   (63-EU-152(N,G)63-EU-153,,SIG,,MXW)                    22000002    3
+ANALYSIS   .THE VARIATION OF EU-CAPTURE LINES WITH THE            22000002    4
+            IRRADIATION TIME WAS USED TO DETERMINE THE            22000002    5
+            EFFECTIVE NEUTRON FLUX AND THE CROSS SECTION.         22000002    6
+STATUS     .DATA TAKEN FROM MAIN REFERENCE.                       22000002    7
+HISTORY    (860217C) Y.N.                                         22000002    8
+           (860703E)                                              22000002    9
+ENDBIB               7                                            22000002   10
+NOCOMMON             0          0                                 22000002   11
+DATA                 3          1                                 22000002   12
+KT         DATA       DATA-ERR                                    22000002   13
+DEG-K      B          B                                           22000002   14
+ 3.2360E+02 7.9000E+03 1.3000E+03                                 22000002   15
+ENDDATA              3                                            22000002   16
+ENDSUBENT           15                                            2200000299999
+ENDENTRY             2                                            2200099999999
+ENDREQUEST           1                                            Z999999999999

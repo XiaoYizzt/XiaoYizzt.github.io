@@ -1,0 +1,87 @@
+REQUEST           1001   20010914          3     140331               0  0    0
+ENTRY            12594     780324                                 12594000    1
+SUBENT        12594001     780324                                 12594001    1
+BIB                 12         17                                 12594001    2
+INSTITUTE  (1USACSD)                                              12594001    3
+REFERENCE  (J,SCI,147,503,65)                                     12594001    4
+AUTHOR     (H.T.MILLARD JR)                                       12594001    5
+TITLE      THERMAL NEUTRON ACTIVATION. MEASUREMENT OF CROSS       12594001    6
+            SECTION FOR MANGANESE-53.                             12594001    7
+N-SOURCE   (REAC)ARGONNE CP-5 RESEARCH REACTOR.FLUX 10**12 PER    12594001    8
+            CM**2 PER SEC.                                        12594001    9
+INC-SPECT  REACTOR PILE SPECTRUM.                                 12594001   10
+SAMPLE     MN-53 FROM ODESSA IRON METEORITE IRADIATED FOR 1 WEEK. 12594001   11
+METHOD     (ACTIV)ACTIVATION                                      12594001   12
+CORRECTION DATA CORRECTED FOR MN-54 ACTIVITY FROM MN-55 AND FE-54 12594001   13
+            ACTIVATION.                                           12594001   14
+ANALYSIS   RESULT OF CALCULATIONS IS (350 +-100)E+6 BARN-YEARS.   12594001   15
+            HALF-LIFE ASSUMED 2.E+6 YEARS.                        12594001   16
+ERR-ANALYS ERROR OF BARN-YEAR VALUE FROM UNCERTAINTY IN THE       12594001   17
+            SPECIFIC ACTIVITY OF MN-53 IN ODESSA SAMPLE.          12594001   18
+HISTORY    (780224C)                                              12594001   19
+ENDBIB              17                                            12594001   20
+NOCOMMON                                                          12594001   21
+ENDSUBENT           20                                            1259400199999
+SUBENT        12594002     780324                                 12594002    1
+BIB                  4          4                                 12594002    2
+REACTION   (25-MN-53(N,G)25-MN-54,,SIG,,SPA)                      12594002    3
+DECAY-DATA (25-MN-54,300.D,DG,832.)                               12594002    4
+MONITOR    (25-MN-55(N,G)25-MN-56,,SIG,,SPA)                      12594002    5
+DECAY-MON  (25-MN-56,2.58HR,DG,847.)                              12594002    6
+ENDBIB               4                                            12594002    7
+NOCOMMON                                                          12594002    8
+DATA                 3          1                                 12594002    9
+EN-DUMMY   DATA       MONIT                                       12594002   10
+EV         B          B                                           12594002   11
+0.0253     170.       13.2                                        12594002   12
+ENDDATA              3                                            12594002   13
+ENDSUBENT           12                                            1259400299999
+ENDENTRY             2                                            1259499999999
+ENTRY            20566     860703                                 20566000    1
+SUBENT        20566001     860703                                 20566001    1
+BIB                 12         22                                 20566001    2
+INSTITUTE  (2GERJUL)    R.WOELFLE                                 20566001    3
+           (2GERKLN)    W.HERR,U.HERPERS                          20566001    4
+REFERENCE  (J,RCA,18,207,72)                                      20566001    5
+AUTHOR     (R.WOELFLE,W.HERR,U.HERPERS)                           20566001    6
+TITLE      .DETERMINATION OF THE ACTIVATION CROSS SECTION AND OF  20566001    7
+            THE HALFLIFE OF MN-53 BY A 587 DAYS REACTOR           20566001    8
+            IRRADIATION.                                          20566001    9
+INC-SOURCE (REAC )    THERMAL NEUTRON FLUX 5*10**13 N/(CM**2SEC)  20566001   10
+SAMPLE     .METEORITIC MN-SAMPLE CONTAINING MN-53                 20566001   11
+METHOD     (ACTIV)                                                20566001   12
+DETECTOR   (GELI )   GERMANIUM-LITHIUM DETECTOR                   20566001   13
+MONITOR    .NEUTRON FLUX MEASURED USING NI AND CU STANDARDS       20566001   14
+            ACCORDING TO EQUATION (8) IN RCA,18,207,1972.FOR      20566001   15
+            DETERMINING THE MN-53(N,GAMMA) CROSSS SECTION,THE     20566001   16
+            CROSS SECTION OF ZN-64(N,GAMMA) WAS USED.             20566001   17
+STATUS     .DATA FROM (J,RCA,18,207,72  )                         20566001   18
+HISTORY    (760122C)                                              20566001   19
+           (760423E)                                              20566001   20
+           (860415U)N.CH                                          20566001   21
+           (860703E)                                              20566001   22
+ERR-ANALYS .THE INFLUENCE OF THE VARIOUS PARAMETERS AND THE       20566001   23
+            LIMITS OF ERROR ARE DISCUSSED IN SOME DETAIL.         20566001   24
+ENDBIB              22                                            20566001   25
+NOCOMMON             0          0                                 20566001   26
+ENDSUBENT           25                                            2056600199999
+SUBENT        20566002     860703                                 20566002    1
+BIB                  3          8                                 20566002    2
+REACTION   (25-MN-53(N,G)25-MN-54,,SIG,,MXW)                      20566002    3
+           .MN-53 HALF LIFE MEASURED =(3.9+-0.6)*10**6 YEARS.     20566002    4
+INC-SPECT  .MAXWELLIAN                                            20566002    5
+HISTORY    (760122C)                                              20566002    6
+           (760423E)                                              20566002    7
+           (860415A)N.CH                                          20566002    8
+           (860620U)HH INC SPECT INSERTED                         20566002    9
+           (860703E)                                              20566002   10
+ENDBIB               8                                            20566002   11
+NOCOMMON             0          0                                 20566002   12
+DATA                 3          1                                 20566002   13
+EN-DUMMY   DATA       DATA-ERR                                    20566002   14
+EV         B          B                                           20566002   15
+ 2.5200E-02 6.6000E+01 7.0000E+00                                 20566002   16
+ENDDATA              3                                            20566002   17
+ENDSUBENT           16                                            2056600299999
+ENDENTRY             2                                            2056699999999
+ENDREQUEST           1                                            Z999999999999

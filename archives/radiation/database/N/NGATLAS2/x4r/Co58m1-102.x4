@@ -1,0 +1,139 @@
+REQUEST           1001   20010914          3     140504               0  0    0
+ENTRY            12597     830808                                 12597000    1
+SUBENT        12597001     830808                                 12597001    1
+BIB                  7         11                                 12597001    2
+INSTITUTE  (1USAMTR)                                              12597001    3
+REFERENCE  (R,IDO-16744,62)                                       12597001    4
+AUTHOR     (C.H.HOGG,L.D.WEBER,E.C.YATES)                         12597001    5
+TITLE      THERMAL NEUTRON CROSS SECTIONS OF THE CO-58 ISOMERS AND12597001    6
+            THE EFFECT ON FAST FLUX MEASUREMENTS USING NICKEL.    12597001    7
+DETECTOR   GAMMAS MEASURED WITH EITHER A MULTI-CHANNEL PULSE      12597001    8
+            HEIGHT ANALYZER OR A CALIBRATED HIGH PRESSURE         12597001    9
+            IONIZATION CHAMBER.                                   12597001   10
+ERR-ANALYS ERRORS BASED ON INTERNAL CONSISTENCY                   12597001   11
+HISTORY    (780701C)                                              12597001   12
+           (820827A) INSTITUTE,DECAY-DATA CORRECTED.              12597001   13
+ENDBIB              11                                            12597001   14
+NOCOMMON             0          0                                 12597001   15
+ENDSUBENT           14                                            1259700199999
+SUBENT        12597003     780324                                 12597003    1
+BIB                  6         11                                 12597003    2
+REACTION   (27-CO-58-M(N,G)27-CO-59,,SIG,,MXW)                    12597003    3
+N-SOURCE   (REAC) VH-2 MTR-MATERIALS TESTING REACTOR WITH         12597003    4
+             CADMIUM RATIO 10.                                    12597003    5
+METHOD     IRRADIATION OF BARE AND CD-COVERED NI SAMPLE IN THE    12597003    6
+            SAME FAST AND THERMAL N FLUX IN A REGION WHERE THE    12597003    7
+            THERMAL FLUX IS KNOWN, USING DIFFERENCE IN ACTIVITIES 12597003    8
+            AFTER THE 9.1 HR ACTIVITY HAS DECAYED. IRRADIATION    12597003    9
+            FOR 24 HOURS.                                         12597003   10
+DECAY-DATA (27-CO-58-M,9.1HR,DG,805.,.979,DG,810.,.016)           12597003   11
+MONITOR    (27-CO-59(N,G)27-CO-60,,SIG)                           12597003   12
+ASSUMED    (ASSUM,28-NI-58(N,P)27-CO-58-M,,SIG,,FIS)              12597003   13
+ENDBIB              11                                            12597003   14
+NOCOMMON                                                          12597003   15
+DATA                 4          1                                 12597003   16
+EN-DUMMY   DATA       DATA-ERR   ASSUM                            12597003   17
+EV         B          B          MB                               12597003   18
+0.0253     140.    +0312.     +0331.                              12597003   19
+ENDDATA              3                                            12597003   20
+ENDSUBENT           19                                            1259700399999
+SUBENT        12597005     830808                                 12597005    1
+BIB                  6         12                                 12597005    2
+REACTION   (27-CO-58-M(N,G)27-CO-59,,SIG,,SPA)                    12597005    3
+N-SOURCE   (REAC) VH-2 MTR REACTOR.CD RATIO 10.                   12597005    4
+METHOD     (BURN) BURN-UP OF 9.1 HR. CO-58 IN THERMAL N FLUX.     12597005    5
+            IRRADIATED TWO NI SAMPLES IN CONTACT WITH EACH OTHER  12597005    6
+            UNDER A CD SHEATH. THEN RE-IRRADIATED ONE SAMPLE IN   12597005    7
+            CONTACT WITH A THIRD NI SAMPLE AS WELL AS A CO-AL     12597005    8
+            FLUX MONITER. COUNTING WAS OF EACH CO-58 SPECIFIC     12597005    9
+            ACTIVITIES WITHOUT CHEMICAL SEPARATION AND AFTER      12597005   10
+            THE 9.1 HR ISOMER HAD DECAYED.                        12597005   11
+DECAY-DATA (27-CO-58-M,9.1HR,DG,805.,.979,DG,810.,.016)           12597005   12
+ASSUMED    (ASSUM,28-NI-58(N,P)27-CO-58-M,,SIG,,FIS)              12597005   13
+MONITOR    (27-CO-59(N,G)27-CO-60,,SIG)                           12597005   14
+ENDBIB              12                                            12597005   15
+NOCOMMON             0          0                                 12597005   16
+DATA                 4          1                                 12597005   17
+EN-DUMMY   DATA       DATA-ERR   ASSUM                            12597005   18
+EV         B          B          MB                               12597005   19
+0.0253     170.    +0312.     +0331.                              12597005   20
+ENDDATA              3                                            12597005   21
+ENDSUBENT           20                                            1259700599999
+ENDENTRY             3                                            1259799999999
+ENTRY            40743     970715                                 40743000    1
+SUBENT        40743001     970715                                 40743001    1
+BIB                  7         10                                 40743001    2
+AUTHOR     (I.A.KONDUROV)                                         40743001    3
+TITLE      .ABSORPTION CROSS SECTIONS MEASUREMENTS FOR RADIOACTIVE40743001    4
+            NUCLEI                                                40743001    5
+INSTITUTE  (4RUSFTI)                                              40743001    6
+REFERENCE  (J,AE,24,(6),533,68)  MAIN REFERENCE. DATA ARE GIVEN   40743001    7
+           (P,INDC-140,21,6606)                                   40743001    8
+METHOD     (BURN)   BURN-UP                                       40743001    9
+FACILITY   (REAC)   REACTOR WWR-M                                 40743001   10
+HISTORY    (840516T) CONVERTED FROM ENTRY 80143                   40743001   11
+           (970710A) * * CORRECTED IN CJD - S.MAEV ***            40743001   12
+ENDBIB              10                                            40743001   13
+NOCOMMON             0          0                                 40743001   14
+ENDSUBENT           13                                            4074300199999
+SUBENT        40743003     970715                                 40743003    1
+BIB                  5          5                                 40743003    2
+REACTION   (27-CO-58-M1(N,G)27-CO-59,,SIG,,SPA)                   40743003    3
+INC-SPECT   REACTOR SPECTRUM.   CADMIUM RATIO IS 19.3 +- 0.6      40743003    4
+ASSUMED    (ASSUM,27-CO-59(N,G)27-CO-60,,SIG) FOR 2200 CM/SEC     40743003    5
+STATUS     (SCSRS)                                                40743003    6
+HISTORY    (970710U)  BIB-INFORMATION ADDED                       40743003    7
+ENDBIB               5                                            40743003    8
+NOCOMMON             0          0                                 40743003    9
+DATA                 5          1                                 40743003   10
+EN-DUMMY   DATA       DATA-ERR   ASSUM      ASSUM-ERR             40743003   11
+MEV        B          B          B          B                     40743003   12
+ 2.5300E-08 1.3600E+05 1.0000E+04       37.7        1.0           40743003   13
+ENDDATA              3                                            40743003   14
+ENDSUBENT           13                                            4074300399999
+ENDENTRY             2                                            4074399999999
+ENTRY            80501     830822                                 80501000    1
+SUBENT        80501001     830822                                 80501001    1
+BIB                  9         10                                 80501001    2
+INSTITUTE  (4CCPCCP)                                              80501001    3
+REFERENCE  (J,AE,24,533,68)                                       80501001    4
+AUTHOR     (I.KONDUROV,A.EGOROV,M.KAMINKER,E.KOROTKIKH,A.NIKITIN) 80501001    5
+TITLE      NEUTRON CAPTURE CROSS-SECTION MEASUREMENTS OF CO-58-M, 80501001    6
+            CU-64 AND SC-46.                                      80501001    7
+INC-SOURCE (REAC) WATER CAVITY OF VVR-M REACTOR                   80501001    8
+INC-SPECT  THERMAL SPECTRUM                                       80501001    9
+MONITOR    (27-CO-59(N,G)27-CO-60,,SIG,,MXW)                      80501001   10
+ERR-ANALYS 3-4 PERCENT ERROR IN N-FLUX                            80501001   11
+HISTORY    (780411C)                                              80501001   12
+ENDBIB              10                                            80501001   13
+COMMON               3          3                                 80501001   14
+EN-DUMMY   MONIT      MONIT-ERR                                   80501001   15
+EV         B          B                                           80501001   16
+ 2.5300E-02 3.7500E+01 1.0000E+00                                 80501001   17
+ENDCOMMON            3                                            80501001   18
+ENDSUBENT           17                                            8050100199999
+SUBENT        80501002     830822                                 80501002    1
+BIB                  6          9                                 80501002    2
+REACTION   (27-CO-58-M(N,G)27-CO-59,,SIG,,MXW)                    80501002    3
+SAMPLE     NI-58 IRRADIATED BY FAST NEUTRONS                      80501002    4
+METHOD     INCREASE IN CO-58 ACTIVITY AFTER CO-58-M DECAY AND     80501002    5
+           (CHSEP) CHEMICAL SEPARATION OF CO FROM NI.             80501002    6
+DETECTOR   (SCIN) SCINTILLATION SPECTROMETER.                     80501002    7
+ASSUMED    (ASSUM1,28-NI-58(N,P)27-CO-58-G,,SIG,,FIS)             80501002    8
+           (ASSUM2,28-NI-58(N,P)27-CO-58-M,,SIG,,FIS)             80501002    9
+DECAY-DATA (27-CO-58-M,13.3HR,DG,25.)                             80501002   10
+           (27-CO-58-G,71.3D,DG,814.)                             80501002   11
+ENDBIB               9                                            80501002   12
+COMMON               3          3                                 80501002   13
+EN-DUMMY   ASSUM1     ASSUM2                                      80501002   14
+MEV        MB         MB                                          80501002   15
+ 1.5000E+00 6.1000E+01 3.1000E+01                                 80501002   16
+ENDCOMMON            3                                            80501002   17
+DATA                 3          1                                 80501002   18
+EN-DUMMY   DATA       DATA-ERR                                    80501002   19
+EV         KB         KB                                          80501002   20
+ 2.5300E-02 1.3600E+02 1.0000E+01                                 80501002   21
+ENDDATA              3                                            80501002   22
+ENDSUBENT           21                                            8050100299999
+ENDENTRY             2                                            8050199999999
+ENDREQUEST           1                                            Z999999999999

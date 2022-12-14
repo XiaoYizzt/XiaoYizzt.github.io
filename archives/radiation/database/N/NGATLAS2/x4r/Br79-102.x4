@@ -1,0 +1,574 @@
+REQUEST           1001   20010914          3     141008               0  0    0
+ENTRY            11447     850410                                 11447000    1
+SUBENT        11447001     850410                                 11447001    1
+BIB                  6          8                                 11447001    2
+INSTITUTE  (1USAANL)                                              11447001    3
+REFERENCE  (J,PR,72,888,4711)                                     11447001    4
+AUTHOR     (L.SEREN,H.N.FRIEDLANDER,S.H.TURKEL)                   11447001    5
+METHOD     (ACTIV)                                                11447001    6
+STATUS     (SCSRS)                                                11447001    7
+HISTORY    (760715T) TRANSLATED FROM SCISRS                       11447001    8
+           (820813A) CONVERTED TO REACTION FORMALISM              11447001    9
+           (840410A) ENERGY CORRECTED.                            11447001   10
+ENDBIB               8                                            11447001   11
+COMMON               1          3                                 11447001   12
+EN-DUMMY                                                          11447001   13
+EV                                                                11447001   14
+ 0.0253                                                           11447001   15
+ENDCOMMON            3                                            11447001   16
+ENDSUBENT           15                                            1144700199999
+SUBENT        11447044     820813                                 11447044    1
+BIB                  3          3                                 11447044    2
+REACTION   (35-BR-79(N,G)35-BR-80-G,,SIG,,MXW)                    11447044    3
+SAMPLE     K-BR                                                   11447044    4
+DECAY-DATA (35-BR-80-G,18.MIN,B-)                                 11447044    5
+ENDBIB               3                                            11447044    6
+NOCOMMON             0          0                                 11447044    7
+DATA                 2          1                                 11447044    8
+DATA       DATA-ERR                                               11447044    9
+B          PER-CENT                                               11447044   10
+ 8.1    +00 20.                                                   11447044   11
+ENDDATA              3                                            11447044   12
+ENDSUBENT           11                                            1144704499999
+ENDENTRY             2                                            1144799999999
+ENTRY            11450     840712                                 11450000    1
+SUBENT        11450001     840712                                 11450001    1
+BIB                  7          9                                 11450001    2
+INSTITUTE  (1USAANL)                                              11450001    3
+REFERENCE  (J,PR,75,1781,4906)                                    11450001    4
+AUTHOR     (D.J.HUGHES,W.D.B.SPATZ)                               11450001    5
+INC-SPECT  FISSION NEUTRONS FROM U-235 IN THERMAL BEAM.           11450001    6
+METHOD     (ACTIV) ACTIVATION                                     11450001    7
+STATUS     (SCSRS)                                                11450001    8
+HISTORY    (760715T) TRANSLATED FROM SCISRS                       11450001    9
+           (820813A) CONVERTED TO REACTION FORMALISM              11450001   10
+           (840712A) CORRECT ENERGIES PUT IN SAN'S.               11450001   11
+ENDBIB               9                                            11450001   12
+NOCOMMON             0          0                                 11450001   13
+ENDSUBENT           12                                            1145000199999
+SUBENT        11450020     840712                                 11450020    1
+BIB                  3          5                                 11450020    2
+REACTION   (35-BR-79(N,G)35-BR-80-G,,SIG,,FIS)                    11450020    3
+MONITOR    (35-BR-79(N,G)35-BR-80-G,,SIG,,MXW)                    11450020    4
+            DATA VALUE GIVEN AS RENORMALIZED IN PHYS. REV. 91,142311450020    5
+            (1953).                                               11450020    6
+DECAY-DATA (35-BR-80-G,18.MIN)                                    11450020    7
+ENDBIB               5                                            11450020    8
+NOCOMMON             0          0                                 11450020    9
+DATA                 3          1                                 11450020   10
+EN-DUMMY   DATA       MONIT                                       11450020   11
+MEV        B          B                                           11450020   12
+ 1.         2.9    -02 8.5    +00                                 11450020   13
+ENDDATA              3                                            11450020   14
+ENDSUBENT           13                                            1145002099999
+ENDENTRY             2                                            1145099999999
+ENTRY            11675     860612                                 11675000    1
+SUBENT        11675001     860612                                 11675001    1
+BIB                  9         15                                 11675001    2
+INSTITUTE  (1USAWIS)                                              11675001    3
+REFERENCE  (J,PR,116,927,59)                                      11675001    4
+           (W,BARSCHALL,5905) DATA READ FROM LARGE GRAPHS         11675001    5
+AUTHOR     (A.E.JOHNSRUD,M.G.SILBERT,H.H.BARSCHALL)               11675001    6
+TITLE      ENERGY DEPENDENCE OF FAST-NEUTRON ACTIVATION CROSS     11675001    7
+           SECTION.                                               11675001    8
+METHOD     (ACTIV) ACTIVATION                                     11675001    9
+DETECTOR   (NAICR) NAI CRYSTAL                                    11675001   10
+MONITOR    (92-U-235(N,G)92-U-236,,SIG)                           11675001   11
+            RELATIVE TO DATA OF ALLEN AND HENKEL,                 11675001   12
+            PROG.NUC.EN.,II (1958) NORMALIZED TO THERMAL FISSION  11675001   13
+STATUS     (SCSRS)                                                11675001   14
+HISTORY    (760730T) TRANSLATED FROM SCISRS                       11675001   15
+           (831011A) CONVERTED TO REACTION FORMALISM              11675001   16
+           (860612A) BIB UPDATE.                                  11675001   17
+ENDBIB              15                                            11675001   18
+COMMON               2          3                                 11675001   19
+EN-NRM     MONIT1                                                 11675001   20
+EV         B                                                      11675001   21
+ 0.0253     584.                                                  11675001   22
+ENDCOMMON            3                                            11675001   23
+ENDSUBENT           22                                            1167500199999
+SUBENT        11675009     831011                                 11675009    1
+BIB                  3          3                                 11675009    2
+REACTION   (35-BR-79(N,G)35-BR-80-G,,SIG)                         11675009    3
+DECAY-DATA (35-BR-80-G,18.0MIN)                                   11675009    4
+MONITOR    (35-BR-79(N,G)35-BR-80-G,,SIG)                         11675009    5
+ENDBIB               3                                            11675009    6
+COMMON               1          3                                 11675009    7
+MONIT2                                                            11675009    8
+B                                                                 11675009    9
+ 8.5                                                              11675009   10
+ENDCOMMON            3                                            11675009   11
+DATA                 2         17                                 11675009   12
+EN         DATA                                                   11675009   13
+MEV        B                                                      11675009   14
+ 1.80   -01 2.40   -01                                            11675009   15
+ 2.53   -01 1.85   -01                                            11675009   16
+ 3.25   -01 1.25   -01                                            11675009   17
+ 4.00   -01 1.02   -01                                            11675009   18
+ 4.70   -01 6.2    -02                                            11675009   19
+ 5.30   -01 5.4    -02                                            11675009   20
+ 5.90   -01 4.35   -02                                            11675009   21
+ 6.20   -01 4.45   -02                                            11675009   22
+ 7.80   -01 3.50   -02                                            11675009   23
+ 9.80   -01 3.32   -02                                            11675009   24
+ 1.28   +00 2.40   -02                                            11675009   25
+ 1.58   +00 1.98   -02                                            11675009   26
+ 2.00   +00 1.40   -02                                            11675009   27
+ 2.50   +00 1.24   -02                                            11675009   28
+ 3.25   +00 8.1    -03                                            11675009   29
+ 3.90   +00 6.2    -03                                            11675009   30
+ 4.75   +00 4.95   -03                                            11675009   31
+ENDDATA             19                                            11675009   32
+ENDSUBENT           31                                            1167500999999
+ENDENTRY             2                                            1167599999999
+ENTRY            11835     860612                                 11835000    1
+SUBENT        11835001     860612                                 11835001    1
+BIB                 11         21                                 11835001    2
+INSTITUTE  (1USAANL)                                              11835001    3
+REFERENCE  (J,PR/B,133,378,6401) DATA SUPERSEDED                  11835001    4
+           (P,WASH-1068,5,6605) RENORMALIZATION DISCUSSED.        11835001    5
+           (W,COX,6605) RENORMALIZED DATA                         11835001    6
+AUTHOR     (S.A.COX)                                              11835001    7
+TITLE      NEUTRON ACTIVATION CROSS SECTIONS FOR BR79, BR81,      11835001    8
+           RH103, IN115, I127, AND TA181.                         11835001    9
+INC-SOURCE (P-LI7) LI-7(P,N) SOURCE                               11835001   10
+INC-SPECT  ENERGY RESOLUTION VARIES FROM APPROXIMATELY 25 KEV FOR 11835001   11
+            MEASUREMENTS BELOW 100 KEV TO APPROXIMATELY 80 KEV FOR11835001   12
+            MEASUREMENTS ABOVE 1000 KEV.                          11835001   13
+METHOD     (ACTIV) ACTIVATION                                     11835001   14
+DETECTOR   (NAICR). FOR GAMMA RAYS.                               11835001   15
+           (SCIN). PLASTIC SCINTILLATOR FOR BETA RAYS.            11835001   16
+MONITOR    (92-U-235(N,F),,SIG)                                   11835001   17
+            FLUX MONITORED RELATIVE TO U-235 FISSION              11835001   18
+            OF WHITE, NORMALIZED AT THERMAL.                      11835001   19
+STATUS     (SCSRS)                                                11835001   20
+HISTORY    (760731T) TRANSLATED FROM SCISRS                       11835001   21
+           (830919A) CONVERTED TO REACTION FORMALISM              11835001   22
+           (860612A) BIB UPDATE.                                  11835001   23
+ENDBIB              21                                            11835001   24
+COMMON               1          3                                 11835001   25
+DATA-ERR                                                          11835001   26
+PER-CENT                                                          11835001   27
+ 15.                                                              11835001   28
+ENDCOMMON            3                                            11835001   29
+ENDSUBENT           28                                            1183500199999
+SUBENT        11835002     830919                                 11835002    1
+BIB                  2          2                                 11835002    2
+REACTION   (35-BR-79(N,G)35-BR-80-G,,SIG)                         11835002    3
+DECAY-DATA (35-BR-80-G,18.MIN)                                    11835002    4
+ENDBIB               2                                            11835002    5
+NOCOMMON             0          0                                 11835002    6
+DATA                 2         17                                 11835002    7
+EN         DATA                                                   11835002    8
+MEV        MB                                                     11835002    9
+ 1.60   -01 2.200  +02                                            11835002   10
+ 1.87   -01 1.933  +02                                            11835002   11
+ 2.35   -01 1.725  +02                                            11835002   12
+ 2.88   -01 1.365  +02                                            11835002   13
+ 3.34   -01 1.059  +02                                            11835002   14
+ 3.86   -01 8.451  +01                                            11835002   15
+ 4.86   -01 5.022  +01                                            11835002   16
+ 5.90   -01 4.022  +01                                            11835002   17
+ 6.86   -01 3.505  +01                                            11835002   18
+ 7.92   -01 3.007  +01                                            11835002   19
+ 8.86   -01 2.648  +01                                            11835002   20
+ 9.91   -01 2.533  +01                                            11835002   21
+ 1.084  +00 2.074  +01                                            11835002   22
+ 1.187  +00 2.003  +01                                            11835002   23
+ 1.290  +00 1.806  +01                                            11835002   24
+ 1.393  +00 1.626  +01                                            11835002   25
+ 1.485  +00 1.440  +01                                            11835002   26
+ENDDATA             19                                            11835002   27
+ENDSUBENT           26                                            1183500299999
+ENDENTRY             2                                            1183599999999
+ENTRY            12866     851106                                 12866000    1
+SUBENT        12866001     851106                                 12866001    1
+BIB                 15         51                                 12866001    2
+INSTITUTE  (1USALRL)                                              12866001    3
+REFERENCE  (C,78MAYAG,,495,7805)                                  12866001    4
+AUTHOR     (R.E.HEFT)                                             12866001    5
+TITLE      A CONSISTENT SET OF NUCLEAR-PARAMETER VALUES           12866001    6
+           FOR ABSOLUTE INSTRUMENTAL NEUTRON ACTIVATION           12866001    7
+           ANALYSIS.                                              12866001    8
+FACILITY   (REAC) LAWRENCE LIVERMORE LABORATORY LPTR RESEARCH     12866001    9
+                  REACTOR FACILITY.                               12866001   10
+METHOD     (ACTIV)                                                12866001   11
+           EPITHERMAL-TO-THERMAL FLUX RATIO WAS MEASURED IN       12866001   12
+             EACH IRRADIATION BY INCLUDING A URANIUM-SCANDIUM     12866001   13
+             STANDARD IN THE IRRADIATION PACKAGE.                 12866001   14
+INC-SPECT  REACTOR SPECTRUM. ALL NUCLIDES IRRADIATED IN POSITION  12866001   15
+            S-2 WITH A CD RATIO OF 3.8 AND IN EITHER POSITION E-1 12866001   16
+            (CD RATIO 2.5) OR POSITION A-4 (CD RATIO 2.0)         12866001   17
+            DEPENDING ON WHETHER PRODUCTS WERE LONG OR SHORT-LIVED12866001   18
+MONITOR    ELEMENT SCANDIUM WAS USED AS AN INTERNAL FLUX MONITOR  12866001   19
+             SCANDIUM VALUES WERE MEASURED BY TAKING MIXTURES OF  12866001   20
+                                COBALT-SCANDIUM                   12866001   21
+                                GOLD-SCANDIUM                     12866001   22
+                                U238-SCANDIUM                     12866001   23
+           ((MONIT1)21-SC-45(N,G)21-SC-46,,SIG)                   12866001   24
+           ((MONIT2)27-CO-59(N,G)27-CO-60,,SIG)                   12866001   25
+           ((MONIT3)79-AU-197(N,G)79-AU-198,,SIG)                 12866001   26
+           ((MONIT4)92-U-238(N,G)92-U-239,,SIG)                   12866001   27
+           ((MONIT5)21-SC-45(N,G)21-SC-46,,RI)                    12866001   28
+           ((MONIT6)27-CO-59(N,G)27-CO-60,,RI)                    12866001   29
+           ((MONIT7)79-AU-197(N,G)79-AU-198,,RI)                  12866001   30
+           ((MONIT8)92-U-238(N,G)92-U-239,,RI)                    12866001   31
+DECAY-MON  (21-SC-46-G,83.9D,DG,1120.5,1.)                        12866001   32
+           (27-CO-60-G,1922.D,DG,1332.51,1.)                      12866001   33
+           (79-AU-198-G,2.70D,DG,411.79,0.968)                    12866001   34
+           (92-U-239,0.01635D,DG,74.67,.593)                      12866001   35
+           (93-NP-239,2.353D,DG,106.07,0.252)                     12866001   36
+DETECTOR   ALL COUNTING WAS DONE ON GAMMA SPECTRAL ANALYZERS      12866001   37
+             TO MEASURE ABSOLUTE PHOTON EMISSION RATES.           12866001   38
+ANALYSIS   ALL SPECTRA GENERATED WERE ANALYZED BY COMPUTER        12866001   39
+             CODE GAMANAL TO OBTAIN A SET OF ABSOLUTE             12866001   40
+             DISINTEGRATION RATES FOR THE NUCLIDES FOUND.         12866001   41
+           THE DISINTEGRATION-RATE DATA THUS OBTAINED WERE        12866001   42
+             FURTHER ANALYZED BY ANOTHER COMPUTER CODE NADAC      12866001   43
+             TO COMPUTE THE EFFECTIVE CROSS SECTION FOR           12866001   44
+             EACH ACTIVATION PRODUCT.                             12866001   45
+ERR-ANALYS DETAILS NOT GIVEN                                      12866001   46
+             FOR SOME ELEMENTS THE ERRORS REFLECT THE EFFECTS OF  12866001   47
+             CONCENTRATION ERROR OR EVAPORATION LOSS.             12866001   48
+CORRECTION NO CORRECTION FOR THE INTERFERENCE DUE TO (N,P)        12866001   49
+             REACTION WAS DONE.                                   12866001   50
+           CORRECTION DUE TO U-235 FISSION REACTION IS IMPLIED.   12866001   51
+STATUS     (APRVD) R.E.HEFT, 84/12/27.                            12866001   52
+HISTORY    (840410C)                                              12866001   53
+ENDBIB              51                                            12866001   54
+COMMON              10          6                                 12866001   55
+MONIT1     MONIT1-ERR MONIT2     MONIT3     MONIT4     MONIT5     12866001   56
+MONIT5-ERR MONIT6     MONIT7     MONIT8                           12866001   57
+B          B          B          B          B          B          12866001   58
+B          B          B          B                                12866001   59
+27.7       0.5        37.5       98.8       2.720      12.2       12866001   60
+0.6        75.        1550.      280.                             12866001   61
+ENDCOMMON            6                                            12866001   62
+ENDSUBENT           61                                            1286600199999
+SUBENT        12866056     841227                                 12866056    1
+BIB                  3          3                                 12866056    2
+REACTION   (35-BR-79(N,G)35-BR-80-G,,SIG,,SPA)                    12866056    3
+SAMPLE     NATURAL SAMPLE,ASSUMED 50.54 PERCENT ABUNDANCE.        12866056    4
+DECAY-DATA (35-BR-80-G,1.220E-02D,DG,616.90,0.074)                12866056    5
+ENDBIB               3                                            12866056    6
+NOCOMMON             0          0                                 12866056    7
+DATA                 3          1                                 12866056    8
+EN-DUMMY   DATA       DATA-ERR                                    12866056    9
+EV         B          B                                           12866056   10
+0.025      7.88       0.12                                        12866056   11
+ENDDATA              3                                            12866056   12
+ENDSUBENT           11                                            1286605699999
+ENDENTRY             2                                            1286699999999
+ENTRY            30079     850219                                 30079000    1
+SUBENT        30079001     850219                                 30079001    1
+BIB                 15         42                                 30079001    2
+INSTITUTE  (3INDMUA)                                              30079001    3
+REFERENCE  (J,PR,152,1055,6612) DATA TABLE,CFD OTHER+STATISTIC TH 30079001    4
+           (J,NP,66,267,65) EXP DETAILS,ERR ANAL,ACTIV,BETA DET   30079001    5
+AUTHOR     (A.K.CHAUBEY, M.L.SEHGAL)                              30079001    6
+TITLE      MEASUREMENT OF NEUTRON CAPTURE CROSS SECTIONS BY       30079001    7
+           ACTIVATION AT 24 KEV AND COMPARISON WITH STATISTICAL   30079001    8
+           THEORY                                                 30079001    9
+EXP-YEAR   (66)                                                   30079001   10
+INC-SOURCE ANTIMONY-BERYLLIUM, 1.7CM DIAM. * 3.3CM HEIGHT,        30079001   11
+           FLUX APPROXIMATELY 10E+7 NEUTRONS/SEC                  30079001   12
+SAMPLE     POWDER,PURITY BETTER THAN 99.9PERCENT,SAMPLE SANDWICHED30079001   13
+           BETWEEN 2 CELLOTAPES, PERSPEX RING FOR FIXED GEOMETRY  30079001   14
+METHOD     (ACTIV) ACTIVATION. BETA ACTIVITY MEASURED             30079001   15
+DETECTOR   (GEMUC)    END WINDOW BETA COUNTER                     30079001   16
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)                           30079001   17
+              I-127(N,GAMMA)I-128 SIGMA = 0.82 BARN               30079001   18
+           ASSUMED                                                30079001   19
+PART-DET   (B-) BETA PARTICLES DETECTED                           30079001   20
+STATUS     DATA FROM PHYS.REV. 152,1055(1966), TABLE 1.           30079001   21
+HISTORY    (691124C) DATA COMPILED INTO DASTAR-1012               30079001   22
+           (691203A) PROOF COPY SENT TO AUTHOR                    30079001   23
+           (701130T) DATA CONVERTED FROM DASTAR INTO EXFOR        30079001   24
+           (761209A) COMMENTS REVISED. HALF-LIVES PUT IN 'COMMON' 30079001   25
+           OR WITH 'RESID-NUC'.             YAG.                  30079001   26
+           (770907U) OS. BIB UPDATE.                              30079001   27
+CORRECTION ABSENCE OF THERMAL NEUTRONS DETERMINED, INFLUENCE OF   30079001   28
+           SCATTERED NEUTRONS OF LOWER THAN 24. KEV ENERGY        30079001   29
+           NEGLIGIBLE DUE TO GEOMETRY, I.E. LARGE ROOM, REMOTE    30079001   30
+           LOCATION OF NEUTRON SOURCE FROM THE FLOOR (=1.3 M)     30079001   31
+           AND NO SHIELDING MATERIAL AROUND THE SOURCE            30079001   32
+ERR-ANALYS (DATA-ERR) GIVEN ERROR CONSISTS OF                     30079001   33
+           1.) 1 PERCENT IN ESTIMATION OF TOTAL NUMBER OF TARGET  30079001   34
+               NUCLEI.                                            30079001   35
+           2.) 2 PERCENT IN MEASUREMENT OF SAMPLE-SOURCE GEOMETRY 30079001   36
+               EFFECT WHICH WILL DEPEND UPON REPRODUCIBILITY OF   30079001   37
+               THE GEOMETRY.                                      30079001   38
+           3.) IRRADIATION TIME MEASURED WITH AN ACCURACY OF      30079001   39
+               BETTER THAN 1 PERCENT.                             30079001   40
+           4.) ABOUT 2 PERCENT ERROR IN MEASUREMENT OF THE CROSS- 30079001   41
+               SECTIONS ESTIMATED TO BE DUE TO THE GAMMA-RAYS     30079001   42
+               DETECTED BY BETA-COUNTER.                          30079001   43
+           5.) STATISTICAL ERROR VARIES FROM ONE CASE TO ANOTHER  30079001   44
+ENDBIB              42                                            30079001   45
+COMMON               1          3                                 30079001   46
+EN                                                                30079001   47
+KEV                                                               30079001   48
+ 2.4000E+01                                                       30079001   49
+ENDCOMMON            3                                            30079001   50
+ENDSUBENT           49                                            3007900199999
+SUBENT        30079016     840503                                 30079016    1
+BIB                  4         12                                 30079016    2
+REFERENCE  (C,65CALCUTTA,2,154,6502) ABSTRACT AND TABLE           30079016    3
+REACTION   (35-BR-79(N,G)35-BR-80-G,,SIG)                         30079016    4
+           PHYS.A117,545(1968). ENTRY 30087.005.                  30079016    5
+ANALYSIS   DECAY OF 35-BR-80 SECOND METASTABLE STATE (H-LIFE =    30079016    6
+           4.5 HR) TO THE GROUND STATE (H-LIFE = 18 MIN) BY       30079016    7
+           ISOMERIC TRANSITION WAS CONSIDERED IN ANALYSIS OF THE  30079016    8
+           OBSERVED RADIATIONS.                                   30079016    9
+COMMENT    BY COMPILER. THE H-LIFE VALUES GIVEN BY LEDERER,ET AL.,30079016   10
+           TABLE OF ISOTOPES,6THE ED. ARE 17.6 MIN FOR GROUND AND 30079016   11
+           4.38 HR FOR THE SECOND METASTABLE STATE. THE TRANSITION30079016   12
+           FROM THE 4.38-HR TO THE 17.6-MIN STATE PROCEEDS VIA A  30079016   13
+           7.4 NANOSEC STATE WHICH SHOULD NOT EFFECT THE ANALYSIS.30079016   14
+ENDBIB              12                                            30079016   15
+COMMON               1          3                                 30079016   16
+HL                                                                30079016   17
+MIN                                                               30079016   18
+ 1.8000E+01                                                       30079016   19
+ENDCOMMON            3                                            30079016   20
+DATA                 2          1                                 30079016   21
+DATA       DATA-ERR                                               30079016   22
+MB         MB                                                     30079016   23
+ 5.4500E+02 4.5000E+01                                            30079016   24
+ENDDATA              3                                            30079016   25
+ENDSUBENT           24                                            3007901699999
+ENDENTRY             2                                            3007999999999
+ENTRY            30234     930217                                 30234000    1
+SUBENT        30234001     930217                                 30234001    1
+BIB                 18         36                                 30234001    2
+TITLE      ISOMER RATIOS IN (N,GAMMA) REACTIONS AT 25 KEV         30234001    3
+AUTHOR     (A.LAKSHMANA RAO,J.RAMA RAO)                           30234001    4
+INSTITUTE  (3INDAUW)                                              30234001    5
+EXP-YEAR   (72)                                                   30234001    6
+REFERENCE  (J,PR/C,6,572,7208)                                    30234001    7
+SAMPLE     NATURAL ELEMENTS IN METALLIC POWDER OR OXIDE FORM WITH 30234001    8
+           A CHEMICAL PURITY GREATER THAN 99.9 PERCENT            30234001    9
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)                           30234001   10
+MONIT-REF  (21150002,J.C.ROBERTSON,J,NP,71,417,6509)              30234001   11
+INC-SOURCE (PHOTO) ANTIMONY-BERYLLIUM PHOTONEUTRON SOURCE OF      30234001   12
+           STRENGTH 20 CURIES.                                    30234001   13
+METHOD     (ACTIV) ACTIVATION METHOD PLUS ABSOLUTE GAMMA COUNTING.30234001   14
+           SIMULTANEOUSLY WITH THE RECORDING OF THE GAMMA-RAY     30234001   15
+           SPECTRA,THE HALF-LIFE WAS STUDIED IN A SEPARATE CHANNEL30234001   16
+           FOR UNIQUE IDENTIFICATION OF THE REACTION PRODUCT      30234001   17
+DETECTOR   (SCIN) SCINTILLATION SPECTROMETER CONSISTING OF A WELL-30234001   18
+           TYPE NAI(TL) CRYSTAL AND A 100-CHANNEL ANALYZER        30234001   19
+PART-DET   (DG) DECAY GAMMAS                                      30234001   20
+ANALYSIS   CROSS SECTION DETERMINED FROM AREA OF A PROMINENT PEAK 30234001   21
+           FROM THE GAMMA SPECTRUM CHARACTERISTIC OF THE PRODUCT  30234001   22
+           NUCLEUS                                                30234001   23
+CORRECTION EFFECTIVE PHOTOPEAK EFFICIENCY CORRECTED FOR SOURCE    30234001   24
+           ABSORPTION AND CASCADE EFFECTS                         30234001   25
+ERR-ANALYS ERROR GIVEN IS TOTAL ERROR COMPOUNDED OF,              30234001   26
+           STATISTICAL ERROR = 0.5 TO 3 PERCENT                   30234001   27
+           ERROR IN CALCULATION PARAMETERS = LESS THAN 1 PERCENT  30234001   28
+           ERROR IN NEUTRON FLUX = 7 PERCENT                      30234001   29
+           ERRORS IN MEASURED EFFICIENCY VALUES = 6 PERCENT       30234001   30
+           ERROR IN THE DECAY PARAMETERS = LESS THAN 10 PERCENT   30234001   31
+COMMENT    COMPARE RESULTS WITH MODELS OF HUIZENGA-VANDENBOSCH AND30234001   32
+           OF PONITZ. BETTER AGREEMENT WITH THE LATER ONE.        30234001   33
+STATUS     DATA TAKEN FROM PR/C 6 572 8/72                        30234001   34
+HISTORY    (730621C) FM.                                          30234001   35
+           (930114U) HW.-OBSOLETE KEYWORDS/CODES CONVERTED,       30234001   36
+           MONIT-REF GIVEN IN SUBENT OO1, MAJOR ALTERATIONS IN    30234001   37
+           SUBENTS 020 AND 021.-                                  30234001   38
+ENDBIB              36                                            30234001   39
+COMMON               4          3                                 30234001   40
+EN         EN-RSL     MONIT      MONIT-ERR                        30234001   41
+KEV        KEV        MB         MB                               30234001   42
+25.        5.         832.       26.                              30234001   43
+ENDCOMMON            3                                            30234001   44
+ENDSUBENT           43                                            3023400199999
+SUBENT        30234006     930217                                 30234006    1
+BIB                  1          1                                 30234006    2
+REACTION   (35-BR-79(N,G)35-BR-80-G,,SIG)                         30234006    3
+ENDBIB               1                                            30234006    4
+COMMON               1          3                                 30234006    5
+SPIN J                                                            30234006    6
+NO-DIM                                                            30234006    7
+1.                                                                30234006    8
+ENDCOMMON            3                                            30234006    9
+DATA                 2          1                                 30234006   10
+DATA       DATA-ERR                                               30234006   11
+MB         MB                                                     30234006   12
+540.       66.                                                    30234006   13
+ENDDATA              3                                            30234006   14
+ENDSUBENT           13                                            3023400699999
+ENDENTRY             2                                            3023499999999
+ENTRY            30265     840511                                 30265000    1
+SUBENT        30265001     840511                                 30265001    1
+BIB                 10         21                                 30265001    2
+INSTITUTE  (3HUNKOS)                                              30265001    3
+REFERENCE  (J,AHP,33,363,73) FULL INFORMATION,TABLES              30265001    4
+AUTHOR     (G.PETO,J.CSIKAI,G.M.SHURIET,I.JOZSA,V.ASZTALOS)       30265001    5
+TITLE      AVERAGE CROSS SECTIONS FOR ALPHA-BERYLLIUM NEUTRON     30265001    6
+           SOURCES.                                               30265001    7
+INC-SOURCE (A-BE) ALPHA-BERYLLIUM SOURCES. (PU-BE AND PO-BE).     30265001    8
+METHOD     (ACTIV) ACTIVATION METHOD. THE NEUTRON SOURCE WAS      30265001    9
+           ARRANGED IN A NON-SCATTERING GEOMETRY.                 30265001   10
+MONITOR    THE FOLLOWING ALPHA-BERYLLIUM SOURCES WERE USED =      30265001   11
+            .TWO PU-BE SOURCES WITH NEUTRON YIELDS OF 5.3*10**6N/S30265001   12
+             +-10 PER-CENT AND 5.5*10**5 N/S +-10 PER-CENT.       30265001   13
+            .A PO-BE SOURCE WITH  APPROXIMATELY  10**6N/S.        30265001   14
+           THE NEUTRON FLUX WAS ESTABLISHED TO BE ISOTROPIC BEYOND30265001   15
+           5 CM FROM THE SOURCE CENTRE, USING THE P-31(N,P)SI-31  30265001   16
+           REACTION.                                              30265001   17
+STATUS     DATA ARE FROM ACTA PHYS.AC.SCI.HUNG.33(1973)363.       30265001   18
+HISTORY    (740219C) CA.                                          30265001   19
+ERR-ANALYS (DATA-ERR) ERRORS INCLUDE                              30265001   20
+            .THE UNCERTAINTY OF NEUTRON FLUX DETERMINATION        30265001   21
+            .THE UNCERTAINTY OF COUNTING EFFICIENCY               30265001   22
+            .THE STATISTICAL ERRORS.                              30265001   23
+ENDBIB              21                                            30265001   24
+COMMON               1          3                                 30265001   25
+EN-DUMMY                                                          30265001   26
+MEV                                                               30265001   27
+ 4.5000E+00                                                       30265001   28
+ENDCOMMON            3                                            30265001   29
+ENDSUBENT           28                                            3026500199999
+SUBENT        30265008     840511                                 30265008    1
+BIB                  5          5                                 30265008    2
+REACTION   (35-BR-79(N,G)35-BR-80-G,,SIG,,SPA)                    30265008    3
+INC-SPECT  PU-ALPHA-BE NEUTRONS                                   30265008    4
+DETECTOR   GM COUNTER                                             30265008    5
+PART-DET   (B-) DECAY BETA-                                       30265008    6
+HALF-LIFE  (HL1,35-BR-80-G) ASSUMED BY COMPILER                   30265008    7
+ENDBIB               5                                            30265008    8
+COMMON               1          3                                 30265008    9
+HL1                                                               30265008   10
+MIN                                                               30265008   11
+ 1.7600E+01                                                       30265008   12
+ENDCOMMON            3                                            30265008   13
+DATA                 2          1                                 30265008   14
+DATA       DATA-ERR                                               30265008   15
+MB         MB                                                     30265008   16
+ 6.9000E+01 1.4000E+01                                            30265008   17
+ENDDATA              3                                            30265008   18
+ENDSUBENT           17                                            3026500899999
+ENDENTRY             2                                            3026599999999
+ENTRY            41257     970704                                 41257000    1
+SUBENT        41257001     970704                                 41257001    1
+BIB                 14         21                                 41257001    2
+TITLE      .NEUTRON CROSS-SECTION MEASUREMENTS USING RADON-       41257001    3
+            BERILLIUM NEUTRON SOURCE                              41257001    4
+AUTHOR     (V.S.DEMENTIY,D.V.TIMOSHCHUK)                          41257001    5
+INSTITUTE  (4UKRKFT)                                              41257001    6
+REFERENCE  (J,DOK,27,(9),926,40) MAIN REFERENCE.                  41257001    7
+                                 DATA TABLE IS GIVEN              41257001    8
+DETECTOR   (GEMUC)  GEIGER-MUELLER COUNTERS                       41257001    9
+METHOD     (ACTIV)  ACTIVATION                                    41257001   10
+           (MANGB)  MANGANESE BATH                                41257001   11
+PART-DET   (B-)                                                   41257001   12
+INC-SOURCE (PHOTO)  RN-BE SOURCE. OUTER DIAMETER OF THE SOURCE    41257001   13
+                    IS 18 MM.                                     41257001   14
+INC-SPECT  . AUTHORS GIVE AVERAGE NEUTRON ENERGY AS 200 KEV.      41257001   15
+SAMPLE     .HOLLOW METALLIC CYLINDERS WITH NEUTRON SOURCE PLACED  41257001   16
+            IN THE INNER PART                                     41257001   17
+CORRECTION .CORRECTIONS WERE MADE ON GEOMETRICAL FACTOR,          41257001   18
+            ON BETA-PARTICLES ABSORPTION IN SAMPLES AND IN        41257001   19
+            DETECTOR'S WALLS                                      41257001   20
+ERR-ANALYS .ERRORS ARE NOT AVAILABLE                              41257001   21
+STATUS     (SCSRS)                                                41257001   22
+HISTORY    (970704C)  + +  COMPILED AT THE CENTER - CJD (S.M.) +  41257001   23
+ENDBIB              21                                            41257001   24
+COMMON               1          3                                 41257001   25
+EN-DUMMY                                                          41257001   26
+EV                                                                41257001   27
+   2.000E+5                                                       41257001   28
+ENDCOMMON            3                                            41257001   29
+ENDSUBENT           28                                            4125700199999
+SUBENT        41257015     970704                                 41257015    1
+BIB                  4          4                                 41257015    2
+REACTION   (35-BR-79(N,G)35-BR-80-G,,SIG,,SPA)                    41257015    3
+DECAY-DATA (35-BR-80-G,18.0MIN,B-)                                41257015    4
+SAMPLE     .BR-79  CONCENTRATION IS 0.51                          41257015    5
+HISTORY    (970704T)   CONVERTED FROM SUBENT 80415015             41257015    6
+ENDBIB               4                                            41257015    7
+NOCOMMON             0          0                                 41257015    8
+DATA                 1          1                                 41257015    9
+DATA                                                              41257015   10
+B                                                                 41257015   11
+ 3.0000E-02                                                       41257015   12
+ENDDATA              3                                            41257015   13
+ENDSUBENT           12                                            4125701599999
+ENDENTRY             2                                            4125799999999
+ENTRY            62495     820331                                 62495000    1
+SUBENT        62495001     820331                                 62495001    1
+BIB                  5          6                                 62495001    2
+INSTITUTE  (2UK OXF,1CANMON)                                      62495001    3
+REFERENCE  (J,NAT,161,727,4805)                                   62495001    4
+AUTHOR     (R.ALLEN,G.R.BISHOP,P.DEMERS,H.HALBAN)                 62495001    5
+INC-SOURCE (PHOTO) TH-D2O SOURCE (ENERGY SPREAD 57 KEV)           62495001    6
+                   TH-BE SOURCE (ENERGY SPREAD 25 KEV)            62495001    7
+STATUS     (SCSRS)                                                62495001    8
+ENDBIB               6                                            62495001    9
+NOCOMMON             0          0                                 62495001   10
+ENDSUBENT            9                                            6249500199999
+SUBENT        62495007     820331                                 62495007    1
+BIB                  2          3                                 62495007    2
+REACTION   (35-BR-79(N,G)35-BR-80-G,,SIG,,SPA/REL)                62495007    3
+             RATIO TO CROSS SECTION AT 900 KEV (TH-BE SOURCE)     62495007    4
+DECAY-DATA (35-BR-80-G,18.MIN)                                    62495007    5
+ENDBIB               3                                            62495007    6
+NOCOMMON             0          0                                 62495007    7
+DATA                 3          1                                 62495007    8
+EN-MEAN    DATA       DATA-ERR                                    62495007    9
+MEV        NO-DIM     NO-DIM                                      62495007   10
+ 2.2000E-01 2.0000E+00 4.0000E-01                                 62495007   11
+ENDDATA              3                                            62495007   12
+ENDSUBENT           11                                            6249500799999
+ENDENTRY             2                                            6249599999999
+ENTRY            80415     830822                                 80415000    1
+SUBENT        80415001     830822                                 80415001    1
+BIB                  5          6                                 80415001    2
+INSTITUTE  (4CCPUFT)                                              80415001    3
+REFERENCE  (J,DOK,27,926,40)                                      80415001    4
+AUTHOR     (V.S.DEMENTI,D.V.TIMOSHUK)                             80415001    5
+INC-SOURCE (PHOTO)RN-BE SOURCE. AUTHORS GIVE AVG. ENERGY AS 200   80415001    6
+            KEV                                                   80415001    7
+STATUS     (SCSRS)                                                80415001    8
+ENDBIB               6                                            80415001    9
+NOCOMMON             0          0                                 80415001   10
+ENDSUBENT            9                                            8041500199999
+SUBENT        80415015     830822                                 80415015    1
+BIB                  1          1                                 80415015    2
+REACTION   (35-BR-79(N,G)35-BR-80-G,,SIG,,SPA)                    80415015    3
+ENDBIB               1                                            80415015    4
+NOCOMMON             0          0                                 80415015    5
+DATA                 2          1                                 80415015    6
+EN-DUMMY   DATA                                                   80415015    7
+MEV        B                                                      80415015    8
+ 2.0000E-01 3.0000E-02                                            80415015    9
+ENDDATA              3                                            80415015   10
+ENDSUBENT            9                                            8041501599999
+ENDENTRY             2                                            8041599999999
+ENTRY            80420     830822                                 80420000    1
+SUBENT        80420001     830822                                 80420001    1
+BIB                  6          6                                 80420001    2
+INSTITUTE  (4CCPRI )                                              80420001    3
+REFERENCE  (J,DOK,48,555,45)                                      80420001    4
+AUTHOR     (M.G.MESCHERYAKOV)                                     80420001    5
+INC-SOURCE (D-D) D(D,N) SOURCE. 1-MEV DEUTERONS.                  80420001    6
+MONITOR    RELATIVE VALUES GIVEN ASSIGNING V-51 VALUE AS 1.       80420001    7
+STATUS     (SCSRS)                                                80420001    8
+ENDBIB               6                                            80420001    9
+NOCOMMON             0          0                                 80420001   10
+ENDSUBENT            9                                            8042000199999
+SUBENT        80420009     830822                                 80420009    1
+BIB                  1          1                                 80420009    2
+REACTION   (35-BR-79(N,G)35-BR-80-G,,SIG,,REL)                    80420009    3
+ENDBIB               1                                            80420009    4
+NOCOMMON             0          0                                 80420009    5
+DATA                 4          1                                 80420009    6
+EN         DATA       DATA-ERR   HL                               80420009    7
+MEV        NO-DIM     PER-CENT   MIN                              80420009    8
+ 2.7000E+00 2.5800E+01 2.0000E+01 1.8000E+01                      80420009    9
+ENDDATA              3                                            80420009   10
+ENDSUBENT            9                                            8042000999999
+ENDENTRY             2                                            8042099999999
+ENDREQUEST           1                                            Z999999999999

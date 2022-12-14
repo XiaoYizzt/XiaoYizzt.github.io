@@ -1,0 +1,380 @@
+REQUEST           1001   20010914          3     140111               0  0    0
+ENTRY            10168   20001214   20010328                      10168000    1
+SUBENT        10168001   20001214   20010328                      10168001    1
+BIB                 12         27                                 10168001    2
+INSTITUTE  (1USALRL)                                              10168001    3
+REFERENCE  (J,NP/A,169,95,197101)                                 10168001    4
+           (J,NP/A,153,413,1970) Description of experiment B      10168001    5
+           (R,UCRL-51060,197105) Description of experiment C      10168001    6
+AUTHOR     (F.P.CRANSTON,D.H.WHITE)                               10168001    7
+TITLE      Thermal neutron capture cross sections in calcium      10168001    8
+FACILITY   (REAC) LLR pool-type reactor.                          10168001    9
+INC-SOURCE (THCOL)                                                10168001   10
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)                         10168001   11
+SAMPLE     Experiment A- CaCO3 sample                             10168001   12
+                      B- Sample enriched to 50.43% 40Ca and       10168001   13
+                         43.35% 46Ca.                             10168001   14
+                      C- Two samples of CaCO3 enriched to 94.54%  10168001   15
+                         42Ca and 98.61% 44Ca.                    10168001   16
+DETECTOR   Experiment A- Moxon-Rae detector                       10168001   17
+                      B- Ge(Li) and NaI(Tl) detectors             10168001   18
+                      C- Ge(Li) and NaI(Tl) detectors             10168001   19
+ERR-ANALYS (DATA-ERR) Cross section uncertainties based on an     10168001   20
+            assumed 10% uncertainty in the gamma-ray intensities  10168001   21
+            coupled with uncertainty in the least-squares         10168001   22
+            normalization.                                        10168001   23
+STATUS     (APRVD) Approved by author                             10168001   24
+HISTORY    (19720831C)                                            10168001   25
+           (19750902A) BIB changes                                10168001   26
+           (19781116A) BIB changes. COMMON added.                 10168001   27
+           (19820527A) Converted to REACTION formalism            10168001   28
+           (20001214A) Converted to new date formats, lower case. 10168001   29
+ENDBIB              27                                            10168001   30
+COMMON               2          3                                 10168001   31
+MONIT      MONIT-ERR                                              10168001   32
+B          B                                                      10168001   33
+ 98.8       0.3                                                   10168001   34
+ENDCOMMON            3                                            10168001   35
+ENDSUBENT           34                                            1016800199999
+SUBENT        10168005   20001214   20010328                      10168005    1
+BIB                  2          5                                 10168005    2
+REACTION   (20-CA-44(N,G)20-CA-45,,SIG,,MXW)                      10168005    3
+ANALYSIS   From consistent least-squares adjustment of all data.  10168005    4
+            Experiment A value = 1.10+-0.20 b.                    10168005    5
+            Experiment B value = 1.05+-0.13 b.                    10168005    6
+            Experiment C value = 1.04+-0.14 b.                    10168005    7
+ENDBIB               5                                            10168005    8
+NOCOMMON             0          0                                 10168005    9
+DATA                 3          1                                 10168005   10
+EN-DUMMY   DATA       DATA-ERR                                    10168005   11
+EV         B          B                                           10168005   12
+0.025      1.03       0.09                                        10168005   13
+ENDDATA              3                                            10168005   14
+ENDSUBENT           13                                            1016800599999
+ENDENTRY             2                                            1016899999999
+ENTRY            10608     831014                                 10608000    1
+SUBENT        10608001     831014                                 10608001    1
+BIB                 12         23                                 10608001    2
+INSTITUTE  (1CANCPO)                                              10608001    3
+REFERENCE  (J,JIN,32,2839,7010)                                   10608001    4
+AUTHOR     (G.H.E.SIMS,D.J.JUHNKE)                                10608001    5
+TITLE      THE THERMAL NEUTRON CAPTURE CROSS-SECTIONS AND         10608001    6
+           RESONANCE CAPTURE INTEGRALS OF CA-44, NI-62, YB-168,   10608001    7
+           YB-174, TM-169, AND TL-203.                            10608001    8
+INC-SPECT  WELL-THERMALISED POSITION OUTSIDE CALANDRIA OF REACTOR 10608001    9
+N-SOURCE   (REAC)CHALK RIVER NRX REACTOR                          10608001   10
+METHOD     (ACTIV) SAMPLES IRRADIATED WITH AND WITHOUT CADMIUM    10608001   11
+           COVER. 1/V DEPENDENCE ASSUMED IN SUB-CADMIUM REGION    10608001   12
+           2200 M/SEC CROSS SECTIONS AND RESONANCE INTEGRALS      10608001   13
+           CALCULATED USING WESTCOTT CONVENTION                   10608001   14
+DETECTOR   (SCIN) LIQUID SCINTILLATORS USED WITH BETA-EMITTERS    10608001   15
+           (NAICR) SODIUM-IODIDE CRYSTAL SCINTILLATOR USED WITH   10608001   16
+            GAMMA-EMITTERS.                                       10608001   17
+ERR-ANALYS DATA ERRORS ARE STATISTICAL ERRORS.                    10608001   18
+MONITOR    (27-CO-59(N,G)27-CO-60,,SIG)                           10608001   19
+            THERMAL CO-59 CROSS SECTION OF 37.5 BARNS             10608001   20
+           (27-CO-59(N,G)27-CO-60,,RI)                            10608001   21
+            CO-59 RESONANCE INTEGRAL OF 69.9 BARNS                10608001   22
+HISTORY    (760517C)                                              10608001   23
+           (831014A) CONVERTED TO REACTION FORMALISM              10608001   24
+STATUS     (APRVD) APPROVED BY AUTHOR 760716                      10608001   25
+ENDBIB              23                                            10608001   26
+COMMON               2          3                                 10608001   27
+MONIT1     MONIT2                                                 10608001   28
+B          B                                                      10608001   29
+ 37.5       69.9                                                  10608001   30
+ENDCOMMON            3                                            10608001   31
+ENDSUBENT           30                                            1060800199999
+SUBENT        10608002     831014                                 10608002    1
+BIB                  2          2                                 10608002    2
+REACTION   (20-CA-44(N,G)20-CA-45,,SIG)                           10608002    3
+STATUS     (DEP,10608003) FROM MAXWELLIAN SPECTRUM MEASUREMENT.   10608002    4
+ENDBIB               2                                            10608002    5
+NOCOMMON             0          0                                 10608002    6
+DATA                 3          1                                 10608002    7
+EN         DATA       DATA-ERR                                    10608002    8
+EV         B          B                                           10608002    9
+ 0.0253     0.88       0.01                                       10608002   10
+ENDDATA              3                                            10608002   11
+ENDSUBENT           10                                            1060800299999
+SUBENT        10608003     831014                                 10608003    1
+BIB                  1          2                                 10608003    2
+REACTION   (20-CA-44(N,G)20-CA-45,,SIG,,MXW)                      10608003    3
+            EFFECTIVE CROSS SECTION                               10608003    4
+ENDBIB               2                                            10608003    5
+NOCOMMON             0          0                                 10608003    6
+DATA                 3          1                                 10608003    7
+EN-DUMMY   DATA       DATA-ERR                                    10608003    8
+EV         B          B                                           10608003    9
+ 0.0253     0.88       0.01                                       10608003   10
+ENDDATA              3                                            10608003   11
+ENDSUBENT           10                                            1060800399999
+ENDENTRY             3                                            1060899999999
+ENTRY            11426     820813                                 11426000    1
+SUBENT        11426001     820813                                 11426001    1
+BIB                  6          8                                 11426001    2
+INSTITUTE  (1USAORL)                                              11426001    3
+REFERENCE  (C,55ANS,,(203),5512)                                  11426001    4
+AUTHOR     (W.A.BROOKSBANK,G.W.LEDDICOTTE,W.S.LYON,S.A.REYNOLDS)  11426001    5
+TITLE      SLOW NEUTRON ACTIVATION CROSS SECTIONS OF SEVERAL      11426001    6
+           ELEMENTS.                                              11426001    7
+STATUS     (SCSRS)                                                11426001    8
+HISTORY    (760715T) TRANSLATED FROM SCISRS                       11426001    9
+           (820813A) CONVERTED TO REACTION FORMALISM              11426001   10
+ENDBIB               8                                            11426001   11
+NOCOMMON             0          0                                 11426001   12
+ENDSUBENT           11                                            1142600199999
+SUBENT        11426003     820813                                 11426003    1
+BIB                  4          6                                 11426003    2
+REACTION   (20-CA-44(N,G)20-CA-45,,SIG,,SPA)                      11426003    3
+DETECTOR   (FISCH)    IONIZATION CHAMBER                          11426003    4
+MONITOR    (27-CO-59(N,G)27-CO-60,,SIG)                           11426003    5
+            AS RENORMALIZED BY LYON,NUC.SCI.ENG.8,                11426003    6
+            378(1960).                                            11426003    7
+INC-SPECT   REACTOR SPECTRUM                                      11426003    8
+ENDBIB               6                                            11426003    9
+NOCOMMON             0          0                                 11426003   10
+DATA                 4          1                                 11426003   11
+EN-DUMMY   DATA       DATA-ERR   MONIT                            11426003   12
+MEV        B          PER-CENT   B                                11426003   13
+ 2.53   -08 8.5    -01 15.        36.7                            11426003   14
+ENDDATA              3                                            11426003   15
+ENDSUBENT           14                                            1142600399999
+ENDENTRY             2                                            1142699999999
+ENTRY            11447     850410                                 11447000    1
+SUBENT        11447001     850410                                 11447001    1
+BIB                  6          8                                 11447001    2
+INSTITUTE  (1USAANL)                                              11447001    3
+REFERENCE  (J,PR,72,888,4711)                                     11447001    4
+AUTHOR     (L.SEREN,H.N.FRIEDLANDER,S.H.TURKEL)                   11447001    5
+METHOD     (ACTIV)                                                11447001    6
+STATUS     (SCSRS)                                                11447001    7
+HISTORY    (760715T) TRANSLATED FROM SCISRS                       11447001    8
+           (820813A) CONVERTED TO REACTION FORMALISM              11447001    9
+           (840410A) ENERGY CORRECTED.                            11447001   10
+ENDBIB               8                                            11447001   11
+COMMON               1          3                                 11447001   12
+EN-DUMMY                                                          11447001   13
+EV                                                                11447001   14
+ 0.0253                                                           11447001   15
+ENDCOMMON            3                                            11447001   16
+ENDSUBENT           15                                            1144700199999
+SUBENT        11447014     820813                                 11447014    1
+BIB                  4          4                                 11447014    2
+REACTION   (20-CA-44(N,G)20-CA-45,,SIG,,SPA)                      11447014    3
+SAMPLE     CA-F(2)                                                11447014    4
+INC-SPECT  REACTOR                                                11447014    5
+DECAY-DATA (20-CA-45,180.D,B-)                                    11447014    6
+ENDBIB               4                                            11447014    7
+NOCOMMON             0          0                                 11447014    8
+DATA                 2          1                                 11447014    9
+DATA       DATA-ERR                                               11447014   10
+B          PER-CENT                                               11447014   11
+ 6.3    -01 20.                                                   11447014   12
+ENDDATA              3                                            11447014   13
+ENDSUBENT           12                                            1144701499999
+ENDENTRY             2                                            1144799999999
+ENTRY            20215     831121                                 20215000    1
+SUBENT        20215001     831121                                 20215001    1
+BIB                 15         42                                 20215001    2
+INSTITUTE  (2NEDUTR)                                              20215001    3
+REFERENCE  (J,NP/A,102,226,6709)                                  20215001    4
+AUTHOR     (H.GRUPPELAAR, P.SPILLING)                             20215001    5
+TITLE      - THERMAL NEUTRON CAPTURE GAMMA-RAYS FROM NATURAL      20215001    6
+             CALCIUM -                                            20215001    7
+FACILITY   .HIGH FLUX REACTOR AT PETTEN.                          20215001    8
+INC-SOURCE (REAC )    TARGET PLACED IN A HORIZONTAL RADIAL BEAM   20215001    9
+            OF THE REACTOR.                                       20215001   10
+           .THE NEUTRON FILTER, CONSISTING OF QUARTZ              20215001   11
+            AND BISMUTH SINGLE CRYSTALS, WAS COOLED TO            20215001   12
+            77 KELVIN BY LIQUID NITROGEN.                         20215001   13
+            NEUTRON FLUX = 1.E+7/CM**2/SEC.                       20215001   14
+SAMPLE     .COMPOSITION 3 GRAMM CA-O AND 2.5 GRAMM CA40-O         20215001   15
+            (99.97 PERCENT CA-40 ENRICHMENT).                     20215001   16
+DETECTOR   (GELI )    5 CM**3 GE(LI) DETECTOR.                    20215001   17
+MONITOR    .THE INTENSITIES ARE NORMALIZED SUCH THAT THE          20215001   18
+            SUM OF THE INTENSITIES OF THE 1943 AND 2010           20215001   19
+            KEV GAMMA-RAY LINES IN CA-41 IS 100.                  20215001   20
+           .THE EFFICIENCY CURVES FOR FULL-ENERGY,                20215001   21
+            SINGLE-ESCAPE AND PAIR PEAKS WERE OBTAINED            20215001   22
+            WITH SOURCES OF KNOWN INTENSITIES AND WITH            20215001   23
+            GAMMA-RAYS FROM CL-35(N,GAMMA) AND                    20215001   24
+            S-32(N,GAMMA) REACTIONS, DETAILS IN                   20215001   25
+            NUCL.PHYS.,A102(1967)226.                             20215001   26
+           .USING THE THERMAL-NEUTRON CAPTURE CROSS-              20215001   27
+            SECTION FOR NATURAL CA (= 0.44 BARN, BNL-325          20215001   28
+            (1958)6 AND THE RELATIVE GAMMA-INTENSITIES            20215001   29
+            THE (N,GAMMA) CROSS-SECTIONS FOR CA-40,               20215001   30
+            CA-42, CA-43, CA-44 COULD BE DERIVED.                 20215001   31
+PART-DET   (G    )    GAMMAS                                      20215001   32
+COMMENT    .DECAY SCHEME OF CA-41 AND A PARTIAL DECAY SCHEME OF   20215001   33
+            CA-45 CONSTRUCTED, DETAILS GIVEN IN NUCL.PHYS.,       20215001   34
+            A102(1967)226.                                        20215001   35
+           .THE Q-VALUES FOR THE REACTIONS CA-40(N,GAMMA)CA-41    20215001   36
+            AND CA-44(N,GAMMA)CA-45 WERE DETERMINED AS            20215001   37
+            Q = 8363.4 +- 1.0 AND Q = 7418.1 +- 3.0 KEV,          20215001   38
+            RESPECTIVELY.                                         20215001   39
+STATUS     .DATA FROM NUCL.PHYS.,A102(1967)226.                   20215001   40
+HISTORY    (721003C)                                              20215001   41
+           (740521E)                                              20215001   42
+CORRECTION .GAMMA-RAYS CORRECTED FOR RECOIL LOSSES.               20215001   43
+ERR-ANALYS .NO DETAILS GIVEN.                                     20215001   44
+ENDBIB              42                                            20215001   45
+COMMON               1          3                                 20215001   46
+EN-DUMMY                                                          20215001   47
+MEV                                                               20215001   48
+ 2.5300E-08                                                       20215001   49
+ENDCOMMON            3                                            20215001   50
+ENDSUBENT           49                                            2021500199999
+SUBENT        20215009     831121                                 20215009    1
+BIB                  3          6                                 20215009    2
+REACTION   (20-CA-44(N,G)20-CA-45,,SIG,,SPA)                      20215009    3
+ANALYSIS   .USING THE THERMAL-NEUTRON CAPTURE CROSS-SECTION FOR   20215009    4
+            NATURAL CA (0.44 BARN, BNL-325(1958)6) AND THE        20215009    5
+            RELATIVE INTENSITIES OF THE OBSERVED GAMMA-LINES.     20215009    6
+HISTORY    (721003C)                                              20215009    7
+           (740521E)                                              20215009    8
+ENDBIB               6                                            20215009    9
+NOCOMMON             0          0                                 20215009   10
+DATA                 1          1                                 20215009   11
+DATA                                                              20215009   12
+B                                                                 20215009   13
+ 1.4000E+00                                                       20215009   14
+ENDDATA              3                                            20215009   15
+ENDSUBENT           14                                            2021500999999
+ENDENTRY             2                                            2021599999999
+ENTRY            20301     840409                                 20301000    1
+SUBENT        20301001     840409                                 20301001    1
+BIB                 14         29                                 20301001    2
+INSTITUTE  (2JPNJAE)                                              20301001    3
+            RADIOISOTOPE SCHOOL, TOKYO.                           20301001    4
+REFERENCE  (J,NIM,109,493,7306)                                   20301001    5
+AUTHOR     (H.ISHIKAWA)                                           20301001    6
+TITLE      -MEASUREMENTS OF NEUTRON REACTION CROSS-SECTIONS USING 20301001    7
+            A LIQUID SCINTILLATION SPECTROMETER.-                 20301001    8
+INC-SOURCE (REAC )    JRR-2, JRR-3 REACTORS AT TOKAI.             20301001    9
+INC-SPECT   REACTOR THERMAL NEUTRON, CADMIUM RATIO OF AROUND 200. 20301001   10
+METHOD     (ACTIV)    ACTIVATION.  ACTIVITIES HAVE BEEN MEASURED  20301001   11
+            BY VARIOUS WAY SUCH AS DIRECT COMPARISON, CHANNEL     20301001   12
+            RATIO, EXTERNAL STANDARD, INTERNAL STANDARD AND       20301001   13
+            SPILL OVER METHOD.                                    20301001   14
+DETECTOR   (SCIN )    LIQUID SCINTILLATION SPECTROMETER,          20301001   15
+            PACKARD MODEL 3320 TRICARB.  INSTA-GEL(PACKARD INC.)  20301001   16
+            AS SCINTILLATOR SOLUTION.                             20301001   17
+           (NAICR)    3 INCH DIAM. 3 INCH NAI(TL) CRYSTAL FOR     20301001   18
+            STANDARD RADIOACTIVITY OF CR-51.                      20301001   19
+ANALYSIS   .AVERAGE VALUE OF VALUES OBTAINED BY VARIOUS METHODS.  20301001   20
+MONITOR    (24-CR-50(N,G)24-CR-51,,SIG)                           20301001   21
+            = 15.9 B AT THERMAL. T(1/2) = 27.8 DAY                20301001   22
+            FOR CR-51.                                            20301001   23
+PART-DET   (B-   )    DECAY BETA-.                                20301001   24
+STATUS     .TABLE 5 OF NUCL.INSTR. AND METH.109(1973)493          20301001   25
+HISTORY    (730921C)                                              20301001   26
+           (740626E)                                              20301001   27
+           (840106U) A.P.T. JAPAN CODE CHANGED TO JPN             20301001   28
+           (840106E)                                              20301001   29
+ERR-ANALYS  UNCERTAINTIES ON RADIOACTIVITY, NUMBER OF TARGET ATOMS20301001   30
+            NEUTRON FLUX DENSITY AND HALF-LIFE WERE INCLUDED.     20301001   31
+ENDBIB              29                                            20301001   32
+COMMON               1          3                                 20301001   33
+EN-DUMMY                                                          20301001   34
+MEV                                                               20301001   35
+ 2.5300E-08                                                       20301001   36
+ENDCOMMON            3                                            20301001   37
+ENDSUBENT           36                                            2030100199999
+SUBENT        20301005     831122                                 20301005    1
+BIB                  3          4                                 20301005    2
+REACTION   (20-CA-44(N,G)20-CA-45,,SIG,,SPA)                      20301005    3
+SAMPLE      NATURAL, CA-CO(3).                                    20301005    4
+HISTORY    (730921C)                                              20301005    5
+           (740626E)                                              20301005    6
+ENDBIB               4                                            20301005    7
+NOCOMMON             0          0                                 20301005    8
+DATA                 2          1                                 20301005    9
+DATA       DATA-ERR                                               20301005   10
+B          B                                                      20301005   11
+ 7.8000E-01 1.0000E-02                                            20301005   12
+ENDDATA              3                                            20301005   13
+ENDSUBENT           12                                            2030100599999
+ENDENTRY             2                                            2030199999999
+ENTRY            30356     930426                                 30356000    1
+SUBENT        30356001     930426                                 30356001    1
+BIB                 17         53                                 30356001    2
+TITLE      ODD-EVEN EFFECTS IN RADIATIVE NEUTRON CAPTURE BY       30356001    3
+           CA-42, CA-43 AND CA-44.                                30356001    4
+AUTHOR     (A.R.DEL.MUSGROVE,E.J.ALLEN,J.W.BOLDEMAN,D.M.H.CHAN,   30356001    5
+           R.L.MACKLIN)                                           30356001    6
+INSTITUTE  (1USAORL) LAST AUTHOR'S ADDRESS                        30356001    7
+           (3AULAUA)                                              30356001    8
+REFERENCE  (J,NP/A,279,317,7703) FINAL                            30356001    9
+           (J,NSE,82,(2),230,82) NO CORRECTION FACTOR FOR NEUTRON 30356001   10
+            CAPTURE CROSS-SECTION IS REQUIRED.                    30356001   11
+           (W,MUSGROVE,760428) PREPRINT, EXFOR ENTRY MADE.        30356001   12
+           (P,AAEC/PR-41,37,75) SHORT NOTE.                       30356001   13
+           (C,73KIEV,2,275,7305) PRELIMINARY VALUES, SUPERSEDED.  30356001   14
+           (C,75KIEV,3,233,7505) PRELIM. STF,D,AV.G-WID.SUPERSEDED30356001   15
+SAMPLE     ENRICHED SAMPLE OF CA-CO3,                             30356001   16
+                                CA-42      CA-43      CA-44       30356001   17
+             ENRICHMENT(PERC.)  93.65      83.73      98.60       30356001   18
+             THICKNESS(ATOM/B)  0.0084     0.0058     0.0084      30356001   19
+MONITOR    (3-LI-6(N,T)2-HE-4,,SIG) FOR NORMALIZATION OF CAPT.DATA30356001   20
+FACILITY   (LINAC) ORNL ELECTRON LINEAR ACCELERATOR, ORLEA.       30356001   21
+INC-SOURCE (PHOTO)                                                30356001   22
+METHOD     (TOF) TIME OF FLIGHT, PATH = 40 M.                     30356001   23
+DETECTOR   (SCIN) TWO NON-HYDROGENOUS LIQUID SCINTILLATORS WITH   30356001   24
+           LOW NEUTRON SENSITIVITY.  THE EFFICIENCY OF THE        30356001   25
+           DETECTOR WAS PROPORTIONAL TO THE TOTAL GAMMA-RAY ENERGY30356001   26
+           RELEASE.                                               30356001   27
+           .LI-6 GLASS SCINTILLATOR, 0.5 MM THICK, FOR NEUTRON    30356001   28
+           FLUX MONITORING.                                       30356001   29
+PART-DET   (G) GAMMAS.                                            30356001   30
+ANALYSIS   (AREA) MONTE CARLO AREA ANALYSIS USING ORNL/RPI CODE.  30356001   31
+           FOR UNRESOLVED WIDTH RESONANCES, AN ESTIMATE OF THE    30356001   32
+           NEUTRON-WIDTH IS STILL REQUIRED IN THE PROGRAM TO      30356001   33
+           CALCULATE THE SELF-SHIELDING CORRECTIONS.              30356001   34
+           THE UNANALYSED DATA OF GOOD,PRIV.COMM. VIA ORNL-DWG    30356001   35
+           71-12024, 12025, 1206, WERE USED TO ESTIMATE A NUMBER  30356001   36
+           OF FURTHER NEUTRON-WIDTHS.                             30356001   37
+CORRECTION MULTIPLE SCATTERING AND SELF-SHIELDING WERE CORRECTED  30356001   38
+           IN THIS MONTE-CARLO CODE.                              30356001   39
+ERR-ANALYS THE ABSOLUTE NORMALISATION ERROR (ABOUT 10 PERC.) IS   30356001   40
+           LARGEST SOURCE OF ERROR IN THE EXPERIMENTAL VALUE OF   30356001   41
+           THE CAPTURE KERNEL.  STATISTICAL ERRORS ARE SMALL(1-2  30356001   42
+           PERCENT FOR CA42,43 AND LESS 5 PERC. FOR CA44). ERRORS 30356001   43
+           IN THE SELF SHIELDING CORRECTION ARE ALSO SMALL(4PERC).30356001   44
+COMMENT     COMPILER'S NOTE = CAPTURE YIELD DATA ARE PRESENTED,BUT30356001   45
+            NOT CAPTURE CROSS-SECTIONS.                           30356001   46
+STATUS     (APRVD) APPROVED BY ALLEN, 77/02/04.                   30356001   47
+HISTORY    (760928C) KO.-                                         30356001   48
+           (770325U) KO.-'APPROVED' ADDED. AMENDMENT AFTER MEMO   30356001   49
+            4C-1/111(INSERT 'STANDARD' FOR SUBENT.003,6, AND9).-  30356001   50
+           (790207U) KO.-ADD FINAL REF.+.-                        30356001   51
+           (800117U) KO. -COSMETIC CORRECTION IN BIB. -           30356001   52
+           (821101U) DG.-INSERTION OF CORRIGENDUM IN REFERENCE,   30356001   53
+            CONVERSION FROM ISO-QUANT TO REACTION FORMALISM.-     30356001   54
+           (930202U) HW.-SEQUENCE INSTITUTE CODES ALTERED.-       30356001   55
+ENDBIB              53                                            30356001   56
+NOCOMMON                                                          30356001   57
+ENDSUBENT           56                                            3035600199999
+SUBENT        30356009     840530                                 30356009    1
+BIB                  3          3                                 30356009    2
+REACTION   (20-CA-44(N,G)20-CA-45,,SIG,,AV)                       30356009    3
+STATUS     DATA FROM TABLE 5 OF A PREPRINT SUBMITTED TO NUCL.PHYS.30356009    4
+HISTORY    (821101U) DG.-CONVERT.FROM ISO-QUANT TO REACTION FORM.-30356009    5
+ENDBIB               3                                            30356009    6
+NOCOMMON             0          0                                 30356009    7
+DATA                 4          8                                 30356009    8
+EN-MIN     EN-MAX     DATA       DATA-ERR                         30356009    9
+KEV        KEV        MB         MB                               30356009   10
+ 2.5000E+00 1.0000E+01 0.0000E+00                                 30356009   11
+ 1.0000E+01 2.0000E+01 1.9000E+01 3.0000E+00                      30356009   12
+ 2.0000E+01 3.0000E+01 1.5300E+01 3.0000E+00                      30356009   13
+ 3.0000E+01 4.0000E+01 0.0000E+00                                 30356009   14
+ 4.0000E+01 5.0000E+01 7.1000E+00 1.0000E+00                      30356009   15
+ 5.0000E+01 6.0000E+01 1.6600E+01 3.0000E+00                      30356009   16
+ 6.0000E+01 8.0000E+01 4.4000E+00 1.0000E+00                      30356009   17
+ 8.0000E+01 1.0000E+02 2.2000E+00 5.0000E-01                      30356009   18
+ENDDATA             10                                            30356009   19
+ENDSUBENT           18                                            3035600999999
+ENDENTRY             2                                            3035699999999
+ENDREQUEST           1                                            Z999999999999

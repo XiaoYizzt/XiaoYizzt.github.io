@@ -1,0 +1,37 @@
+REQUEST           1001   20010914          3     141238               0  0    0
+ENTRY            12604     830808                                 12604000    1
+SUBENT        12604001     830808                                 12604001    1
+BIB                 11         13                                 12604001    2
+INSTITUTE  (1CANCRC)                                              12604001    3
+REFERENCE  (J,CJP,38,1690,60)                                     12604001    4
+AUTHOR     (G.MILTON,W.GRUMMITT)                                  12604001    5
+TITLE      THE 'REACTOR' NEUTRON CAPTURE CROSS SECTION OF Y-91    12604001    6
+N-SOURCE   (REAC) NRX REACTOR                                     12604001    7
+INC-SPECT  REACTOR SPECTRUM                                       12604001    8
+DETECTOR   (SCIN) SCINTILLATION SPECTROMETER                      12604001    9
+DECAY-DATA (39-Y-91-G,58.D,B-,1540.)                              12604001   10
+           (39-Y-92,3.6HR,B-,3600.,,B-,2700.,,B-,1300.)           12604001   11
+SAMPLE     Y-91 IN SUPERPURE AL AND FE                            12604001   12
+MONITOR    (27-CO-59(N,G)27-CO-60,,SIG,,SPA)                      12604001   13
+HISTORY    (780410C)                                              12604001   14
+           (820826U) DECAY DATA CORRECTED                         12604001   15
+ENDBIB              13                                            12604001   16
+COMMON               2          3                                 12604001   17
+EN-DUMMY   MONIT                                                  12604001   18
+EV         B                                                      12604001   19
+0.0253     37.0                                                   12604001   20
+ENDCOMMON            3                                            12604001   21
+ENDSUBENT           20                                            1260400199999
+SUBENT        12604002     780508                                 12604002    1
+BIB                  1          1                                 12604002    2
+REACTION   (39-Y-91(N,G)39-Y-92,,SIG,,SPA)                        12604002    3
+ENDBIB               1                                            12604002    4
+NOCOMMON                                                          12604002    5
+DATA                 2          1                                 12604002    6
+DATA       DATA-ERR                                               12604002    7
+B          B                                                      12604002    8
+1.4        0.3                                                    12604002    9
+ENDDATA              3                                            12604002   10
+ENDSUBENT            9                                            1260400299999
+ENDENTRY             2                                            1260499999999
+ENDREQUEST           1                                            Z999999999999

@@ -1,0 +1,479 @@
+REQUEST           1001   20010914          3     140124               0  0    0
+ENTRY            10168   20001214   20010328                      10168000    1
+SUBENT        10168001   20001214   20010328                      10168001    1
+BIB                 12         27                                 10168001    2
+INSTITUTE  (1USALRL)                                              10168001    3
+REFERENCE  (J,NP/A,169,95,197101)                                 10168001    4
+           (J,NP/A,153,413,1970) Description of experiment B      10168001    5
+           (R,UCRL-51060,197105) Description of experiment C      10168001    6
+AUTHOR     (F.P.CRANSTON,D.H.WHITE)                               10168001    7
+TITLE      Thermal neutron capture cross sections in calcium      10168001    8
+FACILITY   (REAC) LLR pool-type reactor.                          10168001    9
+INC-SOURCE (THCOL)                                                10168001   10
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)                         10168001   11
+SAMPLE     Experiment A- CaCO3 sample                             10168001   12
+                      B- Sample enriched to 50.43% 40Ca and       10168001   13
+                         43.35% 46Ca.                             10168001   14
+                      C- Two samples of CaCO3 enriched to 94.54%  10168001   15
+                         42Ca and 98.61% 44Ca.                    10168001   16
+DETECTOR   Experiment A- Moxon-Rae detector                       10168001   17
+                      B- Ge(Li) and NaI(Tl) detectors             10168001   18
+                      C- Ge(Li) and NaI(Tl) detectors             10168001   19
+ERR-ANALYS (DATA-ERR) Cross section uncertainties based on an     10168001   20
+            assumed 10% uncertainty in the gamma-ray intensities  10168001   21
+            coupled with uncertainty in the least-squares         10168001   22
+            normalization.                                        10168001   23
+STATUS     (APRVD) Approved by author                             10168001   24
+HISTORY    (19720831C)                                            10168001   25
+           (19750902A) BIB changes                                10168001   26
+           (19781116A) BIB changes. COMMON added.                 10168001   27
+           (19820527A) Converted to REACTION formalism            10168001   28
+           (20001214A) Converted to new date formats, lower case. 10168001   29
+ENDBIB              27                                            10168001   30
+COMMON               2          3                                 10168001   31
+MONIT      MONIT-ERR                                              10168001   32
+B          B                                                      10168001   33
+ 98.8       0.3                                                   10168001   34
+ENDCOMMON            3                                            10168001   35
+ENDSUBENT           34                                            1016800199999
+SUBENT        10168007   20001214   20010328                      10168007    1
+BIB                  2          3                                 10168007    2
+REACTION   (20-CA-48(N,G)20-CA-49,,SIG,,MXW)                      10168007    3
+ANALYSIS   From consistent least-squares adjustment of all data.  10168007    4
+            Experiment B value = 1.14+-0.14 b.                    10168007    5
+ENDBIB               3                                            10168007    6
+NOCOMMON             0          0                                 10168007    7
+DATA                 3          1                                 10168007    8
+EN-DUMMY   DATA       DATA-ERR                                    10168007    9
+EV         B          B                                           10168007   10
+0.025      1.09       0.14                                        10168007   11
+ENDDATA              3                                            10168007   12
+ENDSUBENT           11                                            1016800799999
+ENDENTRY             2                                            1016899999999
+ENTRY            11562     830412                                 11562000    1
+SUBENT        11562001     830412                                 11562001    1
+BIB                  7          8                                 11562001    2
+INSTITUTE  (1USABNL)                                              11562001    3
+REFERENCE  (J,PR,91,1423,5309)                                    11562001    4
+AUTHOR     (D.J.HUGHES,R.C.GARTH,J.S.LEVIN)                       11562001    5
+TITLE      FAST NEUTRON CROSS SECTIONS AND NUCLEAR LEVEL DENSITY. 11562001    6
+INC-SPECT  U-235 FISSION SPECTRUM                                 11562001    7
+STATUS     (SCSRS)                                                11562001    8
+HISTORY    (760715T) TRANSLATED FROM SCISRS                       11562001    9
+           (830412A) CONVERTED TO REACTION FORMALISM              11562001   10
+ENDBIB               8                                            11562001   11
+NOCOMMON             0          0                                 11562001   12
+ENDSUBENT           11                                            1156200199999
+SUBENT        11562003     830412                                 11562003    1
+BIB                  2          2                                 11562003    2
+REACTION   (20-CA-48(N,G)20-CA-49,,SIG,,FIS)                      11562003    3
+MONITOR    (20-CA-48(N,G)20-CA-49,,SIG,,MXW)                      11562003    4
+ENDBIB               2                                            11562003    5
+NOCOMMON             0          0                                 11562003    6
+DATA                 3          1                                 11562003    7
+EN-DUMMY   DATA       MONIT                                       11562003    8
+MEV        MB         B                                           11562003    9
+ 1.0        1.9        1.1                                        11562003   10
+ENDDATA              3                                            11562003   11
+ENDSUBENT           10                                            1156200399999
+ENDENTRY             2                                            1156299999999
+ENTRY            11566     830412                                 11566000    1
+SUBENT        11566001     830412                                 11566001    1
+BIB                  5          6                                 11566001    2
+INSTITUTE  (1USABNL)                                              11566001    3
+REFERENCE  (W,LEVIN,52)                                           11566001    4
+AUTHOR     (J.S.LEVIN)                                            11566001    5
+METHOD     (ACTIV) ACTIVATION                                     11566001    6
+HISTORY    (770614C)                                              11566001    7
+           (830412A) CONVERTED TO REACTION FORMALISM              11566001    8
+ENDBIB               6                                            11566001    9
+NOCOMMON             0          0                                 11566001   10
+ENDSUBENT            9                                            1156600199999
+SUBENT        11566002     830412                                 11566002    1
+BIB                  2          2                                 11566002    2
+REACTION   (20-CA-48(N,G)20-CA-49,,SIG,,MXW)                      11566002    3
+DECAY-DATA (20-CA-49,8.5MIN)                                      11566002    4
+ENDBIB               2                                            11566002    5
+NOCOMMON             0          0                                 11566002    6
+DATA                 3          1                                 11566002    7
+EN-DUMMY   DATA       DATA-ERR                                    11566002    8
+EV         B          B                                           11566002    9
+ 0.0253     1.1        0.1                                        11566002   10
+ENDDATA              3                                            11566002   11
+ENDSUBENT           10                                            1156600299999
+ENDENTRY             2                                            1156699999999
+ENTRY            12866     851106                                 12866000    1
+SUBENT        12866001     851106                                 12866001    1
+BIB                 15         51                                 12866001    2
+INSTITUTE  (1USALRL)                                              12866001    3
+REFERENCE  (C,78MAYAG,,495,7805)                                  12866001    4
+AUTHOR     (R.E.HEFT)                                             12866001    5
+TITLE      A CONSISTENT SET OF NUCLEAR-PARAMETER VALUES           12866001    6
+           FOR ABSOLUTE INSTRUMENTAL NEUTRON ACTIVATION           12866001    7
+           ANALYSIS.                                              12866001    8
+FACILITY   (REAC) LAWRENCE LIVERMORE LABORATORY LPTR RESEARCH     12866001    9
+                  REACTOR FACILITY.                               12866001   10
+METHOD     (ACTIV)                                                12866001   11
+           EPITHERMAL-TO-THERMAL FLUX RATIO WAS MEASURED IN       12866001   12
+             EACH IRRADIATION BY INCLUDING A URANIUM-SCANDIUM     12866001   13
+             STANDARD IN THE IRRADIATION PACKAGE.                 12866001   14
+INC-SPECT  REACTOR SPECTRUM. ALL NUCLIDES IRRADIATED IN POSITION  12866001   15
+            S-2 WITH A CD RATIO OF 3.8 AND IN EITHER POSITION E-1 12866001   16
+            (CD RATIO 2.5) OR POSITION A-4 (CD RATIO 2.0)         12866001   17
+            DEPENDING ON WHETHER PRODUCTS WERE LONG OR SHORT-LIVED12866001   18
+MONITOR    ELEMENT SCANDIUM WAS USED AS AN INTERNAL FLUX MONITOR  12866001   19
+             SCANDIUM VALUES WERE MEASURED BY TAKING MIXTURES OF  12866001   20
+                                COBALT-SCANDIUM                   12866001   21
+                                GOLD-SCANDIUM                     12866001   22
+                                U238-SCANDIUM                     12866001   23
+           ((MONIT1)21-SC-45(N,G)21-SC-46,,SIG)                   12866001   24
+           ((MONIT2)27-CO-59(N,G)27-CO-60,,SIG)                   12866001   25
+           ((MONIT3)79-AU-197(N,G)79-AU-198,,SIG)                 12866001   26
+           ((MONIT4)92-U-238(N,G)92-U-239,,SIG)                   12866001   27
+           ((MONIT5)21-SC-45(N,G)21-SC-46,,RI)                    12866001   28
+           ((MONIT6)27-CO-59(N,G)27-CO-60,,RI)                    12866001   29
+           ((MONIT7)79-AU-197(N,G)79-AU-198,,RI)                  12866001   30
+           ((MONIT8)92-U-238(N,G)92-U-239,,RI)                    12866001   31
+DECAY-MON  (21-SC-46-G,83.9D,DG,1120.5,1.)                        12866001   32
+           (27-CO-60-G,1922.D,DG,1332.51,1.)                      12866001   33
+           (79-AU-198-G,2.70D,DG,411.79,0.968)                    12866001   34
+           (92-U-239,0.01635D,DG,74.67,.593)                      12866001   35
+           (93-NP-239,2.353D,DG,106.07,0.252)                     12866001   36
+DETECTOR   ALL COUNTING WAS DONE ON GAMMA SPECTRAL ANALYZERS      12866001   37
+             TO MEASURE ABSOLUTE PHOTON EMISSION RATES.           12866001   38
+ANALYSIS   ALL SPECTRA GENERATED WERE ANALYZED BY COMPUTER        12866001   39
+             CODE GAMANAL TO OBTAIN A SET OF ABSOLUTE             12866001   40
+             DISINTEGRATION RATES FOR THE NUCLIDES FOUND.         12866001   41
+           THE DISINTEGRATION-RATE DATA THUS OBTAINED WERE        12866001   42
+             FURTHER ANALYZED BY ANOTHER COMPUTER CODE NADAC      12866001   43
+             TO COMPUTE THE EFFECTIVE CROSS SECTION FOR           12866001   44
+             EACH ACTIVATION PRODUCT.                             12866001   45
+ERR-ANALYS DETAILS NOT GIVEN                                      12866001   46
+             FOR SOME ELEMENTS THE ERRORS REFLECT THE EFFECTS OF  12866001   47
+             CONCENTRATION ERROR OR EVAPORATION LOSS.             12866001   48
+CORRECTION NO CORRECTION FOR THE INTERFERENCE DUE TO (N,P)        12866001   49
+             REACTION WAS DONE.                                   12866001   50
+           CORRECTION DUE TO U-235 FISSION REACTION IS IMPLIED.   12866001   51
+STATUS     (APRVD) R.E.HEFT, 84/12/27.                            12866001   52
+HISTORY    (840410C)                                              12866001   53
+ENDBIB              51                                            12866001   54
+COMMON              10          6                                 12866001   55
+MONIT1     MONIT1-ERR MONIT2     MONIT3     MONIT4     MONIT5     12866001   56
+MONIT5-ERR MONIT6     MONIT7     MONIT8                           12866001   57
+B          B          B          B          B          B          12866001   58
+B          B          B          B                                12866001   59
+27.7       0.5        37.5       98.8       2.720      12.2       12866001   60
+0.6        75.        1550.      280.                             12866001   61
+ENDCOMMON            6                                            12866001   62
+ENDSUBENT           61                                            1286600199999
+SUBENT        12866016     851106                                 12866016    1
+BIB                  5          9                                 12866016    2
+REACTION   (20-CA-48(N,G)20-CA-49,,SIG,,SPA)                      12866016    3
+SAMPLE     NATURAL SAMPLE,ASSUMED 0.18 PERCENT ABUNDANCE.         12866016    4
+DECAY-DATA (20-CA-49,6.042E-03D,DG,3084.15,0.917)                 12866016    5
+MONITOR    ((20-CA-48(N,G)20-CA-49,,RI)/                          12866016    6
+           (20-CA-48(N,G)20-CA-49,,SIG))                          12866016    7
+           THE RATIO WAS ADOPTED FROM VAN DER LINDEN+,IAEA SYMP.  12866016    8
+             ON NUCLEAR DATA IN SCIENCE AND TECHNOLOGY,           12866016    9
+             VIENNA,P.241,STI/PUB/343,1973.                       12866016   10
+HISTORY    (851106A) MONITOR CORRECTED.                           12866016   11
+ENDBIB               9                                            12866016   12
+NOCOMMON             0          0                                 12866016   13
+DATA                 3          1                                 12866016   14
+EN-DUMMY   DATA       DATA-ERR                                    12866016   15
+EV         B          B                                           12866016   16
+0.025      1.10       0.07                                        12866016   17
+ENDDATA              3                                            12866016   18
+ENDSUBENT           17                                            1286601699999
+ENDENTRY             2                                            1286699999999
+ENTRY            12921     870615                                 12921000    1
+SUBENT        12921001     870615                                 12921001    1
+BIB                 10         14                                 12921001    2
+INSTITUTE  (1USAORL)                                              12921001    3
+REFERENCE  (J,NP/A,465,274,8704)                                  12921001    4
+AUTHOR     (R.F.CARLTON,J.A.HARVEY,R.L.MACKLIN,C.H.JOHNSON,       12921001    5
+           B.CASTEL)                                              12921001    6
+TITLE      NUCLEAR STRUCTURE OF 49-CA ABOVE 5 MEV EXCITATION FROM 12921001    7
+           N+48-CA AND ASTROPHYSICS FOR 30 KEV NEUTRONS.          12921001    8
+FACILITY   (LINAC) ORELA.                                         12921001    9
+INC-SOURCE (EVAP)                                                 12921001   10
+SAMPLE     CACO3 96 PERCENT ENRICHED-CA-40 3.83 PERCENT           12921001   11
+             SAMPLE THICKNESS = 126 B/ATOM.                       12921001   12
+METHOD     (TOF) 40-METER FLIGHT PATH WITH 7NS PULSE WIDTH FOR    12921001   13
+                 CAPTURE MEASUREMENTS                             12921001   14
+STATUS     (APRVD) R.F.CARLTON, 87/6/12.                          12921001   15
+HISTORY    (850606C)                                              12921001   16
+ENDBIB              14                                            12921001   17
+NOCOMMON             0          0                                 12921001   18
+ENDSUBENT           17                                            1292100199999
+SUBENT        12921002     850917                                 12921002    1
+BIB                  5          8                                 12921002    2
+REACTION   (20-CA-48(N,G)20-CA-49,,SIG,,MXW)                      12921002    3
+METHOD     (TOF) 40-METER FLIGHT PATH WITH 7NS PULSE WIDTH FOR    12921002    4
+                 CAPTURE MEASUREMENTS.                            12921002    5
+DETECTOR   NON-HYDROGENOUS LIQUID SCINTILLATORS.                  12921002    6
+ANALYSIS   MAXWELLIAN AVERAGED DATA CALCULATED FROM DIRECT        12921002    7
+             CAPTURE CROSS SECTION                                12921002    8
+           CAPTURE CROSS SECTION NOT AVAILABLE FROM AUTHORS       12921002    9
+ERR-ANALYS NO DETAILS AVAILABLE                                   12921002   10
+ENDBIB               8                                            12921002   11
+NOCOMMON             0          0                                 12921002   12
+DATA                 3          1                                 12921002   13
+EN-MEAN    DATA       DATA-ERR                                    12921002   14
+KEV        MB         MB                                          12921002   15
+ 30.        1.05       0.13                                       12921002   16
+ENDDATA              3                                            12921002   17
+ENDSUBENT           16                                            1292100299999
+ENDENTRY             2                                            1292199999999
+ENTRY            22371   19990604   19991117                      22371000    1
+SUBENT        22371001   19990604   19991117                      22371001    1
+BIB                  5         19                                 22371001    2
+TITLE       MEASUREMENT OF NEUTRON CAPTURE ON CA-48 AT THERMAL    22371001    3
+            AND THERMONUCLEAR ENERGIES                            22371001    4
+AUTHOR     (H.BEER,C.COCEVA,P.V.SEDYSHEV,YU.P.POPOV,H.HERNDL,     22371001    5
+           R.HOFINGER,P.MOHR,H.OBERHUMMER)                        22371001    6
+INSTITUTE  (2GERKFK)  H.BEER                                      22371001    7
+           (2ITYNTA)  C.COCEVA. Ente per le Nuove Technologie,    22371001    8
+             l'Energia e l'Ambiente, Via Don Fiammelli 2,         22371001    9
+             I-40128 Bologna, Italy                               22371001   10
+           (4ZZZDUB)  P.SEDYSHEV, YU.POPOV                        22371001   11
+           (2AUSTHV)  H.HERNDL, R.HOFINGER, P.MOHR, H.OBERHUMMER. 22371001   12
+            Institut fuer Kernphysik, Wiedler Hauptstrasse, 8-10, 22371001   13
+            TU Wien, A-1040 Vienna, Austria                       22371001   14
+REFERENCE  (J,PR/C,54,(4),2014,199610) MAIN REF., DATA ARE GIVEN  22371001   15
+           (J,NP/A,136,649,1969)  EXPERIMENTAL DETAILS            22371001   16
+           (J,PR/C,52,3442,1995)  EXPERIMENTAL DETAILS            22371001   17
+           (J,NIM/A,337,492,1994) EXPERIMENTAL DETAILS            22371001   18
+           (J,AJ,387,258,1992)    EXPERIMENTAL DETAILS            22371001   19
+HISTORY    (19980127C)   + +  COMPILED BY S.MAEV  + +             22371001   20
+           (19990604A) DATE is corrected                          22371001   21
+ENDBIB              19                                            22371001   22
+NOCOMMON             0          0                                 22371001   23
+ENDSUBENT           22                                            2237100199999
+SUBENT        22371002   19990604   19991117                      22371002    1
+BIB                  9         23                                 22371002    2
+REACTION   (20-CA-48(N,G)20-CA-49,,SIG,,MXW)                      22371002    3
+FACILITY   (REAC,2BLGMOL) STUDIENCENTRUM VOOR KERNENERGIE, Mol    22371002    4
+MONITOR    (17-CL-35(N,G)17-CL-36,,SIG)                           22371002    5
+DETECTOR   (NAICR) COAXIAL NA-I(TL) DETECTOR                      22371002    6
+           (GE-IN) THREE GERMANIUM DETECTORS                      22371002    7
+DECAY-DATA (20-CA-49,523.0SEC,B-)                                 22371002    8
+           (20-CA-49,8.716MIN,DG,5146.5,0.74)                     22371002    9
+           (20-CA-49,8.716MIN,DG,3123.5,0.234)                    22371002   10
+           (21-SC-49,,DG,3084.4,0.921)                            22371002   11
+           (21-SC-49,,DG,4071.9,0.070)                            22371002   12
+INC-SOURCE (REAC)                                                 22371002   13
+INC-SPECT  .THERMAL NEUTRONS, 5.E+5 N/CM2*SEC INTENSITY           22371002   14
+            ON SAMPLE                                             22371002   15
+SAMPLE     .CALCIUM CARBONATE CA-C-O3, WEIGHT 108.630 MILLIGRAM,  22371002   16
+            IN CYLINDRICAL TEFLON CONTAINER WITH  0.6 CM INNER    22371002   17
+            DIAMETER.           CA-48 CONTENT IS 77.87+-1.90 PC,  22371002   18
+            CA-40 CONTENT IS 20.42 PC, CA-42 CONTENT IS 0.24 PC,  22371002   19
+            CA-43 CONTENT IS 0.060 PC, CA-44 CONTENT IS 1.48 PC,  22371002   20
+            CA-46 CONTENT IS 0.01 PC                              22371002   21
+           .CARBON HEXACHLORIDE C2-CL6 IN TEFLON CONTAINER,       22371002   22
+            WEIGHT 61.835 MILLIGRAM                               22371002   23
+ERR-ANALYS (ERR-T) TOTAL ERROR                                    22371002   24
+           (ERR-1) ERROR OF CA-48 ENRICHMENT                      22371002   25
+ENDBIB              23                                            22371002   26
+COMMON               1          3                                 22371002   27
+ERR-1                                                             22371002   28
+PER-CENT                                                          22371002   29
+  2.4                                                             22371002   30
+ENDCOMMON            3                                            22371002   31
+DATA                 5          1                                 22371002   32
+EN-DUMMY   DATA       ERR-T      MONIT      MONIT-ERR             22371002   33
+EV         MB         MB         B          B                     22371002   34
+   2.53E-02   982.      46.       43.6       0.4                  22371002   35
+ENDDATA              3                                            22371002   36
+ENDSUBENT           35                                            2237100299999
+SUBENT        22371003   19990604   19991117                      22371003    1
+BIB                 10         34                                 22371003    2
+REACTION   (20-CA-48(N,G)20-CA-49,,SIG)                           22371003    3
+FACILITY   (VDG,2GERKFK)  KARLSRUHE 3.75 MV VAN DE GRAAFF         22371003    4
+                          ACCELERATOR                             22371003    5
+DETECTOR   (HPGE)  RESOLUTION 2 KEV AT 1.332 MEV GAMMA ENERGY     22371003    6
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)                         22371003    7
+DECAY-DATA (20-CA-49,523.0SEC,B-)                                 22371003    8
+           (21-SC-49,,DG,3084.4,0.921)                            22371003    9
+           (79-AU-198-G,2.69D,DG,411.8,0.9550)                    22371003   10
+INC-SOURCE (P-LI7)  THIN LITHIUM TARGET, THICKNESS 2.5E-4 CM      22371003   11
+INC-SPECT  .LINEAR NEUTRON SPECTRUM                               22371003   12
+SAMPLE     .CALCIUM CARBONATE CA-C-O3, WEIGHTS FROM 7.017 TO      22371003   13
+            70.58 MILLIGRAM 6 MM IN DIAMETER SANDWICHED BETWEEN   22371003   14
+            THIN GOLD PLATES OF THE SAME DIMENTION IN THE FRONT   22371003   15
+            AND BACK SIDES OF SAMPLEWITH MASSES FROM 15.19 TO     22371003   16
+            16.78 MILLIGRAM                                       22371003   17
+            CA-48 CONTENT IS 77.87+-1.90 PC,                      22371003   18
+            CA-40 CONTENT IS 20.42 PC, CA-42 CONTENT IS 0.24 PC,  22371003   19
+            CA-43 CONTENT IS 0.060 PC, CA-44 CONTENT IS 1.48 PC,  22371003   20
+            CA-46 CONTENT IS 0.01 PC                              22371003   21
+           .METALLIC GOLD FOIL                                    22371003   22
+COMMENT    .CROSS-SECTIONS WERE OBTAINED BY AVERAGING OF SEVERAL  22371003   23
+            SETS OF MEASUREMENTS WITH DIFFERENT SAMPLE WEIGHTS    22371003   24
+            GIVEN BELOW                                           22371003   25
+           .                                                      22371003   26
+            EN+-EN-ERR MASS OF AU MASS OF   SIGMA   ERR-S  ERR-T  22371003   27
+                       FRONT SIDE CA-C-O3                         22371003   28
+            KEV        MILLIGRAM MILLIGRAM  MICRO-B  PC     PC    22371003   29
+           .                                                      22371003   30
+             151+-15    15.657     49.914    331     2.1     12   22371003   31
+             176+-20    15.553     70.58     303     1.5     11   22371003   32
+             176+-20    15.186     67.22     310     2.0     11   22371003   33
+             218+-23    16.740     58.150    318     2.1     10   22371003   34
+             218+-23    15.482     68.790    294     1.3     10   22371003   35
+ERR-ANALYS (ERR-T) TOTAL ERROR                                    22371003   36
+ENDBIB              34                                            22371003   37
+NOCOMMON             0          0                                 22371003   38
+DATA                 4          3                                 22371003   39
+EN         EN-ERR     DATA       ERR-T                            22371003   40
+KEV        KEV        B          B                                22371003   41
+   151.      15.       3.3100E-04  4.000E-05                      22371003   42
+   176.      20.       3.0600E-04  3.100E-05                      22371003   43
+   218.      23.       3.0400E-04  3.100E-05                      22371003   44
+ENDDATA              5                                            22371003   45
+ENDSUBENT           44                                            2237100399999
+SUBENT        22371004   19990604   19991117                      22371004    1
+BIB                 10         37                                 22371004    2
+REACTION   (20-CA-48(N,G)20-CA-49,,SIG,,MXW)                      22371004    3
+FACILITY   (VDG,2GERKFK)  KARLSRUHE 3.75 MV VAN DE GRAAFF         22371004    4
+                          ACCELERATOR                             22371004    5
+DETECTOR   (HPGE)  RESOLUTION 2 KEV AT 1.332 MEV GAMMA ENERGY     22371004    6
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)                         22371004    7
+DECAY-DATA (20-CA-49,523.0SEC,B-)                                 22371004    8
+           (21-SC-49,,DG,3084.4,0.921)                            22371004    9
+           (79-AU-198-G,2.69D,DG,411.8,0.9550)                    22371004   10
+INC-SOURCE (P-LI7)  THICK LITHIUM TARGET                          22371004   11
+INC-SPECT  .PROTON ENERGY IS NEAR REACTION LI-7(P,N)BE-7 THRES-   22371004   12
+            HOLD PRODUCING NEUTRON  SPECTRUM NEAR TO MAXWELLIAN   22371004   13
+            WITH TEMPERATURE 25 KEV                               22371004   14
+SAMPLE     .CALCIUM CARBONATE CA-C-O3, WEIGHTS FROM 7.017 TO      22371004   15
+            70.58 MILLIGRAM 6 MM IN DIAMETER SANDWICHED BETWEEN   22371004   16
+            THIN GOLD PLATES OF THE SAME DIMENTION IN THE FRONT   22371004   17
+            AND BACK SIDES OF SAMPLEWITH MASSES FROM 15.19 TO     22371004   18
+            16.78 MILLIGRAM                                       22371004   19
+            CA-48 CONTENT IS 77.87+-1.90 PC,                      22371004   20
+            CA-40 CONTENT IS 20.42 PC, CA-42 CONTENT IS 0.24 PC,  22371004   21
+            CA-43 CONTENT IS 0.060 PC, CA-44 CONTENT IS 1.48 PC,  22371004   22
+            CA-46 CONTENT IS 0.01 PC                              22371004   23
+           .METALLIC GOLD FOIL                                    22371004   24
+COMMENT    .CROSS-SECTIONS WERE OBTAINED BY AVERAGING OF SEVERAL  22371004   25
+            SETS OF MEASUREMENTS WITH DIFFERENT SAMPLE WEIGHTS    22371004   26
+            GIVEN BELOW                                           22371004   27
+           .                                                      22371004   28
+            KT   MASS OF AU MASS OF   SIGMA   ERR-S  ERR-T        22371004   29
+                 FRONT SIDE CA-C-O3                               22371004   30
+            KEV  MILLIGRAM MILLIGRAM  MICRO-B  PC     PC          22371004   31
+           .                                                      22371004   32
+             25  15.577     18.28      721     1.4     10         22371004   33
+             25  15.745     10.064     719     0.9     10         22371004   34
+             25  15.390     21.353     767     1.4      9         22371004   35
+             25  16.010      8.6025    817     1.5     10         22371004   36
+             25  16.08      11.243     781     3.8     10         22371004   37
+             25  15.915      7.017     733     3.4     10         22371004   38
+ERR-ANALYS (ERR-T) TOTAL ERROR                                    22371004   39
+ENDBIB              37                                            22371004   40
+NOCOMMON             0          0                                 22371004   41
+DATA                 3          1                                 22371004   42
+EN-MEAN    DATA       ERR-T                                       22371004   43
+EV         B          B                                           22371004   44
+ 3.7500E+04 7.5100E-04 6.8000E-05                                 22371004   45
+ENDDATA              3                                            22371004   46
+ENDSUBENT           45                                            2237100499999
+ENDENTRY             4                                            2237199999999
+ENTRY            22416   19991026   20010329                      22416000    1
+SUBENT        22416001   19991026   20010329                      22416001    1
+BIB                 16         33                                 22416001    2
+TITLE       Direct neutron capture of 48Ca at kT=52 KeV           22416001    3
+AUTHOR     (P.MOOR,H.OBERHUMMER,H.BEER,W.ROCHOW,V.KOELLE,         22416001    4
+            G.STAUDT,P.V.SEDYSHEV,YU.P.POPOV)                     22416001    5
+INSTITUTE  (2AUSTHV)  Mohr, Oberhummer                            22416001    6
+           (2GERKFK)  Beer                                        22416001    7
+           (2GERTUE)  Rochow,Koelle,Staudt                        22416001    8
+           (4ZZZDUB)  Sedyshev, Popov                             22416001    9
+REFERENCE  (J,PR/C,56,(2),1154,199708)  MAIN REFERENCE,DATA GIVEN 22416001   10
+           (J,PR/C,54,2014,1996)  EXPERIMENTAL DETAILS            22416001   11
+           (J,NIM/A,337,492,1994) EXPERIMENTAL DETAILS            22416001   12
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)                         22416001   13
+DECAY-MON  (79-AU-198,2.69D,DG,411.8,0.9550)                      22416001   14
+FACILITY   (VDG,2GERTUE) 3.0 MV Van de Graaff accelerator ROSENAU 22416001   15
+                  at the University Tuebingen                     22416001   16
+INC-SOURCE (P-T)  Titanium-Tritium target with  a total activity  22416001   17
+              about 5 Ci, thickness of titanium layer is 150 keV  22416001   18
+INC-SPECT  .Quasi-Maxwellian neutron energy spectrum with kT=52   22416001   19
+            keV which is obtained by bombarding a thick tritium   22416001   20
+            target with protons at the energy 1091 keV - 72 keV   22416001   21
+            above the T(p,n) theshold 1019 keV                    22416001   22
+COMMENT    .Experimental setup used fast activation technique     22416001   23
+            with fast transport of irradiated sample              22416001   24
+METHOD     (ACTIV)                                                22416001   25
+DETECTOR   (HPGE)  Efficiency 98.6%                               22416001   26
+SAMPLE     .Two samples of powder Ca-C-O3 enriched by 77.87% in   22416001   27
+            48Ca with diameters 6 mm amd masses 48.83 and 49.06   22416001   28
+            mg, each sandwiched between two thin gold foils(16 mg 22416001   29
+            per foil), both samples and gold foils were put into  22416001   30
+            a cylindrical polyethilene container with an inner    22416001   31
+            diameter 6 mm                                         22416001   32
+ERR-ANALYS (ERR-T)  Total error                                   22416001   33
+STATUS     .Data are taken from the main reference                22416001   34
+HISTORY    (19991026C)  + + Compiled by S.M.    + +               22416001   35
+ENDBIB              33                                            22416001   36
+NOCOMMON             0          0                                 22416001   37
+ENDSUBENT           36                                            2241600199999
+SUBENT        22416002   19991026   20010329                      22416002    1
+BIB                  2          2                                 22416002    2
+REACTION   (20-CA-48(N,G)20-CA-49,,SIG,,MXW)                      22416002    3
+DECAY-DATA (20-CA-49,8.718MIN,DG,3084.4,0.921,DG,4071.9,0.007)    22416002    4
+ENDBIB               2                                            22416002    5
+NOCOMMON             0          0                                 22416002    6
+DATA                 3          1                                 22416002    7
+EN-MEAN    DATA       ERR-T                                       22416002    8
+KEV        MICRO-B    MICRO-B                                     22416002    9
+  78.        623.       47.                                       22416002   10
+ENDDATA              3                                            22416002   11
+ENDSUBENT           10                                            2241600299999
+ENDENTRY             2                                            2241699999999
+ENTRY            30067     850219                                 30067000    1
+SUBENT        30067001     850219                                 30067001    1
+BIB                 10         17                                 30067001    2
+INSTITUTE  (3HUNDEB)                                              30067001    3
+REFERENCE  (J,NP/A,95,229,6703) EXPT DESCRIPTION, DATA TABLE,GRAPH30067001    4
+           (J,MFF,16,123,6802) THESIS CSIKAI IN HUNG, DATA,GRAPH  30067001    5
+AUTHOR     (J.CSIKAI,G.PETO,M.BUCZKO,Z.MILLIGY,N.EISSA)           30067001    6
+TITLE      RADIATIVE CAPTURE CROSS-SECTIONS FOR 14.7 MEV NEUTRONS 30067001    7
+INC-SOURCE (D-T) D+T REACTION                                     30067001    8
+METHOD     (ACTIV) ACTIVATION                                     30067001    9
+DETECTOR   (GEMUC) MICA END-WINDOW GM COUNTER FOR BETA COUNTING   30067001   10
+           (NAICR) NAI(TL) CRYSTAL + 100 CH ANALYSER FOR GAMMAS   30067001   11
+           (LONGC) BF3 LONG COUNTER AND ALPHA PARTICLE DETECTORS  30067001   12
+           WERE USED AS FLUX MONITORS.                            30067001   13
+STATUS            DATA TAKEN FROM MFF 16 123 2/68 TABLE 9         30067001   14
+           (APRVD) APPROVED BY PETO S LETTER (5/9/72)             30067001   15
+HISTORY    (701127T) AK. PREVIOUSLY DASTAR-00382                  30067001   16
+           (711030A) HDL. QUANTITY CORRECTED IN SUBENTRY .016     30067001   17
+                          AND MINOR CORRECTIONS ELSEWHERE.        30067001   18
+ERR-ANALYS NO INFORMATION                                         30067001   19
+ENDBIB              17                                            30067001   20
+COMMON               1          3                                 30067001   21
+EN                                                                30067001   22
+MEV                                                               30067001   23
+ 1.4700E+01                                                       30067001   24
+ENDCOMMON            3                                            30067001   25
+ENDSUBENT           24                                            3006700199999
+SUBENT        30067007     840503                                 30067007    1
+BIB                  5          5                                 30067007    2
+REFERENCE  (J,AK,8,79,6606) SUMMARY OF WORK, TABLE                30067007    3
+REACTION   (20-CA-48(N,G)20-CA-49,,SIG)                           30067007    4
+SAMPLE     OXIDE-  CA-C-O3                                        30067007    5
+MONITOR    (13-AL-27(N,P)12-MG-27,,SIG)                           30067007    6
+PART-DET   (B-) DECAY BETA                                        30067007    7
+ENDBIB               5                                            30067007    8
+NOCOMMON             0          0                                 30067007    9
+DATA                 3          1                                 30067007   10
+DATA       DATA-ERR   MONIT                                       30067007   11
+MB         MB         MB                                          30067007   12
+ 2.6000E-01 8.0000E-02 7.2000E+01                                 30067007   13
+ENDDATA              3                                            30067007   14
+ENDSUBENT           13                                            3006700799999
+ENDENTRY             2                                            3006799999999
+ENDREQUEST           1                                            Z999999999999

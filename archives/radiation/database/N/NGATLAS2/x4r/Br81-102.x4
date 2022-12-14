@@ -1,0 +1,193 @@
+REQUEST           1001   20010914          3     141024               0  0    0
+ENTRY            11829     830919                                 11829000    1
+SUBENT        11829001     830919                                 11829001    1
+BIB                 10         12                                 11829001    2
+INSTITUTE  (1USAORL)                                              11829001    3
+REFERENCE  (J,JIN,27,903,65)                                      11829001    4
+AUTHOR     (J.F.EMERY)                                            11829001    5
+TITLE      A NEW ISOMER OF BROMINE- BR82M.                        11829001    6
+INC-SPECT  REACTOR SPECTRUM                                       11829001    7
+SAMPLE     NA-BR, 99.62 PERCENT ENRICHED BR-81.                   11829001    8
+METHOD     (ACTIV) ACTIVATION                                     11829001    9
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)                         11829001   10
+           (79-AU-197(N,G)79-AU-198,,RI)                          11829001   11
+STATUS     (SCSRS)                                                11829001   12
+HISTORY    (760731T) TRANSLATED FROM SCISRS                       11829001   13
+           (830919A) CONVERTED TO REACTION FORMALISM              11829001   14
+ENDBIB              12                                            11829001   15
+COMMON               2          3                                 11829001   16
+MONIT1     MONIT2                                                 11829001   17
+B          B                                                      11829001   18
+ 99.5       1558.                                                 11829001   19
+ENDCOMMON            3                                            11829001   20
+ENDSUBENT           19                                            1182900199999
+SUBENT        11829002     830919                                 11829002    1
+BIB                  2          2                                 11829002    2
+REACTION   (35-BR-81(N,G)35-BR-82-G,,SIG,,SPA)                    11829002    3
+DECAY-DATA (35-BR-82-G,36.HR)                                     11829002    4
+ENDBIB               2                                            11829002    5
+NOCOMMON             0          0                                 11829002    6
+DATA                 2          1                                 11829002    7
+EN-DUMMY   DATA                                                   11829002    8
+MEV        B                                                      11829002    9
+ 2.53   -08 2.60   -01                                            11829002   10
+ENDDATA              3                                            11829002   11
+ENDSUBENT           10                                            1182900299999
+ENDENTRY             2                                            1182999999999
+ENTRY            12866     851106                                 12866000    1
+SUBENT        12866001     851106                                 12866001    1
+BIB                 15         51                                 12866001    2
+INSTITUTE  (1USALRL)                                              12866001    3
+REFERENCE  (C,78MAYAG,,495,7805)                                  12866001    4
+AUTHOR     (R.E.HEFT)                                             12866001    5
+TITLE      A CONSISTENT SET OF NUCLEAR-PARAMETER VALUES           12866001    6
+           FOR ABSOLUTE INSTRUMENTAL NEUTRON ACTIVATION           12866001    7
+           ANALYSIS.                                              12866001    8
+FACILITY   (REAC) LAWRENCE LIVERMORE LABORATORY LPTR RESEARCH     12866001    9
+                  REACTOR FACILITY.                               12866001   10
+METHOD     (ACTIV)                                                12866001   11
+           EPITHERMAL-TO-THERMAL FLUX RATIO WAS MEASURED IN       12866001   12
+             EACH IRRADIATION BY INCLUDING A URANIUM-SCANDIUM     12866001   13
+             STANDARD IN THE IRRADIATION PACKAGE.                 12866001   14
+INC-SPECT  REACTOR SPECTRUM. ALL NUCLIDES IRRADIATED IN POSITION  12866001   15
+            S-2 WITH A CD RATIO OF 3.8 AND IN EITHER POSITION E-1 12866001   16
+            (CD RATIO 2.5) OR POSITION A-4 (CD RATIO 2.0)         12866001   17
+            DEPENDING ON WHETHER PRODUCTS WERE LONG OR SHORT-LIVED12866001   18
+MONITOR    ELEMENT SCANDIUM WAS USED AS AN INTERNAL FLUX MONITOR  12866001   19
+             SCANDIUM VALUES WERE MEASURED BY TAKING MIXTURES OF  12866001   20
+                                COBALT-SCANDIUM                   12866001   21
+                                GOLD-SCANDIUM                     12866001   22
+                                U238-SCANDIUM                     12866001   23
+           ((MONIT1)21-SC-45(N,G)21-SC-46,,SIG)                   12866001   24
+           ((MONIT2)27-CO-59(N,G)27-CO-60,,SIG)                   12866001   25
+           ((MONIT3)79-AU-197(N,G)79-AU-198,,SIG)                 12866001   26
+           ((MONIT4)92-U-238(N,G)92-U-239,,SIG)                   12866001   27
+           ((MONIT5)21-SC-45(N,G)21-SC-46,,RI)                    12866001   28
+           ((MONIT6)27-CO-59(N,G)27-CO-60,,RI)                    12866001   29
+           ((MONIT7)79-AU-197(N,G)79-AU-198,,RI)                  12866001   30
+           ((MONIT8)92-U-238(N,G)92-U-239,,RI)                    12866001   31
+DECAY-MON  (21-SC-46-G,83.9D,DG,1120.5,1.)                        12866001   32
+           (27-CO-60-G,1922.D,DG,1332.51,1.)                      12866001   33
+           (79-AU-198-G,2.70D,DG,411.79,0.968)                    12866001   34
+           (92-U-239,0.01635D,DG,74.67,.593)                      12866001   35
+           (93-NP-239,2.353D,DG,106.07,0.252)                     12866001   36
+DETECTOR   ALL COUNTING WAS DONE ON GAMMA SPECTRAL ANALYZERS      12866001   37
+             TO MEASURE ABSOLUTE PHOTON EMISSION RATES.           12866001   38
+ANALYSIS   ALL SPECTRA GENERATED WERE ANALYZED BY COMPUTER        12866001   39
+             CODE GAMANAL TO OBTAIN A SET OF ABSOLUTE             12866001   40
+             DISINTEGRATION RATES FOR THE NUCLIDES FOUND.         12866001   41
+           THE DISINTEGRATION-RATE DATA THUS OBTAINED WERE        12866001   42
+             FURTHER ANALYZED BY ANOTHER COMPUTER CODE NADAC      12866001   43
+             TO COMPUTE THE EFFECTIVE CROSS SECTION FOR           12866001   44
+             EACH ACTIVATION PRODUCT.                             12866001   45
+ERR-ANALYS DETAILS NOT GIVEN                                      12866001   46
+             FOR SOME ELEMENTS THE ERRORS REFLECT THE EFFECTS OF  12866001   47
+             CONCENTRATION ERROR OR EVAPORATION LOSS.             12866001   48
+CORRECTION NO CORRECTION FOR THE INTERFERENCE DUE TO (N,P)        12866001   49
+             REACTION WAS DONE.                                   12866001   50
+           CORRECTION DUE TO U-235 FISSION REACTION IS IMPLIED.   12866001   51
+STATUS     (APRVD) R.E.HEFT, 84/12/27.                            12866001   52
+HISTORY    (840410C)                                              12866001   53
+ENDBIB              51                                            12866001   54
+COMMON              10          6                                 12866001   55
+MONIT1     MONIT1-ERR MONIT2     MONIT3     MONIT4     MONIT5     12866001   56
+MONIT5-ERR MONIT6     MONIT7     MONIT8                           12866001   57
+B          B          B          B          B          B          12866001   58
+B          B          B          B                                12866001   59
+27.7       0.5        37.5       98.8       2.720      12.2       12866001   60
+0.6        75.        1550.      280.                             12866001   61
+ENDCOMMON            6                                            12866001   62
+ENDSUBENT           61                                            1286600199999
+SUBENT        12866060     841227                                 12866060    1
+BIB                  3          3                                 12866060    2
+REACTION   (35-BR-81(N,G)35-BR-82-G,,SIG,,SPA)                    12866060    3
+SAMPLE     NATURAL SAMPLE,ASSUMED 49.46 PERCENT ABUNDANCE.        12866060    4
+DECAY-DATA (35-BR-82-G,1.473E+00D,DG,776.49,0.833)                12866060    5
+ENDBIB               3                                            12866060    6
+NOCOMMON             0          0                                 12866060    7
+DATA                 3          1                                 12866060    8
+EN-DUMMY   DATA       DATA-ERR                                    12866060    9
+EV         B          B                                           12866060   10
+0.025      0.235      0.004                                       12866060   11
+ENDDATA              3                                            12866060   12
+ENDSUBENT           11                                            1286606099999
+ENDENTRY             2                                            1286699999999
+ENTRY            20673     860411                                 20673000    1
+SUBENT        20673001     860411                                 20673001    1
+BIB                 15         50                                 20673001    2
+INSTITUTE  (2SF JYV) JYVAESKYLAE UNIVERSITY.                      20673001    3
+           (2SF OUL) DEPARTMENT OF NUCLEAR TECHNOLOGY OF THE      20673001    4
+            UNIVERSITY OF OULU.                                   20673001    5
+           (2SWDLND) DEPARTMENT OF NUCLEAR PHYSICS OF THE         20673001    6
+            UNIVERSITY OF LUND.                                   20673001    7
+REFERENCE  ((R,JU-RR-1/1976,76)=(T,VALKONEN,7603))                20673001    8
+           (J,JIN,36,715,74)                                      20673001    9
+           (J,PL/B,39,625,7205) INSERTED FOR RETRANSMISSION.      20673001   10
+AUTHOR     (M.VALKONEN)                                           20673001   11
+TITLE      -STUDIES OF 14 MEV NEUTRON ACTIVATION CROSS SECTIONS   20673001   12
+            WITH SPECIAL REFERENCE TO THE CAPTURE REACTION-       20673001   13
+FACILITY   (CCW  ) COCKCROFT-WALTON ACCELERATOR.                  20673001   14
+INC-SOURCE (D-T  ) THE REACTION T(D,N)4HE WAS USED FOR 14.7 MEV   20673001   15
+            NEUTRON PRODUCTION (10E+07 - 10E+08 NEUTRONS PER CM2  20673001   16
+            AND SECOND).                                          20673001   17
+SAMPLE     .NATURAL SAMPLES WITH PURITIES BETTER THAN 99.9PC.     20673001   18
+METHOD     (ACTIV) ACTIVATION METHOD.                             20673001   19
+           .OBSERVATION OF ACTIVITY OF THE PRODUCT NUCLEI.        20673001   20
+DETECTOR   (GELI ) TWO GE(LI) DETECTORS WERE EMPLOYED FOR THE     20673001   21
+            ACTIVITY MEASUREMENTS.                                20673001   22
+           (SCIN ) FOR THE REACTION 103RH(N,GAMMA) THE BETA-      20673001   23
+            ACTIVITY OF THE DECAYING TWO 104RH ISOMERS WAS MEA-   20673001   24
+            SURED BY A PLASTIC SCINTILLATOR.                      20673001   25
+COMMENT    .COMPARISON WITH STATISTICAL CALCULATIONS CARRIED OUT. 20673001   26
+REL-REF    (N,20770001,RIEPPO,J,JIN,38,1927,7611) GE ISOTOPE DATA 20673001   27
+STATUS     .DATA TAKEN FROM THESIS.                               20673001   28
+HISTORY    (761124C)                                              20673001   29
+           (770504E)                                              20673001   30
+           (781228E)                                              20673001   31
+           (800609A) DECAY DATA AND MONITOR CROSS SECTIONS ADDED. 20673001   32
+           (801104E)                                              20673001   33
+           (810116A) DATA VALUE POSITION CORRECTED IN SOME        20673001   34
+            SUBWORKS.                                             20673001   35
+           (810120E)                                              20673001   36
+           (860227U)N.CH                                          20673001   37
+           (860411E)                                              20673001   38
+CORRECTION .FOR TARGET-HEAD CONTRIBUTION TO THE NEUTRON FLUX      20673001   39
+            (0.1 MB FOR 127I(N,GAMMA)).                           20673001   40
+           .VARIATION OF INCIDENT FLUX.                           20673001   41
+           .ABSORPTION CONNECTED WITH THE EXPERIMENTAL            20673001   42
+            DETERMINATION OF THE EFFICIENCY OF THE DETECTORS.     20673001   43
+           .GEOMETRY.                                             20673001   44
+           .POSITON ANNIHILATION IN FLIGHT.                       20673001   45
+ERR-ANALYS .UNCERTAINTIES IN STANDARD REACTIONS,                  20673001   46
+            IN THE MEASURING GEOMETRY,                            20673001   47
+            DEAD-TIME CORRECTIONS,                                20673001   48
+            STATISTICAL UNCERTAINTIES,                            20673001   49
+            UNCERTAINTIES IN GAMMA-RAY INTENSITIES,               20673001   50
+            IN THE CORRECTION FOR POSITON ANNIHILATION,           20673001   51
+            SECONDARY NEUTRONS.                                   20673001   52
+ENDBIB              50                                            20673001   53
+COMMON               1          3                                 20673001   54
+EN                                                                20673001   55
+MEV                                                               20673001   56
+ 1.4700E+01                                                       20673001   57
+ENDCOMMON            3                                            20673001   58
+ENDSUBENT           57                                            2067300199999
+SUBENT        20673024     840127                                 20673024    1
+BIB                  4          7                                 20673024    2
+REACTION   (35-BR-81(N,G)35-BR-82-G,,SIG)                         20673024    3
+STATUS     .TABLE 1, PL/B,39,625.                                 20673024    4
+HISTORY    (761126C)                                              20673024    5
+           (770504E)                                              20673024    6
+           (801028A) STATUS AND CORRECTION ADDED.                 20673024    7
+           (801104E)                                              20673024    8
+CORRECTION .CORRECTED FOR EFFECT OF SECONDARY NEUTRONS.           20673024    9
+ENDBIB               7                                            20673024   10
+NOCOMMON             0          0                                 20673024   11
+DATA                 2          1                                 20673024   12
+DATA       DATA-ERR                                               20673024   13
+MB         MB                                                     20673024   14
+ 9.0000E-01 3.0000E-01                                            20673024   15
+ENDDATA              3                                            20673024   16
+ENDSUBENT           15                                            2067302499999
+ENDENTRY             2                                            2067399999999
+ENDREQUEST           1                                            Z999999999999

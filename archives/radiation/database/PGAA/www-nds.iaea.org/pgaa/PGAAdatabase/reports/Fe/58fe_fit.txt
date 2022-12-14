@@ -1,0 +1,1572 @@
+ DATA FOR A =  58  AND Z =  26(FE)   57FE(N,G) E=TH                     CONSTANT IS OFF
+ 
+           DATASET     DAP      DBLANK    DGAMMA     DMIN      DSYS   
+ 
+  58FE  H TYP=ERR$AUT=J. Tuli$COM=CHANGED DSID 2/99$                             
+  58FE  H TYP=FUL$AUT=M. R. BHAT$CIT=NDS 80, 789 (1997)$CUT=10-Feb-1997$         
+  58FE C  E=thermal                                                              
+  58FE C  1990Kr17,1990KrZT: measured T1/2 by DSAM                               
+  58FE C  1989Co01: measured GG(THETA) for thermal neutron capture G-rays        
+  58FE C  1973Ko27: polarized thermal neutron capture; measured EG, RI, circular 
+  58FE2C  polarization (CP) of neutron capture G's.                              
+  58FE C  1969Sc24: measured GG(THETA) for thermal neutron capture G's           
+  58FE C  1969Fa05: measured EG, RI, GG coincidences and GG(THETA)               
+  58FE CL E         From a least-squares fit to EG data with the neutron capture 
+  58FE2CL level held fixed                                                       
+  58FE CL J         Adopted values; supporting arguments from this reaction are  
+  58FE2CL indicated in comments                                                  
+  58FE CL J(A)      J=2 from CP(G)                                               
+  58FE CL J(B)      J=0 or 1 from CP(G); J=0 can be excluded either because of   
+  58FE2CL G to GS or from GG(THETA)                                              
+  58FE CL J(C)      J=1 uniquely from CP(G)                                      
+  58FE CL T         From DSAM (1990Kr17)                                         
+  58FE CG E         From 1969Fa05, except for G with E GT 3800 quoted to tenths  
+  58FE2CG of KEV which are from 1973Ko27                                         
+  58FE CG RI$Photons per 100 neutron cature; from 1969Fa05 except for G's GT 4600
+  58FE2CG with EG quoted to tenths of KEV, are from 1973Ko27                     
+  58FE CG MR        From GG(THETA) (1969Fa05,1969Sc24)                           
+  58FE CG RI(D)     From a comparison of the DOPPLER shift measurements of the   
+  58FE2CG 3740G and other gammas which deexcite entirely from the 4551 level,    
+  58FE3CG 1990Kr17 conclude that most of the RI(3740) belongs with the 5414      
+  58FE4CG level. This is also confirmed by intensity balance arguments.          
+  58FE CG RI(E)     RI(1674)/RI(864) from 1674 level=0.764 15 in adopted gammas. 
+  58FE2CG The RI(863.6+867.5) is given.                                          
+  58FE CG RI(F)     From a comparison of the DOPPLER shift measurements of the   
+  58FE2CG 1674G and other gammas which deexcite entirely from the 4551 level,    
+  58FE3CG 1990Kr17 conclude that most of the RI(1674) belongs with the 1674      
+  58FE4CG level. This is also confirmed by intensity balance arguments.          
+  58FE CG RI(G)     Considerations based on intensity balance by 1990Kr17        
+  58FE2CG indicate that most of the intensity of this transition is due to the   
+  58FExCG 4551 level.                                                            
+  58FE CG E,RI(H)   Uncertain G                                                  
+  58FE  N 0.935                                                                  
+  58FE cN SIGMAN=2.5 3                                                           
+  58Fe cN NR$normalized assuming I|g(g.s.)=100.                                  
+  58FE PN                                                                    C5  
+  58FE2PN PHOTONS PER 100 NEUTRON CAPTURE                                        
+  58FE  G      233.6 5    0.03 1                                                 
+  58FE  G      238.7 5    0.07 1                                                 
+  58FE  G      243.1 5    0.04 1                                                 
+  58FE  G      252.6 5    0.05 2                                                 
+  58FE  G      278.1 5    0.14 1                                                 
+  58FE  G      854.415    0.10 5                                                 
+  58FE CG E,RI      uncertain G                                                  
+  58FE  G      898.2 4     0.4 1                                                 
+  58FE  G     1164.6 4     0.3 1                                                 
+  58FE  G     1250.7 8     0.2 1                                                 
+  58FE  G     1260.2 4     0.6 1                                                 
+  58FE  G     1266.820     0.3 2                                                 
+  58FE  G     1269.020     0.1 1                                                 
+  58FE  G     1292.7 7    0.3510                                                 
+  58FE  G     1467.7 5     0.4 1                                                 
+  58FE  G     1657.215     0.4 2                                                 
+  58FE  G     2466.915     0.6 2                                                 
+  58FE  G     2490.615     0.7 2                                                 
+  58FE  G       3183 3     0.5 1                                                 
+  58FE  G       3205 3     0.8 3                                                 
+  58FE  G       3952 4     0.4 2                                                 
+  58FE  G       3987 4     0.3 2                                                 
+  58FE  G       4062 4     0.1 1                                             H   
+  58FE  G       4080 3     0.6 2                                                 
+  58FE  G       4185 2     0.2 1                                                 
+  58FE  G       4342 3     0.4 1                                                 
+  58FE  G       4380 4     0.2 1                                                 
+  58FE  G       4506 2     0.4 2                                                 
+  58FE  G       4592 3     0.3 2                                                 
+  58FE  G       4789 3     0.4 2                                                 
+  58FE  G       4889 3     0.6 1                                                 
+  58FE  G       5092 4     0.2 1                                             H   
+  58FE  G       5241 3     0.4 3                                             H   
+  58FE  G       5890 4     0.4 2                                                 
+  58FE  G       6840 7     0.2 2                                             H   
+  58FE  L        0.0  0+                                                         
+  58FE  L     810.56 92+                                                     A   
+  58FE  G     810.4810      66 3                                                 
+  58FE CG E         from 1962Ma33. Used by 1969Fa05 as a calibration GAMMA.      
+  58FE  L   1674.31 152+                                                     A   
+  58FE  G      863.6 2    18.110D+Q       -0.57   6                              
+  58FE2 G FLAG=E                                                                 
+  58FE CG MR        -0.37 +5-7 (1989Co01)                                        
+  58FES G KC=0.00021                                                             
+  58FE  G     1674.2 3    17.612                                             &   
+  58FE2 G FLAG=F                                                                 
+  58FE  L     2133.5 33+                                                         
+  58FE  G      459.3 3    0.39 4                                                 
+  58FE  G     1322.5 5     1.1 1D+Q       -0.48   +12-10                         
+  58FE  L   2256.97 240+                                                         
+  58FE  G     1446.3 4     3.5 3Q                                            &   
+  58FE CG M         from GG(THETA) (1989Co01)                                    
+  58FE  L   2781.78 181+                62 FS     17                             
+  58FE CL           J=1 or 2 from CP(G); GG(THETA) excludes J=2 (1969Sc24)       
+  58FE  G      524.7 3    1.20 6                                                 
+  58FE  G     1107.3 2     3.4 2D+Q       -0.18   3                              
+  58FES G KC=0.00012                                                             
+  58FE  G     1971.0 3     7.3 6D+Q       -0.17   4                              
+  58FE CG MR        -0.16 +4-5 (1989Co01)                                        
+  58FE  G     2781.015     3.4 4                                                 
+  58FE  L   2876.12 242+                30 FS     +17-8                          
+  58FE  G     2065.5 3     6.3 5D+Q       -0.33   +8-11                          
+  58FE CG MR        -0.22 +10-13 (1989Co01)                                      
+  58FE  G       2876 2     5.7 6                                             &   
+  58FE2 G FLAG=G                                                                 
+  58FE  L     3083.8 32+                47 FS     9                          A   
+  58FE  G     2273.3 3    13.015D+(Q)     -0.05   2                              
+  58FE CG MR        -0.02 7 (1989Co01)                                           
+  58FE  L     3244.2 40+                31 FS     +67-14                         
+  58FE  G     2433.5 5     2.0 3                                                 
+  58FE  L     3537.2 41+                10 FS     3                              
+  58FE CL           J=1 or 2 from CP(G); GG(THETA) excludes J=2 (1969Sc24)       
+  58FE  G     1862.5 5     1.6 2D+Q       -0.59   +14-11                         
+  58FE  G     2726.015     7.2 7D+Q       -0.57   +7-5                           
+  58FE CG MR        -0.42 7 (1989Co01)                                           
+  58FE  G       3540 3     1.8 3                                                 
+  58FE  L     3630.0 72+                26 FS     +29-11                         
+  58FE CL           J=1 or 2 from CP(G)                                          
+  58FE  G       2820 3     1.9 3                                                 
+  58FE  L     3879.9 31+                0.7 FS    7                          B   
+  58FE  G     1097.4 3     0.4 1                                                 
+  58FE  G       3071 2     1.6 3D+Q       +0.15   9                              
+  58FE  G     3881.8 7     1.4 3                                                 
+  58FE  L       4006 4                                                          ?
+  58FE  G       4006 4     0.4 2                                                 
+  58FE  L     4015.6 41+                                                     C   
+  58FE CL E         not proposed by 1969Fa05 or 1969Sc24; seen by 1973Ko27 as    
+  58FE2CL populated by a primary GAMMA                                           
+  58FE  L     4139.4 41+                2.8 FS    21                         B   
+  58FE  G     4139.9 7     2.4 3                                                 
+  58FE  L     4297.8 42+                2.8 FS    21                             
+  58FE CL           J NE 0 from CP(G)                                            
+  58FE  G       3486 3     1.0 2                                                 
+  58FE  G     4298.1 6     1.0 2                                                 
+  58FE  L   4322.47 251+                11 FS     7                          C   
+  58FE  G     1238.7 7     0.2 1                                                 
+  58FE  G     1446.3 4     3.5 3                                             &   
+  58FE  G     2065.5 3                                                          ?
+  58FE CG           Placement not adopted                                        
+  58FE  G     4322.1 6     2.1 4                                                 
+  58FE  L     4352.7 41+                                                     C   
+  58FE  L     4444.2 41+                6 FS      +28-6                      B   
+  58FE  G     1662.5 6     0.9 2                                                 
+  58FE  G       4443 2     0.7 2                                                 
+  58FE  L     4550.3 31+                21 FS     7                          B   
+  58FE  G      410.9 5    0.08 1                                                 
+  58FE  G     1306.0 5     0.8 1                                                 
+  58FE  G     1674.2 3    17.612D+Q       +0.17   +10-9                      &   
+  58FE2 G FLAG=F                                                                 
+  58FE CG MR        +0.04 14 (1989Co01)                                          
+  58FE  G       2876 2     5.7 6D+Q       -0.31   5                          &   
+  58FE2 G FLAG=G                                                                 
+  58FE CG MR        -0.19 +24 -27 (1989Co01)                                     
+  58FE  G       3740 3     1.1 3                                             &   
+  58FE2 G FLAG=D                                                                 
+  58FE  L    4832.3 210,1,2                                                      
+  58FE  L     5000.6 41+                3.0 FS    10                         B   
+  58FE  G       3326 2     5.7 5D+(Q)     -0.02   4                              
+  58FE  G       4189 2     0.3 1                                                 
+  58FE  G     5001.0 7     1.5 2                                                 
+  58FE  L     5221.0 51,2               2.4 FS    LT                             
+  58FE CL           J NE 0 from G to g.s. (1969Sc24)                             
+  58FE  G     2137.6 7     0.7 2                                                 
+  58FE  G       4411 3     0.5 2                                                 
+  58FE  G       5223 3     0.6 3                                                 
+  58FE  L     5294.8 5(1+,2,3+)         3.5 FS    28                             
+  58FE  G     2513.510     1.6 3                                                 
+  58FE  G       3162 3     1.4 3                                                 
+  58FE  G       4483 2     0.5 2                                                 
+  58FE  L     5417.8 5(1+,2,3+)         0.7 FS    LT                             
+  58FE  G      867.5      18.110                                                ?
+  58FE2 G FLAG=E                                                                 
+  58FE CG E         863.6 2 (1969Fa05) who place this GAMMA as a transition from 
+  58FE2CG a 5414 level to a 4550 level with doubt in its placement. A more       
+  58FE3CG accurate measurement of primary capture G by 1973Ko27 puts the parent  
+  58FE4CG level at 5417.8, and the GAMMA energy is obtained from those of initial
+  58FE5CG and final levels.                                                      
+  58FE  G       3280 3     0.3 2                                                 
+  58FE  G       3740 3     1.1 3                                             &  ?
+  58FE2 G FLAG=D                                                                 
+  58FE  L    5523.1 210+                                                         
+  58FE  G       4712 3     0.6 2                                                 
+  58FE  L  10044.64 210-,1-                                                     S
+  58FE CL J         for S-WAVE capture on 57FE(JPI=1/2-).                        
+  58FE cL E$10044.5 3 from 95Au04.                                               
+  58FE2cL Observed deexcitation intensity is 89% of g.s. feeding.                
+  58FE  G       4521 3     0.8 2                                                 
+  58FE  G     4626.5 5     3.3 2                                                 
+  58FE  G     4749.8 6     3.0 2                                                 
+  58FE  G     4823.9 6     2.4 2                                                 
+  58FE  G     5044.0 5    10.7 8                                                 
+  58FE  G       5212 3     0.6 3                                                 
+  58FE  G     5493.9 6    10.9 9                                                 
+  58FE  G     5600.2 6     1.1 2                                                 
+  58FE  G     5691.6 6     2.5 2                                                 
+  58FE  G     5721.8 6     2.5 2                                                 
+  58FE  G     5747.0 6     2.4 2                                                 
+  58FE  G     5905.6 7     2.5 3                                                 
+  58FE  G     6028.7 6     1.2 2                                                ?
+  58FE  G     6163.1 6     3.3 3                                                 
+  58FE  G     6414.3 7     1.6 2                                                 
+  58FE  G     6506.4 7     6.8 8                                                 
+  58FE  G     6960.7 7    10.510                                                 
+  58FE  G       7163 5     0.6 2                                                 
+  58FE  G     7262.2 8    11.412                                                 
+  58FE  G     8369.7 9    11.815                                                 
+  58FE  G     9233.710     2.2 4                                                 
+  58FE  G    10044.112     2.7 5                                                 
+                                                                                 
+ 
+ DATA FOR A =  58  AND Z =  26(FE)   57FE(N,G) E=THERMAL                CONSTANT IS OFF
+ 
+           DATASET     DAP      DBLANK    DGAMMA     DMIN      DSYS   
+ 
+  58FE  N      45.5 21           1.0                                             
+  58FE  L        0.0  0+                                                         
+  58FE  L     810.56 92+                                                         
+  58FE  G    810.71125  0.0274 9                                                 
+  58FE  L   1674.31 152+                                                         
+  58FE  G     863.81 5  0.0072 4                                                 
+  58FE  L     2133.5 33+                                                         
+  58FE  L   2256.97 240+                                                         
+  58FE  L   2781.78 181+                62 FS     17                             
+  58FE  G     525.6016 0.0007114                                                 
+  58FE  G    1107.2515 0.0010924                                                 
+  58FE  G    1971.0913  0.0032 3                                                 
+  58FE  L   2876.12 242+                30 FS     +17-8                          
+  58FE  L     3083.8 32+                47 FS     9                              
+  58FE  G    2272.7413  0.0039 8                                                 
+  58FE  L     3244.2 40+                31 FS     +67-14                         
+  58FE  G     2432.8 3  0.0014 4                                                 
+  58FE  L     3537.2 41+                10 FS     3                              
+  58FE  G     2726.6 3  0.0022 5                                                 
+  58FE  L     3630.0 72+                26 FS     +29-11                         
+  58FE  L     3879.9 31+                0.7 FS    7                              
+  58FE  G    3070.9717  0.0029 4                                                 
+  58FE  L       4006 4                                                           
+  58FE  L     4015.6 41+                                                         
+  58FE  L     4139.4 41+                2.8 FS    21                             
+  58FE  G     4139.4 4  0.0015 5                                                 
+  58FE  L     4297.8 42+                2.8 FS    21                             
+  58FE  G    3486.72 9  0.0114 6                                                 
+  58FE  G     4299.0 3  0.0036 5                                                 
+  58FE  L   4322.47 251+                11 FS     7                              
+  58FE  G    1237.7010  0.0035 3                                                 
+  58FE  G    1446.1818  0.0014 3                                                 
+  58FE  L     4352.7 41+                                                         
+  58FE  L     4444.2 41+                6 FS      +28-6                          
+  58FE  L     4550.3 31+                21 FS     7                              
+  58FE  G    411.38118  0.0264 5                                                 
+  58FE  L    4832.3 210,1,2                                                      
+  58FE  L     5000.6 41+                3.0 FS    10                             
+  58FE  G     3325.9 3  0.0019 4                                                 
+  58FE  L     5221.0 51,2               2.4 FS    LT                             
+  58FE  G    2138.03 9  0.0063 5                                                 
+  58FE  L     5294.8 5(1+,2,3+)         3.5 FS    28                             
+  58FE  L     5417.8 5(1+,2,3+)         0.7 FS    LT                             
+  58FE  L    5523.1 210+                                                         
+  58FE  L  10044.64 210-,1-                                                      
+  58FE  G     5043.5 4  0.0033 6                                                 
+  58FE  G     5493.9 5  0.0037 9                                                 
+  58FE  G     6507.3 3  0.0034 7                                                 
+  58FE  G     7261.4 5  0.004710                                                 
+  58FE  G    8369.2523  0.0050 7                                                 
+                                                                                 
+ 
+ SUMMARY OF TRANSITION DATA FOR ADOPTED LEVELS, GAMMAS     CALCULATION
+  
+               E(DE)      I(DI)
+        L1       0.0                                                             
+     1  L1    810.56 9                                                           
+     1  G1   810.48 10      66 3                                                 
+     1  G2  810.711 25  0.0274 9                                                 
+     1  L1  1674.31 15                                                           
+     1  G1   863.60 20   18.1 10                                                 
+     1  G2    863.81 5  0.0072 4                                                 
+     1  G1    1674.2 3   17.6 12                                                 
+     1  L1    2133.5 3                                                           
+     1  G1     459.3 3    0.39 4                                                 
+     1  G1    1322.5 5   1.10 10                                                 
+     1  G2    2133.5 31.00E-1720                                                 
+     1  L1  2256.97 24                                                           
+     1  G1    1446.3 4     3.5 3                                                 
+     1  G2  2256.92 241.00E-1720                                                 
+     1  L1  2781.78 18                                                           
+     1  G1     524.7 3    1.20 6                                                 
+     1  G2   525.60 160.00071 14                                                 
+     1  G1  1107.30 20   3.40 20                                                 
+     1  G2  1107.25 150.00109 24                                                 
+     1  G1    1971.0 3     7.3 6                                                 
+     1  G2  1971.09 13  0.0032 3                                                 
+     1  G1   2781.0 15     3.4 4                                                 
+     1  L1  2876.12 24                                                           
+     1  G1    2065.5 3     6.3 5                                                 
+     1  G1   2876.0 20     5.7 6                                                 
+     1  G2  2876.04 241.00E-1720                                                 
+     1  L1    3083.8 3                                                           
+     1  G1    2273.3 3   13.0 15                                                 
+     1  G2  2272.74 13  0.0039 8                                                 
+     1  L1    3244.2 4                                                           
+     1  G1    2433.5 5     2.0 3                                                 
+     1  G2    2432.8 3  0.0014 4                                                 
+     1  L1    3537.2 4                                                           
+     1  G1    1862.5 5   1.60 20                                                 
+     1  G1   2726.0 15     7.2 7                                                 
+     1  G2    2726.6 3  0.0022 5                                                 
+     1  G1      3540 3     1.8 3                                                 
+     1  L1    3630.0 7                                                           
+     1  G1      2820 3     1.9 3                                                 
+     1  G2    3629.9 71.00E-1720                                                 
+     1  L1    3879.9 3                                                           
+     1  G1    1097.4 3   0.40 10                                                 
+     1  G1   3071.0 20     1.6 3                                                 
+     1  G2  3070.97 17  0.0029 4                                                 
+     1  G1    3881.8 7     1.4 3                                                 
+     1  L1      4006 4                                                           
+     1  G1      4006 4   0.40 20                                                 
+     1  G2      4006 41.00E-1720                                                 
+     1  L1    4015.6 4                                                           
+     1  G1    4015.5 41.00E-1720                                                 
+     1  G2    4015.5 41.00E-1720                                                 
+     1  L1    4139.4 4                                                           
+     1  G1    4139.9 7     2.4 3                                                 
+     1  G2    4139.4 4  0.0015 5                                                 
+     1  L1    4297.8 4                                                           
+     1  G1      3486 3   1.00 20                                                 
+     1  G2   3486.72 9  0.0114 6                                                 
+     1  G1    4298.1 6   1.00 20                                                 
+     1  G2    4299.0 3  0.0036 5                                                 
+     1  L1  4322.47 25                                                           
+     1  G1    1238.7 7   0.20 10                                                 
+     1  G2  1237.70 10  0.0035 3                                                 
+     1  G1    1446.3 4     3.5 3                                                 
+     1  G2  1446.18 18  0.0014 3                                                 
+     1  G1    2065.5 3    0.0                                                    
+     1  G1    4322.1 6     2.1 4                                                 
+     1  L1    4352.7 4                                                           
+     1  G1    4352.5 41.00E-1720                                                 
+     1  G2    4352.5 41.00E-1720                                                 
+     1  L1    4444.2 4                                                           
+     1  G1    1662.5 6   0.90 20                                                 
+     1  G1   4443.0 20   0.70 20                                                 
+     1  G2    4444.0 41.00E-1720                                                 
+     1  L1    4550.3 3                                                           
+     1  G1     410.9 5  0.080 10                                                 
+     1  G2  411.381 18  0.0264 5                                                 
+     1  G1    1306.0 5   0.80 10                                                 
+     1  G1    1674.2 3   17.6 12                                                 
+     1  G1   2876.0 20     5.7 6                                                 
+     1  G1      3740 3     1.1 3                                                 
+     1  L1   4832.3 21                                                           
+     1  G1   4832.1 211.00E-1720                                                 
+     1  G2   4832.1 211.00E-1720                                                 
+     1  L1    5000.6 4                                                           
+     1  G1   3326.0 20     5.7 5                                                 
+     1  G2    3325.9 3  0.0019 4                                                 
+     1  G1   4189.0 20   0.30 10                                                 
+     1  G1    5001.0 7   1.50 20                                                 
+     1  L1    5221.0 5                                                           
+     1  G1    2137.6 7   0.70 20                                                 
+     1  G2   2138.03 9  0.0063 5                                                 
+     1  G1      4411 3   0.50 20                                                 
+     1  G1      5223 3     0.6 3                                                 
+     1  L1    5294.8 5                                                           
+     1  G1   2513.5 10     1.6 3                                                 
+     1  G1      3162 3     1.4 3                                                 
+     1  G1   4483.0 20   0.50 20                                                 
+     1  G2    5294.5 51.00E-1720                                                 
+     1  L1    5417.8 5                                                           
+     1  G1    867.5 10   18.1 10                                                 
+     1  G1      3280 3   0.30 20                                                 
+     1  G1      3740 3     1.1 3                                                 
+     1  G2    5417.5 51.00E-1720                                                 
+     1  L1   5523.1 21                                                           
+     1  G1      4712 3   0.60 20                                                 
+     1  G2   5522.8 211.00E-1720                                                 
+     1  L1 10044.64 21                                                           
+     1  G1      4521 3   0.80 20                                                 
+     1  G1    4626.5 5   3.30 20                                                 
+     1  G1    4749.8 6   3.00 20                                                 
+     1  G1    4823.9 6   2.40 20                                                 
+     1  G1    5044.0 5    10.7 8                                                 
+     1  G2    5043.5 4  0.0033 6                                                 
+     1  G1      5212 3     0.6 3                                                 
+     1  G1    5493.9 6    10.9 9                                                 
+     1  G2    5493.9 5  0.0037 9                                                 
+     1  G1    5600.2 6   1.10 20                                                 
+     1  G1    5691.6 6   2.50 20                                                 
+     1  G1    5721.8 6   2.50 20                                                 
+     1  G1    5747.0 6   2.40 20                                                 
+     1  G1    5905.6 7     2.5 3                                                 
+     1  G1    6028.7 6   1.20 20                                                 
+     1  G1    6163.1 6     3.3 3                                                 
+     1  G1    6414.3 7   1.60 20                                                 
+     1  G1    6506.4 7     6.8 8                                                 
+     1  G2    6507.3 3  0.0034 7                                                 
+     1  G1    6960.7 7   10.5 10                                                 
+     1  G1      7163 5   0.60 20                                                 
+     1  G1    7262.2 8   11.4 12                                                 
+     1  G2    7261.4 5 0.0047 10                                                 
+     1  G1    8369.7 9   11.8 15                                                 
+     1  G2  8369.25 23  0.0050 7                                                 
+     1  G1   9233.7 10     2.2 4                                                 
+     1  G1  10044.1 12     2.7 5                                                 
+ 
+               LEAST-SQUARES LINEAR REGRESSION OF LEVEL AND GAMMA ENERGIES
+ 
+        LEVEL ENERGIES
+    1.     0.0
+    2.   810.722 24                     
+    3.  1674.55 5                       
+    4.  2133.64 20                      
+    5.  2256.66 12                      
+    6.  2782.00 8                       
+    7.  2875.87 13                      
+    8.  3083.83 10                      
+    9.  3243.89 23                      
+   10.  3537.21 20                      
+   11.  3630.0 5                        
+   12.  3881.24 14                      
+   13.  4006 4                          
+   14.  4015.6 3                        
+   15.  4139.02 19                      
+   16.  4297.69 9                       
+   17.  4321.76 12                      
+   18.  4352.7 3                        
+   19.  4444.2 3                        
+   20.  4550.40 19                      
+   21.  4832.3 17                       
+   22.  5000.67 21                      
+   23.  5221.87 13                      
+   24.  5294.8 4                        
+   25.  5417.8 3                        
+   26.  5523.1 15                       
+   27. 10044.63 12                      
+ 
+   GAMMA ENERGIES
+       57FE(N,G) E=TH    -57FE(N,G) E=THERMA-  ENERGY     DE    L1  L2
+ -----------------------------------------------------------------------------------------------------------------------------------
+             410.9 5          411.381 18          411.379 18    20 15                                                               
+             459.3 3              0.0              459.09 20     4  3                                                               
+    (2       524.7 3    (1     525.60 16           525.34 11     6  5                                                               
+    (2     810.48 10    2)    810.711 25          810.716 24     2  1                                                               
+    (1     863.60 20    1)      863.81 5            863.82 5     3  2                                                               
+            867.5 10              0.0                867.4 4    25 20                                                               
+    (6      1097.4 3    6)        0.0             1099.22 15    12  6                                                               
+          1107.30 20    (1    1107.25 15           1107.44 8     6  3                                                               
+    (1      1238.7 7    (2    1237.70 10           1237.92 9    17  8                                                               
+            1306.0 5              0.0               1306.5 3    20  9                                                               
+            1322.5 5              0.0             1322.90 20     4  2                                                               
+    (1      1446.3 4    (1    1446.18 18          1445.87 13    17  7                                                               
+            1446.3 4              0.0             1445.92 12     5  2                                                               
+            1662.5 6              0.0               1662.2 3    19  6                                                               
+            1674.2 3              0.0             1674.50 20    20  7                                                               
+    (1      1674.2 3    1)        0.0              1674.53 5     3  1                                                               
+            1862.5 5              0.0             1862.62 20    10  3                                                               
+            1971.0 3    (1    1971.09 13           1971.25 8     6  2                                                               
+    (1      2065.5 3    1)        0.0             2065.07 15    17  5                                                               
+    (1      2065.5 3    1)        0.0             2065.11 13     7  2                                                               
+              0.0               2133.5 3          2133.60 20     4  1                                                               
+            2137.6 7           2138.03 9           2137.99 9    23  8                                                               
+              0.0       (1    2256.92 24          2256.61 12     5  1                                                               
+            2273.3 3    (2    2272.74 13          2273.06 10     8  2                                                               
+            2433.5 5    (1      2432.8 3          2433.11 23     9  2                                                               
+           2513.5 10              0.0               2512.7 4    24  6                                                               
+           2726.0 15            2726.6 3          2726.42 19    10  2                                                               
+           2781.0 15              0.0              2781.93 8     6  1                                                               
+              2820 3              0.0               2819.2 5    11  2                                                               
+           2876.0 20              0.0             2875.77 19    20  3                                                               
+           2876.0 20    (1    2876.04 24          2875.80 13     7  1                                                               
+           3071.0 20    (3    3070.97 17          3070.43 14    12  2                                                               
+              3162 3              0.0               3161.1 4    24  4                                                               
+    (1        3280 3    1)        0.0               3284.0 4    25  4                                                               
+           3326.0 20            3325.9 3          3326.01 21    22  3                                                               
+              3486 3    (1     3486.72 9           3486.86 9    16  2                                                               
+              3540 3              0.0             3537.09 20    10  1                                                               
+              0.0               3629.9 7            3629.9 5    11  1                                                               
+              3740 3              0.0             3739.54 19    20  2                                                               
+    (1        3740 3    1)        0.0               3743.1 3    25  3                                                               
+    (1      3881.8 7    1)        0.0             3881.10 14    12  1                                                               
+             4006 10              4006 4              4006 4    13  1                                                               
+             4016 10            4015.5 4            4015.5 3    14  1                                                               
+    (1      4139.9 7    (1      4139.4 4          4138.86 19    15  1                                                               
+           4189.0 20              0.0             4189.78 21    22  2                                                               
+            4298.1 6    (4      4299.0 3           4297.52 9    16  1                                                               
+            4322.1 6              0.0             4321.59 12    17  1                                                               
+             4353 10            4352.5 4            4352.5 3    18  1                                                               
+              4411 3              0.0             4410.96 13    23  2                                                               
+           4443.0 20            4444.0 4            4444.0 3    19  1                                                               
+           4483.0 20              0.0               4483.9 4    24  2                                                               
+              4521 3              0.0              4521.3 15    27 26                                                               
+            4626.5 5              0.0               4626.7 3    27 25                                                               
+              4712 3              0.0              4712.2 15    26  2                                                               
+            4749.8 6              0.0               4749.6 4    27 24                                                               
+    (2      4823.9 6    2)        0.0             4822.55 17    27 23                                                               
+             4832 10           4832.1 21           4832.1 17    21  1                                                               
+            5001.0 7              0.0             5000.44 21    22  1                                                               
+            5044.0 5            5043.5 4          5043.73 22    27 22                                                               
+              5212 3              0.0              5212.0 17    27 21                                                               
+              5223 3              0.0             5221.61 13    23  1                                                               
+              0.0               5294.5 5            5294.5 4    24  1                                                               
+              0.0               5417.5 5            5417.5 3    25  1                                                               
+            5493.9 6            5493.9 5          5493.96 20    27 20                                                               
+              0.0              5522.8 21           5522.9 15    26  1                                                               
+            5600.2 6              0.0               5600.1 3    27 19                                                               
+            5691.6 6              0.0               5691.6 3    27 18                                                               
+    (1      5721.8 6    1)        0.0             5722.56 16    27 17                                                               
+            5747.0 6              0.0             5746.63 15    27 16                                                               
+            5905.6 7              0.0             5905.29 20    27 15                                                               
+            6028.7 6              0.0               6028.7 3    27 14                                                               
+            6163.1 6              0.0             6163.04 18    27 12                                                               
+            6414.3 7              0.0               6414.2 5    27 11                                                               
+            6506.4 7            6507.3 3          6507.03 20    27 10                                                               
+            6960.7 7              0.0             6960.35 15    27  8                                                               
+    (1        7163 5    1)        0.0             7168.28 17    27  7                                                               
+            7262.2 8    (1      7261.4 5          7262.14 14    27  6                                                               
+            8369.7 9          8369.25 23          8369.43 12    27  3                                                               
+           9233.7 10              0.0             9233.12 12    27  2                                                               
+          10044.1 12              0.0            10043.70 12    27  1                                                               
+      DATA SET  1. ENERGIES CORRECTED BY    .0000000+-  .0000000 KEV     CHISQ/F =  1.617         F= 53
+      DATA SET  2. ENERGIES CORRECTED BY    .0000000+-  .0000000 KEV     CHISQ/F =  4.175         F= 16
+      CHISQ/F =  1.883      (FIT OF  108GAMMAS -  26LEVELS)
+ 
+  ITERATION -  2  CHISQ -  1.451    
+               LEAST-SQUARES LINEAR REGRESSION OF LEVEL AND GAMMA ENERGIES
+ 
+        LEVEL ENERGIES
+    1.     0.0
+    2.   810.724 24                     
+    3.  1674.54 5                       
+    4.  2133.64 20                      
+    5.  2256.57 13                      
+    6.  2781.91 8                       
+    7.  2876.00 14                      
+    8.  3084.19 15                      
+    9.  3243.90 23                      
+   10.  3537.2 2                        
+   11.  3630.0 5                        
+   12.  3881.5 3                        
+   13.  4006 4                          
+   14.  4015.6 3                        
+   15.  4139.05 19                      
+   16.  4297.57 9                       
+   17.  4322.02 14                      
+   18.  4352.7 3                        
+   19.  4444.2 3                        
+   20.  4550.43 19                      
+   21.  4832.3 17                       
+   22.  5000.66 21                      
+   23.  5222.25 17                      
+   24.  5294.8 4                        
+   25.  5417.8 3                        
+   26.  5523.1 15                       
+   27. 10044.61 13                      
+ 
+   GAMMA ENERGIES
+       57FE(N,G) E=TH    -57FE(N,G) E=THERMA-  ENERGY     DE    L1  L2
+ -----------------------------------------------------------------------------------------------------------------------------------
+             410.9 5          411.381 18          411.379 18    20 15                                                               
+             459.3 3              0.0              459.09 20     4  3                                                               
+             524.7 6    (1     525.60 16           525.33 12     6  5                                                               
+    (1     810.48 24    1)    810.711 25          810.718 24     2  1                                                               
+    (1     863.60 20    1)      863.81 5            863.81 5     3  2                                                               
+            867.5 10              0.0                867.3 4    25 20                                                               
+    (1     1097.4 18    1)        0.0               1099.6 4    12  6                                                               
+          1107.30 20          1107.25 15           1107.36 8     6  3                                                               
+    (1      1238.7 7    (1    1237.70 10           1237.82 9    17  8                                                               
+    (1      1306.0 5    1)        0.0               1306.5 3    20  9                                                               
+            1322.5 5              0.0             1322.90 20     4  2                                                               
+    (1      1446.3 4    1)        0.0             1445.83 13     5  2                                                               
+            1446.3 4          1446.18 18          1446.00 14    17  7                                                               
+            1662.5 6              0.0               1662.3 3    19  6                                                               
+            1674.2 3              0.0             1674.41 20    20  7                                                               
+    (1      1674.2 3    1)        0.0              1674.51 5     3  1                                                               
+            1862.5 5              0.0             1862.62 20    10  3                                                               
+            1971.0 3          1971.09 13           1971.15 8     6  2                                                               
+            2065.5 3              0.0             2065.24 14     7  2                                                               
+            2065.5 3              0.0             2065.41 17    17  5                                                               
+              0.0               2133.5 3          2133.59 20     4  1                                                               
+            2137.6 7           2138.03 9           2138.02 9    23  8                                                               
+              0.0       (1    2256.92 24          2256.52 13     5  1                                                               
+            2273.3 3    (2      2272.7 3          2273.42 14     8  2                                                               
+            2433.5 5    (1      2432.8 3          2433.12 23     9  2                                                               
+           2513.5 10              0.0               2512.8 4    24  6                                                               
+           2726.0 15            2726.6 3          2726.40 20    10  2                                                               
+           2781.0 15              0.0              2781.84 8     6  1                                                               
+              2820 3              0.0               2819.2 5    11  2                                                               
+           2876.0 20              0.0             2875.82 19    20  3                                                               
+           2876.0 20          2876.04 24          2875.93 14     7  1                                                               
+           3071.0 20            3071.0 5            3070.7 3    12  2                                                               
+              3162 3              0.0               3161.1 4    24  4                                                               
+    (1        3280 3    1)        0.0               3284.0 4    25  4                                                               
+           3326.0 20            3325.9 3          3326.01 21    22  3                                                               
+              3486 3           3486.72 9           3486.74 9    16  2                                                               
+              3540 3              0.0             3537.08 20    10  1                                                               
+              0.0               3629.9 7            3629.9 5    11  1                                                               
+              3740 3              0.0             3739.58 19    20  2                                                               
+    (1        3740 3    1)        0.0               3743.1 3    25  3                                                               
+            3881.8 7              0.0               3881.4 3    12  1                                                               
+             4006 10              4006 4              4006 4    13  1                                                               
+             4016 10            4015.5 4            4015.5 3    14  1                                                               
+    (1      4139.9 7    (1      4139.4 4          4138.90 19    15  1                                                               
+           4189.0 20              0.0             4189.77 21    22  2                                                               
+    (1      4298.1 6    (1     4299.0 15           4297.40 9    16  1                                                               
+            4322.1 6              0.0             4321.85 14    17  1                                                               
+             4353 10            4352.5 4            4352.5 3    18  1                                                               
+              4411 3              0.0             4411.34 17    23  2                                                               
+           4443.0 20            4444.0 4            4444.0 3    19  1                                                               
+           4483.0 20              0.0               4483.9 4    24  2                                                               
+              4521 3              0.0              4521.3 15    27 26                                                               
+            4626.5 5              0.0               4626.6 3    27 25                                                               
+              4712 3              0.0              4712.2 15    26  2                                                               
+            4749.8 6              0.0               4749.6 4    27 24                                                               
+    (1     4823.9 13    1)        0.0             4822.15 20    27 23                                                               
+             4832 10           4832.1 21           4832.1 17    21  1                                                               
+            5001.0 7              0.0             5000.42 21    22  1                                                               
+            5044.0 5            5043.5 4          5043.72 22    27 22                                                               
+              5212 3              0.0              5212.0 17    27 21                                                               
+              5223 3              0.0             5222.00 17    23  1                                                               
+              0.0               5294.5 5            5294.5 4    24  1                                                               
+              0.0               5417.5 5            5417.5 3    25  1                                                               
+            5493.9 6            5493.9 5          5493.90 20    27 20                                                               
+              0.0              5522.8 21           5522.8 15    26  1                                                               
+            5600.2 6              0.0               5600.1 3    27 19                                                               
+            5691.6 6              0.0               5691.6 3    27 18                                                               
+            5721.8 6              0.0             5722.28 18    27 17                                                               
+            5747.0 6              0.0             5746.73 15    27 16                                                               
+            5905.6 7              0.0             5905.23 20    27 15                                                               
+            6028.7 6              0.0               6028.6 3    27 14                                                               
+            6163.1 6              0.0               6162.7 4    27 12                                                               
+            6414.3 7              0.0               6414.2 5    27 11                                                               
+            6506.4 7            6507.3 3          6507.02 20    27 10                                                               
+    (1      6960.7 7    1)        0.0             6959.97 18    27  8                                                               
+    (1        7163 5    1)        0.0             7168.13 18    27  7                                                               
+            7262.2 8    (1      7261.4 5          7262.22 14    27  6                                                               
+            8369.7 9          8369.25 23          8369.42 13    27  3                                                               
+           9233.7 10              0.0             9233.10 12    27  2                                                               
+          10044.1 12              0.0            10043.68 13    27  1                                                               
+      DATA SET  1. ENERGIES CORRECTED BY    .0000000+-  .0000000 KEV     CHISQ/F =  .6174         F= 53
+      DATA SET  2. ENERGIES CORRECTED BY    .0000000+-  .0000000 KEV     CHISQ/F =  1.417         F= 16
+      CHISQ/F =  .6840      (FIT OF  108GAMMAS -  26LEVELS)
+ 
+  ITERATION -  3  CHISQ -  1.451    
+               LEAST-SQUARES LINEAR REGRESSION OF LEVEL AND GAMMA ENERGIES
+ 
+        LEVEL ENERGIES
+    1.     0.0
+    2.   810.72 3                       
+    3.  1674.53 6                       
+    4.  2133.63 21                      
+    5.  2256.64 17                      
+    6.  2781.86 10                      
+    7.  2876.06 15                      
+    8.  3084.31 17                      
+    9.  3244.0 3                        
+   10.  3537.22 23                      
+   11.  3630.0 5                        
+   12.  3881.5 4                        
+   13.  4006 4                          
+   14.  4015.6 4                        
+   15.  4139.03 20                      
+   16.  4297.57 11                      
+   17.  4322.13 16                      
+   18.  4352.7 4                        
+   19.  4444.2 3                        
+   20.  4550.41 20                      
+   21.  4832.4 19                       
+   22.  5000.66 25                      
+   23.  5222.37 20                      
+   24.  5294.8 4                        
+   25.  5417.8 4                        
+   26.  5523.1 16                       
+   27. 10044.65 14                      
+ 
+   GAMMA ENERGIES
+       57FE(N,G) E=TH    -57FE(N,G) E=THERMA-  ENERGY     DE    L1  L2
+ -----------------------------------------------------------------------------------------------------------------------------------
+             410.9 5          411.381 22          411.379 22    20 15                                                               
+             459.3 3              0.0              459.11 21     4  3                                                               
+             524.7 6    (1       525.6 3           525.22 17     6  5                                                               
+           810.48 24            810.71 3            810.71 3     2  1                                                               
+           863.60 20            863.81 6            863.80 5     3  2                                                               
+            867.5 10              0.0                867.4 4    25 20                                                               
+    (1     1097.4 22    1)        0.0               1099.7 4    12  6                                                               
+          1107.30 20          1107.25 18          1107.32 10     6  3                                                               
+    (1      1238.7 9    1)    1237.70 12          1237.81 11    17  8                                                               
+            1306.0 5              0.0               1306.4 3    20  9                                                               
+            1322.5 5              0.0             1322.90 21     4  2                                                               
+    (1      1446.3 4    1)        0.0             1445.90 17     5  2                                                               
+            1446.3 4          1446.18 22          1446.05 16    17  7                                                               
+            1662.5 6              0.0               1662.3 3    19  6                                                               
+            1674.2 3              0.0             1674.32 21    20  7                                                               
+            1674.2 3              0.0              1674.50 6     3  1                                                               
+            1862.5 5              0.0             1862.67 23    10  3                                                               
+            1971.0 3          1971.09 16           1971.11 9     6  2                                                               
+            2065.5 3              0.0             2065.30 15     7  2                                                               
+            2065.5 3              0.0             2065.46 20    17  5                                                               
+              0.0               2133.5 4          2133.59 21     4  1                                                               
+            2137.6 7          2138.03 11          2138.01 11    23  8                                                               
+              0.0               2256.9 4          2256.59 17     5  1                                                               
+            2273.3 3    (1      2272.7 8          2273.55 17     8  2                                                               
+            2433.5 5    (1      2432.8 4            2433.2 3     9  2                                                               
+           2513.5 10              0.0               2512.9 4    24  6                                                               
+           2726.0 15            2726.6 4          2726.43 22    10  2                                                               
+           2781.0 15              0.0             2781.79 10     6  1                                                               
+              2820 3              0.0               2819.2 5    11  2                                                               
+           2876.0 20              0.0             2875.81 21    20  3                                                               
+           2876.0 20            2876.0 3          2875.99 15     7  1                                                               
+           3071.0 20            3071.0 7            3070.7 4    12  2                                                               
+              3162 3              0.0               3161.1 4    24  4                                                               
+    (1        3280 4    1)        0.0               3284.1 4    25  4                                                               
+           3326.0 20            3325.9 4          3326.04 24    22  3                                                               
+              3486 3          3486.72 11          3486.74 11    16  2                                                               
+              3540 3              0.0             3537.11 23    10  1                                                               
+              0.0               3629.9 9            3629.9 5    11  1                                                               
+              3740 3              0.0             3739.56 20    20  2                                                               
+    (1        3740 3    1)        0.0               3743.2 4    25  3                                                               
+            3881.8 7              0.0               3881.4 4    12  1                                                               
+             4006 10              4006 5              4006 4    13  1                                                               
+             4016 10            4015.5 5            4015.5 4    14  1                                                               
+    (1     4139.9 10    (1      4139.4 5          4138.87 20    15  1                                                               
+           4189.0 20              0.0             4189.78 25    22  2                                                               
+    (1      4298.1 6    1)     4299.0 18          4297.40 11    16  1                                                               
+            4322.1 6              0.0             4321.96 16    17  1                                                               
+             4353 10            4352.5 5            4352.5 4    18  1                                                               
+              4411 3              0.0             4411.47 20    23  2                                                               
+           4443.0 20            4444.0 5            4444.0 3    19  1                                                               
+           4483.0 20              0.0               4483.9 4    24  2                                                               
+              4521 3              0.0              4521.3 16    27 26                                                               
+            4626.5 5              0.0               4626.6 4    27 25                                                               
+              4712 3              0.0              4712.2 16    26  2                                                               
+            4749.8 6              0.0               4749.6 4    27 24                                                               
+    (1     4823.9 18    1)        0.0             4822.07 23    27 23                                                               
+             4832 10              4832 3           4832.1 19    21  1                                                               
+            5001.0 7              0.0             5000.43 25    22  1                                                               
+            5044.0 5            5043.5 5          5043.75 25    27 22                                                               
+              5212 3              0.0              5212.0 19    27 21                                                               
+              5223 3              0.0             5222.12 20    23  1                                                               
+              0.0               5294.5 6            5294.5 4    24  1                                                               
+              0.0               5417.5 6            5417.5 4    25  1                                                               
+            5493.9 6            5493.9 6          5493.96 22    27 20                                                               
+              0.0                 5523 3           5522.9 16    26  1                                                               
+            5600.2 6              0.0               5600.2 3    27 19                                                               
+            5691.6 6              0.0               5691.6 4    27 18                                                               
+            5721.8 6              0.0             5722.22 20    27 17                                                               
+            5747.0 6              0.0             5746.77 17    27 16                                                               
+            5905.6 7              0.0             5905.30 22    27 15                                                               
+            6028.7 6              0.0               6028.7 4    27 14                                                               
+            6163.1 6              0.0               6162.8 4    27 12                                                               
+            6414.3 7              0.0               6414.3 5    27 11                                                               
+            6506.4 7            6507.3 4          6507.04 23    27 10                                                               
+    (1      6960.7 7    1)        0.0             6959.89 21    27  8                                                               
+    (1        7163 5    1)        0.0             7168.11 19    27  7                                                               
+            7262.2 8    (1      7261.4 8          7262.30 16    27  6                                                               
+            8369.7 9            8369.3 3          8369.48 14    27  3                                                               
+           9233.7 10              0.0             9233.14 14    27  2                                                               
+          10044.1 12              0.0            10043.72 14    27  1                                                               
+      DATA SET  1. ENERGIES CORRECTED BY    .0000000+-  .0000000 KEV     CHISQ/F =  .5052         F= 53
+      DATA SET  2. ENERGIES CORRECTED BY    .0000000+-  .0000000 KEV     CHISQ/F =  .7391         F= 16
+      CHISQ/F =  .4765      (FIT OF  108GAMMAS -  26LEVELS)
+ 
+  ITERATION -  4  CHISQ -  1.451    
+               LEAST-SQUARES LINEAR REGRESSION OF LEVEL AND GAMMA ENERGIES
+ 
+        LEVEL ENERGIES
+    1.     0.0
+    2.   810.72 3                       
+    3.  1674.52 6                       
+    4.  2133.63 21                      
+    5.  2256.72 19                      
+    6.  2781.84 10                      
+    7.  2876.07 15                      
+    8.  3084.33 17                      
+    9.  3244.0 3                        
+   10.  3537.22 23                      
+   11.  3630.0 5                        
+   12.  3881.5 4                        
+   13.  4006 4                          
+   14.  4015.6 4                        
+   15.  4139.03 20                      
+   16.  4297.57 11                      
+   17.  4322.15 16                      
+   18.  4352.7 4                        
+   19.  4444.2 3                        
+   20.  4550.41 20                      
+   21.  4832.4 19                       
+   22.  5000.66 25                      
+   23.  5222.38 20                      
+   24.  5294.8 4                        
+   25.  5417.8 4                        
+   26.  5523.1 16                       
+   27. 10044.65 14                      
+ 
+   GAMMA ENERGIES
+       57FE(N,G) E=TH    -57FE(N,G) E=THERMA-  ENERGY     DE    L1  L2
+ -----------------------------------------------------------------------------------------------------------------------------------
+             410.9 5          411.381 22          411.379 22    20 15                                                               
+             459.3 3              0.0              459.11 21     4  3                                                               
+             524.7 6    (1       525.6 4           525.12 19     6  5                                                               
+           810.48 24            810.71 3            810.71 3     2  1                                                               
+           863.60 20            863.81 6            863.80 5     3  2                                                               
+            867.5 10              0.0                867.4 4    25 20                                                               
+    (1     1097.4 22    1)        0.0               1099.7 4    12  6                                                               
+          1107.30 20          1107.25 18          1107.31 10     6  3                                                               
+    (1      1238.7 9    1)    1237.70 12          1237.81 11    17  8                                                               
+            1306.0 5              0.0               1306.4 3    20  9                                                               
+            1322.5 5              0.0             1322.90 21     4  2                                                               
+            1446.3 4              0.0             1445.98 18     5  2                                                               
+            1446.3 4          1446.18 22          1446.06 16    17  7                                                               
+            1662.5 6              0.0               1662.3 3    19  6                                                               
+            1674.2 3              0.0             1674.31 21    20  7                                                               
+            1674.2 3              0.0              1674.50 6     3  1                                                               
+            1862.5 5              0.0             1862.67 23    10  3                                                               
+            1971.0 3          1971.09 16          1971.09 10     6  2                                                               
+            2065.5 3              0.0             2065.32 15     7  2                                                               
+            2065.5 3              0.0             2065.39 20    17  5                                                               
+              0.0               2133.5 4          2133.59 21     4  1                                                               
+            2137.6 7          2138.03 11          2138.01 11    23  8                                                               
+              0.0               2256.9 4          2256.68 19     5  1                                                               
+            2273.3 3    (1      2272.7 8          2273.56 17     8  2                                                               
+            2433.5 5    (1      2432.8 4            2433.2 3     9  2                                                               
+           2513.5 10              0.0               2512.9 4    24  6                                                               
+           2726.0 15            2726.6 4          2726.43 22    10  2                                                               
+           2781.0 15              0.0             2781.77 10     6  1                                                               
+              2820 3              0.0               2819.2 5    11  2                                                               
+           2876.0 20              0.0             2875.82 21    20  3                                                               
+           2876.0 20            2876.0 3          2876.00 15     7  1                                                               
+           3071.0 20            3071.0 7            3070.7 4    12  2                                                               
+              3162 3              0.0               3161.1 4    24  4                                                               
+    (1        3280 4    1)        0.0               3284.1 4    25  4                                                               
+           3326.0 20            3325.9 4          3326.04 24    22  3                                                               
+              3486 3          3486.72 11          3486.74 11    16  2                                                               
+              3540 3              0.0             3537.11 23    10  1                                                               
+              0.0               3629.9 9            3629.9 5    11  1                                                               
+              3740 3              0.0             3739.57 20    20  2                                                               
+    (1        3740 3    1)        0.0               3743.2 4    25  3                                                               
+            3881.8 7              0.0               3881.4 4    12  1                                                               
+             4006 10              4006 5              4006 4    13  1                                                               
+             4016 10            4015.5 5            4015.5 4    14  1                                                               
+    (1     4139.9 10    (1      4139.4 5          4138.88 20    15  1                                                               
+           4189.0 20              0.0             4189.78 25    22  2                                                               
+    (1      4298.1 6    1)     4299.0 18          4297.40 11    16  1                                                               
+            4322.1 6              0.0             4321.98 16    17  1                                                               
+             4353 10            4352.5 5            4352.5 4    18  1                                                               
+              4411 3              0.0             4411.49 20    23  2                                                               
+           4443.0 20            4444.0 5            4444.0 3    19  1                                                               
+           4483.0 20              0.0               4483.9 4    24  2                                                               
+              4521 3              0.0              4521.3 16    27 26                                                               
+            4626.5 5              0.0               4626.6 4    27 25                                                               
+              4712 3              0.0              4712.2 16    26  2                                                               
+            4749.8 6              0.0               4749.7 4    27 24                                                               
+    (1     4823.9 18    1)        0.0             4822.05 23    27 23                                                               
+             4832 10              4832 3           4832.1 19    21  1                                                               
+            5001.0 7              0.0             5000.43 25    22  1                                                               
+            5044.0 5            5043.5 5          5043.75 25    27 22                                                               
+              5212 3              0.0              5212.0 19    27 21                                                               
+              5223 3              0.0             5222.13 20    23  1                                                               
+              0.0               5294.5 6            5294.5 4    24  1                                                               
+              0.0               5417.5 6            5417.5 4    25  1                                                               
+            5493.9 6            5493.9 6          5493.96 22    27 20                                                               
+              0.0                 5523 3           5522.9 16    26  1                                                               
+            5600.2 6              0.0               5600.2 3    27 19                                                               
+            5691.6 6              0.0               5691.6 4    27 18                                                               
+            5721.8 6              0.0             5722.19 20    27 17                                                               
+            5747.0 6              0.0             5746.77 17    27 16                                                               
+            5905.6 7              0.0             5905.29 22    27 15                                                               
+            6028.7 6              0.0               6028.7 4    27 14                                                               
+            6163.1 6              0.0               6162.8 4    27 12                                                               
+            6414.3 7              0.0               6414.3 5    27 11                                                               
+            6506.4 7            6507.3 4          6507.04 23    27 10                                                               
+    (1      6960.7 7    1)        0.0             6959.87 21    27  8                                                               
+    (1        7163 5    1)        0.0             7168.10 20    27  7                                                               
+            7262.2 8    (1      7261.4 8          7262.32 16    27  6                                                               
+            8369.7 9            8369.3 3          8369.48 14    27  3                                                               
+           9233.7 10              0.0             9233.14 14    27  2                                                               
+          10044.1 12              0.0            10043.72 14    27  1                                                               
+      DATA SET  1. ENERGIES CORRECTED BY    .0000000+-  .0000000 KEV     CHISQ/F =  .4935         F= 53
+      DATA SET  2. ENERGIES CORRECTED BY    .0000000+-  .0000000 KEV     CHISQ/F =  .6955         F= 16
+      CHISQ/F =  .4603      (FIT OF  108GAMMAS -  26LEVELS)
+ 
+  ITERATION -  5  CHISQ -  1.451    
+               LEAST-SQUARES LINEAR REGRESSION OF LEVEL AND GAMMA ENERGIES
+ 
+        LEVEL ENERGIES
+    1.     0.0
+    2.   810.72 3                       
+    3.  1674.52 6                       
+    4.  2133.63 21                      
+    5.  2256.77 19                      
+    6.  2781.83 10                      
+    7.  2876.08 15                      
+    8.  3084.34 17                      
+    9.  3244.0 3                        
+   10.  3537.22 23                      
+   11.  3630.0 5                        
+   12.  3881.5 4                        
+   13.  4006 4                          
+   14.  4015.6 4                        
+   15.  4139.04 20                      
+   16.  4297.57 11                      
+   17.  4322.17 16                      
+   18.  4352.7 4                        
+   19.  4444.2 3                        
+   20.  4550.42 20                      
+   21.  4832.4 19                       
+   22.  5000.66 25                      
+   23.  5222.39 20                      
+   24.  5294.8 4                        
+   25.  5417.8 4                        
+   26.  5523.1 16                       
+   27. 10044.65 14                      
+ 
+   GAMMA ENERGIES
+       57FE(N,G) E=TH    -57FE(N,G) E=THERMA-  ENERGY     DE    L1  L2
+ -----------------------------------------------------------------------------------------------------------------------------------
+             410.9 5          411.381 22          411.379 22    20 15                                                               
+             459.3 3              0.0              459.11 21     4  3                                                               
+             524.7 6    (1       525.6 5           525.07 20     6  5                                                               
+           810.48 24            810.71 3            810.71 3     2  1                                                               
+           863.60 20            863.81 6            863.80 5     3  2                                                               
+            867.5 10              0.0                867.4 4    25 20                                                               
+    (1     1097.4 22    1)        0.0               1099.7 4    12  6                                                               
+          1107.30 20          1107.25 18          1107.30 10     6  3                                                               
+    (1      1238.7 9    1)    1237.70 12          1237.81 11    17  8                                                               
+            1306.0 5              0.0               1306.4 3    20  9                                                               
+            1322.5 5              0.0             1322.90 21     4  2                                                               
+            1446.3 4              0.0             1446.03 19     5  2                                                               
+            1446.3 4          1446.18 22          1446.07 16    17  7                                                               
+            1662.5 6              0.0               1662.3 3    19  6                                                               
+            1674.2 3              0.0             1674.31 21    20  7                                                               
+            1674.2 3              0.0              1674.49 6     3  1                                                               
+            1862.5 5              0.0             1862.67 23    10  3                                                               
+            1971.0 3          1971.09 16          1971.08 10     6  2                                                               
+            2065.5 3              0.0             2065.32 15     7  2                                                               
+            2065.5 3              0.0             2065.36 21    17  5                                                               
+              0.0               2133.5 4          2133.59 21     4  1                                                               
+            2137.6 7          2138.03 11          2138.01 11    23  8                                                               
+              0.0               2256.9 4          2256.72 19     5  1                                                               
+            2273.3 3    (1      2272.7 8          2273.57 17     8  2                                                               
+            2433.5 5    (1      2432.8 4            2433.2 3     9  2                                                               
+           2513.5 10              0.0               2512.9 4    24  6                                                               
+           2726.0 15            2726.6 4          2726.43 22    10  2                                                               
+           2781.0 15              0.0             2781.76 10     6  1                                                               
+              2820 3              0.0               2819.2 5    11  2                                                               
+           2876.0 20              0.0             2875.82 21    20  3                                                               
+           2876.0 20            2876.0 3          2876.00 15     7  1                                                               
+           3071.0 20            3071.0 7            3070.7 4    12  2                                                               
+              3162 3              0.0               3161.1 4    24  4                                                               
+    (1        3280 4    1)        0.0               3284.1 4    25  4                                                               
+           3326.0 20            3325.9 4          3326.04 24    22  3                                                               
+              3486 3          3486.72 11          3486.74 11    16  2                                                               
+              3540 3              0.0             3537.11 23    10  1                                                               
+              0.0               3629.9 9            3629.9 5    11  1                                                               
+              3740 3              0.0             3739.57 20    20  2                                                               
+    (1        3740 3    1)        0.0               3743.2 4    25  3                                                               
+            3881.8 7              0.0               3881.4 4    12  1                                                               
+             4006 10              4006 5              4006 4    13  1                                                               
+             4016 10            4015.5 5            4015.5 4    14  1                                                               
+    (1     4139.9 10    (1      4139.4 5          4138.88 20    15  1                                                               
+           4189.0 20              0.0             4189.78 25    22  2                                                               
+    (1      4298.1 6    1)     4299.0 18          4297.40 11    16  1                                                               
+            4322.1 6              0.0             4321.99 16    17  1                                                               
+             4353 10            4352.5 5            4352.5 4    18  1                                                               
+              4411 3              0.0             4411.50 20    23  2                                                               
+           4443.0 20            4444.0 5            4444.0 3    19  1                                                               
+           4483.0 20              0.0               4483.9 4    24  2                                                               
+              4521 3              0.0              4521.3 16    27 26                                                               
+            4626.5 5              0.0               4626.6 4    27 25                                                               
+              4712 3              0.0              4712.2 16    26  2                                                               
+            4749.8 6              0.0               4749.7 4    27 24                                                               
+    (1     4823.9 18    1)        0.0             4822.04 23    27 23                                                               
+             4832 10              4832 3           4832.1 19    21  1                                                               
+            5001.0 7              0.0             5000.43 25    22  1                                                               
+            5044.0 5            5043.5 5          5043.75 25    27 22                                                               
+              5212 3              0.0              5212.0 19    27 21                                                               
+              5223 3              0.0             5222.14 20    23  1                                                               
+              0.0               5294.5 6            5294.5 4    24  1                                                               
+              0.0               5417.5 6            5417.5 4    25  1                                                               
+            5493.9 6            5493.9 6          5493.96 22    27 20                                                               
+              0.0                 5523 3           5522.9 16    26  1                                                               
+            5600.2 6              0.0               5600.2 3    27 19                                                               
+            5691.6 6              0.0               5691.6 4    27 18                                                               
+            5721.8 6              0.0             5722.18 20    27 17                                                               
+            5747.0 6              0.0             5746.77 17    27 16                                                               
+            5905.6 7              0.0             5905.29 22    27 15                                                               
+            6028.7 6              0.0               6028.7 4    27 14                                                               
+            6163.1 6              0.0               6162.8 4    27 12                                                               
+            6414.3 7              0.0               6414.3 5    27 11                                                               
+            6506.4 7            6507.3 4          6507.04 23    27 10                                                               
+    (1      6960.7 7    1)        0.0             6959.86 21    27  8                                                               
+    (1        7163 5    1)        0.0             7168.10 20    27  7                                                               
+            7262.2 8    (1      7261.4 8          7262.33 16    27  6                                                               
+            8369.7 9            8369.3 3          8369.48 14    27  3                                                               
+           9233.7 10              0.0             9233.14 14    27  2                                                               
+          10044.1 12              0.0            10043.72 14    27  1                                                               
+      DATA SET  1. ENERGIES CORRECTED BY    .0000000+-  .0000000 KEV     CHISQ/F =  .4894         F= 53
+      DATA SET  2. ENERGIES CORRECTED BY    .0000000+-  .0000000 KEV     CHISQ/F =  .6665         F= 16
+      CHISQ/F =  .4519      (FIT OF  108GAMMAS -  26LEVELS)
+ 
+ 
+   LEAST-SQUARED FIT AVERAGE INTENSITIES        3 ITERATIONS
+    LEVEL/GAMMA     INTENSITY     CHISQ/F
+ -----------------------------------------------------------------------------------------------------------------------------------
+       411.379 22      94.7 18  **********
+        459.11 21       0.59 6       .0000
+        525.07 20       1.85 9      1.2239
+         810.71 3        100 3       .0325
+         863.80 5      26.8 10       .0660
+          867.4 4      27.2 15       .0000
+         1099.7 4      0.60 15       .0000
+       1107.30 10        5.0 3       .7176
+       1237.81 11      12.5 11   3291.4126
+         1306.4 3      1.20 15       .0000
+       1322.90 21      1.65 15       .0000
+       1446.03 19        5.3 5       .0000
+       1446.07 16        5.2 4       .0050
+         1662.3 3        1.4 3       .0000
+       1674.31 21      26.4 18       .0000
+        1674.49 6      26.4 18       .0000
+       1862.67 23        2.4 3       .0000
+       1971.08 10       11.3 7       .1507
+       2065.32 15        9.5 8       .0000
+       2065.36 21       0.0          .0000
+       2133.59 21    3.7E-14 7       .0000
+       2138.01 11      21.5 16   2326.2525
+       2256.72 19    3.7E-14 7       .0000
+       2273.57 17      18.3 18      1.0643
+         2433.2 3        3.5 5      1.1728
+         2512.9 4        2.4 5       .0000
+       2726.43 22       10.4 9       .8782
+       2781.76 10        5.1 6       .0000
+         2819.2 5        2.9 5       .0000
+       2875.82 21        8.6 9       .0000
+       2876.00 15        6.7 6      4.2466
+         3070.7 4        7.7 9     72.3329
+         3161.1 4        2.1 5       .0000
+         3284.1 4        0.5 3       .0000
+       3326.04 24        8.3 7       .4740
+       3486.74 11      39.2 20   7885.4011
+       3537.11 23        2.7 5       .0000
+         3629.9 5    3.7E-14 7       .0000
+       3739.57 20        1.7 5       .0000
+         3743.2 4        1.7 5       .0000
+         3881.4 4        2.1 5       .0000
+           4006 4     0.083 15      2.9727
+         4015.5 4    1.8E-14 3       .0000
+       4138.88 20        3.8 5       .5472
+       4189.78 25      0.45 15       .0000
+       4297.40 11       9.4 11    347.9575
+       4321.99 16        3.2 6       .0000
+         4352.5 4    1.8E-14 3       .0000
+       4411.50 20        0.8 3       .0000
+         4444.0 3       0.35 6      5.5178
+         4483.9 4        0.8 3       .0000
+        4521.3 16        1.2 3       .0000
+         4626.6 4        5.0 3       .0000
+        4712.2 16        0.9 3       .0000
+         4749.7 4        4.5 3       .0000
+       4822.04 23        3.6 3       .0000
+        4832.1 19    1.8E-14 3       .0000
+       5000.43 25        2.3 3       .0000
+       5043.75 25      15.5 11      1.2971
+        5212.0 19        0.9 5       .0000
+       5222.14 20        0.9 5       .0000
+         5294.5 4    3.7E-14 7       .0000
+         5417.5 4    3.7E-14 7       .0000
+       5493.96 22      16.1 13       .3102
+        5522.9 16    3.7E-14 7       .0000
+         5600.2 3        1.7 3       .0000
+         5691.6 4        3.8 3       .0000
+       5722.18 20        3.8 3       .0000
+       5746.77 17        3.6 3       .0000
+       5905.29 22        3.8 5       .0000
+         6028.7 4        1.8 3       .0000
+         6162.8 4        5.0 5       .0000
+         6414.3 5        2.4 3       .0000
+       6507.04 23      10.8 11       .3283
+       6959.86 21      15.8 15       .0000
+       7168.10 20        0.9 3       .0000
+       7262.33 16      17.1 16       .0005
+       8369.48 14      18.0 17       .0168
+       9233.14 14        3.3 6       .0000
+      10043.72 14        4.1 8       .0000
+ -----------------------------------------------------------------------------------------------------------------------------------
+ 
+ 
+ GAMMA ENERGIES                    FITTED INTENSITIES
+                  1.57FE(N,G) E=TH                   2.57FE(N,G) E=THERMAL 
+ -----------------------------------------------------------------------------------------------------------------------------------
+   411.379 22     0.080 10         63 3*9*       0.0264 5     0.0258 5*1*         94.7 18
+    459.11 21       0.39 4       0.39 4            0.0      1.60E-0418             0.59 6
+    525.07 20       1.20 6       1.23 6        0.00071 14    0.00050 3*1*          1.85 9
+     810.71 3         66 3      66.6 24          0.0274 9     0.0273 8              100 3
+     863.80 5      18.1 10       17.8 8          0.0072 4     0.0073 3            26.8 10
+      867.4 4      18.1 10      18.1 10            0.0       0.0074 15            27.2 15
+     1099.7 4      0.40 10      0.40 10            0.0       1.6E-04 5            0.60 15
+   1107.30 10      3.40 20      3.35 19        0.00109 24    0.00137 9*1*           5.0 3
+   1237.81 11      0.20 10        8.3 8*9*       0.0035 3     0.0034 3            12.5 11
+     1306.4 3      0.80 10      0.80 10            0.0       0.00033 4            1.20 15
+   1322.90 21      1.10 10      1.10 10            0.0       0.00045 5            1.65 15
+   1446.03 19        3.5 3        3.5 3            0.0        0.0014 3              5.3 5
+   1446.07 16        3.5 3        3.5 3          0.0014 3   0.00143 12              5.2 4
+     1662.3 3      0.90 20      0.90 20            0.0      0.00037 10              1.4 3
+   1674.31 21      17.6 12      17.6 12            0.0        0.0072 5            26.4 18
+    1674.49 6      17.6 12      17.6 12            0.0        0.0072 6            26.4 18
+   1862.67 23      1.60 20      1.60 20            0.0      0.00065 12              2.4 3
+   1971.08 10        7.3 6        7.5 5          0.0032 3   0.00308 20             11.3 7
+   2065.32 15        6.3 5        6.3 5            0.0        0.0026 3              9.5 8
+   2065.36 21       0.0          0.0               0.0          0.0                0.0   
+   2133.59 21       0.0          0.0               0.0          0.0             3.7E-14 7
+   2138.01 11      0.70 20      14.3 12*9*       0.0063 5     0.0059 5            21.5 16
+   2256.72 19       0.0          0.0               0.0          0.0             3.7E-14 7
+   2273.57 17      13.0 15      12.2 12          0.0039 8     0.0050 5*1*         18.3 18
+     2433.2 3        2.0 3        2.3 3*1*       0.0014 4   0.00094 13*1*           3.5 5
+     2512.9 4        1.6 3        1.6 3            0.0      0.00065 13              2.4 5
+   2726.43 22        7.2 7        6.9 6          0.0022 5     0.0028 3*1*          10.4 9
+   2781.76 10        3.4 4        3.4 4            0.0      0.00139 19              5.1 6
+     2819.2 5        1.9 3        1.9 3            0.0      0.00078 14              2.9 5
+   2875.82 21        5.7 6        5.7 6            0.0      0.00233 25              8.6 9
+   2876.00 15        5.7 6        4.5 4*2*         0.0      0.00183 25              6.7 6
+     3070.7 4        1.6 3        5.2 6*9*       0.0029 4   0.00211 24*1*           7.7 9
+     3161.1 4        1.4 3        1.4 3            0.0      0.00057 13              2.1 5
+     3284.1 4      0.30 20      0.30 20            0.0       1.2E-04 9              0.5 3
+   3326.04 24        5.7 5        5.5 5          0.0019 4   0.00227 20              8.3 7
+   3486.74 11      1.00 20      26.1 16*9*       0.0114 6     0.0107 5*1*         39.2 20
+   3537.11 23        1.8 3        1.8 3            0.0      0.00074 14              2.7 5
+     3629.9 5       0.0          0.0               0.0          0.0             3.7E-14 7
+   3739.57 20        1.1 3        1.1 3            0.0      0.00045 12              1.7 5
+     3743.2 4        1.1 3        1.1 3            0.0      0.00045 15              1.7 5
+     3881.4 4        1.4 3        1.4 3            0.0      0.00057 14              2.1 5
+       4006 4      0.40 20     0.055 10*1*         0.0       2.3E-05 6           0.083 15
+     4015.5 4       0.0          0.0               0.0          0.0             1.8E-14 3
+   4138.88 20        2.4 3        2.6 3          0.0015 5   0.00105 13              3.8 5
+   4189.78 25      0.30 10      0.30 10            0.0       1.2E-04 4            0.45 15
+   4297.40 11      1.00 20        6.3 7*9*       0.0036 5     0.0026 3*2*          9.4 11
+   4321.99 16        2.1 4        2.1 4            0.0      0.00086 18              3.2 6
+     4352.5 4       0.0          0.0               0.0          0.0             1.8E-14 3
+   4411.50 20      0.50 20      0.50 20            0.0       2.0E-04 8              0.8 3
+     4444.0 3      0.70 20       0.23 4*2*         0.0       9.4E-0522             0.35 6
+     4483.9 4      0.50 20      0.50 20            0.0       2.0E-04 8              0.8 3
+    4521.3 16      0.80 20      0.80 20            0.0      0.00033 10              1.2 3
+     4626.6 4      3.30 20      3.30 20            0.0        0.0014 3              5.0 3
+    4712.2 16      0.60 20      0.60 20            0.0       2.5E-0410              0.9 3
+     4749.7 4      3.00 20      3.00 20            0.0        0.0012 3              4.5 3
+   4822.04 23      2.40 20      2.40 20            0.0      0.00098 21              3.6 3
+    4832.1 19       0.0          0.0               0.0          0.0             1.8E-14 3
+   5000.43 25      1.50 20      1.50 20            0.0      0.00061 10              2.3 3
+   5043.75 25       10.7 8       10.3 7          0.0033 6     0.0042 3*1*         15.5 11
+    5212.0 19        0.6 3        0.6 3            0.0       2.5E-0412              0.9 5
+   5222.14 20        0.6 3        0.6 3            0.0       2.5E-0412              0.9 5
+     5294.5 4       0.0          0.0               0.0          0.0             3.7E-14 7
+     5417.5 4       0.0          0.0               0.0          0.0             3.7E-14 7
+   5493.96 22       10.9 9       10.7 8          0.0037 9     0.0044 4            16.1 13
+    5522.9 16       0.0          0.0               0.0          0.0             3.7E-14 7
+     5600.2 3      1.10 20      1.10 20            0.0       0.00045 9              1.7 3
+     5691.6 4      2.50 20      2.50 20            0.0      0.00102 12              3.8 3
+   5722.18 20      2.50 20      2.50 20            0.0      0.00102 12              3.8 3
+   5746.77 17      2.40 20      2.40 20            0.0      0.00098 12              3.6 3
+   5905.29 22        2.5 3        2.5 3            0.0      0.00102 15              3.8 5
+     6028.7 4      1.20 20      1.20 20            0.0       0.00049 9              1.8 3
+     6162.8 4        3.3 3        3.3 3            0.0      0.00135 17              5.0 5
+     6414.3 5      1.60 20      1.60 20            0.0      0.00065 10              2.4 3
+   6507.04 23        6.8 8        7.2 7          0.0034 7     0.0029 3            10.8 11
+   6959.86 21      10.5 10      10.5 10            0.0        0.0043 6            15.8 15
+   7168.10 20      0.60 20      0.60 20            0.0       2.5E-04 9              0.9 3
+   7262.33 16      11.4 12      11.4 11         0.0047 10     0.0047 5            17.1 16
+   8369.48 14      11.8 15      12.0 11          0.0050 7     0.0049 5            18.0 17
+   9233.14 14        2.2 4        2.2 4            0.0      0.00090 19              3.3 6
+  10043.72 14        2.7 5        2.7 5            0.0      0.00111 23              4.1 8
+ -----------------------------------------------------------------------------------------------------------------------------------
+                                                           
+     CHI/F            **********                      1.2110005
+      SKEW            -8.2979769                       .5506231
+  NDEGREES                  70                             22
+ 
+  ITERATION -   2
+ 
+   LEAST-SQUARED FIT AVERAGE INTENSITIES        3 ITERATIONS
+    LEVEL/GAMMA     INTENSITY     CHISQ/F
+ -----------------------------------------------------------------------------------------------------------------------------------
+       411.379 22      96.8 18       .5232
+        459.11 21       0.59 6       .0000
+        525.07 20       1.83 9       .6602
+         810.71 3        100 3       .0325
+         863.80 5      26.8 10       .0660
+          867.4 4      27.2 15       .0000
+         1099.7 4      0.60 15       .0000
+       1107.30 10        5.0 3       .7176
+       1237.81 11      12.5 11   3291.4126
+         1306.4 3      1.20 15       .0000
+       1322.90 21      1.65 15       .0000
+       1446.03 19        5.3 5       .0000
+       1446.07 16        5.2 4       .0050
+         1662.3 3        1.4 3       .0000
+       1674.31 21      26.4 18       .0000
+        1674.49 6      26.4 18       .0000
+       1862.67 23        2.4 3       .0000
+       1971.08 10       11.3 7       .1507
+       2065.32 15        9.5 8       .0000
+       2065.36 21       0.0          .0000
+       2133.59 21       0.0          .0000
+       2138.01 11      21.5 16   2326.2525
+       2256.72 19       0.0          .0000
+       2273.57 17      18.6 20       .7818
+         2433.2 3        3.5 5      1.1728
+         2512.9 4        2.4 5       .0000
+       2726.43 22       10.4 9       .8782
+       2781.76 10        5.1 6       .0000
+         2819.2 5        2.9 5       .0000
+       2875.82 21        8.6 9       .0000
+       2876.00 15        8.6 9       .0000
+         3070.7 4        5.1 8     19.2362
+         3161.1 4        2.1 5       .0000
+         3284.1 4        0.5 3       .0000
+       3326.04 24        8.3 7       .4740
+       3486.74 11      39.2 20   7885.4011
+       3537.11 23        2.7 5       .0000
+         3629.9 5       0.0          .0000
+       3739.57 20        1.7 5       .0000
+         3743.2 4        1.7 5       .0000
+         3881.4 4        2.1 5       .0000
+           4006 4        0.6 3       .0000
+         4015.5 4       0.0          .0000
+       4138.88 20        3.8 5       .5472
+       4189.78 25      0.45 15       .0000
+       4297.40 11        5.3 9     82.3026
+       4321.99 16        3.2 6       .0000
+         4352.5 4       0.0          .0000
+       4411.50 20        0.8 3       .0000
+         4444.0 3        1.1 3       .0000
+         4483.9 4        0.8 3       .0000
+        4521.3 16        1.2 3       .0000
+         4626.6 4        5.0 3       .0000
+        4712.2 16        0.9 3       .0000
+         4749.7 4        4.5 3       .0000
+       4822.04 23        3.6 3       .0000
+        4832.1 19       0.0          .0000
+       5000.43 25        2.3 3       .0000
+       5043.75 25      15.8 11       .7042
+        5212.0 19        0.9 5       .0000
+       5222.14 20        0.9 5       .0000
+         5294.5 4       0.0          .0000
+         5417.5 4       0.0          .0000
+       5493.96 22      16.1 13       .3102
+        5522.9 16       0.0          .0000
+         5600.2 3        1.7 3       .0000
+         5691.6 4        3.8 3       .0000
+       5722.18 20        3.8 3       .0000
+       5746.77 17        3.6 3       .0000
+       5905.29 22        3.8 5       .0000
+         6028.7 4        1.8 3       .0000
+         6162.8 4        5.0 5       .0000
+         6414.3 5        2.4 3       .0000
+       6507.04 23      10.8 11       .3283
+       6959.86 21      15.8 15       .0000
+       7168.10 20        0.9 3       .0000
+       7262.33 16      17.1 16       .0005
+       8369.48 14      18.0 17       .0168
+       9233.14 14        3.3 6       .0000
+      10043.72 14        4.1 8       .0000
+ -----------------------------------------------------------------------------------------------------------------------------------
+ 
+ 
+ GAMMA ENERGIES                    FITTED INTENSITIES
+                  1.57FE(N,G) E=TH                   2.57FE(N,G) E=THERMAL 
+ -----------------------------------------------------------------------------------------------------------------------------------
+   411.379 22       0.0            65 3*1*       0.0264 5     0.0264 5            96.8 18
+    459.11 21       0.39 4       0.39 4            0.0      1.60E-0418             0.59 6
+    525.07 20       1.20 6       1.22 6        0.00071 19    0.00050 3*1*          1.83 9
+     810.71 3         66 3      66.6 24          0.0274 9     0.0273 8              100 3
+     863.80 5      18.1 10       17.8 8          0.0072 4     0.0073 3            26.8 10
+      867.4 4      18.1 10      18.1 10            0.0        0.0074 7            27.2 15
+     1099.7 4      0.40 10      0.40 10            0.0       1.6E-04 4            0.60 15
+   1107.30 10      3.40 20      3.35 19        0.00109 24    0.00137 9*1*           5.0 3
+   1237.81 11      0.20 10        8.3 8*9*       0.0035 3     0.0034 3            12.5 11
+     1306.4 3      0.80 10      0.80 10            0.0       0.00033 4            1.20 15
+   1322.90 21      1.10 10      1.10 10            0.0       0.00045 5            1.65 15
+   1446.03 19        3.5 3        3.5 3            0.0      0.00143 14              5.3 5
+   1446.07 16        3.5 3        3.5 3          0.0014 3   0.00143 12              5.2 4
+     1662.3 3      0.90 20      0.90 20            0.0       0.00037 9              1.4 3
+   1674.31 21      17.6 12      17.6 12            0.0        0.0072 5            26.4 18
+    1674.49 6      17.6 12      17.6 12            0.0        0.0072 6            26.4 18
+   1862.67 23      1.60 20      1.60 20            0.0      0.00065 12              2.4 3
+   1971.08 10        7.3 6        7.5 5          0.0032 3   0.00308 20             11.3 7
+   2065.32 15        6.3 5        6.3 5            0.0        0.0026 3              9.5 8
+   2065.36 21       0.0          0.0               0.0          0.0                0.0   
+   2133.59 21       0.0          0.0               0.0          0.0                0.0   
+   2138.01 11      0.70 20      14.3 12*9*       0.0063 5     0.0059 5            21.5 16
+   2256.72 19       0.0          0.0               0.0          0.0                0.0   
+   2273.57 17      13.0 15      12.4 13         0.0039 10     0.0051 6*1*         18.6 20
+     2433.2 3        2.0 3        2.3 3*1*       0.0014 4   0.00094 13*1*           3.5 5
+     2512.9 4        1.6 3        1.6 3            0.0      0.00065 13              2.4 5
+   2726.43 22        7.2 7        6.9 6          0.0022 5     0.0028 3*1*          10.4 9
+   2781.76 10        3.4 4        3.4 4            0.0      0.00139 19              5.1 6
+     2819.2 5        1.9 3        1.9 3            0.0      0.00078 14              2.9 5
+   2875.82 21        5.7 6        5.7 6            0.0      0.00233 25              8.6 9
+   2876.00 15        5.7 6        5.7 6            0.0        0.0023 3              8.6 9
+     3070.7 4        1.6 3        3.4 5*5*       0.0029 8   0.00138 22*1*           5.1 8
+     3161.1 4        1.4 3        1.4 3            0.0      0.00057 13              2.1 5
+     3284.1 4      0.30 20      0.30 20            0.0       1.2E-04 8              0.5 3
+   3326.04 24        5.7 5        5.5 5          0.0019 4   0.00227 20              8.3 7
+   3486.74 11      1.00 20      26.1 16*9*       0.0114 6     0.0107 5*1*         39.2 20
+   3537.11 23        1.8 3        1.8 3            0.0      0.00074 14              2.7 5
+     3629.9 5       0.0          0.0               0.0          0.0                0.0   
+   3739.57 20        1.1 3        1.1 3            0.0      0.00045 12              1.7 5
+     3743.2 4        1.1 3        1.1 3            0.0      0.00045 13              1.7 5
+     3881.4 4        1.4 3        1.4 3            0.0      0.00057 15              2.1 5
+       4006 4      0.40 20      0.40 20            0.0       1.6E-04 9              0.6 3
+     4015.5 4       0.0          0.0               0.0          0.0                0.0   
+   4138.88 20        2.4 3        2.6 3          0.0015 5   0.00105 13              3.8 5
+   4189.78 25      0.30 10      0.30 10            0.0       1.2E-04 4            0.45 15
+   4297.40 11      1.00 20        3.5 6*9*      0.0036 10   0.00145 24*2*           5.3 9
+   4321.99 16        2.1 4        2.1 4            0.0      0.00086 18              3.2 6
+     4352.5 4       0.0          0.0               0.0          0.0                0.0   
+   4411.50 20      0.50 20      0.50 20            0.0       2.0E-04 8              0.8 3
+     4444.0 3      0.70 20      0.70 20            0.0       0.00029 9              1.1 3
+     4483.9 4      0.50 20      0.50 20            0.0       2.0E-04 8              0.8 3
+    4521.3 16      0.80 20      0.80 20            0.0       0.00033 9              1.2 3
+     4626.6 4      3.30 20      3.30 20            0.0      0.00135 13              5.0 3
+    4712.2 16      0.60 20      0.60 20            0.0       2.5E-04 8              0.9 3
+     4749.7 4      3.00 20      3.00 20            0.0      0.00123 12              4.5 3
+   4822.04 23      2.40 20      2.40 20            0.0      0.00098 11              3.6 3
+    4832.1 19       0.0          0.0               0.0          0.0                0.0   
+   5000.43 25      1.50 20      1.50 20            0.0      0.00061 10              2.3 3
+   5043.75 25       10.7 8       10.5 8          0.0033 9     0.0043 4*1*         15.8 11
+    5212.0 19        0.6 3        0.6 3            0.0       2.5E-0412              0.9 5
+   5222.14 20        0.6 3        0.6 3            0.0       2.5E-0412              0.9 5
+     5294.5 4       0.0          0.0               0.0          0.0                0.0   
+     5417.5 4       0.0          0.0               0.0          0.0                0.0   
+   5493.96 22       10.9 9       10.7 8          0.0037 9     0.0044 4            16.1 13
+    5522.9 16       0.0          0.0               0.0          0.0                0.0   
+     5600.2 3      1.10 20      1.10 20            0.0       0.00045 9              1.7 3
+     5691.6 4      2.50 20      2.50 20            0.0      0.00102 12              3.8 3
+   5722.18 20      2.50 20      2.50 20            0.0      0.00102 12              3.8 3
+   5746.77 17      2.40 20      2.40 20            0.0      0.00098 12              3.6 3
+   5905.29 22        2.5 3        2.5 3            0.0      0.00102 15              3.8 5
+     6028.7 4      1.20 20      1.20 20            0.0       0.00049 9              1.8 3
+     6162.8 4        3.3 3        3.3 3            0.0      0.00135 17              5.0 5
+     6414.3 5      1.60 20      1.60 20            0.0      0.00065 10              2.4 3
+   6507.04 23        6.8 8        7.2 7          0.0034 7     0.0029 3            10.8 11
+   6959.86 21      10.5 10      10.5 10            0.0        0.0043 6            15.8 15
+   7168.10 20      0.60 20      0.60 20            0.0       2.5E-04 9              0.9 3
+   7262.33 16      11.4 12      11.4 11         0.0047 10     0.0047 5            17.1 16
+   8369.48 14      11.8 15      12.0 11          0.0050 7     0.0049 5            18.0 17
+   9233.14 14        2.2 4        2.2 4            0.0      0.00090 19              3.3 6
+  10043.72 14        2.7 5        2.7 5            0.0      0.00111 23              4.1 8
+ -----------------------------------------------------------------------------------------------------------------------------------
+                                                           
+     CHI/F            **********                      1.0241536
+      SKEW            -5.2467372                       .6584745
+  NDEGREES                  70                             22
+ 
+  ITERATION -   3
+ 
+   LEAST-SQUARED FIT AVERAGE INTENSITIES        4 ITERATIONS
+    LEVEL/GAMMA     INTENSITY     CHISQ/F
+ -----------------------------------------------------------------------------------------------------------------------------------
+       411.379 22      96.4 19       .5267
+        459.11 21       0.0          .0000
+        525.07 20        2.5 7       .0904
+         810.71 3        100 3       .0002
+         863.80 5      26.3 15       .0003
+          867.4 4        27 30       .0000
+         1099.7 4       0.0          .0000
+       1107.30 10        4.0 9       .0165
+       1237.81 11      12.8 11       .5321
+         1306.4 3       0.0          .0000
+       1322.90 21          2 3       .0000
+       1446.03 19          5 9       .0000
+       1446.07 16       5.1 11       .0001
+         1662.3 3       0.0          .0000
+       1674.31 21        26 40       .0000
+        1674.49 6        26 40       .0000
+       1862.67 23       0.0          .0000
+       1971.08 10      11.7 11       .0010
+       2065.32 15         9 15       .0000
+       2065.36 21       0.0          .0000
+       2133.59 21       0.0          .0000
+       2138.01 11      23.0 19       .5826
+       2256.72 19       0.0          .0000
+       2273.57 17         14 4       .0066
+         2433.2 3       5.1 15       .0279
+         2512.9 4       0.0          .0000
+       2726.43 22       8.1 23       .0083
+       2781.76 10       0.0          .0000
+         2819.2 5       0.0          .0000
+       2875.82 21       0.0          .0000
+       2876.00 15       0.0          .0000
+         3070.7 4         10 5       .4051
+         3161.1 4       0.0          .0000
+         3284.1 4       0.0          .0000
+       3326.04 24       7.0 15       .0055
+       3486.74 11      41.6 22       .5741
+       3537.11 23       0.0          .0000
+         3629.9 5       0.0          .0000
+       3739.57 20       0.0          .0000
+         3743.2 4       0.0          .0000
+         3881.4 4       0.0          .0000
+           4006 4       0.0          .0000
+         4015.5 4       0.0          .0000
+       4138.88 20       5.4 18       .0219
+       4189.78 25       0.0          .0000
+       4297.40 11         13 8      1.8363
+       4321.99 16       0.0          .0000
+         4352.5 4       0.0          .0000
+       4411.50 20       0.0          .0000
+         4444.0 3       0.0          .0000
+         4483.9 4       0.0          .0000
+        4521.3 16       0.0          .0000
+         4626.6 4          5 6       .0000
+        4712.2 16       0.0          .0000
+         4749.7 4          4 6       .0000
+       4822.04 23          4 6       .0000
+        4832.1 19       0.0          .0000
+       5000.43 25       0.0          .0000
+       5043.75 25         12 3       .0133
+        5212.0 19       0.0          .0000
+       5222.14 20       0.0          .0000
+         5294.5 4       0.0          .0000
+         5417.5 4       0.0          .0000
+       5493.96 22         14 3       .0052
+        5522.9 16       0.0          .0000
+         5600.2 3       0.0          .0000
+         5691.6 4          4 6       .0000
+       5722.18 20          4 6       .0000
+       5746.77 17          4 6       .0000
+       5905.29 22       0.0          .0000
+         6028.7 4       0.0          .0000
+         6162.8 4          5 9       .0000
+         6414.3 5       0.0          .0000
+       6507.04 23         12 3       .0045
+       6959.86 21        16 30       .0000
+       7168.10 20       0.0          .0000
+       7262.33 16         17 4       .0000
+       8369.48 14         18 3       .0001
+       9233.14 14       0.0          .0000
+      10043.72 14       0.0          .0000
+ -----------------------------------------------------------------------------------------------------------------------------------
+ 
+ 
+ GAMMA ENERGIES                    FITTED INTENSITIES
+                  1.57FE(N,G) E=TH                   2.57FE(N,G) E=THERMAL 
+ -----------------------------------------------------------------------------------------------------------------------------------
+   411.379 22       0.0           65 70*>*       0.0264 5     0.0264 5            96.4 19
+    459.11 21       0.0          0.0               0.0          0.0                0.0   
+    525.07 20       1.2 12       1.7 11        0.00071 19   0.00070 18              2.5 7
+     810.71 3        66 60        67 40          0.0274 9     0.0274 9              100 3
+     863.80 5        18 20        18 10          0.0072 4     0.0072 4            26.3 15
+      867.4 4        18 20        18 20            0.0         0.007 8              27 30
+     1099.7 4       0.0          0.0               0.0          0.0                0.0   
+   1107.30 10          3 4       2.7 17        0.00109 24   0.00110 24              4.0 9
+   1237.81 11       0.0             9 5*1*       0.0035 3     0.0035 3            12.8 11
+     1306.4 3       0.0          0.0               0.0          0.0                0.0   
+   1322.90 21       1.1 20       1.1 20            0.0        0.0004 8                2 3
+   1446.03 19          4 6          3 6            0.0       0.0014 25                5 9
+   1446.07 16          4 6       3.4 21          0.0014 3     0.0014 3             5.1 11
+     1662.3 3       0.0          0.0               0.0          0.0                0.0   
+   1674.31 21        18 24        18 24            0.0        0.007 10              26 40
+    1674.49 6        18 24        18 24            0.0        0.007 10              26 40
+   1862.67 23       0.0          0.0               0.0          0.0                0.0   
+   1971.08 10         7 12          8 5          0.0032 3     0.0032 3            11.7 11
+   2065.32 15         6 10         6 10            0.0         0.003 4               9 15
+   2065.36 21       0.0          0.0               0.0          0.0                0.0   
+   2133.59 21       0.0          0.0               0.0          0.0                0.0   
+   2138.01 11       0.0            15 9*1*       0.0063 5     0.0063 5            23.0 19
+   2256.72 19       0.0          0.0               0.0          0.0                0.0   
+   2273.57 17       0.0            10 6         0.0039 10    0.0039 10               14 4
+     2433.2 3       0.0          3.4 22          0.0014 4     0.0014 4             5.1 15
+     2512.9 4       0.0          0.0               0.0          0.0                0.0   
+   2726.43 22         7 14          5 4          0.0022 6     0.0022 6             8.1 23
+   2781.76 10       0.0          0.0               0.0          0.0                0.0   
+     2819.2 5       0.0          0.0               0.0          0.0                0.0   
+   2875.82 21       0.0          0.0               0.0          0.0                0.0   
+   2876.00 15       0.0          0.0               0.0          0.0                0.0   
+     3070.7 4       0.0             7 6         0.0029 15    0.0029 15               10 5
+     3161.1 4       0.0          0.0               0.0          0.0                0.0   
+     3284.1 4       0.0          0.0               0.0          0.0                0.0   
+   3326.04 24         6 10          5 3          0.0019 4     0.0019 4             7.0 15
+   3486.74 11       0.0           28 17*1*       0.0114 6     0.0114 6            41.6 22
+   3537.11 23       0.0          0.0               0.0          0.0                0.0   
+     3629.9 5       0.0          0.0               0.0          0.0                0.0   
+   3739.57 20       0.0          0.0               0.0          0.0                0.0   
+     3743.2 4       0.0          0.0               0.0          0.0                0.0   
+     3881.4 4       0.0          0.0               0.0          0.0                0.0   
+       4006 4       0.0          0.0               0.0          0.0                0.0   
+     4015.5 4       0.0          0.0               0.0          0.0                0.0   
+   4138.88 20       0.0          3.6 25          0.0015 5     0.0015 5             5.4 18
+   4189.78 25       0.0          0.0               0.0          0.0                0.0   
+   4297.40 11       0.0             9 7*1*      0.0036 22    0.0035 21               13 8
+   4321.99 16       0.0          0.0               0.0          0.0                0.0   
+     4352.5 4       0.0          0.0               0.0          0.0                0.0   
+   4411.50 20       0.0          0.0               0.0          0.0                0.0   
+     4444.0 3       0.0          0.0               0.0          0.0                0.0   
+     4483.9 4       0.0          0.0               0.0          0.0                0.0   
+    4521.3 16       0.0          0.0               0.0          0.0                0.0   
+     4626.6 4          3 4          3 4            0.0       0.0013 16                5 6
+    4712.2 16       0.0          0.0               0.0          0.0                0.0   
+     4749.7 4          3 4          3 4            0.0       0.0012 16                4 6
+   4822.04 23          2 4          2 4            0.0       0.0010 16                4 6
+    4832.1 19       0.0          0.0               0.0          0.0                0.0   
+   5000.43 25       0.0          0.0               0.0          0.0                0.0   
+   5043.75 25        11 16          8 5          0.0033 9     0.0033 9               12 3
+    5212.0 19       0.0          0.0               0.0          0.0                0.0   
+   5222.14 20       0.0          0.0               0.0          0.0                0.0   
+     5294.5 4       0.0          0.0               0.0          0.0                0.0   
+     5417.5 4       0.0          0.0               0.0          0.0                0.0   
+   5493.96 22        11 18          9 6          0.0037 9     0.0037 9               14 3
+    5522.9 16       0.0          0.0               0.0          0.0                0.0   
+     5600.2 3       0.0          0.0               0.0          0.0                0.0   
+     5691.6 4          3 4          3 4            0.0       0.0010 17                4 6
+   5722.18 20          3 4          3 4            0.0       0.0010 17                4 6
+   5746.77 17          2 4          2 4            0.0       0.0010 17                4 6
+   5905.29 22       0.0          0.0               0.0          0.0                0.0   
+     6028.7 4       0.0          0.0               0.0          0.0                0.0   
+     6162.8 4          3 6          3 6            0.0       0.0013 25                5 9
+     6414.3 5       0.0          0.0               0.0          0.0                0.0   
+   6507.04 23       0.0             8 5          0.0034 7     0.0034 7               12 3
+   6959.86 21        11 20        10 20            0.0         0.004 8              16 30
+   7168.10 20       0.0          0.0               0.0          0.0                0.0   
+   7262.33 16       0.0            12 7         0.0047 10    0.0047 10               17 4
+   8369.48 14       0.0            12 8          0.0050 7     0.0050 7               18 3
+   9233.14 14       0.0          0.0               0.0          0.0                0.0   
+  10043.72 14       0.0          0.0               0.0          0.0                0.0   
+ -----------------------------------------------------------------------------------------------------------------------------------
+                                                           
+     CHI/F              .1751249                       .0006263
+      SKEW            -2.2772691                      1.1724592
+  NDEGREES                  70                             22
+ 
+ 
+ UNPLACED GAMMA RAY PROCESSING (INTENSITIES ARE RENORMALIZED)
+ 
+    58FE  G      233.6 5    0.03 1
+    58FE  G      238.7 5    0.07 1
+    58FE  G      243.1 5    0.04 1
+    58FE  G      252.6 5    0.05 2
+    58FE  G      278.1 5    0.14 1
+    58FE  G      854.415    0.10 5
+    58FE  G      898.2 4     0.4 1
+    58FE  G     1164.6 4     0.3 1
+    58FE  G     1250.7 8     0.2 1
+    58FE  G     1260.2 4     0.6 1
+    58FE  G     1266.820     0.3 2
+    58FE  G     1269.020     0.1 1
+    58FE  G     1292.7 7    0.3510
+    58FE  G     1467.7 5     0.4 1
+    58FE  G     1657.215     0.4 2
+    58FE  G     2466.915     0.6 2
+    58FE  G     2490.615     0.7 2
+    58FE  G       3183 3     0.5 1
+    58FE  G       3205 3     0.8 3
+    58FE  G       3952 4     0.4 2
+    58FE  G       3987 4     0.3 2
+    58FE  G       4062 4     0.1 1
+    58FE  G       4080 3     0.6 2
+    58FE  G       4185 2     0.2 1
+    58FE  G       4342 3     0.4 1
+    58FE  G       4380 4     0.2 1
+    58FE  G       4506 2     0.4 2
+    58FE  G       4592 3     0.3 2
+    58FE  G       4789 3     0.4 2
+    58FE  G       4889 3     0.6 1
+    58FE  G       5092 4     0.2 1
+    58FE  G       5241 3     0.4 3
+    58FE  G       5890 4     0.4 2
+    58FE  G       6840 7     0.2 2

@@ -1,0 +1,168 @@
+REQUEST           1001   20010914          3     141657               0  0    0
+ENTRY            10868     860613                                 10868000    1
+SUBENT        10868001     860613                                 10868001    1
+BIB                 13         36                                 10868001    2
+INSTITUTE  (1USAORL)                                              10868001    3
+REFERENCE  (J,NSE,71,182,7908)                                    10868001    4
+           (J,NSE,78,110,8105)CORRECTED AVERAGE CAPTURE           10868001    5
+            CROSS SECTION.                                        10868001    6
+AUTHOR     (R.L.MACKLIN,J.HALPERIN,R.R.WINTERS)                   10868001    7
+TITLE      PD-104,105,106,108,110(N,GAMMA) CROSS SECTIONS ABOVE   10868001    8
+            2.6-KEV                                               10868001    9
+FACILITY   (LINAC) OAK RIDGE ELECTRON LINEAR ACCELERATOR          10868001   10
+INC-SOURCE (EVAP) PULSED ELECTRONS ON TANTALUM WITH BE CANNED     10868001   11
+            WATER MODERATOR                                       10868001   12
+METHOD     (TOF). OVERLAP NEUTRONS ELIMINATED WITH 0.48-GM/CM-SQ  10868001   13
+            BORON-10 FILTER. COPPER AND LEAD SHADOW BARS USED TO  10868001   14
+            REDUCE GAMMA FLASH AND FAST NEUTRON FLUX FROM SOURCE. 10868001   15
+            DATA FROM SEVERAL SAMPLES WERE COMBINED TO DERIVE     10868001   16
+            ISOTOPIC CROSS SECTIONS FOR PURE ISOTOPES. SLIGHT     10868001   17
+            REVISION OF NEUTRON FLUX SHAPE ABOVE 70-KEV (LESS THAN10868001   18
+            6-PERCENT) MADE REFERENCED TO U-235 FISSION CROSS     10868001   19
+            SECTIONS FROM ENDF/B-V.                               10868001   20
+DETECTOR   (SCIN) PROMPT GAMMAS FROM CAPTURE DETECTED WITH PAIR OF10868001   21
+            C(6)F(6) LIQUID SCINTILLATORS, 10-CM DIAMETER BY 4-CM 10868001   22
+            THICK. BEAM MONITOR IS LI-6 GLASS SCINTILLATOR,       10868001   23
+            0.05-CM THICK.                                        10868001   24
+MONITOR    (3-LI-6(N,T)2-HE-4,,SIG) BEAM MONITOR                  10868001   25
+           (92-U-235(N,F),,SIG) FROM ENDF/B-V                     10868001   26
+CORRECTION CORRECTED FOR                                          10868001   27
+            -DEAD TIME                                            10868001   28
+            -BACKGROUND                                           10868001   29
+            -ENVIROMENAL EFFECTS, APPROX 48-COUNTS/SEC            10868001   30
+            -BEAM LEAKAGE, APPROX 1-16 PERCENT                    10868001   31
+            -SAMPLE SCATTERED NEUTRON EFFECTS, 1-3 PERCENT        10868001   32
+ERR-ANALYS CROSS SECTION CALIBRATION ERRORS, MAXIMUM OF 5-PERCENT 10868001   33
+            AT 1 STANDARD DEVIATION                               10868001   34
+STATUS     (APRVD) APPROVED BY R.L.MACKLIN, 79/9/7                10868001   35
+HISTORY    (790521C)                                              10868001   36
+           (801205A) STATUS COMMENT ADDED.                        10868001   37
+           (860613A) BIB CORRECTIONS.                             10868001   38
+ENDBIB              36                                            10868001   39
+NOCOMMON             0          0                                 10868001   40
+ENDSUBENT           39                                            1086800199999
+SUBENT        10868007     820803                                 10868007    1
+BIB                  5         10                                 10868007    2
+REACTION   (46-PD-104(N,G)46-PD-105,,SIG,,AV)                     10868007    3
+METHOD     SAMPLE YIELD DATA LINEARLY COMBINED TO DERIVE CAPTURE  10868007    4
+            CROSS SECTIONS.                                       10868007    5
+CORRECTION SAMPLE YIELD DATA CORRECTED FOR AVERAGE RESONANCE SELF-10868007    6
+            ABSORPTION AND POTENTIAL SCATTERING INTO RESONANCES.  10868007    7
+           CAPTURE CROSS SECTION CORRECTION FACTOR 0.7999 DUE     10868007    8
+            TO ERROR IN PROCESSING CODE.                          10868007    9
+STATUS     CORRECTED AVERAGE CROSS SECTIONS TAKEN FROM            10868007   10
+            NUC. SCI. ENG.78,110(1981).                           10868007   11
+HISTORY    (820712A) DATA REPLACED.                               10868007   12
+ENDBIB              10                                            10868007   13
+NOCOMMON             0          0                                 10868007   14
+DATA                 3         18                                 10868007   15
+EN-MIN     EN-MAX     DATA                                        10868007   16
+KEV        KEV        MB                                          10868007   17
+   3.         4.       481.4                                      10868007   18
+   4.         6.       825.3                                      10868007   19
+   6.         8.       667.7                                      10868007   20
+   8.        10.      688.5                                       10868007   21
+  10.        15.       485.2                                      10868007   22
+  15.        20.       408.0                                      10868007   23
+  20.        30.       332.2                                      10868007   24
+  30.        40.       270.5                                      10868007   25
+  40.        60.       215.3                                      10868007   26
+  60.        80.       167.9                                      10868007   27
+  80.       100.       142.5                                      10868007   28
+ 100.       150.       125.4                                      10868007   29
+ 150.       200.       116.0                                      10868007   30
+ 200.       300.       113.7                                      10868007   31
+ 300.       400.       110.2                                      10868007   32
+ 400.       500.       118.7                                      10868007   33
+ 500.       600.       115.3                                      10868007   34
+ 600.       700.        89.9                                      10868007   35
+ENDDATA             20                                            10868007   36
+ENDSUBENT           35                                            1086800799999
+ENDENTRY             2                                            1086899999999
+ENTRY            21810     830210                                 21810000    1
+SUBENT        21810001     830210                                 21810001    1
+BIB                 14         42                                 21810001    2
+INSTITUTE  (2ZZZGEL) EXPERIMENTAL SITE, C.B.,G.R.,R.S.,           21810001    3
+                     T.VAN DER V.                                 21810001    4
+           (2BLGBLG) E.C.,G.J.V.   RIJKSUNIVERSITAIR CENTRUM      21810001    5
+                                   ANTWERPEN                      21810001    6
+REFERENCE  (C,82ANTWER,,222,8209)                                 21810001    7
+           (P,INDC(EUR)-15,18,8203)                               21810001    8
+AUTHOR     (E.CORNELIS,G.J.VANPRAET,C.BASTIAN,G.ROHR,             21810001    9
+            R.SHELLEY,T.VAN DER VEEN)                             21810001   10
+TITLE      -AVERAGE CAPTURE CROSS SECTION OF THE FISSION          21810001   11
+            PRODUCT NUCLEI PD-104 PD-105 PD-106 PD-108            21810001   12
+            PD-110.                                               21810001   13
+FACILITY   (LINAC) ELECTRON LINAC AT GEEL.                        21810001   14
+INC-SOURCE (PHOTO) MERCURY-COOLED NATURAL URANIUM TARGET.         21810001   15
+                   POLYETHYLENE MODERATOR.                        21810001   16
+SAMPLE     .ENRICHED SAMPLES OF PD ISOTOPES -                     21810001   17
+             ISOTOPE    PER CENT        PD-105      THICKNESS     21810001   18
+                       ABUNDANCE    CONTAMINATION  ATOMS/BARN     21810001   19
+             -------   ---------    -------------  ----------     21810001   20
+              PD-104     95.25           2.64       0.001077      21810001   21
+              PD-105     97.38                      0.000894      21810001   22
+              PD-106     98.48           0.79       0.002250      21810001   23
+              PD-108     98.88           0.22       0.002461      21810001   24
+              PD-110     97.73           0.36       0.001470      21810001   25
+METHOD     (TOF  ) TIME OF FLIGHT PATH LENGTH 30 METRES.          21810001   26
+DETECTOR   (SCIN ) TWO CYLINDRICAL LIQUID SCINTILLATORS,          21810001   27
+                   DIAMETER 10.2 CM, THICKNESS 7.5 CM.            21810001   28
+                   ALSO USED IN CONJUNCTION WITH A BORON-10       21810001   29
+                   CARBIDE SLAB TO MEASURE THE RELATIVE           21810001   30
+                   NEUTRON FLUX.                                  21810001   31
+           (GLASD) LI-6 GLASS SCINTILLATOR. NEUTRON FLUX          21810001   32
+                   MONITOR.                                       21810001   33
+PART-DET   (G    ) PROMPT DECAY GAMMAS.                           21810001   34
+           (N    )                                                21810001   35
+STATUS     .DATA TAKEN FROM MAIN REFERENCE.                       21810001   36
+HISTORY    (830118C) A.P.T.                                       21810001   37
+           (830210E)                                              21810001   38
+CORRECTION .TIME DEPENDENT BACKGROUND EVALUATED WITH              21810001   39
+            S,NA,CO,W AND AG BLACK RESONANCE FILTERS.             21810001   40
+           .CORRECTIONS FOR SELF-SHIELDING AND MULTIPLE           21810001   41
+            SCATTERING HAVE BEEN CALCULATED, BUT ARE NOT          21810001   42
+            INCLUDED IN THE DATA.                                 21810001   43
+ERR-ANALYS (ERR-T) ESTIMATED TOTAL ERROR.                         21810001   44
+ENDBIB              42                                            21810001   45
+NOCOMMON             0          0                                 21810001   46
+ENDSUBENT           45                                            2181000199999
+SUBENT        21810003     860807                                 21810003    1
+BIB                  4          8                                 21810003    2
+REACTION   (46-PD-104(N,G)46-PD-105,,SIG,,AV)                     21810003    3
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG) CROSS SECTION           21810003    4
+            AT 200 KEV TAKEN FROM ENDF/B-V.                       21810003    5
+STATUS     (PRELM) TABLE 4 OF MAIN REFERENCE.                     21810003    6
+HISTORY    (830119C) A.P.T.                                       21810003    7
+           (830210E)                                              21810003    8
+           (860808A)HH REACTION STRING/DATA UNIT CORRECTED        21810003    9
+           (860807E)                                              21810003   10
+ENDBIB               8                                            21810003   11
+COMMON               1          3                                 21810003   12
+ERR-T                                                             21810003   13
+PER-CENT                                                          21810003   14
+ 1.0000E+01                                                       21810003   15
+ENDCOMMON            3                                            21810003   16
+DATA                 3         16                                 21810003   17
+EN-MIN     EN-MAX     DATA                                        21810003   18
+KEV        KEV        B                                           21810003   19
+ 3.0000E+00 4.0000E+00 4.9600E-01                                 21810003   20
+ 4.0000E+00 5.0000E+00 6.8100E-01                                 21810003   21
+ 5.0000E+00 6.0000E+00 5.9600E-01                                 21810003   22
+ 6.0000E+00 8.0000E+00 6.3600E-01                                 21810003   23
+ 8.0000E+00 1.0000E+01 6.1900E-01                                 21810003   24
+ 1.0000E+01 1.5000E+01 4.3200E-01                                 21810003   25
+ 1.5000E+01 2.0000E+01 3.9500E-01                                 21810003   26
+ 2.0000E+01 3.0000E+01 3.3400E-01                                 21810003   27
+ 3.0000E+01 4.0000E+01 2.6500E-01                                 21810003   28
+ 4.0000E+01 5.0000E+01 2.2300E-01                                 21810003   29
+ 5.0000E+01 6.0000E+01 2.1700E-01                                 21810003   30
+ 6.0000E+01 8.0000E+01 1.7300E-01                                 21810003   31
+ 8.0000E+01 1.0000E+02 1.4200E-01                                 21810003   32
+ 1.0000E+02 1.5000E+02 1.2300E-01                                 21810003   33
+ 1.5000E+02 2.0000E+02 1.0900E-01                                 21810003   34
+ 2.0000E+02 3.0000E+02 1.0400E-01                                 21810003   35
+ENDDATA             18                                            21810003   36
+ENDSUBENT           35                                            2181000399999
+ENDENTRY             2                                            2181099999999
+ENDREQUEST           1                                            Z999999999999

@@ -1,0 +1,264 @@
+REQUEST           1001   20010914          3     143510               0  0    0
+ENTRY            10259     821118                                 10259000    1
+SUBENT        10259001     821118                                 10259001    1
+BIB                  9         15                                 10259001    2
+INSTITUTE  (1USAORL)                                              10259001    3
+REFERENCE  (P,ORNL-4155,15,6708)                                  10259001    4
+AUTHOR     (J.H.GILLETTE)                                         10259001    5
+TITLE      THERMAL CROSS-SECTION AND RESONANCE INTEGRAL STUDIES.  10259001    6
+            THULIUM-171.                                          10259001    7
+N-SOURCE   (REAC) OAK RIDGE RESEARCH REACTOR, HYDAULIC TUBES.     10259001    8
+MONITOR    THE NEUTRON FLUXES ARE MONITERED WITH CO-AL AND AU-AL  10259001    9
+            ALLOYS. STANDARD VALUES AS FOLLOWS -                  10259001   10
+                   THERMAL C/S    RI        HALF-LIFE             10259001   11
+              CO    37.2 B       75 B        5.24 YR              10259001   12
+              AU    98.8 B     1570 B       64.8 HR               10259001   13
+ERR-ANALYS NO INFORMATION                                         10259001   14
+STATUS     (APRVD) APPROVED BY AUTHOR                             10259001   15
+HISTORY    (731210C)                                              10259001   16
+           (821118A) CONVERTED TO REACTION FORMALISM              10259001   17
+ENDBIB              15                                            10259001   18
+NOCOMMON             0          0                                 10259001   19
+ENDSUBENT           18                                            1025900199999
+SUBENT        10259005     821118                                 10259005    1
+BIB                  3          3                                 10259005    2
+REACTION   (68-ER-167(N,G)68-ER-168,,SIG,,MXW)                    10259005    3
+FACILITY   (SPECM) MASS SPECTROMETER.                             10259005    4
+SAMPLE     ENRICHED TARGET.                                       10259005    5
+ENDBIB               3                                            10259005    6
+NOCOMMON             0          0                                 10259005    7
+DATA                 3          1                                 10259005    8
+EN-DUMMY   DATA       DATA-ERR                                    10259005    9
+EV         B          B                                           10259005   10
+ 0.0253     1.90       0.03                                       10259005   11
+ENDDATA              3                                            10259005   12
+ENDSUBENT           11                                            1025900599999
+ENDENTRY             2                                            1025999999999
+ENTRY            12081     841018                                 12081000    1
+SUBENT        12081001     841018                                 12081001    1
+BIB                  8         11                                 12081001    2
+INSTITUTE  (1USAWES)                                              12081001    3
+REFERENCE  (J,BAP,3,336(R3),5808)                                 12081001    4
+AUTHOR     (G.R.HOPKINS)                                          12081001    5
+TITLE      THERMAL NEUTRON CAPTURE CROSS SECTIONS OF ER166 AND    12081001    6
+           ER167.                                                 12081001    7
+MONITOR    (68-ER-0(N,G),,SIG)                                    12081001    8
+ASSUMED    (ASSUM1,68-ER-168(N,G)68-ER-169,,SIG)                  12081001    9
+           (ASSUM2,68-ER-170(N,G)68-ER-171,,SIG)                  12081001   10
+STATUS     (SCSRS)                                                12081001   11
+HISTORY    (760803T) TRANSLATED FROM SCISRS                       12081001   12
+           (841018U) COMMON HEADING CORRECTED.                    12081001   13
+ENDBIB              11                                            12081001   14
+COMMON               3          3                                 12081001   15
+MONIT      ASSUM1     ASSUM2                                      12081001   16
+B          B          B                                           12081001   17
+ 166.       2.         9.                                         12081001   18
+ENDCOMMON            3                                            12081001   19
+ENDSUBENT           18                                            1208100199999
+SUBENT        12081003     780210                                 12081003    1
+BIB                  3          3                                 12081003    2
+REACTION   (68-ER-167(N,G)68-ER-168,,SIG,,SPA)                    12081003    3
+METHOD     (REAC) REACTIVITY COEFFICIENT MEASUREMENT              12081003    4
+INC-SPECT   REACTOR SPECTRUM                                      12081003    5
+ENDBIB               3                                            12081003    6
+NOCOMMON                                                          12081003    7
+DATA                 3          1                                 12081003    8
+EN-DUMMY   DATA       DATA-ERR                                    12081003    9
+MEV        B          B                                           12081003   10
+ 2.53   -08 6.20   +02 1.25   +02                                 12081003   11
+ENDDATA              3                                            12081003   12
+ENDSUBENT           11                                            1208100399999
+ENDENTRY             2                                            1208199999999
+ENTRY            12128     821012                                 12128000    1
+SUBENT        12128001     821012                                 12128001    1
+BIB                  6          8                                 12128001    2
+INSTITUTE  (1USARPI)                                              12128001    3
+REFERENCE  (J,IRE,14,1,6706)                                      12128001    4
+AUTHOR     (C.S.SU,F.A.WHITE)                                     12128001    5
+TITLE      ISOTOPIC ENRICHMENT AND THERMAL NEUTRON CROSS SECTION  12128001    6
+           MEASUREMENT OF ERBIUM-167.                             12128001    7
+STATUS     (SCSRS)                                                12128001    8
+HISTORY    (760803T) TRANSLATED FROM SCISRS                       12128001    9
+           (821012A) CONVERTED TO REACTION FORMALISM              12128001   10
+ENDBIB               8                                            12128001   11
+NOCOMMON             0          0                                 12128001   12
+ENDSUBENT           11                                            1212800199999
+SUBENT        12128002     821012                                 12128002    1
+BIB                  4          7                                 12128002    2
+REACTION   (68-ER-167(N,G)68-ER-168,,SIG,,MXW)                    12128002    3
+FACILITY   (SPECM)    MASS SPECTROMETER                           12128002    4
+MONITOR    (62-SM-149(N,G)62-SM-150,,SIG)                         12128002    5
+            BASED ON SM149 THERMAL CAPTURE=40,800B.               12128002    6
+           (64-GD-157(N,G)64-GD-158,,SIG)                         12128002    7
+            BASED ON GD157 THERMAL CAPTURE=240,000B.              12128002    8
+STATUS     (DEP,12128003)                                         12128002    9
+ENDBIB               7                                            12128002   10
+NOCOMMON             0          0                                 12128002   11
+DATA                 3          1                                 12128002   12
+EN-DUMMY   DATA       DATA-ERR                                    12128002   13
+MEV        B          B                                           12128002   14
+ 2.53   -08 6.99   +02 2.0    +01                                 12128002   15
+ENDDATA              3                                            12128002   16
+ENDSUBENT           15                                            1212800299999
+SUBENT        12128003     821012                                 12128003    1
+BIB                  4          8                                 12128003    2
+REACTION   (68-ER-167(N,G)68-ER-168,,SIG,,SPA)                    12128003    3
+FACILITY   (SPECM)    MASS SPECTROMETER                           12128003    4
+MONITOR    (62-SM-149(N,G)62-SM-150,,SIG)                         12128003    5
+            BASED ON SM149 THERMAL CAPTURE=40,800B.               12128003    6
+           (64-GD-157(N,G)64-GD-158,,SIG)                         12128003    7
+            BASED ON GD157 THERMAL CAPTURE=240,000B.              12128003    8
+INC-SPECT  REACTOR SPECTRUM. NEUTRON TEMPERATURE = 42.8+-2.5      12128003    9
+            DEGR(C).                                              12128003   10
+ENDBIB               8                                            12128003   11
+NOCOMMON             0          0                                 12128003   12
+DATA                 3          1                                 12128003   13
+EN-DUMMY   DATA       DATA-ERR                                    12128003   14
+MEV        B          B                                           12128003   15
+ 2.53   -08 7.40   +02 2.1    +01                                 12128003   16
+ENDDATA              3                                            12128003   17
+ENDSUBENT           16                                            1212800399999
+ENDENTRY             3                                            1212899999999
+ENTRY            40061     890425                                 40061000    1
+SUBENT        40061001     890425                                 40061001    1
+BIB                 10         21                                 40061001    2
+INSTITUTE  (4CCPIFU)                                              40061001    3
+REFERENCE  (C,65ANTWERP,,572(186),65)                             40061001    4
+           (R,ICD-5,5,6811)                                       40061001    5
+           (J,AE,15,(3),247,6309)                                 40061001    6
+           (J,UFZ,8,(9),947,6309)                                 40061001    7
+           (J,UFZ,11,(3),241,6603)                                40061001    8
+           (J,IZV,31,(2),353,6702)                                40061001    9
+           (R,YFI-1,25,6508)                                      40061001   10
+AUTHOR     (V.P.VERTEBNYJ,M.F.VLASOV,V.V.KOLOTYJ,A.L.KIRILJUK,    40061001   11
+           M.V.PASECHNIK,T.I.PISANKO,N.L.GNIDAK,A.I.KAL'CHENKO)   40061001   12
+TITLE       NEUTRON CROSS SECTIONS OF ERBIUM ISOTOPES IN ENERGY   40061001   13
+            RANGE 0.007-200 EV                                    40061001   14
+FACILITY   (CHOPS) SLOW CHOPPER WITH DIVERGING SLITS              40061001   15
+INC-SOURCE (REAC) REACTOR VVR-M OF INST.FIZIKI A.N.UKRAINSKOI CCP,40061001   16
+                   KIEV                                           40061001   17
+METHOD     (TOF)    TIME OF FLIGHT METHOD                         40061001   18
+DETECTOR   (PROPC) PROPORTIONAL COUNTER WITH BF3                  40061001   19
+MONITOR     ABSOLUTE MEASUREMENTS                                 40061001   20
+HISTORY    (710330C)  COMPILED AT THE CJD                         40061001   21
+           (870119U)  ONE EXTRA REFERENCE ADDED, REACTION CODE    40061001   22
+            IN SAN 017 CORRECTED,ISO-QUANT IN REACTION CONVERTED  40061001   23
+ENDBIB              21                                            40061001   24
+NOCOMMON             0          0                                 40061001   25
+ENDSUBENT           24                                            4006100199999
+SUBENT        40061020     870119                                 40061020    1
+BIB                  7          8                                 40061020    2
+REACTION   (68-ER-167(N,G)68-ER-168,,SIG)                         40061020    3
+SAMPLE      OXIDE) ER203                                          40061020    4
+ANALYSIS   DATA RECEIVED FROM TOTAL AND SCATTERING CROSS SECTIONS 40061020    5
+CORRECTION IT WAS TAKEN INTO ACCOUNT ADMIXTURE INFLUENCE          40061020    6
+ERR-ANALYS (DATA-ERR) NO INFORMATION AVAILABLE                    40061020    7
+STATUS             AUTHORS REVISED THE DATA PUBLISHED IN BULL.    40061020    8
+           CENTR PO JADERNYM DANNYM,NUMB.5,P.15,TABLE 1           40061020    9
+HISTORY    (700706R)                                              40061020   10
+ENDBIB               8                                            40061020   11
+NOCOMMON             0          0                                 40061020   12
+DATA                 3          1                                 40061020   13
+EN         DATA       DATA-ERR                                    40061020   14
+EV         B          B                                           40061020   15
+    0.0253   658.        30.                                      40061020   16
+ENDDATA              3                                            40061020   17
+ENDSUBENT           16                                            4006102099999
+ENDENTRY             2                                            4006199999999
+ENTRY            40222   19981103   19990308                      40222000    1
+SUBENT        40222001   19981103   19990308                      40222001    1
+BIB                 13         41                                 40222001    2
+TITLE       NEUTRON  RADIATIVE  CAPTURE  CROSS  SECTIONS          40222001    3
+            IN  THE  ENERGY  RANGE  5-70  KEV  FOR  GD            40222001    4
+            AND  ER  ISOTOPES                                     40222001    5
+AUTHOR     (V.S.SHORIN,V.N.KONONOV,E.D.POLETAEV)                  40222001    6
+INSTITUTE  (4RUSFEI)                                              40222001    7
+REFERENCE  (P,YFI-17,9,197407)  MAIN REFERENCE, DATA ARE GIVEN    40222001    8
+           (J,YF,19,5,197401)             GRAPH ONLY.             40222001    9
+FACILITY   (VDG)      FEI  PULSED  VAN  DE  GRAAF                 40222001   10
+INC-SOURCE (P-LI7)    PROTON-LITHIUM  7                           40222001   11
+METHOD     (TOF)      TIME-OF-FLIGHT  METHOD  WITH  TIME          40222001   12
+                      RESOLUTION  25  NSEC/M  AT  FLIGHT  PATH    40222001   13
+                      85  CM                                      40222001   14
+DETECTOR   (STANK)    LIQUID  SCINTILLATION  DETECTOR  WITH       40222001   15
+                      HEXAFLUOROBENZENE.  VOLUME  17  LITRES      40222001   16
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)      ENERGY DEPENDENCE  40222001   17
+             OF THE NEUTRON FLUX WAS MEASURED  USING              40222001   18
+             B-10 (N,ALPHA-GAMMA) REACTION                        40222001   19
+             AND ITS ENERGY DEPENDENCE GIVEN  BY                  40222001   20
+             M.G.SOWERBY ET.AL., 70HELSINKI, 1,161  AND           40222001   21
+             R.L.MACKLIN, J.H.GIBBONS, PHYS.REV.165,1147,1968.    40222001   22
+             FOR ABSOLUTE NORMALIZATION OF THE GOLD CAPTURE       40222001   23
+             CROSS-SECTION AT NEUTRON ENERGY 30 KEV TAKEN         40222001   24
+             FROM  W.P.POENITZ,66PARIS,CN23/6 WAS USED.           40222001   25
+CORRECTION            BACKGROUND CORRECTION,  CORRECTIONS FOR     40222001   26
+                      MULTIPLE  NEUTRON  SCATTERING,  RESONANCE   40222001   27
+                      SELF-SHIELDING  AND  ISOTOPIC  IMPURITIES.  40222001   28
+ERR-ANALYS (ERR-T)  ERRORS  SHOWN  ON  THE  DATA  ARE TOTAL       40222001   29
+           (ERR-1)  SYSTEMATIC UNCERTAINTY IN DETECTOR            40222001   30
+                    EFFICIENCY  = 6. PERCENT                      40222001   31
+           (ERR-2)  STANDARD UNCERTAINTIES = 4.5 PERCENT          40222001   32
+           (ERR-3)  MIN CORRECTION  UNCERTAINTY   = 2. PERCENT    40222001   33
+           (ERR-4)  MAX CORRECTION  ERROR = 4. PERCENT            40222001   34
+           (ERR-5)  MIN STATISTICAL ERROR = 2. PERCENT            40222001   35
+           (ERR-S)  MAX STATISTICAAL ERROR = 12. PERCENT          40222001   36
+STATUS     (COREL,40520001)                                       40222001   37
+           (COREL,41335001)                                       40222001   38
+HISTORY    (19740320C)  COMPILED  AT THE  CENTRE                  40222001   39
+           (19870309A)  DATA IN SAN 2,3,6,8-10,12,13 SUPERCEEDED  40222001   40
+                      ACCORDING TO THE AUTHOR'S DECISION          40222001   41
+                      ISO-QUANT INTO REACTION CONVERTED           40222001   42
+           (19981103A)  CORRECTED IN THE CENTRE - CJD             40222001   43
+ENDBIB              41                                            40222001   44
+COMMON               6          3                                 40222001   45
+ERR-1      ERR-2      ERR-3      ERR-4      ERR-5      ERR-S      40222001   46
+PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   40222001   47
+ 6.         4.5         2.        4.         2.         12.       40222001   48
+ENDCOMMON            3                                            40222001   49
+ENDSUBENT           48                                            4022200199999
+SUBENT        40222011     870309                                 40222011    1
+BIB                  3          4                                 40222011    2
+REACTION   (68-ER-167(N,G)68-ER-168,,SIG)                         40222011    3
+SAMPLE                OXIDE  ER2-O3  POWDER  93  PERCENT ENRICHED 40222011    4
+                      DIAMETER 40 MM, THICKNESS 0.0106   NUCLEI/B 40222011    5
+STATUS     (APRVD)    DATA RECEIVED FROM THE AUTHORS              40222011    6
+ENDBIB               4                                            40222011    7
+NOCOMMON             0          0                                 40222011    8
+DATA                 3         31                                 40222011    9
+EN         DATA       ERR-T                                       40222011   10
+KEV        MB         MB                                          40222011   11
+ 6.04      4160.      520.                                        40222011   12
+ 6.97      4320.      490.                                        40222011   13
+ 7.75      3890.      420.                                        40222011   14
+ 8.40      3410.      360.                                        40222011   15
+ 9.13      3180.      330.                                        40222011   16
+ 9.96      2840.      290.                                        40222011   17
+10.9       2920.      290.                                        40222011   18
+12.0       2580.      260.                                        40222011   19
+13.3       2310.      230.                                        40222011   20
+14.7       2540.      250.                                        40222011   21
+16.5       2510.      260.                                        40222011   22
+18.5       2060.      200.                                        40222011   23
+20.2       1960.      190.                                        40222011   24
+21.3       1830.      180.                                        40222011   25
+22.4       1780.      170.                                        40222011   26
+23.7       1700.      160.                                        40222011   27
+25.0       1660.      160.                                        40222011   28
+26.5       1600.      150.                                        40222011   29
+28.1       1540.      150.                                        40222011   30
+29.8       1500.      140.                                        40222011   31
+31.8       1430.      140.                                        40222011   32
+33.9       1350.      130.                                        40222011   33
+36.2       1290.      120.                                        40222011   34
+38.8       1240.      120.                                        40222011   35
+41.7       1230.      120.                                        40222011   36
+44.9       1140.      110.                                        40222011   37
+48.5       1080.      100.                                        40222011   38
+52.5       1060.      100.                                        40222011   39
+57.0       1000.       95.                                        40222011   40
+62.2        981.       93.                                        40222011   41
+68.2        943.       90.                                        40222011   42
+ENDDATA             33                                            40222011   43
+ENDSUBENT           42                                            4022201199999
+ENDENTRY             2                                            4022299999999
+ENDREQUEST           1                                            Z999999999999

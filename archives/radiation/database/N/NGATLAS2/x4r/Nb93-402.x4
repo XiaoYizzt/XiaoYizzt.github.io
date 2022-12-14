@@ -1,0 +1,43 @@
+REQUEST           1001   20010914          3     141341               0  0    0
+ENTRY            11590     870120                                 11590000    1
+SUBENT        11590001     870120                                 11590001    1
+BIB                 10         16                                 11590001    2
+INSTITUTE  (1USAARK)                                              11590001    3
+REFERENCE  (J,PR,131,2649,6309)                                   11590001    4
+AUTHOR     (E.T.BRAMLITT,R.W.FINK)                                11590001    5
+TITLE      RARE NUCLEAR REACTIONS INDUCED BY 14.7-MEV NEUTRONS.   11590001    6
+FACILITY   (CCW)                                                  11590001    7
+INC-SOURCE (D-T) T(D,N) SOURCE                                    11590001    8
+METHOD     (ACTIV) ACTIVATION                                     11590001    9
+DETECTOR   (PROPC). BETAS                                         11590001   10
+           (SCIN) PLASTIC SCINTILLATOR. BETAS.                    11590001   11
+           (NAICR). GAMMAS.                                       11590001   12
+STATUS     (SCSRS)                                                11590001   13
+HISTORY    (760718T) TRANSLATED FROM SCISRS                       11590001   14
+           (830815A) CONVERTED TO REACTION FORMALISM              11590001   15
+           (840731A) BIB CORRECTIONS.                             11590001   16
+           (860714A) ENERGY MOVED TO SUBENTRY 1.                  11590001   17
+           (870120A) BIB CORRECTIONS.                             11590001   18
+ENDBIB              16                                            11590001   19
+COMMON               2          3                                 11590001   20
+EN         EN-RSL                                                 11590001   21
+MEV        MEV                                                    11590001   22
+ 14.7       0.2                                                   11590001   23
+ENDCOMMON            3                                            11590001   24
+ENDSUBENT           23                                            1159000199999
+SUBENT        11590051     860714                                 11590051    1
+BIB                  4          4                                 11590051    2
+REACTION   (41-NB-93(N,G)41-NB-94-M,,SIG)                         11590051    3
+REFERENCE  (J,JIN,24,1321,62)                                     11590051    4
+DECAY-DATA (41-NB-94-M,6.6MIN)                                    11590051    5
+MONITOR    (13-AL-27(N,A)11-NA-24,,SIG)                           11590051    6
+ENDBIB               4                                            11590051    7
+NOCOMMON             0          0                                 11590051    8
+DATA                 3          1                                 11590051    9
+DATA       DATA-ERR   MONIT                                       11590051   10
+B          B          MB                                          11590051   11
+ 4.4    -04 2.6    -04 114.                                       11590051   12
+ENDDATA              3                                            11590051   13
+ENDSUBENT           12                                            1159005199999
+ENDENTRY             2                                            1159099999999
+ENDREQUEST           1                                            Z999999999999

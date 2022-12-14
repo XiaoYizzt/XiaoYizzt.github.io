@@ -1,0 +1,89 @@
+REQUEST           1001   20010914          3     144048               0  0    0
+ENTRY            11817     831109                                 11817000    1
+SUBENT        11817001     831109                                 11817001    1
+BIB                  9         13                                 11817001    2
+INSTITUTE  (1USAUCB)                                              11817001    3
+REFERENCE  (R,NYO-10175,6412)                                     11817001    4
+AUTHOR     (H.ARINO,H.H.KRAMER,V.J.MOLINSKI,R.S.TILSBURY,         11817001    5
+           W.H.WAHL,P.M.STIER)                                    11817001    6
+TITLE      RESEARCH IN ACTIVATION ANALYSIS                        11817001    7
+METHOD     (ACTIV) ACTIVATION                                     11817001    8
+ERR-ANALYS WHERE NO DATA ERROR IS GIVEN, ERROR IS 10 PERCENT OR   11817001    9
+            LESS.                                                 11817001   10
+COMMENT    SEE ALSO NUC.SCI.ENG. 31, 545 (1968) FOR ADDITIONAL    11817001   11
+            DATA FROM THIS EXPERIMENT.                            11817001   12
+STATUS     (SCSRS)                                                11817001   13
+HISTORY    (760731T) TRANSLATED FROM SCISRS                       11817001   14
+           (830927A) CONVERTED TO REACTION FORMALISM              11817001   15
+ENDBIB              13                                            11817001   16
+NOCOMMON             0          0                                 11817001   17
+ENDSUBENT           16                                            1181700199999
+SUBENT        11817024     831102                                 11817024    1
+BIB                  3          3                                 11817024    2
+REACTION   (78-PT-198(N,G)78-PT-199-M,,SIG,,MXW)                  11817024    3
+INC-SPECT  THERMAL SPECTRUM                                       11817024    4
+DECAY-DATA (78-PT-199-M,14.1SEC)                                  11817024    5
+ENDBIB               3                                            11817024    6
+NOCOMMON             0          0                                 11817024    7
+DATA                 2          1                                 11817024    8
+EN-DUMMY   DATA                                                   11817024    9
+MEV        B                                                      11817024   10
+ 2.53   -08 0.027                                                 11817024   11
+ENDDATA              3                                            11817024   12
+ENDSUBENT           11                                            1181702499999
+ENDENTRY             2                                            1181799999999
+ENTRY            30282     850308                                 30282000    1
+SUBENT        30282001     850308                                 30282001    1
+BIB                 14         24                                 30282001    2
+INSTITUTE  (3HUNDEB)                                              30282001    3
+REFERENCE  (J,AK,15,(3),161,7303) FULL INFORMATION.               30282001    4
+           (P,INDC(HUN)-11,14,7309)  ABSTRACT ONLY                30282001    5
+AUTHOR     (I.URAY,A.SZALAY)                                      30282001    6
+TITLE      ACTIVATION CROSS-SECTIONS OF PT-198 WITH FAST NEUTRONS 30282001    7
+EXP-YEAR   (73)                                                   30282001    8
+FACILITY   240 KV NEUTRON GENERATOR OF ATOMKI                     30282001    9
+INC-SOURCE (D-T)  T(D,N)ALPHA REACTION. THE NEUTRON YIELD WAS     30282001   10
+           ABOUT 5*10**9 NEUTRONS/SEC.                            30282001   11
+SAMPLE     MEASUREMENTS WERE MADE SIMULTANEOUSLY WITH NATURAL AND 30282001   12
+           ENRICHED PT SAMPLES (87.68 PERCENT PT-198).            30282001   13
+METHOD     (ACTIV) ACTIVATION METHOD                              30282001   14
+DETECTOR   (GELI) 12 CM3 GE(LI) DETECTOR WITH A RESOLUTION (FWHM) 30282001   15
+           OF 3.5 KEV AT 661 KEV. ENERGY CALIBRATION WAS PERFORMED30282001   16
+           WITH AIEA STANDARD SOURCES.                            30282001   17
+MONITOR    (78-PT-198(N,2N)78-PT-197-M,,SIG)                      30282001   18
+            NUMERICAL VALUE FROM P.WINIWARTER,                    30282001   19
+           NUCL.PHYS.A 158(1970)77. BRANCHING RATIOS AND CONVER-  30282001   20
+           SION COEFFICIENT WERE TAKEN FROM M.B.LEWIS,NUCL.DATA   30282001   21
+           SHEETS B7(1972) 129.                                   30282001   22
+DECAY-MON  (78-PT-199-M,94.4MIN,DG,346.)                          30282001   23
+            HL+- 0.8 MIN MEASURED BY AUTHOR.                      30282001   24
+STATUS     DATA TAKEN FROM ATOMKI KOEZLEMENYEK 15(1973)161.       30282001   25
+HISTORY    (741125C) CA.                                          30282001   26
+ENDBIB              24                                            30282001   27
+COMMON               4          3                                 30282001   28
+EN         EN-RSL     MONIT      MONIT-ERR                        30282001   29
+MEV        MEV        MB         MB                               30282001   30
+ 1.5000E+01 4.0000E-01 8.9400E+02 1.0100E+02                      30282001   31
+ENDCOMMON            3                                            30282001   32
+ENDSUBENT           31                                            3028200199999
+SUBENT        30282002     840517                                 30282002    1
+BIB                  3          5                                 30282002    2
+REACTION   (78-PT-198(N,G)78-PT-199-M,,SIG)                       30282002    3
+PART-DET   (DG) THE TOTAL INTERNAL CONVERSION COEFFICIENT OF THE  30282002    4
+           392 KEV TRANSITION IS ABOUT 0.14 (FROM M.A.WAHLGREN,   30282002    5
+           W.W.MEINKE, PHYS.REV.115(1959)191)                     30282002    6
+HALF-LIFE  (HL1,78-PT-199-M) MEASURED BY AUTHOR                   30282002    7
+ENDBIB               5                                            30282002    8
+COMMON               2          3                                 30282002    9
+HL1        HL1-ERR                                                30282002   10
+SEC        SEC                                                    30282002   11
+ 1.3300E+01 2.0000E-01                                            30282002   12
+ENDCOMMON            3                                            30282002   13
+DATA                 2          1                                 30282002   14
+DATA       DATA-ERR                                               30282002   15
+MB         MB                                                     30282002   16
+ 9.0000E-01 4.0000E-01                                            30282002   17
+ENDDATA              3                                            30282002   18
+ENDSUBENT           17                                            3028200299999
+ENDENTRY             2                                            3028299999999
+ENDREQUEST           1                                            Z999999999999

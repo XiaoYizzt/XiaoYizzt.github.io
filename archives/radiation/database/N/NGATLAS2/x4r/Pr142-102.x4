@@ -1,0 +1,36 @@
+REQUEST           1001   20010914          3     142730               0  0    0
+ENTRY            11851     830919                                 11851000    1
+SUBENT        11851001     830919                                 11851001    1
+BIB                  9         10                                 11851001    2
+INSTITUTE  (1USAMTR)                                              11851001    3
+REFERENCE  (J,JCP,23,2108,55)                                     11851001    4
+AUTHOR     (R.SMITH,S.REEDER)                                     11851001    5
+TITLE      ACTIVATION CROSS SECTIONS OF Y90 AND PR142.            11851001    6
+INC-SPECT  THERMAL SPECTRUM                                       11851001    7
+METHOD     (ACTIV) ACTIVATION                                     11851001    8
+MONITOR    (27-CO-59(N,G)27-CO-60,,SIG)                           11851001    9
+STATUS     (SCSRS)                                                11851001   10
+HISTORY    (760731T) TRANSLATED FROM SCISRS                       11851001   11
+           (830919A) CONVERTED TO REACTION FORMALISM              11851001   12
+ENDBIB              10                                            11851001   13
+COMMON               1          3                                 11851001   14
+MONIT                                                             11851001   15
+B                                                                 11851001   16
+ 34.0                                                             11851001   17
+ENDCOMMON            3                                            11851001   18
+ENDSUBENT           17                                            1185100199999
+SUBENT        11851003     830919                                 11851003    1
+BIB                  2          3                                 11851003    2
+REACTION   (59-PR-142(N,G)59-PR-143,,SIG,,MXW)                    11851003    3
+DECAY-DATA (59-PR-142-G,19.2HR)                                   11851003    4
+           (59-PR-143,13.7D)                                      11851003    5
+ENDBIB               3                                            11851003    6
+NOCOMMON             0          0                                 11851003    7
+DATA                 3          1                                 11851003    8
+EN-DUMMY   DATA       DATA-ERR                                    11851003    9
+MEV        B          B                                           11851003   10
+ 2.53   -08 1.8    +01 3.     +00                                 11851003   11
+ENDDATA              3                                            11851003   12
+ENDSUBENT           11                                            1185100399999
+ENDENTRY             2                                            1185199999999
+ENDREQUEST           1                                            Z999999999999

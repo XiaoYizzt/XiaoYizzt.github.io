@@ -1,0 +1,901 @@
+REQUEST           1001   20010914          3     144101               0  0    0
+ENTRY            20419     840111                                 20419000    1
+SUBENT        20419001     840111                                 20419001    1
+BIB                 11         46                                 20419001    2
+INSTITUTE  (2ZZZGEL)                                              20419001    3
+REFERENCE  (J,AKE,26,(2),80,75) TABLE.                            20419001    4
+           (P,NEANDC(E)-172,(3),,7602) SHORT REPORT.              20419001    5
+           (P,NEANDC(E)-162,(3),,7502) ABSTRACT.                  20419001    6
+           (P,EANDC(E)-157U,(1),,7303) EXPT IN PROGRESS.          20419001    7
+           (P,NEANDC(E)-161,207,7408) ABSTRACT ONLY.              20419001    8
+AUTHOR     (H.LISKIEN, A.PAULSEN)                                 20419001    9
+TITLE      -ACTIVATION CROSS-SECTION MEASUREMENTS.-               20419001   10
+METHOD     (ACTIV)    ACTIVATION.                                 20419001   11
+MONITOR    (1-H-1(N,EL)1-H-1,,SIG) SCATTERING CROSS SECT, WITH    20419001   12
+            HYDROGEN - OR METHANE FILLED PROPORTIONAL COUNTER,    20419001   13
+            0.2 - 2.5 MEV, OR A RECOIL TELESCOPE COUNTER, 2-3 MEV 20419001   14
+COMMENT    .AT ANY NEUTRON ENERGY FOUR OR FIVE DETERMINATIONS     20419001   15
+            MADE.                                                 20419001   16
+STATUS     .CROSS-SECTIONS AND DETAILS ON EXPERIMENT FROM         20419001   17
+            TEXT AND TABLE IN AKE,26,2,80.                        20419001   18
+HISTORY    (750729C)                                              20419001   19
+           (750925E)                                              20419001   20
+           (801108A) STANDARD AND ERR-ANALYSIS CHANGED.           20419001   21
+           (801204E)                                              20419001   22
+CORRECTION .CORRECTED FOR SAMPLE/CALIBRATION SOURCE DIFFERENCES   20419001   23
+            (1.1PC), THERMAL NEUTRONS (2.5PC), NEUTRON ATTENUAT-  20419001   24
+            ION (1.5PC), SOLID ANGLE EFFECTS (6.0PC), NEUTRON     20419001   25
+            INSCATTERING (2.0PC), SAMPLE CHEMICAL PURITY (0.01PC) 20419001   26
+            THICKNESS (1.7PC), NEUTRON SURVIVAL FACTOR (3.0PC).   20419001   27
+ERR-ANALYS (ERR-S) STATISTICAL, UNCORRELATED, UNCERTAINTIES ARE   20419001   28
+            GIVEN AS THE QUADRATIC SUM OF ALL RANDOM CONTRIBUTIONS20419001   29
+            TO THE ERROR FROM ACTIVITY, NEUTRON FLUENCE, SAMPLE   20419001   30
+            DISTANCE.                                             20419001   31
+           (ERR-1) SYSTEMATIC ERRORS ASSOCIATED WITH SAMPLE ...   20419001   32
+            SOLID ANGLE 1.0PC, NUMBER OF ATOMS 0.1PC, DIFFERENTIAL20419001   33
+            ABSORPTION 0.1PC, DEPTH DIFFERENCE TO CALIBRATION SOUR20419001   34
+            0.1PC, NEUTRON ATTENUATION 0.3PC, DETECTOR/SAMPLE SOLI20419001   35
+            ANGLE DIFFERENCE 0.5PC, INSCATTERING NEUTRONS 0.3PC,  20419001   36
+            CHEMICAL PURITY 0.01 PC, EFFECTIVE THICKNESS 0.2PC.   20419001   37
+            TOTAL OF 1.24 PERCENT                                 20419001   38
+           (ERR-2)SYSTEMATIC UNCERTAINTIES ASSOCIATED WITH DETECTO20419001   39
+            EFFICIENCY 1.5PC, GOLD DECAY CONSTANT 0.1PC, TOTAL OF 20419001   40
+            1.55 PERCENT.                                         20419001   41
+           (ERR-3) SYSTEMATIC ERROR FROM THERMAL NEUTRONS 2.5 PC. 20419001   42
+           (ERR-4) SYSTEMATIC ERROR FROM NEUTRON FLUX 2.8PC,      20419001   43
+            TIME VARIATION 0.02PC, SURVIVAL FACTOR 0.1PC. TOTAL IS20419001   44
+            2.85 PERCENT.                                         20419001   45
+           (ERR-T)  TOTAL ERRORS ARE GIVEN IN THE TABLE AS THE    20419001   46
+            QUADRATIC SUM OF THE STANDARD ERROR OF THE MEAN AND   20419001   47
+            ALL SYSTEMATIC ERROR COMPONENTS.                      20419001   48
+ENDBIB              46                                            20419001   49
+COMMON               4          3                                 20419001   50
+ERR-1      ERR-2      ERR-3      ERR-4                            20419001   51
+PER-CENT   PER-CENT   PER-CENT   PER-CENT                         20419001   52
+ 1.2400E+00 1.5500E+00 2.5000E+00 2.8500E+00                      20419001   53
+ENDCOMMON            3                                            20419001   54
+ENDSUBENT           53                                            2041900199999
+SUBENT        20419002     840111                                 20419002    1
+BIB                  4         12                                 20419002    2
+REACTION   (79-AU-197(N,G)79-AU-198-G,,SIG)                       20419002    3
+DECAY-DATA (79-AU-198-G,2.67D,DG,412.) PHOTOPEAK EFFICIENCY       20419002    4
+            CALIBRATION BASED ON 4-PI BETA-GAMMA COINCIDENCE.     20419002    5
+            MEASUREMENT ASSUMES THAT ALL NEUTRON CAPTURE EVENTS   20419002    6
+            POLULATE THE GROUND STATE. MEASUREMENTS FOR 2.5 HALF- 20419002    7
+            LIVES INDICATE A POPULATION OF 0.2+-0.3 PERCENT FOR TH20419002    8
+            METASTABLE STATE AT 812 KEV.                          20419002    9
+STATUS     .TABLE 1, PAGE 82.                                     20419002   10
+HISTORY    (750729C)                                              20419002   11
+           (750925E)                                              20419002   12
+           (801108A) REACTION RE-CODED.                           20419002   13
+           (801204E)                                              20419002   14
+ENDBIB              12                                            20419002   15
+NOCOMMON             0          0                                 20419002   16
+DATA                 5         19                                 20419002   17
+EN         EN-RSL     DATA       ERR-S      ERR-T                 20419002   18
+KEV        KEV        MB         MB         MB                    20419002   19
+ 2.0000E+02 1.7000E+00 2.7110E+02 2.2000E+00 1.1600E+01           20419002   20
+ 3.0000E+02 2.4000E+00 2.0750E+02 3.3000E+00 9.3000E+00           20419002   21
+ 4.0000E+02 3.2000E+00 1.7970E+02 2.8000E+00 8.0000E+00           20419002   22
+ 5.0000E+02 3.8000E+00 1.5220E+02 1.8000E+00 6.6000E+00           20419002   23
+ 6.2500E+02 4.7000E+00 1.2390E+02 1.6000E+00 5.4000E+00           20419002   24
+ 7.3700E+02 5.5000E+00 1.0920E+02 6.0000E-01 4.6000E+00           20419002   25
+ 8.7500E+02 6.4000E+00 9.1800E+01 1.5000E+00 4.2000E+00           20419002   26
+ 9.8500E+02 7.2000E+00 9.2700E+01 7.0000E-01 4.0000E+00           20419002   27
+ 1.2320E+03 9.0000E+00 8.2500E+01 7.0000E-01 3.5000E+00           20419002   28
+ 1.5000E+03 1.0900E+01 7.6000E+01 5.0000E-01 3.2000E+00           20419002   29
+ 1.7500E+03 1.2600E+01 6.7500E+01 1.4000E+00 3.2000E+00           20419002   30
+ 2.0000E+03 1.4000E+01 5.5800E+01 3.0000E-01 2.4000E+00           20419002   31
+ 2.0000E+03 1.4000E+01 5.6300E+01 4.0000E-01 2.4000E+00           20419002   32
+ 2.2500E+03 1.5800E+01 4.2900E+01 8.0000E-01 2.0000E+00           20419002   33
+ 2.2500E+03 1.5800E+01 4.3800E+01 3.0000E-01 1.9000E+00           20419002   34
+ 2.5000E+03 1.7500E+01 3.6000E+01 6.0000E-01 1.6000E+00           20419002   35
+ 2.5000E+03 1.7500E+01 3.6000E+01 1.0000E-01 1.5000E+00           20419002   36
+ 2.7500E+03 1.9300E+01 2.9500E+01 3.0000E-01 1.3000E+00           20419002   37
+ 3.0000E+03 2.1000E+01 2.5000E+01 2.0000E-01 1.1000E+00           20419002   38
+ENDDATA             21                                            20419002   39
+ENDSUBENT           38                                            2041900299999
+ENDENTRY             2                                            2041999999999
+ENTRY            20670     840127                                 20670000    1
+SUBENT        20670001     840127                                 20670001    1
+BIB                 15         96                                 20670001    2
+INSTITUTE  (2AUSIRK)                                              20670001    3
+REFERENCE  (J,NP/A,264,105,760621)                                20670001    4
+           (J,OSA,7,121,70) DESCRIBES TARGET CONSTRUCTION.        20670001    5
+           (J,OAW,174,567,65) DESCRIBES NEUTRON PRODUCTION        20670001    6
+             TECHNIQUE.                                           20670001    7
+           (T,SCHWERER,,74) CONTAINS DESCRIPTION OF DETECTOR      20670001    8
+            SYSTEM (GE(LI)-SPECTROMETER).                         20670001    9
+AUTHOR     (O.SCHWERER,M.WINKLER-ROHATSCH,H.WARHANEK,G.WINKLER)   20670001   10
+TITLE      -MEASUREMENT OF CROSS SECTIONS FOR 14 MEV NEUTRON      20670001   11
+             CAPTURE-                                             20670001   12
+FACILITY   (CCW  ) COCKCROFT-WALTON TYPE ACCELERATOR (200KEV) OF  20670001   13
+            THE VIENNA INSTITUT FUER RADIUMFORSCHUNG UND          20670001   14
+            KERNPHYSIK.                                           20670001   15
+INC-SOURCE (D-T  ) A  T(D,N)4HE REACTION PRODUCES 14 MEV          20670001   16
+            NEUTRONS.                                             20670001   17
+SAMPLE     .SHAPE-METAL SHEETS OR POWDER IN THIN-WALLED PLEXI-    20670001   18
+            GLASS CONTAINERS, NATURAL ISOTOPIC COMPOSITION.       20670001   19
+           .DIAMETER-16MM.                                        20670001   20
+           .37CL AS BACL2 POWDER-99.998PC PURITY.                 20670001   21
+           .41K  AS KI    POWDER-SUPERPURE ACC. TO MERCK          20670001   22
+            LABORATORIES, GERMANY.                                20670001   23
+           .50TI AS METAL SHEET -99.97PC.                         20670001   24
+           .51V  AS V2O5  POWDER-99.0PC .                         20670001   25
+           .55MN AS MN3O4 POWDER-99.995PC.                        20670001   26
+           .71GA AS GA2O3 POWDER-99.999PC.                        20670001   27
+           .87RB AS RBCL  POWDER-SUPERPURE.                       20670001   28
+           .89Y  AS Y2O3  POWDER-99.9999PC.                       20670001   29
+           .127I AS KI    POWDER-SUPERPURE.                       20670001   30
+           .130TE                                                 20670001   31
+                 AS TEO2  POWDER-99.999PC.                        20670001   32
+           .138BA AS BACL2 POWDER-99.998PC.                       20670001   33
+           .139LA AS LA2O3 POWDER-99.999PC.                       20670001   34
+           .142CE AS CEO2  POWDER-99.9PC.                         20670001   35
+           .186W  AS WO3   POWDER-99.9PC.                         20670001   36
+           .198PT AS METAL SHEET -99.97PC.                        20670001   37
+           .197AU AS METAL SHEET -99.99PC.                        20670001   38
+METHOD     (ACTIV) ACTIVATION METHOD WAS USED, TO MEASURE THE     20670001   39
+            N-GAMMA CROSS SECTIONS.                               20670001   40
+DETECTOR   (GELI ) DESCRIPTION OF THE GELI-SPECTROMETER IN        20670001   41
+            SCHWERER S THESIS, UNIVERSITY OF VIENNA, 1974.        20670001   42
+            FOR 50TI,51V,89Y,130TE,186W,197AU THE RESOLUTION OF   20670001   43
+            THE DETECTOR SYSTEM IS 4.2KEV AT 1.33 MEV (FWHM).     20670001   44
+            FOR 37CL,41K,55MN,71GA,87RB,127I,138BA,139LA,         20670001   45
+            142CE,198PT THE RESOLUTION IS 2.2 KEV.                20670001   46
+MONITOR    (13-AL-27(N,A)11-NA-24,,SIG)                           20670001   47
+            THE SAMPLES WERE SANDWICHED BETWEEN 2                 20670001   48
+            AL-FOILS (PURITY BETTER THAN 99.85PC) DURING          20670001   49
+            IRRADIATION.THE ACTIVITY OF THE REACTION 27AL(N,      20670001   50
+            ALPHA)24NA WAS MEASURED BY A 7.6CMX7.6CM NAI(TL)      20670001   51
+            CRYSTAL AND THE CROSS SECTION FOR THIS REACTION       20670001   52
+            TAKEN AS 114.2MB+-1.2PC AT 14.6+-0.2MEV(H.VONACH ET   20670001   53
+            AL.,Z.PHYS.237(1970)155)TAKEN,TO DETERMINE THE        20670001   54
+            MAGNITUDE OF THE INCIDENT FLUX.                       20670001   55
+             2.0PC FOR THE AMOUNT OF SELFABSORPTION IN 199PT,     20670001   56
+             UP TO 5.0 PC FOR THE LITERATURE DECAY CONSTANTS.     20670001   57
+           .FOR THE CORRECTIONS OF LOW ENERGY NEUTRONS-           20670001   58
+             70.0PC FOR 198PT,                                    20670001   59
+             14.0PC FOR THE OTHERS.                               20670001   60
+COMMENT    .FOR TEST PURPOSES SEVERAL WELL-KNOWN (N,2N),          20670001   61
+            (N,ALPHA),(N,P) CROSS SECTIONS WERE DETERMINED FROM   20670001   62
+            THE SAME GAMMA-RAY SPECTRA.AGREEMENT WITH THE KNOWN   20670001   63
+            VALUES WAS FOUND IN ALL CASES.                        20670001   64
+STATUS     .DATA TAKEN FROM NP/A 264.                             20670001   65
+HISTORY    (761011C)                                              20670001   66
+           (770504E)                                              20670001   67
+CORRECTION .FOR SELF-ABSORPTION OF GAMMA-RAYS IN THE SAMPLES.     20670001   68
+           .(BETWEEN 1 AND 8.2 PC).                               20670001   69
+           .FOR GAMMA-PILE-UP IN THE DETECTORS DURING PULSE       20670001   70
+            RISE.                                                 20670001   71
+           .FOR COINCIDENT GAMMA-PULSES DUE TO CASCADE GAMMA-     20670001   72
+            RAYS.                                                 20670001   73
+           .FOR LOW ENERGY NEUTRONS-                              20670001   74
+           .SCATTERED FROM THE WALLS OF THE ACCELERATOR ROOM-     20670001   75
+             6.8+-0.9X10E-6 PC/CM2 OF THE INCIDENT FLUX FOR       20670001   76
+             THERMAL,1.6+-0.2X10E-6 PC/CM2 FOR EPITHERMAL         20670001   77
+             NEUTRONS(DETERMINATION WITH GOLD FOILS AND CADMIUM-  20670001   78
+             ABSORBERS).                                          20670001   79
+             1.9+-0.4X10E-4 PC/CM2 FOR 6-14 MEV AND 1.3+-0.3      20670001   80
+             X10E-4 PC/CM2 FOR 10-14 MEV NEUTRONS(DETERMINATION   20670001   81
+             BY THRESHOLD REACTIONS).                             20670001   82
+           .SCATTERED IN TARGET HOLDER-1.22X10E-2,RELATIVE TO THE 20670001   83
+             MAGNITUDE OF THE INCIDENT FLUX.                      20670001   84
+           .SECONDARY NEUTRONS, PRODUCED IN THE SOURCE-TARGET-    20670001   85
+             BETWEEN 1.5 AND 36.0 PC RELATIVE TO THE MEASURED     20670001   86
+             ACTIVITY.                                            20670001   87
+           .SECONDARY NEUTRONS, PRODUCED IN THE SAMPLES- BETWEEN  20670001   88
+             0.4 AND 30.0 PC.                                     20670001   89
+ERR-ANALYS .FOR THE INCIDENT FLUX-                                20670001   90
+             1.2PC UNCERTAINTY FOR THE STANDARD,                  20670001   91
+             1.5PC FOR THE EFFICIENCY OF THE NAI(TL) CRYSTAL,     20670001   92
+             1.0PC STATISTICAL ERROR FOR COUNTING THE 24NA-       20670001   93
+              ACTIVITY,                                           20670001   94
+             BETWEEN 1 AND 3 PC FOR THE SPATIAL FLUX              20670001   95
+              DISTRIBUTION IN THE SAMPLES.                        20670001   96
+           .FOR THE ACTIVITY MEASUREMENT-                         20670001   97
+             5.0PC FOR THE EFFICIENCY OF THE GELI-DETECTORS,      20670001   98
+ENDBIB              96                                            20670001   99
+COMMON               2          3                                 20670001  100
+EN         EN-ERR                                                 20670001  101
+MEV        MEV                                                    20670001  102
+ 1.4600E+01 2.0000E-01                                            20670001  103
+ENDCOMMON            3                                            20670001  104
+ENDSUBENT          103                                            2067000199999
+SUBENT        20670018     840127                                 20670018    1
+BIB                  3          6                                 20670018    2
+REACTION   (79-AU-197(N,G)79-AU-198-G,,SIG)                       20670018    3
+HALF-LIFE  (HL,79-AU-198-G)                                       20670018    4
+           .HALFLIFE TAKEN FROM NUCL.DATA SHEETS 5-2-48 (1962)    20670018    5
+            BY AUTHOR.                                            20670018    6
+HISTORY    (761011C)                                              20670018    7
+           (770504E)                                              20670018    8
+ENDBIB               6                                            20670018    9
+NOCOMMON             0          0                                 20670018   10
+DATA                 3          1                                 20670018   11
+DATA       DATA-ERR   HL                                          20670018   12
+MB         MB         D                                           20670018   13
+ 2.1000E+00 1.2000E+00 2.6980E+00                                 20670018   14
+ENDDATA              3                                            20670018   15
+ENDSUBENT           14                                            2067001899999
+ENDENTRY             2                                            2067099999999
+ENTRY            21003     800107                                 21003000    1
+SUBENT        21003001     800107                                 21003001    1
+BIB                 14         37                                 21003001    2
+INSTITUTE  (2GERPTB)                                              21003001    3
+REFERENCE  (P,NEANDC(E)-192,5,84,7804)                            21003001    4
+           (R,IAEA-208,2,227,78)                                  21003001    5
+           (J,NSE,69,2,333,7902) DATA.                            21003001    6
+           (P,NEANDC(E)-182,5,84,7704)                            21003001    7
+AUTHOR     (W.MANNHART,W.G.ALBERTS)                               21003001    8
+TITLE      -MEASUREMENT AND CALCULATION OF AVERAGE                21003001    9
+            ACTIVATION CROSS SECTIONS IN THE SPONTANEOUS          21003001   10
+            FISSION NEUTRON FIELD OF 252-CF-                      21003001   11
+FACILITY   .OUTDOOR IRRADIATION FACILITY OF PTB.                  21003001   12
+INC-SOURCE (CF252) TWO SINGLE SOURCES OF 300MICROG OF             21003001   13
+            CF-252 EACH IN A CERAMIC TABLET, DOUBLY               21003001   14
+            ENCAPSULATED BY ZIRCALOY CYLINDERS 10MM DIAM.         21003001   15
+            BY 10MM HIGH WITH A WALL THICKNESS OF 1.5MM.          21003001   16
+INC-SPECT  .CF-252 NEUTRON FIELD WITH TOTAL SOURCE STRENGTH       21003001   17
+            OF 1.33 BY 10+9 NEUTRONS PER SEC., GIVING AN          21003001   18
+            INTEGRATED FLUX IN 4PI OVER THE SAMPLES OF            21003001   19
+            10+13 TO 10+15 NEUTRONS.                              21003001   20
+METHOD     (ACTIV)                                                21003001   21
+DETECTOR   (GELI ) 70CM+3.                                        21003001   22
+COMMENT    .COMPARISON WITH OTHER AUTHORS AND CALCULATIONS        21003001   23
+            CARRIED OUT (COMPILER).                               21003001   24
+STATUS     .DATA TAKEN FROM NSE.                                  21003001   25
+HISTORY    (790712C) WWO.                                         21003001   26
+           (790827E)                                              21003001   27
+CORRECTION .FOR -                                                 21003001   28
+            COUNTING LOSSES DUE TO DEAD TIME AND PILE-UP-         21003001   29
+                0.5 - 4.5 PC,                                     21003001   30
+            TRUE COINCIDENCES - 1-3PC,                            21003001   31
+            GAMMA ATTENUATION - 1-2PC.                            21003001   32
+ERR-ANALYS .QUOTED UNCERTAINTIES CORRESPOND TO A CONFIDENCE       21003001   33
+            LEVEL OF 68PC. INDIVIDUAL CONTRIBUTIONS WERE          21003001   34
+            COMBINED QUADRATICALLY -                              21003001   35
+            0.3 TO 0.7 FOR COUNTING STATISTICS,                   21003001   36
+            1PC FOR PHOTOPEAK EFFICIENCY CALIBRATION,             21003001   37
+            1.2PC FOR EFFECTIVE NEUTRON PATH LENGTH,              21003001   38
+            AND 1.7PC FOR SOURCE STRENGTH DETERMINATION.          21003001   39
+ENDBIB              37                                            21003001   40
+COMMON               1          3                                 21003001   41
+EN-DUMMY                                                          21003001   42
+MEV                                                               21003001   43
+ 1.0000E+00                                                       21003001   44
+ENDCOMMON            3                                            21003001   45
+ENDSUBENT           44                                            2100300199999
+SUBENT        21003005     800107                                 21003005    1
+BIB                  4          8                                 21003005    2
+REACTION   (79-AU-197(N,G)79-AU-198-G,,SIG,,FIS)                  21003005    3
+SAMPLE     .HIGH PURITY METALLIC FOIL, 50MICROM THICK AS          21003005    4
+            A HOLLOW CYLINDER, 12.5MM DIAM. BY 22.5MM HEIGHT,     21003005    5
+            ENCLOSING THE SOURCE.                                 21003005    6
+DECAY-DATA (79-AU-198-G,2.6965D,DG)                               21003005    7
+           .TAKEN FROM M.J.MARTIN ET AL.,NUCL.DATA TABL.,A8,      21003005    8
+            1(1970) BY THE AUTHOR.                                21003005    9
+STATUS     .DATA TAKEN FROM NSE.                                  21003005   10
+ENDBIB               8                                            21003005   11
+NOCOMMON             0          0                                 21003005   12
+DATA                 2          1                                 21003005   13
+DATA       DATA-ERR                                               21003005   14
+MB         MB                                                     21003005   15
+ 7.6200E+01 1.8000E+00                                            21003005   16
+ENDDATA              3                                            21003005   17
+ENDSUBENT           16                                            2100300599999
+ENDENTRY             2                                            2100399999999
+ENTRY            21004     861015                                 21004000    1
+SUBENT        21004001     861015                                 21004001    1
+BIB                 12         35                                 21004001    2
+INSTITUTE  (2SWDLND) INSTITUTE OF PHYSICS.                        21004001    3
+REFERENCE  (J,PS,21,(1),21,8001) MAIN REFERENCE.                  21004001    4
+           (P,KDK-32,12,7904)                                     21004001    5
+           (R,LUNF-D6-3032,7904)                                  21004001    6
+           (P,KDK-23,13,7804)                                     21004001    7
+           (P,EANDC(OR)-115L,7207)                                21004001    8
+           (J,NKA,23,175,7802) DATA.                              21004001    9
+AUTHOR     (G.MAGNUSSON,P.ANDERSSON,I.BERQUIST)                   21004001   10
+TITLE      -14.7 MEV NEUTRON CAPTURE CROSS SECTION MEASUREMENTS   21004001   11
+            WITH ACTIVATION TECHNIQUE-                            21004001   12
+FACILITY   (VDG  ) A 500 KEV VAN DE GRAAFF ACCELERATOR.           21004001   13
+INC-SOURCE (D-T  ) THE H-3(D,N)HE-4 REACTION USING A TRITIATED    21004001   14
+            TITANIUM TARGET ON ALUMINUM BACKING.                  21004001   15
+METHOD     (ACTIV) ACTIVATION.                                    21004001   16
+DETECTOR   (GELI ) A EFFICIENCY CALIBRATED GE(LI) DETECTOR.       21004001   17
+           (LONGC) A LONG COUNTER TO MONITOR THE NEUTRON FLUX.    21004001   18
+STATUS     .DATA TAKEN FROM MAIN REFERENCE.                       21004001   19
+HISTORY    (790713C) WWO.                                         21004001   20
+           (790827E)                                              21004001   21
+           (800213A) UPDATED WITH NEW MAIN REFERENCE.             21004001   22
+           (800303E)                                              21004001   23
+CORRECTION .FOR -                                                 21004001   24
+            GAMMA-RAY ATTENUATION IN THE SAMPLE(LESS THAN 10 PC), 21004001   25
+            CASCADE SUMMING EFFECTS (ABOUT 20 PC FOR NA, Y AND W, 21004001   26
+             AND ABOUT A FEW PERCENT FOR THE OTHER ELEMENTS),     21004001   27
+            SECONDARY NEUTRONS,                                   21004001   28
+            ROOM-SCATTERED NEUTRONS AND                           21004001   29
+            SAMPLE THICKNESS.                                     21004001   30
+ERR-ANALYS .THE FOLLOWING UNCERTAINTIES HAVE BEEN TAKEN INTO      21004001   31
+            ACCOUNT,                                              21004001   32
+            - STATISTICS,                                         21004001   33
+            - DETERMINATION OF THE GE(LI) DETECTOR EFFICIENCY,    21004001   34
+            - MONITOR CROSS-SECTION,                              21004001   35
+            - ACTIVITY BUILD-UP,                                  21004001   36
+            - DECAY FACTOR.                                       21004001   37
+ENDBIB              35                                            21004001   38
+COMMON               2          3                                 21004001   39
+EN         EN-RSL                                                 21004001   40
+MEV        MEV                                                    21004001   41
+ 1.4700E+01 3.0000E-01                                            21004001   42
+ENDCOMMON            3                                            21004001   43
+ENDSUBENT           42                                            2100400199999
+SUBENT        21004005     801105                                 21004005    1
+BIB                  7         10                                 21004005    2
+REACTION   (79-AU-197(N,G)79-AU-198-G,,SIG)                       21004005    3
+SAMPLE     .METALLIC AU DISK, PURITY 99.97 PERCENT, ABUNDANCE     21004005    4
+            100 PERCENT.                                          21004005    5
+DECAY-DATA (79-AU-198-G,2.696D,DG,411.8,0.955)                    21004005    6
+MONITOR    (79-AU-197(N,2N)79-AU-196-G,,SIG) THE CROSS SECTION    21004005    7
+            MEASURED BY AUTHOR RELATIVE TO THE AL-27(N,A) REAC-   21004005    8
+            TION.                                                 21004005    9
+DECAY-MON  (79-AU-196-G,6.18D,DG,426.0,0.067)                     21004005   10
+STATUS     .TABLE 2 IN MAIN REF.                                  21004005   11
+HISTORY    (800213A)                                              21004005   12
+ENDBIB              10                                            21004005   13
+COMMON               2          3                                 21004005   14
+MONIT      MONIT-ERR                                              21004005   15
+B          B                                                      21004005   16
+ 2.2300E+00 1.5000E-01                                            21004005   17
+ENDCOMMON            3                                            21004005   18
+DATA                 2          1                                 21004005   19
+DATA       DATA-ERR                                               21004005   20
+MB         MB                                                     21004005   21
+ 1.0900E+00 2.3000E-01                                            21004005   22
+ENDDATA              3                                            21004005   23
+ENDSUBENT           22                                            2100400599999
+ENDENTRY             2                                            2100499999999
+ENTRY            21188     800110                                 21188000    1
+SUBENT        21188001     800110                                 21188001    1
+BIB                 15         47                                 21188001    2
+INSTITUTE  (2UK ALD)                                              21188001    3
+REFERENCE  (J,JNE,18,491,6409)                                    21188001    4
+AUTHOR     (J.F.BARRY)                                            21188001    5
+TITLE      -THE RADIATIVE CAPTURE CROSS SECTION OF AU-197 FOR     21188001    6
+            NEUTRONS IN THE ENERGY RANGE 0.12-1.8 MEV-            21188001    7
+FACILITY   (VDG  ) VAN DE GRAAFF.                                 21188001    8
+INC-SOURCE (P-LI7) 0.12-0.6 MEV NEUTRONS.                         21188001    9
+           (P-T  ) 0.6-1.8 MEV NEUTRONS.                          21188001   10
+SAMPLE     .GOLD DISCS, 0.005 CM THICK BY 2.3 CM DIAMETER, OF     21188001   11
+            CHEMICAL PURITY GREATER THAN 99.9 PERCENT.            21188001   12
+           .SAMPLES SUBTENDED +-15 DEGREES AT THE NEUTRON SOURCE. 21188001   13
+METHOD     (ACTIV) ACTIVATION.                                    21188001   14
+DETECTOR   (NAICR) 7.6 CM X 7.6 CM SODIUM IODIDE CRYSTAL WITH     21188001   15
+                   3.2 CM DEEP BY 2.5 CM DIAMETER WELL TO COUNT   21188001   16
+                   GAMMA ACTIVITY OF SAMPLE.                      21188001   17
+           (COIN,NAICR,SCIN) BETA-GAMMA COINCIDENCE COUNTER USING 21188001   18
+                   NAI CRYSTAL FOR GAMMA DETECTION AND PLASTIC    21188001   19
+                   SCINTILLATOR FOR BETA DETECTION TO CALIBRATE   21188001   20
+                   THE EFFICIENCY OF THE GAMMA COUNTER.           21188001   21
+           (PROPC) 4-PI BETA COUNTER ALSO USED TO CALIBRATE THE   21188001   22
+                   GAMMA COUNTER.                                 21188001   23
+           (FISCH) PAIR OF FISSION CHAMBERS ON EITHER SIDE OF THE 21188001   24
+                   SAMPLE TO MEASURE THE RELATIVE NEUTRON FLUX.   21188001   25
+                   FISSION CHAMBERS CALIBRATED AGAINST HYDROGEN   21188001   26
+                   PROPORTIONAL COUNTER.                          21188001   27
+DECAY-DATA (79-AU-198,2.7D,DG,411.,,B-,960.,0.986)                21188001   28
+MONITOR    (1-H-1(N,EL)1-H-1,,SIG) CROSS-SECTION RELATED TO       21188001   29
+                   SCATTERING CROSS-SECTION OF HYDROGEN CONTAINED 21188001   30
+                   IN PROPORTIONAL COUNTER.                       21188001   31
+STATUS     (NDD  ) FROM NEUDADA.                                  21188001   32
+HISTORY    (791121T)                                              21188001   33
+           (800110E)                                              21188001   34
+CORRECTION .BACKGROUND DUE TO SCATTERED NEUTRONS CALCULATED AS-   21188001   35
+            1. SCATTERING IN THE MATERIALS OF THE FISSION         21188001   36
+               COUNTER NEGLIGIBLE UP TO 850 KEV, 1.6+-1 PERCENT   21188001   37
+               AT 1 MEV, 2.7+-1.5 PERCENT AT 1.8 MEV.             21188001   38
+            2. SCATTERING IN MATERIALS OF THE NEUTRON TARGET      21188001   39
+               SIGNIFICANT ABOVE 0.75 MEV AND 1+-0.5 PERCENT      21188001   40
+               AT 1.8 MEV.                                        21188001   41
+            3. OTHER BACKGROUND NEUTRONS GAVE CORRECTION OF       21188001   42
+               0.4+-0.4 PERCENT AT 127 KEV, 0.9+-0.9 PERCENT      21188001   43
+               AT 1.8 MEV.                                        21188001   44
+ERR-ANALYS .MAIN CONTRIBUTIONS TO ERRORS ARE FROM-                21188001   45
+            FISSION COUNTER CALIBRATION............... 2 PERCENT. 21188001   46
+            GAMMA COUNTER CALIBRATION................. 2 PERCENT. 21188001   47
+            NEUTRON BACKGROUNDS..................... 0-2 PERCENT. 21188001   48
+            COUNTING STATISTICS..................... 1-2 PERCENT. 21188001   49
+ENDBIB              47                                            21188001   50
+NOCOMMON             0          0                                 21188001   51
+ENDSUBENT           50                                            2118800199999
+SUBENT        21188002     800110                                 21188002    1
+BIB                  2          2                                 21188002    2
+REACTION   (79-AU-197(N,G)79-AU-198-G,,SIG)                       21188002    3
+STATUS     .TABLE 1 OF THE PUBLICATION.                           21188002    4
+ENDBIB               2                                            21188002    5
+NOCOMMON             0          0                                 21188002    6
+DATA                 5         13                                 21188002    7
+EN         EN-RSL     MONIT      DATA       DATA-ERR              21188002    8
+MEV        MEV        B          MB         MB                    21188002    9
+ 1.2700E-01 1.8000E-02 1.1730E+01 3.2100E+02 1.6000E+01           21188002   10
+ 1.6200E-01 2.2000E-02 1.0620E+01 3.2100E+02 1.6000E+01           21188002   11
+ 2.0900E-01 2.1000E-02 9.5100E+00 2.9000E+02 1.4000E+01           21188002   12
+ 3.1400E-01 2.0000E-02 7.8600E+00 2.3200E+02 1.2000E+01           21188002   13
+ 4.0600E-01 2.0000E-02 6.8300E+00 1.8800E+02 1.0000E+01           21188002   14
+ 5.0700E-01 2.0000E-02 6.1200E+00 1.6100E+02 7.0000E+00           21188002   15
+ 6.0000E-01 2.0000E-02            1.2700E+02 6.0000E+00           21188002   16
+ 7.4600E-01 5.9000E-02            1.1200E+02 6.0000E+00           21188002   17
+ 1.0000E+00 5.0000E-02 4.2600E+00                                 21188002   18
+ 1.0140E+00 5.4000E-02            9.9000E+01 5.0000E+00           21188002   19
+ 1.3080E+00 5.2000E-02            9.3000E+01 5.0000E+00           21188002   20
+ 1.7890E+00 1.0000E-01            7.7000E+01 4.0000E+00           21188002   21
+ 2.2500E+00 5.0000E-02 2.7100E+00                                 21188002   22
+ENDDATA             15                                            21188002   23
+ENDSUBENT           22                                            2118800299999
+ENDENTRY             2                                            2118899999999
+ENTRY            21193     811030                                 21193000    1
+SUBENT        21193001     811030                                 21193001    1
+BIB                 11         37                                 21193001    2
+INSTITUTE  (2GERKFK)                                              21193001    3
+           (2GERKRU)                                              21193001    4
+REFERENCE  (J,JNE,20,825,6610)                                    21193001    5
+           (C,66PARIS,1,277,6610)                                 21193001    6
+           (R,EANDC-33,164,6309) FULL PAPER OF 66PARIS.           21193001    7
+           (R,EANDC-33,87,6309) SEE ALSO.                         21193001    8
+           (R,KFK-454,6610) REPRINT OF 66PARIS.                   21193001    9
+           (R,KFK-505,6610) ABST.                                 21193001   10
+           (P,EANDC(E)-66U,,6602) ABST.                           21193001   11
+AUTHOR     (W.POENITZ)                                            21193001   12
+TITLE      -THE (N,G) CROSS-SECTION OF AU-197 AT 30 AND 64 KEV    21193001   13
+            NEUTRON ENERGY-                                       21193001   14
+FACILITY   (VDG  ) 3 MEV VAN DE GRAAFF.                           21193001   15
+INC-SOURCE (P-LI7) PROTONS ON LI-F TARGET EVAPORATED ON A 0.06 CM 21193001   16
+                   THICK CU BACKING FOR NEUTRON ENERGY OF 30 KEV. 21193001   17
+           (P-T  ) FOR NEUTRON ENERGY OF 64 KEV.                  21193001   18
+                   PROTON BEAM CURRENT 150 MICRO-AMPS.            21193001   19
+           .PROTON ENERGY SET JUST ABOVE THE THRESHOLD OF EACH    21193001   20
+            REACTION TO PRODUCE KINEMATICALLY COLLIMATED          21193001   21
+            NEUTRONS.                                             21193001   22
+SAMPLE     .1.8 CM DIAMETER GOLD FOIL.                            21193001   23
+METHOD     (ACTIV) ACTIVATION.                                    21193001   24
+                   FLUX MEASURED EITHER BY ACTIVATION IN TARGET   21193001   25
+                   DUE TO BE-7 OR BY-                             21193001   26
+           (MANGB) MANGANESE BATH METHOD.                         21193001   27
+DETECTOR   (NAICR) NAI(TL) CRYSTAL TO MEASURE GAMMA ACTIVITY OF   21193001   28
+                   THE SAMPLE, GAMMA ACTIVITY OF THE TARGET, AND  21193001   29
+                   ACTIVITY OF A WELL DEFINED AMOUNT OF MN-SO4    21193001   30
+                   SOLUTION IN THE MANGANESE BATH.                21193001   31
+STATUS     (NDD  ) FROM NEUDADA.                                  21193001   32
+HISTORY    (791126T)                                              21193001   33
+           (800110E)                                              21193001   34
+           (800331A) NAME CORRECTED, DATA SET ADDED FROM PARIS    21193001   35
+            CONFERENCE.                                           21193001   36
+           (800429E)                                              21193001   37
+           (810508A) ERR-ANALYS CORRECTED.                        21193001   38
+           (810722E)                                              21193001   39
+ENDBIB              37                                            21193001   40
+NOCOMMON             0          0                                 21193001   41
+ENDSUBENT           40                                            2119300199999
+SUBENT        21193002     810722                                 21193002    1
+BIB                  6         19                                 21193002    2
+REACTION   (79-AU-197(N,G)79-AU-198-G,,SIG)                       21193002    3
+           .CROSS-SECTION MEASURED USING ACTIVATION METHOD FOR    21193002    4
+            FLUX MONITOR.                                         21193002    5
+DECAY-DATA (79-AU-198,2.97D,DG,411.,)                             21193002    6
+COMMENT    .CROSS-SECTION IS AVERAGE OF TWO MEASUREMENTS.         21193002    7
+STATUS     .DATA FROM TEXT OF PUBLICATION.                        21193002    8
+HISTORY    (791126T)                                              21193002    9
+           (800110E)                                              21193002   10
+           (810508A)                                              21193002   11
+           (810722E)                                              21193002   12
+ERR-ANALYS (ERR-S) STATISTICAL ERROR,                             21193002   13
+           (ERR-1) DECAY DATA UNCERTAINTY,                        21193002   14
+           (ERR-2) SHIELDING AND ABSORBTION UNCERTAINTIES IN THE  21193002   15
+            SAMPLE,                                               21193002   16
+           (ERR-3) UNCERTAINTY IN LOSS OF NEUTRONS IN THE         21193002   17
+            TARGET,                                               21193002   18
+           (ERR-T) TOTAL UNCERTAINTY,                             21193002   19
+           .COMPREHENSIVE BREAKDOWN OF ERRORS IN TABLE 1C OF THE  21193002   20
+            PUBLICATION.                                          21193002   21
+ENDBIB              19                                            21193002   22
+NOCOMMON             0          0                                 21193002   23
+DATA                 7          1                                 21193002   24
+EN         DATA       ERR-S      ERR-1      ERR-2      ERR-3      21193002   25
+ERR-T                                                             21193002   26
+KEV        B          PER-CENT   PER-CENT   PER-CENT   PER-CENT   21193002   27
+PER-CENT                                                          21193002   28
+ 3.0000E+01 5.9300E-01 6.0000E-01 1.7000E+00 1.1000E+00 3.0000E-0121193002   29
+ 2.1000E+00                                                       21193002   30
+ENDDATA              6                                            21193002   31
+ENDSUBENT           30                                            2119300299999
+SUBENT        21193003     810722                                 21193003    1
+BIB                  5         16                                 21193003    2
+REACTION   (79-AU-197(N,G)79-AU-198-G,,SIG)                       21193003    3
+           .CROSS-SECTION MEASURED USING THE MANGANESE BATH       21193003    4
+            METHOD TO MONITOR THE FLUX.                           21193003    5
+DECAY-DATA (79-AU-198,2.69D,DG,411.,)                             21193003    6
+STATUS     .DATA FROM TEXT OF PUBLICATION.                        21193003    7
+HISTORY    (791126T)                                              21193003    8
+           (800110E)                                              21193003    9
+           (810508A)                                              21193003   10
+           (810722E)                                              21193003   11
+ERR-ANALYS (ERR-S) STATISTICAL UNCERTAINTY,                       21193003   12
+           (ERR-1) DETECTOR EFFICIENCY UNCERTAINTY,               21193003   13
+           (ERR-2) SAMPLE SELF-SHIELDING UNCERTAINTY,             21193003   14
+           (ERR-3) NEUTRON LOSS UNCERTAINTY,                      21193003   15
+           (ERR-T) TOTAL UNCERTAINTY.                             21193003   16
+           .COMPREHENSIVE BREAKDOWN OF ERRORS IN TABLE 2C OF THE  21193003   17
+            PUBLICATION.                                          21193003   18
+ENDBIB              16                                            21193003   19
+COMMON               4          3                                 21193003   20
+ERR-S      ERR-1      ERR-2      ERR-3                            21193003   21
+PER-CENT   PER-CENT   PER-CENT   PER-CENT                         21193003   22
+ 6.0000E-01 1.2000E+00 5.0000E-01 1.7000E+00                      21193003   23
+ENDCOMMON            3                                            21193003   24
+DATA                 3          2                                 21193003   25
+EN         DATA       ERR-T                                       21193003   26
+KEV        B          B                                           21193003   27
+ 3.0000E+01 6.0400E-01 1.1000E-02                                 21193003   28
+ 6.4000E+01 3.6000E-01 8.0000E-03                                 21193003   29
+ENDDATA              4                                            21193003   30
+ENDSUBENT           29                                            2119300399999
+SUBENT        21193004     800110                                 21193004    1
+BIB                  3          5                                 21193004    2
+REACTION   (79-AU-197(N,G)79-AU-198-G,,SIG,,REL)                  21193004    3
+ANALYSIS   .RATIO OF CROSS-SECTION AT 30 KEV TO THAT AT 64 KEV    21193004    4
+            FROM MEASUREMENTS MADE USING MANGANESE BATH FOR FLUX  21193004    5
+            MEASUREMENT.                                          21193004    6
+STATUS     .DATA FROM TABLE 3 OF THE PUBLICATION.                 21193004    7
+ENDBIB               5                                            21193004    8
+NOCOMMON             0          0                                 21193004    9
+DATA                 1          1                                 21193004   10
+DATA                                                              21193004   11
+ARB-UNITS                                                         21193004   12
+ 1.6760E+00                                                       21193004   13
+ENDDATA              3                                            21193004   14
+ENDSUBENT           13                                            2119300499999
+SUBENT        21193005     810722                                 21193005    1
+BIB                  4         15                                 21193005    2
+REACTION   (79-AU-197(N,G)79-AU-198-G,,SIG) 30 KEV VALUE.         21193005    3
+           .AVERAGE VALUE OF CROSS-SECTION MEASURED USING         21193005    4
+            ACTIVATION AND MANGANESE BATH TO MEASURE THE FLUX.    21193005    5
+STATUS     .DATA FROM TEXT OF PUBLICATION.                        21193005    6
+HISTORY    (791126T)                                              21193005    7
+           (800110E)                                              21193005    8
+           (810508A)                                              21193005    9
+           (810722E)                                              21193005   10
+ERR-ANALYS (ERR-1) CALCULATED ASSUMING THAT THE DIFFERENCE        21193005   11
+                       BETWEEN THE RESULTS OF THE MANGANESE BATH  21193005   12
+                       METHOD AND THE ACTIVATION METHOD OF FLUX   21193005   13
+                       MEASUREMENT ARE DUE TO SYSTEMATIC ERRORS.  21193005   14
+           (ERR-S) CALCULATED ASSUMING THAT THE DIFFERENCE        21193005   15
+                       BETWEEN THESE TWO METHODS ARE DUE TO       21193005   16
+                       RANDOM ERRORS.                             21193005   17
+ENDBIB              15                                            21193005   18
+NOCOMMON             0          0                                 21193005   19
+DATA                 4          1                                 21193005   20
+EN         DATA       ERR-1      ERR-S                            21193005   21
+KEV        B          B          B                                21193005   22
+ 3.0000E+01 6.0000E-01 1.2000E-02 9.0000E-03                      21193005   23
+ENDDATA              3                                            21193005   24
+ENDSUBENT           23                                            2119300599999
+SUBENT        21193006     811030                                 21193006    1
+BIB                  6         22                                 21193006    2
+REACTION   (79-AU-197(N,G)79-AU-198-G,,SIG)                       21193006    3
+ANALYSIS   .DATA DERIVED FROM AVERAGE CROSS-SECTION AT 30 KEV OF  21193006    4
+            MANGANESE BATH AND ACTIVATION FLUX MEASUREMENTS USING 21193006    5
+            THE AVERAGE RATIO BETWEEN THIS AND THE 64 KEV CROSS-  21193006    6
+            SECTION FROM PRESENT AND PREVIOUS MEASUREMENTS.       21193006    7
+ASSUMED    (ASSUM,79-AU-197(N,G)79-AU-198-G,,SIG,,REL) CROSS-     21193006    8
+            SECTION AT 30 KEV RELATIVE TO THAT AT 64 KEV TAKEN AS 21193006    9
+            MEAN OF VALUE FROM THIS WORK AND TWO PREVIOUS WORKS.  21193006   10
+STATUS     .DATA FROM TEXT OF PUBLICATION.                        21193006   11
+           (DEP,21193003)                                         21193006   12
+           (DEP,21193005)                                         21193006   13
+HISTORY    (791126T)                                              21193006   14
+           (800110E)                                              21193006   15
+           (810508A)                                              21193006   16
+           (810722E)                                              21193006   17
+ERR-ANALYS (ERR-1) CALCULATED ASSUMING THAT THE DIFFERENCE        21193006   18
+                       BETWEEN THE RESULTS OF THE MANGANESE BATH  21193006   19
+                       METHOD AND THE ACTIVATION METHOD OF FLUX   21193006   20
+                       MEASUREMENT ARE DUE TO SYSTEMATIC ERRORS.  21193006   21
+           (ERR-S) CALCULATED ASSUMING THAT THE DIFFERENCE        21193006   22
+                       BETWEEN THESE TWO METHODS ARE DUE TO       21193006   23
+                       RANDOM ERRORS.                             21193006   24
+ENDBIB              22                                            21193006   25
+COMMON               1          3                                 21193006   26
+ASSUM                                                             21193006   27
+ARB-UNITS                                                         21193006   28
+ 1.6790E+00                                                       21193006   29
+ENDCOMMON            3                                            21193006   30
+DATA                 4          1                                 21193006   31
+EN         DATA       ERR-1      ERR-S                            21193006   32
+KEV        B          B          B                                21193006   33
+ 6.4000E+01 3.5700E-01 1.4000E-02 9.0000E-03                      21193006   34
+ENDDATA              3                                            21193006   35
+ENDSUBENT           34                                            2119300699999
+SUBENT        21193007     800429                                 21193007    1
+BIB                  4         10                                 21193007    2
+REACTION   (79-AU-197(N,G)79-AU-198-G,,SIG)                       21193007    3
+COMMENT    .INDEPENDENT MEASUREMENT DONE WITH THE SAME EXPERI-    21193007    4
+            MENTAL METHOD AS THE ONE OF SUBENTRY 00002, BUT WITH  21193007    5
+            A BETTER GEOMETRIC ARRANGEMENT OF THE TARGET AND THE  21193007    6
+            MANGANESE BATH, RESULTING IN A SMALLER LOSS OF        21193007    7
+            NEUTRONS DUE TO LEAKAGE AT THE EDGE OF THE MANGANESE  21193007    8
+            BATH.                                                 21193007    9
+STATUS     (NDD  ) DATA TAKEN FROM NEUDADA.                       21193007   10
+HISTORY    (800331A) G.C. ADDED DATA SET FROM PARIS CONFERENCE.   21193007   11
+           (800429E)                                              21193007   12
+ENDBIB              10                                            21193007   13
+NOCOMMON             0          0                                 21193007   14
+DATA                 3          1                                 21193007   15
+EN         DATA       DATA-ERR                                    21193007   16
+KEV        B          B                                           21193007   17
+ 3.0000E+01 5.9800E-01 1.2000E-02                                 21193007   18
+ENDDATA              3                                            21193007   19
+ENDSUBENT           18                                            2119300799999
+ENDENTRY             7                                            2119399999999
+ENTRY            21199     810722                                 21199000    1
+SUBENT        21199001     810722                                 21199001    1
+BIB                 14         53                                 21199001    2
+INSTITUTE  (2UK NPL)                                              21199001    3
+REFERENCE  (J,JNE,23,205,6904)                                    21199001    4
+AUTHOR     (J.C.ROBERTSON,T.B.RYVES,E.J.AXTON,I.GOODIER,          21199001    5
+            A.WILLIAMS)                                           21199001    6
+TITLE      -A MEASUREMENT OF THE RADIATIVE CAPTURE CROSS SECTION  21199001    7
+            OF GOLD AT AN ENERGY OF 966 KEV-                      21199001    8
+FACILITY   .NONE.                                                 21199001    9
+INC-SOURCE (PHOTO) NA-BE PHOTONEUTRON SOURCE CONSTRUCTED AT AWRE. 21199001   10
+                   SOURCE CONSISTED OF 2 CM DIAMETER SPHERE OF    21199001   11
+                   NA-F WITH A 3 CM THICK CLOSELY FITTING SHELL   21199001   12
+                   OF BERYLLIUM.                                  21199001   13
+SAMPLE     .MATCHED PAIRS OF THIN HEMISPHERICAL SHELLS WITH THIN  21199001   14
+            NICKEL BACKINGS FOR STRENGTH. SHELLS 3 AND 4 CM IN    21199001   15
+            RADIUS, GOLD 0.019 MM THICK, BACKINGS 0.05 CM THICK.  21199001   16
+METHOD     (ACTIV) ACTIVATION.                                    21199001   17
+DETECTOR   (PROPC) 4-PI BETA COUNTER, CALIBRATED BY IRRADIATING   21199001   18
+                   SAMPLE FOILS IN GLEEP REACTOR AND USING A      21199001   19
+                   4-PI BETA/GAMMA COINCIDENCE COUNTER.           21199001   20
+           (NAICR) TWO NAI(TL) WELL CRYSTALS TO COUNT DECAY       21199001   21
+                   GAMMAS. CALIBRATION USING GOLD SOLUTIONS       21199001   22
+                   STANDARDISED BY 4-PI BETA/GAMMA COUNTING.      21199001   23
+PART-DET   (B    ) BETAS.                                         21199001   24
+           (DG   ) DECAY GAMMAS.                                  21199001   25
+STATUS     (NDD  ) FROM NEUDADA.                                  21199001   26
+HISTORY    (791129T)                                              21199001   27
+           (800110E)                                              21199001   28
+           (810504A) ERR-ANALYS CHANGED.                          21199001   29
+           (810722E)                                              21199001   30
+CORRECTION .CORRECTION FACTOR TO ALLOW FOR THE FACT THAT THE      21199001   31
+            NEUTRONS ARE NOT MONOENERGETIC AND DO NOT PASS        21199001   32
+            THROUGH THE GOLD SHELLS NORMALLY CALCULATED BY MONTE- 21199001   33
+            CARLO METHOD. CORRECTION FACTOR 1.028+-0.005 FOR THE  21199001   34
+            SMALLER SHELL, 1.025+-0.005 FOR THE LARGER.           21199001   35
+           .BACKGROUND DUE TO SCATTERING IN THE GOLD SHELLS AND   21199001   36
+            NICKEL BACKINGS, IN THE CADMIUM-GOLD LINED SHELL, AND 21199001   37
+            ROOM AND AIR SCATTERED BACKGROUNDS CORRECTED USING    21199001   38
+            THE METHODS OF RYVES+,J.NUCL.ENERGY,20,(1966),249.    21199001   39
+            CORRECTION 2.1+-0.5 PERCENT FOR THE 3 CM DIAMETER     21199001   40
+            SPHERE, 2.7+-0.5 PERCENT FOR THE 4 CM SPHERE.         21199001   41
+           .ALUMINIUM CAN SURROUNDING THE SAMPLE GAVE ADDITIONAL  21199001   42
+            ACTIVITY OF 0.2 AND 0.4 PERCENT FOR THE SMALLER AND   21199001   43
+            LARGER SHELLS RESPECTIVELY.                           21199001   44
+           .CORRECTION FOR RESONANCE SELF-SHIELDING NEGLIGIBLE.   21199001   45
+           .CORRECTION MADE FOR INELASTIC SCATTERING OF SOURCE    21199001   46
+            NEUTRONS FROM THE SOURCE STRUCTURE.                   21199001   47
+           .CORRECTION FOR COMPTON SCATTERING OF SOURCE GAMMAS    21199001   48
+            TO ENERGIES ABOVE THE BE PHOTO-THRESHOLD, YIELDING    21199001   49
+            NEUTRONS BELOW 966 KEV. CORRECTION 2.0+-0.5 PERCENT   21199001   50
+            FOR BOTH SPHERES.                                     21199001   51
+ERR-ANALYS (ERR-1) QUADRATIC ADDITION OF FOUR 0.5 PERCENT         21199001   52
+            SYSTEMATIC ERRORS TO GIVE TOTAL OF 1 PERCENT.         21199001   53
+           (ERR-S) RANDOM ERROR.                                  21199001   54
+           (ERR-T) TOTAL ERROR.                                   21199001   55
+ENDBIB              53                                            21199001   56
+NOCOMMON             0          0                                 21199001   57
+ENDSUBENT           56                                            2119900199999
+SUBENT        21199002     810722                                 21199002    1
+BIB                  3          9                                 21199002    2
+REACTION   (79-AU-197(N,G)79-AU-198-G,,SIG)                       21199002    3
+           .DATA IS THE MEAN OF 95.6 MB, OBTAINED WITH THE 4 CM   21199002    4
+            DIAMETER SPHERE, AND 96.8 MB, OBTAINED WITH THE 3 CM  21199002    5
+            DIAMETER SPHERE.                                      21199002    6
+STATUS     .TABLE 3 OF THE PUBLICATION.                           21199002    7
+HISTORY    (791129T)                                              21199002    8
+           (800110E)                                              21199002    9
+           (810504A)                                              21199002   10
+           (810722E)                                              21199002   11
+ENDBIB               9                                            21199002   12
+NOCOMMON             0          0                                 21199002   13
+DATA                 5          1                                 21199002   14
+EN         DATA       ERR-1      ERR-S      ERR-T                 21199002   15
+KEV        MB         MB         MB         MB                    21199002   16
+ 9.6600E+02 9.6200E+01 1.0000E+00 1.0000E+00 2.0000E+00           21199002   17
+ENDDATA              3                                            21199002   18
+ENDSUBENT           17                                            2119900299999
+ENDENTRY             2                                            2119999999999
+ENTRY            21206     800110                                 21206000    1
+SUBENT        21206001     800110                                 21206001    1
+BIB                 13         30                                 21206001    2
+INSTITUTE  (2UK HAR)                                              21206001    3
+REFERENCE  (J,JNE,10,19,5907)                                     21206001    4
+AUTHOR     (A.T.G.FERGUSON,E.B.PAUL)                              21206001    5
+TITLE      -THE CAPTURE CROSS SECTION OF AU-197 FOR FAST NEUTRONS 21206001    6
+FACILITY   .HARWELL ELECROSTATIC GENERATOR.                       21206001    7
+INC-SOURCE (P-LI7) PROTONS ON LI-F TARGET FOR 150 KEV AND 550     21206001    8
+                   KEV NEUTRONS.                                  21206001    9
+           (P-T  ) PROTONS ON TI-T TARGET FOR 1 MEV NEUTRONS.     21206001   10
+SAMPLE     .0.010 INCH THICK DISCS, 2 INCH IN DIAMETER SHEATHED   21206001   11
+            IN 0.015 INCH THICK CADMIUM TO ELIMINATE THERMAL      21206001   12
+            NEUTRONS. SAMPLE PLACED 3 INCH FROM THE TARGET AT     21206001   13
+            150 KEV, 6 INCH FROM THE TARGET AT 550 KEV AND 1 MEV. 21206001   14
+           .SECOND FOIL PLACED 30 INCH FROM THE TARGET AT 90      21206001   15
+            DEGREES TO MEASURE ACTIVATION BY LOW ENERGY           21206001   16
+            SCATTERING.                                           21206001   17
+METHOD     (ACTIV) ACTIVATION.                                    21206001   18
+DETECTOR   (NAICR) NAI CRYSTAL TO MEASURE ACTIVATION.             21206001   19
+           (LONGC) CALIBRATED LONG COUNTER TO MEASURE NEUTRON     21206001   20
+                   FLUX. COUNTER ORIGINALLY CALIBRATED RELATIVE   21206001   21
+                   TO A PROTON RECOIL COUNTER, RECALIBRATED WITH  21206001   22
+                   OXFORD STANDARD NEUTRON SOURCE (MARTIN+, AERE  21206001   23
+                   NP/R-1577). VARIATION OF EFFICIENCY WITH       21206001   24
+                   ENERGY KNOWN TO 3 PERCENT.                     21206001   25
+MONITOR    (1-H-1(N,EL)1-H-1,,SIG)                                21206001   26
+STATUS     (NDD  ) FROM NEUDADA.                                  21206001   27
+HISTORY    (791206T)                                              21206001   28
+           (800110E)                                              21206001   29
+ERR-ANALYS .COMBINATION OF STATISTICAL ERRORS AND UNCERTAINTIES   21206001   30
+            IN FLUX MEASUREMENT AND GAMMA EFFICIENCY CALIBRATION  21206001   31
+            OF DETECTORS.                                         21206001   32
+ENDBIB              30                                            21206001   33
+NOCOMMON             0          0                                 21206001   34
+ENDSUBENT           33                                            2120600199999
+SUBENT        21206002     800110                                 21206002    1
+BIB                  2          2                                 21206002    2
+REACTION   (79-AU-197(N,G)79-AU-198-G,,SIG)                       21206002    3
+STATUS     .DATA FROM TEXT OF PUBLICATION.                        21206002    4
+ENDBIB               2                                            21206002    5
+NOCOMMON             0          0                                 21206002    6
+DATA                 4          3                                 21206002    7
+EN         EN-RSL     DATA       DATA-ERR                         21206002    8
+KEV        KEV        MB         MB                               21206002    9
+ 1.5000E+02 1.5000E+01 2.7000E+02 1.8000E+01                      21206002   10
+ 5.5000E+02 3.0000E+01 1.1800E+02 8.0000E+00                      21206002   11
+ 1.0000E+03 3.0000E+01 9.7000E+01 1.3000E+01                      21206002   12
+ENDDATA              5                                            21206002   13
+ENDSUBENT           12                                            2120600299999
+ENDENTRY             2                                            2120699999999
+ENTRY            21216     800918                                 21216000    1
+SUBENT        21216001     800918                                 21216001    1
+BIB                 13         31                                 21216001    2
+INSTITUTE  (2FR BRC)                                              21216001    3
+           (3INDTRM) S.K.GUPTA.                                   21216001    4
+REFERENCE  (J,NIM,148,(1),77,7801)                                21216001    5
+AUTHOR     (S.K.GUPTA,J.FREHAUT,R.BOIS)                           21216001    6
+TITLE      -RADIATIVE CAPTURE CROSS SECTION MEASUREMENTS FOR      21216001    7
+            FAST NEUTRONS USING A LARGE GD-LOADED LIQUID          21216001    8
+            SCINTILLATOR-.                                        21216001    9
+FACILITY   (VDG  ) 4 MV PULSED VAN DE GRAAFF.                     21216001   10
+INC-SOURCE (P-T  ) THE T(P,N)HE-3 REACTION, USING A 0.8 MG/CM2    21216001   11
+            THICK TITANIUM-TRITIUM TARGET.                        21216001   12
+SAMPLE     .CHEMICALLY PURE NATURAL ELEMENTS OF AU-197 AND U-238  21216001   13
+            IN FORM OF DISCS, 2 CM IN DIAMETER AND 3 MM THICK.    21216001   14
+METHOD     (TOF  ) TIME OF FLIGHT TECHNIQUES DISCRIMINATING       21216001   15
+            BETWEEN CAPUTRE EVENTS AND OTHER EVENTS.              21216001   16
+DETECTOR   (STANK) A 100 CM DIAMETER SPHERICAL TANK, FILLED       21216001   17
+            WITH ORGANIC LIQUID SCINTILLATOR NE323, IN WHICH      21216001   18
+            0.5 PERCENT OF GADOLINIUM WAS DESOLVED.               21216001   19
+            MEASURED EFFICIENCIES ARE,                            21216001   20
+            - 80 PERCENT FOR FISSION NEUTRONS,                    21216001   21
+            - MORE THAN 95 PERCENT FOR 8 MEV GAMMA RAYS.          21216001   22
+           .A DIRCTIONAL COUNTER WAS USED TO MONITOR THE NEUTRON  21216001   23
+            FLUX.                                                 21216001   24
+STATUS     .DATA TAKEN FROM REFERENCE.                            21216001   25
+HISTORY    (791214C) CN.                                          21216001   26
+           (800115E)                                              21216001   27
+CORRECTION .THE NEUTRON FLUX MEASUREMENT HAS BEEN CORRECTED FOR   21216001   28
+            - NEUTRON ABSORPTION IN AIR                           21216001   29
+            - NEUTRON ATTENUATION IN SAMPLE                       21216001   30
+            - ENERGY DEPENDENCE OF THE MONITOR EFFICIENCY.        21216001   31
+ERR-ANALYS .THE ERRORS COME MAINLY FROM THE SUBTRACTION OF LARGE  21216001   32
+            GAMMA BACKGROUND.                                     21216001   33
+ENDBIB              31                                            21216001   34
+NOCOMMON             0          0                                 21216001   35
+ENDSUBENT           34                                            2121600199999
+SUBENT        21216003     800115                                 21216003    1
+BIB                  5          8                                 21216003    2
+REACTION   (79-AU-197(N,G)79-AU-198-G,,SIG)                       21216003    3
+COMMENT    .DATA HAVE BEEN NORMALIZED TO THE DATA OF LINDER,      21216003    4
+            NUCL.SCI.ENG. 59 (1976) 381.                          21216003    5
+STATUS     (DEP,10221001) NORMALIZED TO DATA FROM EXFOR 10221.    21216003    6
+HISTORY    (791214C)                                              21216003    7
+CORRECTION .A CORRECTION FACTOR OF ABOUT 10 PERCENT, CALCULATED   21216003    8
+            WITH A MONTE CARLO CODE, FOR MULTIPLE SCATTERING      21216003    9
+            HAVE BEEN APPLIED.                                    21216003   10
+ENDBIB               8                                            21216003   11
+NOCOMMON             0          0                                 21216003   12
+DATA                 4          3                                 21216003   13
+EN         EN-RSL     DATA       DATA-ERR                         21216003   14
+MEV        MEV        MB         MB                               21216003   15
+ 1.6800E+00 3.0000E-02 5.9000E+01 4.0000E+00                      21216003   16
+ 1.9300E+00 3.0000E-02 5.5000E+01 4.0000E+00                      21216003   17
+ 2.4400E+00 3.0000E-02 4.5000E+01 4.0000E+00                      21216003   18
+ENDDATA              5                                            21216003   19
+ENDSUBENT           18                                            2121600399999
+ENDENTRY             2                                            2121699999999
+ENTRY            22234     961224                                 22234000    1
+SUBENT        22234001     961224                                 22234001    1
+BIB                 15         47                                 22234001    2
+INSTITUTE  (2TUKANR)                                              22234001    3
+REFERENCE  (J,JRN,148,(2),393,9106) MAIN REF.                     22234001    4
+AUTHOR     (I.CELENK,H.DEMIREL,A.OZMEN)                           22234001    5
+TITLE      -MEASUREMENTS OF THERMAL NEUTRON CROSS SECTIONS OF     22234001    6
+            V,CO,IN,DY AND AU USING NEUTRON SELF ABSORPTION       22234001    7
+            PROPERTIES                                            22234001    8
+INC-SOURCE (THCOL) A 5 CI PU238-BE NEUTRON SOURCE IMMERSED IN A   22234001    9
+           WATER TANK WAS USED. THE THERMAL FLUX IS ABOUT 1.E4    22234001   10
+           N/CM2/S AT THE IRRADIATION POSITION.                   22234001   11
+INC-SPECT   THERMAL NEUTRON SPECTRUM                              22234001   12
+SAMPLE     .PURE FOILS OF CO,CU,IN,DY AND AU, OF PURITY GT 99 PC  22234001   13
+            WERE ACTIVATED IN THE CONVENTIONAL (SINGLE-ACTIVATION 22234001   14
+            AND SINGLE-COUNTING) WAY. THE V FOILS WERE IRRADIATED 22234001   15
+            FOR 8MIN, TRANSFERED TO COUNTING IN 1 MIN, COUNTED FOR22234001   16
+            8 MIN AND RETURNED TO THE IRRADIATION POSITION IN 1   22234001   17
+            MIN. THE PROCESS WAS REPEATED 5 TIMES- I.E. WITH THE  22234001   18
+            CYCLIC ACTIVATION TECHNIQUE. ALL FOILS WERE IRRADIATED22234001   19
+            WITH AND WITHOUT CD COVERS AND THE EPITHERMAL         22234001   20
+            CONTRIBUTION WAS SUBTRACTED.                          22234001   21
+METHOD     (ACTIV) THE NEUTRON ACTIVATION TECHNIQUE COMBINED      22234001   22
+            WITH A NEUTRON SELF-ABSORPTION METHOD WAS USED.       22234001   23
+            FOR EACH ELEMENT, FOILS OF DIFFERENT THICKNESSES WERE 22234001   24
+            ACTIVATED WITH THERMAL NEUTRONS AND THE INDUCED GAMMA-22234001   25
+            ACTIVITY MEASURED.                                    22234001   26
+DETECTOR   (HPGE ) THE GAMMA ACTIVITY WAS COUNTED USING A HIGH    22234001   27
+            PURITY GE DETECTOR WHICH HAS AN EFFICIENCY OF 12.45   22234001   28
+            PC RELATIVE TO A 3BY3 INCH NAI DETECTOR, A FWHM OF 2  22234001   29
+            KEV AT 1332 KEV ANS A PEAK TO COMPTON RATION OF 42.   22234001   30
+PART-DET   (DG   )                                                22234001   31
+ANALYSIS   .THE GAMMA-PHOTOPEAK AREAS AS A FUNCTION OF FOIL       22234001   32
+            THICKNESS WERE MODEL FITTED TO YIELD THE TOTAL THERMAL22234001   33
+            NEUTRON MACROSCOPIC CROSS SECTION, FROM WHICH THE     22234001   34
+            MICROSCOPIC CROSS-SECTION WAS CALCULATED DEVIDING     22234001   35
+            THE MACROSCOPIC CROSS SECTION BY THE NUMBER OF NUCLEI 22234001   36
+            PER CM3.                                              22234001   37
+CORRECTION .CORRECTION FOR GAMMA-SELF ABSORPTION WAS MADE ON THE  22234001   38
+            BASIS OF EXPERIMENTAL PHOTOPEAK AREAS BY USING THE    22234001   39
+            LINEAR ATTENUATION COEFFICIENTS DETERMINED USING      22234001   40
+            FOILS OF DIFFERENT THICKNESSES FOR EACH ELEMENT.      22234001   41
+            FOR THE V FOILS,NO GAMMA-SELF-ABSORPTION WAS OBSERVED.22234001   42
+STATUS     .DATA TAKEN FROM MAIN REF.                             22234001   43
+ERR-ANALYS .NO UNCERTAINTIES ON DATA ARE GIVEN                    22234001   44
+HISTORY    (930712C) N.O.                                         22234001   45
+           (931129E)                                              22234001   46
+           (961224A)  *  *  CORRECTED BY S.MAEV                   22234001   47
+              UNCIDENT NEUTRON ENERGY WAS INTRODUCED              22234001   48
+              INC-SPECT KEYWORD INTRODUCED, INC-SOURCE CORRECTED *22234001   49
+ENDBIB              47                                            22234001   50
+COMMON               1          3                                 22234001   51
+EN-DUMMY                                                          22234001   52
+EV                                                                22234001   53
+   2.53E-02                                                       22234001   54
+ENDCOMMON            3                                            22234001   55
+ENDSUBENT           54                                            2223400199999
+SUBENT        22234007     961224                                 22234007    1
+BIB                  3          6                                 22234007    2
+REACTION   (79-AU-197(N,G)79-AU-198-G,,SIG)                       22234007    3
+DECAY-DATA (79-AU-198-G,2.7D,DG,411.8,0.95)                       22234007    4
+HISTORY    (930712C) N.O.                                         22234007    5
+           (931129E)                                              22234007    6
+           (961224U)  ERR-ANALYS KEYWORD MOVED TO SUBENT 001      22234007    7
+                      STATUS KEYWORD DELETED                      22234007    8
+ENDBIB               6                                            22234007    9
+NOCOMMON             0          0                                 22234007   10
+DATA                 1          1                                 22234007   11
+DATA                                                              22234007   12
+B                                                                 22234007   13
+107.55                                                            22234007   14
+ENDDATA              3                                            22234007   15
+ENDSUBENT           14                                            2223400799999
+ENDENTRY             2                                            2223499999999
+ENDREQUEST           1                                            Z999999999999

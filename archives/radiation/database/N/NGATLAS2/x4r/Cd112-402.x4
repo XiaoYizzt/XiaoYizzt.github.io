@@ -1,0 +1,38 @@
+REQUEST           1001   20010914          3     141828               0  0    0
+ENTRY            12610     900130                                 12610000    1
+SUBENT        12610001     900130                                 12610001    1
+BIB                  9         11                                 12610001    2
+INSTITUTE  (1USALAS)                                              12610001    3
+REFERENCE  (J,JIN,10,1,59)                                        12610001    4
+AUTHOR     (A.WAHL)                                               12610001    5
+TITLE      14 YEAR CD-113M                                        12610001    6
+FACILITY   (REAC)                                                 12610001    7
+INC-SPECT  THERMAL NEUTRONS                                       12610001    8
+DECAY-DATA (48-CD-115-M,44.2D)                                    12610001    9
+           (48-CD-113-M,14.YR)                                    12610001   10
+DETECTOR   (PROPC) METHANE FLOW PROPORTIONAL COUNTER              12610001   11
+HISTORY    (780414C)                                              12610001   12
+           (900130A) BIB UPDATE, ENERGY ADDED.                    12610001   13
+ENDBIB              11                                            12610001   14
+NOCOMMON             0          0                                 12610001   15
+ENDSUBENT           14                                            1261000199999
+SUBENT        12610002     780525                                 12610002    1
+BIB                  3          5                                 12610002    2
+REACTION  1((48-CD-112(N,G)48-CD-113-M,,SIG,,MXW)/                12610002    3
+           (48-CD-114(N,G)48-CD-115-M,,SIG,,MXW))                 12610002    4
+          2(48-CD-112(N,G)48-CD-113-M,,SIG,,MXW)                  12610002    5
+MONITOR   2(48-CD-114(N,G)48-CD-115-M,,SIG,,MXW)                  12610002    6
+STATUS    2(DEP,12610002)                                         12610002    7
+ENDBIB               5                                            12610002    8
+NOCOMMON                                                          12610002    9
+DATA                 7          1                                 12610002   10
+EN-DUMMY   DATA      1DATA-ERR  1DATA      2DATA-ERR  2MONIT     212610002   11
+MONIT-ERR 2                                                       12610002   12
+EV         NO-DIM     NO-DIM     MB         MB         MB         12610002   13
+MB                                                                12610002   14
+0.0253     0.31       0.03       43.        10.        140.       12610002   15
+30.                                                               12610002   16
+ENDDATA              6                                            12610002   17
+ENDSUBENT           16                                            1261000299999
+ENDENTRY             2                                            1261099999999
+ENDREQUEST           1                                            Z999999999999

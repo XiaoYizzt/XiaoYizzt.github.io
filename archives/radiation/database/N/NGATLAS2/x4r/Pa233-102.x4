@@ -1,0 +1,91 @@
+REQUEST           1001   20010914          3     144403               0  0    0
+ENTRY            12256     840821                                 12256000    1
+SUBENT        12256001     840821                                 12256001    1
+BIB                  8         11                                 12256001    2
+INSTITUTE  (1CANCRC)                                              12256001    3
+REFERENCE  (J,CJP,38,751,60)                                      12256001    4
+AUTHOR     (T.A.EASTWOOD,R.D.WERNER)                              12256001    5
+TITLE      THE THERMAL NEUTRON CAPTURE CROSS SECTION AND RESONANCE12256001    6
+           CAPTURE INTEGRAL OF PROTACTINIUM-233.                  12256001    7
+METHOD     (ACTIV) ACTIVATION                                     12256001    8
+MONITOR    (27-CO-59(N,G)27-CO-60,,SIG)                           12256001    9
+           (27-CO-59(N,G)27-CO-60,,RI)                            12256001   10
+STATUS     (SCSRS)                                                12256001   11
+HISTORY    (760803T) TRANSLATED FROM SCISRS                       12256001   12
+           (840821A) CONVERTED TO REACTION FORMALISM              12256001   13
+ENDBIB              11                                            12256001   14
+COMMON               2          3                                 12256001   15
+MONIT1     MONIT2                                                 12256001   16
+B          B                                                      12256001   17
+ 36.6       75.                                                   12256001   18
+ENDCOMMON            3                                            12256001   19
+ENDSUBENT           18                                            1225600199999
+SUBENT        12256003     840821                                 12256003    1
+BIB                  3          3                                 12256003    2
+REACTION   (91-PA-233(N,G)91-PA-234-G,,SIG,,MXW)                  12256003    3
+INC-SPECT  SUB-CD SPECTRUM.                                       12256003    4
+DECAY-DATA (91-PA-234-G,6.6HR)                                    12256003    5
+ENDBIB               3                                            12256003    6
+NOCOMMON             0          0                                 12256003    7
+DATA                 3          1                                 12256003    8
+EN-DUMMY   DATA       DATA-ERR                                    12256003    9
+MEV        B          B                                           12256003   10
+ 2.53   -08 1.9    +01 3.     +00                                 12256003   11
+ENDDATA              3                                            12256003   12
+ENDSUBENT           11                                            1225600399999
+ENDENTRY             2                                            1225699999999
+ENTRY            12299     841005                                 12299000    1
+SUBENT        12299001     841005                                 12299001    1
+BIB                  6          7                                 12299001    2
+INSTITUTE  (1USAMTR)                                              12299001    3
+REFERENCE  (R,IDO-16226,5510)                                     12299001    4
+AUTHOR     (R.R.SMITH,T.O.PASSEL,S.D.REEDER,N.P.ALLEY,R.L.HEATH)  12299001    5
+TITLE      NEUTRON ABSORPTION CROSS SECTION OF PA-233.            12299001    6
+STATUS     (SCSRS)                                                12299001    7
+HISTORY    (760804T) TRANSLATED FROM SCISRS                       12299001    8
+           (841005A) CONVERTED TO REACTION FORMALISM              12299001    9
+ENDBIB               7                                            12299001   10
+NOCOMMON             0          0                                 12299001   11
+ENDSUBENT           10                                            1229900199999
+SUBENT        12299003     841005                                 12299003    1
+BIB                  5          6                                 12299003    2
+REACTION   (91-PA-233(N,G)91-PA-234-G,,SIG,,MXW)                  12299003    3
+METHOD     (ACTIV)    ACTIVATION                                  12299003    4
+MONITOR    (27-CO-59(N,G)27-CO-60,,SIG)                           12299003    5
+            RELATIVE TO COBALT THERMAL CAPTURE=37.0B.             12299003    6
+HALF-LIFE  (HL,91-PA-234-G) TO 6.66-HR U-234 GROUND STATE.        12299003    7
+INC-SPECT   THERMAL SPECTRUM                                      12299003    8
+ENDBIB               6                                            12299003    9
+COMMON               1          3                                 12299003   10
+HL                                                                12299003   11
+HR                                                                12299003   12
+    6.7                                                           12299003   13
+ENDCOMMON            3                                            12299003   14
+DATA                 4          1                                 12299003   15
+EN-DUMMY   DATA       DATA-ERR   MONIT                            12299003   16
+MEV        B          B          B                                12299003   17
+ 2.53   -08 2.5    +01 4.     +00 37.0                            12299003   18
+ENDDATA              3                                            12299003   19
+ENDSUBENT           18                                            1229900399999
+SUBENT        12299004     841005                                 12299004    1
+BIB                  5          6                                 12299004    2
+REACTION   (91-PA-233(N,G)91-PA-234-G,,SIG,,SPA)                  12299004    3
+METHOD     (ACTIV)    ACTIVATION                                  12299004    4
+MONITOR    (27-CO-59(N,G)27-CO-60,,SIG)                           12299004    5
+            RELATIVE TO COBALT THERMAL CAPTURE=37.0B.             12299004    6
+HALF-LIFE  (HL,91-PA-234-G) TO 6.66-HR U-234 GROUND STATE.        12299004    7
+INC-SPECT   REACTOR SPECTRUM                                      12299004    8
+ENDBIB               6                                            12299004    9
+COMMON               1          3                                 12299004   10
+HL                                                                12299004   11
+HR                                                                12299004   12
+    6.7                                                           12299004   13
+ENDCOMMON            3                                            12299004   14
+DATA                 4          1                                 12299004   15
+EN-DUMMY   DATA       DATA-ERR   MONIT                            12299004   16
+MEV        B          B          B                                12299004   17
+ 2.53   -08 3.2    +01 5.     +00 37.0                            12299004   18
+ENDDATA              3                                            12299004   19
+ENDSUBENT           18                                            1229900499999
+ENDENTRY             3                                            1229999999999
+ENDREQUEST           1                                            Z999999999999

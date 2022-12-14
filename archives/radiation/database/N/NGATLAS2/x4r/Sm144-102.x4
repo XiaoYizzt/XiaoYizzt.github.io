@@ -1,0 +1,316 @@
+REQUEST           1001   20010914          3     142950               0  0    0
+ENTRY            12095     821012                                 12095000    1
+SUBENT        12095001     821012                                 12095001    1
+BIB                  8         10                                 12095001    2
+INSTITUTE  (1USAORL)                                              12095001    3
+REFERENCE  (J,NAT,197,369,63)                                     12095001    4
+AUTHOR     (R.L.MACKLIN,J.H.GIBBONS,T.INADA)                      12095001    5
+TITLE      NEUTRON CAPTURE IN THE SAMARIUM ISOTOPES AND THE       12095001    6
+           FORMATION OF THE ELEMENTS OF THE SOLAR SYSTEM.         12095001    7
+N-SOURCE   (P-LI7) LI-7(P,N) SOURCE                               12095001    8
+DETECTOR   (MOXR)                                                 12095001    9
+STATUS     (SCSRS)                                                12095001   10
+HISTORY    (760803T) TRANSLATED FROM SCISRS                       12095001   11
+           (821012A) CONVERTED TO REACTION FORMALISM              12095001   12
+ENDBIB              10                                            12095001   13
+NOCOMMON             0          0                                 12095001   14
+ENDSUBENT           13                                            1209500199999
+SUBENT        12095002     821012                                 12095002    1
+BIB                  1          1                                 12095002    2
+REACTION   (62-SM-144(N,G)62-SM-145,,SIG)                         12095002    3
+ENDBIB               1                                            12095002    4
+NOCOMMON             0          0                                 12095002    5
+DATA                 4          1                                 12095002    6
+EN         EN-RSL     DATA       DATA-ERR                         12095002    7
+MEV        MEV        B          B                                12095002    8
+ 3.0    -02 7.     -03 1.19   -01 5.5    -02                      12095002    9
+ENDDATA              3                                            12095002   10
+ENDSUBENT            9                                            1209500299999
+ENDENTRY             2                                            1209599999999
+ENTRY            12127     821012                                 12127000    1
+SUBENT        12127001     821012                                 12127001    1
+BIB                 11         15                                 12127001    2
+INSTITUTE  (1CANMCM)                                              12127001    3
+REFERENCE  (T,WALKER,5605)                                        12127001    4
+AUTHOR     (W.H.WALKER)                                           12127001    5
+TITLE      THE RELATIVE ABUNDANCES AND PILE NEUTRON CAPTURE CROSS 12127001    6
+           SECTIONS OF THE ISOTOPES OF SAMARIUM, GADOLINIUM,      12127001    7
+           DYSPROSIUM AND YTTERBIUM.                              12127001    8
+N-SOURCE   (REAC) NRX REACTOR                                     12127001    9
+SAMPLE     LARGE SAMPLES. MANY IMPURITIES (MOSTLY OTHER RARE      12127001   10
+            EARTHS).                                              12127001   11
+FACILITY   (SPECM) MASS SPECTROMETER                              12127001   12
+INC-SPECT  REACTOR SPECTRUM                                       12127001   13
+METHOD     SAMPLES SEPARATED BY MULTIPLE DISTILLATION.            12127001   14
+STATUS     (SCSRS)                                                12127001   15
+HISTORY    (760803T) TRANSLATED FROM SCISRS                       12127001   16
+           (821012A) CONVERTED TO REACTION FORMALISM              12127001   17
+ENDBIB              15                                            12127001   18
+NOCOMMON             0          0                                 12127001   19
+ENDSUBENT           18                                            1212700199999
+SUBENT        12127002     821012                                 12127002    1
+BIB                  1          1                                 12127002    2
+REACTION   (62-SM-144(N,G)62-SM-145,,SIG,,SPA)                    12127002    3
+ENDBIB               1                                            12127002    4
+NOCOMMON             0          0                                 12127002    5
+DATA                 3          1                                 12127002    6
+EN-DUMMY   DATA       DATA-ERR                                    12127002    7
+MEV        B          B                                           12127002    8
+ 2.53   -08 8.5    +01 5.5    +01                                 12127002    9
+ENDDATA              3                                            12127002   10
+ENDSUBENT            9                                            1212700299999
+ENDENTRY             2                                            1212799999999
+ENTRY            13108     871110                                 13108000    1
+SUBENT        13108001     871110                                 13108001    1
+BIB                 12         17                                 13108001    2
+INSTITUTE  (1USAORL)                                              13108001    3
+REFERENCE  (J,NSE,95,194,8703)                                    13108001    4
+AUTHOR     (C.W.ALEXANDER,J.HALPERIN,J.B.KNAUER,R.L.WALKER)       13108001    5
+TITLE      THE THERMAL NEUTRON CAPTURE CROSS SECTIONS AND         13108001    6
+           RESONANCE INTEGRALS OF 144SM AND 145SM                 13108001    7
+FACILITY   (REAC) HIGH FLUX ISOTOPE REACTOR, HFIR                 13108001    8
+METHOD     CADMIUM FILTER IRRADIATION TECHNIQUE: MASS             13108001    9
+            SPECTROMETRIC ANALYSIS.                               13108001   10
+SAMPLE     FUSED SILICA CAPSULE WITH 100-200 MICROGRAMS OF        13108001   11
+           144SM-NITRATE                                          13108001   12
+DECAY-MON  (27-CO-60-M,5.272YR,DG,1332.)                          13108001   13
+ERR-ANALYS ERRORS ARE STANDARD DEVIATION ESTIMATES WITH 5 PERCENT 13108001   14
+           UNCERTAINTY ADDED TO REFLECT FLUX MODEL UNCERTAINTIES  13108001   15
+CORRECTION CORRECTIONS FOR DECAY AND BURNUP OF COBALT MONITORS    13108001   16
+            AND 14-146 SM.                                        13108001   17
+STATUS     (APRVD) J. HALPERIN, 87/10/2.                          13108001   18
+HISTORY    (870603C)                                              13108001   19
+ENDBIB              17                                            13108001   20
+NOCOMMON             0          0                                 13108001   21
+ENDSUBENT           20                                            1310800199999
+SUBENT        13108002     871110                                 13108002    1
+BIB                  3          3                                 13108002    2
+REACTION   (62-SM-144(N,G)62-SM-145,,SIG)                         13108002    3
+MONITOR    (27-CO-59(N,G)27-CO-60,,SIG)                           13108002    4
+ASSUMED    (ASSUM,27-CO-60(N,G),,SIG)                             13108002    5
+ENDBIB               3                                            13108002    6
+COMMON               5          3                                 13108002    7
+EN         MONIT      MONIT-ERR  ASSUM      ASSUM-ERR             13108002    8
+EV         B          B          B          B                     13108002    9
+ 0.0253    37.2        0.2        2.0        0.2                  13108002   10
+ENDCOMMON            3                                            13108002   11
+DATA                 2          1                                 13108002   12
+DATA       DATA-ERR                                               13108002   13
+B          B                                                      13108002   14
+ 1.64       0.10                                                  13108002   15
+ENDDATA              3                                            13108002   16
+ENDSUBENT           15                                            1310800299999
+ENDENTRY             2                                            1310899999999
+ENTRY            13587   19990716   19990812                      13587000    1
+SUBENT        13587001   19990716   19990812                      13587001    1
+BIB                  9         13                                 13587001    2
+INSTITUTE  (1USAORL)                                              13587001    3
+REFERENCE  (J,PR/C,48,1120,199309)                                13587001    4
+AUTHOR     (R.MACKLIN,N.W.HILL,J.A.HARVEY,G.L.TWEED)              13587001    5
+TITLE      Neutron capture and total cross sections of 144Sm      13587001    6
+FACILITY   (LINAC) ORELA                                          13587001    7
+CORRECTION Data were corrected for background                     13587001    8
+ERR-ANALYS Systematic uncertainties due principally to            13587001    9
+            normalization and background corrections.             13587001   10
+           Errors range from 4. to 6.5%, increasing with energy.  13587001   11
+STATUS     (APRVD) Approved by D. Wiarda, 10 May 1999.            13587001   12
+HISTORY    (19931019C)                                            13587001   13
+           (19990303A) Dates corrected, BIB updated.              13587001   14
+           (19990716A) BIB update.                                13587001   15
+ENDBIB              13                                            13587001   16
+NOCOMMON             0          0                                 13587001   17
+ENDSUBENT           16                                            1358700199999
+SUBENT        13587002     931019                                 13587002    1
+BIB                  7         19                                 13587002    2
+REACTION   (62-SM-144(N,G)62-SM-145,,SIG,,AV)                     13587002    3
+METHOD     (TOF). Flight path 40 m.                               13587002    4
+SAMPLE     Sm2O3 pressed powder disk, 2.284g.                     13587002    5
+            Isotopic composition      (Atom %)                    13587002    6
+                  144Sm                96.47                      13587002    7
+                  147Sm                 1.08                      13587002    8
+                  148Sm                 0.56                      13587002    9
+                  149Sm                 0.54                      13587002   10
+                  150Sm                 0.24                      13587002   11
+                  152Sm                 0.65                      13587002   12
+                  154Sm                 0.46                      13587002   13
+DETECTOR   (SCIN) Nonhydrogenous liquid scintillators.            13587002   14
+           Detector efficiency determined by 4.9-eV saturated     13587002   15
+            gold resonance method.                                13587002   16
+MONITOR    (3-LI-6(N,T)2-HE-4,,SIG) Neutron flux monitor          13587002   17
+FLAG       (1.) Derived by summing individual resonance capture   13587002   18
+                and a small 1/v term.                             13587002   19
+STATUS     Data rec'd in private comm., Macklin, 86/8/4           13587002   20
+            Moved from entry 12966                                13587002   21
+ENDBIB              19                                            13587002   22
+NOCOMMON             0          0                                 13587002   23
+DATA                 4         15                                 13587002   24
+EN-MIN     EN-MAX     DATA       FLAG                             13587002   25
+KEV        KEV        MB         NO-DIM                           13587002   26
+   6.         8.       130.       1.                              13587002   27
+   8.        10.       143.       1.                              13587002   28
+  10.        12.       176.       1.                              13587002   29
+  12.        15.       185.                                       13587002   30
+  15.        20.       120.                                       13587002   31
+  20.        30.        84.                                       13587002   32
+  30.        40.        77.                                       13587002   33
+  40.        60.        73.                                       13587002   34
+  60.        80.        65.                                       13587002   35
+  80.       100.        57.                                       13587002   36
+ 100.       150.        49.1                                      13587002   37
+ 150.       200.        48.2                                      13587002   38
+ 200.       300.        45.0                                      13587002   39
+ 300.       400.        40.9                                      13587002   40
+ 400.       500.        41.7                                      13587002   41
+ENDDATA             17                                            13587002   42
+ENDSUBENT           41                                            1358700299999
+ENDENTRY             2                                            1358799999999
+ENTRY            20104     830913                                 20104000    1
+SUBENT        20104001     830913                                 20104001    1
+BIB                 12         18                                 20104001    2
+INSTITUTE  (2SF HLS)                                              20104001    3
+REFERENCE  (J,PR,127,943,6208)                                    20104001    4
+AUTHOR     (M.NURMIA, P.KAURANEN, A.SIIVOLA)                      20104001    5
+TITLE      -PM-145, A NEW ALPHA ACTIVITY.-                        20104001    6
+FACILITY   (REAC )    HIGH FLUX REACTOR ORR.                      20104001    7
+INC-SOURCE (REAC )    REACTOR NEUTRONS.                           20104001    8
+            4 WEEKS IRRADIATION WITH 2.0E+14 NEUTRONS/CM-SQ/SEC.  20104001    9
+SAMPLE                30 MILLIGR SM-144 ENRICHED TO 94.6 PERCENT. 20104001   10
+METHOD     (ACTIV)    ACTIVATION                                  20104001   11
+           (CHSEP)    CATION EXCHANGE COLUMN ACCORDING TO METHOD  20104001   12
+            DESCRIBED BY CHOPPIN ET AL. J. INORG. NUCLEAR CHEM.   20104001   13
+            2, 66(1956).                                          20104001   14
+DETECTOR   (NAICR)    SODIUM IODIDE(TL) CRYSTAL, DIAMETER = 1 INCH20104001   15
+            HEIGHT = 1 INCH.                                      20104001   16
+STATUS                DATA FROM PUBLICATION.                      20104001   17
+HISTORY    (701021C)                                              20104001   18
+           (710908E)                                              20104001   19
+ERR-ANALYS .NO INFORMATION.                                       20104001   20
+ENDBIB              18                                            20104001   21
+COMMON               1          3                                 20104001   22
+EN-DUMMY                                                          20104001   23
+MEV                                                               20104001   24
+ 2.5300E-08                                                       20104001   25
+ENDCOMMON            3                                            20104001   26
+ENDSUBENT           25                                            2010400199999
+SUBENT        20104002     830913                                 20104002    1
+BIB                  4          7                                 20104002    2
+REACTION   (62-SM-144(N,G)62-SM-145,,SIG,,SPA)                    20104002    3
+PART-DET   (DG   )    DECAY GAMMAS AND X-RAYS.                    20104002    4
+COMMENT    .THIS EXPERIMENT WAS CARRIED OUT TO STUDY THE ALPHA-   20104002    5
+            ACTIVITY OF PM-145, THE CROSS SECTION GIVEN WAS       20104002    6
+            ESTIMATED.                                            20104002    7
+HISTORY    (701021C)                                              20104002    8
+           (710908E)                                              20104002    9
+ENDBIB               7                                            20104002   10
+NOCOMMON             0          0                                 20104002   11
+DATA                 1          1                                 20104002   12
+DATA                                                              20104002   13
+B                                                                 20104002   14
+ 7.0000E-01                                                       20104002   15
+ENDDATA              3                                            20104002   16
+ENDSUBENT           15                                            2010400299999
+ENDENTRY             2                                            2010499999999
+ENTRY            40520   19981103   19990308                      40520000    1
+SUBENT        40520001   19981103   19990308                      40520001    1
+BIB                 13         49                                 40520001    2
+INSTITUTE  (4RUSFEI)                                              40520001    3
+REFERENCE  (R,YK-22,29,1977) EXPERIMENTAL DETAILS                 40520001    4
+AUTHOR     (V.N.KONONOV,B.D.JURLOV,E.D.POLETAEV,                  40520001    5
+           V.M.TIMOKHOV,G.N.MANTUROV)                             40520001    6
+TITLE       AVERAGE NEUTRON RADIATIVE CAPTURE CROSS-SECTION       40520001    7
+            IN THE ENERGY RANGE 5 - 30 KEV FOR IN,TA,AU           40520001    8
+            AND ND, SM, EU, GD, ER ISOTOPES                       40520001    9
+FACILITY   (VDG) FEI PULSED VAN-DE-GRAAF                          40520001   10
+                    ACCELERATOR EG-1                              40520001   11
+INC-SOURCE (P-LI7) PROTON-LITHIUM 7                               40520001   12
+                     METAL LITHIUM TARGETS WERE USED              40520001   13
+METHOD     (TOF) TIME-OF-FLIGHT METHOD                            40520001   14
+                    WITH TIME RESOLUTION 12. NSEC/M AND           40520001   15
+                    7 NSEC/M AT 0.8M AND 1.4M, ACCORDINGLY.       40520001   16
+DETECTOR   (STANK) LIQUID SCINTILLATION DETECTOR                  40520001   17
+                    WITH HEXAFLUOROBENZENE,VOLUME 17 LITRES       40520001   18
+                    B-10-PLUG AND NAI(TL)DETECTOR                 40520001   19
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)   ENERGY DEPENDENCE OF  40520001   20
+                    NEUTRON FLUX MEASURED USING                   40520001   21
+                    B-10 (N,ALPHA GAMMA) REACTION AND             40520001   22
+                    ITS ENERGY DEPENDENCE AS GIVEN                40520001   23
+                    BY MAGURNO B.A.,ENDF/B-4 CROSS                40520001   24
+                    SECTION MEASUREMENT STANDARDS,                40520001   25
+                    BNL-NCS-50464,1975.                           40520001   26
+                    FOR ABSOLUTE NORMALIZATION AU CAPTURE         40520001   27
+                    CROSS-SECTION AT NEUTRON ENERGY 30.KEV        40520001   28
+                     TAKEN FROM POENITZ W.P.ET AL,J.NUC.ENERGY,   40520001   29
+                    22,505,1968, WAS USED                         40520001   30
+CORRECTION  BACKGROUND CORRECTION,CORRECTIONS ON THE MULTIPLE     40520001   31
+            NEUTRON SCATTERING, RESONANCE SELF-SHIELDIND AND      40520001   32
+            ISOTOPIC IMPURITIES CONTENT                           40520001   33
+ERR-ANALYS (ERR-T)    ALL ERRORS SHOWN ON THE DATA ARE TOTAL      40520001   34
+           (ERR-1)    MAXIMAL SISTEMATIC UNCERTAINTIY OF THE DETE-40520001   35
+              CTION EFFICIENCY. THEY ARE 5.0-6.5 PERCENT          40520001   36
+           (ERR-2)    STANDARD UNCERTAINTIES 5.0 PERCENT          40520001   37
+           (ERR-3)    CORRECTION UNCERTAINTIES 1.0-3.0 PERCENT    40520001   38
+           (ERR-S)    MAXIMAL STATISTICAL ERROR 12.0-1.0 PERCENT  40520001   39
+STATUS     (APRVD) THE DATA APPROUVED BY AUTHORS                  40520001   40
+                       THIS DATA SUPERSEDE OLD DATA IN SUBENTRIES 40520001   41
+                       40222002-40222003,40222006,                40520001   42
+                       40222008-40222010,40222012-40222013        40520001   43
+           (COREL,40222001)                                       40520001   44
+           (COREL,41325001)                                       40520001   45
+HISTORY    (19770124C)                                            40520001   46
+           (19870312A) ONE AUTHOR NAME CORRECTED, DATA-ERRORS     40520001   47
+                     IN COMMON SECTION INTRODUCED, ISO-QUANT INTO 40520001   48
+                     REACTION CONVERTED AND  REFERENCES IN PROPER 40520001   49
+                     SUBENTRIES PLACED                            40520001   50
+           (19981103U)  CORRECTED BY CJD                          40520001   51
+ENDBIB              49                                            40520001   52
+COMMON               6          3                                 40520001   53
+EN-RSL     EN-RSL     ERR-1      ERR-2      ERR-3      ERR-S      40520001   54
+NSEC/M     NSEC/M     PER-CENT   PER-CENT   PER-CENT   PER-CENT   40520001   55
+  7.        12.        6.5        5.0        3.0        12.0      40520001   56
+ENDCOMMON            3                                            40520001   57
+ENDSUBENT           56                                            4052000199999
+SUBENT        40520006     870312                                 40520006    1
+BIB                  3          4                                 40520006    2
+REACTION   (62-SM-144(N,G)62-SM-145,,SIG) N,GAMMA  CROSS-SECTION  40520006    3
+SAMPLE      OXIDE SM2-O3 POWDER 96.5 PERCENT ENRICHMENT           40520006    4
+            DIAMETER 40 MM, THICKNESS 0.00405 NUCLEI/BARN         40520006    5
+REFERENCE  (J,YF,26,947,77)                                       40520006    6
+ENDBIB               4                                            40520006    7
+NOCOMMON             0          0                                 40520006    8
+DATA                 4         30                                 40520006    9
+EN-MIN     EN-MAX     DATA       ERR-T                            40520006   10
+KEV        KEV        MB         MB                               40520006   11
+  6.5        8.5      158.       38.                              40520006   12
+  8.5       10.5      219.       49.                              40520006   13
+ 10.5       12.5      192.       39.                              40520006   14
+ 12.5       14.5      187.       34.                              40520006   15
+ 14.5       16.5      146.       24.                              40520006   16
+ 16.5       18.5      106.       17.                              40520006   17
+ 18.5       20.5      106.       16.                              40520006   18
+ 20.5       22.5      112.       16.                              40520006   19
+ 22.5       27.        87.       12.                              40520006   20
+ 27.        31.        70.        9.                              40520006   21
+ 31.        35.        64.        8.                              40520006   22
+ 35.        39.        62.        8.                              40520006   23
+ 39.        43.        57.        8.                              40520006   24
+ 43.        47.        60.        8.                              40520006   25
+ 47.        51.        66.        9.                              40520006   26
+ 51.        55.        68.        9.                              40520006   27
+ 55.        59.        70.       10.                              40520006   28
+ 59.        63.        68.        9.                              40520006   29
+ 63.        67.5       69.       10.                              40520006   30
+ 67.5       72.5       69.        9.6                             40520006   31
+ 72.5       77.5       70.       10.                              40520006   32
+ 77.5       82.5       68.       10.                              40520006   33
+ 82.5      120.        62.        9.                              40520006   34
+120.       160.        60.        9.                              40520006   35
+160.       200.        46.        7.                              40520006   36
+200.       230.        54.        8.                              40520006   37
+230.       260.        50.        7.                              40520006   38
+260.       290.        47.        7.                              40520006   39
+290.       320.        46.        6.                              40520006   40
+320.       350.        38.        5.                              40520006   41
+ENDDATA             32                                            40520006   42
+ENDSUBENT           41                                            4052000699999
+ENDENTRY             2                                            4052099999999
+ENDREQUEST           1                                            Z999999999999

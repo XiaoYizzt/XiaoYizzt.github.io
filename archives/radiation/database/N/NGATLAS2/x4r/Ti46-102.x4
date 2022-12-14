@@ -1,0 +1,178 @@
+REQUEST           1001   20010914          3     140139               0  0    0
+ENTRY            11507     860715                                 11507000    1
+SUBENT        11507001     860715                                 11507001    1
+BIB                 10         12                                 11507001    2
+INSTITUTE  (1USAORL)                                              11507001    3
+REFERENCE  (J,PR,88,412,52)                                       11507001    4
+AUTHOR     (H.POMERANCE)                                          11507001    5
+TITLE      THERMAL NEUTRON CAPTURE CROSS SECTIONS.                11507001    6
+FACILITY   (OSCIP) PILE OSCILLATOR                                11507001    7
+INC-SPECT  THERMAL SPECTRUM                                       11507001    8
+METHOD     (ACTIV).                                               11507001    9
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)                         11507001   10
+STATUS     (SCSRS)                                                11507001   11
+HISTORY    (760715T) TRANSLATED FROM SCISRS                       11507001   12
+           (821124A) CONVERTED TO REACTION FORMALISM              11507001   13
+           (860715A) ENERGY MOVED TO SUBENTRY 1.                  11507001   14
+ENDBIB              12                                            11507001   15
+COMMON               2          3                                 11507001   16
+EN-DUMMY   MONIT                                                  11507001   17
+EV         B                                                      11507001   18
+ 0.0253     95.                                                   11507001   19
+ENDCOMMON            3                                            11507001   20
+ENDSUBENT           19                                            1150700199999
+SUBENT        11507013     860715                                 11507013    1
+BIB                  1          1                                 11507013    2
+REACTION   (22-TI-46(N,G)22-TI-47,,SIG,,MXW)                      11507013    3
+ENDBIB               1                                            11507013    4
+NOCOMMON             0          0                                 11507013    5
+DATA                 2          1                                 11507013    6
+DATA       DATA-ERR                                               11507013    7
+B          PER-CENT                                               11507013    8
+ 5.7    -01   30.                                                 11507013    9
+ENDDATA              3                                            11507013   10
+ENDSUBENT            9                                            1150701399999
+ENDENTRY             2                                            1150799999999
+ENTRY            30359     890508                                 30359000    1
+SUBENT        30359001     890508                                 30359001    1
+BIB                 16         57                                 30359001    2
+TITLE      RESONANCE NEUTRON CAPTURE IN THE ISOTOPES OF TITANIUM. 30359001    3
+AUTHOR     (B.J.ALLEN,J.W.BOLDEMAN,A.R.DEL.MUSGROVE,R.L.MACKLIN)  30359001    4
+INSTITUTE  (1USAORL) LAST AUTHOR'S ADDRESS.                       30359001    5
+           (3AULAUA) THE FIRST FOUR AUTHORS' ADDRESSES.           30359001    6
+REFERENCE  (R,AAEC/E-402,7706) PREPRINT SENT BY ALLEN, 76/10/01   30359001    7
+           (P,AAEC/PR-36,11,7203) PRELIM.SHORT NOTE,TI-ISTOPES NDG30359001    8
+           (P,AAEC/PR-38,12,7303) PRELIM.NOTE FOR TI-48, NDG.     30359001    9
+           (P,AAEC/PR-40,34,7407) SHORT NOTE FOR TI-48, NDG.      30359001   10
+           (J,NSE,82,(2),230,82) CORRECTION FACTORS (=0.9833) FOR 30359001   11
+            22-TI-46,22-TI-47,22-TI-49,(=1.0360)FOR 22-TI-48,FOR  30359001   12
+            NEUTRON CAPTURE CROSS-SECTION ARE GIVEN,              30359001   13
+            NO CORRECTION FACTOR FOR 22-TI-50 IS REQUIRED.        30359001   14
+SAMPLE     ENRICHED SAMPLE OF TI-O(2),                            30359001   15
+                                  TI-46      TI-47      TI-48     30359001   16
+             ENRICHMENT(PERC.)    85.90      80.10      99.10     30359001   17
+             THICKNESS(ATOM/B)    0.00648    0.00301    0.01363   30359001   18
+                      (CM.)       0.42       0.20       0.86      30359001   19
+                              ----------------------------------- 30359001   20
+                                  TI-49      TI-50                30359001   21
+             ENRICHMENT           76.57      67.72                30359001   22
+             THICKNESS(ATOM/B)    0.01109    0.00900              30359001   23
+                      (CM.)       0.93       0.88                 30359001   24
+FACILITY   (LINAC,1USAORL) ORELA                                  30359001   25
+INC-SOURCE (PHOTO)                                                30359001   26
+METHOD     (TOF) TIME OF FLIGHT, PATH = 40 M.                     30359001   27
+DETECTOR   (SCIN) TWO NON-HYDROGENEOUS,C(6)-F(6),LIQUID SCINTILLA-30359001   28
+           TORS.  THE DETECTOR RESPONSE IS PROPORTIONAL TO THE    30359001   29
+           TOTAL ENERGY OF THE CAPTURE REACTION.                  30359001   30
+           .A 0.5 MM LI-6 GLASS SCINTILLATOR, 0.5 M UPSTREAM FROM 30359001   31
+           THE CAPTURE SAMPLE, WAS USED AS A NEUTRON MONITOR.     30359001   32
+PART-DET   (G) GAMMAS.                                            30359001   33
+MONITOR    (3-LI-6(N,T)2-HE-4,,SIG) PREVIOUSLY PARAMETARISED DATA 30359001   34
+            WERE USED,R.L.MACKLIN ET AL.,PHYS.REV.,C11(1975)1270. 30359001   35
+ANALYSIS   (AREA) MODIFIED VERSION OF THE ORNL-RPI MONTE CARLO    30359001   36
+           CODE, SULLIVAN ET AL.,AEC REPORT RPI-328-155(1969).    30359001   37
+           .A SHAPE FIT ALSO WAS USED TO ESTIMATE THE NEUTRON     30359001   38
+           WIDTH WHEN (N-WIDTH) IS LARGER THAN (0.2*(RESOLUTION OF30359001   39
+           RESONANCE ENERGY)).                                    30359001   40
+           .FOR TI-48,A MULTILEVEL FORMALISM WAS USED TO TAKE     30359001   41
+           ACCOUNT OF THE INTERFERENCE BETWEEN S-WAVE RESONANCES  30359001   42
+           OBSERVED IN THE TOTAL CROSS-SECTION BELOW 52 KEV.      30359001   43
+CORRECTION MULTIPLE SCATTERING, SELF-ABSORPTION AND PROMPT BACK-  30359001   44
+           GROUND WERE CORRECTED.                                 30359001   45
+ERR-ANALYS NO FURTHER INFORMATION.                                30359001   46
+STATUS     (APRVD) APPROVED BY ALLEN AFTER AMENDMENT, 77/02/04.   30359001   47
+HISTORY    (761008C) KO.                                          30359001   48
+           (770325A) KO.-'APRVD' ADDED. CORRECTIONS IN SUBENTRIES 30359001   49
+            .006, .007 AND .025.-                                 30359001   50
+           (770809A) KO.-AMENDMENTS AFTER THE AUTHOR'S 2ND LETT,  30359001   51
+            (ALLEN, 77/07/05) ON SUBENTRIES .006,.011,.016,.021   30359001   52
+            AND .026.-                                            30359001   53
+           (780421A) KO.-AMENDMENT AFTER ALLEN'S LETT.,78/04/07.- 30359001   54
+           (821102U) DG.-INSERTION OF CORRIGENDUM IN REFERENCE,   30359001   55
+            CONVERSION FROM ISO-QUANT TO REACTION FORMALISM.-     30359001   56
+           (880720U) TMK REF. ADDED IN SUBENT 3, 5, 6, 8, 10, 11, 30359001   57
+                     13, 15, 16, 18, 20, 21, 23, 25 AND 26.       30359001   58
+           (890313A) VOF.-INSTITUTE AND FACILITY CODES CORRECTED  30359001   59
+ENDBIB              57                                            30359001   60
+NOCOMMON             0          0                                 30359001   61
+ENDSUBENT           60                                            3035900199999
+SUBENT        30359003     881205                                 30359003    1
+BIB                  6          7                                 30359003    2
+REACTION   (22-TI-46(N,G)22-TI-47,,SIG,,SPA)                      30359003    3
+REFERENCE  (C,77GEEL,447,7712) DATA ARE SUPERSEDED BY JOUR. OF    30359003    4
+                               NUCL. SCI. ENG., 82, (2), 230,1982.30359003    5
+INC-SPECT  MAXWELLIAN AVERAGE SPECTRUM WITH ''KT'' = 30 KEV.      30359003    6
+ERR-ANALYS STANDARD DEVIATION.                                    30359003    7
+STATUS     DATA FROM TABLE 4 OF PREPRINT BY ALLEN, 76/10/01.      30359003    8
+HISTORY    (821102U) DG.-CONVERT.FROM ISO-QUANT TO REACTION FORM.-30359003    9
+ENDBIB               7                                            30359003   10
+NOCOMMON             0          0                                 30359003   11
+DATA                 3          1                                 30359003   12
+EN-DUMMY   DATA       DATA-ERR                                    30359003   13
+KEV        MB         MB                                          30359003   14
+45.        26.9       3.2                                         30359003   15
+ENDDATA              3                                            30359003   16
+ENDSUBENT           15                                            3035900399999
+SUBENT        30359005     881205                                 30359005    1
+BIB                  5          8                                 30359005    2
+REACTION   (22-TI-46(N,G)22-TI-47,,SIG,,AV)                       30359005    3
+REFERENCE  (C,77GEEL,447,7712) DATA ARE SUPERSEDED BY JOUR. OF    30359005    4
+                               NUCL. SCI. ENG., 82, (2), 230,1982.30359005    5
+ERR-ANALYS STANDARD DEVIATION                                     30359005    6
+STATUS     DATA FROM TABLE 4 OF PREPRINT BY ALLEN, 76/10/01.      30359005    7
+           AFTER THE VALUES HAVE BEEN MULTIPLIED BY 0.9833.       30359005    8
+HISTORY    (821102A) DG.-THE VALUES HAVE BEEN CORRECTED,          30359005    9
+            CONVERSION FROM ISO-QUANT TO REACTION FORMALISM.-     30359005   10
+ENDBIB               8                                            30359005   11
+NOCOMMON             0          0                                 30359005   12
+DATA                 4         10                                 30359005   13
+EN-MIN     EN-MAX     DATA       DATA-ERR                         30359005   14
+KEV        KEV        MB         MB                               30359005   15
+ 10.        20.       62.5       7.5                              30359005   16
+ 20.        30.       13.7       1.7                              30359005   17
+ 30.        40.       21.1       2.7                              30359005   18
+ 40.        50.       35.6       4.6                              30359005   19
+ 50.        60.        9.60      1.19                             30359005   20
+ 60.        70.       23.7       3.8                              30359005   21
+ 70.        80.       12.5       1.6                              30359005   22
+ 80.        90.       26.6       3.2                              30359005   23
+ 90.       100.       19.9       2.5                              30359005   24
+100.       150.       16.1       2.1                              30359005   25
+ENDDATA             12                                            30359005   26
+ENDSUBENT           25                                            3035900599999
+ENDENTRY             3                                            3035999999999
+ENTRY            41263     971230                                 41263000    1
+SUBENT        41263001     971230                                 41263001    1
+BIB                  7         11                                 41263001    2
+INSTITUTE  (4RUSFEI)                                              41263001    3
+REFERENCE  (J,AE,27,(2),144,6908)  MAIN REFERENCE, DATA ARE GIVEN 41263001    4
+           (C,58GENEVA,,,5808) REPT NO.2221 BY VLADIMIRSKIY,      41263001    5
+              KIRPICHNIKOV, PANOV, RADKEVICH,, SUKHORUCHKIN.      41263001    6
+              EXPERIMEMTAL DETAILS                                41263001    7
+AUTHOR     (E.YA.DOIL'NITSYN,A.I.STUPAK)                          41263001    8
+TITLE      TOTAL NEUTRON CROSS SECTIONS OF TI-46-50 FOR THERMAL   41263001    9
+            AND EPITHERMAL NEUTRONS                               41263001   10
+METHOD     (TOF) TIME-OF-FLIGHT WITH MECHANICAL SELECTOR          41263001   11
+ERR-ANALYS (DATA-ERR)  ERRORS ARE NOT SPECIFIED                   41263001   12
+HISTORY    (971229C)  + +  COMPILED AT THE CENTER - CJD  + +      41263001   13
+ENDBIB              11                                            41263001   14
+COMMON               1          3                                 41263001   15
+EN-DUMMY                                                          41263001   16
+EV                                                                41263001   17
+ 2.5300E-02                                                       41263001   18
+ENDCOMMON            3                                            41263001   19
+ENDSUBENT           18                                            4126300199999
+SUBENT        41263002     971230                                 41263002    1
+BIB                  2          2                                 41263002    2
+REACTION   (22-TI-46(N,G)22-TI-47,,SIG)                           41263002    3
+HISTORY    (971229T)  CONVERTED FROM SUBENT 80500002              41263002    4
+ENDBIB               2                                            41263002    5
+NOCOMMON             0          0                                 41263002    6
+DATA                 2          1                                 41263002    7
+DATA       DATA-ERR                                               41263002    8
+B          B                                                      41263002    9
+ 7.0000E-01 2.5000E-01                                            41263002   10
+ENDDATA              3                                            41263002   11
+ENDSUBENT           10                                            4126300299999
+ENDENTRY             2                                            4126399999999
+ENDREQUEST           1                                            Z999999999999

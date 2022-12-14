@@ -1,0 +1,371 @@
+REQUEST           1001   20010914          3     140921               0  0    0
+ENTRY            11447     850410                                 11447000    1
+SUBENT        11447001     850410                                 11447001    1
+BIB                  6          8                                 11447001    2
+INSTITUTE  (1USAANL)                                              11447001    3
+REFERENCE  (J,PR,72,888,4711)                                     11447001    4
+AUTHOR     (L.SEREN,H.N.FRIEDLANDER,S.H.TURKEL)                   11447001    5
+METHOD     (ACTIV)                                                11447001    6
+STATUS     (SCSRS)                                                11447001    7
+HISTORY    (760715T) TRANSLATED FROM SCISRS                       11447001    8
+           (820813A) CONVERTED TO REACTION FORMALISM              11447001    9
+           (840410A) ENERGY CORRECTED.                            11447001   10
+ENDBIB               8                                            11447001   11
+COMMON               1          3                                 11447001   12
+EN-DUMMY                                                          11447001   13
+EV                                                                11447001   14
+ 0.0253                                                           11447001   15
+ENDCOMMON            3                                            11447001   16
+ENDSUBENT           15                                            1144700199999
+SUBENT        11447040     820813                                 11447040    1
+BIB                  3          4                                 11447040    2
+REACTION   (34-SE-74(N,G)34-SE-75,,SIG,,A/SPA)                    11447040    3
+INC-SPECT  REACTOR                                                11447040    4
+DECAY-DATA (34-SE-75,115.D,XR)                                    11447040    5
+            ASSIGNED TO SE-75 BY NNCSC                            11447040    6
+ENDBIB               4                                            11447040    7
+NOCOMMON             0          0                                 11447040    8
+DATA                 2          1                                 11447040    9
+DATA       DATA-ERR                                               11447040   10
+B          PER-CENT                                               11447040   11
+ 2.2    +01 40.                                                   11447040   12
+ENDDATA              3                                            11447040   13
+ENDSUBENT           12                                            1144704099999
+ENDENTRY             2                                            1144799999999
+ENTRY            11507     860715                                 11507000    1
+SUBENT        11507001     860715                                 11507001    1
+BIB                 10         12                                 11507001    2
+INSTITUTE  (1USAORL)                                              11507001    3
+REFERENCE  (J,PR,88,412,52)                                       11507001    4
+AUTHOR     (H.POMERANCE)                                          11507001    5
+TITLE      THERMAL NEUTRON CAPTURE CROSS SECTIONS.                11507001    6
+FACILITY   (OSCIP) PILE OSCILLATOR                                11507001    7
+INC-SPECT  THERMAL SPECTRUM                                       11507001    8
+METHOD     (ACTIV).                                               11507001    9
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)                         11507001   10
+STATUS     (SCSRS)                                                11507001   11
+HISTORY    (760715T) TRANSLATED FROM SCISRS                       11507001   12
+           (821124A) CONVERTED TO REACTION FORMALISM              11507001   13
+           (860715A) ENERGY MOVED TO SUBENTRY 1.                  11507001   14
+ENDBIB              12                                            11507001   15
+COMMON               2          3                                 11507001   16
+EN-DUMMY   MONIT                                                  11507001   17
+EV         B                                                      11507001   18
+ 0.0253     95.                                                   11507001   19
+ENDCOMMON            3                                            11507001   20
+ENDSUBENT           19                                            1150700199999
+SUBENT        11507039     860715                                 11507039    1
+BIB                  1          1                                 11507039    2
+REACTION   (34-SE-74(N,G)34-SE-75,,SIG,,MXW)                      11507039    3
+ENDBIB               1                                            11507039    4
+NOCOMMON             0          0                                 11507039    5
+DATA                 2          1                                 11507039    6
+DATA       DATA-ERR                                               11507039    7
+B          PER-CENT                                               11507039    8
+ 4.8    +01   15.                                                 11507039    9
+ENDDATA              3                                            11507039   10
+ENDSUBENT            9                                            1150703999999
+ENDENTRY             2                                            1150799999999
+ENTRY            11813     830927                                 11813000    1
+SUBENT        11813001     830927                                 11813001    1
+BIB                  8         11                                 11813001    2
+INSTITUTE  (1CANCPO)                                              11813001    3
+REFERENCE  (J,JIN,29,2853,67)                                     11813001    4
+AUTHOR     (G.H.E.SIMS,D.G.JUHNKE)                                11813001    5
+TITLE      THE THERMAL NEUTRON CROSS-SECTIONS AND RESONANCE       11813001    6
+           INTEGRALS OF ZN64, SE74, RB85 AND MO98.                11813001    7
+METHOD     (ACTIV) ACTIVATION                                     11813001    8
+MONITOR    (27-CO-59(N,G)27-CO-60,,SIG)                           11813001    9
+           (27-CO-59(N,G)27-CO-60,,RI)                            11813001   10
+STATUS     (SCSRS)                                                11813001   11
+HISTORY    (760731T) TRANSLATED FROM SCISRS                       11813001   12
+           (830927A) CONVERTED TO REACTION FORMALISM              11813001   13
+ENDBIB              11                                            11813001   14
+COMMON               2          3                                 11813001   15
+MONIT1     MONIT2                                                 11813001   16
+B          B                                                      11813001   17
+ 37.5       69.9                                                  11813001   18
+ENDCOMMON            3                                            11813001   19
+ENDSUBENT           18                                            1181300199999
+SUBENT        11813005     830927                                 11813005    1
+BIB                  2          2                                 11813005    2
+REACTION   (34-SE-74(N,G)34-SE-75,,SIG,,SPA)                      11813005    3
+INC-SPECT   REACTOR SPECTRUM                                      11813005    4
+ENDBIB               2                                            11813005    5
+NOCOMMON             0          0                                 11813005    6
+DATA                 3          1                                 11813005    7
+EN-DUMMY   DATA       DATA-ERR                                    11813005    8
+MEV        B          B                                           11813005    9
+ 2.53   -08 7.28   +01 2.1    +00                                 11813005   10
+ENDDATA              3                                            11813005   11
+ENDSUBENT           10                                            1181300599999
+SUBENT        11813006     830927                                 11813006    1
+BIB                  3          3                                 11813006    2
+REACTION   (34-SE-74(N,G)34-SE-75,,SIG,,MXW)                      11813006    3
+STATUS     (DEP,11813005) CALCULATED FROM REACTOR SPECTRUM DATA.  11813006    4
+INC-SPECT   THERMAL SPECTRUM                                      11813006    5
+ENDBIB               3                                            11813006    6
+NOCOMMON             0          0                                 11813006    7
+DATA                 3          1                                 11813006    8
+EN-DUMMY   DATA       DATA-ERR                                    11813006    9
+MEV        B          B                                           11813006   10
+ 2.53   -08 6.68   +01 1.4    +00                                 11813006   11
+ENDDATA              3                                            11813006   12
+ENDSUBENT           11                                            1181300699999
+ENDENTRY             3                                            1181399999999
+ENTRY            12866     851106                                 12866000    1
+SUBENT        12866001     851106                                 12866001    1
+BIB                 15         51                                 12866001    2
+INSTITUTE  (1USALRL)                                              12866001    3
+REFERENCE  (C,78MAYAG,,495,7805)                                  12866001    4
+AUTHOR     (R.E.HEFT)                                             12866001    5
+TITLE      A CONSISTENT SET OF NUCLEAR-PARAMETER VALUES           12866001    6
+           FOR ABSOLUTE INSTRUMENTAL NEUTRON ACTIVATION           12866001    7
+           ANALYSIS.                                              12866001    8
+FACILITY   (REAC) LAWRENCE LIVERMORE LABORATORY LPTR RESEARCH     12866001    9
+                  REACTOR FACILITY.                               12866001   10
+METHOD     (ACTIV)                                                12866001   11
+           EPITHERMAL-TO-THERMAL FLUX RATIO WAS MEASURED IN       12866001   12
+             EACH IRRADIATION BY INCLUDING A URANIUM-SCANDIUM     12866001   13
+             STANDARD IN THE IRRADIATION PACKAGE.                 12866001   14
+INC-SPECT  REACTOR SPECTRUM. ALL NUCLIDES IRRADIATED IN POSITION  12866001   15
+            S-2 WITH A CD RATIO OF 3.8 AND IN EITHER POSITION E-1 12866001   16
+            (CD RATIO 2.5) OR POSITION A-4 (CD RATIO 2.0)         12866001   17
+            DEPENDING ON WHETHER PRODUCTS WERE LONG OR SHORT-LIVED12866001   18
+MONITOR    ELEMENT SCANDIUM WAS USED AS AN INTERNAL FLUX MONITOR  12866001   19
+             SCANDIUM VALUES WERE MEASURED BY TAKING MIXTURES OF  12866001   20
+                                COBALT-SCANDIUM                   12866001   21
+                                GOLD-SCANDIUM                     12866001   22
+                                U238-SCANDIUM                     12866001   23
+           ((MONIT1)21-SC-45(N,G)21-SC-46,,SIG)                   12866001   24
+           ((MONIT2)27-CO-59(N,G)27-CO-60,,SIG)                   12866001   25
+           ((MONIT3)79-AU-197(N,G)79-AU-198,,SIG)                 12866001   26
+           ((MONIT4)92-U-238(N,G)92-U-239,,SIG)                   12866001   27
+           ((MONIT5)21-SC-45(N,G)21-SC-46,,RI)                    12866001   28
+           ((MONIT6)27-CO-59(N,G)27-CO-60,,RI)                    12866001   29
+           ((MONIT7)79-AU-197(N,G)79-AU-198,,RI)                  12866001   30
+           ((MONIT8)92-U-238(N,G)92-U-239,,RI)                    12866001   31
+DECAY-MON  (21-SC-46-G,83.9D,DG,1120.5,1.)                        12866001   32
+           (27-CO-60-G,1922.D,DG,1332.51,1.)                      12866001   33
+           (79-AU-198-G,2.70D,DG,411.79,0.968)                    12866001   34
+           (92-U-239,0.01635D,DG,74.67,.593)                      12866001   35
+           (93-NP-239,2.353D,DG,106.07,0.252)                     12866001   36
+DETECTOR   ALL COUNTING WAS DONE ON GAMMA SPECTRAL ANALYZERS      12866001   37
+             TO MEASURE ABSOLUTE PHOTON EMISSION RATES.           12866001   38
+ANALYSIS   ALL SPECTRA GENERATED WERE ANALYZED BY COMPUTER        12866001   39
+             CODE GAMANAL TO OBTAIN A SET OF ABSOLUTE             12866001   40
+             DISINTEGRATION RATES FOR THE NUCLIDES FOUND.         12866001   41
+           THE DISINTEGRATION-RATE DATA THUS OBTAINED WERE        12866001   42
+             FURTHER ANALYZED BY ANOTHER COMPUTER CODE NADAC      12866001   43
+             TO COMPUTE THE EFFECTIVE CROSS SECTION FOR           12866001   44
+             EACH ACTIVATION PRODUCT.                             12866001   45
+ERR-ANALYS DETAILS NOT GIVEN                                      12866001   46
+             FOR SOME ELEMENTS THE ERRORS REFLECT THE EFFECTS OF  12866001   47
+             CONCENTRATION ERROR OR EVAPORATION LOSS.             12866001   48
+CORRECTION NO CORRECTION FOR THE INTERFERENCE DUE TO (N,P)        12866001   49
+             REACTION WAS DONE.                                   12866001   50
+           CORRECTION DUE TO U-235 FISSION REACTION IS IMPLIED.   12866001   51
+STATUS     (APRVD) R.E.HEFT, 84/12/27.                            12866001   52
+HISTORY    (840410C)                                              12866001   53
+ENDBIB              51                                            12866001   54
+COMMON              10          6                                 12866001   55
+MONIT1     MONIT1-ERR MONIT2     MONIT3     MONIT4     MONIT5     12866001   56
+MONIT5-ERR MONIT6     MONIT7     MONIT8                           12866001   57
+B          B          B          B          B          B          12866001   58
+B          B          B          B                                12866001   59
+27.7       0.5        37.5       98.8       2.720      12.2       12866001   60
+0.6        75.        1550.      280.                             12866001   61
+ENDCOMMON            6                                            12866001   62
+ENDSUBENT           61                                            1286600199999
+SUBENT        12866048     841227                                 12866048    1
+BIB                  3          3                                 12866048    2
+REACTION   (34-SE-74(N,G)34-SE-75,,SIG,,SPA)                      12866048    3
+SAMPLE     NATURAL SAMPLE,ASSUMED 0.87 PERCENT ABUNDANCE.         12866048    4
+DECAY-DATA (34-SE-75,1.200E+02D,DG,136.00,0.586)                  12866048    5
+ENDBIB               3                                            12866048    6
+NOCOMMON             0          0                                 12866048    7
+DATA                 3          1                                 12866048    8
+EN-DUMMY   DATA       DATA-ERR                                    12866048    9
+EV         B          B                                           12866048   10
+0.025      46.        1.                                          12866048   11
+ENDDATA              3                                            12866048   12
+ENDSUBENT           11                                            1286604899999
+ENDENTRY             2                                            1286699999999
+ENTRY            20051     830901                                 20051000    1
+SUBENT        20051001     830901                                 20051001    1
+BIB                 16         35                                 20051001    2
+INSTITUTE  (2NORKJL)                                              20051001    3
+REFERENCE  (J,JNE,21,373,6704)                                    20051001    4
+AUTHOR     (E.STEINNES)                                           20051001    5
+TITLE      -THERMAL NEUTRON ACTIVATION CROSS-SECTION OF SE-74.-   20051001    6
+FACILITY   (REAC )    JEEP I REACTOR,                             20051001    7
+           .IN THERMAL COLUMN (CADMIUM-RATIO OF GOLD ABOUT 1.0E+4)20051001    8
+           .IN ISOTOPE CHANNEL (CADMIUM-RATIO OF GOLD ABOUT 2.6). 20051001    9
+INC-SOURCE (THCOL)    JEEP I REACTOR, THERMAL COLUMN AND          20051001   10
+           (REAC )    ISOTOPE CHANNEL, (PILE NEUTRONS).           20051001   11
+SAMPLE                ABOUT 10 MILLIG. OF ELEMENTARY SE OR SE-O(2)20051001   12
+METHOD     (ACTIV)    ACTIVATION.                                 20051001   13
+DETECTOR   (NAICR)    NAI(TL)-CRYSTAL, MULTICHANNEL ANALYZER.     20051001   14
+ANALYSIS   .INTEGRATION OF THE COUNTS IN THE 280 KEV PHOTOPEAK.   20051001   15
+           .THE VALUE GIVEN IS THE MEAN VALUE OF 3 THERMAL COLUMN 20051001   16
+            AND 3 PILE MEASUREMENTS REDUCED TO THERMAL ENERGIES.  20051001   17
+MONITOR    (11-NA-23(N,G)11-NA-24,,SIG)                           20051001   18
+            CROSS-SECTION = 531+-8 MILLIBARN.                     20051001   19
+COMMENT    .FOLLOWING DATA USED IN CALCULATIONS,                  20051001   20
+            NA-24, T(1/2) = 15.0 HOURS.                           20051001   21
+            SE-75, T(1/2) = 120. DAYS.                            20051001   22
+            ISOTOPIC ABUNDANCE OF SE-74 = .78 PERCENT.            20051001   23
+            BRANCHING RATIO OF (265+280+305, KEV) GAMMA-RAYS =    20051001   24
+            85 PERCENT TOTAL.                                     20051001   25
+STATUS                DATA FROM PUBLICATION.                      20051001   26
+           (APRVD)    DATA AND COMMENT APPROVED BY THE AUTHOR.    20051001   27
+HISTORY    (701105T)  FROM NEUDADA FILE.                          20051001   28
+           (710908E)                                              20051001   29
+CORRECTION .CORRECTION APPLIED FOR EPITHERMAL ACTIVATION (WHEN    20051001   30
+            PILE NEUTRONS HAVE BEEN USED) BY IRRADIATING SEPARATE 20051001   31
+            SAMPLES WITHIN CD-COVER.                              20051001   32
+ERR-ANALYS .STANDARD DEVIATION QUOTED.                            20051001   33
+           .ACCURACY MAINLY DEPENDENT ON NUCLEAR DATA FOR SE-75   20051001   34
+            AND NA-24. IF THE ERROR IN THE NUCLEAR DATA IS        20051001   35
+            5 PER-CENT OR BETTER THE VALUE CAN BE GIVEN           20051001   36
+            AS 52+-3 BARN.                                        20051001   37
+ENDBIB              35                                            20051001   38
+NOCOMMON             0          0                                 20051001   39
+ENDSUBENT           38                                            2005100199999
+SUBENT        20051002     830901                                 20051002    1
+BIB                  3          4                                 20051002    2
+REACTION   (34-SE-74(N,G)34-SE-75,,SIG,,MXW)                      20051002    3
+PART-DET   (DG   )    DECAY GAMMA.                                20051002    4
+HISTORY    (701105T)  FROM NEUDADA FILE.                          20051002    5
+           (710908E)                                              20051002    6
+ENDBIB               4                                            20051002    7
+NOCOMMON             0          0                                 20051002    8
+DATA                 3          1                                 20051002    9
+EN-DUMMY   DATA       DATA-ERR                                    20051002   10
+MEV        B          B                                           20051002   11
+ 2.5300E-08 5.1800E+01 1.2000E+00                                 20051002   12
+ENDDATA              3                                            20051002   13
+ENDSUBENT           12                                            2005100299999
+ENDENTRY             2                                            2005199999999
+ENTRY            30248     900413                                 30248000    1
+SUBENT        30248001     900413                                 30248001    1
+BIB                 14         50                                 30248001    2
+TITLE      P-WAVE NEUTRON CAPTURE IN HEAVY NUCLEI AT 25 KEV       30248001    3
+AUTHOR     (K.SIDDAPPA,J.RAMA RAO,M.SRIRAMACHANDRA MURTY)         30248001    4
+INSTITUTE  (3INDAUW)                                              30248001    5
+SAMPLE     METAL POWDERS OR OXIDES WITH PURITY GREATER THAN 99.9  30248001    6
+           PERCENT KEPT IN CYLINDRICAL PERPEX TUBES 13 CM IN DIAM.30248001    7
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)                           30248001    8
+MONIT-REF  (,ROBERTSON,J,NP,71,417,6509)                          30248001    9
+INC-SOURCE (PHOTO) SB-BE PHOTONEUTRON SOURCE OF 20 CURIES.        30248001   10
+           GIVEN NEUTRON ENERGY IN J. PHYS., 5A, 877, JUNE 1972   30248001   11
+           IS 25 +- 5 KEV. GIVEN NEUTRON ENERGY IN J. OF ANNALS OF30248001   12
+           PHYS., 83, 355, 1974 IS 23 +- 5 KEV.                   30248001   13
+METHOD     (ACTIV) ACTIVATION METHOD PLUS ABSOLUTE GAMMA COUNTING 30248001   14
+           EFFECTIVE PHOTOPEAK AND TOTAL EFFICIENCIES OF DETECTOR 30248001   15
+           WERE DETERMINED EXPERIMENTALLY AND USED IN THE         30248001   16
+           EVALUATION OF THE CROSS SECTIONS                       30248001   17
+DETECTOR   (SCIN) A 7F8 HARSHAW WELL-TYPE NAI(TL) CRYSTAL.        30248001   18
+CORRECTION THE DEGRADATION OF ENERGY OF KEV NEUTRONS WITHIN THE   30248001   19
+           TARGET MATERIAL IS CONSIDERED NEGLIGIBLE.              30248001   20
+ERR-ANALYS ERROR INCLUDES AS FOLLOWS:                             30248001   21
+            - STATISTICAL ERROR IN THE PHOTO PEAK AREA VARIES FROM30248001   22
+              1 TO 3 PER-CENT DEPENDING UPON THE STATISTICS       30248001   23
+            - ERRORS ASSOCIATED WITH THE CROSS SECTION            30248001   24
+              MEASUREMENT, ERRORS IN THE WEIGHTS OF THE SAMPLE,   30248001   25
+              DURATION OF IRRADIATION, PERIODS OF COUNTING ETC.,  30248001   26
+              ARE USUALLY SMALL (LESS THAN 1 PER-CENT)            30248001   27
+            - ERRORS IN THE EFFICIENCIES (APPROX. 5 PER-CENT FOR  30248001   28
+              GAMMA RAYS GREATER THAN 200 KEV AND APPROX. 7       30248001   29
+              PER-CENT FOR LOWER ENERGY GAMMAS)                   30248001   30
+            - ERRORS IN HALF LIVES (LESS THAN 2 PER-CENT USUALLY  30248001   31
+              AND 5 PER-CENT IN FEW CASES)                        30248001   32
+            - ERRORS IN GAMMA ABUNDANCES (5 - 10 PER-CENT)        30248001   33
+            - ERRORS IN INTERNAL CONVERSION COEFFICIENTS (RANGE   30248001   34
+              FROM 1 TO 10 PER-CENT)                              30248001   35
+            - ERRORS IN STANDARD IODINE CROSS SECTION             30248001   36
+            (3.1 PER-CENT)                                        30248001   37
+COMMENT    S-WAVE NEUTRON CONTRIBUTIONS WERE EVALUATED MAKING USE 30248001   38
+           OF THE LOW ENERGY RESONANCE PARAMETERS AVAILABLE IN    30248001   39
+           LITERATURE. P-WAVE CAPTURE CROSS SECTION OBTAINED BY   30248001   40
+           SUBTRACTING S-WAVE CAPTURE CONTRIBUTION FROM THE       30248001   41
+           MEASURED TOTAL CROSS SECTIONS.                         30248001   42
+STATUS     DUE TO THE DISCREPANCY OF THE RESULTS PUBLISHED IN     30248001   43
+           DIFFERENT SOURCES, THE MAIN REFERENCE(S) WHICH (ON     30248001   44
+           COMPILER'S OPINION) CONTAINS THE FINAL DATA IS GIVEN   30248001   45
+           IN EACH SUBENTRY                                       30248001   46
+HISTORY    (730626C) FM                                           30248001   47
+           (831110A) ALTERED BY VP. SEE EXPLANATION UNDER STATUS  30248001   48
+           (880714U) TMK CORRECTION, ERR-ANALYS WERE APPENDED.    30248001   49
+           ENERGY OF NEUTRON WAS CORRECTED. REF. WAS ADDED IN     30248001   50
+           SUBENT 6,8,9,10 AND 14.                                30248001   51
+           (900109U) VOF.AUTHORS'ORDER CHANGED ACCORD. TO MAIN REF30248001   52
+ENDBIB              50                                            30248001   53
+COMMON               4          3                                 30248001   54
+EN         EN-RSL     MONIT      MONIT-ERR                        30248001   55
+KEV        KEV        MB         MB                               30248001   56
+23.        5.         832.       26.                              30248001   57
+ENDCOMMON            3                                            30248001   58
+ENDSUBENT           57                                            3024800199999
+SUBENT        30248002     840510                                 30248002    1
+BIB                  4         10                                 30248002    2
+REFERENCE  (J,JP/A,5,877,7206) FINAL DATA                         30248002    3
+           (C,70MADURAI,2,29,7002) PRELIMINARY DATA SUPERSEDED    30248002    4
+           BY DATA PUBLISHED IN JOURNAL OF PHYS,5A,877,(1972)     30248002    5
+REACTION   (34-SE-74(N,G)34-SE-75,,SIG)                           30248002    6
+COMMENT    CALCULATED S-WAVE CONTRIBUTION = 96.+-18. MB           30248002    7
+           DEDUCED P-WAVE CROSS SECTION = 102.+-35. MB            30248002    8
+           -COMPILER REMARK- THERE IS NO EXPLANATION WHY A        30248002    9
+           DRASTICALLY DIFFERENT VALUE OF 2383.MB WAS REPORTED    30248002   10
+           AT THE MADURAI CONFERENCE                              30248002   11
+HISTORY    (831110A) ALTERED BY VP                                30248002   12
+ENDBIB              10                                            30248002   13
+NOCOMMON             0          0                                 30248002   14
+DATA                 2          1                                 30248002   15
+DATA       DATA-ERR                                               30248002   16
+B          B                                                      30248002   17
+ 2.3830E+00 2.1600E-01                                            30248002   18
+ENDDATA              3                                            30248002   19
+ENDSUBENT           18                                            3024800299999
+ENDENTRY             2                                            3024899999999
+ENTRY            41015     900615                                 41015000    1
+SUBENT        41015001     900615                                 41015001    1
+BIB                 12         15                                 41015001    2
+TITLE       NEUTRON RADIATION CAPTURE CROSS-SECTIOGNS FOR EVEN    41015001    3
+            ISOTOPES SE, CD, GD, TE, DY, ER AND YB                41015001    4
+AUTHOR     (YU.N.TROFIMOV)                                        41015001    5
+REFERENCE  (J,YK,,(2),11,8906) DATA ARE GIVEN                     41015001    6
+           (J,YK,,(4),10,87)   EXPERIMENTAL DETAILS               41015001    7
+INSTITUTE  (4CCPRI )                                              41015001    8
+MONITOR     ABSOLUTE MEASUREMENTS, NEUTRON FLUX,WAS MEASURED      41015001    9
+            WIDTH THE HELP OF GOLD METAL                          41015001   10
+FACILITY   (VDG) VAN-DE-GRAAFF ACCELERATOR)                       41015001   11
+DECAY-DATA (79-AU-198,2.695D,DG,411.8,0.9556)                     41015001   12
+METHOD     (ACTIV)                                                41015001   13
+INC-SOURCE (P-T)  PROTON AND SOLID TITANUM-TRITIUM TARGETS        41015001   14
+STATUS      DATA ARE TAKEN FROM THE REFERENCE-ONE                 41015001   15
+ERR-ANALYS (DATA-ERR)  ERRORS ARE NOT SPECIFIED                   41015001   16
+HISTORY    (900615C) COMPILED AT THE CENTRE - CJD                 41015001   17
+ENDBIB              15                                            41015001   18
+COMMON               1          3                                 41015001   19
+EN                                                                41015001   20
+MEV                                                               41015001   21
+    0.5                                                           41015001   22
+ENDCOMMON            3                                            41015001   23
+ENDSUBENT           22                                            4101500199999
+SUBENT        41015002     900615                                 41015002    1
+BIB                  3          4                                 41015002    2
+REACTION   (34-SE-74(N,G)34-SE-75,,SIG)                           41015002    3
+SAMPLE      METALLIC SELENIUM, MASS 100 MILLIGRAM                 41015002    4
+            SE-74 CONTENT IS 98.2 %, SE-76 CONTENT IS 1.8 %       41015002    5
+DECAY-DATA (34-SE-75,119.78D,DG,264.6,0.595)                      41015002    6
+ENDBIB               4                                            41015002    7
+NOCOMMON             0          0                                 41015002    8
+DATA                 2          1                                 41015002    9
+DATA       DATA-ERR                                               41015002   10
+MB         MB                                                     41015002   11
+  82.        10.                                                  41015002   12
+ENDDATA              3                                            41015002   13
+ENDSUBENT           12                                            4101500299999
+ENDENTRY             2                                            4101599999999
+ENDREQUEST           1                                            Z999999999999

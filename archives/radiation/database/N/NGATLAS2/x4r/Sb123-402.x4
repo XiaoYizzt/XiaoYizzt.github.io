@@ -1,0 +1,132 @@
+REQUEST           1001   20010914          3     142103               0  0    0
+ENTRY            11997     830802                                 11997000    1
+SUBENT        11997001     830802                                 11997001    1
+BIB                  6          7                                 11997001    2
+INSTITUTE  (1USAANL)                                              11997001    3
+REFERENCE  (J,PR,72,1271,47)                                      11997001    4
+AUTHOR     (E.DER MATEOSIAN,M.GOLDHABER,C.MUEHLHAUSE,M.MCKEOWN)   11997001    5
+TITLE      MULTIPOLE NUCLEAR ISOMERISM                            11997001    6
+STATUS     (SCSRS)                                                11997001    7
+HISTORY    (760802T) TRANSLATED FROM SCISRS                       11997001    8
+           (830802A) CONVERTED TO REACTION FORMALISM              11997001    9
+ENDBIB               7                                            11997001   10
+NOCOMMON             0          0                                 11997001   11
+ENDSUBENT           10                                            1199700199999
+SUBENT        11997002     830802                                 11997002    1
+BIB                  3          3                                 11997002    2
+REACTION   (51-SB-123(N,G)51-SB-124-M,,SIG,,MXW)                  11997002    3
+METHOD     (ACTIV) ACTIVATION                                     11997002    4
+DECAY-DATA (51-SB-124-M,1.3MIN)                                   11997002    5
+ENDBIB               3                                            11997002    6
+NOCOMMON             0          0                                 11997002    7
+DATA                 2          1                                 11997002    8
+EN-DUMMY   DATA-APRX                                              11997002    9
+EV         B                                                      11997002   10
+ 0.0253     0.03                                                  11997002   11
+ENDDATA              3                                            11997002   12
+ENDSUBENT           11                                            1199700299999
+ENDENTRY             2                                            1199799999999
+ENTRY            20207     831121                                 20207000    1
+SUBENT        20207001     831121                                 20207001    1
+BIB                 13         15                                 20207001    2
+INSTITUTE  (2BLGMOL)                                              20207001    3
+REFERENCE  (J,NP,37,90,6208)                                      20207001    4
+AUTHOR     (J.VANHORENBEECK)                                      20207001    5
+TITLE      - STUDY OF THE ISOMERIC LEVELS OF SB-124 -  (IN FRENCH)20207001    6
+FACILITY   .BR1-REACTOR IN MOL, NUCL.INST.METH.,14(1961)272.      20207001    7
+INC-SPECT  .REACTOR SPECTRUM.                                     20207001    8
+METHOD     (ACTIV)    ACTIVATION                                  20207001    9
+DETECTOR   (NAICR)    SODIUM-IODIDE CRYSTAL                       20207001   10
+PART-DET   (DG   )    DECAY GAMMAS                                20207001   11
+COMMENT    .T(1/2) = 93 +- 5 SEC. MEASURED.                       20207001   12
+           .T(1/2) = 21 +- 1 MIN. MEASURED.                       20207001   13
+STATUS     .DATA FROM NUCL.PHYS.,37(1962)90.                      20207001   14
+HISTORY    (721005C)                                              20207001   15
+           (740521E)                                              20207001   16
+ERR-ANALYS .NO DETAILS GIVEN.                                     20207001   17
+ENDBIB              15                                            20207001   18
+COMMON               1          3                                 20207001   19
+EN-DUMMY                                                          20207001   20
+MEV                                                               20207001   21
+ 2.5300E-08                                                       20207001   22
+ENDCOMMON            3                                            20207001   23
+ENDSUBENT           22                                            2020700199999
+SUBENT        20207003     831121                                 20207003    1
+BIB                  4          8                                 20207003    2
+REACTION   ((51-SB-123(N,G)51-SB-124-M,,SIG,,SPA)/                20207003    3
+           (51-SB-123(N,G)51-SB-124-M,,SIG,,SPA))                 20207003    4
+HALF-LIFE  (HL1,51-SB-124-M2)                                     20207003    5
+           (HL2,51-SB-124-M1)                                     20207003    6
+COMMENT    .ISOMERIC RATIO =                                      20207003    7
+             SIGMA(T(1/2)=93 SEC.)/SIGMA(T(1/2)=21 MIN.).         20207003    8
+HISTORY    (721005C)                                              20207003    9
+           (740521E)                                              20207003   10
+ENDBIB               8                                            20207003   11
+NOCOMMON             0          0                                 20207003   12
+DATA                 4          1                                 20207003   13
+HL1        HL2        DATA       DATA-ERR                         20207003   14
+SEC        MIN        NO-DIM     NO-DIM                           20207003   15
+ 9.3000E+01 2.1000E+01 2.0000E+00 5.0000E-01                      20207003   16
+ENDDATA              3                                            20207003   17
+ENDSUBENT           16                                            2020700399999
+ENDENTRY             2                                            2020799999999
+ENTRY            30077     890209                                 30077000    1
+SUBENT        30077001     890209                                 30077001    1
+BIB                 14         36                                 30077001    2
+TITLE      NEUTRON ACTIVATION CROSS-SECTIONS AT 24 KEV            30077001    3
+AUTHOR     (S.S.HASAN,A.K.CHAUBEY, M.L.SEHGAL)                    30077001    4
+INSTITUTE  (3INDMUA)                                              30077001    5
+EXP-YEAR   (68)                                                   30077001    6
+REFERENCE  (J,NC/B,58,402,6812) TABLE OF CROSS SECTIONS GIVEN     30077001    7
+SAMPLE     POWDER,PURITY BETTER THAN 99.9PERCENT,SAMPLE SANDWICHED30077001    8
+           BETWEEN 2 CELLOTAPES, PERSPEX RING FOR FIXED GEOMETRY  30077001    9
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)                           30077001   10
+INC-SOURCE ANTIMONY-BERYLLIUM, 1.7 CM DIAM. * 3.3 CM HEIGHT,      30077001   11
+           FLUX GREATER THAN  10E+7 NEUTRONS/SEC                  30077001   12
+METHOD     (ACTIV) BETA DECAY MEASURED - ACTIVATION METHOD        30077001   13
+DETECTOR   (GEMUC) END WINDOW BETA COUNTER                        30077001   14
+ERR-ANALYS (DATA-ERR) GIVEN ERROR CONSISTS OF                     30077001   15
+           1.) 1 PERCENT IN ESTIMATION OF TOTAL NUMBER OF TARGET  30077001   16
+               NUCLEI.                                            30077001   17
+           2.) 2 PERCENT IN MEASUREMENT OF SAMPLE-SOURCE GEOMETRY 30077001   18
+               EFFECT WHICH WILL DEPEND UPON REPRODUCIBILITY OF   30077001   19
+               THE GEOMETRY.                                      30077001   20
+           3.) IRRADIATION TIME MEASURED WITH AN ACCURACY OF      30077001   21
+               BETTER THAN 1 PERCENT.                             30077001   22
+           4.) ABOUT 2 PERCENT ERROR IN MEASUREMENT OF THE CROSS- 30077001   23
+               SECTIONS ESTIMATED TO BE DUE TO THE GAMMA-RAYS     30077001   24
+               DETECTED BY BETA-COUNTER.                          30077001   25
+           5.) STATISTICAL ERROR VARIES FROM ONE CASE TO ANOTHER. 30077001   26
+CORRECTION ABSENCE OF THERMAL NEUTRONS DETERMINED, INFLUENCE OF   30077001   27
+           SCATTERED NEUTRONS OF LOWER THAN 24. KEV ENERGY        30077001   28
+           NEGLIGIBLE DUE TO GEOMETRY,I.E. LARGE ROOM, REMOTE     30077001   29
+           LOCATION OF NEUTRON SOURCE FROM THE FLOOR (=1.3 M)     30077001   30
+           AND NO SHIELDING MATERIAL AROUND THE SOURCE.           30077001   31
+STATUS     NUOVO CIMENTO, VOL. 58B, PAGE 402 (1968)               30077001   32
+HISTORY    (691124C) DATA COMPILED FROM NUOVO CIM. 58B,402(1968)  30077001   33
+           INTO DASTAR-01014                                      30077001   34
+           (691203) PROOF COPY SENT TO AUTHOR                     30077001   35
+           (701211T) CONVERTED FROM DASTAR-01014                  30077001   36
+           (880601A) TMK CODING CHANGE FROM ISO-QUANT TO REACTION 30077001   37
+                        DECAY-DATA ADDED.                         30077001   38
+ENDBIB              36                                            30077001   39
+COMMON               2          3                                 30077001   40
+EN         MONIT                                                  30077001   41
+KEV        B                                                      30077001   42
+24.        0.82                                                   30077001   43
+ENDCOMMON            3                                            30077001   44
+ENDSUBENT           43                                            3007700199999
+SUBENT        30077014     890209                                 30077014    1
+BIB                  2          2                                 30077014    2
+REACTION   (51-SB-123(N,G)51-SB-124-M1,,SIG)                      30077014    3
+DECAY-DATA (51-SB-124-M1,1.3MIN,B-)                               30077014    4
+ENDBIB               2                                            30077014    5
+NOCOMMON             0          0                                 30077014    6
+DATA                 2          1                                 30077014    7
+DATA       DATA-ERR                                               30077014    8
+MB         MB                                                     30077014    9
+ 5.4        1.3                                                   30077014   10
+ENDDATA              3                                            30077014   11
+ENDSUBENT           10                                            3007701499999
+ENDENTRY             2                                            3007799999999
+ENDREQUEST           1                                            Z999999999999

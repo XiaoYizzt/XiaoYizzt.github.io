@@ -1,0 +1,114 @@
+<html>
+
+
+<!-- Mirrored from www.nuclear.csdb.cn/endf.htm by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 14 Dec 2022 10:45:44 GMT -->
+<head>
+<link rel="stylesheet" href="style.css" type="text/css">
+<title>ENDF数据检索</title>
+</head>
+<p><a href="endf/index.html">ENDF库文件下载</a></p>
+
+<p align="left" class="title1">评价核数据库绘图:</p>
+
+<p><a href="cgi-bin/cs.html">反应截面绘图</a></p>
+
+<p><a href="cgi-bin/total1.html">截面绘图</a>（包含全截面及主要的反应道）</p>
+
+
+
+<hr>
+
+<p align="left" class=title1>评价核数据库数据检索：</p>
+
+<p align="left" class="up"><font color="#cc0033">ENDF数据检索方法1:</font></p>
+<form method="POST" action="http://www.nuclear.csdb.cn/cgi-bin/endf2.exe" onSubmit="">
+  <table border="1" width="75%">
+    <tr>
+      <td width="100%" colspan="2">
+        <p align="center">Target</td>
+    </tr>
+    <tr>
+      <td width="23%">Z or Element:</td>
+      <td width="77%"><input type="text" name="Target" size="20">例如：Fe(Element);26(Z);</td>
+    </tr>
+  </table>
+  <p align="left"><input type="submit" value="Next" name="B3"><input type="reset" value="全部重写" name="B4"></p>
+</form>
+
+<p align="left" class=up><font color="#cc0033">ENDF数据检索方法2:</font></p>
+<form method="POST" action="http://www.nuclear.csdb.cn/cgi-bin/endf2020.pl">
+  <table border="1" width="76%" cellspacing="0">
+    <tr>
+      <td width="10%">Target:</td>
+      <td width="56%"><input type="text" name="Target" size="19">&nbsp;&nbsp; 例如：Fe-56</td>         
+    </tr>
+    <tr>
+      <td width="10%">MF:</td>
+      <td width="56%"><input type="text" name="MF" size="19"></td>
+    </tr>
+    <tr>
+      <td width="10%">MT:</td>
+      <td width="56%"><input type="text" name="MT" size="19"></td>
+    </tr>
+    <tr>
+      <td width="10%">G/M</td>
+      <td width="56%"><select size="1" name="M">
+          <option value="0" selected>G</option>
+          <option value="M">M</option>
+        </select>&nbsp; 注：G-基态&nbsp; M-激发态</td> 
+    </tr>
+  </table>
+  <table border="1" width="76%" cellspacing="0">
+    <tr>
+    	  <td><input type="checkbox" value="ON" name="CENDL3.2">CENDL32</td>
+    	  <td width="17%"><input type="checkbox" value="ON" name="CENDL31">CENDL31</td>
+    	 
+	      <td width="16%"><input type="checkbox" value="ON" name="CENDL">CENDL21</td>
+	       <td width="17%"><input type="checkbox" value="ON" name="CENDLTMSR">CENDLTMSR</td>
+     </tr>
+    <tr>   
+      <td width="16%"><input type="checkbox" value="ON" name="ENDFB80">ENDFB80</td>
+       <td width="19%"><input type="checkbox" value="ON" name="ENDFB70">ENDFB70</td>
+       <td width="15%"><input type="checkbox" value="ON" name="ENDFB6">ENDFB68</td>
+       <td></td>
+       
+
+    </tr>
+
+   <tr>
+    <td width="15%"><input type="checkbox" value="ON" name="JENDL40">JENDL40</td>
+        
+         <td width="17%"><input type="checkbox" value="ON" name="JENDL33">JENDL33</td>
+         <td width="15%"><input type="checkbox" value="ON" name="JENDL">JENDL32</td>
+        
+            <td width="19%"></td>
+      
+	      
+</tr>
+  
+      
+ 
+       
+    <tr>
+    <td width="15%"><input type="checkbox" value="ON" name="JEFF311">JEFF311</td>
+	      <td width="17%"><input type="checkbox" value="ON" name="JEF">JEF22</td>
+      
+	    <td width="15%"></td></td>
+	    	<td width="15%"></td></td>
+	  </tr>
+	  <tr>
+	  	<td width="19%"><input type="checkbox" value="ON" name="BROND">BROND</td>
+	  	 <td width="15%"><input type="checkbox" value="ON" name="ROSFOND2010">ROSFOND2011</td>
+	  	<td></td>
+	  	<td></td>
+	  	</tr>
+
+  </table>
+  <p align="left"><input type="submit" value="提交" name="B1"><input type="reset" value="全部重写" name="B2"></p>
+</form>
+
+<p align="left">　</p>
+
+
+<!-- Mirrored from www.nuclear.csdb.cn/endf.htm by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 14 Dec 2022 10:45:46 GMT -->
+</html>

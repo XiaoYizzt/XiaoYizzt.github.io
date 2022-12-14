@@ -1,0 +1,36 @@
+REQUEST           1001   20010914          3     141649               0  0    0
+ENTRY            11937     860221                                 11937000    1
+SUBENT        11937001     860221                                 11937001    1
+BIB                  8         11                                 11937001    2
+INSTITUTE  (1USAANL)                                              11937001    3
+REFERENCE  (J,NSE,29,147,6707)                                    11937001    4
+           (R,ANL-6797,388,63)                                    11937001    5
+AUTHOR     (L.GLENDENIN,H.GRIFFIN)                                11937001    6
+TITLE      NEUTRON-CAPTURE CROSS SECTION OF 35-HR 105-RH*.        11937001    7
+FACILITY   (REAC) PNEUMATIC TUBE OF ARGONNE CP-5 REACTOR.         11937001    8
+DETECTOR   (NAICR)                                                11937001    9
+STATUS     (SCSRS)                                                11937001   10
+HISTORY    (760802T) TRANSLATED FROM SCISRS                       11937001   11
+           (830802A) CONVERTED TO REACTION FORMALISM              11937001   12
+           (860221A) BIB, DATA CORRECTIONS.                       11937001   13
+ENDBIB              11                                            11937001   14
+NOCOMMON             0          0                                 11937001   15
+ENDSUBENT           14                                            1193700199999
+SUBENT        11937002     860221                                 11937002    1
+BIB                  6          6                                 11937002    2
+REACTION   (45-RH-105(N,G)45-RH-106-M,,SIG,,SPA)                  11937002    3
+METHOD     (ACTIV)    ACTIVATION                                  11937002    4
+DECAY-DATA (45-RH-106-M,2.2HR,DG,,,B-)                            11937002    5
+MONITOR    (27-CO-59(N,G)27-CO-60,,SIG)                           11937002    6
+DECAY-MON  (27-CO-60-G,5.27YR,DG,,,B-)                            11937002    7
+INC-SPECT   REACTOR SPECTRUM                                      11937002    8
+ENDBIB               6                                            11937002    9
+NOCOMMON             0          0                                 11937002   10
+DATA                 4          1                                 11937002   11
+EN-DUMMY   DATA       DATA-ERR   MONIT                            11937002   12
+MEV        B          B          B                                11937002   13
+ 2.53   -08 5.7    +03 1.2    +03 36.                             11937002   14
+ENDDATA              3                                            11937002   15
+ENDSUBENT           14                                            1193700299999
+ENDENTRY             2                                            1193799999999
+ENDREQUEST           1                                            Z999999999999

@@ -1,0 +1,142 @@
+REQUEST           1001   20010914          3     143748               0  0    0
+ENTRY            11507     860715                                 11507000    1
+SUBENT        11507001     860715                                 11507001    1
+BIB                 10         12                                 11507001    2
+INSTITUTE  (1USAORL)                                              11507001    3
+REFERENCE  (J,PR,88,412,52)                                       11507001    4
+AUTHOR     (H.POMERANCE)                                          11507001    5
+TITLE      THERMAL NEUTRON CAPTURE CROSS SECTIONS.                11507001    6
+FACILITY   (OSCIP) PILE OSCILLATOR                                11507001    7
+INC-SPECT  THERMAL SPECTRUM                                       11507001    8
+METHOD     (ACTIV).                                               11507001    9
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)                         11507001   10
+STATUS     (SCSRS)                                                11507001   11
+HISTORY    (760715T) TRANSLATED FROM SCISRS                       11507001   12
+           (821124A) CONVERTED TO REACTION FORMALISM              11507001   13
+           (860715A) ENERGY MOVED TO SUBENTRY 1.                  11507001   14
+ENDBIB              12                                            11507001   15
+COMMON               2          3                                 11507001   16
+EN-DUMMY   MONIT                                                  11507001   17
+EV         B                                                      11507001   18
+ 0.0253     95.                                                   11507001   19
+ENDCOMMON            3                                            11507001   20
+ENDSUBENT           19                                            1150700199999
+SUBENT        11507090     860715                                 11507090    1
+BIB                  1          1                                 11507090    2
+REACTION   (74-W-180(N,G)74-W-181,,SIG,,MXW)                      11507090    3
+ENDBIB               1                                            11507090    4
+NOCOMMON             0          0                                 11507090    5
+DATA                 3          1                                 11507090    6
+DATA       +DATA-ERR  -DATA-ERR                                   11507090    7
+B          PER-CENT   PER-CENT                                    11507090    8
+ 3.0    +01 400.       100.                                       11507090    9
+ENDDATA              3                                            11507090   10
+ENDSUBENT            9                                            1150709099999
+ENDENTRY             2                                            1150799999999
+ENTRY            40925     880818                                 40925000    1
+SUBENT        40925001     880818                                 40925001    1
+BIB                 13         26                                 40925001    2
+TITLE       NEUTRON RADIATION CAPTURE CROSS-SECTION MEASUREMENT   40925001    3
+            FOR TUNGSTEN ISOTOPES IN THE ENERGY RANGE 5-400 KEV   40925001    4
+AUTHOR     (M.V.BOKHOVKO,L.E.KAZAKOV,V.N.KONONOV,E.D.POLETAEV,    40925001    5
+           V.M.TIMOKHOV,A.A.VOEVODSKIJ)                           40925001    6
+INSTITUTE  (4CCPFEI)                                              40925001    7
+REFERENCE  (J,YK,,(1),39,8602)  DATA ARE GIVEN                    40925001    8
+METHOD     (TOF)                                                  40925001    9
+FACILITY   (VDG) ELECTROSTATIC ACCELERATOR EG-1                   40925001   10
+DETECTOR   (STANK) LIQUID SCINT. DETECTOR                         40925001   11
+           (GLASD)  LI-6 DETECTOR FOR NEUTRON FLUX MONITORING     40925001   12
+           (NAICR)  B-10-PLUX-NAI(TL) DETECTOR FOR NEUTR.FLUX.MON.40925001   13
+INC-SOURCE (P-LI7)                                                40925001   14
+STATUS     (APRVD)  BOKHOVKO                                      40925001   15
+MONITOR    (47-AG-109(N,G)47-AG-110,,SIG)                         40925001   16
+           (60-ND-145(N,G)60-ND-146,,SIG)                         40925001   17
+           (73-TA-181(N,G)73-TA-182,,SIG)                         40925001   18
+           (74-W-182(N,G)74-W-183,,SIG)                           40925001   19
+           (79-AU-197(N,G)79-AU-198,,SIG)                         40925001   20
+HISTORY    (870713C)  COMPILED AT THE CJD                         40925001   21
+           (880818U)  REACTION CODE IN THE SF8 FIELD IS CHANGED   40925001   22
+CORRECTION  CORRECTIONS WERE MADE ON FINITE THICKNESS OF SAMPLES  40925001   23
+            AND MONITORS                                          40925001   24
+ERR-ANALYS (ERR-T)   TOTAL ERROR CONTAINS STATISTICAL ERROR,      40925001   25
+                     NORMALIZATION ERROR, BACKGROUND ERROR,       40925001   26
+                     FINITE SAMPLE-AND-MONITOR THICKNESS ERROR    40925001   27
+           (ERR-1)    NORMALIZATION ERROR                         40925001   28
+ENDBIB              26                                            40925001   29
+COMMON               1          3                                 40925001   30
+ERR-1                                                             40925001   31
+PER-CENT                                                          40925001   32
+ 4.                                                               40925001   33
+ENDCOMMON            3                                            40925001   34
+ENDSUBENT           33                                            4092500199999
+SUBENT        40925002     910729                                 40925002    1
+BIB                  2          3                                 40925002    2
+REACTION   (74-W-180(N,G)74-W-181,,SIG,,AV)                       40925002    3
+SAMPLE      MASS 19 GRAM, THICKNESS 5.063E-3 ATOMS/BARN,          40925002    4
+            W-180 CONTENT - 95.1 PC, W-182 CONTENT - 4.8 PC       40925002    5
+ENDBIB               3                                            40925002    6
+NOCOMMON             0          0                                 40925002    7
+DATA                 4         57                                 40925002    8
+EN-MIN     EN-MAX     DATA       ERR-T                            40925002    9
+KEV        KEV        MB         MB                               40925002   10
+   5.         6.       1280.       95.                            40925002   11
+   6.         7.       1223.       84.                            40925002   12
+   7.         8.       1142.       71.                            40925002   13
+   8.         9.       1089.       62.                            40925002   14
+   9.        10.        949.       49.                            40925002   15
+  10.        12.        885.       43.                            40925002   16
+  12.        14.        788.       38.                            40925002   17
+  14.        16.        733.       35.                            40925002   18
+  16.        18.        654.       31.                            40925002   19
+  18.        20.        621.       29.                            40925002   20
+  20.        22.        603.       28.                            40925002   21
+  22.        24.        592.       27.                            40925002   22
+  24.        26.        573.       26.                            40925002   23
+  26.        28.        547.       25.                            40925002   24
+  28.        32.        532.       24.                            40925002   25
+  32.        36.        526.       24.                            40925002   26
+  36.        40.        481.       22.                            40925002   27
+  40.        44.        448.       20.                            40925002   28
+  44.        48.        448.       20.                            40925002   29
+  48.        52.        448.       20.                            40925002   30
+  52.        56.        430.       19.                            40925002   31
+  56.        60.        431.       19.                            40925002   32
+  60.        64.        422.       19.                            40925002   33
+  64.        68.        416.       19.                            40925002   34
+  68.        72.        421.       19.                            40925002   35
+  72.        76.        409.       18.                            40925002   36
+  76.        80.        395.       18.                            40925002   37
+  80.        84.        403.       18.                            40925002   38
+  84.        88.        397.       18.                            40925002   39
+  88.        92.        391.       18.                            40925002   40
+  92.        96.        373.       17.                            40925002   41
+  96.       100.        373.       17.                            40925002   42
+ 100.       110.        349.       16.                            40925002   43
+ 110.       120.        299.       14.                            40925002   44
+ 120.       130.        296.       16.                            40925002   45
+ 130.       140.        265.       15.                            40925002   46
+ 140.       150.        263.       15.                            40925002   47
+ 150.       160.        250.       14.                            40925002   48
+ 160.       170.        253.       14.                            40925002   49
+ 170.       180.        233.       13.                            40925002   50
+ 180.       190.        237.       14.                            40925002   51
+ 190.       200.        225.       13.                            40925002   52
+ 200.       210.        221.       13.                            40925002   53
+ 210.       220.        229.       13.                            40925002   54
+ 220.       230.        224.       13.                            40925002   55
+ 230.       240.        223.       13.                            40925002   56
+ 240.       250.        218.       13.                            40925002   57
+ 250.       260.        208.       13.                            40925002   58
+ 260.       270.        217.       13.                            40925002   59
+ 270.       280.        218.       13.                            40925002   60
+ 280.       290.        211.       13.                            40925002   61
+ 290.       300.        204.       13.                            40925002   62
+ 300.       320.        210.       12.                            40925002   63
+ 320.       340.        201.       12.                            40925002   64
+ 340.       360.        200.       11.                            40925002   65
+ 360.       380.        190.       11.                            40925002   66
+ 380.       400.        176.        9.                            40925002   67
+ENDDATA             59                                            40925002   68
+ENDSUBENT           67                                            4092500299999
+ENDENTRY             2                                            4092599999999
+ENDREQUEST           1                                            Z999999999999

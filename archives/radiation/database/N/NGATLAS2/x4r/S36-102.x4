@@ -1,0 +1,255 @@
+REQUEST           1001   20010914          3     135957               0  0    0
+ENTRY            12896     860923                                 12896000    1
+SUBENT        12896001     860923                                 12896001    1
+BIB                 13         19                                 12896001    2
+INSTITUTE  (1USALAS,1USAORL)                                      12896001    3
+REFERENCE  (J,PR/C,32,18,8507)                                    12896001    4
+AUTHOR     (S.RAMAN,R.F.CARLTON,J.C.WELLS,E.T.JURNEY,J.E.LYNN)    12896001    5
+TITLE       THERMAL NEUTRON CAPTURE GAMMA RAYS FROM SULFUR        12896001    6
+             ISOTOPES. EXPERIMENT AND THEORY.                     12896001    7
+FACILITY   (REAC,1USALAS) LOS ALAMOS OMEGA WEST REACTOR           12896001    8
+MONITOR    (1-H-1(N,G)1-H-2,,SIG) 1/V DEPENDENCE ASSUMED          12896001    9
+METHOD     GAMMA-RAY SPECTROSCOPY.                                12896001   10
+INC-SOURCE (THCOL)                                                12896001   11
+INC-SPECT  SPECTUM TEMPERATURE 350 DEG(K).                        12896001   12
+DETECTOR   (GELI) 26-CM3 GE(LI) COAXIAL DETECTOR WITH A NAI(TL)   12896001   13
+                 ANNULUS.                                         12896001   14
+ERR-ANALYS 7 PERCENT MINIMUM UNCERTAINTY COMBINED WITH A          12896001   15
+            STATISTICAL UNCERTAINTY RELATED TO THE MEASURED       12896001   16
+            NUMBER OF COUNTS UNDER A GIVEN PEAK.                  12896001   17
+STATUS     NO REPLY TO AUTHOR PROOF.                              12896001   18
+HISTORY    (840820C)                                              12896001   19
+           (860226A) UPDATE FROM PHYS.REV.32,18                   12896001   20
+           (860923A) BIB UPDATE. ENERGY FIELD REPLACED.           12896001   21
+ENDBIB              19                                            12896001   22
+COMMON               3          3                                 12896001   23
+EN-DUMMY   MONIT      MONIT-ERR                                   12896001   24
+EV         MB         MB                                          12896001   25
+ 0.0253     332.       0.002                                      12896001   26
+ENDCOMMON            3                                            12896001   27
+ENDSUBENT           26                                            1289600199999
+SUBENT        12896002     860314                                 12896002    1
+BIB                  3          6                                 12896002    2
+REACTION   (16-S-36(N,G)16-S-37,,SIG,,MXW)                        12896002    3
+REFERENCE  (J,PR/C,30,26,8407)                                    12896002    4
+SAMPLE     100-MG TARGET ENRICHED TO 81.1+-0.2 PERCENT PURITY.    12896002    5
+             SAMPLE CONTAMINANTS WERE S-34 AND B-10. IN ADDITION  12896002    6
+             SEVERAL TRACE ELEMENTS WERE PRESENT IN THE TARGET    12896002    7
+             MATERIAL.                                            12896002    8
+ENDBIB               6                                            12896002    9
+NOCOMMON             0          0                                 12896002   10
+DATA                 2          1                                 12896002   11
+DATA       DATA-ERR                                               12896002   12
+MB         MB                                                     12896002   13
+ 230.       20.                                                   12896002   14
+ENDDATA              3                                            12896002   15
+ENDSUBENT           14                                            1289600299999
+ENDENTRY             2                                            1289699999999
+ENTRY            22445   20000701   20010329                      22445000    1
+SUBENT        22445001   20000701   20010329                      22445001    1
+BIB                 17         47                                 22445001    2
+TITLE      .Measurement of the 36S(N,GAMMA) Cross Section         22445001    3
+REFERENCE  (J,PR/C,52,(6),3442,199512)  Main Reference            22445001    4
+           (R,JINR-E3-94-419,178,199404) Preliminary Results      22445001    5
+           (J,NIM/A,337,492,1994)  Experimental Details           22445001    6
+REL-REF    (N,,H.BEER+,J,PR/C,21,53,1980)  Method of Analysis     22445001    7
+INSTITUTE  (4ZZZDUB)   Sedyshev, Popov                            22445001    8
+           (2GERKFK)   Beer, Kaeppeler                            22445001    9
+           (2AUSTHV)   Balogh, Herndl, Oberhummer                 22445001   10
+AUTHOR     (P.V.SEDYSHEV, H.BEER, YU.P.POPOV, F.KAEPPELER,        22445001   11
+            W.BALOGH, H.HERNDL, H.OBERHUMMER)                     22445001   12
+FACILITY   (VDG,2GERKFK) 3.75 Mv Van De Graaff Accelerator        22445001   13
+METHOD     (ACTIV)  Activation. Tha Fast Cyclis Activation        22445001   14
+                    Technique was Used                            22445001   15
+           (TOF)    For Neutron Spectra Determination             22445001   16
+           (STTA)   Two Stack-Targets Irradiation was Used        22445001   17
+             Sulfur Sample was Placed Between Two Gold Foils      22445001   18
+DETECTOR   (HPGE)    For Gamma-Radiation Detection. 2 KeV Resolu- 22445001   19
+                     Tion at 1332 KeV                             22445001   20
+           (GE-IN)   For Gamma-Radiation Detection                22445001   21
+           (GLASD)   6Li Glass Detector For Neutron Flux          22445001   22
+                     Monitoring                                   22445001   23
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)                         22445001   24
+DECAY-MON  (79-AU-198,2.69D,DG,412.,0.9550)                       22445001   25
+MONIT-REF  (,W.RATYNSKI+,J,PR/C,37,595,1988)                      22445001   26
+DECAY-DATA (16-S-37,5.05MIN,DG,3103.,0.940)                       22445001   27
+INC-SOURCE (P-LI7)                                                22445001   28
+ADD-RES    (THEO)  Theoretical Direct-Capture Model Cross-Section 22445001   29
+                   Calculations                                   22445001   30
+SAMPLE     .Gold Samples Represent Four Thin Foils with Mass      22445001   31
+            Near 16 Mg Each                                       22445001   32
+ERR-ANALYS (ERR-1)  Error of Germanium Detector Efficiency        22445001   33
+           (ERR-2)  Error of Gamma-Ray Intensity Determination    22445001   34
+                    For 37S                                       22445001   35
+           (ERR-3)  Error of Gamma-Ray Intensity Determination    22445001   36
+                    For 198Au                                     22445001   37
+           (ERR-4)  Max Error Due to Divergence of Neutron Beam   22445001   38
+           (ERR-5)  Min Error Due to Divergence of Neutron Beam   22445001   39
+           (ERR-6)  Error Due to Factor Fb - Gamma Intensity      22445001   40
+                    Attenuation                                   22445001   41
+           (ERR-7)  Max Error Due to Sample Weight Determination  22445001   42
+           (ERR-8)  Other Systematic Errors                       22445001   43
+           (ERR-9)  Max Error of the Gold Standard                22445001   44
+HISTORY    (20000122C)  Compiled by S.M.                          22445001   45
+           (20000626A)  Corrected by S.M. New Reference and Some  22445001   46
+                        New Keyword'S Information Added.          22445001   47
+                        One Subent Added                          22445001   48
+           (20000701U) Last checking has been done.               22445001   49
+ENDBIB              47                                            22445001   50
+COMMON               9          6                                 22445001   51
+ERR-1      ERR-2      ERR-3      ERR-4      ERR-5      ERR-6      22445001   52
+ERR-7      ERR-8      ERR-9                                       22445001   53
+PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   22445001   54
+PER-CENT   PER-CENT   PER-CENT                                    22445001   55
+         6.        0.6        0.1        12.         2.        1.522445001   56
+        0.5         2.         3.                                 22445001   57
+ENDCOMMON            6                                            22445001   58
+ENDSUBENT           57                                            2244500199999
+SUBENT        22445002   20000701   20010329                      22445002    1
+BIB                  6         21                                 22445002    2
+REACTION  1(16-S-36(N,G)16-S-37,,SIG,,MXW)                        22445002    3
+          2(16-S-36(N,G)16-S-37,,SIG,,MXW)                        22445002    4
+INC-SPECT  .By Ajusting Proton Energy and Target Thicknesses      22445002    5
+           -Proton Energy Near the Threshold of 7Li(P,N) Reaction 22445002    6
+            =1912 KeV and Target Thickness 30 Micrometers -       22445002    7
+            The Incident Neutron Spectrum was Near Maxwellian     22445002    8
+            With a Temperature Near 25 KeV                        22445002    9
+SAMPLE    1.Sulfur Powder Pressed in Pellets, 36S Enrichment      22445002   10
+            Is 5.933%. Two Samples were Used, One Having Mass     22445002   11
+            100.32 Mg, Other 50.40 Mg.                            22445002   12
+          2.Eleven Samples of Pressed Sulfur Powder, 36S Isotope  22445002   13
+            Content is 5.933%, Weights from 21 to 100 Milligram,  22445002   14
+            Diameter 6 mm, Placed Between Two Gold Foils          22445002   15
+STATUS    1.Data from Thr Text of Second Reference                22445002   16
+           (PRELM)  Assigned As Preliminary by the Authors        22445002   17
+          2(TABLE)  From Table 2 of Main Reference                22445002   18
+ERR-ANALYS1  Errors are not Given                                 22445002   19
+          2(ERR-T)  Total Error                                   22445002   20
+           (ERR-S)  Max Statistical Error                         22445002   21
+HISTORY    (20000626A)  Energy Heading Changed from KT to En-Mean 22445002   22
+           (20000701U) Last checking has been done.               22445002   23
+ENDBIB              21                                            22445002   24
+COMMON               3          3                                 22445002   25
+EN-MEAN    MONIT      MONIT-ERR                                   22445002   26
+KEV        MB         MB                                          22445002   27
+       37.5       648.        10.                                 22445002   28
+ENDCOMMON            3                                            22445002   29
+DATA                 4          1                                 22445002   30
+DATA      1DATA      2ERR-T     2ERR-S     2                      22445002   31
+MB         MB         MB         PER-CENT                         22445002   32
+      0.178       187.        14.        2.8                      22445002   33
+ENDDATA              3                                            22445002   34
+ENDSUBENT           33                                            2244500299999
+SUBENT        22445002   20000701   20010329                      22445002    1
+BIB                  6         21                                 22445002    2
+REACTION  1(16-S-36(N,G)16-S-37,,SIG,,MXW)                        22445002    3
+          2(16-S-36(N,G)16-S-37,,SIG,,MXW)                        22445002    4
+INC-SPECT  .By Ajusting Proton Energy and Target Thicknesses      22445002    5
+           -Proton Energy Near the Threshold of 7Li(P,N) Reaction 22445002    6
+            =1912 KeV and Target Thickness 30 Micrometers -       22445002    7
+            The Incident Neutron Spectrum was Near Maxwellian     22445002    8
+            With a Temperature Near 25 KeV                        22445002    9
+SAMPLE    1.Sulfur Powder Pressed in Pellets, 36S Enrichment      22445002   10
+            Is 5.933%. Two Samples were Used, One Having Mass     22445002   11
+            100.32 Mg, Other 50.40 Mg.                            22445002   12
+          2.Eleven Samples of Pressed Sulfur Powder, 36S Isotope  22445002   13
+            Content is 5.933%, Weights from 21 to 100 Milligram,  22445002   14
+            Diameter 6 mm, Placed Between Two Gold Foils          22445002   15
+STATUS    1.Data from Thr Text of Second Reference                22445002   16
+           (PRELM)  Assigned As Preliminary by the Authors        22445002   17
+          2(TABLE)  From Table 2 of Main Reference                22445002   18
+ERR-ANALYS1  Errors are not Given                                 22445002   19
+          2(ERR-T)  Total Error                                   22445002   20
+           (ERR-S)  Max Statistical Error                         22445002   21
+HISTORY    (20000626A)  Energy Heading Changed from KT to En-Mean 22445002   22
+           (20000701U) Last checking has been done.               22445002   23
+ENDBIB              21                                            22445002   24
+COMMON               3          3                                 22445002   25
+EN-MEAN    MONIT      MONIT-ERR                                   22445002   26
+KEV        MB         MB                                          22445002   27
+       37.5       648.        10.                                 22445002   28
+ENDCOMMON            3                                            22445002   29
+DATA                 4          1                                 22445002   30
+DATA      1DATA      2ERR-T     2ERR-S     2                      22445002   31
+MB         MB         MB         PER-CENT                         22445002   32
+      0.178       187.        14.        2.8                      22445002   33
+ENDDATA              3                                            22445002   34
+ENDSUBENT           33                                            2244500299999
+SUBENT        22445003   20000701   20010329                      22445003    1
+BIB                  6         14                                 22445003    2
+REACTION   (16-S-36(N,G)16-S-37,,SIG,,SPA) Averaged Over Neutron  22445003    3
+                                           Spectrum               22445003    4
+INC-SPECT  .By Ajusting Proton Energy and Target Thicknesses Equal22445003    5
+            To 2.5 Micrometers the Incident Neutron Energies were 22445003    6
+            151, 176, 218 KeV                                     22445003    7
+ERR-ANALYS (ERR-T)  Total Error                                   22445003    8
+           (ERR-S)  Max Statistical Error                         22445003    9
+           (EN-ERR) Energy Error is not Specified                 22445003   10
+SAMPLE     .Eleven Samples of Pressed Sulfur Powder, 36S Isotope  22445003   11
+            Content is 5.933%, Weights from 21 to 150 Milligram,  22445003   12
+            Diameter 6 mm, Placed Between Two Gold Foils          22445003   13
+STATUS     (TABLE)  From Table 2 of the Main Reference            22445003   14
+HISTORY    (20000629C)   Compilled by S.M.                        22445003   15
+           (20000701U) Last checking has been done.               22445003   16
+ENDBIB              14                                            22445003   17
+NOCOMMON                                                          22445003   18
+DATA                 5          3                                 22445003   19
+EN         EN-ERR     DATA       ERR-T      ERR-S                 22445003   20
+KEV        KEV        MB         MB         PER-CENT              22445003   21
+       151.        15.        81.         7.        3.3           22445003   22
+       176.        20.       125.        11.        7.2           22445003   23
+       218.        23.        78.         7.        6.3           22445003   24
+ENDDATA              5                                            22445003   25
+ENDSUBENT           24                                            2244500399999
+ENDENTRY             4                                            2244599999999
+ENTRY            22446   20000122   20010329                      22446000    1
+SUBENT        22446001   20000122   20010329                      22446001    1
+BIB                 15         27                                 22446001    2
+TITLE       Measurement of Direct Neutron Capture by Neutron-Rich 22446001    3
+            Sulphur Isotopes                                      22446001    4
+AUTHOR     (H.BEER, C.COCEVA, R.HOFINGER, P.MOHR, H.OBERHUMMER,   22446001    5
+            P.V.SEDYSHEV, YU.P.POPOV)                             22446001    6
+INSTITUTE  (2GERKFK)  Beer                                        22446001    7
+           (2ITYBOL)  Coceva                                      22446001    8
+           (2AUSTHV)  Hofinger, Mohr, Oberhummer                  22446001    9
+           (4ZZZDUB)  Sedyshev, Popov                             22446001   10
+           (2BLGMOL)  Experimental Site                           22446001   11
+REFERENCE  (J,NP/A,621,235,1997)  Main Reference                  22446001   12
+FACILITY   (REAC,2BLGMOL)  Reactor BR1 of the "Studiecentrum      22446001   13
+             Voor Kernenergie" in Mol, Belgium                    22446001   14
+INC-SOURCE (REAC)                                                 22446001   15
+INC-SPECT   Thermal Spectrum of the Reactor Br1                   22446001   16
+DETECTOR   (GE-IN)                                                22446001   17
+MONITOR    .17-CO-35 FOR NEUTRON FLUX MONITORING. NO ADDITIONAL   22446001   18
+                     INFORMATION                                  22446001   19
+METHOD     (ACTIV,SITA)   Activation Method For Single-Target     22446001   20
+                          Irradiation                             22446001   21
+SAMPLE      Sample of Elemental Sulfur, Total Weight 313.6 Mg,    22446001   22
+            Contained in a Teflon Cylinder of 6 mm Inner Diam.    22446001   23
+            Was Enriched in 34S by 93.26% and in 36S by 5.933%.   22446001   24
+ADD-RES    (STRUC,THEO)                                           22446001   25
+ERR-ANALYS (DATA-ERR)  Errors are not Specified                   22446001   26
+STATUS     (TABLE)  Data are Taken from Table 1 of Main Ref.      22446001   27
+HISTORY    (20000122C)  + +  Compiled by S.M.                     22446001   28
+           (20000122U) Last checking has been done.               22446001   29
+ENDBIB              27                                            22446001   30
+COMMON               1          3                                 22446001   31
+EN-DUMMY                                                          22446001   32
+EV                                                                22446001   33
+   2.53E-02                                                       22446001   34
+ENDCOMMON            3                                            22446001   35
+ENDSUBENT           34                                            2244600199999
+SUBENT        22446005   20000122   20010329                      22446005    1
+BIB                  2          2                                 22446005    2
+REACTION   (16-S-36(N,G)16-S-37,,SIG,,MXW)                        22446005    3
+STATUS     (DEP,22446004)                                         22446005    4
+ENDBIB               2                                            22446005    5
+NOCOMMON                                                          22446005    6
+DATA                 2          1                                 22446005    7
+DATA       DATA-ERR                                               22446005    8
+MB         MB                                                     22446005    9
+       242.        12.                                            22446005   10
+ENDDATA              3                                            22446005   11
+ENDSUBENT           10                                            2244600599999
+ENDENTRY             2                                            2244699999999
+ENDREQUEST           1                                            Z999999999999

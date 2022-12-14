@@ -1,0 +1,370 @@
+REQUEST           1001   20010914          3     140527               0  0    0
+ENTRY            10676     860129                                 10676000    1
+SUBENT        10676001     860129                                 10676001    1
+BIB                 14         23                                 10676001    2
+INSTITUTE  (1CANMCM)                                              10676001    3
+REFERENCE  (J,ZP/A,281,365,7704)                                  10676001    4
+AUTHOR     (A.F.M.ISHAQ,A.ROBERTSON,W.V.PRESTWICH,T.J.KENNETT)    10676001    5
+TITLE      THERMAL NEUTRON CAPTURE IN ISOTOPES OF NICKEL          10676001    6
+FACILITY   TANGENTIAL IRRADIATION FACILITY OF THE MCMASTER NUCLEAR10676001    7
+           REACTOR                                                10676001    8
+INC-SOURCE (REAC) REACTOR NEUTRONS PROVIDING A THERMAL NEUTRON    10676001    9
+           FLUX OF THE ORDER 5*10**12 NEUTRONS/CM**2/S            10676001   10
+DETECTOR   (GELI,NAICR) GE(LI)-NAI(TL) PAIR SPECTROMETER SYSTEM   10676001   11
+METHOD     (PHD) PULSE-HEIGHT DISCRIMINATION                      10676001   12
+           DATA OBTAINED THROUGH LEAST SQUARES FIT OF OBSERVED    10676001   13
+           INTENSITIES                                            10676001   14
+SAMPLE     NATURAL NICKEL SAMPLE                                  10676001   15
+MONITOR    ENERGY CALIBRATION OF SPECTROMETER MADE                10676001   16
+           USING GAMMA-RAYS FROM THERMAL NEUTRON CAPTURE IN       10676001   17
+           NITROGEN. SEE ISHAQ,ET AL.,NUCL.INSTR.,VOL 121, P193,  10676001   18
+           1974.                                                  10676001   19
+ADD-RES    (G-SPC) GAMMA-RAY SPECTRUM MEASURED                    10676001   20
+ERR-ANALYS NO INFORMATION                                         10676001   21
+STATUS     (APRVD) APPROVED BY W.V.PRESTWICH, 77/10/7             10676001   22
+HISTORY    (770725C)                                              10676001   23
+           (780110U) BIB CORRECTION                               10676001   24
+           (860129A) BIB, COMMON CORRECTIONS.                     10676001   25
+ENDBIB              23                                            10676001   26
+COMMON               1          3                                 10676001   27
+EN-DUMMY                                                          10676001   28
+EV                                                                10676001   29
+ 0.0253                                                           10676001   30
+ENDCOMMON            3                                            10676001   31
+ENDSUBENT           30                                            1067600199999
+SUBENT        10676002     860129                                 10676002    1
+BIB                  1          1                                 10676002    2
+REACTION   (28-NI-58(N,G)28-NI-59,,SIG,,MXW)                      10676002    3
+ENDBIB               1                                            10676002    4
+NOCOMMON             0          0                                 10676002    5
+DATA                 1          1                                 10676002    6
+DATA                                                              10676002    7
+B                                                                 10676002    8
+ 4.5                                                              10676002    9
+ENDDATA              3                                            10676002   10
+ENDSUBENT            9                                            1067600299999
+ENDENTRY             2                                            1067699999999
+ENTRY            11507     860715                                 11507000    1
+SUBENT        11507001     860715                                 11507001    1
+BIB                 10         12                                 11507001    2
+INSTITUTE  (1USAORL)                                              11507001    3
+REFERENCE  (J,PR,88,412,52)                                       11507001    4
+AUTHOR     (H.POMERANCE)                                          11507001    5
+TITLE      THERMAL NEUTRON CAPTURE CROSS SECTIONS.                11507001    6
+FACILITY   (OSCIP) PILE OSCILLATOR                                11507001    7
+INC-SPECT  THERMAL SPECTRUM                                       11507001    8
+METHOD     (ACTIV).                                               11507001    9
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)                         11507001   10
+STATUS     (SCSRS)                                                11507001   11
+HISTORY    (760715T) TRANSLATED FROM SCISRS                       11507001   12
+           (821124A) CONVERTED TO REACTION FORMALISM              11507001   13
+           (860715A) ENERGY MOVED TO SUBENTRY 1.                  11507001   14
+ENDBIB              12                                            11507001   15
+COMMON               2          3                                 11507001   16
+EN-DUMMY   MONIT                                                  11507001   17
+EV         B                                                      11507001   18
+ 0.0253     95.                                                   11507001   19
+ENDCOMMON            3                                            11507001   20
+ENDSUBENT           19                                            1150700199999
+SUBENT        11507026     860715                                 11507026    1
+BIB                  1          1                                 11507026    2
+REACTION   (28-NI-58(N,G)28-NI-59,,SIG,,MXW)                      11507026    3
+ENDBIB               1                                            11507026    4
+NOCOMMON             0          0                                 11507026    5
+DATA                 2          1                                 11507026    6
+DATA       DATA-ERR                                               11507026    7
+B          PER-CENT                                               11507026    8
+ 4.2    +00    8.                                                 11507026    9
+ENDDATA              3                                            11507026   10
+ENDSUBENT            9                                            1150702699999
+ENDENTRY             2                                            1150799999999
+ENTRY            20370     840109                                 20370000    1
+SUBENT        20370001     840109                                 20370001    1
+BIB                 14         50                                 20370001    2
+INSTITUTE  (2GERKFK)                                              20370001    3
+REFERENCE  ((C,70HELSINKI,1,633,7006)=(R,KFK-1231,7006))  PRELIM. 20370001    4
+           (W,FROEHNER,7212) NUMERICAL VALUES, RES.PARS.          20370001    5
+           (R,KFK-2046,7409) PANEL PROCEEDINGS 73KARLSR, REVIEW   20370001    6
+            PAPER BY FROEHNER, MORE RES.PARS. (PRELIM.).          20370001    7
+AUTHOR     (A.ERNST, F.H.FROEHNER, D.KOMPE)                       20370001    8
+TITLE      -HIGH RESOLUTION MEASUREMENTS OF RADIATIVE NEUTRON     20370001    9
+            CAPTURE IN TI-47, FE-56, NI-58, NI-60 AND NI-61       20370001   10
+            BETWEEN 7 AND 200 KEV.-                               20370001   11
+FACILITY   (VDG  ) PULSED 3 MV VAN DE GRAAFF ACCELERATOR.         20370001   12
+INC-SOURCE (P-LI7)    LI-7(P,N)BE-7 REACTION.                     20370001   13
+METHOD     (TOF  ) TIME-OF-FLIGHT, 2 M FLIGHT PATH, 1 NS PULSES.  20370001   14
+DETECTOR   (STANK) 800 L LIQUID SCINTILLATOR, SIMULTANEOUS        20370001   15
+            RECORDING OF FLIGHT TIME AND PULSE HEIGHT.            20370001   16
+ANALYSIS   (AREA) RADIATION WIDTHS (BROAD LEVELS) AND CAPTURE     20370001   17
+            AREAS (NARROW LEVELS) EXTRACTED WITH AREA ANALYSIS    20370001   18
+            CODE TACASI (FROEHNER, REPORT GA-6906,1966), USING    20370001   19
+            KNOWN NEUTRON WIDTHS WHERE AVAILABLE. TACASI CODE     20370001   20
+            USES SUMS OF SINGLE-LEVEL TERMS TO APPROXIMATE        20370001   21
+            MULTI-LEVEL CROSS SECTIONS.                           20370001   22
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)                         20370001   23
+            CF. KOMPE, NUCL.PHYS.A133(1969)513                    20370001   24
+CORRECTION .CROSS SECTION DATA WERE CORRECTED FOR                 20370001   25
+              TIME-INDEPENDENT BACKGROUND,                        20370001   26
+              TIME-DEPENDENT BACKGROUND (MEASURED WITH C SAMPLE), 20370001   27
+              SAMPLE ADMIXTURES (O IN OXIDES, ISOTOPIC IMPURITIES,20370001   28
+              UNRECORDED PULSE HEIGHT SPECTRUM FRACTION BELOW     20370001   29
+                     3 MEV BIAS (USING MEASURED PHD),             20370001   30
+              INTRINSIC EFFICIENCY OF TANK (ESCAPE PROBABILITY).  20370001   31
+           .RESONANCE PARAMETER EXTRACTION WITH AREA ANALYSIS     20370001   32
+            CODE TACASI INCLUDED CORRECTIONS FOR                  20370001   33
+              SELF-SHIELDING,                                     20370001   34
+              MULTIPLE INTERACTIONS (MONTE CARLO),                20370001   35
+              INSTRUMENTAL RESOLUTION,                            20370001   36
+              INFLUENCE OF NEARBY RESONANCES.                     20370001   37
+ERR-ANALYS .CROSS SECTION ERRORS INCLUDE UNCERTAINTIES FROM       20370001   38
+              COUNTING STATISTICS,                                20370001   39
+              BACKGROUNDS,                                        20370001   40
+              SPECTRUM FRACTION,                                  20370001   41
+              STANDARD.                                           20370001   42
+           .ENERGY ERRORS ESTIMATED AS 0.3 PERCENT.               20370001   43
+           .RESONANCE PARAMETER ERRORS REFLECT UNCERTAINTIES OF   20370001   44
+            ENERGY SCALE AND CAPTURE AREAS.                       20370001   45
+COMMENT    .CAPTURE CROSS SECTION DATA ARE CAPTURE YIELDS DIVIDED 20370001   46
+            BY SAMPLE THICKNESS (ATOM/B), EQUAL TO TRUE CROSS     20370001   47
+            SECTION ONLY WHERE EFFECTS OF SAMPLE THICKNESS (SELF- 20370001   48
+            SHIELDING, MULTIPLE COLLISIONS) AND RESOLUTION ARE    20370001   49
+            NEGLIGIBLE.                                           20370001   50
+HISTORY    (730108C)                                              20370001   51
+           (740929E)                                              20370001   52
+ENDBIB              50                                            20370001   53
+NOCOMMON             0          0                                 20370001   54
+ENDSUBENT           53                                            2037000199999
+ENDENTRY             3                                            2037099999999
+ENTRY            21882     860206                                 21882000    1
+SUBENT        21882001     860206                                 21882001    1
+BIB                 17         68                                 21882001    2
+INSTITUTE  (2GERKFK)                                              21882001    3
+REFERENCE  (J,NSE,86,(2),168,8402)  REVISED DATA                  21882001    4
+           (R,KFK-3516,1,8307)MAIN REFERENCE,GAMMA WIDTHS         21882001    5
+           (P,KFK-3427,2,8211)                                    21882001    6
+AUTHOR     (K.WISSHAK,F.KAEPPELER,G.REFFO,F.FABRI)                21882001    7
+TITLE      -NEUTRON CAPTURE IN S-WAVE RESONANCES OF FE-56,NI-58   21882001    8
+            AND NI-60-                                            21882001    9
+FACILITY   (VDG  ,2GERKFK) 3 MV ACCELERATOR,PULSED BEAM           21882001   10
+INC-SOURCE (P-LI7)PROTON ENERGY 6,13,20 KEV ABOVE REACTION        21882001   11
+            THRESHOLD IMPLIES NEUTRON ENERGIES RANGES BETWEEN 10- 21882001   12
+            60 KEV,7-75 KEV,5-90 KEV IN A NARROW CONE             21882001   13
+SAMPLE      .METALLIC, ENRICHED, DIAMETER 38.2 CM,                21882001   14
+            FOR FE-56 2 SAMPLES THICKNESS=0.3,2.0 MM              21882001   15
+            FOR EACH NI-58,NI-60 3 SAMPLES THICKNESS=0.15,0.3,0.4521882001   16
+            MM                                                    21882001   17
+METHOD     (TOF  )NEUTRON FLIGHT PATH 9 CM, GAMMA FLIGHT          21882001   18
+            PATH 16 CM, TIME RESOLUTION 1.2 NS.                   21882001   19
+           .TOF SPECTRUM OBTAINED AT 0 DEGREE                     21882001   20
+           .PULSE HEIGHT SPECTRUM FROM N-MONITOR AT 20 DEGREE     21882001   21
+           .GOLD SAMPLE AS A CROSS SECTION STANDARD               21882001   22
+           .GRAPHITE SAMPLE AS A PURE SCATTERER                   21882001   23
+           .EMPTY SAMPLE FRAME FOR BACKGROUND DETERMINATION       21882001   24
+DETECTOR   (MOXR ) 3 DETECTORS WITH GRAPHITE, BISMUTH-GRAPHITE    21882001   25
+            AND PURE BISMUTH CONVERTERS, RESPECTIVELY.            21882001   26
+           DISTANCE SAMPLE-DETECTOR=16 CM                         21882001   27
+           (GLASD) 2 LI-6 GLASS DETECTORS TO SEE IF THE SAME      21882001   28
+           N-FLUENCE                                              21882001   29
+ANALYSIS   .GAMMA WIDTHS FOR S-WAVE RESONANCES WERE DETERMINED    21882001   30
+            FROM THE CAPTURE YIELD WHICH WAS ANALYSED WITH THE    21882001   31
+            FANAC CODE OF FROEHNER (KFK-2145). THE PROCEDURE      21882001   32
+            IS DISCRIBED IN REL-REF.                              21882001   33
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)ENDF/B-V GOLD CROSS      21882001   34
+            SECTION USED FOR NORMALISATION                        21882001   35
+REL-REF    (R,21666000,K.WISSHAK+,J,NSE,77,58,8101)DATA FOR S-WAVE21882001   36
+            RESONANCE IN FE-56 AT 27.7 KEV.                       21882001   37
+ADD-RES    .THE MAIN REFERENCE ALSO CONTAINS CALCULATIONS         21882001   38
+            ON FAST REACTOR SPECTRUM AVERAGE CROSS SECTIONS       21882001   39
+            AND ON MAXWELLIAN AVERAGE CROSS SECTIONS.             21882001   40
+STATUS     .MAIN REFERENCE IN THE TEXT                            21882001   41
+HISTORY    (831102C)                                              21882001   42
+           (840202E)                                              21882001   43
+           (850123A) BL  BIB SECTION UPDATED                      21882001   44
+           (850419E)                                              21882001   45
+           (850821U)HH                                            21882001   46
+           (860106E)                                              21882001   47
+CORRECTION  .FOR-                                                 21882001   48
+            .DIFFERENT FLIGHT PATHS FOR DIFFERENT RUNS-UNCERTAINTY21882001   49
+            DOMINATED BY UNCERTAINTY IN SOLID ANGLE               21882001   50
+            .DIFFERENT NEUTRON FLUXES USING LI-6 GLASS DETECTORS  21882001   51
+            CONSTANT BACKGROUND                                   21882001   52
+            .TIME DEPENDENT BACKGROUND 0.4 PERCENT                21882001   53
+            .NORMALIZATION TO EQUAL N-FLUENCE L.T. 1 PERCENT      21882001   54
+            BUT WITH 2MM FE SAMPLE 2.1 PERCENT                    21882001   55
+            .MULT.SCATT. AND SELF SHIELDING IN AU-SAMPLE          21882001   56
+            .G-RAY SELF ABSORPTION GENERALLY L.T. 1 PERCENT       21882001   57
+            FOR S.A.(AU)/S.A.(ISOTOPE)                            21882001   58
+            WITH FE SAMPLE 2 PERCENT                              21882001   59
+            .DETECTOR EFFICIENCY-PROBLEM REDUCED IN TAKING        21882001   60
+            MEASUREMENTS FROM 3 MOXR-DETECTORS                    21882001   61
+             EFF.(AU)/EFF.(ISOTOPE)=3.7,2.7,1.8 PERCENT FOR       21882001   62
+            NI-58,NI-60,FE-56                                     21882001   63
+             UNCERTAINTY DUE TO THE SHAPE OF THE CAPTURE G-RAY    21882001   64
+            SPECTRUM L.T. O.5 PERCENT                             21882001   65
+             UNCERTAINTY DUE TO THE SHAPE OF THE CAPTURE G-RAY    21882001   66
+            SPECTRUM OF THE S-WAVE RESONANCES 1 PERCENT MAX       21882001   67
+ERR-ANALYS .NO                                                    21882001   68
+            INFORMATION                                           21882001   69
+            GIVEN                                                 21882001   70
+ENDBIB              68                                            21882001   71
+NOCOMMON             0          0                                 21882001   72
+ENDSUBENT           71                                            2188200199999
+SUBENT        21882008     860106                                 21882008    1
+BIB                  3          6                                 21882008    2
+REACTION   (28-NI-58(N,G)28-NI-59,,SIG,,MXW)                      21882008    3
+STATUS     .MAIN REFERENCE TABLE 4 REF-NSE-8402                   21882008    4
+HISTORY    (850123C) BL                                           21882008    5
+           (850419E)                                              21882008    6
+           (850821U)HH                                            21882008    7
+           (860106E)                                              21882008    8
+ENDBIB               6                                            21882008    9
+NOCOMMON             0          0                                 21882008   10
+DATA                 3          5                                 21882008   11
+KT         DATA       DATA-ERR                                    21882008   12
+KEV        MB         MB                                          21882008   13
+ 2.0000E+01 4.5700E+01                                            21882008   14
+ 2.5000E+01 4.1800E+01                                            21882008   15
+ 3.0000E+01 3.9000E+01 2.5000E+00                                 21882008   16
+ 3.5000E+01 3.6900E+01                                            21882008   17
+ 4.0000E+01 3.5400E+01                                            21882008   18
+ENDDATA              7                                            21882008   19
+ENDSUBENT           18                                            2188200899999
+ENDENTRY             2                                            2188299999999
+ENTRY            30926     940517                                 30926000    1
+SUBENT        30926001     940517                                 30926001    1
+BIB                 14         37                                 30926001    2
+TITLE      INVESTIGATION OF THERMAL-NEUTRON CAPTURE GAMMA-RAYS ON 30926001    3
+           NI-58(N,G)NI-59                                        30926001    4
+AUTHOR     (A.W.CARBONARI,B.R.PECEQVILO)                          30926001    5
+INSTITUTE  (3BZLIPE)                                              30926001    6
+REFERENCE  (C,88MITO,,(CA09),8806)                                30926001    7
+           (R,IEA-78,,78)THE BASIC FEATURES OF THE INTERNAL       30926001    8
+                            TARGET FACILITY ARE DESCRIBED IN MORE 30926001    9
+                            DETAILS.                              30926001   10
+SAMPLE     A WELL MIXED SAMPLE OF NATURAL NICKEL AND MELAMINE     30926001   11
+            (C3-H6-N6) CONTAINED WITHIN A REACTOR GRADE GRAPHITE  30926001   12
+           CAPSULE.                                               30926001   13
+FACILITY   (REAC,3BZLIPE)                                         30926001   14
+INC-SOURCE (REAC) THE NEUTRON FLUX WAS ABOUT 5.2E11 N/(SEC.CM-2)  30926001   15
+METHOD     WAS MEASURED THE GAMMA-RAY SPECTRUM OF THERMAL NEUTRON 30926001   16
+           CAPTURE ON 58-NI IN THE ENERGY RANGE OF 3.7 TO 9.3 MEV 30926001   17
+           THE EXPERIMENT WAS CARRIED OUT AT THE TANGENTIAL       30926001   18
+           REACTOR CHANNEL.THE GAMMA-RAYS WERE DETECTED BY GE(LI) 30926001   19
+           -NAI(TL) PAIR SPECTROMETER.THE PARTIAL CROSS SECTIONS  30926001   20
+           FOR SEVERAL GAMMA-RAY TRANSITIONS HAVE BEEN CALCULATED 30926001   21
+           AND BY SUMMING ALL OF THEM,WAS DETERMINED THE TOTAL    30926001   22
+           THERMAL NEUTRON CAPTURE CROSS SECTION FOR 58-NI(N,G).  30926001   23
+INC-SPECT  THERMAL NEUTRON SPECTRUM.                              30926001   24
+DETECTOR   (BPAIR).-GE(LI)AND NAI(TL) PAIR SPECTROMETER CONSISTING30926001   25
+                  OF A 45.5 CC TRUE COAXIAL GE(LI) DETECTOR WHICH 30926001   26
+                  FITS INTO A CYLINDRICAL OPENING IN THE COMMON   30926001   27
+                  HOUSING OF 2 OPTICALLY SEPARATED(5X6)INC.NAI(TL)30926001   28
+                  CRYSTALS.-                                      30926001   29
+CORRECTION THE DETERMINATION OF THE EFFICIENCY CURVE AS A FUNCTION30926001   30
+           THE GAMMA-RAY ENERGIES WAS MADE EXPERIMENTALLY, BY     30926001   31
+           MEASURING A SET OF GAMMA-RAYS WITH VERY WELL KNOWN     30926001   32
+           ENERGY AND INTENSITY VALUES.FOR THIS PURPOSE WAS USED  30926001   33
+           GAMMA-RAYS FROM 14-N(N,G)N-15 AND 35-CL(N,G)CL-36      30926001   34
+           REACTIONS IN THE REGION OF 1.8 TO 11 MEV.              30926001   35
+ERR-ANALYS NO ERROR ANALYSIS GIVEN.                               30926001   36
+STATUS     DATA GIVEN FROM C,88MITO,CA09,88.TAB.1                 30926001   37
+HISTORY    (880912C) VOF                                          30926001   38
+           (940316A) HW.- REACTION CODE CORRECTED IN SUBENT 004.- 30926001   39
+ENDBIB              37                                            30926001   40
+COMMON               1          3                                 30926001   41
+EN-DUMMY                                                          30926001   42
+EV                                                                30926001   43
+0.0253                                                            30926001   44
+ENDCOMMON            3                                            30926001   45
+ENDSUBENT           44                                            3092600199999
+SUBENT        30926004     940517                                 30926004    1
+BIB                  5          6                                 30926004    2
+REACTION   (28-NI-58(N,G)28-NI-59,,SIG)                           30926004    3
+MONITOR    (7-N-14(N,G)7-N-15,,SIG)                               30926004    4
+ANALYSIS   THE TOTAL CROSS SECTION WAS CALCULATED BY SUMMING ALL  30926004    5
+           THE PARTIAL CROSS SECTION GIVEN IN SUBENTRY 003        30926004    6
+STATUS     (DEP,30926003)                                         30926004    7
+HISTORY    (940316A) HW.- REACTION CODE CORRECTED.-               30926004    8
+ENDBIB               6                                            30926004    9
+COMMON               1          3                                 30926004   10
+MONIT                                                             30926004   11
+MB                                                                30926004   12
+77.2                                                              30926004   13
+ENDCOMMON            3                                            30926004   14
+DATA                 2          1                                 30926004   15
+DATA       DATA-ERR                                               30926004   16
+B          B                                                      30926004   17
+4.52       0.10                                                   30926004   18
+ENDDATA              3                                            30926004   19
+ENDSUBENT           18                                            3092600499999
+ENDENTRY             2                                            3092699999999
+ENTRY            31489     980529                                 31489000    1
+SUBENT        31489001     980529                                 31489001    1
+BIB                 12         17                                 31489001    2
+TITLE       Thermal neutron capture cross-section of 48-Ti, 51-V, 31489001    3
+            50-,52-,53-Cr and 58-,60-,62-,64-Ni                   31489001    4
+AUTHOR     (L.VENTURINI,B.R.S.PECEQUILO)                          31489001    5
+INSTITUTE  (3BZLIPE)                                              31489001    6
+REFERENCE  (J,ARI,48,(4),493,97)  Main reference, data tables are 31489001    7
+                                  given.                          31489001    8
+           (J,NIM/A,287,460,90)   Experimental details.           31489001    9
+FACILITY   (REAC)   IEA-R1 2 MW research reactor                  31489001   10
+METHOD     (GSPEC)                                                31489001   11
+ANALYSIS   (AREA)                                                 31489001   12
+INC-SPECT  Thermal neutron spectrum.                              31489001   13
+DETECTOR   (BPAIR )                                               31489001   14
+MONITOR    ((MONIT1)7-N-14(N,G)7-N-15,,SIG)                       31489001   15
+           ((MONIT2)17-CL-35(N,G)17-CL-36,,SIG)                   31489001   16
+MONIT-REF  ((MONIT1),ISLAM+,J,NIM,188,243,88)                     31489001   17
+           ((MONIT2),MUGHABGHAB+,B,NEUT.CS 1A,,81)                31489001   18
+HISTORY    (970912C)  Compiled at the centre - NNDC by S.Maev     31489001   19
+ENDBIB              17                                            31489001   20
+COMMON               5          3                                 31489001   21
+EN-DUMMY   MONIT1     MONIT1-ERR MONIT2     MONIT2-ERR            31489001   22
+EV         MB         MB         B          B                     31489001   23
+    2.5E-02    77.2      2.1        43.6        0.46              31489001   24
+ENDCOMMON            3                                            31489001   25
+ENDSUBENT           24                                            3148900199999
+SUBENT        31489016     980529                                 31489016    1
+BIB                  3          7                                 31489016    2
+REACTION   (28-NI-58(N,G)28-NI-59,,SIG,,MXW)                      31489016    3
+SAMPLE     Mixture of melanine  (C3-H6-N6) with natural nickel.   31489016    4
+            Ni-58 content is 67.88 pc, Ni-60 content is 26.23 pc  31489016    5
+            Ni-62 content is  3.66 pc, Ni-64 content is  1.08 pc  31489016    6
+            nickel weight is 4.1726 gram, melanine weight is      31489016    7
+            11.0994 gram                                          31489016    8
+STATUS     (TABLE)   Data are taken from table 3 of main ref.     31489016    9
+ENDBIB               7                                            31489016   10
+NOCOMMON             0          0                                 31489016   11
+DATA                 2          1                                 31489016   12
+DATA       ERR-T                                                  31489016   13
+B          B                                                      31489016   14
+   4.4       0.2                                                  31489016   15
+ENDDATA              3                                            31489016   16
+ENDSUBENT           15                                            3148901699999
+ENDENTRY             2                                            3148999999999
+ENTRY            62490     820331                                 62490000    1
+SUBENT        62490001     820331                                 62490001    1
+BIB                  6          6                                 62490001    2
+INSTITUTE  (2FR PCF)                                              62490001    3
+REFERENCE  (J,NAT,142,392,3808)                                   62490001    4
+AUTHOR     (H.VON HALBAN JR,L.KOWARSKI)                           62490001    5
+INC-SOURCE (PHOTO) TH-D2O SOURCE                                  62490001    6
+COMMENT    CROSS SECTIONS CORRECTED AS PER NATURE,163,366(1949)   62490001    7
+STATUS     (SCSRS)                                                62490001    8
+ENDBIB               6                                            62490001    9
+NOCOMMON             0          0                                 62490001   10
+ENDSUBENT            9                                            6249000199999
+SUBENT        62490005     820331                                 62490005    1
+BIB                  1          1                                 62490005    2
+REACTION   (28-NI-58(N,G)28-NI-59,,SIG,,SPA)                      62490005    3
+ENDBIB               1                                            62490005    4
+NOCOMMON             0          0                                 62490005    5
+DATA                 2          1                                 62490005    6
+EN-MEAN    DATA-MAX                                               62490005    7
+MEV        B                                                      62490005    8
+ 2.2000E-01 1.8000E-02                                            62490005    9
+ENDDATA              3                                            62490005   10
+ENDSUBENT            9                                            6249000599999
+ENDENTRY             2                                            6249099999999
+ENDREQUEST           1                                            Z999999999999

@@ -1,0 +1,76 @@
+REQUEST           1001   20010914          3     140520               0  0    0
+ENTRY            11750     840928                                 11750000    1
+SUBENT        11750001     840928                                 11750001    1
+BIB                 11         14                                 11750001    2
+INSTITUTE  (1CANCRC)                                              11750001    3
+REFERENCE  (J,CJP,31,903,53)                                      11750001    4
+AUTHOR     (F.BROWN,J.L.WOLFSON,L.YAFFE)                          11750001    5
+TITLE      PILE NEUTRON CAPTURE CROSS SECTIONS OF CO60*(10.5 MIN) 11750001    6
+           AND CO60(5.25 YR).                                     11750001    7
+FACILITY   (REAC) NRX REACTOR.                                    11750001    8
+INC-SPECT  REACTOR SPECTRUM                                       11750001    9
+DETECTOR   (SCIN) ANTHRACENE SCINTILLATION SPECTROMETER.          11750001   10
+DECAY-DATA (27-CO-61,105.MIN)                                     11750001   11
+METHOD     (ACTIV)                                                11750001   12
+STATUS     (SCSRS)                                                11750001   13
+HISTORY    (760730T) TRANSLATED FROM SCISRS                       11750001   14
+           (831011A) CONVERTED TO REACTION FORMALISM              11750001   15
+           (840928A) BIB, DATA ADDITIONS.                         11750001   16
+ENDBIB              14                                            11750001   17
+NOCOMMON             0          0                                 11750001   18
+ENDSUBENT           17                                            1175000199999
+SUBENT        11750003     851106                                 11750003    1
+BIB                  4          4                                 11750003    2
+REACTION   (27-CO-60(N,G)27-CO-61,,SIG,,SPA)                      11750003    3
+DECAY-DATA (27-CO-60-G,5.25YR)                                    11750003    4
+ASSUMED    (ASSUM,27-CO-59(N,G)27-CO-60-G,,SIG,,SPA)              11750003    5
+HISTORY    (851106A) REACTION, DATA HEADING CORRECTED.            11750003    6
+ENDBIB               4                                            11750003    7
+NOCOMMON             0          0                                 11750003    8
+DATA                 5          1                                 11750003    9
+EN-DUMMY   DATA       DATA-ERR   ASSUM      ASSUM-ERR             11750003   10
+MEV        B          B          B          B                     11750003   11
+ 2.53   -08 6.0    +00 1.4    +00 18.8       1.8                  11750003   12
+ENDDATA              3                                            11750003   13
+ENDSUBENT           12                                            1175000399999
+ENDENTRY             2                                            1175099999999
+ENTRY            12596     830808                                 12596000    1
+SUBENT        12596001     830808                                 12596001    1
+BIB                  9         12                                 12596001    2
+INSTITUTE  (1USAMTR)                                              12596001    3
+REFERENCE  (R,IN-1024,6608)                                       12596001    4
+AUTHOR     (C.H.HOGG,L.D.WEBER)                                   12596001    5
+TITLE      NEUTRON ACTIVATION CROSS SECTIONS FOR THE CO-60 ISOMERS12596001    6
+METHOD     (ACTIV)ACTIVATION MEASUREMENT OF DECAY BETA OF CO-61   12596001    7
+ANALYSIS   ASSUMES 1/V CROSS SECTION DEPENDENCE AND 1/E NEUTRON   12596001    8
+            SPECTRUM.                                             12596001    9
+DECAY-DATA (27-CO-61,99.MIN,B-)                                   12596001   10
+N-SOURCE   (REAC)VH-2 POSITION IN MATERIALS TESTING REACTOR       12596001   11
+            FLUX 2.1E+14 N/SEC/CM**2.                             12596001   12
+HISTORY    (780301C)                                              12596001   13
+           (820826A) INSTITUTE,DECAY-DATA CORRECTED.              12596001   14
+ENDBIB              12                                            12596001   15
+NOCOMMON             0          0                                 12596001   16
+ENDSUBENT           15                                            1259600199999
+SUBENT        12596002     830808                                 12596002    1
+BIB                  5         10                                 12596002    2
+REACTION   (27-CO-60(N,G)27-CO-61,,SIG)                           12596002    3
+MONITOR    (27-CO-59(N,G)27-CO-60,,SIG)                           12596002    4
+SAMPLE     CO-60 TAKEN FROM A SECTION OF 0.5 PERCENT CO-AL ALLOY  12596002    5
+            THAT HAD BEEN IRRADIATED FOR 100 DAYS.CO-60 SAMPLE    12596002    6
+            WAS THEN IRRADIATED BOTH UNSHIELDED AND WITH 40 MIL   12596002    7
+            CD SHIELD FOR 4 HOURS. MEASURED CO-60 CD RATIO        12596002    8
+            OF 10. FOR SAMPLE PREPARATION AND 9.4 FOR IRRADIATION.12596002    9
+DECAY-DATA (27-CO-60-G,5.27YR,B-)                                 12596002   10
+CORRECTION CO-61 GENERATED IN SAMPLE PREPARATION WAS LESS THAN    12596002   11
+            0.3 PERCENT.                                          12596002   12
+ENDBIB              10                                            12596002   13
+NOCOMMON             0          0                                 12596002   14
+DATA                 4          1                                 12596002   15
+EN         DATA       DATA-ERR   MONIT                            12596002   16
+EV         B          B          B                                12596002   17
+0.0253     2.0        0.2        37.                              12596002   18
+ENDDATA              3                                            12596002   19
+ENDSUBENT           18                                            1259600299999
+ENDENTRY             2                                            1259699999999
+ENDREQUEST           1                                            Z999999999999

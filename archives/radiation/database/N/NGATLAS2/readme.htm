@@ -1,0 +1,871 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="Microsoft FrontPage 2.0">
+<title>NGATLAS Readme File</title>
+</head>
+
+<body background="Lava_Lamp26.gif" bgproperties="fixed"
+leftmargin="20">
+
+<p><br>
+<font size="6" face="Times New Roman"><strong>NGATLAS DATA BASE<br>
+</strong></font><font size="5" face="Times New Roman"><strong><br>
+</strong></font><font size="4">This data base contains cross
+section data of neutron induced capture reactions for targets up
+to, and including, curium (Z=96). It comprises 739 target
+isotopes with half-lives above 0.5 day. Cross sections to ground,
+first and second isomersare listed separately. If isomers have a
+half-life longer than 0.5 day they are also included as targets.
+This gives a total of 972 reaction channels, with data in
+point-wise format in the range 10<sup>-5</sup> eV to 20 MeV. Energy
+dependent isomeric branching ratios are based on a combination of
+experimental information and data based on empirical systematics
+at thermal and 14.5 MeV energies.</font></p>
+
+<p><font size="4">Plots of the point-wise data are shown in IAEA
+report INDC(NDS)-362.</font></p>
+
+<p><font size="4">All procedures for data evaluations and
+renormalizations are described in </font></p>
+
+<p><font size="4">* J. Kopecky and D. Nierop, The European
+Activation File EAF-4 - Summary Documentation -, ECN-C--95-075,
+(ECN Report, Petten, The Netherlands, December 1995).</font></p>
+
+<p><font size="4">* J. Kopecky, M.G. Delfini, H.A.J. van der Kamp
+and D. Nierop, Revisions and Extensions of Neutron Capture Cross
+Sections in the European Activation File EAF-3, ECN-C--92-051,
+(ECN Report, Petten, The Netherlands, July 1992). </font><font
+size="3"><br>
+<strong><br>
+</strong></font><font size="5"><strong><br>
+</strong></font><font size="6" face="Times New Roman"><strong>FORMATS
+of NGATLAS DATA</strong></font><br>
+<br>
+<font size="4" face="Times New Roman">The format of the NGATLAS
+file is essentially that of the MF=3 file of ENDF5 format with
+the following deviations (the resulting format is usually
+referred to as the EAF format, see EAF-4 final document
+/ECN--95-072/):</font></p>
+
+<p><font size="4" face="Times New Roman">1. Two comment lines
+have been added in earlier stage: only one is now used stating
+the origin of data and the EAF revisions. The second one was used
+earlier to store more detailed information about renormalizations
+and is now empty.</font></p>
+
+<p><font size="4" face="Times New Roman">2. The material number
+MAT consists of Z and two last digits of A. To describe
+metastable targets A has been increased by 50 or 70 (m1 or m2,
+respectively). Consequently, the order of the cross-sections
+(according to increasing MAT numbers) is not always in accordance
+with increasing Z and A. </font></p>
+
+<p><font size="4" face="Times New Roman">3. The identifiers LIS
+and LFS are used to indicate the (isomeric) states of the target
+and final nucleus, respectively. Here we have adopted the
+convention that LFS = 99 means total production cross-section;
+LFS = i means production of ground state (i = 0), m1 (i = 1) and
+m2 (i = 2), respectively. The reaction nomenclature is that of
+ENDF format, except that reaction numbers leading to metastable
+states have been increased by 300 or 600 (for m1 and m2,
+respectively). The cross sections for one material number are
+ordered according to increasing MT numbers, except that cross
+sections leading to metastable states follow immediately after
+the cross section leading to the ground state.</font></p>
+
+<p><font size="4" face="Times New Roman">In some adopted data, a
+condensation to 1282 point-structure was applied, if the number
+of data points in the original source exceeded 10,000 energy
+points. </font></p>
+
+<p><font size="4" face="Times New Roman">In the pointwise file
+the reaction to the ground state is given first, followed by
+reactions to the metastable states (if any). Example of MT
+numbers are listed below:</font></p>
+
+<pre><font size="5" face="Courier">MT 	Reaction 	MT 	Reaction channel
+
+ 102 	(n,g) 		102 	ground state production
+	(n,g)* 		402 	1 st isomer production
+	(n,g)# 		702 	2 nd isomer production</font></pre>
+
+<p><font size="4" face="Times New Roman">In order to enable fully
+automatic retrieval of the history of the previous
+renormalization procedures and execution of the new
+renormalization, the composition of the comment line has been
+recently simplified and only two major items of information are
+stored: </font></p>
+
+<p><font size="4" face="Times New Roman">1. The source of the
+data adopted in MDF is quoted in a format FACTOR*SOURCE (e.g.
+1.0000+00*JEF-2.2 means, the data are taken from JEF-2.2 with no
+renormalization; 8.2500-01*ENDF/B-VI, the excitation curve has
+been renormalized to 82.5% of its original value). </font></p>
+
+<p><font size="4" face="Times New Roman">2. The flag RN displays
+the information for experimental or systematics renormalizations,
+respectively, formatted as RN - XXX/YYY. The first item stands
+for the total cross section at 14.5 MeV, while the second refers
+to the isomeric branching (e.g.RN - EXP/SYS means that å(tot)
+has been renormalized to the experiment, while the å(gs) and
+å(m1) have been generated by applying the branching
+systematics).<br>
+</font><br>
+<br>
+<font size="5" face="Times New Roman"><strong>AVAILABILITY<br>
+</strong></font><br>
+<font size="4">The data files are available from the IAEA Nuclear
+Data Section online through the World Wide Web. </font></p>
+
+<font size="4" face="Times New Roman"><strong>REACTION LISTING</strong></font>
+
+</pre>
+
+<pre><font size="5">Number Target       Reaction  Origin</font></pre>
+
+<pre><font size="5"> 
+   1    H-1           N,G     JEF-2.2
+   2    H-2           N,G     JEF-2.2
+   3    HE-3          N,G     JENDL-3.2
+   4    LI-6          N,G     JEF-2.2
+   5    LI-7          N,G     EFF-2.4
+   6    BE-7          N,G     JEF-2.2
+   7    BE-9          N,G     EFF-2.4
+   8    BE-10         N,G     ESTIMATE, BE9 REVISED
+   9    B-10          N,G     JEF-2.2   
+  10    B-11          N,G     JEF-2.2 
+  11    C-12          N,G     ENDF/B-VI 
+  12    C-13          N,G     SIG-ECN   
+  13    C-14          N,G     ESTIMATE, C12 REVISED
+  14    N-14          N,G     JEF-2.2       
+  15    N-15          N,G     JENDL-3.2    
+  16    O-16          N,G     JENDL-3.2
+  17    O-17          N,G     ENDF/B-VI
+  18    O-18          N,G     ESTIMATE, O16
+  19    F-19          N,G     JEF-2.2
+  20    NE-20         N,G     SIGECN-MASGAM
+  21    NE-21         N,G     SIGECN-MASGAM
+  22    NE-22         N,G     SIGECN-MASGAM
+  23    NA-22         N,G     JEF-2.2
+  24    NA-23         N,G     JEF-2.2; RN - ---/SYS
+  25    NA-24         N,G     MASGAM
+  26    MG-24         N,G     JENDL-3.1
+  27    MG-25         N,G     JENDL-3.1
+  28    MG-26         N,G     JENDL-3.1
+  29    MG-28         N,G     MASGAM
+  30    AL-26         N,G     MASGAM
+  31    AL-27         N,G     JEF-2.2
+  32    SI-28         N,G     JENDL-3.1
+  33    SI-29         N,G     JENDL-3.1
+  34    SI-30         N,G     JENDL-3.1
+  35    SI-31         N,G     MASGAM
+  36    SI-32         N,G     MASGAM
+  37    P-31          N,G     JEF-2.2
+  38    P-32          N,G     MASGAM
+  39    P-33          N,G     MASGAM
+  40    S-32          N,G     JEF-2.2
+  41    S-33          N,G     JEF-2.2
+  42    S-34          N,G     JEF-2.2
+  43    S-35          N,G     MASGAM
+  44    S-36          N,G     JEF-2.2
+  45    CL-35         N,G     SIGECN-MASGAM
+  46    CL-36         N,G     MASGAM
+  47    CL-37         N,G     SIGECN-MASGAM; RN - ---/SYS
+  48    AR-36         N,G     JEF-2.2
+  49    AR-37         N,G     MASGAM
+  50    AR-38         N,G     JEF-2.2
+  51    AR-39         N,G     MASGAM
+  52    AR-40         N,G     JEF-2.2
+  53    AR-41         N,G     MASGAM
+  54    AR-42         N,G     MASGAM
+  55    K-39          N,G     JENDL-3.1
+  56    K-40          N,G     MASGAM
+  57    K-41          N,G     JENDL-3.1
+  58    K-42          N,G     MASGAM
+  59    K-43          N,G     MASGAM
+  60    CA-40         N,G     JENDL-3.1
+  61    CA-41         N,G     MASGAM
+  62    CA-42         N,G     JENDL-3.1
+  63    CA-43         N,G     JENDL-3.1
+  64    CA-44         N,G     JENDL-3.1
+  65    CA-45         N,G     MASGAM
+  66    CA-46         N,G     JENDL-3.1
+  67    CA-47         N,G     MASGAM
+  68    CA-48         N,G     JENDL-3.1
+  69    SC-44-IS=1    N,G     MASGAM; RN - ---/SYS
+  70    SC-45         N,G     ENDF/B-VI; RN - ---/SYS
+  71    SC-46         N,G     MASGAM
+  72    SC-47         N,G     MASGAM
+  73    SC-48         N,G     MASGAM
+  74    TI-44         N,G     MASGAM
+  75    TI-45         N,G     MASGAM
+  76    TI-46         N,G     JENDL-3.1
+  77    TI-47         N,G     JENDL-3.1
+  78    TI-48         N,G     JENDL-3.1
+  79    TI-49         N,G     JENDL-3.1
+  80    TI-50         N,G     JENDL-3.1
+  81    V-48          N,G     MASGAM
+  82    V-49          N,G     MASGAM
+  83    V-50          N,G     SIGECN-MASGAM
+  84    V-51          N,G     JENDL-3.1
+  85    CR-48         N,G     ADL-3
+  86    CR-50         N,G     EFF-2.4
+  87    CR-51         N,G     MASGAM
+  88    CR-52         N,G     EFF-2.4
+  89    CR-53         N,G     EFF-2.4
+  90    CR-54         N,G     EFF-2.4
+  91    MN-52         N,G     MASGAM
+  92    MN-53         N,G     MASGAM
+  93    MN-54         N,G     MASGAM
+  94    MN-55         N,G     JEF-2.2
+  95    FE-54         N,G     ENDF/B-VI
+  96    FE-55         N,G     MASGAM
+  97    FE-56         N,G     ENDF/B-VI
+  98    FE-57         N,G     ENDF/B-VI
+  99    FE-58         N,G     ENDF/B-VI
+ 100    FE-59         N,G     MASGAM
+ 101    FE-60         N,G     MASGAM
+ 102    CO-55         N,G     MASGAM
+ 103    CO-56         N,G     MASGAM
+ 104    CO-57         N,G     MASGAM; RN - ---/SYS
+ 105    CO-58         N,G     JEF-2.2
+ 106    CO-58-IS=1    N,G     JEF-2.2
+ 107    CO-59         N,G     JEF-2.2; RN - ---/SYS
+ 108    CO-60         N,G     MASGAM
+ 109    NI-56         N,G     MASGAM
+ 110    NI-57         N,G     MASGAM
+ 111    NI-58         N,G     EFF-2.4
+ 112    NI-59         N,G     JEF-2.2
+ 113    NI-60         N,G     EFF-2.4
+ 114    NI-61         N,G     EFF-2.4
+ 115    NI-62         N,G     EFF-2.4
+ 116    NI-63         N,G     MASGAM
+ 117    NI-64         N,G     EFF-2.4
+ 118    NI-66         N,G     MASGAM
+ 119    CU-63         N,G     ENDF/B-VI
+ 120    CU-64         N,G     MASGAM
+ 121    CU-65         N,G     ENDF/B-VI
+ 122    CU-67         N,G     MASGAM; RN - ---/SYS
+ 123    ZN-64         N,G     JEF-2.2
+ 124    ZN-65         N,G     MASGAM
+ 125    ZN-66         N,G     SIGECN-MASGAM
+ 126    ZN-67         N,G     SIGECN-MASGAM
+ 127    ZN-68         N,G     SIGECN-MASGAM; RN - ---/SYS
+ 128    ZN-69-IS=1    N,G     MASGAM
+ 129    ZN-70         N,G     SIGECN-MASGAM; RN - ---/SYS
+ 130    ZN-72         N,G     MASGAM; RN - ---/SYS
+ 131    GA-67         N,G     MASGAM
+ 132    GA-69         N,G     SIGECN-MASGAM
+ 133    GA-71         N,G     SIGECN-MASGAM
+ 134    GA-72         N,G     MASGAM
+ 135    GE-68         N,G     MASGAM
+ 136    GE-69         N,G     MASGAM
+ 137    GE-70         N,G     SIGECN-MASGAM
+ 138    GE-71         N,G     MASGAM
+ 139    GE-72         N,G     JEF-2.2; RN - ---/SYS
+ 140    GE-73         N,G     JEF-2.2
+ 141    GE-74         N,G     JEF-2.2; RN - ---/SYS
+ 142    GE-76         N,G     JEF-2.2; RN - ---/SYS
+ 143    GE-77         N,G     MASGAM
+ 144    AS-71         N,G     MASGAM
+ 145    AS-72         N,G     MASGAM
+ 146    AS-73         N,G     MASGAM
+ 147    AS-74         N,G     MASGAM
+ 148    AS-75         N,G     JEF-2.2
+ 149    AS-76         N,G     MASGAM
+ 150    AS-77         N,G     MASGAM
+ 151    SE-72         N,G     MASGAM; RN - ---/SYS
+ 152    SE-73         N,G     MASGAM
+ 153    SE-74         N,G     JEF-2.2
+ 154    SE-75         N,G     MASGAM
+ 155    SE-76         N,G     JEF-2.2; RN - ---/SYS
+ 156    SE-77         N,G     JEF-2.2
+ 157    SE-78         N,G     JEF-2.2; RN - ---/SYS
+ 158    SE-79         N,G     MASGAM
+ 159    SE-80         N,G     JEF-2.2; RN - ---/SYS
+ 160    SE-82         N,G     JEF-2.2; RN - ---/SYS
+ 161    BR-76         N,G     MASGAM; RN - ---/SYS
+ 162    BR-77         N,G     MASGAM
+ 163    BR-79         N,G     JEF-2.2; RN - ---/SYS
+ 164    BR-81         N,G     JEF-2.2; RN - ---/SYS
+ 165    BR-82         N,G     MASGAM
+ 166    KR-76         N,G     ADL-3
+ 167    KR-78         N,G     JEF-2.2; RN - ---/SYS
+ 168    KR-79         N,G     MASGAM
+ 169    KR-80         N,G     JEF-2.2; RN - ---/SYS
+ 170    KR-81         N,G     MASGAM
+ 171    KR-82         N,G     JEF-2.2; RN - ---/SYS
+ 172    KR-83         N,G     JEF-2.2
+ 173    KR-84         N,G     JEF-2.2; RN - ---/SYS
+ 174    KR-85         N,G     JEF-2.2
+ 175    KR-86         N,G     JEF-2.2
+ 176    RB-83         N,G     MASGAM; RN - ---/SYS
+ 177    RB-84         N,G     MASGAM
+ 178    RB-85         N,G     JEF-2.2; RN - ---/SYS
+ 179    RB-86         N,G     JEF-2.2
+ 180    RB-87         N,G     JEF-2.2
+ 181    SR-82         N,G     MASGAM; RN - ---/SYS
+ 182    SR-83         N,G     MASGAM
+ 183    SR-84         N,G     JEF-2.2; RN - ---/SYS
+ 184    SR-85         N,G     MASGAM
+ 185    SR-86         N,G     JEF-2.2; RN - ---/SYS
+ 186    SR-87         N,G     JEF-2.2
+ 187    SR-88         N,G     JEF-2.2
+ 188    SR-89         N,G     JEF-2.2
+ 189    SR-90         N,G     JEF-2.2
+ 190    Y-86          N,G     MASGAM; RN - ---/SYS
+ 191    Y-87          N,G     MASGAM
+ 192    Y-88          N,G     MASGAM; RN - ---/SYS
+ 193    Y-89          N,G     JEF-2.2; RN - ---/SYS
+ 194    Y-90          N,G     JEF-2.2; RN - ---/SYS
+ 195    Y-91          N,G     JEF-2.2
+ 196    ZR-86         N,G     ADL-3; RN - ---/SYS
+ 197    ZR-88         N,G     MASGAM; RN - ---/SYS
+ 198    ZR-89         N,G     MASGAM; RN - ---/SYS
+ 199    ZR-90         N,G     JEF-2.2
+ 200    ZR-91         N,G     JEF-2.2
+ 201    ZR-92         N,G     JEF-2.2
+ 202    ZR-93         N,G     JEF-2.2
+ 203    ZR-94         N,G     JEF-2.2
+ 204    ZR-95         N,G     JEF-2.2
+ 205    ZR-96         N,G     JEF-2.2
+ 206    ZR-97         N,G     MASGAM
+ 207    NB-90         N,G     MASGAM; RN - ---/SYS
+ 208    NB-91         N,G     MASGAM; RN - ---/SYS
+ 209    NB-91-IS=1    N,G     MASGAM; RN - ---/SYS
+ 210    NB-92         N,G     MASGAM; RN - ---/SYS
+ 211    NB-92-IS=1    N,G     MASGAM; RN - ---/SYS
+ 212    NB-93         N,G     JEF-2.2; RN - ---/SYS
+ 213    NB-93-IS=1    N,G     ENDF/B-VI; RN - ---/SYS
+ 214    NB-94         N,G     JEF-2.2; RN - ---/SYS
+ 215    NB-95         N,G     JEF-2.2
+ 216    NB-95-IS=1    N,G     JEF-2.2
+ 217    NB-96         N,G     MASGAM; RN - ---/SYS
+ 218    MO-92         N,G     JEF-2.2; RN - ---/SYS
+ 219    MO-93         N,G     MASGAM
+ 220    MO-94         N,G     JEF-2.2
+ 221    MO-95         N,G     JEF-2.2
+ 222    MO-96         N,G     JEF-2.2
+ 223    MO-97         N,G     JEF-2.2
+ 224    MO-98         N,G     JEF-2.2
+ 225    MO-99         N,G     JEF-2.2
+ 226    MO-100        N,G     JEF-2.2
+ 227    TC-95         N,G     MASGAM; RN - ---/SYS
+ 228    TC-95-IS=1    N,G     MASGAM; RN - ---/SYS
+ 229    TC-96         N,G     MASGAM; RN - ---/SYS
+ 230    TC-97         N,G     MASGAM
+ 231    TC-97-IS=1    N,G     MASGAM
+ 232    TC-98         N,G     MASGAM; RN - ---/SYS
+ 233    TC-99         N,G     JEF-2.2
+ 234    RU-96         N,G     JEF-2.2
+ 235    RU-97         N,G     MASGAM
+ 236    RU-98         N,G     JEF-2.2
+ 237    RU-99         N,G     JEF-2.2
+ 238    RU-100        N,G     JEF-2.2
+ 239    RU-101        N,G     JEF-2.2
+ 240    RU-102        N,G     JEF-2.2
+ 241    RU-103        N,G     JEF-2.2
+ 242    RU-104        N,G     JEF-2.2
+ 243    RU-105        N,G     JEF-2.2
+ 244    RU-106        N,G     JEF-2.2
+ 245    RH-99         N,G     MASGAM; RN - ---/SYS
+ 246    RH-99-IS=1    N,G     MASGAM; RN - ---/SYS
+ 247    RH-100        N,G     MASGAM; RN - ---/SYS
+ 248    RH-101        N,G     MASGAM; RN - ---/SYS
+ 249    RH-101-IS=1   N,G     MASGAM; RN - ---/SYS
+ 250    RH-102        N,G     MASGAM; RN - ---/SYS
+ 251    RH-102-IS=1   N,G     MASGAM; RN - ---/SYS
+ 252    RH-103        N,G     JEF-2.2; RN - ---/SYS
+ 253    RH-105        N,G     JEF-2.2; RN - ---/SYS
+ 254    PD-100        N,G     MASGAM
+ 255    PD-101        N,G     MASGAM
+ 256    PD-102        N,G     JEF-2.2
+ 257    PD-103        N,G     MASGAM
+ 258    PD-104        N,G     JEF-2.2
+ 259    PD-105        N,G     JEF-2.2
+ 260    PD-106        N,G     JEF-2.2; RN - ---/SYS
+ 261    PD-107        N,G     JEF-2.2
+ 262    PD-108        N,G     JEF-2.2; RN - ---/SYS
+ 263    PD-109        N,G     MASGAM
+ 264    PD-110        N,G     JEF-2.2; RN - ---/SYS
+ 265    PD-112        N,G     MASGAM; RN - ---/SYS
+ 266    AG-105        N,G     MASGAM; RN - ---/SYS
+ 267    AG-106-IS=1   N,G     MASGAM; RN - ---/SYS
+ 268    AG-107        N,G     JEF-2.2; RN - ---/SYS
+ 269    AG-108-IS=1   N,G     MASGAM; RN - ---/SYS
+ 270    AG-109        N,G     JEF-2.2; RN - ---/SYS
+ 271    AG-110-IS=1   N,G     MASGAM; RN - ---/SYS
+ 272    AG-111        N,G     JEF-2.2
+ 273    CD-106        N,G     JEF-2.2
+ 274    CD-108        N,G     JENDL-3.1
+ 275    CD-109        N,G     MASGAM
+ 276    CD-110        N,G     JEF-2.2; RN - ---/SYS
+ 277    CD-111        N,G     JEF-2.2
+ 278    CD-112        N,G     JEF-2.2; RN - ---/SYS
+ 279    CD-113        N,G     JEF-2.2
+ 280    CD-113-IS=1   N,G     JEF-2.2
+ 281    CD-114        N,G     JEF-2.2; RN - ---/SYS
+ 282    CD-115        N,G     JEF-2.2
+ 283    CD-115-IS=1   N,G     JEF-2.2
+ 284    CD-116        N,G     JEF-2.2; RN - ---/SYS
+ 285    IN-111        N,G     MASGAM; RN - ---/SYS
+ 286    IN-113        N,G     JEF-2.2; RN - ---/SYS
+ 287    IN-114-IS=1   N,G     MASGAM; RN - ---/SYS
+ 288    IN-115        N,G     JEF-2.2; RN - ---/SYS
+ 289    SN-112        N,G     JEF-2.2; RN - ---/SYS
+ 290    SN-113        N,G     MASGAM
+ 291    SN-114        N,G     JEF-2.2
+ 292    SN-115        N,G     JEF-2.2
+ 293    SN-116        N,G     JEF-2.2; RN - ---/SYS
+ 294    SN-117        N,G     JEF-2.2
+ 295    SN-117-IS=1   N,G     JEF-2.2
+ 296    SN-118        N,G     JEF-2.2; RN - ---/SYS
+ 297    SN-119        N,G     JEF-2.2
+ 298    SN-119-IS=1   N,G     JEF-2.2
+ 299    SN-120        N,G     JEF-2.2; RN - ---/SYS
+ 300    SN-121        N,G     MASGAM
+ 301    SN-121-IS=1   N,G     MASGAM
+ 302    SN-122        N,G     JEF-2.2; RN - ---/SYS
+ 303    SN-123        N,G     JEF-2.2
+ 304    SN-124        N,G     JEF-2.2; RN - ---/SYS
+ 305    SN-125        N,G     JEF-2.2
+ 306    SN-126        N,G     JEF-2.2; RN - ---/SYS
+ 307    SB-119        N,G     MASGAM; RN - ---/SYS
+ 308    SB-120-IS=1   N,G     MASGAM
+ 309    SB-121        N,G     JEF-2.2; RN - ---/SYS
+ 310    SB-122        N,G     MASGAM
+ 311    SB-123        N,G     JEF-2.2; RN - ---/SYS
+ 312    SB-124        N,G     JEF-2.2
+ 313    SB-125        N,G     JEF-2.2; RN - ---/SYS
+ 314    SB-126        N,G     JEF-2.2
+ 315    SB-127        N,G     MASGAM; RN - ---/SYS
+ 316    TE-118        N,G     MASGAM; RN - ---/SYS
+ 317    TE-119        N,G     MASGAM
+ 318    TE-119-IS=1   N,G     MASGAM
+ 319    TE-120        N,G     JEF-2.2; RN - ---/SYS
+ 320    TE-121        N,G     MASGAM
+ 321    TE-121-IS=1   N,G     MASGAM
+ 322    TE-122        N,G     JEF-2.2; RN - ---/SYS
+ 323    TE-123        N,G     JEF-2.2
+ 324    TE-123-IS=1   N,G     JEF-2.2
+ 325    TE-124        N,G     JEF-2.2; RN - ---/SYS
+ 326    TE-125        N,G     JEF-2.2
+ 327    TE-125-IS=1   N,G     JEF-2.2
+ 328    TE-126        N,G     JEF-2.2; RN - ---/SYS
+ 329    TE-127        N,G     JEF-2.2
+ 330    TE-127-IS=1   N,G     JEF-2.2
+ 331    TE-128        N,G     JEF-2.2; RN - ---/SYS
+ 332    TE-129        N,G     JEF-2.2
+ 333    TE-129-IS=1   N,G     JEF-2.2
+ 334    TE-130        N,G     JEF-2.2; RN - ---/SYS
+ 335    TE-131-IS=1   N,G     MASGAM
+ 336    TE-132        N,G     JEF-2.2; RN - ---/SYS
+ 337    I-123         N,G     MASGAM
+ 338    I-124         N,G     MASGAM
+ 339    I-125         N,G     MASGAM
+ 340    I-126         N,G     MASGAM
+ 341    I-127         N,G     JEF-2.2
+ 342    I-128         N,G     MASGAM
+ 343    I-129         N,G     JEF-2.2; RN - ---/SYS
+ 344    I-130         N,G     JEF-2.2
+ 345    I-131         N,G     JEF-2.2; RN - ---/SYS
+ 346    I-133         N,G     MASGAM; RN - ---/SYS
+ 347    XE-122        N,G     ADL-3
+ 348    XE-124        N,G     JEF-2.2; RN - ---/SYS
+ 349    XE-125        N,G     MASGAM
+ 350    XE-126        N,G     JEF-2.2; RN - ---/SYS
+ 351    XE-127        N,G     MASGAM
+ 352    XE-128        N,G     JEF-2.2; RN - ---/SYS
+ 353    XE-129        N,G     JEF-2.2
+ 354    XE-129-IS=1   N,G     JEF-2.2
+ 355    XE-130        N,G     JEF-2.2; RN - ---/SYS
+ 356    XE-131        N,G     JEF-2.2
+ 357    XE-131-IS=1   N,G     JEF-2.2
+ 358    XE-132        N,G     JEF-2.2; RN - ---/SYS
+ 359    XE-133        N,G     JEF-2.2; RN - ---/SYS
+ 360    XE-133-IS=1   N,G     JEF-2.2; RN - ---/SYS
+ 361    XE-134        N,G     JEF-2.2; RN - ---/SYS
+ 362    XE-135        N,G     JEF-2.2
+ 363    XE-136        N,G     JEF-2.2
+ 364    CS-129        N,G     MASGAM
+ 365    CS-131        N,G     MASGAM
+ 366    CS-132        N,G     MASGAM
+ 367    CS-133        N,G     JEF-2.2; RN - ---/SYS
+ 368    CS-134        N,G     JEF-2.2; RN - ---/SYS
+ 369    CS-135        N,G     JEF-2.2; RN - ---/SYS
+ 370    CS-136        N,G     JEF-2.2
+ 371    CS-137        N,G     JEF-2.2; RN - ---/SYS
+ 372    BA-128        N,G     MASGAM; RN - ---/SYS
+ 373    BA-129        N,G     MASGAM
+ 374    BA-130        N,G     SIGECN-MASGAM; RN - ---/SYS
+ 375    BA-131        N,G     MASGAM
+ 376    BA-132        N,G     JENDL-3.1; RN - ---/SYS
+ 377    BA-133        N,G     MASGAM
+ 378    BA-133-IS=1   N,G     MASGAM
+ 379    BA-134        N,G     JEF-2.2; RN - ---/SYS
+ 380    BA-135        N,G     JEF-2.2; RN - ---/SYS
+ 381    BA-135-IS=1   N,G     JEF-2.2; RN - ---/SYS
+ 382    BA-136        N,G     JEF-2.2; RN - ---/SYS
+ 383    BA-137        N,G     JEF-2.2
+ 384    BA-138        N,G     JEF-2.2
+ 385    BA-139        N,G     MASGAM
+ 386    BA-140        N,G     JEF-2.2
+ 387    LA-135        N,G     MASGAM; RN - ---/SYS
+ 388    LA-137        N,G     MASGAM
+ 389    LA-138        N,G     JENDL-3.1
+ 390    LA-139        N,G     JEF-2.2
+ 391    LA-140        N,G     JEF-2.2
+ 392    LA-141        N,G     MASGAM
+ 393    CE-134        N,G     MASGAM; RN - ---/SYS
+ 394    CE-135        N,G     MASGAM
+ 395    CE-136        N,G     SIGECN-MASGAM; RN - ---/SYS
+ 396    CE-137-IS=1   N,G     MASGAM
+ 397    CE-138        N,G     MASGAM; RN - ---/SYS
+ 398    CE-139        N,G     MASGAM
+ 399    CE-140        N,G     JEF-2.2
+ 400    CE-141        N,G     JEF-2.2
+ 401    CE-142        N,G     JEF-2.2
+ 402    CE-143        N,G     JEF-2.2
+ 403    CE-144        N,G     JEF-2.2
+ 404    PR-141        N,G     JEF-2.2; RN - ---/SYS
+ 405    PR-142        N,G     JEF-2.2
+ 406    PR-143        N,G     JEF-2.2; RN - ---/SYS
+ 407    ND-140        N,G     MASGAM; RN - ---/SYS
+ 408    ND-141        N,G     MASGAM
+ 409    ND-142        N,G     JEF-2.2
+ 410    ND-143        N,G     JEF-2.2
+ 411    ND-144        N,G     JEF-2.2
+ 412    ND-145        N,G     JEF-2.2
+ 413    ND-146        N,G     JEF-2.2
+ 414    ND-147        N,G     JEF-2.2
+ 415    ND-148        N,G     JEF-2.2
+ 416    ND-149        N,G     MASGAM
+ 417    ND-150        N,G     JEF-2.2
+ 418    PM-143        N,G     MASGAM
+ 419    PM-144        N,G     MASGAM
+ 420    PM-145        N,G     MASGAM
+ 421    PM-146        N,G     MASGAM
+ 422    PM-147        N,G     JEF-2.2; RN - ---/SYS
+ 423    PM-148        N,G     JEF-2.2
+ 424    PM-148-IS=1   N,G     JEF-2.2
+ 425    PM-149        N,G     JEF-2.2
+ 426    PM-150        N,G     MASGAM
+ 427    PM-151        N,G     JEF-2.2; RN - ---/SYS
+ 428    SM-144        N,G     JEF-2.2
+ 429    SM-145        N,G     MASGAM
+ 430    SM-146        N,G     MASGAM
+ 431    SM-147        N,G     JEF-2.2
+ 432    SM-148        N,G     JEF-2.2
+ 433    SM-149        N,G     JEF-2.2
+ 434    SM-150        N,G     JEF-2.2
+ 435    SM-151        N,G     JEF-2.2
+ 436    SM-152        N,G     JEF-2.2
+ 437    SM-153        N,G     JEF-2.2
+ 438    SM-154        N,G     JEF-2.2
+ 439    EU-145        N,G     MASGAM
+ 440    EU-146        N,G     MASGAM
+ 441    EU-147        N,G     MASGAM
+ 442    EU-148        N,G     MASGAM
+ 443    EU-149        N,G     MASGAM; RN - ---/SYS
+ 444    EU-150        N,G     MASGAM
+ 445    EU-150-IS=1   N,G     MASGAM
+ 446    EU-151        N,G     JEF-2.2; RN - ---/SYS
+ 447    EU-152        N,G     JEF-2.2
+ 448    EU-152-IS=1   N,G     JEF-2.2
+ 449    EU-153        N,G     JEF-2.2; RN - ---/SYS
+ 450    EU-154        N,G     JEF-2.2
+ 451    EU-155        N,G     JEF-2.2
+ 452    EU-156        N,G     JEF-2.2
+ 453    EU-157        N,G     JEF-2.2
+ 454    GD-146        N,G     MASGAM
+ 455    GD-147        N,G     MASGAM
+ 456    GD-148        N,G     MASGAM
+ 457    GD-149        N,G     MASGAM
+ 458    GD-150        N,G     MASGAM
+ 459    GD-151        N,G     MASGAM
+ 460    GD-152        N,G     JENDL-3.1
+ 461    GD-153        N,G     MASGAM
+ 462    GD-154        N,G     JEF-2.2
+ 463    GD-155        N,G     JEF-2.2
+ 464    GD-156        N,G     JEF-2.2
+ 465    GD-157        N,G     JEF-2.2
+ 466    GD-158        N,G     JEF-2.2
+ 467    GD-159        N,G     MASGAM
+ 468    GD-160        N,G     JEF-2.2
+ 469    TB-151        N,G     MASGAM; RN - ---/SYS
+ 470    TB-152        N,G     MASGAM
+ 471    TB-153        N,G     MASGAM; RN - ---/SYS
+ 472    TB-154        N,G     MASGAM
+ 473    TB-155        N,G     MASGAM; RN - ---/SYS
+ 474    TB-156        N,G     MASGAM
+ 475    TB-156-IS=2   N,G     MASGAM
+ 476    TB-157        N,G     MASGAM; RN - ---/SYS
+ 477    TB-158        N,G     MASGAM
+ 478    TB-159        N,G     JEF-2.2
+ 479    TB-160        N,G     JEF-2.2
+ 480    TB-161        N,G     MASGAM
+ 481    DY-154        N,G     MASGAM
+ 482    DY-155        N,G     MASGAM
+ 483    DY-156        N,G     SIGECN-MASGAM
+ 484    DY-157        N,G     MASGAM
+ 485    DY-158        N,G     SIGECN-MASGAM
+ 486    DY-159        N,G     MASGAM
+ 487    DY-160        N,G     JEF-2.2
+ 488    DY-161        N,G     JEF-2.2
+ 489    DY-162        N,G     JEF-2.2
+ 490    DY-163        N,G     JEF-2.2
+ 491    DY-164        N,G     JEF-2.2; RN - ---/SYS
+ 492    DY-165        N,G     MASGAM
+ 493    DY-166        N,G     MASGAM
+ 494    HO-163        N,G     MASGAM; RN - ---/SYS
+ 495    HO-164        N,G     ADL-3
+ 496    HO-164-IS=1   N,G     ADL-3
+ 497    HO-165        N,G     JEF-2.2; RN - ---/SYS
+ 498    HO-166        N,G     MASGAM
+ 499    HO-166-IS=1   N,G     MASGAM
+ 500    ER-161        N,G     MASGAM
+ 501    ER-162        N,G     SIGECN-MASGAM
+ 502    ER-164        N,G     SIGECN-MASGAM
+ 503    ER-165        N,G     MASGAM
+ 504    ER-166        N,G     JEF-2.2; RN - ---/SYS
+ 505    ER-167        N,G     JEF-2.2
+ 506    ER-168        N,G     SIGECN-MASGAM
+ 507    ER-169        N,G     MASGAM
+ 508    ER-170        N,G     SIGECN-MASGAM
+ 509    ER-171        N,G     MASGAM
+ 510    ER-172        N,G     MASGAM
+ 511    TM-165        N,G     MASGAM
+ 512    TM-166        N,G     MASGAM
+ 513    TM-167        N,G     MASGAM
+ 514    TM-168        N,G     MASGAM
+ 515    TM-169        N,G     SIGECN-MASGAM
+ 516    TM-170        N,G     SIGECN-MASGAM
+ 517    TM-171        N,G     SIGECN-MASGAM
+ 518    TM-172        N,G     MASGAM
+ 519    YB-166        N,G     MASGAM
+ 520    YB-168        N,G     SIGECN-MASGAM; RN - ---/SYS
+ 521    YB-169        N,G     SIGECN-MASGAM
+ 522    YB-170        N,G     SIGECN-MASGAM
+ 523    YB-171        N,G     SIGECN-MASGAM
+ 524    YB-172        N,G     SIGECN-MASGAM
+ 525    YB-173        N,G     SIGECN-MASGAM
+ 526    YB-174        N,G     SIGECN-MASGAM
+ 527    YB-175        N,G     MASGAM; RN - ---/SYS
+ 528    YB-176        N,G     SIGECN-MASGAM; RN - ---/SYS
+ 529    LU-169        N,G     MASGAM; RN - ---/SYS
+ 530    LU-170        N,G     MAS</font>GAM; RN - ---/SYS
+ <font size="5">531    LU-171        N,G     MASGAM; RN - ---/SYS
+ 532    LU-172        N,G     MASGAM
+ 533    LU-173        N,G     MASGAM; RN - ---/SYS
+ 534    LU-174        N,G     MASGAM
+ 535    LU-174-IS=1   N,G     MASGAM
+ 536    LU-175        N,G     JEF-2.2; RN - ---/SYS
+ 537    LU-176        N,G     JEF-2.2; RN - ---/SYS
+ 538    LU-177        N,G     MASGAM; RN - ---/SYS
+ 539    LU-177-IS=1   N,G     MASGAM; RN - ---/SYS
+ 540    HF-170        N,G     MASGAM
+ 541    HF-171        N,G     MASGAM
+ 542    HF-172        N,G     MASGAM
+ 543    HF-173        N,G     MASGAM
+ 544    HF-174        N,G     JEF-2.2
+ 545    HF-175        N,G     MASGAM
+ 546    HF-176        N,G     JEF-2.2; RN - ---/SYS
+ 547    HF-177        N,G     LANL
+ 548    HF-178        N,G     JEF-2.2; RN - ---/SYS
+ 549    HF-178-IS=2   N,G     JEF-2.2; RN - ---/SYS
+ 550    HF-179        N,G     JEF-2.2; RN - ---/SYS
+ 551    HF-179-IS=2   N,G     JEF-2.2; RN - ---/SYS
+ 552    HF-180        N,G     JEF-2.2
+ 553    HF-180-IS=1   N,G     JEF-2.2
+ 554    HF-181        N,G     MASGAM; RN - ---/SYS
+ 555    HF-182        N,G     MASGAM
+ 556    TA-177        N,G     MASGAM; RN - ---/SYS
+ 557    TA-179        N,G     MASGAM; RN - ---/SYS
+ 558    TA-180        N,G     LANL
+ 559    TA-180-IS=1   N,G     MASGAM
+ 560    TA-181        N,G     JEF-2.2; RN - ---/SYS
+ 561    TA-182        N,G     JEF-2.2
+ 562    TA-183        N,G     MASGAM
+ 563    W-178         N,G     MASGAM; RN - ---/SYS
+ 564    W-180         N,G     SIGECN-MASGAM
+ 565    W-181         N,G     MASGAM
+ 566    W-182         N,G     JEF-2.2; RN - ---/SYS
+ 567    W-183         N,G     JEF-2.2
+ 568    W-184         N,G     LANL
+ 569    W-185         N,G     MASGAM
+ 570    W-186         N,G     JEF-2.2
+ 571    W-187         N,G     MASGAM
+ 572    W-188         N,G     MASGAM
+ 573    RE-181        N,G     MASGAM; RN - ---/SYS
+ 574    RE-182        N,G     MASGAM
+ 575    RE-183        N,G     MASGAM; RN - ---/SYS
+ 576    RE-184        N,G     MASGAM
+ 577    RE-184-IS=1   N,G     MASGAM
+ 578    RE-185        N,G     LANL
+ 579    RE-186        N,G     MASGAM
+ 580    RE-186-IS=1   N,G     MASGAM
+ 581    RE-187        N,G     JEF-2.2 (LANL for LFS=1)
+ 582    RE-188        N,G     MASGAM
+ 583    RE-189        N,G     MASGAM; RN - ---/SYS
+ 584    OS-182        N,G     MASGAM; RN - ---/SYS
+ 585    OS-183        N,G     MASGAM
+ 586    OS-184        N,G     MASGAM
+ 587    OS-185        N,G     MASGAM
+ 588    OS-186        N,G     SIGECN-MASGAM
+ 589    OS-187        N,G     SIGECN-MASGAM
+ 590    OS-188        N,G     FISPRO; RN - ---/SYS
+ 591    OS-189        N,G     FISPRO; RN - ---/SYS
+ 592    OS-190        N,G     FISPRO; RN - ---/SYS
+ 593    OS-191        N,G     MASGAM; RN - ---/SYS
+ 594    OS-191-IS=1   N,G     MASGAM; RN - ---/SYS
+ 595    OS-192        N,G     FISPRO
+ 596    OS-193        N,G     MASGAM
+ 597    OS-194        N,G     MASGAM
+ 598    IR-185        N,G     MASGAM; RN - ---/SYS
+ 599    IR-186        N,G     MASGAM
+ 600    IR-188        N,G     MASGAM
+ 601    IR-189        N,G     MASGAM; RN - ---/SYS
+ 602    IR-190        N,G     MASGAM; RN - ---/SYS
+ 603    IR-191        N,G     SIGECN-MASGAM; RN - ---/SYS
+ 604    IR-192        N,G     SIGECN-MASGAM; RN - ---/SYS
+ 605    IR-192-IS=2   N,G     SIGECN-MASGAM; RN - ---/SYS
+ 606    IR-193        N,G     SIGECN-MASGAM; RN - ---/SYS
+ 607    IR-193-IS=1   N,G     SIGECN-MASGAM; RN - ---/SYS
+ 608    IR-194        N,G     MASGAM; RN - ---/SYS
+ 609    IR-194-IS=1   N,G     MASGAM; RN - ---/SYS
+ 610    IR-196-IS=1   N,G     MASGAM; RN - ---/SYS
+ 611    PT-188        N,G     MASGAM
+ 612    PT-189        N,G     MASGAM
+ 613    PT-190        N,G     SIGECN-MASGAM
+ 614    PT-191        N,G     MASGAM
+ 615    PT-192        N,G     FISPRO; RN - ---/SYS
+ 616    PT-193        N,G     MASGAM
+ 617    PT-193-IS=1   N,G     MASGAM
+ 618    PT-194        N,G     SIGECN-MASGAM; RN - ---/SYS
+ 619    PT-195        N,G     SIGECN-MASGAM
+ 620    PT-195-IS=1   N,G     SIGECN-MASGAM
+ 621    PT-196        N,G     SIGECN-MASGAM; RN - ---/SYS
+ 622    PT-197        N,G     MASGAM
+ 623    PT-198        N,G     SIGECN-MASGAM; RN - ---/SYS
+ 624    PT-200        N,G     MASGAM
+ 625    AU-193        N,G     MASGAM; RN - ---/SYS
+ 626    AU-194        N,G     MASGAM; RN - ---/SYS
+ 627    AU-195        N,G     MASGAM; RN - ---/SYS
+ 628    AU-196        N,G     MASGAM; RN - ---/SYS
+ 629    AU-197        N,G     JEF-2.2; RN - ---/SYS
+ 630    AU-198        N,G     MASGAM
+ 631    AU-198-IS=1   N,G     MASGAM
+ 632    AU-199        N,G     MASGAM; RN - ---/SYS
+ 633    AU-200-IS=1   N,G     MASGAM
+ 634    HG-193        N,G     MASGAM
+ 635    HG-193-IS=1   N,G     MASGAM
+ 636    HG-194        N,G     MASGAM; RN - ---/SYS
+ 637    HG-195        N,G     MASGAM
+ 638    HG-195-IS=1   N,G     MASGAM
+ 639    HG-196        N,G     SIGECN-MASGAM; RN - ---/SYS
+ 640    HG-197        N,G     MASGAM
+ 641    HG-197-IS=1   N,G     MASGAM
+ 642    HG-198        N,G     SIGECN-MASGAM; RN - ---/SYS
+ 643    HG-199        N,G     SIGECN-MASGAM
+ 644    HG-200        N,G     SIGECN-MASGAM
+ 645    HG-201        N,G     SIGECN-MASGAM
+ 646    HG-202        N,G     SIGECN-MASGAM
+ 647    HG-203        N,G     MASGAM
+ 648    HG-204        N,G     MASGAM
+ 649    TL-200        N,G     MASGAM
+ 650    TL-201        N,G     MASGAM
+ 651    TL-202        N,G     MASGAM
+ 652    TL-203        N,G     SIGECN-MASGAM
+ 653    TL-204        N,G     MASGAM
+ 654    TL-205        N,G     SIGECN-MASGAM; RN - ---/SYS
+ 655    PB-200        N,G     MASGAM; RN - ---/SYS
+ 656    PB-202        N,G     MASGAM; RN - ---/SYS
+ 657    PB-203        N,G     MASGAM; RN - ---/SYS
+ 658    PB-204        N,G     JENDL-3.1
+ 659    PB-205        N,G     MASGAM
+ 660    PB-206        N,G     ENDF/B-VI; RN - ---/SYS
+ 661    PB-207        N,G     ENDF/B-VI
+ 662    PB-208        N,G     ENDF/B-VI
+ 663    PB-209        N,G     MASGAM
+ 664    PB-210        N,G     MASGAM
+ 665    BI-203        N,G     MASGAM
+ 666    BI-205        N,G     MASGAM
+ 667    BI-206        N,G     MASGAM; RN - ---/SYS
+ 668    BI-207        N,G     MASGAM; RN - ---/SYS
+ 669    BI-208        N,G     MASGAM
+ 670    BI-209        N,G     JEF-2.2; RN - ---/SYS
+ 671    BI-210        N,G     MASGAM
+ 672    BI-210-IS=1   N,G     MASGAM
+ 673    PO-206        N,G     MASGAM; RN - ---/SYS
+ 674    PO-207        N,G     MASGAM
+ 675    PO-208        N,G     MASGAM
+ 676    PO-209        N,G     MASGAM
+ 677    PO-210        N,G     MASGAM; RN - ---/SYS
+ 678    RN-211        N,G     NGAMMA
+ 679    RN-222        N,G     MASGAM
+ 680    RA-223        N,G     JENDL-3.1
+ 681    RA-224        N,G     JENDL-3.1
+ 682    RA-225        N,G     JENDL-3.1
+ 683    RA-226        N,G     JENDL-3.1
+ 684    RA-228        N,G     MASGAM
+ 685    AC-225        N,G     JENDL-3.1
+ 686    AC-226        N,G     JENDL-3.1
+ 687    AC-227        N,G     JENDL-3.1
+ 688    TH-227        N,G     JENDL-3.1
+ 689    TH-228        N,G     JENDL-3.1
+ 690    TH-229        N,G     JENDL-3.1
+ 691    TH-230        N,G     JEF-2.2
+ 692    TH-231        N,G     MASGAM
+ 693    TH-232        N,G     JEF-2.2
+ 694    TH-234        N,G     JENDL-3.1
+ 695    PA-228        N,G     MASGAM
+ 696    PA-229        N,G     MASGAM
+ 697    PA-230        N,G     MASGAM
+ 698    PA-231        N,G     JEF-2.2
+ 699    PA-232        N,G     JENDL-3.1
+ 700    PA-233        N,G     JEF-2.2; RN - ---/SYS
+ 701    U-230         N,G     MASGAM
+ 702    U-231         N,G     MASGAM
+ 703    U-232         N,G     JEF-2.2
+ 704    U-233         N,G     JEF-2.2
+ 705    U-234         N,G     JEF-2.2; RN - ---/SYS
+ 706    U-235         N,G     JEF-2.2
+ 707    U-236         N,G     JEF-2.2
+ 708    U-237         N,G     JEF-2.2
+ 709    U-238         N,G     JEF-2.2
+ 710    NP-234        N,G     MASGAM
+ 711    NP-235        N,G     MASGAM; RN - ---/SYS
+ 712    NP-236        N,G     MASGAM
+ 713    NP-237        N,G     JEF-2.2
+ 714    NP-238        N,G     JEF-2.2
+ 715    NP-239        N,G     JEF-2.2; RN - ---/SYS
+ 716    PU-236        N,G     JEF-2.2; RN - ---/SYS
+ 717    PU-237        N,G     JEF-2.2
+ 718    PU-238        N,G     JEF-2.2
+ 719    PU-239        N,G     JEF-2.2
+ 720    PU-240        N,G     JEF-2.2
+ 721    PU-241        N,G     JEF-2.2
+ 722    PU-242        N,G     JEF-2.2
+ 723    PU-244        N,G     JEF-2.2
+ 724    PU-246        N,G     MASGAM
+ 725    AM-240        N,G     MASGAM
+ 726    AM-241        N,G     JEF-2.2; RN - ---/SYS
+ 727    AM-242        N,G     JEF-2.2
+ 728    AM-242-IS=1   N,G     JEF-2.2
+ 729    AM-243        N,G     JEF-2.2; RN - ---/SYS
+ 730    CM-240        N,G     MASGAM
+ 731    CM-241        N,G     JEF-2.2
+ 732    CM-242        N,G     JEF-2.2
+ 733    CM-243        N,G     JEF-2.2
+ 734    CM-244        N,G     JEF-2.2
+ 735    CM-245        N,G     JEF-2.2
+ 736    CM-246        N,G     JEF-2.2
+ 737    CM-247        N,G     JEF-2.2
+ 738    CM-248        N,G     JEF-2.2</font></pre>
+</body>
+</html>

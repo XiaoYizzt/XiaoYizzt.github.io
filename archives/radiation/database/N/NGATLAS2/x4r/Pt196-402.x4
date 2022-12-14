@@ -1,0 +1,308 @@
+REQUEST           1001   20010914          3     144040               0  0    0
+ENTRY            11817     831109                                 11817000    1
+SUBENT        11817001     831109                                 11817001    1
+BIB                  9         13                                 11817001    2
+INSTITUTE  (1USAUCB)                                              11817001    3
+REFERENCE  (R,NYO-10175,6412)                                     11817001    4
+AUTHOR     (H.ARINO,H.H.KRAMER,V.J.MOLINSKI,R.S.TILSBURY,         11817001    5
+           W.H.WAHL,P.M.STIER)                                    11817001    6
+TITLE      RESEARCH IN ACTIVATION ANALYSIS                        11817001    7
+METHOD     (ACTIV) ACTIVATION                                     11817001    8
+ERR-ANALYS WHERE NO DATA ERROR IS GIVEN, ERROR IS 10 PERCENT OR   11817001    9
+            LESS.                                                 11817001   10
+COMMENT    SEE ALSO NUC.SCI.ENG. 31, 545 (1968) FOR ADDITIONAL    11817001   11
+            DATA FROM THIS EXPERIMENT.                            11817001   12
+STATUS     (SCSRS)                                                11817001   13
+HISTORY    (760731T) TRANSLATED FROM SCISRS                       11817001   14
+           (830927A) CONVERTED TO REACTION FORMALISM              11817001   15
+ENDBIB              13                                            11817001   16
+NOCOMMON             0          0                                 11817001   17
+ENDSUBENT           16                                            1181700199999
+SUBENT        11817023     831102                                 11817023    1
+BIB                  3          3                                 11817023    2
+REACTION   (78-PT-196(N,G)78-PT-197-M,,SIG,,MXW)                  11817023    3
+INC-SPECT  THERMAL SPECTRUM                                       11817023    4
+DECAY-DATA (78-PT-197-M,82.MIN)                                   11817023    5
+ENDBIB               3                                            11817023    6
+NOCOMMON             0          0                                 11817023    7
+DATA                 2          1                                 11817023    8
+EN-DUMMY   DATA                                                   11817023    9
+MEV        B                                                      11817023   10
+ 2.53   -08 0.039                                                 11817023   11
+ENDDATA              3                                            11817023   12
+ENDSUBENT           11                                            1181702399999
+ENDENTRY             2                                            1181799999999
+ENTRY            11994     860812                                 11994000    1
+SUBENT        11994001     860812                                 11994001    1
+BIB                 10         12                                 11994001    2
+INSTITUTE  (1USABNL)                                              11994001    3
+REFERENCE  (J,PR,128,761,62)                                      11994001    4
+AUTHOR     (M.SEHGAL)                                             11994001    5
+TITLE      ISOMERIC CROSS-SECTION RATIOS IN (N,GAMMA) REACTIONS.  11994001    6
+FACILITY   (REAC)                                                 11994001    7
+INC-SPECT  THERMAL SPECTRUM.                                      11994001    8
+METHOD     (ACTIV)                                                11994001    9
+DETECTOR   (NAICR)                                                11994001   10
+STATUS     (SCSRS)                                                11994001   11
+HISTORY    (760802T) TRANSLATED FROM SCISRS                       11994001   12
+           (830802A) CONVERTED TO REACTION FORMALISM              11994001   13
+           (860812A) ENERGY MOVED TO SUBENTRY 001, BIB UPDATE.    11994001   14
+ENDBIB              12                                            11994001   15
+COMMON               1          3                                 11994001   16
+EN-DUMMY                                                          11994001   17
+EV                                                                11994001   18
+ 0.0253                                                           11994001   19
+ENDCOMMON            3                                            11994001   20
+ENDSUBENT           19                                            1199400199999
+SUBENT        11994013     860812                                 11994013    1
+BIB                  5          5                                 11994013    2
+REACTION   (78-PT-196(N,G)78-PT-197-M,,SIG,,MXW)                  11994013    3
+STATUS     (DEP,11994012) FROM MEASURED ISOMERIC RATIO            11994013    4
+MONITOR    (78-PT-196(N,G)78-PT-197-G,,SIG)                       11994013    5
+DECAY-DATA (78-PT-197-M,86.MIN)                                   11994013    6
+HISTORY    (790731A)ISO-QUANT CORRECTED.                          11994013    7
+ENDBIB               5                                            11994013    8
+NOCOMMON             0          0                                 11994013    9
+DATA                 3          1                                 11994013   10
+DATA       DATA-ERR   MONIT                                       11994013   11
+MB         MB         B                                           11994013   12
+ 50.        10.        0.8                                        11994013   13
+ENDDATA              3                                            11994013   14
+ENDSUBENT           13                                            1199401399999
+ENDENTRY             2                                            1199499999999
+ENTRY            22010     880126                                 22010000    1
+SUBENT        22010001     880126                                 22010001    1
+BIB                 12         19                                 22010001    2
+REFERENCE  (P,NEANDC(E)-272,(5),10,8606)                          22010001    3
+TITLE      -MEASUREMENT OF THE CAPTURE CROSS SECTIONS OF          22010001    4
+            DY-156 AND PT-194-M, PT-196, PT-198.                  22010001    5
+AUTHOR     (H.BEER)                                               22010001    6
+INSTITUTE  (2GERKFK)                                              22010001    7
+FACILITY   (VDG,2GERKFK) KFK 3.75 MV VAN DE GRAAFF ACCELERATOR.   22010001    8
+METHOD     (ACTIV)                                                22010001    9
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG,,MXW) MAXWELLIAN         22010001   10
+            AVERAGE CAPTURE CROSS SECTION.                        22010001   11
+DECAY-MON  (79-AU-198,2.69D,DG,412.,.955)                         22010001   12
+SAMPLE     .NO DETAILS GIVEN.                                     22010001   13
+CORRECTION .NO DETAILS GIVEN.                                     22010001   14
+STATUS     .DATA WERE TAKEN FROM MAIN REF.                        22010001   15
+HISTORY    (861125C)  NO.                                         22010001   16
+           (861212E)                                              22010001   17
+           (870605U) IF.                                          22010001   18
+           (870827E)                                              22010001   19
+           (880126U) IF.                                          22010001   20
+           (880129E)                                              22010001   21
+ENDBIB              19                                            22010001   22
+COMMON               1          3                                 22010001   23
+MONIT                                                             22010001   24
+MB                                                                22010001   25
+ 6.5700E+02                                                       22010001   26
+ENDCOMMON            3                                            22010001   27
+ENDSUBENT           26                                            2201000199999
+SUBENT        22010004     870309                                 22010004    1
+BIB                  4          5                                 22010004    2
+REACTION   (78-PT-196(N,G)78-PT-197-M,,SIG,,MXW) MAXWELLIAN       22010004    3
+DECAY-DATA (78-PT-197-M,94.4MIN,DG,346.,.111)                     22010004    4
+STATUS     .DATA WERE TAKEN FROM MAIN REF. PRELIMINARY RESULTS.   22010004    5
+HISTORY    (861125C)  NO.                                         22010004    6
+           (861212E)                                              22010004    7
+ENDBIB               5                                            22010004    8
+NOCOMMON             0          0                                 22010004    9
+DATA                 2          1                                 22010004   10
+KT         DATA                                                   22010004   11
+KEV        MB                                                     22010004   12
+ 2.3400E+01 1.3200E+01                                            22010004   13
+ENDDATA              3                                            22010004   14
+ENDSUBENT           13                                            2201000499999
+ENDENTRY             2                                            2201099999999
+ENTRY            30492     850121                                 30492000    1
+SUBENT        30492001     850121                                 30492001    1
+BIB                 13         21                                 30492001    2
+INSTITUTE  (3INDAUW)                                              30492001    3
+REFERENCE  (J,NCL,5,(16),1025,7212)                               30492001    4
+           (C,70MADURAI,2,19,7012) PREVIOUS RESULT FOR PD110,PT19630492001    5
+AUTHOR     (A.LAKSHMANA RAO,J.RAMA RAO)                           30492001    6
+TITLE      ISOMER RATIOS AND THE SHIFTED FERMI GAS MODEL.         30492001    7
+EXP-YEAR   (72)                                                   30492001    8
+INC-SOURCE ANTIMONY-BERYLLIUM NEUTRON SOURCE OF 20 CURIE.         30492001    9
+METHOD     (ACTIV)                                                30492001   10
+            EXP.DETAIL, SEE A.LAKSHMANA RAO,J.RAMA RAO,JOURN.OF   30492001   11
+           PHYS.,A5(1972)1262.                                    30492001   12
+DETECTOR   (NAICR) 7F8 HARSHAW WELL-TYPE NAI(TL) AND 100 CHANNEL  30492001   13
+           ANALYSER.                                              30492001   14
+MONITOR    (53-I-127(N,G)53-I-128,,SIG) = 832+-6 MB.              30492001   15
+            FOR NEUTRON FLUX DETERMINATION.                       30492001   16
+            ===THIS INFORMATION IS GIVEN IN PROC.NUCL.PHY.AND SOL.30492001   17
+            STATE PHYS.SYMP.,MADURAI,DEC.27-30,(1970) P.19. ===   30492001   18
+PART-DET   (DG)                                                   30492001   19
+STATUS     DATA TAKEN FROM TABLE 1 OF LETT.AL NUOVO CIMENTO,5,(16)30492001   20
+            (1972)1026.                                           30492001   21
+HISTORY    (790622C) KO.                                          30492001   22
+ERR-ANALYS NO FURTHER INFORMATION.                                30492001   23
+ENDBIB              21                                            30492001   24
+COMMON               4          3                                 30492001   25
+EN         EN-RSL     MONIT      MONIT-ERR                        30492001   26
+KEV        KEV        MB         MB                               30492001   27
+ 2.5000E+01 5.0000E+00 8.3200E+02 2.6000E+01                      30492001   28
+ENDCOMMON            3                                            30492001   29
+ENDSUBENT           28                                            3049200199999
+SUBENT        30492004     850121                                 30492004    1
+BIB                  3         10                                 30492004    2
+REACTION  M(78-PT-196(N,G)78-PT-197-M,,SIG)                       30492004    3
+          G(78-PT-196(N,G)78-PT-197-G,,SIG)                       30492004    4
+          R(78-PT-196(N,G)78-PT-197-M/T,,SIG/RAT)                 30492004    5
+COMMENT   R THE EXPERIMENTAL ISOMER RATIO GIVEN BELOW IS          30492004    6
+           REPRODUCED BY THE HUIZENGA-VANDENBOSCH FORMALISM WHEN  30492004    7
+           USING                                                  30492004    8
+            1) SHIFTED FERMI-GAS MODEL(S.F.M.)  =  0.164,         30492004    9
+            2) INDEPENDENT PAIRING MODEL(I.P.M.)=  0.15,          30492004   10
+            3) SUPER CONDUCTOR MODEL (S.C.M.)   =  0.147.         30492004   11
+STATUS     THIS ENTRY REPLACES EXFOR30246.023 TO 30246.025.       30492004   12
+ENDBIB              10                                            30492004   13
+NOCOMMON             0          0                                 30492004   14
+DATA                 6          1                                 30492004   15
+DATA      MDATA-ERR  MDATA      GDATA-ERR  GDATA      RDATA-ERR  R30492004   16
+MB         MB         MB         MB         NO-DIM     NO-DIM     30492004   17
+ 1.2000E+01 2.0000E+00 6.2000E+01 8.0000E+00 1.6200E-01 5.2000E-0230492004   18
+ENDDATA              3                                            30492004   19
+ENDSUBENT           18                                            3049200499999
+ENDENTRY             2                                            3049299999999
+ENTRY            30567     840911                                 30567000    1
+SUBENT        30567001     840911                                 30567001    1
+BIB                 16         47                                 30567001    2
+INSTITUTE  (3POLIBJ)                                              30567001    3
+REFERENCE  (J,NP/A,357,1,8103) FINAL RESULT.                      30567001    4
+           (C,79KNOX,,307,7910) SE78,80,82, CD114,116, OS190,192. 30567001    5
+           (R,INDC(NDS)-103,40,7905) NO DATA GIVEN.               30567001    6
+           ((P,INR-1773/I/PL/A,17,7809)=(P,INDC(POL)-9,17,7809))  30567001    7
+             OLD VALUES OF PD,CD (AND IR),WHICH WERE REVISED LATER30567001    8
+             BY PRIV.COMM. FROM MARCINKOWSKI,80/01/28.(1ST REV.)  30567001    9
+           ((P,INR-1809/I/PL/A,1,7906)=(P,INDC(POL)-10,1,7906))   30567001   10
+             OLD VALUES OF OS190, SAME VALUES OF OS192. 1ST REV.  30567001   11
+             BY PRIV.COMM. FROM MARCINKOWSKI,80/01/28.            30567001   12
+            ===COMPILER'S NOTE 81/04/28.-                         30567001   13
+            OLD VALUES AND IDENTICAL VALUES COMPILED IN EXFOR     30567001   14
+            30482 AND 30512 HAVE BEEN SUPERCEDED BY THIS EXFOR    30567001   15
+            30567, ACCORDINGLY. SEE SUBENTRIES. ===               30567001   16
+AUTHOR     (M.HERMAN,A.MARCINKOWSKI)                              30567001   17
+TITLE      CROSS SECTIONS FOR FAST NEUTRON CAPTURE ON THE SE, PD, 30567001   18
+           CD, OS AND PT ISOTOPES. (NEW EXP.)                     30567001   19
+FACILITY   (VDG,3POLIBJ)                                          30567001   20
+INC-SOURCE (P-T)                                                  30567001   21
+METHOD     (ACTIV)                                                30567001   22
+DETECTOR   (GELI) 60 CM3 GE(LI) DETECTOR                          30567001   23
+           THE RELATIVE DETECTION EFFICIENCY WAS DETERMINED WITH  30567001   24
+           YB-169, BA-113 AND RA-226.                             30567001   25
+MONITOR    (49-IN-115(N,G)49-IN-116-M1+M2,,SIG/SUM,,,EVAL)        30567001   26
+MONIT-REF  (,F.SCHMITTROTH,R,BNL-NCS-50446,158,75)ENDF/B-3 MAT641630567001   27
+            ALSO REFERRED,R.SHER,BNL-NCS-50446(1975)150.(ENDF/B-3,30567001   28
+           MAT 6406)                                              30567001   29
+DECAY-MON  (49-IN-116-M1,54.2MIN,DG,417.,0.32) CONV.COEF.= 0.011. 30567001   30
+PART-DET   (DG)                                                   30567001   31
+STATUS     DATA TAKEN FROM TABLE 2 OF NUCL.PHYS.A357(1981)1.      30567001   32
+           (APRVD) APPROVED BY M.HERMAN,81/06/15.                 30567001   33
+HISTORY    (810428C) KO.                                          30567001   34
+           (810624U) KO. -'APRVD' ADDED -                         30567001   35
+CORRECTION THE CROSS-SECTIONS WERE CORRECTED FOR THE ATTENUATION  30567001   36
+           OF THE GAMMA-RAYS IN THE SAMPLES AND FOR SUMMING OF    30567001   37
+           CASCADE GAMMA-RAYS IN THE GE(LI) DETECTOR.             30567001   38
+ERR-ANALYS (ERR-T)                                                30567001   39
+           STATISTICAL AND SYSTEMATIC UNCERTAINTIES INCLUDING     30567001   40
+           THE UNCERTAINTY OF THE STANDARD (MONITOR) CROSS SECTION30567001   41
+            *SYSTEMATIC ERRORS CONSIST OF THE UNCERTAINTY         30567001   42
+            1)CAUSED BY BEAM CURRENT FLUCTUATION,  0.4 TO 0.8 P.C.30567001   43
+            2)OF SAMPLE WEIGHT                  ,  0.1 PER-CENT,  30567001   44
+            3)OF COUNTING EFFICIENCY            ,  1.5 TO 10 P.C.,30567001   45
+            4)OF GAMMA ATTENUATION IN THE SAMPLE,  0.5 TO 16 P.C.,30567001   46
+            5)IN THE INTEGRATION OF PULSE-HEIGHT SECT.,  3 PERCENT30567001   47
+            6)IN DETERMINATING PULSE-SUMMING IN GE(LI), 0 TO 1.7PC30567001   48
+            7)OF THE CROSS-SECTION OF REFERENCE ,        7 PERCENT30567001   49
+ENDBIB              47                                            30567001   50
+NOCOMMON             0          0                                 30567001   51
+ENDSUBENT           50                                            3056700199999
+SUBENT        30567011     840911                                 30567011    1
+BIB                  4          9                                 30567011    2
+REACTION  1(78-PT-196(N,G)78-PT-197-M,,SIG)                       30567011    3
+          2(78-PT-196(N,G)78-PT-197,,SIG) SEE FOLLOWING NOTE.     30567011    4
+            ''DATA GIVEN IS THE SUM OF THE CROSS-SECTIONS(MEASURED30567011    5
+            SIGMA(TO PT-197G) + 1.090*SIGMA(TO PT-197M))          30567011    6
+SAMPLE     HIGH PURITY NATURAL ELEMENT.                           30567011    7
+DECAY-DATA (78-PT-197-M,94.4MIN,DG,346.,0.967) CONV.COEF.= 7.7,   30567011    8
+           (78-PT-197-G,18.3HR,DG,192.,0.076)  CONV.COEF.= 1.17.  30567011    9
+            FROM B.HARMATZ,NUCL.DATA SHEETS,20(1977)73.           30567011   10
+STATUS     FROM TABLE 2 OF NUCL.PHYS.A357(1981)1, (NEW EXP.)      30567011   11
+ENDBIB               9                                            30567011   12
+NOCOMMON             0          0                                 30567011   13
+DATA                 7          4                                 30567011   14
+EN         EN-RSL     DATA      1ERR-T     1DATA      2ERR-T     230567011   15
+MONIT                                                             30567011   16
+MEV        MEV        MB         MB         MB         MB         30567011   17
+MB                                                                30567011   18
+ 5.3000E-01 1.4000E-01 9.9000E+00 1.7000E+00 1.2300E+02 1.4000E+0130567011   19
+ 1.8000E+02                                                       30567011   20
+ 8.6000E-01 2.1000E-01 9.3000E+00 1.8000E+00 1.3200E+02 1.5000E+0130567011   21
+ 2.0000E+02                                                       30567011   22
+ 1.2000E+00 1.5000E-01 1.0600E+01 1.6000E+00 9.2000E+01 1.0000E+0130567011   23
+ 1.7600E+02                                                       30567011   24
+ 1.3100E+00 7.0000E-02 1.1400E+01 1.5000E+00 8.4000E+01 9.0000E+0030567011   25
+ 1.7000E+02                                                       30567011   26
+ENDDATA             12                                            30567011   27
+ENDSUBENT           26                                            3056701199999
+ENDENTRY             2                                            3056799999999
+ENTRY            31248     900312                                 31248000    1
+SUBENT        31248001     900312                                 31248001    1
+BIB                 10         22                                 31248001    2
+TITLE      THERMAL NEUTRON ACTIVATION CROSS-SECTION FOR ISOMER    31248001    3
+           PRODUCTION                                             31248001    4
+AUTHOR     (S.K.MANGAL, P.S.GILL)                                 31248001    5
+INSTITUTE  (3INDMUA)                                              31248001    6
+REFERENCE  (J,NP,36,542,6208)                                     31248001    7
+FACILITY   (REAC)TROMBAY SWIMMING POOL REACTOR.                   31248001    8
+INC-SOURCE (THCOL) THERMAL COLUMN FLUX = 10E+7 N/CM-SQ/SEC.SOME   31248001    9
+           SAMPLE WERE IRRADIATED NEAR THE CORE IN A FLUX =       31248001   10
+           10E+11 N/CM-SQ/SEC.                                    31248001   11
+METHOD     (ACTIV)                                                31248001   12
+           ACTIVATION OF SAMPLES WAS PERFORMED IN A THERMAL REAC- 31248001   13
+           TOR SPECTRUM. THE FLUX WAS CALIBRATED SIMULTANEOUSLY   31248001   14
+           WITH THE HELP OF STANDARD REACTION. MOST OF THE SAMPLE 31248001   15
+           ACTIVITY WAS FOLLOWED FOR 3 TO 4 HALF-LIVES AFTER      31248001   16
+           IRRADIATION.                                           31248001   17
+ERR-ANALYS NO FURTHER INFORMATION.                                31248001   18
+STATUS     DATA TAKEN FROM J. NUCL. PHYS.36(1962)542.             31248001   19
+HISTORY    (771115T) CONVERTED FROM EXFOR 70248                   31248001   20
+           (780531A) ISO-QUANT IN SAN .006 CORRECTED, REF.CODING  31248001   21
+                     CORR., STANDARD CS IN SAN.001 CODED,ISO-QUANT31248001   22
+                     STANDARD AND HL IN  SAN.013 CORRECTED.  OS   31248001   23
+           (790309A) ND.-RECOMPILED FROM REF. NEW SUBENT .015 --  31248001   24
+ENDBIB              22                                            31248001   25
+COMMON               1          3                                 31248001   26
+EN-DUMMY                                                          31248001   27
+EV                                                                31248001   28
+0.0253                                                            31248001   29
+ENDCOMMON            3                                            31248001   30
+ENDSUBENT           29                                            3124800199999
+SUBENT        31248013     891205                                 31248013    1
+BIB                  6          9                                 31248013    2
+REACTION   (78-PT-196(N,G)78-PT-197-M,,SIG,,MXW)                  31248013    3
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG) = 98+-1 B.VALUE GIVEN IN31248013    4
+           AECU-2040(1955)                                        31248013    5
+HALF-LIFE  (HL,78-PT-197-M)                                       31248013    6
+DETECTOR   (NAICR) WELL-TYPE SODIUM IODIDE (TL ACTIVATED) CRYSTAL 31248013    7
+PART-DET   (DG) DECAY GAMMAS                                      31248013    8
+HISTORY    (800116U) ND MINOR CHANGES IN BIB. AFTER NNDC MEMO OF  31248013    9
+            79/12/17.                                             31248013   10
+           (890919A) VOF.-REACTION CODE CORRECTED                 31248013   11
+ENDBIB               9                                            31248013   12
+COMMON               1          3                                 31248013   13
+HL                                                                31248013   14
+MIN                                                               31248013   15
+80.                                                               31248013   16
+ENDCOMMON            3                                            31248013   17
+DATA                 2          1                                 31248013   18
+DATA       DATA-ERR                                               31248013   19
+MB         PER-CENT                                               31248013   20
+69.        20.                                                    31248013   21
+ENDDATA              3                                            31248013   22
+ENDSUBENT           21                                            3124801399999
+ENDENTRY             2                                            3124899999999
+ENDREQUEST           1                                            Z999999999999

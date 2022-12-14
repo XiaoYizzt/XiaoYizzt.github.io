@@ -1,0 +1,303 @@
+REQUEST           1001   20010914          3     135816               0  0    0
+ENTRY            11507     860715                                 11507000    1
+SUBENT        11507001     860715                                 11507001    1
+BIB                 10         12                                 11507001    2
+INSTITUTE  (1USAORL)                                              11507001    3
+REFERENCE  (J,PR,88,412,52)                                       11507001    4
+AUTHOR     (H.POMERANCE)                                          11507001    5
+TITLE      THERMAL NEUTRON CAPTURE CROSS SECTIONS.                11507001    6
+FACILITY   (OSCIP) PILE OSCILLATOR                                11507001    7
+INC-SPECT  THERMAL SPECTRUM                                       11507001    8
+METHOD     (ACTIV).                                               11507001    9
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)                         11507001   10
+STATUS     (SCSRS)                                                11507001   11
+HISTORY    (760715T) TRANSLATED FROM SCISRS                       11507001   12
+           (821124A) CONVERTED TO REACTION FORMALISM              11507001   13
+           (860715A) ENERGY MOVED TO SUBENTRY 1.                  11507001   14
+ENDBIB              12                                            11507001   15
+COMMON               2          3                                 11507001   16
+EN-DUMMY   MONIT                                                  11507001   17
+EV         B                                                      11507001   18
+ 0.0253     95.                                                   11507001   19
+ENDCOMMON            3                                            11507001   20
+ENDSUBENT           19                                            1150700199999
+SUBENT        11507002     860715                                 11507002    1
+BIB                  1          1                                 11507002    2
+REACTION   (12-MG-24(N,G)12-MG-25,,SIG,,MXW)                      11507002    3
+ENDBIB               1                                            11507002    4
+NOCOMMON             0          0                                 11507002    5
+DATA                 2          1                                 11507002    6
+DATA       DATA-ERR                                               11507002    7
+B          PER-CENT                                               11507002    8
+ 3.3    -02 30.                                                   11507002    9
+ENDDATA              3                                            11507002   10
+ENDSUBENT            9                                            1150700299999
+ENDENTRY             2                                            1150799999999
+ENTRY            13192     961009                                 13192000    1
+SUBENT        13192001     961009                                 13192001    1
+BIB                 11         20                                 13192001    2
+INSTITUTE  (1CANMCM)                                              13192001    3
+REFERENCE  (J,CJP,68,261,9003)                                    13192001    4
+AUTHOR     (W.V.PRESTWICH,T.J.KENNETT)                            13192001    5
+TITLE      The capture gamma-ray spectrum of Mg.                  13192001    6
+FACILITY   (REAC) Tangential irradiation facility of McMaster     13192001    7
+            nuclear reactor                                       13192001    8
+METHOD     (GSPEC)                                                13192001    9
+DETECTOR   (BPAIR)                                                13192001   10
+MONITOR    (7-N-14(N,G)7-N-15,,SIG) Calibration for relative      13192001   11
+            detector efficiency using N capture spectrum from     13192001   12
+            melamine sample                                       13192001   13
+           Calibration for energy and absolute intensity          13192001   14
+            determination performed using MgO and melamine        13192001   15
+            contained in graphite capsules.                       13192001   16
+ERR-ANALYS No information on source of uncertainties              13192001   17
+STATUS     (APRVD) W.V.Prestwich, 90/11/26                        13192001   18
+           Data taken from Table 9 in article and modified as per 13192001   19
+            private comm., W.V.Prestwich, 90/11                   13192001   20
+HISTORY    (900813C)                                              13192001   21
+           (961009A) BIB update, converted to lower case.         13192001   22
+ENDBIB              20                                            13192001   23
+COMMON               1          3                                 13192001   24
+EN-DUMMY                                                          13192001   25
+EV                                                                13192001   26
+0.0253                                                            13192001   27
+ENDCOMMON            3                                            13192001   28
+ENDSUBENT           27                                            1319200199999
+SUBENT        13192005     961009                                 13192005    1
+BIB                  2          2                                 13192005    2
+REACTION   (12-MG-24(N,G)12-MG-25,,SIG,,SPA)                      13192005    3
+ANALYSIS   Determined from primary gamma intensities              13192005    4
+ENDBIB               2                                            13192005    5
+NOCOMMON             0          0                                 13192005    6
+DATA                 2          1                                 13192005    7
+DATA       DATA-ERR                                               13192005    8
+MB         MB                                                     13192005    9
+ 51.5        2.5                                                  13192005   10
+ENDDATA              3                                            13192005   11
+ENDSUBENT           10                                            1319200599999
+ENDENTRY             2                                            1319299999999
+ENTRY            13544   19930219   19990303                      13544000    1
+SUBENT        13544001   19930219   19990303                      13544001    1
+BIB                 13         29                                 13544001    2
+INSTITUTE  (1USALAS,1USAORL)                                      13544001    3
+REFERENCE  (J,PR/C,45,1597,19920400)                              13544001    4
+AUTHOR     (T.A.WALKIEWICZ,S.RAMAN)                               13544001    5
+TITLE      Thermal-Neutron Capture by Magnesium Isotopes          13544001    6
+FACILITY   (REAC,1USALAS) Omega West Reactor                      13544001    7
+INC-SOURCE (THCOL)                                                13544001    8
+METHOD     (GSPEC)                                                13544001    9
+DETECTOR   (GE-IN,NAICR) Germanium intrinsic detector operated in 13544001   10
+            either Compton-suppressed (anticoincidence) or pair-  13544001   11
+            spectrometer (double-escape) mode, and positioned     13544001   12
+            inside NaI(Tl) annulus                                13544001   13
+MONITOR    (1-H-1(N,G)1-H-2,,SIG) Taken from Mughabghab, et al.,  13544001   14
+            Neutron Cross Sections, Vol.1, Part A (1981)          13544001   15
+           Energy calibrated using                                13544001   16
+           .in double-escape mode: prompt gamma spectrum from     13544001   17
+             neutron capture on melamine - 12C(n,gamma) ground    13544001   18
+             state transition (4945.303 keV)                      13544001   19
+           .in anticoincidence mode: prompt gamma (2223.253 keV)  13544001   20
+             plus annihilation radiation from 1H(n,gamma)         13544001   21
+           Intensity calibrated using:                            13544001   22
+           .in Compton-suppressed mode: standard radioisotopic    13544001   23
+             sources plus gammas from 82Br decay                  13544001   24
+           .in pair-spectrometer mode: relative intensities of    13544001   25
+             gammas from 14N(n,gamma).                            13544001   26
+CORRECTION Corrected for gammas from contaminants                 13544001   27
+ERR-ANALYS No information on source of uncertainties              13544001   28
+STATUS     Data taken from article                                13544001   29
+           No reply to author proof                               13544001   30
+HISTORY    (19920417C)                                            13544001   31
+ENDBIB              29                                            13544001   32
+COMMON               3          3                                 13544001   33
+EN-DUMMY   MONIT      MONIT-ERR                                   13544001   34
+EV         MB         MB                                          13544001   35
+0.0253     332.6        0.7                                       13544001   36
+ENDCOMMON            3                                            13544001   37
+ENDSUBENT           36                                            1354400199999
+SUBENT        13544005     921112                                 13544005    1
+BIB                  3          7                                 13544005    2
+REACTION   (12-MG-24(N,G)12-MG-25,,SIG,,MXW)                      13544005    3
+SAMPLE     MG-O SAMPLE, ISOTOPIC COMPOSITION: 24MG (99.94%),      13544005    4
+            25MG (0.04%), 26MG (0.02%).                           13544005    5
+           IMPURITY CONCENTRATIONS (IN PPM): GD (0.7), SM (0.2),  13544005    6
+            CD (1), CL (50), SC (24), TI (20), S (2900), CA (430),13544005    7
+            SI (1300)                                             13544005    8
+STATUS     (DEP,13544002)                                         13544005    9
+ENDBIB               7                                            13544005   10
+NOCOMMON             0          0                                 13544005   11
+DATA                 2          1                                 13544005   12
+DATA       DATA-ERR                                               13544005   13
+MB         MB                                                     13544005   14
+54.1        1.3                                                   13544005   15
+ENDDATA              3                                            13544005   16
+ENDSUBENT           15                                            1354400599999
+ENDENTRY             2                                            1354499999999
+ENTRY            20214     831121                                 20214000    1
+SUBENT        20214001     831121                                 20214001    1
+BIB                 15         50                                 20214001    2
+INSTITUTE  (2NEDUTR)                                              20214001    3
+REFERENCE  (J,NP/A,102,209,6709)                                  20214001    4
+AUTHOR     (P.SPILLING, H.GRUPPELAAR, A.M.F.OP DEN KAMP)          20214001    5
+TITLE      - THERMAL-NEUTRON CAPTURE GAMMA RAYS FROM NATURAL      20214001    6
+             MAGNESIUM AND ENRICHED MG-25 -                       20214001    7
+FACILITY   .HIGH FLUX REACTOR IN PETTEN                           20214001    8
+INC-SOURCE (REAC )    TARGET PLACED IN A HORIZONTAL RADIAL BEAM   20214001    9
+            OF THE REACTOR.                                       20214001   10
+           .THE NEUTRON FILTER, CONSISTING OF QUARTZ              20214001   11
+            AND BISMUTH SINGLE CRYSTALS, WAS COOLED TO            20214001   12
+            77 KELVIN BY LIQUID NITROGEN.                         20214001   13
+            NEUTRON FLUX = 1.E+7/CM**2/SEC.                       20214001   14
+SAMPLE     .COMPOSITION 6 GRAMM NATURAL MAGNESIUM METAL AND       20214001   15
+            2.4 GRAMM MG-O (85 PERCENT ENRICHED IN MG-25).        20214001   16
+DETECTOR   (GELI )    1.6 CM**3 AND 5 CM**3 GE(LI)-DETECTORS FOR  20214001   17
+            GAMMA-RAYS FROM ENRICHED AND NATURAL SAMPLE           20214001   18
+            USED RESPECTIVELY.                                    20214001   19
+MONITOR    .THE INTENSITIES IN THE THREE MG-ISOTOPES              20214001   20
+            ARE NORMALIZED SUCH THAT THE SUM OF THE               20214001   21
+            INTENSITIES OF PRIMARY GAMMA-RAYS IS 100.             20214001   22
+            THE SAME HAS BEEN DONE FOR THE DECAY OF               20214001   23
+            THE VARIOUS LEVELS.                                   20214001   24
+           .THE EFFICIENCY CURVES FOR FULL-ENERGY,                20214001   25
+            SINGLE-ESCAPE AND PAIR PEAKS WERE OBTAINED            20214001   26
+            WITH SOURCES OF KNOWN INTENSITIES AND WITH            20214001   27
+            GAMMA-RAYS FROM CL-35(N,GAMMA) AND                    20214001   28
+            S-32(N,GAMMA) REACTIONS, DETAILS IN                   20214001   29
+            NUCL.PHYS.,A102(1967)209.                             20214001   30
+           .ENERGIES OF GAMMA-RAYS USED FOR CALIBRATION           20214001   31
+            GIVEN IN TABLE 4 OF NUCL.PHYS.,A102(1967)209          20214001   32
+            ASSUMING MG(N,GAMMA) = 64 +- 3 MILLIBARN              20214001   33
+            AND USING THE GAMMA INTENSITIES MEASURED              20214001   34
+            THE (N,GAMMA)-CROSS-SECTIONS FOR MG-25,               20214001   35
+            MG-26, AND MG-27 WAS DERIVED.                         20214001   36
+PART-DET   (G    )    GAMMAS                                      20214001   37
+COMMENT    .LEVEL SCHEMES CONSTRUCTED, DETAILS IN PUBLICATION.    20214001   38
+           .Q-VALUES FOR (N,GAMMA)-REACTIONS FOR THE TARGET       20214001   39
+            ISOTOPES MG-24, MG-25, MG-26 DETERMINED AS            20214001   40
+            Q = 7332.8 +- 0.4 KEV, Q = 11096.0 +- 0.5 KEV,        20214001   41
+            Q = 6446.3 +- 0.9 KEV RESPECTIVELY.                   20214001   42
+STATUS     .DATA FROM NUCL.PHYS.,A102(1967)209.                   20214001   43
+HISTORY    (721003C)                                              20214001   44
+           (740521E)                                              20214001   45
+CORRECTION .GAMMA-RAYS CORRECTED FOR RECOIL LOSSES.               20214001   46
+ERR-ANALYS .ERRORS IN THE ENERGIES ARE MAINLY DUE TO ERRORS       20214001   47
+            MADE IN READING-OFF PEAK POSITIONS. THE ERRORS IN THE 20214001   48
+            INTENSITIES ARE PARTLY DUE TO STATISTICS, PARTLY DUE  20214001   49
+            TO UNCERTAINTIES IN THE EFFICIENCY CURVES FOR THE     20214001   50
+            DETECTOR. THE EFFICIENCY CURVES ARE BELIEVED TO BE    20214001   51
+            TRUE TO WITHIN 15 PERCENT.                            20214001   52
+ENDBIB              50                                            20214001   53
+COMMON               1          3                                 20214001   54
+EN-DUMMY                                                          20214001   55
+MEV                                                               20214001   56
+ 2.5300E-08                                                       20214001   57
+ENDCOMMON            3                                            20214001   58
+ENDSUBENT           57                                            2021400199999
+SUBENT        20214003     831121                                 20214003    1
+BIB                  3          4                                 20214003    2
+REACTION   (12-MG-24(N,G)12-MG-25,,SIG,,SPA)                      20214003    3
+ANALYSIS   .FROM THE SUM OF THE PRIMARY GAMMA-RAYS.               20214003    4
+HISTORY    (721003C)                                              20214003    5
+           (740521E)                                              20214003    6
+ENDBIB               4                                            20214003    7
+NOCOMMON             0          0                                 20214003    8
+DATA                 2          1                                 20214003    9
+DATA       DATA-ERR                                               20214003   10
+B          B                                                      20214003   11
+ 5.2000E-02 1.3000E-02                                            20214003   12
+ENDDATA              3                                            20214003   13
+ENDSUBENT           12                                            2021400399999
+ENDENTRY             2                                            2021499999999
+ENTRY            20219     831121                                 20219000    1
+SUBENT        20219001     831121                                 20219001    1
+BIB                 11         24                                 20219001    2
+INSTITUTE  (2SWDCTH)                                              20219001    3
+REFERENCE  (J,NP/A,150,305,7007)                                  20219001    4
+AUTHOR     (E.SELIN, E.WALLANDER)                                 20219001    5
+TITLE      -THERMAL NEUTRON CAPTURE GAMMA RAYS FROM THE MG26(N,G) 20219001    6
+            MG27 REACTION.-                                       20219001    7
+FACILITY   .ONE MW HEAVY WATER REACTOR R1.                        20219001    8
+INC-SOURCE (REAC )    REACTOR, THERMAL FLUX IN THE TARGET POSITION20219001    9
+            WAS 3.E+12 CM2/SEC.                                   20219001   10
+SAMPLE     .MG-O, ENRICHED TO 98.72 PERCENT IN MG-26, AND NATURAL 20219001   11
+DETECTOR   (GELI )    GE(LI) DETECTOR, STAFF-SHAPED, LENGTH 2.0 CM20219001   12
+            VOLUME 1.5 CM*3,                                      20219001   13
+           (BPAIR)    DETECTION OF GAMMA SPECTRA BY THE           20219001   14
+            GE(LI) DETECTOR IN PAIR AND ANTICOINCIDENCE SPECTRO-  20219001   15
+            METER ARRANGEMENTS.                                   20219001   16
+           .ENERGY RESOLUTION WAS 4 KEV AT 1.5 MEV AND ABOUT 8 KEV20219001   17
+            AT 6 MEV. THE DETECTOR IN A SMALL CRYOSTAT WAS PLACED 20219001   18
+            INSIDE A BISECTED NAI ANNULUS WITH HOLE DIAM 4 CM,    20219001   19
+            OUTER DIAM 15 CM AND LENGTH 10 CM.                    20219001   20
+           .ARRANGEMENT IS DESCRIBED IN, NUCL.INSTR.54(1967)165   20219001   21
+            BY ARNELL ET AL.                                      20219001   22
+PART-DET   (G    )    GAMMAS.                                     20219001   23
+STATUS     .TAKEN FROM NUCL.PHYS.,A150(1970)305.                  20219001   24
+HISTORY    (710621C)                                              20219001   25
+           (740521E)                                              20219001   26
+ENDBIB              24                                            20219001   27
+COMMON               1          3                                 20219001   28
+EN-DUMMY                                                          20219001   29
+MEV                                                               20219001   30
+ 2.5300E-08                                                       20219001   31
+ENDCOMMON            3                                            20219001   32
+ENDSUBENT           31                                            2021900199999
+SUBENT        20219002     831121                                 20219002    1
+BIB                  4          7                                 20219002    2
+REACTION   (12-MG-24(N,G)12-MG-25,,SIG,,SPA)                      20219002    3
+MONITOR    (12-MG-26(N,G)12-MG-27,,SIG)                           20219002    4
+            = 26.7 +- 10 MB AT 0.0253EV, BY SPILLING              20219002    5
+            ET AL.,NUCL.PHYS.A102(1967)209.                       20219002    6
+HISTORY    (710621C)                                              20219002    7
+           (740521E)                                              20219002    8
+ERR-ANALYS .NO FURTHER DETAILS GIVEN                              20219002    9
+ENDBIB               7                                            20219002   10
+NOCOMMON             0          0                                 20219002   11
+DATA                 2          1                                 20219002   12
+DATA       DATA-ERR                                               20219002   13
+B          B                                                      20219002   14
+ 4.1000E-02 1.0000E-02                                            20219002   15
+ENDDATA              3                                            20219002   16
+ENDSUBENT           15                                            2021900299999
+ENDENTRY             2                                            2021999999999
+ENTRY            40244     960124                                 40244000    1
+SUBENT        40244001     960124                                 40244001    1
+BIB                  8         19                                 40244001    2
+TITLE       RADIATIVE CROSS-SECTION MEASUREMENTS                  40244001    3
+            FOR FAST NEUTRONS                                     40244001    4
+AUTHOR     (A.I.LEIPUNSKIJ,O.D.KAZACHKOVSKIJ,                     40244001    5
+           G.JA.ARTJUKHOV,A.I.BARYSHNIKOV,T.S.BELANOVA,           40244001    6
+           V.I.GALKOV,JU.JA.STAVISSKIJ,E.A.STUMBUR,L.E.SHERMAN)   40244001    7
+INSTITUTE  (4RUSFEI)                                              40244001    8
+EXP-YEAR   (57)                                                   40244001    9
+REFERENCE  (C,58GENEVA,15,50(2219),5809)                          40244001   10
+METHOD     (ACTIV) ACTIVATION METHOD                              40244001   11
+FACILITY   (LINAC)                                                40244001   12
+HISTORY    (820602C) COMPILED AT THE CJD                          40244001   13
+           (840612A) NEW SUBENTRIES ADDED FROM ENTRY 80134        40244001   14
+           (861203A) ONE LETTER IN 'LEJPUNSKIJ' NAME CORRECTED    40244001   15
+                     REACTION CODES IN SAN 078,099 REVISED        40244001   16
+                     SAN 071 DELETED DUE TO DATA REPETITION       40244001   17
+           (950926A) MANY DATA POINTS CORRECTED IN ACCORDANCE     40244001   18
+                     TO MEMO 4C-3/373                             40244001   19
+           (960124A) DATA IN SAN 021  CORRECTED IN ACCORDANCE     40244001   20
+                     TO MEMO 4C-3/379                             40244001   21
+ENDBIB              19                                            40244001   22
+NOCOMMON             0          0                                 40244001   23
+ENDSUBENT           22                                            4024400199999
+SUBENT        40244066     841024                                 40244066    1
+BIB                  4          4                                 40244066    2
+REACTION   (12-MG-24(N,G)12-MG-25,,SIG)                           40244066    3
+STATUS     (SCSRS)                                                40244066    4
+HISTORY    (840612T) CONVERTED FROM SUBENTRY 80134003             40244066    5
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)                           40244066    6
+ENDBIB               4                                            40244066    7
+NOCOMMON             0          0                                 40244066    8
+DATA                 4          1                                 40244066    9
+EN         EN-RSL     DATA       DATA-ERR                         40244066   10
+MEV        MEV        B          B                                40244066   11
+ 2.0000E-01 3.0000E-02 8.2000E-03 1.2000E-03                      40244066   12
+ENDDATA              3                                            40244066   13
+ENDSUBENT           12                                            4024406699999
+ENDENTRY             2                                            4024499999999
+ENDREQUEST           1                                            Z999999999999

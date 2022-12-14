@@ -1,0 +1,199 @@
+REQUEST           1001   20010914          3     141723               0  0    0
+ENTRY            11447     850410                                 11447000    1
+SUBENT        11447001     850410                                 11447001    1
+BIB                  6          8                                 11447001    2
+INSTITUTE  (1USAANL)                                              11447001    3
+REFERENCE  (J,PR,72,888,4711)                                     11447001    4
+AUTHOR     (L.SEREN,H.N.FRIEDLANDER,S.H.TURKEL)                   11447001    5
+METHOD     (ACTIV)                                                11447001    6
+STATUS     (SCSRS)                                                11447001    7
+HISTORY    (760715T) TRANSLATED FROM SCISRS                       11447001    8
+           (820813A) CONVERTED TO REACTION FORMALISM              11447001    9
+           (840410A) ENERGY CORRECTED.                            11447001   10
+ENDBIB               8                                            11447001   11
+COMMON               1          3                                 11447001   12
+EN-DUMMY                                                          11447001   13
+EV                                                                11447001   14
+ 0.0253                                                           11447001   15
+ENDCOMMON            3                                            11447001   16
+ENDSUBENT           15                                            1144700199999
+SUBENT        11447065     820813                                 11447065    1
+BIB                  3          3                                 11447065    2
+REACTION   (46-PD-110(N,G)46-PD-111-G,,SIG,,MXW)                  11447065    3
+INC-SPECT  THERMAL SPECTRUM                                       11447065    4
+DECAY-DATA (46-PD-111-G,26.MIN,B)                                 11447065    5
+ENDBIB               3                                            11447065    6
+NOCOMMON             0          0                                 11447065    7
+DATA                 2          1                                 11447065    8
+DATA       DATA-ERR                                               11447065    9
+B          PER-CENT                                               11447065   10
+ 0.39       20.                                                   11447065   11
+ENDDATA              3                                            11447065   12
+ENDSUBENT           11                                            1144706599999
+ENDENTRY             2                                            1144799999999
+ENTRY            30079     850219                                 30079000    1
+SUBENT        30079001     850219                                 30079001    1
+BIB                 15         42                                 30079001    2
+INSTITUTE  (3INDMUA)                                              30079001    3
+REFERENCE  (J,PR,152,1055,6612) DATA TABLE,CFD OTHER+STATISTIC TH 30079001    4
+           (J,NP,66,267,65) EXP DETAILS,ERR ANAL,ACTIV,BETA DET   30079001    5
+AUTHOR     (A.K.CHAUBEY, M.L.SEHGAL)                              30079001    6
+TITLE      MEASUREMENT OF NEUTRON CAPTURE CROSS SECTIONS BY       30079001    7
+           ACTIVATION AT 24 KEV AND COMPARISON WITH STATISTICAL   30079001    8
+           THEORY                                                 30079001    9
+EXP-YEAR   (66)                                                   30079001   10
+INC-SOURCE ANTIMONY-BERYLLIUM, 1.7CM DIAM. * 3.3CM HEIGHT,        30079001   11
+           FLUX APPROXIMATELY 10E+7 NEUTRONS/SEC                  30079001   12
+SAMPLE     POWDER,PURITY BETTER THAN 99.9PERCENT,SAMPLE SANDWICHED30079001   13
+           BETWEEN 2 CELLOTAPES, PERSPEX RING FOR FIXED GEOMETRY  30079001   14
+METHOD     (ACTIV) ACTIVATION. BETA ACTIVITY MEASURED             30079001   15
+DETECTOR   (GEMUC)    END WINDOW BETA COUNTER                     30079001   16
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)                           30079001   17
+              I-127(N,GAMMA)I-128 SIGMA = 0.82 BARN               30079001   18
+           ASSUMED                                                30079001   19
+PART-DET   (B-) BETA PARTICLES DETECTED                           30079001   20
+STATUS     DATA FROM PHYS.REV. 152,1055(1966), TABLE 1.           30079001   21
+HISTORY    (691124C) DATA COMPILED INTO DASTAR-1012               30079001   22
+           (691203A) PROOF COPY SENT TO AUTHOR                    30079001   23
+           (701130T) DATA CONVERTED FROM DASTAR INTO EXFOR        30079001   24
+           (761209A) COMMENTS REVISED. HALF-LIVES PUT IN 'COMMON' 30079001   25
+           OR WITH 'RESID-NUC'.             YAG.                  30079001   26
+           (770907U) OS. BIB UPDATE.                              30079001   27
+CORRECTION ABSENCE OF THERMAL NEUTRONS DETERMINED, INFLUENCE OF   30079001   28
+           SCATTERED NEUTRONS OF LOWER THAN 24. KEV ENERGY        30079001   29
+           NEGLIGIBLE DUE TO GEOMETRY, I.E. LARGE ROOM, REMOTE    30079001   30
+           LOCATION OF NEUTRON SOURCE FROM THE FLOOR (=1.3 M)     30079001   31
+           AND NO SHIELDING MATERIAL AROUND THE SOURCE            30079001   32
+ERR-ANALYS (DATA-ERR) GIVEN ERROR CONSISTS OF                     30079001   33
+           1.) 1 PERCENT IN ESTIMATION OF TOTAL NUMBER OF TARGET  30079001   34
+               NUCLEI.                                            30079001   35
+           2.) 2 PERCENT IN MEASUREMENT OF SAMPLE-SOURCE GEOMETRY 30079001   36
+               EFFECT WHICH WILL DEPEND UPON REPRODUCIBILITY OF   30079001   37
+               THE GEOMETRY.                                      30079001   38
+           3.) IRRADIATION TIME MEASURED WITH AN ACCURACY OF      30079001   39
+               BETTER THAN 1 PERCENT.                             30079001   40
+           4.) ABOUT 2 PERCENT ERROR IN MEASUREMENT OF THE CROSS- 30079001   41
+               SECTIONS ESTIMATED TO BE DUE TO THE GAMMA-RAYS     30079001   42
+               DETECTED BY BETA-COUNTER.                          30079001   43
+           5.) STATISTICAL ERROR VARIES FROM ONE CASE TO ANOTHER  30079001   44
+ENDBIB              42                                            30079001   45
+COMMON               1          3                                 30079001   46
+EN                                                                30079001   47
+KEV                                                               30079001   48
+ 2.4000E+01                                                       30079001   49
+ENDCOMMON            3                                            30079001   50
+ENDSUBENT           49                                            3007900199999
+SUBENT        30079022     840503                                 30079022    1
+BIB                  3          6                                 30079022    2
+REFERENCE  (C,65CALCUTTA,2,154,6502) ABSTRACT AND TABLE           30079022    3
+REACTION   (46-PD-110(N,G)46-PD-111-G,,SIG)                       30079022    4
+ANALYSIS   AUTHORS HAVE CONSIDERED POSSIBLE EFFECTS OF THE        30079022    5
+           ISOMERIC STATE, H-LIFE = 5.5 HR, IN 46-PD-111. THE     30079022    6
+           TABULATED DATA REPRESENT THE CROSS SECTION FOR         30079022    7
+           POPULATION OF THE GROUND STATE ONLY.                   30079022    8
+ENDBIB               6                                            30079022    9
+COMMON               1          3                                 30079022   10
+HL                                                                30079022   11
+MIN                                                               30079022   12
+ 2.2000E+01                                                       30079022   13
+ENDCOMMON            3                                            30079022   14
+DATA                 2          1                                 30079022   15
+DATA       DATA-ERR                                               30079022   16
+MB         MB                                                     30079022   17
+ 1.2000E+02 1.5000E+01                                            30079022   18
+ENDDATA              3                                            30079022   19
+ENDSUBENT           18                                            3007902299999
+ENDENTRY             2                                            3007999999999
+ENTRY            30492     850121                                 30492000    1
+SUBENT        30492001     850121                                 30492001    1
+BIB                 13         21                                 30492001    2
+INSTITUTE  (3INDAUW)                                              30492001    3
+REFERENCE  (J,NCL,5,(16),1025,7212)                               30492001    4
+           (C,70MADURAI,2,19,7012) PREVIOUS RESULT FOR PD110,PT19630492001    5
+AUTHOR     (A.LAKSHMANA RAO,J.RAMA RAO)                           30492001    6
+TITLE      ISOMER RATIOS AND THE SHIFTED FERMI GAS MODEL.         30492001    7
+EXP-YEAR   (72)                                                   30492001    8
+INC-SOURCE ANTIMONY-BERYLLIUM NEUTRON SOURCE OF 20 CURIE.         30492001    9
+METHOD     (ACTIV)                                                30492001   10
+            EXP.DETAIL, SEE A.LAKSHMANA RAO,J.RAMA RAO,JOURN.OF   30492001   11
+           PHYS.,A5(1972)1262.                                    30492001   12
+DETECTOR   (NAICR) 7F8 HARSHAW WELL-TYPE NAI(TL) AND 100 CHANNEL  30492001   13
+           ANALYSER.                                              30492001   14
+MONITOR    (53-I-127(N,G)53-I-128,,SIG) = 832+-6 MB.              30492001   15
+            FOR NEUTRON FLUX DETERMINATION.                       30492001   16
+            ===THIS INFORMATION IS GIVEN IN PROC.NUCL.PHY.AND SOL.30492001   17
+            STATE PHYS.SYMP.,MADURAI,DEC.27-30,(1970) P.19. ===   30492001   18
+PART-DET   (DG)                                                   30492001   19
+STATUS     DATA TAKEN FROM TABLE 1 OF LETT.AL NUOVO CIMENTO,5,(16)30492001   20
+            (1972)1026.                                           30492001   21
+HISTORY    (790622C) KO.                                          30492001   22
+ERR-ANALYS NO FURTHER INFORMATION.                                30492001   23
+ENDBIB              21                                            30492001   24
+COMMON               4          3                                 30492001   25
+EN         EN-RSL     MONIT      MONIT-ERR                        30492001   26
+KEV        KEV        MB         MB                               30492001   27
+ 2.5000E+01 5.0000E+00 8.3200E+02 2.6000E+01                      30492001   28
+ENDCOMMON            3                                            30492001   29
+ENDSUBENT           28                                            3049200199999
+SUBENT        30492003     850121                                 30492003    1
+BIB                  3         10                                 30492003    2
+REACTION  M(46-PD-110(N,G)46-PD-111-M,,SIG)                       30492003    3
+          G(46-PD-110(N,G)46-PD-111-G,,SIG)                       30492003    4
+          R(46-PD-110(N,G)46-PD-111-M/T,,SIG/RAT)                 30492003    5
+COMMENT   R THE EXPERIMENTAL ISOMER RATIO GIVEN BELOW IS          30492003    6
+           REPRODUCED BY THE HUIZENGA-VANDENBOSCH FORMALISM WHEN  30492003    7
+           USING                                                  30492003    8
+            1) SHIFTED FERMI-GAS MODEL(S.F.M.)  =  0.06,          30492003    9
+            2) INDEPENDENT PAIRING MODEL(I.P.M.)=  0.038,         30492003   10
+            3) SUPER CONDUCTOR MODEL (S.C.M.)   =  0.044.         30492003   11
+STATUS     THIS ENTRY REPLACES EXFOR30246.008 TO 30246.010.       30492003   12
+ENDBIB              10                                            30492003   13
+NOCOMMON             0          0                                 30492003   14
+DATA                 6          1                                 30492003   15
+DATA      MDATA-ERR  MDATA      GDATA-ERR  GDATA      RDATA-ERR  R30492003   16
+MB         MB         MB         MB         NO-DIM     NO-DIM     30492003   17
+ 7.6000E+00 1.0000E+00 1.1000E+02 1.6000E+01 6.5000E-02 1.3000E-0230492003   18
+ENDDATA              3                                            30492003   19
+ENDSUBENT           18                                            3049200399999
+ENDENTRY             2                                            3049299999999
+ENTRY            30573     840911                                 30573000    1
+SUBENT        30573001     840911                                 30573001    1
+BIB                 15         22                                 30573001    2
+INSTITUTE  (3INDMUA)                                              30573001    3
+REFERENCE  (C,78BOMBAY,2,95,7812)                                 30573001    4
+AUTHOR     (M.AFZAL ANSARI,M.WASIM AND H.M.AGRAWAL)               30573001    5
+TITLE      MEASUREMENT OF (N,GAMMA) CROSS-SECTIONS FOR SM-154 AT  30573001    6
+           470.KEV AND 680.KEV,AND FOR PD-110 AT 380.KEV          30573001    7
+FACILITY   (VDG) 2.MEV VAN-DE-GRAAFF ACCELERATOR AT I.I.T.KANPUR  30573001    8
+INC-SOURCE (P-T)                                                  30573001    9
+SAMPLE     SAMPLES WERE MADE BY UNIFORMLY SPREADING THE POWDERED  30573001   10
+           SUBSTANCES.CHEMICAL PURITY IS BETTER THAN 99.9 PER-CENT30573001   11
+METHOD     ACTIVATION TECHNIQUE                                   30573001   12
+DETECTOR   (GEMUC) END-WINDOW BETA-COUNTER                        30573001   13
+MONITOR    (53-I-127(N,G)53-I-128,,SIG) THE AUTHORS DO NOT GIVE   30573001   14
+           THE NUMERICAL VALUES OF CROSS-SECTIONS OR INFORMATION  30573001   15
+           ABOUT THE REFERENCE FROM WHICH THE MONITOR USED IN THE 30573001   16
+           EXPERIMENT IS TAKEN                                    30573001   17
+PART-DET   (B-) DECAY BETA-                                       30573001   18
+STATUS     DATA TAKEN FROM TABLE 1 OF PROCEEDINGS OF THE 78BOMBAY,30573001   19
+           VOL.21B(1978) P.97                                     30573001   20
+HISTORY    (810304C) VP.                                          30573001   21
+CORRECTION ARE DISCUSSED BY SEHGAL M.L.,IND.J.PHYS.31,630(1957)   30573001   22
+ERR-ANALYS (EN-ERR) NO INFORMATION                                30573001   23
+           (DATA-ERR) SEE REF. UNDER CORRECTION                   30573001   24
+ENDBIB              22                                            30573001   25
+NOCOMMON             0          0                                 30573001   26
+ENDSUBENT           25                                            3057300199999
+SUBENT        30573003     840911                                 30573003    1
+BIB                  1          1                                 30573003    2
+REACTION   (46-PD-110(N,G)46-PD-111-G,,SIG)                       30573003    3
+ENDBIB               1                                            30573003    4
+NOCOMMON             0          0                                 30573003    5
+DATA                 4          1                                 30573003    6
+EN         EN-ERR     DATA       DATA-ERR                         30573003    7
+KEV        KEV        MB         MB                               30573003    8
+ 3.8000E+02 1.0000E+01 2.5800E+01 4.0000E+00                      30573003    9
+ENDDATA              3                                            30573003   10
+ENDSUBENT            9                                            3057300399999
+ENDENTRY             2                                            3057399999999
+ENDREQUEST           1                                            Z999999999999

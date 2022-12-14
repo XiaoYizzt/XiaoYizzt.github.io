@@ -1,0 +1,345 @@
+REQUEST           1001   20010914          3     141213               0  0    0
+ENTRY            11447     850410                                 11447000    1
+SUBENT        11447001     850410                                 11447001    1
+BIB                  6          8                                 11447001    2
+INSTITUTE  (1USAANL)                                              11447001    3
+REFERENCE  (J,PR,72,888,4711)                                     11447001    4
+AUTHOR     (L.SEREN,H.N.FRIEDLANDER,S.H.TURKEL)                   11447001    5
+METHOD     (ACTIV)                                                11447001    6
+STATUS     (SCSRS)                                                11447001    7
+HISTORY    (760715T) TRANSLATED FROM SCISRS                       11447001    8
+           (820813A) CONVERTED TO REACTION FORMALISM              11447001    9
+           (840410A) ENERGY CORRECTED.                            11447001   10
+ENDBIB               8                                            11447001   11
+COMMON               1          3                                 11447001   12
+EN-DUMMY                                                          11447001   13
+EV                                                                11447001   14
+ 0.0253                                                           11447001   15
+ENDCOMMON            3                                            11447001   16
+ENDSUBENT           15                                            1144700199999
+SUBENT        11447050     820813                                 11447050    1
+BIB                  4          4                                 11447050    2
+REACTION   (38-SR-88(N,G)38-SR-89,,SIG,,SPA)                      11447050    3
+SAMPLE     SR-CO(3)                                               11447050    4
+INC-SPECT  REACTOR                                                11447050    5
+DECAY-DATA (38-SR-89,55.D,B-)                                     11447050    6
+ENDBIB               4                                            11447050    7
+NOCOMMON             0          0                                 11447050    8
+DATA                 2          1                                 11447050    9
+DATA       DATA-ERR                                               11447050   10
+B          PER-CENT                                               11447050   11
+ 5.0    -03 20.                                                   11447050   12
+ENDDATA              3                                            11447050   13
+ENDSUBENT           12                                            1144705099999
+ENDENTRY             2                                            1144799999999
+ENTRY            11596     830815                                 11596000    1
+SUBENT        11596001     830815                                 11596001    1
+BIB                  7          8                                 11596001    2
+INSTITUTE  (1USAANL)                                              11596001    3
+REFERENCE  (J,PR,78,632,5006)                                     11596001    4
+AUTHOR     (D.J.HUGHES,D.SHERMAN)                                 11596001    5
+TITLE      FAST NEUTRON CROSS SECTIONS AND NUCLEAR SHELLS         11596001    6
+METHOD     (ACTIV) ACTIVATION                                     11596001    7
+STATUS     (SCSRS)                                                11596001    8
+HISTORY    (760718T) TRANSLATED FROM SCISRS                       11596001    9
+           (830815A) CONVERTED TO REACTION FORMALISM              11596001   10
+ENDBIB               8                                            11596001   11
+NOCOMMON             0          0                                 11596001   12
+ENDSUBENT           11                                            1159600199999
+SUBENT        11596009     860113                                 11596009    1
+BIB                  5          6                                 11596009    2
+REACTION   (38-SR-88(N,G)38-SR-89,,SIG,,FIS)                      11596009    3
+INC-SPECT  FISSION NEUTRONS FROM U-235 IN THERMAL BEAM.           11596009    4
+MONITOR    (38-SR-88(N,G)38-SR-89,,SIG,,MXW)                      11596009    5
+           STANDARD VALUES TAKEN FROM PHYS.REV. 91,1423 (1953).   11596009    6
+DECAY-DATA (38-SR-89,53.D)                                        11596009    7
+HISTORY    (860113U) STANDARD REFERENCE CORRECTED.                11596009    8
+ENDBIB               6                                            11596009    9
+NOCOMMON             0          0                                 11596009   10
+DATA                 3          1                                 11596009   11
+EN-DUMMY   DATA       MONIT                                       11596009   12
+MEV        B          B                                           11596009   13
+ 1.         2.1    -03 5.     -03                                 11596009   14
+ENDDATA              3                                            11596009   15
+ENDSUBENT           14                                            1159600999999
+ENDENTRY             2                                            1159699999999
+ENTRY            11847     841018                                 11847000    1
+SUBENT        11847001     841018                                 11847001    1
+BIB                  9         11                                 11847001    2
+INSTITUTE  (1CANCRC)                                              11847001    3
+REFERENCE  (J,CJC,36,731,58)                                      11847001    4
+AUTHOR     (J.C.ROY,P.J.BERRY,L.P.ROY)                            11847001    5
+TITLE      REACTOR NEUTRON-CAPTURE CROSS SECTION OF 18-MINUTE     11847001    6
+           RB88.                                                  11847001    7
+METHOD     (ACTIV) ACTIVATION                                     11847001    8
+MONITOR    (27-CO-59(N,G)27-CO-60,,SIG)                           11847001    9
+ASSUMED    (ASSUM,37-RB-87(N,G)37-RB-88,,SIG)                     11847001   10
+STATUS     (SCSRS)                                                11847001   11
+HISTORY    (760731T) TRANSLATED FROM SCISRS                       11847001   12
+           (841018A) DATA HEADING CORRECTED.                      11847001   13
+ENDBIB              11                                            11847001   14
+COMMON               2          3                                 11847001   15
+MONIT      ASSUM                                                  11847001   16
+B          B                                                      11847001   17
+ 36.6       0.12                                                  11847001   18
+ENDCOMMON            3                                            11847001   19
+ENDSUBENT           18                                            1184700199999
+SUBENT        11847003     771012                                 11847003    1
+BIB                  3          3                                 11847003    2
+REACTION   (38-SR-88(N,G)38-SR-89,,SIG,,SPA)                      11847003    3
+DECAY-DATA (38-SR-89,53.D,B-)                                     11847003    4
+INC-SPECT   REACTOR SPECTRUM                                      11847003    5
+ENDBIB               3                                            11847003    6
+NOCOMMON                                                          11847003    7
+DATA                 3          1                                 11847003    8
+EN-DUMMY   DATA       DATA-ERR                                    11847003    9
+MEV        B          B                                           11847003   10
+ 2.53   -08 5.8    +00 4.     -01                                 11847003   11
+ENDDATA              3                                            11847003   12
+ENDSUBENT           11                                            1184700399999
+ENDENTRY             2                                            1184799999999
+ENTRY            13742   20010302   20010426                      13742000    1
+SUBENT        13742001   20010302   20010426                      13742001    1
+BIB                  9         12                                 13742001    2
+INSTITUTE  (1USAORL,1USADNS,2SWTBAS) +U.C. Santa Cruz, CA         13742001    3
+REFERENCE  (J,PR/C,62,055803,200011)                              13742001    4
+AUTHOR     (P.E.KOEHLER,R.R.WINTERS,K.H.GUBER,T.RAUSCHER,         13742001    5
+           J.A.HARVEY,S.RAMAN,R.R.SPENCER,J.C.BLACKMON,D.C.LARSON,13742001    6
+           D.W.BARDAYAN,T.A.LEWIS)                                13742001    7
+TITLE      High-resolution capture and transmission measurements  13742001    8
+            and the stellar neutron-capture cross section of 88Sr 13742001    9
+FACILITY   (LINAC,1USAORL) ORELA.                                 13742001   10
+INC-SOURCE White neutron source.                                  13742001   11
+ERR-ANALYS (DATA-ERR) Absolute uncertainty given.                 13742001   12
+STATUS     No reply from P.E. Koehler to author proof.            13742001   13
+HISTORY    (20001221C)                                            13742001   14
+ENDBIB              12                                            13742001   15
+NOCOMMON             0          0                                 13742001   16
+ENDSUBENT           15                                            1374200199999
+ENDENTRY             2                                            1374299999999
+ENTRY            22177     910716                                 22177000    1
+SUBENT        22177001     910716                                 22177001    1
+BIB                 14         61                                 22177001    2
+REFERENCE  (J,AJ,355,348,9005)                                    22177001    3
+TITLE      - 88-SR AND 89-Y: THE S-PROCESS AT MAGIC NEUTRON NUMBER22177001    4
+             N=50.                                                22177001    5
+AUTHOR     (F.KAEPPELER,W.R.ZHAO,H.BEER,U.RATZEL)                 22177001    6
+INSTITUTE  (2GERKFK)                                              22177001    7
+FACILITY   (VDG,2GERKFK) 3.75MV VAN DE GRAAFF ACCELERATOR. PROTON 22177001    8
+            BEAM WAS CONTINUALLY MOVED ACROSS THE TARGET TO AVOID 22177001    9
+            OVERHEATING AND TO OPTIMISE THE YIELD. CONTINUOUS BEAM22177001   10
+            CURRENTS OF UP TO 70 MICRO-AMP WERE USED DURING       22177001   11
+            ACTIVATIONS.                                          22177001   12
+CRITIQUE   .ALTHOUGH THE TERM 'MAXWELLIAN SPECTRUM' IS USED       22177001   13
+            THROUGHOUT THE PAPER THIS IS UNDERSTOOD IN A STELLAR  22177001   14
+            CONTEXT, THE ACTUAL AVERAGE CROSS SECTION (<SIGMA>KT) 22177001   15
+            BEING DEFINED AS THE AVERAGED REACTION RATE (CROSS    22177001   16
+            SECTION MULTIPLIED BY VELOCITY) DIVIDED BY THE MEAN   22177001   17
+            THERMAL VELOCITY (VT) WITHIN THE STELLAR PLASMA OF    22177001   18
+            THERMAL ENERGY KT :                                   22177001   19
+               <SIGMA>KT  = <SIGMA X VELOCITY>/ VT                22177001   20
+            USING THE ACCEPTED MAXWELL VELOCITY DISTRIBUTION      22177001   21
+            FORMULA THE TERM VT CAN EASILY BE SHOWN TO BE         22177001   22
+            (2KT/M)**0.5, M BEING THE REDUCED MASS. THIS IS EQUI- 22177001   23
+            VALENT TO FOLDING THE CROSS SECTION WITH AN ENERGY    22177001   24
+            SPECTRUM PROPORTIONAL TO A MAXWELLIAN DISTRIBUTION    22177001   25
+            TIMES VELOCITY (E(N) X EXP(-E(N)/KT)) WITH A NORMAL-  22177001   26
+            ISATION FACTOR OF 2/(PI)**0.5, INSTEAD OF A TRUE      22177001   27
+            MAXWELLIAN (E(N)**0.5 X EXP(-E(N)/KT)). IT IS THIS    22177001   28
+            FORMER SPECTRUM THAT IS REPRODUCED EXPERIMENTALLY     22177001   29
+            USING THE P-LI7 SOURCE, AND THE RESULTING AVERAGE     22177001   30
+            CROSS SECTION INCLUDING THE 2/(PI)**0.5 FACTOR        22177001   31
+            APPEARS IN THE DATA TABLE.                            22177001   32
+INC-SOURCE (P-LI7) METALLIC LAYER OF NATURAL LI, 1 MG/CM-SQ THICK 22177001   33
+            AND 5 OR 6 MM DIAM, EVAPORATED ON A 1.0 MM THICK      22177001   34
+            WATER-COOLED CU BACKING. USING 1912 KEV PROTONS THE   22177001   35
+            120 DEG FORWARD CONE OF EMITTED NEUTRONS CLOSELY      22177001   36
+            APPROXIMATES TO A MAXWELLIAN KT = 25 KEV SHAPE. TOTAL 22177001   37
+            NEUTRON RATE WAS 5.0E+8 S-1.                          22177001   38
+DETECTOR   (GLASD) 1 MM THICK 6-LI GLASS DETECTOR TO MONITOR      22177001   39
+            NEUTRON YIELD, POSITIONED ON THE BEAM AXIS 91 CM FROM 22177001   40
+            THE TARGET. READINGS WERE TAKEN AT LEAST EVERY 4 MINS 22177001   41
+            THROUGHOUT THE ACTIVATIONS.                           22177001   42
+METHOD     (ACTIV) SAMPLE THICKNESS AND DIAMETER AND SAMPLE/      22177001   43
+            MONITOR FOIL SEQUENCE VARIED SYSTEMATICALLY, ALLOWING 22177001   44
+            UNCERTAINTIES AND CORRECTIONS TO BE STUDIED AND       22177001   45
+            QUANTIFIED.                                           22177001   46
+           (TOF  ) BEFORE EACH IRRADIATION THE PROTON ENERGY WAS  22177001   47
+            READJUSTED TO PRODUCE THE REQUIRED MAXIMUM NEUTRON    22177001   48
+            ENERGY OF 106 KEV; THIS BEST DEFINES THE QUASI-STELLAR22177001   49
+            SPECTRUM AT KT = 25 KEV. THE ACCELERATOR WAS OPERATED 22177001   50
+            IN PULSED MODE (1 MHZ WITH 10 NS PULSE WIDTH) TO      22177001   51
+            ENABLE THE NEUTRON ENERGY TO BE DETERMINED USING THE  22177001   52
+            TOF TECHNIQUE.                                        22177001   53
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG,,MXW)                    22177001   54
+MONIT-REF  (22099002,RATYNSKI+,J,PR/C,37,595,88) THE VALUE IN WORK22177001   55
+            22099 HAS BEEN CORRECTED AND MULTIPLIED BY A FACTOR   22177001   56
+            2/(PI**0.5).                                          22177001   57
+DECAY-MON  (79-AU-198-G,,DG,411.8,.955)                           22177001   58
+STATUS     .TABLES IN MAIN REFERENCE.                             22177001   59
+HISTORY    (910411C) S.W.                                         22177001   60
+           (910523E)                                              22177001   61
+           (910716A) S.W. FACILITY LAB CODE ADDED, CRITIQUE ADDED 22177001   62
+           (910722E)                                              22177001   63
+ENDBIB              61                                            22177001   64
+NOCOMMON             0          0                                 22177001   65
+ENDSUBENT           64                                            2217700199999
+SUBENT        22177003     910716                                 22177003    1
+BIB                  9         49                                 22177003    2
+REACTION   (38-SR-88(N,G)38-SR-89,,SIG,,MXW)                      22177003    3
+SAMPLE     . 99.5% PURE SRO OR 99.99% PURE SRF2 EVAPORATED IN A   22177003    4
+            THIN 10 MM DIAM DEPOSIT ONTO 1 MG/CM2 THICK AL FOILS  22177003    5
+            OF 14 MM DIAM. THE SAMPLE MASS WAS DETERMINED BY      22177003    6
+            WEIGHING USING A MICROBALANCE. THREE DIFFERENT SAMPLES22177003    7
+            WERE USED WITH THE FOLLOWING MEASURED MASSES:         22177003    8
+                      SRO    1.277 +- 0.004 MG                    22177003    9
+                      SRF2   0.970 +- 0.004 MG                    22177003   10
+                      SRF2   0.999 +- 0.004 MG                    22177003   11
+            FINALLY THE SAMPLES WERE CENTERED ON A 15 MICRO-G/CM2 22177003   12
+            PLASTIC FOIL HOLDER STRETCHED OVER A 40 MM DIAM AL    22177003   13
+            RING AND THEN SEALED WITH A SECOND PLASTIC FOIL.      22177003   14
+           .MONITOR GOLD METAL FOILS 0.03 MM THICK AND AVERAGE    22177003   15
+            MASS 46 MG WERE PLACED ADJACENT TO THE SAMPLES.       22177003   16
+DETECTOR   (SOLST,D4PI) 4-PI BETA SPECTROMETER CONSISTING OF TWO  22177003   17
+            SI(LI) DETECTORS (16 MM DIAM AND 400 MICRO-M THICK) IN22177003   18
+            CLOSE GEOMETRY, COOLED BY LIQUID NITROGEN AND ADJUSTED22177003   19
+            TO 0.5 MM FROM THE SAMPLE USING MICROMETER SCREWS.    22177003   20
+            THE SPECTROMETER EFFICIENCY WAS DETERMINED EXPERI-    22177003   21
+            MENTALLY BY IRRADIATING AN EVAPORATED GOLD FOIL OF    22177003   22
+            10 MM DIAM AND 1.15 MG/CM2 AND MEASURING THE ACTIVITY 22177003   23
+            FIRST IN A CALIBRATED HPGE DETECTOR AND THEN COUNTING 22177003   24
+            IN THE SPECTROMETER.                                  22177003   25
+PART-DET   (B-   )                                                22177003   26
+DECAY-DATA (38-SR-89,,B-)                                         22177003   27
+ERR-ANALYS (ERR-T) TOTAL ERROR CONSISTING OF THE FOLLOWING        22177003   28
+            CONTRIBUTIONS (%) FOR THE QUANTITIES LISTED:          22177003   29
+                                                   AU         SR  22177003   30
+            GOLD CROSS SECTION.................   1.5             22177003   31
+            SAMPLE THICKNESS...................   0.2        0.6  22177003   32
+            TIME FACTORS....................... 0.1-0.4    0.1-0.222177003   33
+            COUNTING STATISTICS................ 0.3-0.5    0.5-1.922177003   34
+            SELF-ABSORPTION.................... 0.3-0.8      0.8  22177003   35
+            BETA SPECTROMETER EFFICIENCY.......              1.0  22177003   36
+            BETA SPECTRUM ELECTRONIC THRESHOLD.   0.7        0.9  22177003   37
+            EXTRAPOLATION TO KT = 30 KEV.......              1.0  22177003   38
+            ------------------------------------------------------22177003   39
+            TOTAL, KT = 25 KEV (RANGE OVER 3 RUNS).....    2.6-3.222177003   40
+            TOTAL, KT = 30 KEV (RANGE OVER 3 RUNS).....    2.8-3.422177003   41
+FLAG       (1.) MEAN OF THREE RUNS. THE OBSERVED SCATTER ABOUT THE22177003   42
+            MEAN DID NOT EXCEED THE EVALUATED UNCERTAINTIES.      22177003   43
+           (2.) EXTRAPOLATED TO KT = 30 KEV USING THE CROSS       22177003   44
+            SECTION ENERGY DEPENDENCE DERIVED FROM DIFFERENTIAL   22177003   45
+            DATA.                                                 22177003   46
+STATUS     .TABLES IN MAIN REFERENCE.                             22177003   47
+HISTORY    (910411C) S.W.                                         22177003   48
+           (910523E)                                              22177003   49
+           (910716A) S.W. REACTION MODIFIED                       22177003   50
+           (910722E)                                              22177003   51
+ENDBIB              49                                            22177003   52
+NOCOMMON             0          0                                 22177003   53
+DATA                 6          2                                 22177003   54
+KT         DATA       ERR-T      MONIT      MONIT-ERR  FLAG       22177003   55
+KEV        MB         MB         MB         PER-CENT   NO-DIM     22177003   56
+ 2.5000E+01 6.7200E+00 1.8000E-01 6.4800E+02 1.5000E+00 1.0000E+0022177003   57
+ 3.0000E+01 6.1300E+00 1.8000E-01                       2.0000E+0022177003   58
+ENDDATA              4                                            22177003   59
+ENDSUBENT           58                                            2217700399999
+ENDENTRY             2                                            2217799999999
+ENTRY            30369     930426                                 30369000    1
+SUBENT        30369001     930426                                 30369001    1
+BIB                 15         41                                 30369001    2
+TITLE      VALENCE NEUTRON CAPTURE IN SR-88.                      30369001    3
+AUTHOR     (J.W.BOLDEMAN,B.J.ALLEN,A.R.DEL.MUSGROVE,R.L.MACKLIN,  30369001    4
+           B.R.WINTERS)                                           30369001    5
+INSTITUTE  (1USAORL) EXP. WITH ORNL LINAC.                        30369001    6
+           (3AULAUA)                                              30369001    7
+REFERENCE  (J,NP/A,269,397,7610)                                  30369001    8
+           (C,78HARWELL,449,7809) AV.CAPT.SIG.+FINAL AV.RES.PARS. 30369001    9
+           (J,NSE,82,(2),230,82) CORRECTION FACTOR (=1.0737) FOR  30369001   10
+            NEUTRON CAPTURE CROSS-SECTION IS GIVEN.               30369001   11
+SAMPLE     ENRICHED SAMPLE OF SR-CO(3),  99.63 PERCENT ENRICHMENT 30369001   12
+           OF SR-88,  0.0109 ATOMS/BARN THICK.                    30369001   13
+MONITOR    (3-LI-6(N,T)2-HE-4,,SIG) J.W.BOLDEMAN ET AL.,          30369001   14
+           NUCL.PHYS.A246(1975)1.                                 30369001   15
+FACILITY   (LINAC) OAK RIDGE ELECTRON LINEAR ACCELERATOR, ORELA.  30369001   16
+INC-SOURCE (PHOTO)                                                30369001   17
+METHOD     (TOF) TIME OF FLIGHT, FLIGHT PATH = 40 M.              30369001   18
+           THE NEUTRON ENERGY RESOLUTION WAS APPROX. 0.2 PERCENT. 30369001   19
+DETECTOR   (SCIN) TWO NON-HYDROGENEOUS LIQUID SCINTILLATORS. THE  30369001   20
+           EFFICIENCY OF THE DETECTOR IS PROPORTIONAL TO ONLY THE 30369001   21
+           TOTAL GAMMA-RAY ENERGY RELEASE.                        30369001   22
+            NEUTRON MONITOR WAS A THIN LI-6 GLASS SCINTILLATOR,   30369001   23
+           0.5 MM THICK.                                          30369001   24
+PART-DET   (G) GAMMAS.                                            30369001   25
+ANALYSIS   (AREA)     DETAIL IN USAEC REPORT RPI-328-155(1969).   30369001   26
+           MONTE CARLO AREA ANALYSIS BASED ON THE ORNL/RPI CODE.  30369001   27
+CORRECTION CORRECTION WAS APPLIED TO THE DATA TO ACCOUNT FOR      30369001   28
+           NEUTRON SENSITIVITY OF THE CAPTURE DETECTOR AND WAS    30369001   29
+           BASED ON THE VALUE OF NEUTRON-WIDTH USED IN THE        30369001   30
+           ANALYSIS PLUS EXPERIMENTAL ESTIMATE OF THE EFFICIENCY  30369001   31
+           OF THE NEUTRON CAPTURE.                                30369001   32
+            MULTIPLE SCATTERING AND SELF-SHIELDING WERE CORRECTED 30369001   33
+           IN THE MONTE-CARLO CODE.                               30369001   34
+ERR-ANALYS NO FURTHER INFORMATION.                                30369001   35
+HISTORY    (770126C) KO.                                          30369001   36
+           (790528U) KO.-REVISED DATA IN SUBENTRIES .003,.004 AND 30369001   37
+           NEWENTRY .005 FROM 1978 HARWELL CONF. -                30369001   38
+           (790830U) KO.-MINOR CORRECTION IN .003.-               30369001   39
+           (810320U) STANDARD CODING CORR.-OS                     30369001   40
+           (821111U) DG.-INSERTION OF CORRIGENDUM IN REFERENCE,   30369001   41
+            CONVERTION FROM ISO-QUANT TO REACTION FORMALISM.-     30369001   42
+           (930202U) HW.-SEQUENCE INSTITUTE CODES ALTERED.-       30369001   43
+ENDBIB              41                                            30369001   44
+NOCOMMON                                                          30369001   45
+ENDSUBENT           44                                            3036900199999
+SUBENT        30369004     840530                                 30369004    1
+BIB                  3          7                                 30369004    2
+REACTION   (38-SR-88(N,G)38-SR-89,,SIG,,SPA)                      30369004    3
+           CROSS-SECTION FOR MAXWELLIAN AVERAGED SPECTRUM WITH    30369004    4
+            ''KT'' = 30 KEV.                                      30369004    5
+STATUS     FINAL DATA TAKEN FROM TABLE VIII OF 1978 HARWELL CONF. 30369004    6
+           ON NEUTRON PHYSICS AND NUCLEAR DATA, P.449.            30369004    7
+HISTORY    (790528A) KO.-ALTERATION OF DATA AFTER 1978HARWELL CONF30369004    8
+           (821111U) DG.-CONVERT.FROM ISO-QUANT TO REACTION FORM.-30369004    9
+ENDBIB               7                                            30369004   10
+NOCOMMON             0          0                                 30369004   11
+DATA                 3          1                                 30369004   12
+EN-DUMMY   DATA       DATA-ERR                                    30369004   13
+KEV        MB         MB                                          30369004   14
+ 4.5000E+01 5.8000E+00 5.0000E-01                                 30369004   15
+ENDDATA              3                                            30369004   16
+ENDSUBENT           15                                            3036900499999
+SUBENT        30369005     840530                                 30369005    1
+BIB                  3          7                                 30369005    2
+REACTION   (38-SR-88(N,G)38-SR-89,,SIG,,AV)                       30369005    3
+STATUS     DATA TAKEN FROM TABLE II OF 1978 HARWELL CONF. ON      30369005    4
+           NEUTRON PHYSICS AND NUCLEAR DATA, P.449.               30369005    5
+           AFTER THE VALUES HAVE BEEN MULTIPLIED BY 1.0737.       30369005    6
+HISTORY    (790528C) KO -NEW SUBENTRY -                           30369005    7
+           (821111A) DG.-THE VALUES HAVE BEEN CORRECTED,          30369005    8
+            CONVERTION FROM ISO-QUANT TO REACTION FORMALISM.-     30369005    9
+ENDBIB               7                                            30369005   10
+NOCOMMON             0          0                                 30369005   11
+DATA                 5         16                                 30369005   12
+EN-MIN     EN-MAX     DATA       DATA-ERR   DATA-MAX              30369005   13
+KEV        KEV        MB         MB         MB                    30369005   14
+ 3.0000E+00 4.0000E+00                       5.0000E-02           30369005   15
+ 4.0000E+00 5.0000E+00                       5.0000E-02           30369005   16
+ 5.0000E+00 6.0000E+00                       5.0000E-02           30369005   17
+ 6.0000E+00 8.0000E+00                       1.0000E-01           30369005   18
+ 8.0000E+00 1.0000E+01                       1.0000E-01           30369005   19
+ 1.0000E+01 1.5000E+01 3.4000E+01 3.0000E+00                      30369005   20
+ 1.5000E+01 2.0000E+01 1.0000E-01 5.0000E-02                      30369005   21
+ 2.0000E+01 3.0000E+01 1.2900E+01 1.5000E+00                      30369005   22
+ 3.0000E+01 4.0000E+01 1.9000E+00 3.0000E-01                      30369005   23
+ 4.0000E+01 5.0000E+01 3.9000E+00 4.0000E-01                      30369005   24
+ 5.0000E+01 6.0000E+01 8.1000E+00 8.0000E-01                      30369005   25
+ 6.0000E+01 8.0000E+01 1.6000E+00 2.0000E-01                      30369005   26
+ 8.0000E+01 1.0000E+02 2.6000E+00 9.0000E-01                      30369005   27
+ 1.0000E+02 1.5000E+02 3.2000E+00 7.0000E-01                      30369005   28
+ 1.5000E+02 2.0000E+02 1.9000E+00 4.0000E-01                      30369005   29
+ 2.0000E+02 3.0000E+02 2.7000E+00 4.0000E-01                      30369005   30
+ENDDATA             18                                            30369005   31
+ENDSUBENT           30                                            3036900599999
+ENDENTRY             3                                            3036999999999
+ENDREQUEST           1                                            Z999999999999

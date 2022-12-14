@@ -1,0 +1,193 @@
+REQUEST           1001   20010914          3     142154               0  0    0
+ENTRY            11447     850410                                 11447000    1
+SUBENT        11447001     850410                                 11447001    1
+BIB                  6          8                                 11447001    2
+INSTITUTE  (1USAANL)                                              11447001    3
+REFERENCE  (J,PR,72,888,4711)                                     11447001    4
+AUTHOR     (L.SEREN,H.N.FRIEDLANDER,S.H.TURKEL)                   11447001    5
+METHOD     (ACTIV)                                                11447001    6
+STATUS     (SCSRS)                                                11447001    7
+HISTORY    (760715T) TRANSLATED FROM SCISRS                       11447001    8
+           (820813A) CONVERTED TO REACTION FORMALISM              11447001    9
+           (840410A) ENERGY CORRECTED.                            11447001   10
+ENDBIB               8                                            11447001   11
+COMMON               1          3                                 11447001   12
+EN-DUMMY                                                          11447001   13
+EV                                                                11447001   14
+ 0.0253                                                           11447001   15
+ENDCOMMON            3                                            11447001   16
+ENDSUBENT           15                                            1144700199999
+SUBENT        11447084     820813                                 11447084    1
+BIB                  3          3                                 11447084    2
+REACTION   (52-TE-126(N,G)52-TE-127-G,,SIG,,SPA)                  11447084    3
+INC-SPECT  REACTOR SPECTRUM                                       11447084    4
+DECAY-DATA (52-TE-127-G,9.3HR,B)                                  11447084    5
+ENDBIB               3                                            11447084    6
+NOCOMMON             0          0                                 11447084    7
+DATA                 2          1                                 11447084    8
+DATA       DATA-ERR                                               11447084    9
+B          PER-CENT                                               11447084   10
+ 0.78       20.                                                   11447084   11
+ENDDATA              3                                            11447084   12
+ENDSUBENT           11                                            1144708499999
+ENDENTRY             2                                            1144799999999
+ENTRY            30063     900709                                 30063000    1
+SUBENT        30063001     900709                                 30063001    1
+BIB                 15         40                                 30063001    2
+TITLE      NEUTRON ACTIVATION CROSS-SECTIONS AT 24 KEV            30063001    3
+AUTHOR     (A.K.CHAUBEY, M.L.SEHGAL)                              30063001    4
+INSTITUTE  (3INDMUA)                                              30063001    5
+EXP-YEAR   (64)                                                   30063001    6
+REFERENCE  (J,NP,66,267,6505)                                     30063001    7
+SAMPLE     POWDER,PURITY BETTER THAN 99.9PERCENT,SAMPLE SANDWICHED30063001    8
+           BETWEEN 2 CELLOTAPES, PERSPEX RING FOR FIXED GEOMETRY  30063001    9
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)                           30063001   10
+           FROM R.L.MACKLIN ET AL., PHYS.REV.107,PAGE 504 (1957)  30063001   11
+INC-SOURCE ANTIMONY-BERYLLIUM, 1.7CM DIAM.*3.3CM HEIGHT,          30063001   12
+           FLUX APPROXIMATELY 10E+7 NEUTRONS/SEC                  30063001   13
+METHOD     (ACTIV) BETA ACTIVITY MEASURED                         30063001   14
+PART-DET   (B-) BETA PARTICLES DETECTED                           30063001   15
+DETECTOR   (GEMUC)  END WINDOW BETA COUNTER                       30063001   16
+ERR-ANALYS (DATA-ERR) GIVEN ERROR CONSISTS OF                     30063001   17
+           1.) 1 PERCENT IN ESTIMATION OF TOTAL NUMBER OF TARGET  30063001   18
+               NUCLEI.                                            30063001   19
+           2.) 2 PERCENT IN MEASUREMENT OF SAMPLE-SOURCE GEOMETRY 30063001   20
+               EFFECT WHICH WILL DEPEND UPON REPRODUCIBILITY OF   30063001   21
+               THE GEOMETRY.                                      30063001   22
+           3.) IRRADIATION TIME MEASURED WITH AN ACCURACY OF      30063001   23
+               BETTER THAN 1 PERCENT.                             30063001   24
+           4.) ABOUT 2 PERCENT ERROR IN MEASUREMENT OF THE CROSS- 30063001   25
+               SECTIONS ESTIMATED TO BE DUE TO THE GAMMA-RAYS     30063001   26
+               DETECTED BY BETA-COUNTER.                          30063001   27
+           5.) STATISTICAL ERROR VARIES FROM ONE CASE TO ANOTHER. 30063001   28
+CORRECTION ABSENCE OF THERMAL NEUTRONS DETERMINED, INFLUENCE OF   30063001   29
+           SCATTERED NEUTRONS OF LOWER THAN 24. KEV ENERGY        30063001   30
+           NEGLIGIBLE DUE TO GEOMETRY, I.E. LARGE ROOM, REMOTE    30063001   31
+           LOCATION OF NEUTRON SOURCE FROM THE FLOOR (=1.3 M)     30063001   32
+           AND NO SHIELDING MATERIAL AROUND THE SOURCE.           30063001   33
+STATUS     DATA TAKEN FROM NP 66, PAG 267,1965                    30063001   34
+HISTORY    (691124C) DATA COMPILED FROM NP 66,267-272 (1965)      30063001   35
+           (691203) PROOF COPY SENT TO AUTHOR                     30063001   36
+           (701127T) DATA CONVERTED FROM DASTAR-01011             30063001   37
+           (760914U)  SOME ISO-QUANTS HAVE BEEN CHANGED WITH      30063001   38
+                      RESPECT TO THE MODIFIERS. HALF-LIVES ADDED  30063001   39
+                      IN 'COMMON'. CHANGES IN COMMENTS.           30063001   40
+           (900603A) VOF.- OBSOLETE KEYWORDS REPLACED BY NEW      30063001   41
+                           FORMALISM. MONITOR DATA ADDED          30063001   42
+ENDBIB              40                                            30063001   43
+COMMON               2          3                                 30063001   44
+EN         MONIT                                                  30063001   45
+KEV        B                                                      30063001   46
+24.0       0.82                                                   30063001   47
+ENDCOMMON            3                                            30063001   48
+ENDSUBENT           47                                            3006300199999
+SUBENT        30063007     900709                                 30063007    1
+BIB                  2          2                                 30063007    2
+REACTION   (52-TE-126(N,G)52-TE-127-G,,SIG)                       30063007    3
+HALF-LIFE  (HL1,52-TE-127-G)                                      30063007    4
+ENDBIB               2                                            30063007    5
+COMMON               1          3                                 30063007    6
+HL1                                                               30063007    7
+HR                                                                30063007    8
+9.3                                                               30063007    9
+ENDCOMMON            3                                            30063007   10
+DATA                 2          1                                 30063007   11
+DATA       DATA-ERR                                               30063007   12
+MB         MB                                                     30063007   13
+ 66.        11.                                                   30063007   14
+ENDDATA              3                                            30063007   15
+ENDSUBENT           14                                            3006300799999
+ENDENTRY             2                                            3006399999999
+ENTRY            31248     900312                                 31248000    1
+SUBENT        31248001     900312                                 31248001    1
+BIB                 10         22                                 31248001    2
+TITLE      THERMAL NEUTRON ACTIVATION CROSS-SECTION FOR ISOMER    31248001    3
+           PRODUCTION                                             31248001    4
+AUTHOR     (S.K.MANGAL, P.S.GILL)                                 31248001    5
+INSTITUTE  (3INDMUA)                                              31248001    6
+REFERENCE  (J,NP,36,542,6208)                                     31248001    7
+FACILITY   (REAC)TROMBAY SWIMMING POOL REACTOR.                   31248001    8
+INC-SOURCE (THCOL) THERMAL COLUMN FLUX = 10E+7 N/CM-SQ/SEC.SOME   31248001    9
+           SAMPLE WERE IRRADIATED NEAR THE CORE IN A FLUX =       31248001   10
+           10E+11 N/CM-SQ/SEC.                                    31248001   11
+METHOD     (ACTIV)                                                31248001   12
+           ACTIVATION OF SAMPLES WAS PERFORMED IN A THERMAL REAC- 31248001   13
+           TOR SPECTRUM. THE FLUX WAS CALIBRATED SIMULTANEOUSLY   31248001   14
+           WITH THE HELP OF STANDARD REACTION. MOST OF THE SAMPLE 31248001   15
+           ACTIVITY WAS FOLLOWED FOR 3 TO 4 HALF-LIVES AFTER      31248001   16
+           IRRADIATION.                                           31248001   17
+ERR-ANALYS NO FURTHER INFORMATION.                                31248001   18
+STATUS     DATA TAKEN FROM J. NUCL. PHYS.36(1962)542.             31248001   19
+HISTORY    (771115T) CONVERTED FROM EXFOR 70248                   31248001   20
+           (780531A) ISO-QUANT IN SAN .006 CORRECTED, REF.CODING  31248001   21
+                     CORR., STANDARD CS IN SAN.001 CODED,ISO-QUANT31248001   22
+                     STANDARD AND HL IN  SAN.013 CORRECTED.  OS   31248001   23
+           (790309A) ND.-RECOMPILED FROM REF. NEW SUBENT .015 --  31248001   24
+ENDBIB              22                                            31248001   25
+COMMON               1          3                                 31248001   26
+EN-DUMMY                                                          31248001   27
+EV                                                                31248001   28
+0.0253                                                            31248001   29
+ENDCOMMON            3                                            31248001   30
+ENDSUBENT           29                                            3124800199999
+SUBENT        31248009     891205                                 31248009    1
+BIB                  7         10                                 31248009    2
+REACTION   (52-TE-126(N,G)52-TE-127-G,,SIG,,MXW)                  31248009    3
+REFERENCE  (C,62MADRAS,95,6202)                                   31248009    4
+MONITOR    (25-MN-55(N,G)25-MN-56,,SIG) = 13.4+-0.3 B. VALUE GIVEN31248009    5
+           IN BNL-325(1955).                                      31248009    6
+HALF-LIFE  (HL,52-TE-127-G)                                       31248009    7
+DETECTOR   (GEMUC) END WINDOW BETA COUNTER                        31248009    8
+PART-DET   (B-) ELECTRONS                                         31248009    9
+HISTORY    (800116U) ND MINOR CHANGES IN BIB. AFTER NNDC MEMO OF  31248009   10
+            79/12/17.                                             31248009   11
+           (890919A) VOF.-REACTION CORRECTED + REF. ADDED         31248009   12
+ENDBIB              10                                            31248009   13
+COMMON               1          3                                 31248009   14
+HL                                                                31248009   15
+HR                                                                31248009   16
+    9.3                                                           31248009   17
+ENDCOMMON            3                                            31248009   18
+DATA                 2          1                                 31248009   19
+DATA       DATA-ERR                                               31248009   20
+MB         PER-CENT                                               31248009   21
+1034.      15.                                                    31248009   22
+ENDDATA              3                                            31248009   23
+ENDSUBENT           22                                            3124800999999
+ENDENTRY             2                                            3124899999999
+ENTRY            41129     930720                                 41129000    1
+SUBENT        41129001     930720                                 41129001    1
+BIB                 13         15                                 41129001    2
+TITLE       ISOTOPE SYSTEMATICS OF (N,GAMMA) REACTION CROSS-      41129001    3
+            SECTIONS ON THE EVEN TELLURIUM ISOTOPES               41129001    4
+AUTHOR     (P.M.GOPYCH,I.I.ZALYUBOVSKIY,P.S.KIZIM,V.I.SOROKIN,    41129001    5
+           V.V.SOTNIKOV,E.A.FOMIN)                                41129001    6
+INSTITUTE  (4UKRKHU)                                              41129001    7
+REFERENCE  (J,AE,74,(1),78,9301)                                  41129001    8
+METHOD     (ACTIV)                                                41129001    9
+MONITOR     ABSOLUTE MEASUREMENTS                                 41129001   10
+DETECTOR   (GELI)                                                 41129001   11
+FACILITY   (VDG)  NEUTRON GENERATOR NG-150M                       41129001   12
+INC-SOURCE (D-D)                                                  41129001   13
+SAMPLE      TELLURIUM OXIDE, NATURAL ISOTOPIC COMPOSITION         41129001   14
+STATUS      DATA ARE TAKEN FROM THE REFERENCE                     41129001   15
+ERR-ANALYS  ERRORS ARE NOT SPECIFIED                              41129001   16
+HISTORY    (930720C)  + + COMPILED AT THE CENTRE - CJD + +        41129001   17
+ENDBIB              15                                            41129001   18
+NOCOMMON                                                          41129001   19
+ENDSUBENT           18                                            4112900199999
+SUBENT        41129004     930720                                 41129004    1
+BIB                  2          3                                 41129004    2
+REACTION   (52-TE-126(N,G)52-TE-127-G,,SIG)                       41129004    3
+MONITOR    (52-TE-128(N,G)52-TE-129-G,,SIG)                       41129004    4
+           (52-TE-130(N,G)52-TE-131-G,,SIG)                       41129004    5
+ENDBIB               3                                            41129004    6
+NOCOMMON                                                          41129004    7
+DATA                 4          1                                 41129004    8
+EN         EN-RSL     DATA       DATA-ERR                         41129004    9
+MEV        MEV        MB         MB                               41129004   10
+  2.6        0.3       10.         2.                             41129004   11
+ENDDATA              3                                            41129004   12
+ENDSUBENT           11                                            4112900499999
+ENDENTRY             2                                            4112999999999
+ENDREQUEST           1                                            Z999999999999

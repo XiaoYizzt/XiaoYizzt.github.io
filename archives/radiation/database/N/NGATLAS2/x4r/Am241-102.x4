@@ -1,0 +1,269 @@
+REQUEST           1001   20010914          3     144719               0  0    0
+ENTRY            10317     830118                                 10317000    1
+SUBENT        10317001     830118                                 10317001    1
+BIB                  9         12                                 10317001    2
+INSTITUTE  (1USASRL)                                              10317001    3
+REFERENCE  (J,NSE,50,364,73)                                      10317001    4
+AUTHOR     (R.M.HARBOUR,K.W.MAC MURDO,F.J.MC CROSSON)             10317001    5
+TITLE      THERMAL-NEUTRON CAPTURE CROSS SECTIONS AND CAPTURE     10317001    6
+            RESONANCE INTEGRALS OF AMERICIUM-241.                 10317001    7
+FACILITY   (SPECM) MASS SPECTROMETER                              10317001    8
+DECAY-DATA (95-AM-241,432.7YR,A,5486.,0.85,A,5443.,0.127)         10317001    9
+ERR-ANALYS DATA ERROR GIVEN INCLUDES UNCERTAINTIES IN HALF-LIVES  10317001   10
+            AND IN STANDARD.                                      10317001   11
+STATUS     (APRVD) APPROVED BY AUTHOR                             10317001   12
+HISTORY    (740318C)                                              10317001   13
+           (830118A) CONVERTED TO REACTION FORMALISM              10317001   14
+ENDBIB              12                                            10317001   15
+NOCOMMON             0          0                                 10317001   16
+ENDSUBENT           15                                            1031700199999
+SUBENT        10317003     830118                                 10317003    1
+BIB                  4          5                                 10317003    2
+REACTION   (95-AM-241(N,G)95-AM-242-G,,SIG)                       10317003    3
+MONITOR    (27-CO-59(N,G)27-CO-60,,SIG)                           10317003    4
+METHOD     (ACTIV)                                                10317003    5
+DECAY-DATA (95-AM-242-G,16.01HR,B-,,0.84)                         10317003    6
+           (96-CM-242,164.D,A,,1.0)                               10317003    7
+ENDBIB               5                                            10317003    8
+NOCOMMON             0          0                                 10317003    9
+DATA                 5          1                                 10317003   10
+EN         DATA       DATA-ERR   MONIT      MONIT-ERR             10317003   11
+EV         B          B          B          B                     10317003   12
+ 0.0253     748.        20.       37.3       0.2                  10317003   13
+ENDDATA              3                                            10317003   14
+ENDSUBENT           13                                            1031700399999
+ENDENTRY             2                                            1031799999999
+ENTRY            12573     841024                                 12573000    1
+SUBENT        12573001     841024                                 12573001    1
+BIB                  9         12                                 12573001    2
+INSTITUTE  (1USAMTR)                                              12573001    3
+REFERENCE  (P,WASH-1053,76,6410)                                  12573001    4
+AUTHOR     (R.A.DEAL,R.P.SCHUMAN)                                 12573001    5
+TITLE      AM241 CROSS SECTION.                                   12573001    6
+INC-SOURCE (REAC) U-235-H20 REACTOR, ETR.                         12573001    7
+DECAY-DATA (95-AM-242-G,16.HR,B-,,0.81)                           12573001    8
+ASSUMED    (ASSUM1,95-AM-242(N,G)95-AM-243,,SIG)                  12573001    9
+           (ASSUM2,95-AM-242(N,G)95-AM-243,,RI)                   12573001   10
+           (ASSUM3,96-CM-242(N,G)96-CM-243,,SIG)                  12573001   11
+STATUS     (SCSRS,PRELM)                                          12573001   12
+HISTORY    (760804T) TRANSLATED FROM SCISRS                       12573001   13
+           (841024A) BIB CORRECTIONS.                             12573001   14
+ENDBIB              12                                            12573001   15
+COMMON               3          3                                 12573001   16
+ASSUM1     ASSUM2     ASSUM3                                      12573001   17
+B          B          B                                           12573001   18
+ 8000.      0.         0.                                         12573001   19
+ENDCOMMON            3                                            12573001   20
+ENDSUBENT           19                                            1257300199999
+SUBENT        12573002     780706                                 12573002    1
+BIB                  3          3                                 12573002    2
+REACTION   (95-AM-241(N,G)95-AM-242-G,,SIG,,MXW)                  12573002    3
+METHOD     (ACTIV)    ACTIVATION                                  12573002    4
+INC-SPECT  SUB-CADMIUM SPECTRUM                                   12573002    5
+ENDBIB               3                                            12573002    6
+NOCOMMON                                                          12573002    7
+DATA                 2          1                                 12573002    8
+EN-DUMMY   DATA                                                   12573002    9
+MEV        B                                                      12573002   10
+ 2.53   -08 7.70   +02                                            12573002   11
+ENDDATA              3                                            12573002   12
+ENDSUBENT           11                                            1257300299999
+ENDENTRY             2                                            1257399999999
+ENTRY            12576     841004                                 12576000    1
+SUBENT        12576001     841004                                 12576001    1
+BIB                  7          9                                 12576001    2
+INSTITUTE  (1USAANL)                                              12576001    3
+REFERENCE  (R,CS-3471,4,46)                                       12576001    4
+AUTHOR     (G.T.SEABORG,W.M.MANNING)                              12576001    5
+TITLE      CAPTURE CROSS SECTION OF AMERICIUM-241 FOR             12576001    6
+            PILE NEUTRONS.                                        12576001    7
+INC-SOURCE (REAC) U-GRAPHITE REACTOR, X-10                        12576001    8
+STATUS     (SCSRS)                                                12576001    9
+HISTORY    (760804T) TRANSLATED FROM SCISRS                       12576001   10
+           (841004A) CONVERTED TO REACTION FORMALISM              12576001   11
+ENDBIB               9                                            12576001   12
+NOCOMMON             0          0                                 12576001   13
+ENDSUBENT           12                                            1257600199999
+SUBENT        12576002     841004                                 12576002    1
+BIB                  4          6                                 12576002    2
+REACTION   (95-AM-241(N,G)95-AM-242-G,,SIG,,SPA)                  12576002    3
+METHOD     (ACTIV)    ACTIVATION                                  12576002    4
+DECAY-DATA (95-AM-241,490.YR)                                     12576002    5
+           (95-AM-242-G,16.HR,B-,,1.0)                            12576002    6
+           (96-CM-242,146.D)                                      12576002    7
+INC-SPECT   REACTOR SPECTRUM                                      12576002    8
+ENDBIB               6                                            12576002    9
+NOCOMMON             0          0                                 12576002   10
+DATA                 3          1                                 12576002   11
+EN-DUMMY   DATA       DATA-ERR                                    12576002   12
+MEV        B          PER-CENT                                    12576002   13
+ 2.53   -08 5.60   +02   15.                                      12576002   14
+ENDDATA              3                                            12576002   15
+ENDSUBENT           14                                            1257600299999
+SUBENT        12576003     841004                                 12576003    1
+BIB                  5          7                                 12576003    2
+REACTION   (95-AM-241(N,G)95-AM-242-G,,SIG,,SPA)                  12576003    3
+STATUS     (RNORM) RECALCULATED BY NNCSC                          12576003    4
+METHOD     (ACTIV)    ACTIVATION                                  12576003    5
+COMMENT    U-GRAPHITE REACTOR(X-10). BASED ON 84PERCENT FOR 16HR  12576003    6
+            AM242 BETA BRANCH TO CM242. ASSUMED AM241 HALF-LIFE=  12576003    7
+            459YR AND CM242 HALF-LIFE=163D.                       12576003    8
+INC-SPECT   REACTOR SPECTRUM                                      12576003    9
+ENDBIB               7                                            12576003   10
+COMMON               1          3                                 12576003   11
+HL                                                                12576003   12
+HR                                                                12576003   13
+   16.                                                            12576003   14
+ENDCOMMON            3                                            12576003   15
+DATA                 2          1                                 12576003   16
+EN-DUMMY   DATA                                                   12576003   17
+MEV        B                                                      12576003   18
+ 2.53   -08 8.00   +02                                            12576003   19
+ENDDATA              3                                            12576003   20
+ENDSUBENT           19                                            1257600399999
+ENDENTRY             3                                            1257699999999
+ENTRY            12583     760804                                 12583000    1
+SUBENT        12583001     760804                                 12583001    1
+BIB                  6          6                                 12583001    2
+INSTITUTE  (1USABRK)                                              12583001    3
+REFERENCE  (J,PR,85,135,52)                                       12583001    4
+AUTHOR     (K.STREET JR,A.GHIORSO,S.G.THOMPSON)                   12583001    5
+TITLE      SLOW NEUTRON FISSION OF AM-242,AM-242M, AND AM-243.    12583001    6
+STATUS     (SCSRS)                                                12583001    7
+HISTORY    (760804T) TRANSLATED FROM SCISRS                       12583001    8
+ENDBIB               6                                            12583001    9
+NOCOMMON             0          0                                 12583001   10
+ENDSUBENT            9                                            1258300199999
+SUBENT        12583003     780323                                 12583003    1
+BIB                  4          4                                 12583003    2
+REACTION   (95-AM-241(N,G)95-AM-242-G,,SIG,,SPA)                  12583003    3
+METHOD     (ACTIV)    ACTIVATION                                  12583003    4
+DECAY-DATA (95-AM-242-G,16.HR,B-,,0.60)                           12583003    5
+INC-SPECT   REACTOR SPECTRUM                                      12583003    6
+ENDBIB               4                                            12583003    7
+COMMON               1          3                                 12583003    8
+HL                                                                12583003    9
+HR                                                                12583003   10
+   16.                                                            12583003   11
+ENDCOMMON            3                                            12583003   12
+DATA                 2          1                                 12583003   13
+EN-DUMMY   DATA-APRX                                              12583003   14
+MEV        B                                                      12583003   15
+ 2.53   -08 3.00   +02                                            12583003   16
+ENDDATA              3                                            12583003   17
+ENDSUBENT           16                                            1258300399999
+ENDENTRY             2                                            1258399999999
+ENTRY            22346     970828                                 22346000    1
+SUBENT        22346001     970828                                 22346001    1
+BIB                 15         41                                 22346001    2
+TITLE      .RADIOCHEMICAL DETERMINATION OF THE NEUTRON CAPTURE    22346001    3
+            CROSS SECTIONS OF 241-AM IRRADIATED IN THE JMTR       22346001    4
+            REACTOR                                               22346001    5
+AUTHOR     (N.SHINOHARA,Y.HATSUKAWA,K.HATA,N.KOHNO)               22346001    6
+INSTITUTE  (2JPNJAE) JAPAN ATOMIC ENERGY RESEARCH INSTITUTE       22346001    7
+REFERENCE  ((S,JAERI-97-004,167,9604)=                            22346001    8
+           (R,INDC(JPN)-178/U,167,9604)) MAIN REFERENCE, DATA ARE 22346001    9
+            GIVEN. FIRST INTERNET CONFERENCE, APRIL 1995          22346001   10
+FACILITY   (REAC)  JAPAN MATERIAL TESTING REACTOR - JMTR          22346001   11
+MONITOR    (27-CO-59(N,G)27-CO-60,,SIG)  COBALT AND GOLD MONITORS 22346001   12
+           (79-AU-197(N,G)79-AU-198,,SIG) ARE USED FOR THE NEUT-  22346001   13
+                                          RON FLUX MONITORING     22346001   14
+INC-SOURCE (REAC)                                                 22346001   15
+INC-SPECT  .MAXWELLIAN NEUTRON SPECTRUM                           22346001   16
+SAMPLE     .COBALT AND GOLG WIRES FOR FLUX MONITORING             22346001   17
+            AM-241 WAS PURIFIED BY IONIC-EXCHANGE METHOD AND      22346001   18
+            ELECTRODIPOSITED ON ALUMINIUM DISKS.                  22346001   19
+            AMERITIUM SAMPLES AND RADIOMETRIC SOURCESFOR ALPHA-   22346001   20
+            PARTICLE MEASUREMENTS WERE PURIFIED CHROMATOGRAPHI-   22346001   21
+            CALLY BY ANION EXCHANGE WITH NITRIC ACID AND METHIL-  22346001   22
+            ALCOHOL AT ROOM TEMPERATURE. AM-241 CONTENT BEFORE    22346001   23
+            IRRADIATION WAS MORE THAN 99.99 PC, CHEMICAL RECOVE-  22346001   24
+            RY OF AMERITIUM AFTER THE ION EXCHANGE IS MORE THAN   22346001   25
+            99.9 PC                                               22346001   26
+DETECTOR   (SOLST) SILICON SURFACE-BARRIER DETECTORS FOR AM-241   22346001   27
+                   MEASUREMENTS BEFORE AND AFTER IRRADIATION      22346001   28
+           (HPGE)  HIGH PURITY COAXIAL GE-DETECTOR FOR GAMMA      22346001   29
+                   MEASUREMENTS                                   22346001   30
+DECAY-DATA (95-AM-241,432.0YR,A,,1.0)                             22346001   31
+           (95-AM-242-M,152.0YR,G,,0.99524)                       22346001   32
+           (95-AM-242-G,16.01HR,B-,,0.827)                        22346001   33
+           (96-CM-242,162.76D,A,,1.0)                             22346001   34
+           (94-PU-238,87.71YR,A,,1.0)                             22346001   35
+ASSUMED    (ASSUM1,27-CO-59(N,G)27-CO-60,,SIG)                    22346001   36
+           (ASSUM2,27-CO-59(N,G)27-CO-60,,RI)                     22346001   37
+           (ASSUM3,79-AU-197(N,G)79-AU-198,,SIG)                  22346001   38
+           (ASSUM4,79-AU-197(N,G)79-AU-198,,RI)                   22346001   39
+ERR-ANALYS (ERR-T)  ERRORS ARE NOT SPECIFIED, ASSUMED TOTAL BY    22346001   40
+                    COMPILER                                      22346001   41
+STATUS     DATA ARE TAKEN FROM THE MAIN REFERENCE                 22346001   42
+HISTORY    (970828C)  + +  COMPILED BY S.MAEV   + +               22346001   43
+ENDBIB              41                                            22346001   44
+COMMON               8          6                                 22346001   45
+ASSUM1     ASSUM1-ERR ASSUM2     ASSUM2-ERR ASSUM3     ASSUM3-ERR 22346001   46
+ASSUM4     ASSUM4-ERR                                             22346001   47
+B          B          B          B          B          B          22346001   48
+B          B                                                      22346001   49
+  37.18       0.06       74.        2.          98.65     0.09    22346001   50
+    1550.        28.                                              22346001   51
+ENDCOMMON            6                                            22346001   52
+ENDSUBENT           51                                            2234600199999
+SUBENT        22346003     970828                                 22346003    1
+BIB                  1          1                                 22346003    2
+REACTION   (95-AM-241(N,G)95-AM-242-G,,SIG)                       22346003    3
+ENDBIB               1                                            22346003    4
+NOCOMMON             0          0                                 22346003    5
+DATA                 3          1                                 22346003    6
+EN         DATA       ERR-T                                       22346003    7
+EV         B          B                                           22346003    8
+   2.53E-02   736.      31.                                       22346003    9
+ENDDATA              3                                            22346003   10
+ENDSUBENT            9                                            2234600399999
+ENDENTRY             2                                            2234699999999
+ENTRY            40467     861203                                 40467000    1
+SUBENT        40467001     861203                                 40467001    1
+BIB                 12         25                                 40467001    2
+TITLE       THERMAL FISSION AND CAPTURE CROSS-SECTIONS AND        40467001    3
+            RESONANCE INTEGRALS FOR AM-241,AM-243,BK-249,CF-249   40467001    4
+AUTHOR     (V.D.GAVRILOV,V.A.GONCHAROV,V.V.IVANENKO,V.P.SMIRNOV,  40467001    5
+           V.N.KUSTOV)                                            40467001    6
+INSTITUTE  (4CCPNIR)                                              40467001    7
+REFERENCE  (J,AE,41,185,7509)      DATA ARE GIVEN                 40467001    8
+           (C,75KIEV,6,71,7506)  DATA ARE GIVEN                   40467001    9
+METHOD     (ACTIV) ACTIVATION METHOD FOR MEASUREMENT              40467001   10
+                  THE GAMMA-ACTIVITY OF TARGETS.                  40467001   11
+            CADMIUM DIFFERENCE METHOD, THICKNESS OF CADMIUM       40467001   12
+            SCREEN IS EQUAL 1.0 MM                                40467001   13
+PART-DET   (FF) FISSION FRAGMENTS                                 40467001   14
+           (G)  GAMMA-RAYS OF TARGET IRRADIATED BY NEUTRONS       40467001   15
+DETECTOR   (GELI)  GAMMA-SPECTROMETER WITH GERMANIUM-LITHIUM      40467001   16
+           (TRD)   FOR REGISTRATION OF FISSION FRAGMENTS THE MICA 40467001   17
+                   AND GLASS TRACK  DETECTORS WERE USED.          40467001   18
+INC-SOURCE (REAC)  SM-2 REACTOR                                   40467001   19
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)                         40467001   20
+           (79-AU-197(N,G)79-AU-198,,RI)                          40467001   21
+           (27-CO-59(N,G)27-CO-60,,SIG)                           40467001   22
+           (27-CO-59(N,G)27-CO-60,,RI)                            40467001   23
+STATUS      FROM PUBLISHED SOURCES GIVEN UNDER 'REFERENCE'        40467001   24
+HISTORY    (771121C) COMPILED AT THE CJD                          40467001   25
+           (861203A) TWO NEW SUBENTRIES AND ONE REFERENCE ADDED   40467001   26
+ERR-ANALYS (DATA-ERR) NOT SPECIFIED                               40467001   27
+ENDBIB              25                                            40467001   28
+COMMON               5          3                                 40467001   29
+MONIT1     MONIT2     MONIT3     MONIT4     EN-NRM                40467001   30
+B          B          B          B          EV                    40467001   31
+98.8       1558.0     37.5       70.0       0.0253                40467001   32
+ENDCOMMON            3                                            40467001   33
+ENDSUBENT           32                                            4046700199999
+SUBENT        40467010     771121                                 40467010    1
+BIB                  1          1                                 40467010    2
+REACTION   (95-AM-241(N,G)95-AM-242-G,,SIG)                       40467010    3
+ENDBIB               1                                            40467010    4
+NOCOMMON             0          0                                 40467010    5
+DATA                 3          1                                 40467010    6
+EN         DATA       DATA-ERR                                    40467010    7
+EV         B          B                                           40467010    8
+0.0253     780.0      50.0                                        40467010    9
+ENDDATA              3                                            40467010   10
+ENDSUBENT            9                                            4046701099999
+ENDENTRY             2                                            4046799999999
+ENDREQUEST           1                                            Z999999999999

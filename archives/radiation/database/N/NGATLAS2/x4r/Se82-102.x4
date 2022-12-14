@@ -1,0 +1,166 @@
+REQUEST           1001   20010914          3     140955               0  0    0
+ENTRY            21438     801218                                 21438000    1
+SUBENT        21438001     801218                                 21438001    1
+BIB                 16         33                                 21438001    2
+INSTITUTE  (2UK ALD)                                              21438001    3
+REFERENCE  (J,PPS,72,505,58)                                      21438001    4
+AUTHOR     (J.L.PERKIN,L.P.O'CONNOR,R.F.COLEMAN)                  21438001    5
+TITLE      -RADIATIVE CAPTURE CROSS SECTIONS FOR 14.5 MEV         21438001    6
+            NEUTRONS.-                                            21438001    7
+FACILITY   .NOT SPECIFIED.                                        21438001    8
+INC-SOURCE (D-T  ) 440 KEV DEUTERONS IMPINGING ON A TRITIATED ZR  21438001    9
+            TARGET.                                               21438001   10
+SAMPLE     .ABOUT 100 MG, SPECTROSCOPICALLY PURE CHEMICALS.       21438001   11
+            IN SOME CASES ANALYTICAL GRADE CHEMICALS.             21438001   12
+METHOD     (ACTIV) ACTIVATION ANALYSIS.                           21438001   13
+           (CHSEP) CHEMICAL SEPERATION WAS NECESSARY IN MANY      21438001   14
+            CASES.                                                21438001   15
+DETECTOR   (GEMUC) END WINDOW GEIGER COUNTER, 2 IN. DIAM.,        21438001   16
+            CALIBRATED WITH A 4*PI BETA COUNTER.                  21438001   17
+MONITOR    (1-H-3(D,N)2-HE-4,,SIG)                                21438001   18
+PART-DET   (DG   ) DECAY GAMMAS.                                  21438001   19
+COMMENT    .NEUTRON FLUX MONITORING WITH THE AL-27(N,A) REACTION. 21438001   20
+STATUS     (NDD  ) DATA TAKEN FROM NEUDADA.                       21438001   21
+HISTORY    (800220T) G.C.                                         21438001   22
+           (800318E)                                              21438001   23
+           (801120A) G.C., MONITOR REACTION STRING CORRECTED,     21438001   24
+            ERROR ANALYSIS CHANGED.                               21438001   25
+           (801218E)                                              21438001   26
+CORRECTION .FOR LOW ENERGY NEUTRONS. THESE MAY ORIGINATE FROM     21438001   27
+            DIFFUSION OF THERMAL AND EPITHERMAL NEUTRONS FROM     21438001   28
+            WALLS (NEGLIGIBLE), INELASTIC SCATTERING FROM THE     21438001   29
+            VICINITY (0.5 PERC *SIG(1.MEV)/SIG(14.MEV)) AND FROM  21438001   30
+            D-D-NEUTRONS BY ACCUMULATION OF DEUTERIUM IN THE      21438001   31
+            TRITIUM-TARGET WITH TIME (0.5 PERC*SIG(1.MEV)/SIG(14. 21438001   32
+            MEV) FOR THE TIMES THE TARGET WAS USED BEFORE         21438001   33
+            REPLACEMENT).                                         21438001   34
+ERR-ANALYS (ERR-S) STANDARD DEVIATION IS GIVEN.                   21438001   35
+ENDBIB              33                                            21438001   36
+COMMON               1          3                                 21438001   37
+EN                                                                21438001   38
+MEV                                                               21438001   39
+ 1.4500E+01                                                       21438001   40
+ENDCOMMON            3                                            21438001   41
+ENDSUBENT           40                                            2143800199999
+SUBENT        21438012     801218                                 21438012    1
+BIB                  3          6                                 21438012    2
+REACTION   (34-SE-82(N,G)34-SE-83-G,,SIG)                         21438012    3
+STATUS     (NDD  ) DATA TAKEN FROM NEUDADA.                       21438012    4
+HISTORY    (800220T) G.C.                                         21438012    5
+           (800318E)                                              21438012    6
+           (801120A) G.C., DATA HEADINGS CHANGED.                 21438012    7
+           (801218E)                                              21438012    8
+ENDBIB               6                                            21438012    9
+NOCOMMON             0          0                                 21438012   10
+DATA                 2          1                                 21438012   11
+DATA       ERR-S                                                  21438012   12
+MB         PER-CENT                                               21438012   13
+ 6.5000E-01 3.0000E+01                                            21438012   14
+ENDDATA              3                                            21438012   15
+ENDSUBENT           14                                            2143801299999
+ENDENTRY             2                                            2143899999999
+ENTRY            30567     840911                                 30567000    1
+SUBENT        30567001     840911                                 30567001    1
+BIB                 16         47                                 30567001    2
+INSTITUTE  (3POLIBJ)                                              30567001    3
+REFERENCE  (J,NP/A,357,1,8103) FINAL RESULT.                      30567001    4
+           (C,79KNOX,,307,7910) SE78,80,82, CD114,116, OS190,192. 30567001    5
+           (R,INDC(NDS)-103,40,7905) NO DATA GIVEN.               30567001    6
+           ((P,INR-1773/I/PL/A,17,7809)=(P,INDC(POL)-9,17,7809))  30567001    7
+             OLD VALUES OF PD,CD (AND IR),WHICH WERE REVISED LATER30567001    8
+             BY PRIV.COMM. FROM MARCINKOWSKI,80/01/28.(1ST REV.)  30567001    9
+           ((P,INR-1809/I/PL/A,1,7906)=(P,INDC(POL)-10,1,7906))   30567001   10
+             OLD VALUES OF OS190, SAME VALUES OF OS192. 1ST REV.  30567001   11
+             BY PRIV.COMM. FROM MARCINKOWSKI,80/01/28.            30567001   12
+            ===COMPILER'S NOTE 81/04/28.-                         30567001   13
+            OLD VALUES AND IDENTICAL VALUES COMPILED IN EXFOR     30567001   14
+            30482 AND 30512 HAVE BEEN SUPERCEDED BY THIS EXFOR    30567001   15
+            30567, ACCORDINGLY. SEE SUBENTRIES. ===               30567001   16
+AUTHOR     (M.HERMAN,A.MARCINKOWSKI)                              30567001   17
+TITLE      CROSS SECTIONS FOR FAST NEUTRON CAPTURE ON THE SE, PD, 30567001   18
+           CD, OS AND PT ISOTOPES. (NEW EXP.)                     30567001   19
+FACILITY   (VDG,3POLIBJ)                                          30567001   20
+INC-SOURCE (P-T)                                                  30567001   21
+METHOD     (ACTIV)                                                30567001   22
+DETECTOR   (GELI) 60 CM3 GE(LI) DETECTOR                          30567001   23
+           THE RELATIVE DETECTION EFFICIENCY WAS DETERMINED WITH  30567001   24
+           YB-169, BA-113 AND RA-226.                             30567001   25
+MONITOR    (49-IN-115(N,G)49-IN-116-M1+M2,,SIG/SUM,,,EVAL)        30567001   26
+MONIT-REF  (,F.SCHMITTROTH,R,BNL-NCS-50446,158,75)ENDF/B-3 MAT641630567001   27
+            ALSO REFERRED,R.SHER,BNL-NCS-50446(1975)150.(ENDF/B-3,30567001   28
+           MAT 6406)                                              30567001   29
+DECAY-MON  (49-IN-116-M1,54.2MIN,DG,417.,0.32) CONV.COEF.= 0.011. 30567001   30
+PART-DET   (DG)                                                   30567001   31
+STATUS     DATA TAKEN FROM TABLE 2 OF NUCL.PHYS.A357(1981)1.      30567001   32
+           (APRVD) APPROVED BY M.HERMAN,81/06/15.                 30567001   33
+HISTORY    (810428C) KO.                                          30567001   34
+           (810624U) KO. -'APRVD' ADDED -                         30567001   35
+CORRECTION THE CROSS-SECTIONS WERE CORRECTED FOR THE ATTENUATION  30567001   36
+           OF THE GAMMA-RAYS IN THE SAMPLES AND FOR SUMMING OF    30567001   37
+           CASCADE GAMMA-RAYS IN THE GE(LI) DETECTOR.             30567001   38
+ERR-ANALYS (ERR-T)                                                30567001   39
+           STATISTICAL AND SYSTEMATIC UNCERTAINTIES INCLUDING     30567001   40
+           THE UNCERTAINTY OF THE STANDARD (MONITOR) CROSS SECTION30567001   41
+            *SYSTEMATIC ERRORS CONSIST OF THE UNCERTAINTY         30567001   42
+            1)CAUSED BY BEAM CURRENT FLUCTUATION,  0.4 TO 0.8 P.C.30567001   43
+            2)OF SAMPLE WEIGHT                  ,  0.1 PER-CENT,  30567001   44
+            3)OF COUNTING EFFICIENCY            ,  1.5 TO 10 P.C.,30567001   45
+            4)OF GAMMA ATTENUATION IN THE SAMPLE,  0.5 TO 16 P.C.,30567001   46
+            5)IN THE INTEGRATION OF PULSE-HEIGHT SECT.,  3 PERCENT30567001   47
+            6)IN DETERMINATING PULSE-SUMMING IN GE(LI), 0 TO 1.7PC30567001   48
+            7)OF THE CROSS-SECTION OF REFERENCE ,        7 PERCENT30567001   49
+ENDBIB              47                                            30567001   50
+NOCOMMON             0          0                                 30567001   51
+ENDSUBENT           50                                            3056700199999
+SUBENT        30567004     840911                                 30567004    1
+BIB                  3          4                                 30567004    2
+REACTION   (34-SE-82(N,G)34-SE-83-G,,SIG)                         30567004    3
+SAMPLE     HIGH PURITY NATURAL ELEMENT                            30567004    4
+DECAY-DATA (34-SE-83-G,22.5MIN,DG,225.,0.319)                     30567004    5
+           FROM TABLE OF ISOTOPE,6TH ED.(1968)                    30567004    6
+ENDBIB               4                                            30567004    7
+NOCOMMON             0          0                                 30567004    8
+DATA                 5          4                                 30567004    9
+EN         EN-RSL     DATA       ERR-T      MONIT                 30567004   10
+MEV        MEV        MB         MB         MB                    30567004   11
+ 5.3000E-01 1.4000E-01 2.3000E+00 3.0000E-01 1.8000E+02           30567004   12
+ 8.6000E-01 2.1000E-01 1.0000E+00 2.0000E-01 2.0000E+02           30567004   13
+ 1.2000E+00 1.5000E-01 7.0000E-01 1.0000E-01 1.7600E+02           30567004   14
+ 1.3100E+00 7.0000E-02 6.0000E-01 1.0000E-01 1.7000E+02           30567004   15
+ENDDATA              6                                            30567004   16
+ENDSUBENT           15                                            3056700499999
+ENDENTRY             2                                            3056799999999
+ENTRY            67005     780524                                 67005000    1
+SUBENT        67005001     780524                                 67005001    1
+BIB                  8         10                                 67005001    2
+INSTITUTE  (2GERMUN)                                              67005001    3
+REFERENCE  (J,ZP,210,13,68)                                       67005001    4
+AUTHOR     (W.MANNHART,H.VONACH)                                  67005001    5
+TITLE      ISOMERIC CROSS SECTION RATIOS FOR THE 2-P-1/2 AND      67005001    6
+            1-G-9/2 SHELL MODEL STATES FORMED BY THERMAL NEUTRON  67005001    7
+            CAPTURE                                               67005001    8
+INC-SOURCE (THCOL) REACTOR THERMAL COLUMN                         67005001    9
+INC-SPECT  THERMALIZED SPECTRUM                                   67005001   10
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG,,MXW)                    67005001   11
+HISTORY    (780411C)                                              67005001   12
+ENDBIB              10                                            67005001   13
+COMMON               3          3                                 67005001   14
+EN-DUMMY   MONIT      MONIT-ERR                                   67005001   15
+EV         B          B                                           67005001   16
+ 2.5300E-02 9.8500E+01 4.0000E-01                                 67005001   17
+ENDCOMMON            3                                            67005001   18
+ENDSUBENT           17                                            6700500199999
+SUBENT        67005011     780524                                 67005011    1
+BIB                  2          2                                 67005011    2
+REACTION   (34-SE-82(N,G)34-SE-83-G,,SIG,,MXW)                    67005011    3
+DECAY-DATA (34-SE-83-G,25.MIN,DG)                                 67005011    4
+ENDBIB               2                                            67005011    5
+NOCOMMON             0          0                                 67005011    6
+DATA                 2          1                                 67005011    7
+DATA       DATA-ERR                                               67005011    8
+B          B                                                      67005011    9
+ 5.8000E-03 4.0000E-04                                            67005011   10
+ENDDATA              3                                            67005011   11
+ENDSUBENT           10                                            6700501199999
+ENDENTRY             2                                            6700599999999
+ENDREQUEST           1                                            Z999999999999

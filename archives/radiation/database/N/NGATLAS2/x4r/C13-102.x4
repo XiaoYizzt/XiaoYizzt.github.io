@@ -1,0 +1,245 @@
+REQUEST           1001   20010914          3     135718               0  0    0
+ENTRY            10141   20001211   20010328                      10141000    1
+SUBENT        10141001   20001211   20010328                      10141001    1
+BIB                 12         21                                 10141001    2
+INSTITUTE  (1USAORL)                                              10141001    3
+REFERENCE  (J,PR/C,3,1737,197105)                                 10141001    4
+AUTHOR     (B.J.ALLEN,R.L.MACKLIN)                                10141001    5
+TITLE      Neutron Capture Cross Sections of 13C and 16O          10141001    6
+FACILITY   (LINAC) Oak Ridge Linear Accelerator                   10141001    7
+SAMPLE     1 g of 58% enriched 13C and 99.992% enriched 7Li2CO3.  10141001    8
+METHOD     Radiative widths of lowest energy resonances in        10141001    9
+            13C and 16O were calculated from capture area.        10141001   10
+            Maxwellian averages at T=30 keV were also calculated. 10141001   11
+DETECTOR   (SCIN) Two liquid scintillator cells flanked sample.   10141001   12
+            Detectors placed 40 m from source.  Detector          10141001   13
+            efficiency was sensitive to shape of response capture 10141001   14
+            spectrum,but response function was not.               10141001   15
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)                           10141001   16
+ERR-ANALYS No information.                                        10141001   17
+STATUS     (APRVD) Approved by author.                            10141001   18
+            Data taken from reference.                            10141001   19
+HISTORY    (19720524)                                             10141001   20
+           (19820527A) Converted to REACTION formalism            10141001   21
+           (19820602A) BIB correction.                            10141001   22
+           (20001211A) Converted to new date formats, lower case. 10141001   23
+ENDBIB              21                                            10141001   24
+NOCOMMON             0          0                                 10141001   25
+ENDSUBENT           24                                            1014100199999
+SUBENT        10141003   19820527   20010328                      10141003    1
+BIB                  2          3                                 10141003    2
+REACTION   (6-C-13(N,G)6-C-14,,SIG,,SPA)                          10141003    3
+INC-SPECT  Averaged over Maxwellian spectrum KT=30 keV            10141003    4
+            to simulate reaction in the sun.                      10141003    5
+ENDBIB               3                                            10141003    6
+NOCOMMON             0          0                                 10141003    7
+DATA                 3          1                                 10141003    8
+KT         DATA       DATA-ERR                                    10141003    9
+KEV        MB         MB                                          10141003   10
+30.        .12        .04                                         10141003   11
+ENDDATA              3                                            10141003   12
+ENDSUBENT           11                                            1014100399999
+ENDENTRY             2                                            1014199999999
+ENTRY            11264     810428                                 11264000    1
+SUBENT        11264001     810428                                 11264001    1
+BIB                  6          7                                 11264001    2
+INSTITUTE  (1CANCRC)                                              11264001    3
+REFERENCE  (J,ARN,11,259,61)                                      11264001    4
+AUTHOR     (G.A.BARTHOLOMEW)                                      11264001    5
+TITLE      NEUTRON CAPTURE GAMMA RAYS.                            11264001    6
+STATUS     (SCSRS)                                                11264001    7
+HISTORY    (760714T) TRANSLATED FROM SCISRS                       11264001    8
+           (810428A) CONVERTED TO REACTION FORMALISM              11264001    9
+ENDBIB               7                                            11264001   10
+NOCOMMON             0          0                                 11264001   11
+ENDSUBENT           10                                            1126400199999
+SUBENT        11264002     810428                                 11264002    1
+BIB                  2          2                                 11264002    2
+REACTION   (6-C-13(N,G)6-C-14,,SIG,,SPA)                          11264002    3
+INC-SPECT   REACTOR SPECTRUM                                      11264002    4
+ENDBIB               2                                            11264002    5
+NOCOMMON             0          0                                 11264002    6
+DATA                 3          1                                 11264002    7
+EN-DUMMY   DATA       DATA-ERR                                    11264002    8
+MEV        B          B                                           11264002    9
+ 2.53   -08 8.     -04 2.     -04                                 11264002   10
+ENDDATA              3                                            11264002   11
+ENDSUBENT           10                                            1126400299999
+ENDENTRY             2                                            1126499999999
+ENTRY            11309     810428                                 11309000    1
+SUBENT        11309001     810428                                 11309001    1
+BIB                  6          7                                 11309001    2
+INSTITUTE  (1USAANL)                                              11309001    3
+REFERENCE  (J,PR,95,92,5407)                                      11309001    4
+AUTHOR     (G.R.HENNIG)                                           11309001    5
+TITLE      THERMAL NEUTRON CAPTURE CROSS SECTION OF CARBON-13.    11309001    6
+STATUS     (SCSRS)                                                11309001    7
+HISTORY    (760714T) TRANSLATED FROM SCISRS                       11309001    8
+           (810428A) CONVERTED TO REACTION FORMALISM              11309001    9
+ENDBIB               7                                            11309001   10
+NOCOMMON             0          0                                 11309001   11
+ENDSUBENT           10                                            1130900199999
+SUBENT        11309002     810428                                 11309002    1
+BIB                  5          5                                 11309002    2
+REACTION   (6-C-13(N,G)6-C-14,,SIG,,SPA)                          11309002    3
+SAMPLE     SAMPLE ENRICHED TO 45 OR 53 PERCENT C-13.              11309002    4
+METHOD     (ACTIV)    ACTIVATION                                  11309002    5
+MONITOR    (7-N-14(N,P)6-C-14,,SIG)                               11309002    6
+INC-SPECT   REACTOR SPECTRUM                                      11309002    7
+ENDBIB               5                                            11309002    8
+NOCOMMON             0          0                                 11309002    9
+DATA                 4          1                                 11309002   10
+EN-DUMMY   DATA       DATA-ERR   MONIT                            11309002   11
+MEV        B          B          B                                11309002   12
+ 2.53   -08 9.     -04 2.     -04 1.78                            11309002   13
+ENDDATA              3                                            11309002   14
+ENDSUBENT           13                                            1130900299999
+ENDENTRY             2                                            1130999999999
+ENTRY            11337     820324                                 11337000    1
+SUBENT        11337001     820324                                 11337001    1
+BIB                  6          7                                 11337001    2
+INSTITUTE  (1CANCRC)                                              11337001    3
+REFERENCE  (P,PR-P-36,36,57)                                      11337001    4
+AUTHOR     (G.A.BARTHOLOMEW,J.W.KNOWLES,G.MANNING,P.J.CAMPION)    11337001    5
+TITLE      PAIR SPECTROMETER AND FLAT CRYSTAL SPECTROMETER.       11337001    6
+STATUS     (SCSRS)                                                11337001    7
+HISTORY    (761014T) TRANSLATED FROM SCISRS                       11337001    8
+           (820324A) CONVERTED TO REACTION FORMALISM              11337001    9
+ENDBIB               7                                            11337001   10
+NOCOMMON             0          0                                 11337001   11
+ENDSUBENT           10                                            1133700199999
+SUBENT        11337002     820324                                 11337002    1
+BIB                  4          4                                 11337002    2
+REACTION   (6-C-13(N,G)6-C-14,,SIG,,SPA)                          11337002    3
+PART-DET   (G) MEASURED INTENSITY OF 8.17+-0.04 MEV GAMMA.        11337002    4
+MONITOR    (6-C-12(N,G)6-C-13,,SIG)                               11337002    5
+INC-SPECT   REACTOR SPECTRUM                                      11337002    6
+ENDBIB               4                                            11337002    7
+NOCOMMON             0          0                                 11337002    8
+DATA                 3          1                                 11337002    9
+EN-DUMMY   DATA       DATA-ERR                                    11337002   10
+MEV        B          B                                           11337002   11
+ 2.53   -08 1.0    -03 3.     -04                                 11337002   12
+ENDDATA              3                                            11337002   13
+ENDSUBENT           12                                            1133700299999
+ENDENTRY             2                                            1133799999999
+ENTRY            11342     820324                                 11342000    1
+SUBENT        11342001     820324                                 11342001    1
+BIB                  6          7                                 11342001    2
+INSTITUTE  (1USALAS)                                              11342001    3
+REFERENCE  (R,WASH-1044,40,63)                                    11342001    4
+AUTHOR     (H.T.MOTZ,E.T.JURNEY)                                  11342001    5
+TITLE      THERMAL CAPTURE CROSS SECTIONS.                        11342001    6
+STATUS     (SCSRS)                                                11342001    7
+HISTORY    (760714T) TRANSLATED FROM SCISRS                       11342001    8
+           (820324A) CONVERTED TO REACTION FORMALISM              11342001    9
+ENDBIB               7                                            11342001   10
+NOCOMMON             0          0                                 11342001   11
+ENDSUBENT           10                                            1134200199999
+SUBENT        11342002     820324                                 11342002    1
+BIB                  3          3                                 11342002    2
+REACTION   (6-C-13(N,G)6-C-14,,SIG,,MXW)                          11342002    3
+MONITOR    (1-H-1(N,G)1-H-2,,SIG)                                 11342002    4
+INC-SPECT   THERMAL SPECTRUM                                      11342002    5
+ENDBIB               3                                            11342002    6
+NOCOMMON             0          0                                 11342002    7
+DATA                 4          1                                 11342002    8
+EN-DUMMY   DATA       DATA-ERR   MONIT                            11342002    9
+MEV        B          B          MB                               11342002   10
+ 2.53   -08 1.0    -03 2.     -04 332.                            11342002   11
+ENDDATA              3                                            11342002   12
+ENDSUBENT           11                                            1134200299999
+ENDENTRY             2                                            1134299999999
+ENTRY            12799     830225                                 12799000    1
+SUBENT        12799001     830225                                 12799001    1
+BIB                 10         11                                 12799001    2
+INSTITUTE  (1CANCRC,1USABNL)                                      12799001    3
+REFERENCE  (J,PR/C,26,2698,8212)                                  12799001    4
+AUTHOR     (S.F.MUGHABGHAB,M.A.LONE,B.C.ROBERTSON)                12799001    5
+TITLE      QUANTITATIVE TEST OF THE LANE-LYNN THEORY OF DIRECT    12799001    6
+           RADIATIVE CAPTURE OF THERMAL NEUTRONS BY 12C AND 13C   12799001    7
+FACILITY   (REAC) NRU REACTOR                                     12799001    8
+METHOD     (ACTIV)                                                12799001    9
+DETECTOR   (GELI) 55 CC GE-LI DETECTOR                            12799001   10
+ERR-ANALYS NO INFORMATION.                                        12799001   11
+STATUS     (APRVD) S.F.MUGHABGHAB, 83/3/1.                        12799001   12
+HISTORY    (830125C)                                              12799001   13
+ENDBIB              11                                            12799001   14
+COMMON               1          3                                 12799001   15
+EN-DUMMY                                                          12799001   16
+EV                                                                12799001   17
+ 0.0253                                                           12799001   18
+ENDCOMMON            3                                            12799001   19
+ENDSUBENT           18                                            1279900199999
+SUBENT        12799002     830225                                 12799002    1
+BIB                  2          4                                 12799002    2
+REACTION  1((6-C-13(N,G)6-C-14,,SIG,,MXW)/                        12799002    3
+           (6-C-12(N,G)6-C-13,,SIG,,MXW))                         12799002    4
+          2(6-C-13(N,G)6-C-14,,SIG,,MXW)                          12799002    5
+MONITOR   2(6-C-12(N,G)6-C-13,,SIG,,MXW)                          12799002    6
+ENDBIB               4                                            12799002    7
+NOCOMMON             0          0                                 12799002    8
+DATA                 6          1                                 12799002    9
+DATA      1DATA-ERR  1DATA      2DATA-ERR  2MONIT     2MONIT-ERR 212799002   10
+NO-DIM     NO-DIM     MB         MB         MB         MB         12799002   11
+ 0.388      0.010      1.37       0.04       3.53       0.07      12799002   12
+ENDDATA              3                                            12799002   13
+ENDSUBENT           12                                            1279900299999
+ENDENTRY             2                                            1279999999999
+ENTRY            22345     970825                                 22345000    1
+SUBENT        22345001     970825                                 22345001    1
+BIB                 10         25                                 22345001    2
+TITLE      .EXPERIMENTAL STUDIES OF KEV ENERGY NEUTRON-INDUCED    22345001    3
+            REACTIONS RELEVANT TO ASTROPHYSICS AND NUCLEAR        22345001    4
+            PHYSICS                                               22345001    5
+AUTHOR     (T.SHIMA,T.KII,T.KIKUCHI,F.OKAZAKI,T.KOBAYASHI,T.BABA, 22345001    6
+           Y.NAGAI,M.IGASHIRA)                                    22345001    7
+INSTITUTE  (2JPNTIT) DEPARTMENT OF APPLIED PHYSICS AND RESEARCH   22345001    8
+             LABORATORY FOR NUCLEAR REACTORS (M.IGASHIRA) OF THE  22345001    9
+             TOKYO INSTITUTE OF TECHNOLOGY                        22345001   10
+REFERENCE  ((S,JAERI-97-004,131,9604)=(R,INDC(JPN)-178/U,47,9604))22345001   11
+                                   MAIN REFERENCE, DATA ARE GIVEN 22345001   12
+           (J,NIM/A,356,347,95)    EXPERIMENTAL DETAILS           22345001   13
+FACILITY   (VDG) SUPPOSED PROTON VAN-DE-GRAAFF, PROTONS ENERGIES  22345001   14
+               WERE ADJUSTED TO 1.955, 2.13 AND 2.48 MEV IN ORDER 22345001   15
+               TO PRODUCE NEUTRONS IN ENERGY RANGES FROM 10 KEV   22345001   16
+               TO 600 KEV. EXPERIMENT WAS CARRIED OUT AT THE RLNR-22345001   17
+               RESEARCH LAB. FOR NUCLEAR REACTORS                 22345001   18
+METHOD     (TOF)   .TIME-OF-FLIGHT METHOD WAS USED FOR NEUTRON    22345001   19
+                    ENERGY DETERMINATION                          22345001   20
+DETECTOR   (SCIN)  .LI-6 GLASS SCINTILLATION DETECTOR FOR NEUTRON 22345001   21
+                    BEAM MONITORING                               22345001   22
+INC-SOURCE (P-LI7) .NEUTRONS WERE PRODUCED IN THE ENERGY RANGES   22345001   23
+                   10-75, 30-250 AND 450-600 KEV. 1.5 NS PULSED   22345001   24
+                   NEUTRON BEAM WAS USED                          22345001   25
+STATUS     . DATA ARE TAKEN FROM THE MAIN REFERENCE               22345001   26
+HISTORY    (970828C)  + +  COMPILED BY S.MAEV   + +               22345001   27
+ENDBIB              25                                            22345001   28
+NOCOMMON             0          0                                 22345001   29
+ENDSUBENT           28                                            2234500199999
+SUBENT        22345006     970828                                 22345006    1
+BIB                  6         12                                 22345006    2
+REACTION   (6-C-13(N,G)6-C-14,,SIG)                               22345006    3
+METHOD     (GSPEC) PROMPT GAMMA SPECTROMETRY                      22345006    4
+DETECTOR   (NAICR) ONE CENTRAL NA-I(TL) SCINTILLATION COUNTER WITH22345006    5
+            DIAMETER OF 7.6 CM AND A LENGTH OF 15.5 CM AND ANOTHER22345006    6
+            CYLINDROCAL ONE WITH DIAMETER OF 25.4 CM AND LENGTH OF22345006    7
+            28 CM WERE USED FOR GAMMA-RAYS DETECTION              22345006    8
+PART-DET   (G,N)                                                  22345006    9
+SAMPLE     .CARBON SAMPLE OF 99.9 PC PURITY PACKED IN A CONTAINER 22345006   10
+            MADE OF NATURAL CARBON. NUMBER THICKNESS IS O.O459    22345006   11
+            ATOMS/B                                               22345006   12
+ERR-ANALYS (ERR-T)  ERRORS ARE NOT SPECIFIED. ASSUMED TOTAL       22345006   13
+                    BY THE COMPILER                               22345006   14
+ENDBIB              12                                            22345006   15
+NOCOMMON             0          0                                 22345006   16
+DATA                 4          3                                 22345006   17
+EN-MIN     EN-MAX     DATA       ERR-T                            22345006   18
+KEV        KEV        MICRO-B    MICRO-B                          22345006   19
+ 10.        40.         19.8       3.7                            22345006   20
+ 40.        41.          0.        0.                             22345006   21
+ 41.        87.         12.2       1.7                            22345006   22
+ENDDATA              5                                            22345006   23
+ENDSUBENT           22                                            2234500699999
+ENDENTRY             2                                            2234599999999
+ENDREQUEST           1                                            Z999999999999

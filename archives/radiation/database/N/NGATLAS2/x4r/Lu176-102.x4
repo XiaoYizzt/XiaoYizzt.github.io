@@ -1,0 +1,77 @@
+REQUEST           1001   20010914          3     143636               0  0    0
+ENTRY            11447     850410                                 11447000    1
+SUBENT        11447001     850410                                 11447001    1
+BIB                  6          8                                 11447001    2
+INSTITUTE  (1USAANL)                                              11447001    3
+REFERENCE  (J,PR,72,888,4711)                                     11447001    4
+AUTHOR     (L.SEREN,H.N.FRIEDLANDER,S.H.TURKEL)                   11447001    5
+METHOD     (ACTIV)                                                11447001    6
+STATUS     (SCSRS)                                                11447001    7
+HISTORY    (760715T) TRANSLATED FROM SCISRS                       11447001    8
+           (820813A) CONVERTED TO REACTION FORMALISM              11447001    9
+           (840410A) ENERGY CORRECTED.                            11447001   10
+ENDBIB               8                                            11447001   11
+COMMON               1          3                                 11447001   12
+EN-DUMMY                                                          11447001   13
+EV                                                                11447001   14
+ 0.0253                                                           11447001   15
+ENDCOMMON            3                                            11447001   16
+ENDSUBENT           15                                            1144700199999
+SUBENT        11447110     820813                                 11447110    1
+BIB                  4          4                                 11447110    2
+REACTION   (71-LU-176(N,G)71-LU-177-G,,SIG,,MXW)                  11447110    3
+SAMPLE     LU(2)-O(3)                                             11447110    4
+INC-SPECT  THERMAL SPECTRUM                                       11447110    5
+DECAY-DATA (71-LU-177-G,6.6D,B)                                   11447110    6
+ENDBIB               4                                            11447110    7
+NOCOMMON             0          0                                 11447110    8
+DATA                 2          1                                 11447110    9
+DATA       DATA-ERR                                               11447110   10
+B          PER-CENT                                               11447110   11
+ 3640.      20.                                                   11447110   12
+ENDDATA              3                                            11447110   13
+ENDSUBENT           12                                            1144711099999
+ENDENTRY             2                                            1144799999999
+ENTRY            40990     950926                                 40990000    1
+SUBENT        40990001     950926                                 40990001    1
+BIB                 14         19                                 40990001    2
+TITLE       MEASUREMENT OF THE LU-177-M FORMATION CROSS-SECTION   40990001    3
+AUTHOR     (E.A.GRITSAY)                                          40990001    4
+INSTITUTE  (4CCPIJI)                                              40990001    5
+REFERENCE  (C,87KIEV,2,209,8709)                                  40990001    6
+FACILITY   (REAC)                                                 40990001    7
+INC-SOURCE (REAC) HORIZONTAL CHANNEL OF THE REACTOR WWR-M         40990001    8
+MONITOR     ABSOLUTE MEASUREMENT                                  40990001    9
+DETECTOR   (GELI)                                                 40990001   10
+STATUS      DATA ARE TAKEN FROM THE REFERENCE                     40990001   11
+SAMPLE      LU2-O3 OXIDE,LU-175 CONTENT IS 45.6 PC, LU-176        40990001   12
+            CONTENT  IS 54.4 PC                                   40990001   13
+METHOD     (ACTIV)                                                40990001   14
+INC-SPECT    REACTOR NEUTRON SPECTRUM, EPITHERMAL WESTCOTT INDEX  40990001   15
+             IS EQUAL 0.10                                        40990001   16
+ERR-ANALYS (ERR-1)  ERROR DUE TO THE NEUTRON FLUX DETERMINATION   40990001   17
+           (ERR-2)  ERROR DUE TO THE GAMMA-RAYS YIELD             40990001   18
+                     UNCERTAINTY                                  40990001   19
+HISTORY    (890914C) COMPILED AT THE CENTRE - CJD                 40990001   20
+           (950926A) NEUTRON INCIDENT ENERGY CORRECTED            40990001   21
+ENDBIB              19                                            40990001   22
+COMMON               4          3                                 40990001   23
+EN-DUMMY   ERR-1      ERR-2      ERR-S                            40990001   24
+EV         PER-CENT   PER-CENT   PER-CENT                         40990001   25
+    1.0E+00  4.        10.         1.                             40990001   26
+ENDCOMMON            3                                            40990001   27
+ENDSUBENT           26                                            4099000199999
+SUBENT        40990004     890914                                 40990004    1
+BIB                  2          2                                 40990004    2
+REACTION   (71-LU-176(N,G)71-LU-177-G,,SIG)                       40990004    3
+DECAY-DATA (71-LU-177-G,6.71D)                                    40990004    4
+ENDBIB               2                                            40990004    5
+NOCOMMON             0          0                                 40990004    6
+DATA                 2          1                                 40990004    7
+DATA       ERR-T                                                  40990004    8
+B          B                                                      40990004    9
+  5924.      642.                                                 40990004   10
+ENDDATA              3                                            40990004   11
+ENDSUBENT           10                                            4099000499999
+ENDENTRY             2                                            4099099999999
+ENDREQUEST           1                                            Z999999999999

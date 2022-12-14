@@ -1,0 +1,41 @@
+REQUEST           1001   20010914          3     142840               0  0    0
+ENTRY            20556     840126                                 20556000    1
+SUBENT        20556001     840126                                 20556001    1
+BIB                 12         19                                 20556001    2
+INSTITUTE  (2FR GRE)                                              20556001    3
+REFERENCE  (J,AKE,24,141,74)                                      20556001    4
+AUTHOR     (D.HECK,H.BOERNER,J.A.PINSTON,R.ROUSSILLE)             20556001    5
+TITLE      -NEUTRON CAPTURE CROSS-SECTION OF ND-147-              20556001    6
+INC-SOURCE (REAC )    HIGH FLUX REACTOR, GRENOBLE.                20556001    7
+            FLUX = 8*10**14 N/(CM*CM*SEC).                        20556001    8
+METHOD     (ACTIV)    ACTIVATION.                                 20556001    9
+DETECTOR   .CURVED CRYSTAL GAMMA-RAY SPECTROMETER, GAMS 1.        20556001   10
+MONITOR    .SEE PUBLICATION.                                      20556001   11
+COMMENT    .ND-147(N,GAMMA) CROSS-SECTION MEASURED IN ORDER TO    20556001   12
+            EVALUATE THE FORMATION OF ND-148 BY NEUTRON CAPTURE   20556001   13
+            AND TO INVESTIGATE THE RELIABILITY OF USING ND-148    20556001   14
+            AS FISSION PRODUCT MONITOR(BURN-UP OF REACTOR FUEL    20556001   15
+            ELEMENTS).                                            20556001   16
+STATUS     .CROSS-SECTION FROM AKE,24,141(1974).                  20556001   17
+HISTORY    (760315C)                                              20556001   18
+           (760423E)                                              20556001   19
+ERR-ANALYS .MAIN CONTRIBUTION TO X-SECT. ERROR DUE TO UNCERTAINTY 20556001   20
+            IN DECAY AND NEUTRON FLUX.                            20556001   21
+ENDBIB              19                                            20556001   22
+NOCOMMON             0          0                                 20556001   23
+ENDSUBENT           22                                            2055600199999
+SUBENT        20556002     840126                                 20556002    1
+BIB                  2          3                                 20556002    2
+REACTION   (60-ND-147(N,G)60-ND-148,,SIG,,SPA)                    20556002    3
+HISTORY    (760315C)                                              20556002    4
+           (760423E)                                              20556002    5
+ENDBIB               3                                            20556002    6
+NOCOMMON             0          0                                 20556002    7
+DATA                 3          1                                 20556002    8
+EN-DUMMY   DATA       DATA-ERR                                    20556002    9
+EV         B          B                                           20556002   10
+ 2.5300E-02 4.4000E+02 1.5000E+02                                 20556002   11
+ENDDATA              3                                            20556002   12
+ENDSUBENT           11                                            2055600299999
+ENDENTRY             2                                            2055699999999
+ENDREQUEST           1                                            Z999999999999

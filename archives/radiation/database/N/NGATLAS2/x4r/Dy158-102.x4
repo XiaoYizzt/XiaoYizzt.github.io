@@ -1,0 +1,69 @@
+REQUEST           1001   20010914          3     143343               0  0    0
+ENTRY            20187     831121                                 20187000    1
+SUBENT        20187001     831121                                 20187001    1
+BIB                 12         16                                 20187001    2
+INSTITUTE  (2NOROSL)                                              20187001    3
+REFERENCE  (P,INDC(NOR)-1,2,7205) BASED ON THESIS BY SYVERSEN.    20187001    4
+AUTHOR     (J.ALSTAD, A.C.PAPPAS, T.SYVERSEN)                     20187001    5
+TITLE      -THERMAL NEUTRON CAPTURE CROSS SECTION AND RESONANCE   20187001    6
+            CAPTURE INTEGRAL OF THE LANTHANIDE NUCLEI III. DY-156,20187001    7
+            DY-158, DY-164 AND DY-165.-                           20187001    8
+FACILITY   .JEEP II HEAVY WATER REACTOR AT KJELLER.               20187001    9
+INC-SPECT  .MAX. THERMAL FLUX ABOUT 2.0E+13 N/CM2/SEC IN THE      20187001   10
+            POSITION AVAILABLE FOR IRRADIATIONS OF SAMPLES IN CORE20187001   11
+METHOD     (ACTIV)    ACTIVATION.                                 20187001   12
+DETECTOR   .4PI-BETA-GAMMA COINCIDENCE COUNTER.                   20187001   13
+PART-DET   (DG,B- )   DECAY GAMMA AND BETA-.                      20187001   14
+STATUS     .DATA TAKEN FROM PROGRESS REPORT INDC(NOR)-1.          20187001   15
+HISTORY    (721121C)                                              20187001   16
+           (740521E)                                              20187001   17
+ERR-ANALYS .NO FURTHER INFORMATION.                               20187001   18
+ENDBIB              16                                            20187001   19
+NOCOMMON             0          0                                 20187001   20
+ENDSUBENT           19                                            2018700199999
+SUBENT        20187004     831121                                 20187004    1
+BIB                  4          6                                 20187004    2
+REACTION   (66-DY-158(N,G)66-DY-159,,SIG)                         20187004    3
+ANALYSIS   .EXPERIMENTAL RESULT REDUCED TO 2200 M/SEC VALUE.      20187004    4
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)                         20187004    5
+            SIGMA(THERMAL) = 98.8 BARN.                           20187004    6
+HISTORY    (721121C)                                              20187004    7
+           (740521E)                                              20187004    8
+ENDBIB               6                                            20187004    9
+NOCOMMON             0          0                                 20187004   10
+DATA                 4          1                                 20187004   11
+EN         MONIT      DATA       DATA-ERR                         20187004   12
+MEV        B          B          B                                20187004   13
+ 2.5300E-08 9.8800E+01 4.3000E+01 6.0000E+00                      20187004   14
+ENDDATA              3                                            20187004   15
+ENDSUBENT           14                                            2018700499999
+ENDENTRY             2                                            2018799999999
+ENTRY            31244     851217                                 31244000    1
+SUBENT        31244001     851217                                 31244001    1
+BIB                  5          6                                 31244001    2
+INSTITUTE  (3INDMUA)                                              31244001    3
+REFERENCE  (J,NP,12,261,59)                                       31244001    4
+AUTHOR     (M.SEHGAL,H.HANS,P.GILL)                               31244001    5
+TITLE      THERMAL NEUTRON CROSS SECTIONS FOR PRODUCING SOME      31244001    6
+           ISOMERS.                                               31244001    7
+HISTORY    (771115T) CONVERTED FROM EXFOR 70244                   31244001    8
+ENDBIB               6                                            31244001    9
+NOCOMMON             0          0                                 31244001   10
+ENDSUBENT            9                                            3124400199999
+SUBENT        31244004     851217                                 31244004    1
+BIB                  5          5                                 31244004    2
+REACTION   (66-DY-158(N,G)66-DY-159,,SIG,,SPA)                    31244004    3
+INC-SPECT   REACTOR SPECTRUM                                      31244004    4
+METHOD     (ACTIV)    ACTIVATION.                                 31244004    5
+DECAY-DATA (66-DY-159,140.D)                                      31244004    6
+STATUS     (SCSRS)                                                31244004    7
+ENDBIB               5                                            31244004    8
+NOCOMMON             0          0                                 31244004    9
+DATA                 3          1                                 31244004   10
+EN-DUMMY   DATA       DATA-ERR                                    31244004   11
+MEV        B          B                                           31244004   12
+ 2.5300E-08 9.6000E+01 2.0000E+01                                 31244004   13
+ENDDATA              3                                            31244004   14
+ENDSUBENT           13                                            3124400499999
+ENDENTRY             2                                            3124499999999
+ENDREQUEST           1                                            Z999999999999

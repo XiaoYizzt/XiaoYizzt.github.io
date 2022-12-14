@@ -1,0 +1,127 @@
+REQUEST           1001   20010914          3     141306               0  0    0
+ENTRY            11885     830919                                 11885000    1
+SUBENT        11885001     830919                                 11885001    1
+BIB                  8         11                                 11885001    2
+INSTITUTE  (1USAORL)                                              11885001    3
+REFERENCE  (P,ORNL-1879,50,55)                                    11885001    4
+AUTHOR     (H.POMERANCE)                                          11885001    5
+TITLE      ABSORPTION CROSS SECTIONS FOR LONG-LIVED FISSION-      11885001    6
+            PRODUCT ZR93,AM241,AND ENRICHED STABLE PLATINUM       11885001    7
+            ISOTOPES.                                             11885001    8
+FACILITY   (OSCIP)                                                11885001    9
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)                         11885001   10
+STATUS     (SCSRS)                                                11885001   11
+HISTORY    (760731T) TRANSLATED FROM SCISRS                       11885001   12
+           (830919A) CONVERTED TO REACTION FORMALISM              11885001   13
+ENDBIB              11                                            11885001   14
+COMMON               1          3                                 11885001   15
+MONIT                                                             11885001   16
+B                                                                 11885001   17
+ 98.                                                              11885001   18
+ENDCOMMON            3                                            11885001   19
+ENDSUBENT           18                                            1188500199999
+SUBENT        11885002     830919                                 11885002    1
+BIB                  2          2                                 11885002    2
+REACTION   (40-ZR-93(N,G)40-ZR-94,,SIG,,MXW)                      11885002    3
+INC-SPECT   THERMAL SPECTRUM                                      11885002    4
+ENDBIB               2                                            11885002    5
+NOCOMMON             0          0                                 11885002    6
+DATA                 2          1                                 11885002    7
+EN-DUMMY   DATA-MAX                                               11885002    8
+MEV        B                                                      11885002    9
+ 2.53   -08 4.     +00                                            11885002   10
+ENDDATA              3                                            11885002   11
+ENDSUBENT           10                                            1188500299999
+ENDENTRY             2                                            1188599999999
+ENTRY            12915     860107                                 12915000    1
+SUBENT        12915001     860107                                 12915001    1
+BIB                 14         58                                 12915001    2
+INSTITUTE  (1USAORL)                                              12915001    3
+REFERENCE  (J,ASP,115,71,85)                                      12915001    4
+AUTHOR     (R.L.MACKLIN)                                          12915001    5
+TITLE      NEUTRON CAPTURE MEASUREMENTS ON RADIOACTIVE 42-ZR-93.  12915001    6
+FACILITY   (LINAC) ORELA LINEAR ACCELERATOR.                      12915001    7
+INC-SOURCE (EVAP)  UNCERTAINTY OF THE NEUTRON ENERGY SCALE=1/1300.12915001    8
+SAMPLE     FISSION PRODUCT ZR-93- 1.5*10**6 YEAR                  12915001    9
+              6.595 G OF POWDER PRESSED INTO A 25.4-MM-DIAMETER BY12915001   10
+              3.5-MM-THICK DISC.                                  12915001   11
+           SAMPLE IMPURITIES-                                     12915001   12
+                       NUCLEUS             WEIGHT PERCENT         12915001   13
+                        ZR-90                    1.5              12915001   14
+                        ZR-91                   19.0              12915001   15
+                        ZR-92                   20.0              12915001   16
+                        ZR-93                   20.0              12915001   17
+                        ZR-94                   20.0              12915001   18
+                        ZR-96                   19.0              12915001   19
+                        HF                       0.2              12915001   20
+                        MO                       1.0              12915001   21
+                        NB                        -               12915001   22
+                        FE                       0.3              12915001   23
+                        CR                       0.07             12915001   24
+                        SI                       5.0              12915001   25
+                        AL                       1.0              12915001   26
+           HIGH BACKGROUND COUNTING(5300C/S) FROM SAMPLE          12915001   27
+              IMPURITIES.                                         12915001   28
+METHOD     (TOF)   TIME-OF-FLIGHT ENERGY SCALE CALIBRATED WITH    12915001   29
+                   ALUMINUM RESONANCES AT 5.903 AND 1094 KEV.     12915001   30
+DETECTOR   (SCIN) NONHYDROGENOUS LIQUID SCINTILLATOR              12915001   31
+                  EFFICIENCY DETERMINED BY THE SATURATED          12915001   32
+                  RESONANCE METHOD RELATIVE TO A THIN LI-6 GLASS  12915001   33
+                  SCINTILLATOR AS A NEUTRON FLUX MONITOR.         12915001   34
+MONITOR     LI-6 GLASS SCINTILLATOR                               12915001   35
+CORRECTION DATA WERE CORRECTED FOR-                               12915001   36
+           .   ELECTRONIC DEAD TIME                               12915001   37
+           .   MEASURED ENVIRONMENTAL AND SAMPLE RADIOACTIVITY.   12915001   38
+           .   BEAM-DEPENDENT BACKGROUNDS                         12915001   39
+           .   GAMMA-RAY ENERGY LOSS IN THE SAMPLE MATERIAL       12915001   40
+ERR-ANALYS (DATA-ERR) STANADRD DEVIATIONS.                        12915001   41
+                       SOURCES OF ERROR-                          12915001   42
+           .  CALIBRATION UNCERTAINTIES = 3.1 PERCENT             12915001   43
+                 1.    1 PERCENT DUE TO CROSS CALIBRATION TO ZR-9112915001   44
+                             AT 292 EV ENERGY IN THE METAL SAMPLE 12915001   45
+                             SAMPLE DATA.                         12915001   46
+                 2.    1.4 PERCENT IN THE FISSION-PRODUCT         12915001   47
+                             SAMPLE DATA.                         12915001   48
+                 3.    0.6 PERCENT DUE TO SCATTERED NEUTRON       12915001   49
+                             SENSITIVITY CORRECTION.              12915001   50
+                 4.    0.7 PERCENT UNCERTAINTY DUE TO ABUNDANCE   12915001   51
+                             RATIO.                               12915001   52
+           .  ABOVE 21.5 KEV THE RESIDUAL BACKGROUND UNCERTAINTY  12915001   53
+                 = 8 PERCENT                                      12915001   54
+           .  ABOVE 95 KEV THE AVERAGE ZR-96 CAPTURE SUBTRACTION  12915001   55
+                 UNCERTAINTY IS ASSUMED = 0.7 PERCENT OF THE      12915001   56
+                 ZR-93 NET CROSS SECTION.                         12915001   57
+STATUS     (APRVD) R.L.MACKLIN, 85/3/27.                          12915001   58
+HISTORY    (850227C)                                              12915001   59
+           (860107U) REFERENCE UPDATED                            12915001   60
+ENDBIB              58                                            12915001   61
+NOCOMMON             0          0                                 12915001   62
+ENDSUBENT           61                                            1291500199999
+SUBENT        12915003     860107                                 12915003    1
+BIB                  3          3                                 12915003    2
+REACTION   (40-ZR-93(N,G)40-ZR-94,,SIG,,AV)                       12915003    3
+STATUS     POINTWISE DATA NOT AVAILABLE.                          12915003    4
+HISTORY    (860107U) REACTION PRODUCT ADDED                       12915003    5
+ENDBIB               3                                            12915003    6
+NOCOMMON             0          0                                 12915003    7
+DATA                 4         14                                 12915003    8
+EN-MIN     EN-MAX     DATA       DATA-ERR                         12915003    9
+KEV        KEV        MB         MB                               12915003   10
+   3.         4.       507.        8.                             12915003   11
+   4.         6.       468.        5.                             12915003   12
+   6.         8.       298.        4.                             12915003   13
+   8.        10.       171.        3.                             12915003   14
+  10.        15.       196.        3.                             12915003   15
+  15.        20.       116.        3.                             12915003   16
+  20.        30.       115.       16.                             12915003   17
+  30.        40.       115.       13.                             12915003   18
+  40.        60.        64.       11.                             12915003   19
+  60.        80.        39.        9.                             12915003   20
+  80.       100.        32.        8.                             12915003   21
+ 100.       150.        19.        7.                             12915003   22
+ 150.       200.        27.        6.                             12915003   23
+ 200.       300.        27.        5.                             12915003   24
+ENDDATA             16                                            12915003   25
+ENDSUBENT           24                                            1291500399999
+ENDENTRY             2                                            1291599999999
+ENDREQUEST           1                                            Z999999999999

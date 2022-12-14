@@ -1,0 +1,180 @@
+REQUEST           1001   20010914          3     140928               0  0    0
+ENTRY            11832     830919                                 11832000    1
+SUBENT        11832001     830919                                 11832001    1
+BIB                  9         12                                 11832001    2
+INSTITUTE  (1USAUCB)                                              11832001    3
+REFERENCE  (J,NSE,22,373,65)                                      11832001    4
+AUTHOR     (H.H.KRAMER,W.H.WAHL)                                  11832001    5
+TITLE      FORMATION OF SE77M, SR87M, CD111M, AND BA137M BY       11832001    6
+           REACTOR SPECTRUM NEUTRONS FOR USE IN ACTIVATION        11832001    7
+           ANALYSIS.                                              11832001    8
+METHOD     (ACTIV) ACTIVATION                                     11832001    9
+HALF-LIFE  HALF LIFE VALUES TAKEN FROM CHART OF NUCLIDES (1972).  11832001   10
+DETECTOR   (NAICR) NAI(TL) CRYSTAL                                11832001   11
+STATUS     (SCSRS)                                                11832001   12
+HISTORY    (760731T) TRANSLATED FROM SCISRS                       11832001   13
+           (830919A) CONVERTED TO REACTION FORMALISM              11832001   14
+ENDBIB              12                                            11832001   15
+NOCOMMON             0          0                                 11832001   16
+ENDSUBENT           15                                            1183200199999
+SUBENT        11832002     830919                                 11832002    1
+BIB                  4          5                                 11832002    2
+REACTION   (34-SE-76(N,G)34-SE-77-M,,SIG,,MXW)                    11832002    3
+DECAY-DATA (34-SE-77-M,,DG,160.,0.51)                             11832002    4
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)                         11832002    5
+            BASED ON AU(N,GAMMA)=98.8 B.                          11832002    6
+INC-SPECT  SUB-CD SPECTRUM                                        11832002    7
+ENDBIB               5                                            11832002    8
+NOCOMMON             0          0                                 11832002    9
+DATA                 4          1                                 11832002   10
+EN-DUMMY   DATA       DATA-ERR   MONIT                            11832002   11
+MEV        B          PER-CENT   B                                11832002   12
+ 2.53   -08 2.3    +01   10.      98.8                            11832002   13
+ENDDATA              3                                            11832002   14
+ENDSUBENT           13                                            1183200299999
+ENDENTRY             2                                            1183299999999
+ENTRY            21342     801104                                 21342000    1
+SUBENT        21342001     801104                                 21342001    1
+BIB                 15         22                                 21342001    2
+INSTITUTE  (2GERGOE)                                              21342001    3
+REFERENCE  (J,ZP,167,549,62)                                      21342001    4
+AUTHOR     (H.WEIGMANN)                                           21342001    5
+TITLE      -MEASUREMENT OF THE K-CONVERSION COEFFICIENTS AND THE  21342001    6
+            ACTIVATION CROSS SECTIONS OF THE ISOMERIC NUCLEI      21342001    7
+            SE-77-M, SE-79-M, GE-75-M, AND GE-77-M.               21342001    8
+FACILITY   (CCW,2GERGOE)                                          21342001    9
+INC-SOURCE (D-BE ) DEUTERON-BERYLLIUM REACTION.                   21342001   10
+INC-SPECT  NEUTRONS SLOWED DOWN. MAXWELLIAN SPECTRUM.             21342001   11
+SAMPLE     .GE-O(2) AND METALLIC SE. NATURAL AND ENRICHED SAMPLES 21342001   12
+            FROM ORNL WERE USED. DEPOSITED ON A 2 MM THICK DISK   21342001   13
+            OF PLEXI-GLASS.                                       21342001   14
+METHOD     (ACTIV) ACTIVATION ANALYSIS.                           21342001   15
+DETECTOR   (NAICR) NA-I(TL) CRYSTALS, HARSHAW CHEMICAL COMPANY,   21342001   16
+            CLEVELAND, OHIO.                                      21342001   17
+MONITOR    (66-DY-164(N,G)66-DY-165-G,,SIG,,MXW)                  21342001   18
+           (25-MN-55(N,G)25-MN-56,,SIG,,MXW)                      21342001   19
+COMMENT    .ALSO K-CONVERSION COEFFICIENTS ARE MEASURED.          21342001   20
+STATUS     (NDD  ) DATA TAKEN FROM NEUDADA.                       21342001   21
+HISTORY    (800207T) G.C.                                         21342001   22
+           (800222E)                                              21342001   23
+ERR-ANALYS .NO DETAILS GIVEN.                                     21342001   24
+ENDBIB              22                                            21342001   25
+COMMON               5          3                                 21342001   26
+EN-DUMMY   MONIT1     MONIT1-ERR MONIT2     MONIT2-ERR            21342001   27
+EV         B          PER-CENT   B          B                     21342001   28
+ 2.5300E-02 2.6200E+03 1.0000E+01 1.3200E+01 4.0000E-01           21342001   29
+ENDCOMMON            3                                            21342001   30
+ENDSUBENT           29                                            2134200199999
+SUBENT        21342002     800222                                 21342002    1
+BIB                  2          2                                 21342002    2
+REACTION   (34-SE-76(N,G)34-SE-77-M,,SIG,,MXW)                    21342002    3
+STATUS     (NDD  ) DATA TAKEN FROM NEUDADA.                       21342002    4
+ENDBIB               2                                            21342002    5
+NOCOMMON             0          0                                 21342002    6
+DATA                 2          1                                 21342002    7
+DATA       DATA-ERR                                               21342002    8
+B          B                                                      21342002    9
+ 2.2000E+01 2.0000E+00                                            21342002   10
+ENDDATA              3                                            21342002   11
+ENDSUBENT           10                                            2134200299999
+ENDENTRY             2                                            2134299999999
+ENTRY            31003     851217                                 31003000    1
+SUBENT        31003001     851217                                 31003001    1
+BIB                  6          7                                 31003001    2
+INSTITUTE  (3DDRROS)                                              31003001    3
+REFERENCE  (J,ADP,12,225,63)                                      31003001    4
+AUTHOR     (K.ALEXANDER,H.BRINCKMANN)                             31003001    5
+TITLE      DETERMINATION OF ACTIVATION CROSS SECTION OF           31003001    6
+           SHORT-LIVED ISOMERS FOR THERMAL NEUTRONS.              31003001    7
+MONITOR    (5-B-0(N,ABS),,SIG)                                    31003001    8
+HISTORY    (771115T) CONVERTED FROM EXFOR 70003                   31003001    9
+ENDBIB               7                                            31003001   10
+COMMON               1          3                                 31003001   11
+MONIT                                                             31003001   12
+B                                                                 31003001   13
+ 7.6200E+02                                                       31003001   14
+ENDCOMMON            3                                            31003001   15
+ENDSUBENT           14                                            3100300199999
+SUBENT        31003005     851217                                 31003005    1
+BIB                  5          5                                 31003005    2
+REACTION   (34-SE-76(N,G)34-SE-77-M,,SIG,,MXW)                    31003005    3
+INC-SPECT   THERMAL SPECTRUM                                      31003005    4
+METHOD     (ACTIV)    ACTIVATION                                  31003005    5
+DECAY-DATA (34-SE-77-M,17.5SEC)                                   31003005    6
+STATUS     (SCSRS)                                                31003005    7
+ENDBIB               5                                            31003005    8
+NOCOMMON             0          0                                 31003005    9
+DATA                 3          1                                 31003005   10
+EN-DUMMY   DATA       DATA-ERR                                    31003005   11
+MEV        B          B                                           31003005   12
+ 2.5300E-08 2.2000E+01 8.0000E+00                                 31003005   13
+ENDDATA              3                                            31003005   14
+ENDSUBENT           13                                            3100300599999
+ENDENTRY             2                                            3100399999999
+ENTRY            31246     851217                                 31246000    1
+SUBENT        31246001     851217                                 31246001    1
+BIB                  6          7                                 31246001    2
+INSTITUTE  (3INDMUA)                                              31246001    3
+REFERENCE  (J,NP,20,183,60)                                       31246001    4
+AUTHOR     (H.S.HANS,M.L.SEHGAL,P.S.GILL)                         31246001    5
+TITLE      THERMAL NEUTRON CROSS SECTIONS FOR PRODUCING ISOMERS   31246001    6
+            (II).                                                 31246001    7
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)                         31246001    8
+HISTORY    (771115T) CONVERTED FROM EXFOR 70246                   31246001    9
+ENDBIB               7                                            31246001   10
+COMMON               1          3                                 31246001   11
+MONIT                                                             31246001   12
+B                                                                 31246001   13
+ 9.8000E+01                                                       31246001   14
+ENDCOMMON            3                                            31246001   15
+ENDSUBENT           14                                            3124600199999
+SUBENT        31246002     851217                                 31246002    1
+BIB                  5          5                                 31246002    2
+REACTION   (34-SE-76(N,G)34-SE-77-M,,SIG,,SPA)                    31246002    3
+INC-SPECT   REACTOR SPECTRUM                                      31246002    4
+METHOD     (ACTIV)    ACTIVATION                                  31246002    5
+DECAY-DATA (34-SE-77-M,18.SEC)                                    31246002    6
+STATUS     (SCSRS)                                                31246002    7
+ENDBIB               5                                            31246002    8
+NOCOMMON             0          0                                 31246002    9
+DATA                 3          1                                 31246002   10
+EN-DUMMY   DATA       DATA-ERR                                    31246002   11
+MEV        B          B                                           31246002   12
+ 2.5300E-08 1.0000E+01 3.0000E+00                                 31246002   13
+ENDDATA              3                                            31246002   14
+ENDSUBENT           13                                            3124600299999
+ENDENTRY             2                                            3124699999999
+ENTRY            67005     780524                                 67005000    1
+SUBENT        67005001     780524                                 67005001    1
+BIB                  8         10                                 67005001    2
+INSTITUTE  (2GERMUN)                                              67005001    3
+REFERENCE  (J,ZP,210,13,68)                                       67005001    4
+AUTHOR     (W.MANNHART,H.VONACH)                                  67005001    5
+TITLE      ISOMERIC CROSS SECTION RATIOS FOR THE 2-P-1/2 AND      67005001    6
+            1-G-9/2 SHELL MODEL STATES FORMED BY THERMAL NEUTRON  67005001    7
+            CAPTURE                                               67005001    8
+INC-SOURCE (THCOL) REACTOR THERMAL COLUMN                         67005001    9
+INC-SPECT  THERMALIZED SPECTRUM                                   67005001   10
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG,,MXW)                    67005001   11
+HISTORY    (780411C)                                              67005001   12
+ENDBIB              10                                            67005001   13
+COMMON               3          3                                 67005001   14
+EN-DUMMY   MONIT      MONIT-ERR                                   67005001   15
+EV         B          B                                           67005001   16
+ 2.5300E-02 9.8500E+01 4.0000E-01                                 67005001   17
+ENDCOMMON            3                                            67005001   18
+ENDSUBENT           17                                            6700500199999
+SUBENT        67005008     780524                                 67005008    1
+BIB                  2          2                                 67005008    2
+REACTION   (34-SE-76(N,G)34-SE-77-M,,SIG,,MXW)                    67005008    3
+DECAY-DATA (34-SE-77-M,17.5SEC,DG)                                67005008    4
+ENDBIB               2                                            67005008    5
+NOCOMMON             0          0                                 67005008    6
+DATA                 2          1                                 67005008    7
+DATA       DATA-ERR                                               67005008    8
+B          B                                                      67005008    9
+ 1.7800E+01 2.5000E+00                                            67005008   10
+ENDDATA              3                                            67005008   11
+ENDSUBENT           10                                            6700500899999
+ENDENTRY             2                                            6700599999999
+ENDREQUEST           1                                            Z999999999999

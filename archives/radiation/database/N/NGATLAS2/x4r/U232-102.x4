@@ -1,0 +1,139 @@
+REQUEST           1001   20010914          3     144413               0  0    0
+ENTRY            12374     820519                                 12374000    1
+SUBENT        12374001     820519                                 12374001    1
+BIB                  7          9                                 12374001    2
+INSTITUTE  (1USAORL)                                              12374001    3
+REFERENCE  (J,NSE,21,257,65)                                      12374001    4
+AUTHOR     (J.HALPERIN,C.R.BALDOCK,J.H.OLIVER)                    12374001    5
+TITLE      THERMAL CAPTURE CROSS SECTION AND RESONANCE INTEGRAL OF12374001    6
+           URANIUM-232.                                           12374001    7
+N-SOURCE   (REAC) U-235-H20 REACTOR (ORR)                         12374001    8
+STATUS     (SCSRS)                                                12374001    9
+HISTORY    (760804T) TRANSLATED FROM SCISRS                       12374001   10
+           (820519A) CONVERTED TO REACTION FORMALISM              12374001   11
+ENDBIB               9                                            12374001   12
+NOCOMMON             0          0                                 12374001   13
+ENDSUBENT           12                                            1237400199999
+SUBENT        12374002     820519                                 12374002    1
+BIB                  4          5                                 12374002    2
+REACTION   (92-U-232(N,G)92-U-233,,SIG,,SPA)                      12374002    3
+FACILITY   (SPECM)    MASS SPECTROMETER                           12374002    4
+MONITOR    (27-CO-59(N,G)27-CO-60,,SIG)                           12374002    5
+            BASED ON THERMAL (N,G) CROSS SECTION.                 12374002    6
+INC-SPECT   REACTOR SPECTRUM                                      12374002    7
+ENDBIB               5                                            12374002    8
+NOCOMMON             0          0                                 12374002    9
+DATA                 4          1                                 12374002   10
+EN-DUMMY   DATA       DATA-ERR   MONIT                            12374002   11
+MEV        B          B          B                                12374002   12
+ 2.53   -08 1.06   +02 4.     +00 37.                             12374002   13
+ENDDATA              3                                            12374002   14
+ENDSUBENT           13                                            1237400299999
+SUBENT        12374003     820519                                 12374003    1
+BIB                  5          7                                 12374003    2
+REACTION   (92-U-232(N,G)92-U-233,,SIG,,MXW)                      12374003    3
+FACILITY   (SPECM)    MASS SPECTROMETER                           12374003    4
+MONITOR    (27-CO-59(N,G)27-CO-60,,SIG)                           12374003    5
+            BASED ON THERMAL (N,G) CROSS SECTION.                 12374003    6
+ANALYSIS   COMPUTED FROM REACTOR SPECTRUM AVERAGE CROSS SECTION   12374003    7
+            ASSUMING 1/V.                                         12374003    8
+STATUS     (DEP,12374002)                                         12374003    9
+ENDBIB               7                                            12374003   10
+NOCOMMON             0          0                                 12374003   11
+DATA                 4          1                                 12374003   12
+EN-DUMMY   DATA       DATA-ERR   MONIT                            12374003   13
+MEV        B          B          B                                12374003   14
+ 2.53   -08 7.8    +01 4.     +00 37.                             12374003   15
+ENDDATA              3                                            12374003   16
+ENDSUBENT           15                                            1237400399999
+ENDENTRY             3                                            1237499999999
+ENTRY            12387     820519                                 12387000    1
+SUBENT        12387001     820519                                 12387001    1
+BIB                  6          8                                 12387001    2
+INSTITUTE  (1USAANL)                                              12387001    3
+REFERENCE  (J,PR,89,320,5301)                                     12387001    4
+AUTHOR     (R.ELSON,W.BENTLEY,A.GHIORSO,Q.VAN WINKLE)             12387001    5
+TITLE      THE THERMAL NEUTRON FISSION AND CAPTURE CROSS SECTIONS 12387001    6
+            OF U-232.                                             12387001    7
+STATUS     (SCSRS)                                                12387001    8
+HISTORY    (760804T) TRANSLATED FROM SCISRS                       12387001    9
+           (820519A) CONVERTED TO REACTION FORMALISM              12387001   10
+ENDBIB               8                                            12387001   11
+NOCOMMON             0          0                                 12387001   12
+ENDSUBENT           11                                            1238700199999
+SUBENT        12387003     820519                                 12387003    1
+BIB                  4         10                                 12387003    2
+REACTION   (92-U-232(N,G)92-U-233,,SIG,,SPA)                      12387003    3
+METHOD     SAMPLES OF PA-231 IRRADIATED FOR DIFFERENT FLUX TIMES. 12387003    4
+           CHEMICAL SEPARATION OF U.                              12387003    5
+           FISSION COUNTING RELATIVE TO PU-239. EXCESS FISSION-   12387003    6
+            ABILITY OF MOST HEAVILY IRRADIATED SAMPLE ATTRIBUTED  12387003    7
+            TO FORMATION OF U-233 BY U-232(N,GAMMA)               12387003    8
+INC-SPECT   REACTOR SPECTRUM                                      12387003    9
+CORRECTION BY DIRECT OBSERVATION OF PA-233, CORRECTED FOR U-233   12387003   10
+            FORMATION BY PA-231(N,GAMMA)PA-232(N,ALPHA)PA-233     12387003   11
+            (BETA-)U-233.                                         12387003   12
+ENDBIB              10                                            12387003   13
+NOCOMMON             0          0                                 12387003   14
+DATA                 4          1                                 12387003   15
+EN-DUMMY   DATA-APRX  +DATA-ERR  -DATA-ERR                        12387003   16
+MEV        B          B          B                                12387003   17
+ 2.53   -08 2.00   +02 3.00   +02 2.00   +02                      12387003   18
+ENDDATA              3                                            12387003   19
+ENDSUBENT           18                                            1238700399999
+ENDENTRY             2                                            1238799999999
+ENTRY            20477     860926                                 20477000    1
+SUBENT        20477001     860926                                 20477001    1
+BIB                 12         27                                 20477001    2
+INSTITUTE  (2UK HAR)                                              20477001    3
+REFERENCE  (C,71CANT,,161,7109)                                   20477001    4
+AUTHOR     (M.J.CABELL, M.WILKINS)                                20477001    5
+TITLE      -THE CAPTURE AND ABSORPTION CROSS SECTION OF U-232 FOR 20477001    6
+            THERMAL NEUTRONS.-                                    20477001    7
+FACILITY    A.E.I. TYPE MS5 MASS SPECTROMETER                     20477001    8
+INC-SOURCE (REAC )    DIDO REACTOR.                               20477001    9
+INC-SPECT   THERMAL NEUTRONS, WESTCOTT'S EPITHERMAL INDEX         20477001   10
+            PARAMETER (R * SQRT(T/T0)) = (8.6 +- 1.2)E-4, AND     20477001   11
+            TEMPERATURE 116 +- 9 DEG-C.                           20477001   12
+           .NEUTRON DOSE=(2.8 TO 3.)*E-20 N/CM**2 WITH AN ABSOL.  20477001   13
+            ACCURACY OF +- 1.2 PERCENT.                           20477001   14
+SAMPLE     .MIXTURE PREPARED FROM ISOTOPICALLY PURE               20477001   15
+            (98.9 PERCENT) U-232 AND ISOTOPICALLY ENRICHED        20477001   16
+            (99.76 PERCENT) U-236.                                20477001   17
+METHOD     (ACTIV) ACTIVATION.IRRADIATED WITH COBALT MONITOR FOR  20477001   18
+            2 YEARS. AFTEWARDS URANIUM WAS SEPARATED FROM THORIUM 20477001   19
+            AND FISS.PROD. BY REVERSED-PHASE PARTITION            20477001   20
+            CHROMATOGRAPHY                                        20477001   21
+MONITOR    (27-CO-59(N,G)27-CO-60,,SIG) FOR DETERMINATION         20477001   22
+            NEUTRON DOSE.                                         20477001   23
+HISTORY    (720119C)                                              20477001   24
+           (760112E)                                              20477001   25
+ERR-ANALYS  THE SOURCES OF SYSTEMATIC ERRORS ADDING UP TO A       20477001   26
+            QUADRATURE SUM OF +-1.2 PERC. AS WELL AS THOSE OF     20477001   27
+            RANDOM ERRORS ADDING UP TO A QUADRATURE SUM OF +-0.31 20477001   28
+            PERC. ARE GIVEN IN DETAIL IN TABLE 1, PAG.164.        20477001   29
+ENDBIB              27                                            20477001   30
+COMMON               1          3                                 20477001   31
+EN-DUMMY                                                          20477001   32
+MEV                                                               20477001   33
+ 2.5300E-08                                                       20477001   34
+ENDCOMMON            3                                            20477001   35
+ENDSUBENT           34                                            2047700199999
+SUBENT        20477002     860722                                 20477002    1
+BIB                  3          6                                 20477002    2
+REACTION   (92-U-232(N,G)92-U-233,,SIG,,MXW)                      20477002    3
+STATUS      DATA FROM TABLE 3, PAG. 165.                          20477002    4
+HISTORY    (720119C)                                              20477002    5
+           (760112E)                                              20477002    6
+           (860720A)HH ISO TO REAC                                20477002    7
+           (860722E)                                              20477002    8
+ENDBIB               6                                            20477002    9
+NOCOMMON             0          0                                 20477002   10
+DATA                 2          1                                 20477002   11
+DATA       DATA-ERR                                               20477002   12
+B          B                                                      20477002   13
+ 7.3100E+01 1.5000E+00                                            20477002   14
+ENDDATA              3                                            20477002   15
+ENDSUBENT           14                                            2047700299999
+ENDENTRY             2                                            2047799999999
+ENDREQUEST           1                                            Z999999999999

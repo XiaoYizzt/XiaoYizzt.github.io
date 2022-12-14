@@ -1,0 +1,65 @@
+REQUEST           1001   20010914          3     141047               0  0    0
+ENTRY            11855     830919                                 11855000    1
+SUBENT        11855001     830919                                 11855001    1
+BIB                  6          7                                 11855001    2
+INSTITUTE  (1USAANL)                                              11855001    3
+REFERENCE  (J,NSE,21,114,65)                                      11855001    4
+AUTHOR     (S.L.RUBY,R.ELLEFSON)                                  11855001    5
+TITLE      ACTIVATION CROSS SECTION FOR KRYPTON-83M.              11855001    6
+STATUS     (SCSRS)                                                11855001    7
+HISTORY    (760731T) TRANSLATED FROM SCISRS                       11855001    8
+           (830919A) CONVERTED TO REACTION FORMALISM              11855001    9
+ENDBIB               7                                            11855001   10
+NOCOMMON             0          0                                 11855001   11
+ENDSUBENT           10                                            1185500199999
+SUBENT        11855002     830919                                 11855002    1
+BIB                  4          4                                 11855002    2
+REACTION   (36-KR-82(N,G)36-KR-83-M,,SIG,,SPA)                    11855002    3
+DECAY-DATA (36-KR-83-M,1.9HR)                                     11855002    4
+DETECTOR   (PROPC)    PROPORTIONAL COUNTER                        11855002    5
+INC-SPECT   REACTOR SPECTRUM                                      11855002    6
+ENDBIB               4                                            11855002    7
+NOCOMMON             0          0                                 11855002    8
+DATA                 3          1                                 11855002    9
+EN-DUMMY   DATA       DATA-ERR                                    11855002   10
+MEV        B          B                                           11855002   11
+ 2.53   -08 3.     +00 1.     +00                                 11855002   12
+ENDDATA              3                                            11855002   13
+ENDSUBENT           12                                            1185500299999
+ENDENTRY             2                                            1185599999999
+ENTRY            11883     830919                                 11883000    1
+SUBENT        11883001     830919                                 11883001    1
+BIB                 10         12                                 11883001    2
+INSTITUTE  (1USAGIT)                                              11883001    3
+REFERENCE  (J,NP/A,120,329,6811)                                  11883001    4
+AUTHOR     (E.KONDAIAH,N.RANAKUMAR,R.W.FINK)                      11883001    5
+TITLE      THERMAL NEUTRON ACTIVATION CROSS SECTIONS FOR KR AND XE11883001    6
+           ISOTOPES.                                              11883001    7
+INC-SPECT  THERMAL SPECTRUM                                       11883001    8
+METHOD     (ACTIV) ACTIVATION                                     11883001    9
+DETECTOR   (GELI) GE(LI) DETECTOR                                 11883001   10
+MONITOR    (25-MN-55(N,G)25-MN-56,,SIG)                           11883001   11
+STATUS     (SCSRS)                                                11883001   12
+HISTORY    (760731T) TRANSLATED FROM SCISRS                       11883001   13
+           (830919A) CONVERTED TO REACTION FORMALISM              11883001   14
+ENDBIB              12                                            11883001   15
+COMMON               2          3                                 11883001   16
+MONIT      MONIT-ERR                                              11883001   17
+B          B                                                      11883001   18
+ 13.3       0.1                                                   11883001   19
+ENDCOMMON            3                                            11883001   20
+ENDSUBENT           19                                            1188300199999
+SUBENT        11883005     830919                                 11883005    1
+BIB                  2          2                                 11883005    2
+REACTION   (36-KR-82(N,G)36-KR-83-M,,SIG,,MXW)                    11883005    3
+DECAY-DATA (36-KR-83-M,1.86HR,DG,32.,1.0)                         11883005    4
+ENDBIB               2                                            11883005    5
+NOCOMMON             0          0                                 11883005    6
+DATA                 3          1                                 11883005    7
+EN-DUMMY   DATA       DATA-ERR                                    11883005    8
+MEV        B          B                                           11883005    9
+ 2.53   -08 2.00   +01 3.5    +00                                 11883005   10
+ENDDATA              3                                            11883005   11
+ENDSUBENT           10                                            1188300599999
+ENDENTRY             2                                            1188399999999
+ENDREQUEST           1                                            Z999999999999

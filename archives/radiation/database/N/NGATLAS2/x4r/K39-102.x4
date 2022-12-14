@@ -1,0 +1,61 @@
+REQUEST           1001   20010914          3     140027               0  0    0
+ENTRY            11507     860715                                 11507000    1
+SUBENT        11507001     860715                                 11507001    1
+BIB                 10         12                                 11507001    2
+INSTITUTE  (1USAORL)                                              11507001    3
+REFERENCE  (J,PR,88,412,52)                                       11507001    4
+AUTHOR     (H.POMERANCE)                                          11507001    5
+TITLE      THERMAL NEUTRON CAPTURE CROSS SECTIONS.                11507001    6
+FACILITY   (OSCIP) PILE OSCILLATOR                                11507001    7
+INC-SPECT  THERMAL SPECTRUM                                       11507001    8
+METHOD     (ACTIV).                                               11507001    9
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)                         11507001   10
+STATUS     (SCSRS)                                                11507001   11
+HISTORY    (760715T) TRANSLATED FROM SCISRS                       11507001   12
+           (821124A) CONVERTED TO REACTION FORMALISM              11507001   13
+           (860715A) ENERGY MOVED TO SUBENTRY 1.                  11507001   14
+ENDBIB              12                                            11507001   15
+COMMON               2          3                                 11507001   16
+EN-DUMMY   MONIT                                                  11507001   17
+EV         B                                                      11507001   18
+ 0.0253     95.                                                   11507001   19
+ENDCOMMON            3                                            11507001   20
+ENDSUBENT           19                                            1150700199999
+SUBENT        11507008     860715                                 11507008    1
+BIB                  1          1                                 11507008    2
+REACTION   (19-K-39(N,G)19-K-40,,SIG,,MXW)                        11507008    3
+ENDBIB               1                                            11507008    4
+NOCOMMON             0          0                                 11507008    5
+DATA                 2          1                                 11507008    6
+DATA       DATA-ERR                                               11507008    7
+B          PER-CENT                                               11507008    8
+ 1.87   +00    8.0                                                11507008    9
+ENDDATA              3                                            11507008   10
+ENDSUBENT            9                                            1150700899999
+ENDENTRY             2                                            1150799999999
+ENTRY            11603     830815                                 11603000    1
+SUBENT        11603001     830815                                 11603001    1
+BIB                  5          6                                 11603001    2
+INSTITUTE  (1USAORL)                                              11603001    3
+REFERENCE  (P,ORNL-4013,2,6609)                                   11603001    4
+AUTHOR     (J.H.GILLETTE)                                         11603001    5
+TITLE      THERMAL NEUTRON REACTIONS                              11603001    6
+HISTORY    (770607C)                                              11603001    7
+           (830815A) CONVERTED TO REACTION FORMALISM              11603001    8
+ENDBIB               6                                            11603001    9
+NOCOMMON             0          0                                 11603001   10
+ENDSUBENT            9                                            1160300199999
+SUBENT        11603002     830815                                 11603002    1
+BIB                  2          2                                 11603002    2
+REACTION   (19-K-39(N,G)19-K-40,,SIG,,MXW)                        11603002    3
+INC-SPECT  THERMAL SPECTRUM                                       11603002    4
+ENDBIB               2                                            11603002    5
+NOCOMMON             0          0                                 11603002    6
+DATA                 2          1                                 11603002    7
+EN-DUMMY   DATA                                                   11603002    8
+EV         B                                                      11603002    9
+ 0.0253     1.4                                                   11603002   10
+ENDDATA              3                                            11603002   11
+ENDSUBENT           10                                            1160300299999
+ENDENTRY             2                                            1160399999999
+ENDREQUEST           1                                            Z999999999999

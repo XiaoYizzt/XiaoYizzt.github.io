@@ -1,0 +1,674 @@
+REQUEST           1001   20010914          3     143235               0  0    0
+ENTRY            11938     830802                                 11938000    1
+SUBENT        11938001     830802                                 11938001    1
+BIB                  8         10                                 11938001    2
+INSTITUTE  (1USAORL)                                              11938001    3
+REFERENCE  (P,ORNL-3832,7,6509)                                   11938001    4
+AUTHOR     (P.M.LANTZ,C.R.BALDOCK,L.E.IDOM)                       11938001    5
+TITLE      THERMAL-NEUTRON CROSS SECTION AND RESONANCE INTEGRAL   11938001    6
+            OF GD-154 AND GD-156.                                 11938001    7
+INC-SPECT  REACTOR SPECTRUM                                       11938001    8
+METHOD     (ACTIV)                                                11938001    9
+MONITOR    (27-CO-59(N,G)27-CO-60,,SIG)                           11938001   10
+HISTORY    (770719C)                                              11938001   11
+           (830802A) CONVERTED TO REACTION FORMALISM              11938001   12
+ENDBIB              10                                            11938001   13
+NOCOMMON             0          0                                 11938001   14
+ENDSUBENT           13                                            1193800199999
+SUBENT        11938004     830802                                 11938004    1
+BIB                  1          1                                 11938004    2
+REACTION   (64-GD-156(N,G)64-GD-157,,SIG,,MXW)                    11938004    3
+ENDBIB               1                                            11938004    4
+NOCOMMON             0          0                                 11938004    5
+DATA                 2          1                                 11938004    6
+EN-DUMMY   DATA-APRX                                              11938004    7
+EV         B                                                      11938004    8
+ 0.0253     7.3                                                   11938004    9
+ENDDATA              3                                            11938004   10
+ENDSUBENT            9                                            1193800499999
+ENDENTRY             2                                            1193899999999
+ENTRY            12127     821012                                 12127000    1
+SUBENT        12127001     821012                                 12127001    1
+BIB                 11         15                                 12127001    2
+INSTITUTE  (1CANMCM)                                              12127001    3
+REFERENCE  (T,WALKER,5605)                                        12127001    4
+AUTHOR     (W.H.WALKER)                                           12127001    5
+TITLE      THE RELATIVE ABUNDANCES AND PILE NEUTRON CAPTURE CROSS 12127001    6
+           SECTIONS OF THE ISOTOPES OF SAMARIUM, GADOLINIUM,      12127001    7
+           DYSPROSIUM AND YTTERBIUM.                              12127001    8
+N-SOURCE   (REAC) NRX REACTOR                                     12127001    9
+SAMPLE     LARGE SAMPLES. MANY IMPURITIES (MOSTLY OTHER RARE      12127001   10
+            EARTHS).                                              12127001   11
+FACILITY   (SPECM) MASS SPECTROMETER                              12127001   12
+INC-SPECT  REACTOR SPECTRUM                                       12127001   13
+METHOD     SAMPLES SEPARATED BY MULTIPLE DISTILLATION.            12127001   14
+STATUS     (SCSRS)                                                12127001   15
+HISTORY    (760803T) TRANSLATED FROM SCISRS                       12127001   16
+           (821012A) CONVERTED TO REACTION FORMALISM              12127001   17
+ENDBIB              15                                            12127001   18
+NOCOMMON             0          0                                 12127001   19
+ENDSUBENT           18                                            1212700199999
+SUBENT        12127012     821012                                 12127012    1
+BIB                  1          1                                 12127012    2
+REACTION   (64-GD-156(N,G)64-GD-157,,SIG,,SPA)                    12127012    3
+ENDBIB               1                                            12127012    4
+NOCOMMON             0          0                                 12127012    5
+DATA                 2          1                                 12127012    6
+EN-DUMMY   DATA-MAX                                               12127012    7
+MEV        B                                                      12127012    8
+ 2.53   -08 1.4    +01                                            12127012    9
+ENDDATA              3                                            12127012   10
+ENDSUBENT            9                                            1212701299999
+ENDENTRY             2                                            1212799999999
+ENTRY            21619     860926                                 21619000    1
+SUBENT        21619001     860926                                 21619001    1
+BIB                 14         72                                 21619001    2
+INSTITUTE  (2FR BRC) EXPERIMENTAL SITE, S.J., J.V., G.G.          21619001    3
+           (1USALAS) D.D.                                         21619001    4
+           (2SWDTLU) L.N.                                         21619001    5
+REFERENCE  (R,CEA-R-5089,8108)                                    21619001    6
+           (W,GRENIER,800711) DETAILS ABOUT KNOXVILLE             21619001    7
+            CONFERENCE CONTRIBUTION.                              21619001    8
+           (J,BAP,24,871,7909) ABSTRACT OF PAPER FOR              21619001    9
+            CONFERENCE AT KNOXVILLE, OCTOBER 1979.                21619001   10
+           (J,NIM,153,493,78) EXPERIMENTAL METHOD.                21619001   11
+AUTHOR     (S.JOLY,J.VOIGNER,G.GRENIER,D.M.DRAKE,L.NILSSON)       21619001   12
+TITLE      -MEASUREMENT OF FAST NEUTRON CAPTURE CROSS SECTIONS    21619001   13
+            USING A NA-I SPECTROMETER.-                           21619001   14
+FACILITY   (VDG,2FR BRC) 4 MV VAN DE GRAAFF ACCELERATOR.          21619001   15
+            10 NSEC PULSE WIDTH, 1 MHZ REPETITION RATE.           21619001   16
+            THE PULSES WERE COMPRESSED TO A WIDTH OF ABOUT        21619001   17
+            1 NSEC BY A MOBLEY TYPE BUNCHING SYSTEM. THE          21619001   18
+            AVERAGE CURRENT ON THE COOLED TARGETS WAS ABOUT       21619001   19
+            4 MICRO-AMPERE.                                       21619001   20
+INC-SOURCE (P-LI7) FOR THE 500 KEV NEUTRON PRODUCTION,            21619001   21
+           (P-T  ) AT HIGHER ENERGIES. METALLIC LI OR T           21619001   22
+            ABSORBED IN TI ON TA OR AU BACKINGS. THE NEUTRON      21619001   23
+            ENERGY SPREAD AMOUNTED TO 60-80 KEV, DEPENDING        21619001   24
+            ON THE ENERGY.                                        21619001   25
+SAMPLE     .NATURAL ELEMENTS OR ISOTOPES. METALLIC SAMPLES        21619001   26
+            EXCEPT FOR THE GD-ISOTOPES WHICH WERE IN THE FORM     21619001   27
+            OF GD(2)-O(3). THE SAMPLES WERE DISKS OR              21619001   28
+            WERE POWDERS SEALED INTO CYLINDRICAL CONTAINERS.      21619001   29
+METHOD     (TOF  ) TIME-OF-FLIGHT. CROSS SECTIONS ARE             21619001   30
+            DERIVED FROM THE CAPTURE GAMMA-RAY SPECTRA,           21619001   31
+            RECORDED AS A FUNCTION OF THE TIME-OF-FLIGHT.         21619001   32
+            THE SPECTRA ARE RECORDED IN ANTI-COMPTON AND          21619001   33
+            SINGLE ESCAPE MODE SIMULTANEOUSLY.                    21619001   34
+DETECTOR   (COIN,NAICR,NAICR) 766 MM DIAM * 152 MM LONG           21619001   35
+            NA-I-(TL) CRYSTAL ( 10 PERC RESOLUTION FOR            21619001   36
+            THE 662 KEV CS-137 GAMMA LINE) CENTERED IN AN         21619001   37
+            ANNULAR NA-I-(TL)-CRYSTAL, 304 MM LONG, OUTER         21619001   38
+            DIAM 279 MM, INNER DIAM 89 MM, (30 PERC               21619001   39
+            RESOLUTION FOR 511 KEV GAMMA LINE OF NA-24).          21619001   40
+            THESE DETECTORS ARE USED IN ANTI-COMPTON-MODE         21619001   41
+            AND IN SINGLE-ESCAPE-MODE SIMULTANEOUSLY.             21619001   42
+           (SCIN ) PLASTIC SCINTILLATOR FOR NEUTRON FLUX          21619001   43
+            DETERMINATION.                                        21619001   44
+           (LONGC) CALIBRATED DIRECTIONAL LONG COUNTER            21619001   45
+            FOR NEUTRON FLUX DETERMINATION.                       21619001   46
+ANALYSIS   .THE PULSE HEIGHT SPECTRUM IS UNFOLDED.                21619001   47
+           .THE NUMBER OF CAPTURES IS THE RATIO BETWEEN THE       21619001   48
+            EXPERIMENTAL GAMMA-RAY SPECTRUM AND THE               21619001   49
+            COMPUTED GAMMA-RAY DISTRIBUTION PER CAPTURE.          21619001   50
+STATUS     .DATA FROM PRIVATE COMMUNICATION OF GRENIER.           21619001   51
+HISTORY    (800711C) G.C.                                         21619001   52
+           (800808E)                                              21619001   53
+           (860710A)HH MAIN REF ADDED                             21619001   54
+           (860722E)                                              21619001   55
+CORRECTION .FOR NEUTRON AND GAMMA-RAY ATTENUATION IN THE          21619001   56
+            SAMPLES.                                              21619001   57
+           .FOR MULTIPLE SCATTERING OF THE NEUTRONS IN THE        21619001   58
+            SAMPLE.                                               21619001   59
+           .FOR THE TRANSMISSION OF THE NEUTRONS THROUGH THE      21619001   60
+            SAMPLE.                                               21619001   61
+           .FOR THE NEUTRON SOURCE ANISOTROPY.                    21619001   62
+           .TOF INDEPENDENT GAMMA-RAYS.                           21619001   63
+           .BACKGROUND.                                           21619001   64
+           .TOF SLEWING OF THE LOWER PULSE HEIGHTS.               21619001   65
+           .GAMMA-DETECTION EFFICIENCY.                           21619001   66
+ERR-ANALYS .THE TOTAL ERROR INCLUDES                              21619001   67
+            - THE STATISTICAL ERROR.                              21619001   68
+            - ERRORS ON THE GEOMETRICAL FACTORS.                  21619001   69
+            - ERRORS OF THE EFFICIENCIES, BOTH OF THE             21619001   70
+              GAMMA-RAY AND THE NEUTRON DETECTORS.                21619001   71
+            - ERRORS OF THE EXTRAPOLATION OF THE GAMMA-RAY        21619001   72
+              STRENGTH FUNCTION.                                  21619001   73
+            - ERRORS OF THE LEVEL DENSITY.                        21619001   74
+ENDBIB              72                                            21619001   75
+NOCOMMON             0          0                                 21619001   76
+ENDSUBENT           75                                            2161900199999
+SUBENT        21619007     800808                                 21619007    1
+BIB                  3          4                                 21619007    2
+REACTION   (64-GD-156(N,G)64-GD-157,,SIG)                         21619007    3
+STATUS     .DATA FROM PRIVATE COMMUNICATION OF GRENIER.           21619007    4
+HISTORY    (800711C) G.C.                                         21619007    5
+           (800808E)                                              21619007    6
+ENDBIB               4                                            21619007    7
+NOCOMMON             0          0                                 21619007    8
+DATA                 4          3                                 21619007    9
+EN         EN-RSL     DATA       DATA-ERR                         21619007   10
+MEV        MEV        MB         MB                               21619007   11
+ 5.0000E-01 8.0000E-02 2.1600E+02 2.7000E+01                      21619007   12
+ 1.0000E+00 7.0000E-02 2.1100E+02 2.4000E+01                      21619007   13
+ 2.5000E+00 6.0000E-02 7.8000E+01 9.0000E+00                      21619007   14
+ENDDATA              5                                            21619007   15
+ENDSUBENT           14                                            2161900799999
+ENDENTRY             2                                            2161999999999
+ENTRY            22006     910125                                 22006000    1
+SUBENT        22006001     910125                                 22006001    1
+BIB                 15         41                                 22006001    2
+REFERENCE  (J,NSE,93,43,86)                                       22006001    3
+TITLE      -CAPTURE CROSS SECTIONS AND GAMMA-RAY SPECTRA FROM     22006001    4
+            THE INTERACTION OF 0.5 TO 3.0 MEV NEUTRON WITH        22006001    5
+            NUCLEI IN THE MASS RANGE A=63 TO 209                  22006001    6
+AUTHOR     (J.VOIGNIER,S.JOLY,G.GRENIER)                          22006001    7
+INSTITUTE  (2FR BRC)                                              22006001    8
+FACILITY   (VDG)                                                  22006001    9
+INC-SOURCE (P-T)                                                  22006001   10
+           (P-LI7)                                                22006001   11
+METHOD     (TOF)                                                  22006001   12
+            PROMPT GAMMA RAY TECHNIQUE WITH EXTRAPOLATION         22006001   13
+            OF THE PULS HEIGHT SPECTRUM TO   ZERO ENERGY BY MEANS 22006001   14
+            OF A STATISTICAL MODEL CALCULATION                    22006001   15
+DETECTOR   (SCIN)NAI SCINTILLATOR FOR PROMPT GAMMAS               22006001   16
+           (LONGC) BF3 FOR NEUTRON FLUENCE DETECTION              22006001   17
+MONITOR    .LONGCOUNTER WITH BF3 COUNTERS                         22006001   18
+SAMPLE     .50 OR 60 MM DIAMETER DISKS 1.5 TO 16 MM THICK         22006001   19
+CORRECTION .FOR GAMMA RAY ATTENUATION IN THE SAMPLES              22006001   20
+           .NEUTRON SOURCE ANISOTROPY                             22006001   21
+           .NEUTRON ATTENUATION IN THE SAMPLE AND IN THE AIR      22006001   22
+           .SELF SHIELDING CORRECTION                             22006001   23
+           .MULTIPLE SCATTERING CORRECTION                        22006001   24
+ERR-ANALYS (ERR-T)CONSISTS OF                        PER-CENT     22006001   25
+            STATISTICAL ERROR                          1.5 -30.   22006001   26
+            EFFICIENCY OF GAMMA RAY SPECTROMETER           6.     22006001   27
+            NEUTRON LONG COUNTER EFFICIENCY            2.0 - 4.0  22006001   28
+            GAMMA RAY ATTENUATION IN THE SAMPLE        1.0 - 2.5  22006001   29
+            TARGET TO SAMPLE DISTANCE                  1.5 - 3.0  22006001   30
+            NEUTRON TRANSMISSION THROUGH SAMPLE        0.5 - 4.0  22006001   31
+            NEUTRON MULTIPLE SCATTERING                    2.0    22006001   32
+            EXTRAPOLATION OF GAMMA STRENGTH FUNCTION   1.5 - 4.0  22006001   33
+            TOTAL RELATIVE ERROR ON THE CAPTURE X-SECT 7.0 -31.0  22006001   34
+ANALYSIS   .SPECTRUM FITTING METHOD                               22006001   35
+STATUS     .DATA TAKEN FROM REFERENCE                             22006001   36
+HISTORY    (860625C)HH                                            22006001   37
+           (860703E)                                              22006001   38
+           (890917A) N.O. SUBENTRIES 28-80 ADDED.                 22006001   39
+           (891211E)                                              22006001   40
+           (910125A) S.W. SUBENT 081 ADDED, SUBENT 048 TARGET     22006001   41
+                      CORRECTED.                                  22006001   42
+           (910205E)                                              22006001   43
+ENDBIB              41                                            22006001   44
+NOCOMMON             0          0                                 22006001   45
+ENDSUBENT           44                                            2200600199999
+SUBENT        22006011     860703                                 22006011    1
+BIB                  3          4                                 22006011    2
+REACTION   (64-GD-156(N,G)64-GD-157,,SIG)                         22006011    3
+STATUS     .DATA TAKEN FORM REFERENCE TABLE VI                    22006011    4
+HISTORY    (860625C)HH                                            22006011    5
+           (860703E)                                              22006011    6
+ENDBIB               4                                            22006011    7
+NOCOMMON             0          0                                 22006011    8
+DATA                 3          3                                 22006011    9
+EN         DATA       ERR-T                                       22006011   10
+MEV        MB         MB                                          22006011   11
+ 5.0000E-01 2.1600E+02 2.7000E+01                                 22006011   12
+ 1.0000E+00 2.1100E+02 2.4000E+01                                 22006011   13
+ 2.5000E+00 7.8000E+01 9.0000E+00                                 22006011   14
+ENDDATA              5                                            22006011   15
+ENDSUBENT           14                                            2200601199999
+ENDENTRY             2                                            2200699999999
+ENTRY            22386   19990527   19991117                      22386000    1
+SUBENT        22386001   19990527   19991117                      22386001    1
+BIB                 11         33                                 22386001    2
+TITLE      .STELLAR NEUTRON CAPTURE CROSS SECTIONS OF THE         22386001    3
+            GADOLINIUM ISOTOPES                                   22386001    4
+AUTHOR     (K.WISSHAK,F.VOSS,F.KAEPPELER,K.GUBER,L.KAZAKOV,       22386001    5
+           N.KORNILOV,G.REFFO)                                    22386001    6
+INSTITUTE  (2GERKFK) WISSHAK, VOSS, KAEPPELER                     22386001    7
+           (1USAORL) GUBER                                        22386001    8
+           (4RUSFEI) KAZAKOV, KORNILOV                            22386001    9
+           (2ITYBOL) REFFO                                        22386001   10
+REFERENCE  (J,PR/C,52,(5),2762,199511)  MAIN REFERENCE, DATA GIVEN22386001   11
+           (J,PR/C,45,(5),2470,199205)  EXPERIMENTAL DETAILS      22386001   12
+           (J,PR/C,42,(4),1731,199010)  EXPERIMENTAL DETAILS      22386001   13
+           (J,NIM/A,292,595,1990)       EXPERIMENTAL DETAILS      22386001   14
+FACILITY   (VDG,2GERKFK)  3.75 MV VAN DE GRAAFF ACCELERATOR       22386001   15
+                    PULSE WIDTH IS 1 NS, REPETITION RATE 250 kHz, 22386001   16
+                    AVERAGE BEAM CURRENT 1.5  MICROAMP            22386001   17
+INC-SOURCE (P-LI7) METALLIC LI TARGET OF ABOUT 1 MG/CM2           22386001   18
+INC-SPECT  .PROTON BEAM ENERGY ADJUSTED SO TO BE 30 AND 100 KEV   22386001   19
+            ABOVE THE REACTION 7-LI(P,N)7-BE THRESHOLD 1.881 MEV  22386001   20
+            GIVING NEUTRONS IN ENERGY RANGES 3-100, 3-200 KEV     22386001   21
+SAMPLE     .MONITOR SAMPLE AU-197, 0.3 MM == 2.2475E-4 ATOMS/B    22386001   22
+            THICKNESS,WEIGHT 1.2990 GRAM, ENCLOSING ALUMINIUM CAN 22386001   23
+            0.1849 G                                              22386001   24
+           .GRAPHITE SAMPLE 2.5 MM == 21.6874 ATOMS/B THICKNESS,  22386001   25
+            0.7644 GRAM WEIGHT, ENCLOSING ALUMINIUM CAN 0.2136 G  22386001   26
+           .EMPTY ALUMINIUM CAN 0.1810 GRAM                       22386001   27
+CORRECTION .CORRECTIONS WERE MADE ON MULTIPLE SCATTERING,         22386001   28
+            ON NEUTRON SELF-ABSORPTION, ON UNDETECTED EVENTS      22386001   29
+ERR-ANALYS (ERR-2) ERROR DUE TO FLIGHT PATH UNCERTAINTY           22386001   30
+           (ERR-3) ERROR DUE TO NEUTRON FLUX NORMALIZATION        22386001   31
+           (ERR-4) ERROR DUE TO IMPURITIES OF THE SAMPLES         22386001   32
+                   STANDARD                                       22386001   33
+HISTORY    (19980628C)  + +  COMPILED BY S.MAEV   + +             22386001   34
+           (19990527A) DATE is corrected                          22386001   35
+ENDBIB              33                                            22386001   36
+COMMON               3          3                                 22386001   37
+ERR-2      ERR-3      ERR-4                                       22386001   38
+PER-CENT   PER-CENT   PER-CENT                                    22386001   39
+  0.1        0.2        0.2                                       22386001   40
+ENDCOMMON            3                                            22386001   41
+ENDSUBENT           40                                            2238600199999
+SUBENT        22386011   19990527   19991117                      22386011    1
+BIB                  8         30                                 22386011    2
+REACTION   (64-GD-156(N,G)64-GD-157,,SIG,,AV)   AVERAGED OVER     22386011    3
+            ENERGY INTERVAL GIVEN IN DATA SECTION                 22386011    4
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)                         22386011    5
+MONIT-REF  (,RATYNSKI+,J,PR/C,37,595,1988)                        22386011    6
+METHOD     (TOF)  FLIGHT PATH IS 78.8 CM                          22386011    7
+DETECTOR   (SCIN,D4PI) KARLSRUHE 4PI-BA-F2 DETECTOR CONSISTING OF 22386011    8
+                   42 HEXAGONAL AND PENTAGONAL CRYSTALS FORMING   22386011    9
+            A SPHERICAL BA-F2 SHELL OF 15 CM THICKNESS AND 20 CM  22386011   10
+            INNER DIAMETER. RESOLUTION IS 7 PC AT 2.5 MEV GAMMA   22386011   11
+            ENERGY, TIME RESOLUTION 500 PS, PEAK EFFICIENCY       22386011   12
+            90 PC AT 1 MEV                                        22386011   13
+SAMPLE     .OXIDE POWDER DISK ENRICHED BY ISOTOPE IN QUESTION     22386011   14
+            PLACED IN ALUMINIUM CAN 0.2138 GRAM.                  22386011   15
+            SUM OF ALL ISOTOPES THICKNESS IS 2.3 MM == 3.1241E-3  22386011   16
+            ATOMS/B, WEIGHT OF GD2-O3 OXIDE IS 1.6507 GRAM.       22386011   17
+            WEIGHT IMPURITIES CONTENT IS LESS THAN 0.2 PC         22386011   18
+            GD-152 CONTENT IS LESS THAN 0.1 PC,                   22386011   19
+            GD-154 CONTENT IS 0.20 PC, GD-155 CONTENT IS 1.30 PC, 22386011   20
+            GD-156 CONTENT IS 93.50 PC, GD-157 CONTENT IS 3.30 PC 22386011   21
+            GD-158 CONTENT IS 1.30 PC, GD-160 CONTENT IS 0.40 PC  22386011   22
+STATUS     (TABLE)DATA ARE TAKEN FROM TABLE VIII OF MAIN REFERENC 22386011   23
+           (DEP,22386005)                                         22386011   24
+ERR-ANALYS (ERR-T) TOTAL ERROR. 1.5 PC STANDARD GOLD CROSS-SECTIO 22386011   25
+                   ERROR IS NOT INCLUDED                          22386011   26
+           (ERR-1) TOTAL SYSTEMATIC ERROR                         22386011   27
+           (ERR-5) ERROR DUE TO ISOTOPIC COMPOSITION OF SAMPLE    22386011   28
+           (ERR-6) ERROR DUE TO ISOTOPIC CORRECTION OF SAMPLE     22386011   29
+           (ERR-7) ERROR DUE TO MULTIPLE SCATTERING AND SELF-     22386011   30
+                   SHIELDING IN SAMPLE                            22386011   31
+           (ERR-8) ERROR DUE TO UNOBSERVED EVENTS                 22386011   32
+ENDBIB              30                                            22386011   33
+COMMON               5          3                                 22386011   34
+ERR-1      ERR-5      ERR-6      ERR-7      ERR-8                 22386011   35
+PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT              22386011   36
+  0.6        0.2        0.2        0.4        0.3                 22386011   37
+ENDCOMMON            3                                            22386011   38
+DATA                 6         18                                 22386011   39
+EN-MIN     EN-MAX     DATA       ERR-S      ERR-T      MONIT      22386011   40
+KEV        KEV        MB         PER-CENT   PER-CENT   MB         22386011   41
+  3.         5.        1949.       5.6        5.6       2266.7    22386011   42
+  5.         7.5       1401.       2.9        3.0       1726.7    22386011   43
+  7.5       10.        1158.       2.5        2.6       1215.7    22386011   44
+ 10.        12.5        938.3      2.0        2.1       1066.7    22386011   45
+ 12.5       15.         826.3      1.7        1.8        878.0    22386011   46
+ 15.        20.         751.1      1.1        1.3        738.8    22386011   47
+ 20.        25.         680.5      0.9        1.1        600.0    22386011   48
+ 25.        30.         611.2      0.8        1.0        570.8    22386011   49
+ 30.        40.         562.6      0.6        0.8        500.4    22386011   50
+ 40.        50.         528.3      0.6        0.8        433.3    22386011   51
+ 50.        60.         477.5      0.6        0.8        389.6    22386011   52
+ 60.        80.         412.7      0.5        0.8        349.4    22386011   53
+ 80.       100.         353.1      0.5        0.8        298.3    22386011   54
+100.       120.         307.9      0.6        0.8        290.1    22386011   55
+120.       150.         260.7      0.9        1.1        274.1    22386011   56
+150.       175.         230.6      1.0        1.2        263.7    22386011   57
+175.       200.         204.9      1.1        1.3        252.6    22386011   58
+200.       225.         198.3      1.4        1.5        248.5    22386011   59
+ENDDATA             20                                            22386011   60
+ENDSUBENT           59                                            2238601199999
+SUBENT        22386017   19990527   19991117                      22386017    1
+BIB                  6         27                                 22386017    2
+REACTION   (64-GD-156(N,G)64-GD-157,,SIG,,MXW) EN-MEAN IN DATA    22386017    3
+            SECTION IS (3/2)*KT                                   22386017    4
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)                         22386017    5
+ANALYSIS   .OBTAINED BY INTEGRATING CROSS-SECTION FROM ZERO TO    22386017    6
+            700 KEV USING DIFFERENT EXPRESSIONS FOR CS, NAMELY -  22386017    7
+            CONTRIBUTION I-1 AT LOW ENERGIES 0 - 3 KEV IS CALCU-  22386017    8
+            LATED IN THREE DIFFERENT WAYS - FIRST, FROM STATIS-   22386017    9
+            TICAL MODEL CALCULATIONS FITTED TO ORESENT RESULTS    22386017   10
+            AND RESONANCE PARAMETERS DATA. SECOND, CROSS-SECTIONS 22386017   11
+            FROM JOINT EVALUATED FILE WAS NORMALIZED TO PRESENT   22386017   12
+            DATA FROM 3 TO 10 KEV. THIRD, CROSS-SECTIONS WERE     22386017   13
+            CALCULATED ACCORDING TO UHL'S METHOD.                 22386017   14
+            CONTRIBUTION I-2 COVERS THE RANGE OF PRESENT EXPERI-  22386017   15
+            MENT, FOR PART I-3 ABOVE 225 KEV THIS ENERGY RANGE    22386017   16
+            CROSS-SECTIONS WERE TAKEN FROM JOINT EVALUATED FILE.  22386017   17
+SAMPLE     .OXIDE POWDER DISK ENRICHED BY ISOTOPE IN QUESTION     22386017   18
+            PLACED IN ALUMINIUM CAN 0.2138 GRAM.                  22386017   19
+            SUM OF ALL ISOTOPES THICKNESS IS 2.3 MM == 3.1241E-3  22386017   20
+            ATOMS/B, WEIGHT OF GD2-O3 OXIDE IS 1.6507 GRAM.       22386017   21
+            WEIGHT IMPURITIES CONTENT IS LESS THAN 0.2 PC         22386017   22
+            GD-152 CONTENT IS LESS THAN 0.1 PC,                   22386017   23
+            GD-154 CONTENT IS 0.20 PC, GD-155 CONTENT IS 1.30 PC, 22386017   24
+            GD-156 CONTENT IS 93.50 PC, GD-157 CONTENT IS 3.30 PC 22386017   25
+            GD-158 CONTENT IS 1.30 PC, GD-160 CONTENT IS 0.40 PC  22386017   26
+STATUS     (TABLE)DATA ARE TAKEN FROM TABLE X OF MAIN REFERENCE   22386017   27
+           (DEP,22386011)                                         22386017   28
+ERR-ANALYS (ERR-T) TOTAL ERROR NOT INCLUDES STANDARD'S ERROR      22386017   29
+ENDBIB              27                                            22386017   30
+NOCOMMON             0          0                                 22386017   31
+DATA                 3         13                                 22386017   32
+EN-MEAN    DATA       ERR-T                                       22386017   33
+KEV        MB         MB                                          22386017   34
+ 15.        1117.      20.                                        22386017   35
+ 18.        1004.      15.                                        22386017   36
+ 30.         760.4      7.6                                       22386017   37
+ 37.5        676.8      6.0                                       22386017   38
+ 45.         615.2      5.1                                       22386017   39
+ 60.         528.0      4.0                                       22386017   40
+ 75.         468.0      3.6                                       22386017   41
+ 78.         458.2      3.4                                       22386017   42
+ 90.         424.1      3.2                                       22386017   43
+105.         390.3      3.0                                       22386017   44
+120.         363.9      3.1                                       22386017   45
+135.         342.5      3.4                                       22386017   46
+150.         324.5      3.6                                       22386017   47
+ENDDATA             15                                            22386017   48
+ENDSUBENT           47                                            2238601799999
+ENDENTRY             3                                            2238699999999
+ENTRY            40520   19981103   19990308                      40520000    1
+SUBENT        40520001   19981103   19990308                      40520001    1
+BIB                 13         49                                 40520001    2
+INSTITUTE  (4RUSFEI)                                              40520001    3
+REFERENCE  (R,YK-22,29,1977) EXPERIMENTAL DETAILS                 40520001    4
+AUTHOR     (V.N.KONONOV,B.D.JURLOV,E.D.POLETAEV,                  40520001    5
+           V.M.TIMOKHOV,G.N.MANTUROV)                             40520001    6
+TITLE       AVERAGE NEUTRON RADIATIVE CAPTURE CROSS-SECTION       40520001    7
+            IN THE ENERGY RANGE 5 - 30 KEV FOR IN,TA,AU           40520001    8
+            AND ND, SM, EU, GD, ER ISOTOPES                       40520001    9
+FACILITY   (VDG) FEI PULSED VAN-DE-GRAAF                          40520001   10
+                    ACCELERATOR EG-1                              40520001   11
+INC-SOURCE (P-LI7) PROTON-LITHIUM 7                               40520001   12
+                     METAL LITHIUM TARGETS WERE USED              40520001   13
+METHOD     (TOF) TIME-OF-FLIGHT METHOD                            40520001   14
+                    WITH TIME RESOLUTION 12. NSEC/M AND           40520001   15
+                    7 NSEC/M AT 0.8M AND 1.4M, ACCORDINGLY.       40520001   16
+DETECTOR   (STANK) LIQUID SCINTILLATION DETECTOR                  40520001   17
+                    WITH HEXAFLUOROBENZENE,VOLUME 17 LITRES       40520001   18
+                    B-10-PLUG AND NAI(TL)DETECTOR                 40520001   19
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)   ENERGY DEPENDENCE OF  40520001   20
+                    NEUTRON FLUX MEASURED USING                   40520001   21
+                    B-10 (N,ALPHA GAMMA) REACTION AND             40520001   22
+                    ITS ENERGY DEPENDENCE AS GIVEN                40520001   23
+                    BY MAGURNO B.A.,ENDF/B-4 CROSS                40520001   24
+                    SECTION MEASUREMENT STANDARDS,                40520001   25
+                    BNL-NCS-50464,1975.                           40520001   26
+                    FOR ABSOLUTE NORMALIZATION AU CAPTURE         40520001   27
+                    CROSS-SECTION AT NEUTRON ENERGY 30.KEV        40520001   28
+                     TAKEN FROM POENITZ W.P.ET AL,J.NUC.ENERGY,   40520001   29
+                    22,505,1968, WAS USED                         40520001   30
+CORRECTION  BACKGROUND CORRECTION,CORRECTIONS ON THE MULTIPLE     40520001   31
+            NEUTRON SCATTERING, RESONANCE SELF-SHIELDIND AND      40520001   32
+            ISOTOPIC IMPURITIES CONTENT                           40520001   33
+ERR-ANALYS (ERR-T)    ALL ERRORS SHOWN ON THE DATA ARE TOTAL      40520001   34
+           (ERR-1)    MAXIMAL SISTEMATIC UNCERTAINTIY OF THE DETE-40520001   35
+              CTION EFFICIENCY. THEY ARE 5.0-6.5 PERCENT          40520001   36
+           (ERR-2)    STANDARD UNCERTAINTIES 5.0 PERCENT          40520001   37
+           (ERR-3)    CORRECTION UNCERTAINTIES 1.0-3.0 PERCENT    40520001   38
+           (ERR-S)    MAXIMAL STATISTICAL ERROR 12.0-1.0 PERCENT  40520001   39
+STATUS     (APRVD) THE DATA APPROUVED BY AUTHORS                  40520001   40
+                       THIS DATA SUPERSEDE OLD DATA IN SUBENTRIES 40520001   41
+                       40222002-40222003,40222006,                40520001   42
+                       40222008-40222010,40222012-40222013        40520001   43
+           (COREL,40222001)                                       40520001   44
+           (COREL,41325001)                                       40520001   45
+HISTORY    (19770124C)                                            40520001   46
+           (19870312A) ONE AUTHOR NAME CORRECTED, DATA-ERRORS     40520001   47
+                     IN COMMON SECTION INTRODUCED, ISO-QUANT INTO 40520001   48
+                     REACTION CONVERTED AND  REFERENCES IN PROPER 40520001   49
+                     SUBENTRIES PLACED                            40520001   50
+           (19981103U)  CORRECTED BY CJD                          40520001   51
+ENDBIB              49                                            40520001   52
+COMMON               6          3                                 40520001   53
+EN-RSL     EN-RSL     ERR-1      ERR-2      ERR-3      ERR-S      40520001   54
+NSEC/M     NSEC/M     PER-CENT   PER-CENT   PER-CENT   PER-CENT   40520001   55
+  7.        12.        6.5        5.0        3.0        12.0      40520001   56
+ENDCOMMON            3                                            40520001   57
+ENDSUBENT           56                                            4052000199999
+SUBENT        40520021     870312                                 40520021    1
+BIB                  3          4                                 40520021    2
+REACTION   (64-GD-156(N,G)64-GD-157,,SIG) (N,GAMMA) CROSS-SECTION 40520021    3
+SAMPLE      OXIDE GD2-O3 POWDER 95.5 PERCENT ENRICHMENT.          40520021    4
+            DIAMETER 40MM. THICKNESS 0.0106 NUCLEI/BARN           40520021    5
+REFERENCE  (J,YF,27,10,78)                                        40520021    6
+ENDBIB               4                                            40520021    7
+NOCOMMON             0          0                                 40520021    8
+DATA                 4         38                                 40520021    9
+EN-MIN     EN-MAX     DATA       ERR-T                            40520021   10
+KEV        KEV        MB         MB                               40520021   11
+  5.         8.       2236.      240.                             40520021   12
+  8.        12.       1380.      142.                             40520021   13
+ 12.        16.       1057.      106.                             40520021   14
+ 16.        20.        833.       79.                             40520021   15
+ 20.        24.        731.       67.                             40520021   16
+ 24.        28.        636.       51.                             40520021   17
+ 28.        32.        606.       50.                             40520021   18
+ 32.        36.        560.       46.                             40520021   19
+ 36.        40.        533.       44.                             40520021   20
+ 40.        44.        512.       42.                             40520021   21
+ 44.        48.        490.       40.                             40520021   22
+ 48.        52.        471.       39.                             40520021   23
+ 52.        56.        451.       37.                             40520021   24
+ 56.        60.        438.       36.                             40520021   25
+ 60.        65.        426.       35.                             40520021   26
+ 65.        70.        400.       33.                             40520021   27
+ 70.        75.        391.       32.                             40520021   28
+ 75.        80.        393.       32.                             40520021   29
+ 80.        88.        373.       30.                             40520021   30
+ 88.        96.        338.       28.                             40520021   31
+ 96.       104.        322.       26.                             40520021   32
+104.       112.        316.       26.                             40520021   33
+112.       120.        311.       26.                             40520021   34
+120.       128.        301.       24.                             40520021   35
+128.       136.        299.       24.                             40520021   36
+136.       144.        290.       22.                             40520021   37
+144.       152.        269.       22.                             40520021   38
+152.       160.        265.       22.                             40520021   39
+160.       168.        250.       21.                             40520021   40
+168.       176.        229.       19.                             40520021   41
+176.       184.        216.       18.                             40520021   42
+184.       192.        201.       17.                             40520021   43
+192.       200.        187.       16.                             40520021   44
+200.       230.        181.       15.                             40520021   45
+230.       260.        174.       15.                             40520021   46
+260.       290.        168.       14.                             40520021   47
+290.       320.        161.       14.                             40520021   48
+320.       350.        150.       13.                             40520021   49
+ENDDATA             40                                            40520021   50
+ENDSUBENT           49                                            4052002199999
+ENDENTRY             2                                            4052099999999
+ENTRY            41244   19990315   19990705                      41244000    1
+SUBENT        41244001   19990315   19990705                      41244001    1
+BIB                 10         16                                 41244001    2
+INSTITUTE  (4RUSFEI)                                              41244001    3
+           (4UKRIJI) PILIPETS.  4CCPIFU AT THE TIME OF PAPER      41244001    4
+                                PUBLICATION                       41244001    5
+AUTHOR     (E.I.GRISHANIN,G.M.KUKAVADZE,V.I.LEPENDIN,             41244001    6
+           L.YA.MAMELOVA,I.G.MOROZOV,V.V.ORLOV,D.T.PILIPETS)      41244001    7
+TITLE       GD-156 ABSORPTION CROSS SECTION MEASUREMENT           41244001    8
+REFERENCE  (J,AE,19,(5),459,196511) DATA FOR GD-156 ARE GIVEN     41244001    9
+           (J,AE,22,(2),133,196702) DATA FOR GD-154 AND GD-156    41244001   10
+FACILITY   (REAC,4UKRIJI)  REACTOR WWR-M                          41244001   11
+METHOD     (ASEP)                                                 41244001   12
+MONITOR     GIVEN IN PROPER SUBENTRY IF AVAILABLE                 41244001   13
+ERR-ANALYS (DATA-ERR)  ERRORS ARE NOT SPECIFIED                   41244001   14
+STATUS     (SCSRS)                                                41244001   15
+HISTORY    (19970428C)  +  + COMPILED AT THE CENTRE CJD - S.MAEV  41244001   16
+           (19990315U)  NEW DATES INTRODUCED. REFERENCES MOVED    41244001   17
+                        TO SUBENT 41244001                        41244001   18
+ENDBIB              16                                            41244001   19
+NOCOMMON             0          0                                 41244001   20
+ENDSUBENT           19                                            4124400199999
+SUBENT        41244002   19990315   19990622                      41244002    1
+BIB                  8         16                                 41244002    2
+REACTION   (64-GD-156(N,G)64-GD-157,,SIG,,MXW)                    41244002    3
+MONITOR    (64-GD-157(N,G)64-GD-158,,SIG)                         41244002    4
+SAMPLE      GADOLINIUM SAMPLE WITH GD-156 CONTENT 94.86 PC,       41244002    5
+             GD-152 CONTENT 0.01 PC, GD-154 CONTENT 0.14 PC,      41244002    6
+             GD-155 CONTENT 0.83 PC, GD-157 CONTENT 2.93 PC,      41244002    7
+             GD-158 CONTENT 0.89 PC, GD-160 CONTENT 0.34 PC       41244002    8
+INC-SPECT   REACTOR SPECTRUM                                      41244002    9
+ANALYSIS    CALCULATED FROM MEASURED REACTOR VALUE USING          41244002   10
+            SATURATED GD-156/GD-157 CONCENTRATION RATIO           41244002   11
+STATUS     (COREL,41244004)                                       41244002   12
+           (COREL,41244005)                                       41244002   13
+           (PRELM)                                                41244002   14
+COMMENT    .NEUTRON SPECTRUM TEMPERATURE IN DATA SECTION CORRES-  41244002   15
+            PONDS TO 400 DEGREE KELVIN                            41244002   16
+HISTORY    (19970428T)  * *  CONVERTED FROM SUBENT 80372002  * *  41244002   17
+           (19990315U)  ENERGY UNITS CONVERTED FROM DEG-K TO EV   41244002   18
+ENDBIB              16                                            41244002   19
+NOCOMMON             0          0                                 41244002   20
+DATA                 5          1                                 41244002   21
+EN-MEAN    EN-ERR     DATA       DATA-ERR   MONIT                 41244002   22
+EV         EV         B          B          B                     41244002   23
+ 3.4500E-02 2.5800E-03 9.8000E+00 2.5000E+00 1.5000E+05           41244002   24
+ENDDATA              3                                            41244002   25
+ENDSUBENT           24                                            4124400299999
+SUBENT        41244003   19990315   19990705                      41244003    1
+BIB                  6         12                                 41244003    2
+REACTION   (64-GD-156(N,G)64-GD-157,,SIG,,MXW)                    41244003    3
+SAMPLE      GADOLINIUM SAMPLE WITH GD-156 CONTENT 94.86 PC,       41244003    4
+             GD-152 CONTENT 0.01 PC, GD-154 CONTENT 0.14 PC,      41244003    5
+             GD-155 CONTENT 0.83 PC, GD-157 CONTENT 2.93 PC,      41244003    6
+             GD-158 CONTENT 0.89 PC, GD-160 CONTENT 0.34 PC       41244003    7
+INC-SPECT   THERMAL SPECTRUM                                      41244003    8
+ANALYSIS    CALCULATED FROM REACTOR VALUE ASSUMING 1/V            41244003    9
+            GD-156 SIGMA DEPENDENCE                               41244003   10
+STATUS     (DEP,41244002)                                         41244003   11
+           (PRELM)                                                41244003   12
+HISTORY    (19970428T)  * *  CONVERTED FROM SUBENT 80372003  * *  41244003   13
+           (19990406U)  'SPA' CHANGED TO 'MXW' IN SF8             41244003   14
+ENDBIB              12                                            41244003   15
+NOCOMMON             0          0                                 41244003   16
+DATA                 3          1                                 41244003   17
+EN-DUMMY   DATA       DATA-ERR                                    41244003   18
+MEV        B          B                                           41244003   19
+ 2.5300E-08 1.3000E+01 3.0000E+00                                 41244003   20
+ENDDATA              3                                            41244003   21
+ENDSUBENT           20                                            4124400399999
+SUBENT        41244004   19990315   19990622                      41244004    1
+BIB                  6         11                                 41244004    2
+REACTION   (64-GD-156(N,G)64-GD-157,,SIG,,SPA)                    41244004    3
+ANALYSIS    CALCULATED FROM MEASURED REACTOR VALUE USING          41244004    4
+            SATURATED GD-156/GD-157 CONCENTRATION RATIO           41244004    5
+INC-SPECT   REACTOR SPECTRUM                                      41244004    6
+SAMPLE      GADOLINIUM SAMPLE WITH GD-156 CONTENT 94.86 PC,       41244004    7
+             GD-152 CONTENT 0.01 PC, GD-154 CONTENT 0.14 PC,      41244004    8
+             GD-155 CONTENT 0.83 PC, GD-157 CONTENT 2.93 PC,      41244004    9
+             GD-158 CONTENT 0.89 PC, GD-160 CONTENT 0.34 PC       41244004   10
+STATUS     (COREL,41244002)                                       41244004   11
+HISTORY    (19970428T)  * *  CONVERTED FROM SUBENT 80373004       41244004   12
+            ENERGY CORRECTED FROM 2.35E-8 TO 2.53E-8 MEV   * *    41244004   13
+ENDBIB              11                                            41244004   14
+NOCOMMON             0          0                                 41244004   15
+DATA                 3          1                                 41244004   16
+EN-DUMMY   DATA       DATA-ERR                                    41244004   17
+MEV        B          B                                           41244004   18
+ 2.5300E-08 1.1500E+01 2.0000E+00                                 41244004   19
+ENDDATA              3                                            41244004   20
+ENDSUBENT           19                                            4124400499999
+SUBENT        41244005   19990315   19990705                      41244005    1
+BIB                  5          8                                 41244005    2
+REACTION   (64-GD-156(N,G)64-GD-157,,SIG,,SPA)                    41244005    3
+ANALYSIS    CALCULATED FROM MEASURED REACTOR VALUE USING          41244005    4
+            SATURATED GD-156/GD-157 CONCENTRATION RATIO           41244005    5
+INC-SPECT   REACTOR SPECTRUM                                      41244005    6
+SAMPLE      NATURAL GD SAMPLE.                                    41244005    7
+HISTORY    (19970428T)  * *  CONVERTED FROM SUBENT 80373005       41244005    8
+            ENERGY CORRECTED FROM 2.35E-8 TO 2.53E-8 MEV   * *    41244005    9
+           (19990406U)  'MXW' CHANGED TO 'SPA' IN SF8             41244005   10
+ENDBIB               8                                            41244005   11
+NOCOMMON             0          0                                 41244005   12
+DATA                 3          1                                 41244005   13
+EN-DUMMY   DATA       DATA-ERR                                    41244005   14
+MEV        B          B                                           41244005   15
+ 2.5300E-08 1.1100E+01 2.3000E+00                                 41244005   16
+ENDDATA              3                                            41244005   17
+ENDSUBENT           16                                            4124400599999
+ENDENTRY             5                                            4124499999999
+ENTRY            80372     831005                                 80372000    1
+SUBENT        80372001     831005                                 80372001    1
+BIB                  4          5                                 80372001    2
+INSTITUTE  (4CCPFEI)                                              80372001    3
+REFERENCE  (J,AE,19,459,6511)                                     80372001    4
+AUTHOR     (YE.GRISHANIN,G.M.KUKAVADZE,V.LENINDUN,L.YA.MAMELOVA,  80372001    5
+            E.G.MOROZOV,V.V.ORLOV,D.T.PELEPETZ)                   80372001    6
+STATUS     (SCSRS)                                                80372001    7
+ENDBIB               5                                            80372001    8
+NOCOMMON             0          0                                 80372001    9
+ENDSUBENT            8                                            8037200199999
+SUBENT        80372002     831005                                 80372002    1
+BIB                  3          3                                 80372002    2
+REACTION   (64-GD-156(N,G)64-GD-157,,SIG,,SPA)                    80372002    3
+MONITOR    (64-GD-157(N,G)64-GD-158,,SIG)                         80372002    4
+INC-SPECT   REACTOR SPECTRUM                                      80372002    5
+ENDBIB               3                                            80372002    6
+NOCOMMON             0          0                                 80372002    7
+DATA                 4          1                                 80372002    8
+EN-DUMMY   DATA       DATA-ERR   MONIT                            80372002    9
+MEV        B          B          B                                80372002   10
+ 2.5300E-08 9.8000E+00 2.5000E+00 1.5000E+05                      80372002   11
+ENDDATA              3                                            80372002   12
+ENDSUBENT           11                                            8037200299999
+SUBENT        80372003     831005                                 80372003    1
+BIB                  4          4                                 80372003    2
+REACTION   (64-GD-156(N,G)64-GD-157,,SIG,,MXW)                    80372003    3
+STATUS     (DEP,80372002)                                         80372003    4
+ANALYSIS   CALCULATED FROM REACTOR VALUE.                         80372003    5
+INC-SPECT   THERMAL SPECTRUM                                      80372003    6
+ENDBIB               4                                            80372003    7
+NOCOMMON             0          0                                 80372003    8
+DATA                 3          1                                 80372003    9
+EN-DUMMY   DATA       DATA-ERR                                    80372003   10
+MEV        B          B                                           80372003   11
+ 2.5300E-08 1.3000E+01 3.0000E+00                                 80372003   12
+ENDDATA              3                                            80372003   13
+ENDSUBENT           12                                            8037200399999
+ENDENTRY             3                                            8037299999999
+ENTRY            80373     831005                                 80373000    1
+SUBENT        80373001     831005                                 80373001    1
+BIB                  4          5                                 80373001    2
+INSTITUTE  (4CCPFEI)                                              80373001    3
+REFERENCE  (J,AE,22,133,6702)                                     80373001    4
+AUTHOR     (YE.GRISHANIN,G.M.KUKAVADZE,V.LENINDUN,L.YA.MAMELOVA,  80373001    5
+            E.G.MOROZOV,V.V.ORLOV,D.T.PELEPETZ)                   80373001    6
+STATUS     (SCSRS)                                                80373001    7
+ENDBIB               5                                            80373001    8
+NOCOMMON             0          0                                 80373001    9
+ENDSUBENT            8                                            8037300199999
+SUBENT        80373004     830816                                 80373004    1
+BIB                  3          3                                 80373004    2
+REACTION   (64-GD-156(N,G)64-GD-157,,SIG,,SPA)                    80373004    3
+SAMPLE     SAMPLE ENRICHED TO ABOUT 95PERCENT GD156.              80373004    4
+INC-SPECT   REACTOR SPECTRUM                                      80373004    5
+ENDBIB               3                                            80373004    6
+NOCOMMON             0          0                                 80373004    7
+DATA                 3          1                                 80373004    8
+EN-DUMMY   DATA       DATA-ERR                                    80373004    9
+MEV        B          B                                           80373004   10
+ 2.3500E-08 1.1500E+01 2.0000E+00                                 80373004   11
+ENDDATA              3                                            80373004   12
+ENDSUBENT           11                                            8037300499999
+SUBENT        80373005     830816                                 80373005    1
+BIB                  3          3                                 80373005    2
+REACTION   (64-GD-156(N,G)64-GD-157,,SIG,,SPA)                    80373005    3
+SAMPLE     NATURAL GD SAMPLE.                                     80373005    4
+INC-SPECT   REACTOR SPECTRUM                                      80373005    5
+ENDBIB               3                                            80373005    6
+NOCOMMON             0          0                                 80373005    7
+DATA                 3          1                                 80373005    8
+EN-DUMMY   DATA       DATA-ERR                                    80373005    9
+MEV        B          B                                           80373005   10
+ 2.3500E-08 1.1100E+01 2.3000E+00                                 80373005   11
+ENDDATA              3                                            80373005   12
+ENDSUBENT           11                                            8037300599999
+ENDENTRY             3                                            8037399999999
+ENDREQUEST           1                                            Z999999999999

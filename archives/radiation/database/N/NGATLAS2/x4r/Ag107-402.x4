@@ -1,0 +1,163 @@
+REQUEST           1001   20010914          3     141738               0  0    0
+ENTRY            12959     860402                                 12959000    1
+SUBENT        12959001     860402                                 12959001    1
+BIB                 13         28                                 12959001    2
+INSTITUTE  (1USAUSA)   NEW JERSEY MEDICAL SCHOOL, NEWARK          12959001    3
+REFERENCE  (J,ARI,29,405,7806)                                    12959001    4
+AUTHOR     (D.V.RAO,G.F.GOVELITZ,J.T.MALLAMS)                     12959001    5
+TITLE      CROSS SECTION FOR THE PRODUCTION OF 108M-AG            12959001    6
+FACILITY   (REAC,1USAUCS)                                         12959001    7
+METHOD     (ACTIV)                                                12959001    8
+SAMPLE     ENRICHED 107-AG POWDER ENCLOSED IN A POLYPROPYLENE     12959001    9
+            CYLINDER 5 MM IN DIAMETER AND 10 MM IN LENGTH WITH    12959001   10
+            98.22 PERCENT 107-AG AND 1.78 PERCENT 109-AG. THERE   12959001   11
+            WERE TWO SAMPLES WITH MASSES OF 10.125 MILLIGRAMS     12959001   12
+            AND 19,771 MILLIGRAMS.                                12959001   13
+MONITOR    (27-CO-59(N,G)27-CO-60,,SIG)                           12959001   14
+            VALUE USED FOR CO FLUX MONITOR NOT GIVEN              12959001   15
+DETECTOR   (GELI) GE(LI) DETECTOR WITH AN ACTIVE AREA OF          12959001   16
+            10.7 CM**2. THE RESOLUTION WAS 3.2 KEV FWHM AND       12959001   17
+            THE EFFICIENCY WES 4 PERCENT RELATIVE TO A 3 X 3      12959001   18
+            INCH NA(TL) DETECTOR FOR THE 1.332 MEV PHOTON FROM    12959001   19
+            60-CO. SAMPLES WERE PLACED 2 CM FROM THE DETECTOR     12959001   20
+            FOR COUNTING. ENERGY DEPENDENCE OF THE EFFICIENCY     12959001   21
+            WAS DETERMINED USING CALIBRATED PHOTON SOURCES.       12959001   22
+ANALYSIS   THE SAMPLE GAMMA DECAY SPECTRUM WAS ANALYZED FOR       12959001   23
+            EACH PEAK BY STRIPPING OFF BACKGROUND AND OVER        12959001   24
+            LAP FROM NEIGHBORING PEAKS.                           12959001   25
+ERR-ANALYS (ERR-S) STATISTICAL UNCERTAINTY OBTAINED BY            12959001   26
+             PROPAGATION OF THE ERRORS OF THE INDIVIDUAL          12959001   27
+             MEASUREMENTS.                                        12959001   28
+STATUS     (APRVD) D.V.RAO, 86/4/14.                              12959001   29
+HISTORY    (860328C)                                              12959001   30
+ENDBIB              28                                            12959001   31
+COMMON               1          3                                 12959001   32
+EN-DUMMY                                                          12959001   33
+EV                                                                12959001   34
+ 0.0253                                                           12959001   35
+ENDCOMMON            3                                            12959001   36
+ENDSUBENT           35                                            1295900199999
+SUBENT        12959002     860402                                 12959002    1
+BIB                  2          2                                 12959002    2
+REACTION   (47-AG-107(N,G)47-AG-108-M,,SIG,,MXW))                 12959002    3
+DECAY-DATA (47-AG-108-M,127.0YR)                                  12959002    4
+ENDBIB               2                                            12959002    5
+NOCOMMON             0          0                                 12959002    6
+DATA                 2          1                                 12959002    7
+DATA       ERR-S                                                  12959002    8
+B          B                                                      12959002    9
+ 0.33       0.08                                                  12959002   10
+ENDDATA              3                                            12959002   11
+ENDSUBENT           10                                            1295900299999
+ENDENTRY             2                                            1295999999999
+ENTRY            13129     880913                                 13129000    1
+SUBENT        13129001     880913                                 13129001    1
+BIB                 14         21                                 13129001    2
+INSTITUTE  (1USAIRV)                                              13129001    3
+REFERENCE  (J,JRC,113,327,8707)                                   13129001    4
+AUTHOR     (M.GAVILAS,V.P.GUINN)                                  13129001    5
+TITLE      ENVIRONMENTAL IMPORTANCE OF THE 107AG(N,G)108MAG       13129001    6
+            REACTION IN NUCLEAR POWER REACTORS, AND NEW SIGMA-    13129001    7
+            ZERO(GAMMA) AND I(GAMMA) MEASUREMENTS                 13129001    8
+FACILITY   (REAC) U.C.IRVING 250 KW TRIGA REACTOR                 13129001    9
+DETECTOR   (GELI) 17 PER-CENT COAXIAL GE(LI) DETECTOR WITH A      13129001   10
+            2.0 CM THICK PLASTIC BETA-PARTICLE ABSORBER           13129001   11
+SAMPLE     SAMPLES ENRICHED TO 98.22 PER-CENT 107AG. 57.1 MG      13129001   12
+            SAMPLE WITHOUT CD, 46.2 MG SAMPLE SEALED IN CD        13129001   13
+            0.70 MM THICK.                                        13129001   14
+MONITOR    (27-CO-59(N,G)27-CO-60,,SIG) FLUX MONITOR              13129001   15
+DECAY-DATA (47-AG-108-M,127.YR,DG,433.9,,DG,614.4,,DG,723.0)      13129001   16
+DECAY-MON  (47-AG-110-M,249.76D,DG,657.7)                         13129001   17
+ERR-ANALYS DETAILED INFORMATION NOT AVAILABLE. UNCERTAINTIES DO   13129001   18
+            NOT INCLUDE UNCERTAINTIES IN NORMALIZING VALUES OF    13129001   19
+            110-AG.                                               13129001   20
+CORRECTION GAMMA-GAMMA COINCIDENCE LOSS CORRECTION                13129001   21
+STATUS     NO REPLY TO AUTHOR PROOF                               13129001   22
+HISTORY    (880405C)                                              13129001   23
+ENDBIB              21                                            13129001   24
+NOCOMMON             0          0                                 13129001   25
+ENDSUBENT           24                                            1312900199999
+SUBENT        13129002     880525                                 13129002    1
+BIB                  2          2                                 13129002    2
+REACTION   (47-AG-107(N,G)47-AG-108-M,,SIG)                       13129002    3
+MONITOR    ((MONIT)47-AG-109(N,G)47-AG-110-M,,SIG)                13129002    4
+ENDBIB               2                                            13129002    5
+NOCOMMON             0          0                                 13129002    6
+DATA                 5          1                                 13129002    7
+EN         DATA       DATA-ERR   MONIT      MONIT-ERR             13129002    8
+EV         B          B          B          B                     13129002    9
+ 0.0253     0.477      0.033      4.7        0.2                  13129002   10
+ENDDATA              3                                            13129002   11
+ENDSUBENT           10                                            1312900299999
+ENDENTRY             2                                            1312999999999
+ENTRY            21625     800829                                 21625000    1
+SUBENT        21625001     800829                                 21625001    1
+BIB                 14         44                                 21625001    2
+INSTITUTE  (2UK NPL)                                              21625001    3
+REFERENCE  (J,NSE,72,(3),357,7912)                                21625001    4
+AUTHOR     (T.B.RYVES)                                            21625001    5
+TITLE      -THE THERMAL NEUTRON CAPTURE CROSS SECTION FOR         21625001    6
+            THE PRODUCTION OF AG-108-M.-                          21625001    7
+FACILITY   (REAC,2UK LON) REACTOR CONSORT 2.                      21625001    8
+INC-SOURCE (REAC ) REACTOR NEUTRONS.                              21625001    9
+SAMPLE     .AG-107 ENRICHED (99.6 PERC) AG-FOILS AND              21625001   10
+            SMALL AL-CO ALLOY FOILS (MONITOR). THE CD-BOXES       21625001   11
+            USED ARE 1 MM THICK. THE CO-AL ALLOY CONTAINS         21625001   12
+            99.240 PERC AL AND 0.760 PERC CO.                     21625001   13
+METHOD     (ACTIV) IRRADIATION OF SAMPLE AND MONITOR FOILS        21625001   14
+            BOTH BARE AND ENCASED IN CADMIUM BOXES.               21625001   15
+DETECTOR   (GELI ) GE(LI)-DETECTOR FOR COUNTING OF THE            21625001   16
+            SAMPLE FOILS.                                         21625001   17
+           (COIN,PROPC,PROPC) A 4*PI BETA-GAMMA COINCIDENCE       21625001   18
+            ARRANGEMENT. THE 4*PI BETA COUNTER IS A 90 PERC       21625001   19
+            AR-10 PERC METHANE GAS FLOW PROPORTIONAL COUNTER.     21625001   20
+PART-DET   (B    ) BETA PARTICLES AND                             21625001   21
+           (DG   ) DECAY GAMMAS.                                  21625001   22
+STATUS     .TEXT, MAIN REFERENCE.                                 21625001   23
+HISTORY    (800808C) G.C.                                         21625001   24
+           (800829E)                                              21625001   25
+CORRECTION .FOR SELF-SHIELDING.                                   21625001   26
+           .FOR SENSITIVITY OF THE 4*PI BETA DETECTOR TO          21625001   27
+            CO-60 GAMMA RAYS.                                     21625001   28
+ERR-ANALYS (DATA-ERR) TOTAL ERROR GIVEN. DETAILED ERROR           21625001   29
+            ANALYSIS GIVEN IN TABLE 2 OF MAIN REFERENCE -         21625001   30
+            SOURCE OF ERROR        CO-60    AG-108M   AG-110M     21625001   31
+            -------------------------------------------------     21625001   32
+            HALFLIFE               0.2      16.5      1.          21625001   33
+            2200 M/SEC-SIGMA       0.5                            21625001   34
+            THERMAL SELF-SHIELDING 1.0       1.0      1.          21625001   35
+            RESONANCE SELF-SHIELD.           4.0                  21625001   36
+            RESONANCE INTEGRAL     4.0                            21625001   37
+            FOIL COMPOSITION       0.5                            21625001   38
+            FLUX LEVEL             1.0       1.0      1.          21625001   39
+            REACTOR SPECTRUM       5.0       5.0      5.          21625001   40
+            DECAY SCHEME                     1.0                  21625001   41
+            COUNTER EFFICIENCY     0.2       3.0                  21625001   42
+            STATISTICS (NO -CD)    0.3       4.0      1.          21625001   43
+            STATISTICS (CD)        1.2      15.0      1.          21625001   44
+            --------------------------------------------------    21625001   45
+              (STATISTICAL ERRORS ARE 3*SIGMA).                   21625001   46
+ENDBIB              44                                            21625001   47
+NOCOMMON             0          0                                 21625001   48
+ENDSUBENT           47                                            2162500199999
+SUBENT        21625002     860915                                 21625002    1
+BIB                  6          9                                 21625002    2
+REACTION   (47-AG-107(N,G)47-AG-108-M,,SIG) 2200 M/SEC            21625002    3
+DECAY-DATA (47-AG-108-M,127.YR,DG,434.,0.908)                     21625002    4
+MONITOR    (27-CO-59(N,G)27-CO-60,,SIG) 2200 M/SEC                21625002    5
+DECAY-MON  (27-CO-60-G,5.26YR,DG)                                 21625002    6
+STATUS     .TABLE 1, MAIN REFERENCE.                              21625002    7
+HISTORY    (800808C) G.C.                                         21625002    8
+           (800829E)                                              21625002    9
+           (860321A)N.CH                                          21625002   10
+           (860416E)                                              21625002   11
+ENDBIB               9                                            21625002   12
+NOCOMMON             0          0                                 21625002   13
+DATA                 5          1                                 21625002   14
+EN         DATA       DATA-ERR   MONIT      MONIT-ERR             21625002   15
+MILLI-EV   B          B          B          B                     21625002   16
+ 2.5300E-02 3.6600E-01 6.5000E-02 3.7200E+01 2.0000E-01           21625002   17
+ENDDATA              3                                            21625002   18
+ENDSUBENT           17                                            2162500299999
+ENDENTRY             2                                            2162599999999
+ENDREQUEST           1                                            Z999999999999

@@ -1,0 +1,115 @@
+REQUEST           1001   20010914          3     143437               0  0    0
+ENTRY            20187     831121                                 20187000    1
+SUBENT        20187001     831121                                 20187001    1
+BIB                 12         16                                 20187001    2
+INSTITUTE  (2NOROSL)                                              20187001    3
+REFERENCE  (P,INDC(NOR)-1,2,7205) BASED ON THESIS BY SYVERSEN.    20187001    4
+AUTHOR     (J.ALSTAD, A.C.PAPPAS, T.SYVERSEN)                     20187001    5
+TITLE      -THERMAL NEUTRON CAPTURE CROSS SECTION AND RESONANCE   20187001    6
+            CAPTURE INTEGRAL OF THE LANTHANIDE NUCLEI III. DY-156,20187001    7
+            DY-158, DY-164 AND DY-165.-                           20187001    8
+FACILITY   .JEEP II HEAVY WATER REACTOR AT KJELLER.               20187001    9
+INC-SPECT  .MAX. THERMAL FLUX ABOUT 2.0E+13 N/CM2/SEC IN THE      20187001   10
+            POSITION AVAILABLE FOR IRRADIATIONS OF SAMPLES IN CORE20187001   11
+METHOD     (ACTIV)    ACTIVATION.                                 20187001   12
+DETECTOR   .4PI-BETA-GAMMA COINCIDENCE COUNTER.                   20187001   13
+PART-DET   (DG,B- )   DECAY GAMMA AND BETA-.                      20187001   14
+STATUS     .DATA TAKEN FROM PROGRESS REPORT INDC(NOR)-1.          20187001   15
+HISTORY    (721121C)                                              20187001   16
+           (740521E)                                              20187001   17
+ERR-ANALYS .NO FURTHER INFORMATION.                               20187001   18
+ENDBIB              16                                            20187001   19
+NOCOMMON             0          0                                 20187001   20
+ENDSUBENT           19                                            2018700199999
+SUBENT        20187010     831121                                 20187010    1
+BIB                  4          6                                 20187010    2
+REACTION   (66-DY-165(N,G)66-DY-166,,SIG)                         20187010    3
+ANALYSIS   .EXPERIMENTAL RESULT REDUCED TO 2200 M/SEC VALUE.      20187010    4
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)                         20187010    5
+            SIGMA(THERMAL) = 98.8 BARN.                           20187010    6
+HISTORY    (721121C)                                              20187010    7
+           (740521E)                                              20187010    8
+ENDBIB               6                                            20187010    9
+NOCOMMON             0          0                                 20187010   10
+DATA                 4          1                                 20187010   11
+EN         MONIT      DATA       DATA-ERR                         20187010   12
+MEV        B          B          B                                20187010   13
+ 2.5300E-08 9.8800E+01 3.9000E+03 3.0000E+02                      20187010   14
+ENDDATA              3                                            20187010   15
+ENDSUBENT           14                                            2018701099999
+ENDENTRY             2                                            2018799999999
+ENTRY            20695     850826                                 20695000    1
+SUBENT        20695001     850826                                 20695001    1
+BIB                 14         31                                 20695001    2
+INSTITUTE  (2JPNJAE)                                              20695001    3
+REFERENCE  (J,JIN,43,1107,81) MAIN REFERENCE                      20695001    4
+           ((P,NEANDC(J)-44L,43,7608)=(P,INDC(JAP)-30L,43,7608))  20695001    5
+AUTHOR     (T.SEKINE,H.BABA)                                      20695001    6
+TITLE      -REACTOR-NEUTRON-CAPTURE CROSS SECTIONS                20695001    7
+            0F DY-165 ISOMERS.                                    20695001    8
+INC-SOURCE (REAC )  PNEUMATIC RABIT OF THE JRR-3 REACTOR.         20695001    9
+INC-SPECT  .REACTOR PILE SPECTRUM. THERMAL NEUTRON FLUX WAS       20695001   10
+            2.*10E+13 N/CM-SQ*SEC. WESTCOTT EPITH. INDEX 0.017.   20695001   11
+SAMPLE     .DYSPROSIUM CHLORIDE TARGET IRRADIATED FOR 3-60 MIN.   20695001   12
+METHOD     (ACTIV)  ACTIVATION TIME 1 HR.                         20695001   13
+           (CHSEP)  CHEMICAL SEPARATION OF DY AND HO FROM THE     20695001   14
+            SAMPLE AFTER IRRADIATION.                             20695001   15
+           .MEASUREMENT OF GAMMA RAYS FROM THE DECAY OF DY-166    20695001   16
+            FORMED VIA DOUBLE NEUTRON CAPTURE ON DY-164.          20695001   17
+DETECTOR   (GELI )  GE(LI) DETECTOR.                              20695001   18
+ANALYSIS   .CROSS SECTIONS DETERMINATED BY ANALYSIS OF THE        20695001   19
+            DY-166 YIELD DEPENDENCE ON IRRADIATION TIME           20695001   20
+STATUS     .DATA TAKEN FROM MAIN REFERENCE.                       20695001   21
+HISTORY    (761028C)  JG.                                         20695001   22
+           (771109E)                                              20695001   23
+           (840106U) A.P.T. JAPAN CODE CHANGED TO JPN             20695001   24
+           (840106E)                                              20695001   25
+           (840503A) A.L. PREVIOUS DATA FROM THE SECOND REFERENCE 20695001   26
+                     SUPERSEDED BY DATA FROM THE MAIN REFERENCE.  20695001   27
+           (840710E)                                              20695001   28
+CORRECTION .FOR                                                   20695001   29
+            - SELF ABSORBTION.                                    20695001   30
+            - DETECTOR EFFICIENCY.                                20695001   31
+ERR-ANALYS (ERR-T)  TOTAL UNCERTAINTIES                           20695001   32
+           .NO EXPLICIT DETAILS GIVEN.                            20695001   33
+ENDBIB              31                                            20695001   34
+NOCOMMON             0          0                                 20695001   35
+ENDSUBENT           34                                            2069500199999
+SUBENT        20695002     850826                                 20695002    1
+BIB                  6         14                                 20695002    2
+REACTION  1(66-DY-165(N,G)66-DY-166,,SIG,,MXW)                    20695002    3
+          2(66-DY-165-M(N,G)66-DY-166,,SIG,,MXW)                  20695002    4
+DECAY-DATA (66-DY-166,81.6HR,DG,82.5,.138)                        20695002    5
+           (67-HO-166,,DG,80.6,.066)                              20695002    6
+MONITOR    (79-AU-197(N,G)79-AU-198-G,,SIG,,MXW)                  20695002    7
+DECAY-MON  (79-AU-198-G,,DG,412.)                                 20695002    8
+STATUS     .DATA TAKEN ROM MAIN REFERENCE.                        20695002    9
+HISTORY    (761028C)  JG.                                         20695002   10
+           (771109E)                                              20695002   11
+           (840503A) A.L. PREVIOUS DATA FROM THE SECOND REFERENCE 20695002   12
+                     SUPERSEDED BY DATA FROM THE MAIN REFERENCE.  20695002   13
+           (840710E)                                              20695002   14
+           (850325U) HH                                           20695002   15
+           (850419E)                                              20695002   16
+ENDBIB              14                                            20695002   17
+NOCOMMON             0          0                                 20695002   18
+DATA                 5          1                                 20695002   19
+EN-DUMMY   DATA      1ERR-T     1DATA      2ERR-T     2           20695002   20
+EV         B          B          B          B                     20695002   21
+ 2.5300E-02 3.5300E+03 3.3000E+02 2.0000E+03 6.0000E+02           20695002   22
+ENDDATA              3                                            20695002   23
+ENDSUBENT           22                                            2069500299999
+SUBENT        20695003     840127                                 20695003    1
+BIB                  2          2                                 20695003    2
+REACTION   (66-DY-165(N,G)66-DY-166,,SIG,,SPA)                    20695003    3
+HISTORY    (771122C) BY NNDC.                                     20695003    4
+ENDBIB               2                                            20695003    5
+NOCOMMON             0          0                                 20695003    6
+DATA                 3          1                                 20695003    7
+EN-DUMMY   DATA       DATA-ERR                                    20695003    8
+EV         B          B                                           20695003    9
+ 2.5300E-02 4.4000E+03 3.0000E+02                                 20695003   10
+ENDDATA              3                                            20695003   11
+ENDSUBENT           10                                            2069500399999
+ENDENTRY             3                                            2069599999999
+ENDREQUEST           1                                            Z999999999999

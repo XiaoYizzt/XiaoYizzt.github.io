@@ -1,0 +1,240 @@
+REQUEST           1001   20010914          3     144359               0  0    0
+ENTRY            12272     840821                                 12272000    1
+SUBENT        12272001     840821                                 12272001    1
+BIB                  9         12                                 12272001    2
+INSTITUTE  (1USAANL)                                              12272001    3
+REFERENCE  (J,PR,90,102,5304)                                     12272001    4
+AUTHOR     (R.ELSON,P.A.SELLERS,E.R.JOHN)                         12272001    5
+TITLE      THE THERMAL NEUTRON CAPTURE CROSS SECTIONS OF PA231 AND12272001    6
+           PA232.                                                 12272001    7
+METHOD     (ACTIV) ACTIVATION                                     12272001    8
+MONITOR    (93-NP-237(N,G)93-NP-238,,SIG,,SPA)                    12272001    9
+DECAY-MON  (93-NP-237,2.20+6YR,B)                                 12272001   10
+           (94-PU-238,92.YR)                                      12272001   11
+STATUS     (SCSRS)                                                12272001   12
+HISTORY    (760803T) TRANSLATED FROM SCISRS                       12272001   13
+           (840821A) CONVERTED TO REACTION FORMALISM              12272001   14
+ENDBIB              12                                            12272001   15
+COMMON               1          3                                 12272001   16
+MONIT                                                             12272001   17
+B                                                                 12272001   18
+ 172.                                                             12272001   19
+ENDCOMMON            3                                            12272001   20
+ENDSUBENT           19                                            1227200199999
+SUBENT        12272003     840821                                 12272003    1
+BIB                  2          2                                 12272003    2
+REACTION   (91-PA-232(N,G)91-PA-233,,SIG,,SPA)                    12272003    3
+INC-SPECT   REACTOR SPECTRUM                                      12272003    4
+ENDBIB               2                                            12272003    5
+NOCOMMON             0          0                                 12272003    6
+DATA                 4          1                                 12272003    7
+EN-DUMMY   DATA       +DATA-ERR  -DATA-ERR                        12272003    8
+MEV        B          B          B                                12272003    9
+ 2.53   -08 4.0    +01  4.0   +01 2.0    +01                      12272003   10
+ENDDATA              3                                            12272003   11
+ENDSUBENT           10                                            1227200399999
+ENDENTRY             2                                            1227299999999
+ENTRY            12273     840821                                 12273000    1
+SUBENT        12273001     840821                                 12273001    1
+BIB                  8          9                                 12273001    2
+INSTITUTE  (1USAMTR)                                              12273001    3
+REFERENCE  (J,PR,101,1053,56)                                     12273001    4
+AUTHOR     (R.R.SMITH,N.P.ALLEY,R.H.LEWIS,A.VANDERDOES)           12273001    5
+TITLE      NEUTRON ABSORPTION CROSS SECTIONS OF PA231 AND PA232.  12273001    6
+METHOD     (ACTIV) ACTIVATION                                     12273001    7
+MONITOR    (27-CO-59(N,G)27-CO-60,,SIG,,MXW)                      12273001    8
+STATUS     (SCSRS)                                                12273001    9
+HISTORY    (760803T) TRANSLATED FROM SCISRS                       12273001   10
+           (840821A) CONVERTED TO REACTION FORMALISM              12273001   11
+ENDBIB               9                                            12273001   12
+COMMON               1          3                                 12273001   13
+MONIT                                                             12273001   14
+B                                                                 12273001   15
+ 37.0                                                             12273001   16
+ENDCOMMON            3                                            12273001   17
+ENDSUBENT           16                                            1227300199999
+SUBENT        12273003     840821                                 12273003    1
+BIB                  3          4                                 12273003    2
+REACTION   (91-PA-232(N,G)91-PA-233,,SIG,,SPA)                    12273003    3
+DECAY-DATA (91-PA-232,1.32D)                                      12273003    4
+           (91-PA-233,27.4D)                                      12273003    5
+INC-SPECT   REACTOR SPECTRUM                                      12273003    6
+ENDBIB               4                                            12273003    7
+NOCOMMON             0          0                                 12273003    8
+DATA                 3          1                                 12273003    9
+EN-DUMMY   DATA       DATA-ERR                                    12273003   10
+MEV        B          B                                           12273003   11
+ 2.53   -08 7.60   +02 1.00   +02                                 12273003   12
+ENDDATA              3                                            12273003   13
+ENDSUBENT           12                                            1227300399999
+ENDENTRY             2                                            1227399999999
+ENTRY            20625     840127                                 20625000    1
+SUBENT        20625001     840127                                 20625001    1
+BIB                 16        101                                 20625001    2
+INSTITUTE  (2GERMUN)                                              20625001    3
+REFERENCE  (T,GRYNTAKIS,,7603) THESIS DM-6909(1976),TECHNICAL     20625001    4
+            UNIVERSITY OF MUNICH (IN GERMAN).                     20625001    5
+           (J,RCA,17,191,7210) THERMAL CROSS SECTION AND RES.     20625001    6
+            INTEGRAL OF ND-146,ND-148,ND-150 AND K-41.            20625001    7
+           (J,RCA,22,128,75) CALCULATION OF G-FACTOR FOR          20625001    8
+            (N,G)- AND (N,F)-REACTIONS OF NON 1/V-NUCLIDES.       20625001    9
+AUTHOR     (E.M.GRYNTAKIS)                                        20625001   10
+TITLE      -EXAMINATION OF THE DEPENDENCE OF THE EFFECTIVE CROSS  20625001   11
+            SECTION FROM THE NEUTRON TEMPERATURE, MEASUREMENTS    20625001   12
+            OF THE NEUTRON TEMPERATURE AND DETERMINATION OF SOME  20625001   13
+            CROSS SECTIONS FOR NEUTRON CAPTURE AND NEUTRON        20625001   14
+            FISSION-.                                             20625001   15
+INC-SOURCE (REAC ) PNEUMATIC POSITIONS,REFLECTOR AND ROTATING     20625001   16
+            DISK FACILITY OF FRM-REACTOR IN MUNICH.               20625001   17
+INC-SPECT  . REACTOR THERMAL AND EPITHERMAL NEUTRON SPECTRUM.     20625001   18
+           . REACTOR FAST NEUTRON SPECTRUM.                       20625001   19
+SAMPLE     .FOR U, PA, TA, LU AND EU AN ALIQUOT CONTAINING        20625001   20
+            SOME MICROGRAMS OF  THE NUCLIDE OF INTEREST IS        20625001   21
+            DRIED ON A SMALL PIECE OF PURE AL-FOIL.               20625001   22
+           .FOR ND ,K AND MG  SOME MILLIGRAMS OF POWDER OF THEIR  20625001   23
+            OXIDES HAVE BEEN USED.                                20625001   24
+           .FOR AU AN AU/AL-ALLOY WIRE (AU, 0.132 PER CENT),      20625001   25
+            FOR CO AN CO/AL-ALLOY WIRE (CO, 0.564 PER CENT)       20625001   26
+            AND FOR ALUMINIUM AL-FOILS WERE USED.                 20625001   27
+METHOD     (ACTIV) ACTIVATION.                                    20625001   28
+DETECTOR   (GELI )GE(LI)-DETECTORS COUPLED TO A ND4420 ANALYSER.  20625001   29
+           (SCIN ) THE ALPHA ACTIVITY OF ALPHA EMITTERS WAS       20625001   30
+            MEASURED WITH A HOME-MADE LIQUID SCINTILLATION        20625001   31
+            COUNTER.                                              20625001   32
+ANALYSIS   .FOR THE DETERMINATION OF THE THERMAL CROSS SECTION    20625001   33
+            AND THE RESONANCE INTEGRAL FOR (N,G)-,DOUBLE(N,G)-    20625001   34
+            AND (N,F)-REACTIONS OF 1/V-ABSORBERS (NUCLIDES WHOSE  20625001   35
+            DIFFERENTIAL CROSS SECTION OBEY  THE 1/V-LAW          20625001   36
+            BELOW ABOUT 0.5 EV),THE NORMAL CADMIUM-FILTER         20625001   37
+            METHOD (WESTCOTT-FORMALISM) HAS BEEN USED.            20625001   38
+           .THE EPITHERMAL COMPONENT WAS MEASURED BY USING        20625001   39
+            AU-197 AND CO-59 AS MONITORS.                         20625001   40
+           .FOR THE (N,F)-REACTIONS THE GAMMA RAYS OF THE         20625001   41
+            FISSION PRODUCTS ZR-95 AND LA-140 WERE MEASURED.      20625001   42
+           .FOR THE NON 1/V-ABSORBERS (RESONANCES NEAR OR BELOW   20625001   43
+            ABOUT 0.5 EV) A NEW METHOD HAS BEEN DEVELOPED (SEE    20625001   44
+            COMMENT).                                             20625001   45
+           .FOR THE THRESHOLD REACTIONS THE AVER. FIS. SPECTRUM   20625001   46
+            CROSS SECTION (ACS) WAS DETERMINED FROM THE RELATION  20625001   47
+            ACS = R/F WHERE R IS THE ABSOLUTE REACTION RATE AND   20625001   48
+            F THE EQUIVALENT FISSION FLUX.                        20625001   49
+           .R WAS MEASURED WITH A CALIBRATED GE(LI)-DETECTOR.     20625001   50
+           .F WAS DETERMINED USING THE STANDARD THRESHOLD         20625001   51
+            REACTIONS 58-NI(N,P) ,24-MG(N,P)  AND 27-AL(N,A).     20625001   52
+MONITOR    (79-AU-197(N,G)79-AU-198,,RI)                          20625001   53
+            THERMAL CROSS SECTION = 98.8+-0.3B,                   20625001   54
+            RES.INTEGRAL INCLUDING THE 1/V-PART = 1551 +- 12B.    20625001   55
+           (27-CO-59(N,G)27-CO-60,,RI)                            20625001   56
+            THERMAL CROSS SECTION =37.2 +- 0.6B,                  20625001   57
+            RES.INTEGRAL INCLUDING THE 1/V-PART = 71.1 +- 4.0B.   20625001   58
+           (92-U-235(N,F),,RI)                                    20625001   59
+            THERMAL CROSS SECTION =577.1+-0.9B,                   20625001   60
+            RES.INTEGRAL INCLUDING THE 1/V-PART  = 274+-10 B.     20625001   61
+           .FISSION YIELDS OF ZR-95 AND LA-140 ARE FOR PA-231     20625001   62
+            6.373+-0.034 AND 6.976+-0.042 ,FOR U-232 6.77+-0.05   20625001   63
+            AND 7.49+-0.06 AND FOR U-235 6.20+-0.40 AND           20625001   64
+            6.36+-0.12, RESPECTIVELY.                             20625001   65
+           (28-NI-58(N,P)27-CO-58,,SIG,,FIS)                      20625001   66
+            AVERAGE FISSION SPECTRUM CROSS                        20625001   67
+            SECTION = 113+-7 MB.                                  20625001   68
+           (12-MG-24(N,P)11-NA-24,,SIG,,FIS)                      20625001   69
+            AVERAGE FISSION SPECTRUM CROSS                        20625001   70
+            SECTION = 1.53+-0.09 MB.                              20625001   71
+           (13-AL-27(N,A)11-NA-24,,SIG,,FIS)                      20625001   72
+            AVERAGE FISSION SPECTRUM CROSS                        20625001   73
+            SECTION = 0.725+-0.045 MB.                            20625001   74
+COMMENT    .NEUTRON TEMPERATURE MEASUREMENTS AND CALCULATIONS     20625001   75
+            OF G-FACTORS ARE ALSO INCLUDED.                       20625001   76
+           .FOR DETERMINATION OF THERMAL CROSS SECTION AND        20625001   77
+            RESONANCE INTEGRALS OF NON-1/V-ABSORBERS A NEW        20625001   78
+            METHOD IS DEVELOPED WITHOUT USING CD-FILTER.THIS      20625001   79
+            METHOD WAS USED FOR PA-231 (SEE  J.INORG.NUCL.        20625001   80
+            CHEM. 36(1974)1447 ) AND EU-ISOTOPES(SEE RADIO-       20625001   81
+            CHIMICA ACTA 22(1975)20).                             20625001   82
+STATUS     .TAKEN FROM THESIS DM-6909(1976) TECHNICAL UNIVERSITY  20625001   83
+            OF MUNICH.                                            20625001   84
+HISTORY    (760824C)                                              20625001   85
+           (770331E)                                              20625001   86
+CORRECTION .BECAUSE OF THE THIN SAMPLES NO CORRECTION FOR SELF    20625001   87
+            SHIELDING AND SELF ABSORPTION IS NEEDED.              20625001   88
+           .THE EPITHERMAL SPECTRUM OF THE IRRADIATION POSITIONS  20625001   89
+            HAS A KNOWN 1/E-FORM.                                 20625001   90
+           .FOR THE DISTINCTION OF THE FISSION SPECTRUM OF THE    20625001   91
+            IRRADIATION POSITIONS FROM THE THEORETICAL FISSION    20625001   92
+            SPECTRUM (WATT-SPECTRUM).                             20625001   93
+ERR-ANALYS .UNCERTAINTIES IN THE CROSS SECTIONS OF THE STANDARDS. 20625001   94
+           .UNCERTAINTIES IN THE HALF LIFES AND THE INTENSITIES   20625001   95
+            OF THE MEASURED  GAMMA RAYS.                          20625001   96
+           .THE ALPHA MEASUREMENTS WITH THE LIQUID SCINTILLATION  20625001   97
+            COUNTER HAVE AN ACCURACY OF +- 2 PER CENT.            20625001   98
+           .UNCERTAINTIES IN THE G-FACTORS.                       20625001   99
+           .UNCERTAINTIES IN THE FISSION YIELDS OF THE FISSION    20625001  100
+            PRODUCTS ZR-95 AND LA-140.                            20625001  101
+           .DIFFERENCE OF THE TRUE FISSION SPECTRUM FROM THE      20625001  102
+            THEORETICAL ONE.                                      20625001  103
+ENDBIB             101                                            20625001  104
+NOCOMMON             0          0                                 20625001  105
+ENDSUBENT          104                                            2062500199999
+SUBENT        20625037     840127                                 20625037    1
+BIB                  2          4                                 20625037    2
+REACTION   (91-PA-232(N,G)91-PA-233,,SIG,,MXW)                    20625037    3
+             THERMAL CROSS SECTION.                               20625037    4
+HISTORY    (760824C)                                              20625037    5
+           (770331E)                                              20625037    6
+ENDBIB               4                                            20625037    7
+NOCOMMON             0          0                                 20625037    8
+DATA                 3          1                                 20625037    9
+EN-DUMMY   DATA       DATA-ERR                                    20625037   10
+EV         B          B                                           20625037   11
+ 2.5300E-02 4.6400E+02 9.5000E+01                                 20625037   12
+ENDDATA              3                                            20625037   13
+ENDSUBENT           12                                            2062503799999
+ENDENTRY             2                                            2062599999999
+ENTRY            40579     860121                                 40579000    1
+SUBENT        40579001     860121                                 40579001    1
+BIB                 10         17                                 40579001    2
+INSTITUTE  (4CCPMIF)                                              40579001    3
+           (4CCPITE)                                              40579001    4
+REFERENCE  (J,YK,1/55,3,8405)                                     40579001    5
+           (C,83KIEV,2,177,8310)                                  40579001    6
+AUTHOR     (L.N.JUROVA,A.A.POLJAKOV,V.P.RUKHLO,JU.E.TITARENKO,    40579001    7
+            S.F.KOMIN,JU.V.STOGOV,O.V.SHVEDOV,B.F.MJASOEDOV,      40579001    8
+            A.V.DAVYDOV,S.S.TRAVNIKOV)                            40579001    9
+TITLE       INTEGRAL RADIATION CAPTURE CROSS-SECTIONS             40579001   10
+            IN THERMAL AND RESONANCE ENERGY REGION                40579001   11
+            FOR TH-230, PA-231,232,233, U-236, NP-237             40579001   12
+FACILITY   (REAC,4CCPITE)                                         40579001   13
+INC-SOURCE (THCOL)                                                40579001   14
+INC-SPECT   NEUTRON SPECTRUM IN THE HEAVY-WATER REFLECTOR         40579001   15
+            WHICH IS SIMILAR TO THE FERMI-SPECTRUM                40579001   16
+METHOD     (ACTIV)                                                40579001   17
+DETECTOR   (GELI)                                                 40579001   18
+HISTORY    (850221C)                                              40579001   19
+ENDBIB              17                                            40579001   20
+COMMON               1          3                                 40579001   21
+EN-DUMMY                                                          40579001   22
+EV                                                                40579001   23
+ 2.5000E-02                                                       40579001   24
+ENDCOMMON            3                                            40579001   25
+ENDSUBENT           24                                            4057900199999
+SUBENT        40579004     860121                                 40579004    1
+BIB                  3          5                                 40579004    2
+REACTION  1(91-PA-232(N,G)91-PA-233,,SIG,,SPA)                    40579004    3
+          2(91-PA-232(N,G)91-PA-233,,RI)                          40579004    4
+DECAY-DATA (91-PA-233,26.95D,B-,311.887,0.37)                     40579004    5
+MONITOR   1(90-TH-232(N,G)90-TH-233,,SIG,,MXW)                    40579004    6
+          2(90-TH-232(N,G)90-TH-233,,RI,,MXW)                     40579004    7
+ENDBIB               5                                            40579004    8
+COMMON               4          3                                 40579004    9
+MONIT     1MONIT-ERR 1MONIT     2MONIT-ERR 2                      40579004   10
+B          B          B          B                                40579004   11
+ 7.4000E+00 1.0000E-01 8.5000E+01 3.0000E+00                      40579004   12
+ENDCOMMON            3                                            40579004   13
+DATA                 4          1                                 40579004   14
+DATA      1ERR-T     1DATA      2ERR-T     2                      40579004   15
+B          B          B          B                                40579004   16
+ 2.3000E+03 1.3000E+02 8.1200E+04 5.1000E+03                      40579004   17
+ENDDATA              3                                            40579004   18
+ENDSUBENT           17                                            4057900499999
+ENDENTRY             2                                            4057999999999
+ENDREQUEST           1                                            Z999999999999

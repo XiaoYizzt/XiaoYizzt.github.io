@@ -1,0 +1,225 @@
+REQUEST           1001   20010914          3     140823               0  0    0
+ENTRY            11426     820813                                 11426000    1
+SUBENT        11426001     820813                                 11426001    1
+BIB                  6          8                                 11426001    2
+INSTITUTE  (1USAORL)                                              11426001    3
+REFERENCE  (C,55ANS,,(203),5512)                                  11426001    4
+AUTHOR     (W.A.BROOKSBANK,G.W.LEDDICOTTE,W.S.LYON,S.A.REYNOLDS)  11426001    5
+TITLE      SLOW NEUTRON ACTIVATION CROSS SECTIONS OF SEVERAL      11426001    6
+           ELEMENTS.                                              11426001    7
+STATUS     (SCSRS)                                                11426001    8
+HISTORY    (760715T) TRANSLATED FROM SCISRS                       11426001    9
+           (820813A) CONVERTED TO REACTION FORMALISM              11426001   10
+ENDBIB               8                                            11426001   11
+NOCOMMON             0          0                                 11426001   12
+ENDSUBENT           11                                            1142600199999
+SUBENT        11426006     820813                                 11426006    1
+BIB                  4          5                                 11426006    2
+REACTION   (32-GE-70(N,G)32-GE-71,,SIG,,MXW)                      11426006    3
+DETECTOR   (PROPC)    PROPORTIONAL COUNTER                        11426006    4
+MONITOR    (27-CO-59(N,G)27-CO-60,,SIG)                           11426006    5
+            BASED ON COBALT THERMAL CAPTURE=34B.                  11426006    6
+INC-SPECT  SUB-CD SPECTRUM                                        11426006    7
+ENDBIB               5                                            11426006    8
+NOCOMMON             0          0                                 11426006    9
+DATA                 4          1                                 11426006   10
+EN-DUMMY   DATA       DATA-ERR   MONIT                            11426006   11
+MEV        B          B          B                                11426006   12
+ 2.53   -08 3.9    +00 1.2    +00 34.                             11426006   13
+ENDDATA              3                                            11426006   14
+ENDSUBENT           13                                            1142600699999
+ENDENTRY             2                                            1142699999999
+ENTRY            11507     860715                                 11507000    1
+SUBENT        11507001     860715                                 11507001    1
+BIB                 10         12                                 11507001    2
+INSTITUTE  (1USAORL)                                              11507001    3
+REFERENCE  (J,PR,88,412,52)                                       11507001    4
+AUTHOR     (H.POMERANCE)                                          11507001    5
+TITLE      THERMAL NEUTRON CAPTURE CROSS SECTIONS.                11507001    6
+FACILITY   (OSCIP) PILE OSCILLATOR                                11507001    7
+INC-SPECT  THERMAL SPECTRUM                                       11507001    8
+METHOD     (ACTIV).                                               11507001    9
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)                         11507001   10
+STATUS     (SCSRS)                                                11507001   11
+HISTORY    (760715T) TRANSLATED FROM SCISRS                       11507001   12
+           (821124A) CONVERTED TO REACTION FORMALISM              11507001   13
+           (860715A) ENERGY MOVED TO SUBENTRY 1.                  11507001   14
+ENDBIB              12                                            11507001   15
+COMMON               2          3                                 11507001   16
+EN-DUMMY   MONIT                                                  11507001   17
+EV         B                                                      11507001   18
+ 0.0253     95.                                                   11507001   19
+ENDCOMMON            3                                            11507001   20
+ENDSUBENT           19                                            1150700199999
+SUBENT        11507034     860715                                 11507034    1
+BIB                  1          1                                 11507034    2
+REACTION   (32-GE-70(N,G)32-GE-71,,SIG,,MXW)                      11507034    3
+ENDBIB               1                                            11507034    4
+NOCOMMON             0          0                                 11507034    5
+DATA                 3          1                                 11507034    6
+DATA       DATA-ERR   MONIT                                       11507034    7
+B          PER-CENT   B                                           11507034    8
+ 3.25   +00  8.        95.                                        11507034    9
+ENDDATA              3                                            11507034   10
+ENDSUBENT            9                                            1150703499999
+ENDENTRY             2                                            1150799999999
+ENTRY            11625     840731                                 11625000    1
+SUBENT        11625001     840731                                 11625001    1
+BIB                  9         12                                 11625001    2
+INSTITUTE  (1USAORL)                                              11625001    3
+REFERENCE  (J,NSE,8,378,60)                                       11625001    4
+AUTHOR     (W.S.LYON)                                             11625001    5
+TITLE      REACTOR NEUTRON ACTIVATION CROSS SECTIONS FOR A        11625001    6
+            NUMBER OF ELEMENTS.                                   11625001    7
+INC-SOURCE (REAC) ORNL GRAPHITE REACTOR                           11625001    8
+INC-SPECT  REACTOR SPECTRUM                                       11625001    9
+METHOD     (ACTIV) ACTIVATION                                     11625001   10
+STATUS     (SCSRS)                                                11625001   11
+HISTORY    (760718T) TRANSLATED FROM SCISRS                       11625001   12
+           (830815A) CONVERTED TO REACTION FORMALISM              11625001   13
+           (840731A) BIB CORRECTIONS.                             11625001   14
+ENDBIB              12                                            11625001   15
+COMMON               1          3                                 11625001   16
+DATA-ERR                                                          11625001   17
+PER-CENT                                                          11625001   18
+ 10.                                                              11625001   19
+ENDCOMMON            3                                            11625001   20
+ENDSUBENT           19                                            1162500199999
+SUBENT        11625009     830815                                 11625009    1
+BIB                  3          3                                 11625009    2
+REACTION   (32-GE-70(N,G)32-GE-71,,SIG,,SPA)                      11625009    3
+MONITOR    (27-CO-59(N,G)27-CO-60,,SIG)                           11625009    4
+DECAY-DATA (32-GE-71,12.D)                                        11625009    5
+ENDBIB               3                                            11625009    6
+NOCOMMON             0          0                                 11625009    7
+DATA                 3          1                                 11625009    8
+EN-DUMMY   DATA       MONIT                                       11625009    9
+EV         B          B                                           11625009   10
+ 0.0253     3.47       36.7                                       11625009   11
+ENDDATA              3                                            11625009   12
+ENDSUBENT           11                                            1162500999999
+ENDENTRY             2                                            1162599999999
+ENTRY            22037     881229                                 22037000    1
+SUBENT        22037001     881229                                 22037001    1
+BIB                  8         15                                 22037001    2
+REFERENCE  (R,KFK-3706,8404) MAIN REF.                            22037001    3
+           (J,NSE,93,(4),357,8608)                                22037001    4
+           (J,AAA,142,268,85)                                     22037001    5
+TITLE      -TEMPERATUR UND NEUTRONENDICHTE DER SCHWACHEN          22037001    6
+            KOMPONENTE DES S-PROZESSES.                           22037001    7
+AUTHOR     (G.WALTER)                                             22037001    8
+INSTITUTE  (2GERKFK)                                              22037001    9
+FACILITY   (VDG,2GERKFK) KARLSRUHE 3.75 MV VAN DE GRAAFF          22037001   10
+            ACCELERATOR.                                          22037001   11
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG) FROM ENDF/B-V.          22037001   12
+STATUS     .DATA WERE TAKEN FROM MAIN REF.                        22037001   13
+HISTORY    (861127C)  NO.                                         22037001   14
+           (870827E)                                              22037001   15
+           (880129U) IF.                                          22037001   16
+           (880129E)                                              22037001   17
+ENDBIB              15                                            22037001   18
+NOCOMMON             0          0                                 22037001   19
+ENDSUBENT           18                                            2203700199999
+SUBENT        22037003     881229                                 22037003    1
+BIB                 10         54                                 22037003    2
+REACTION   (32-GE-70(N,G)32-GE-71,,SIG,,MXW) MAXWELLIAN AVERAGE   22037003    3
+            CAPTURE CROSS SECTION.                                22037003    4
+METHOD     (TOF  ) TIME-OF-FLIGHT TECHNIQUES.                     22037003    5
+INC-SOURCE (P-LI7) PRINCIPAL PARAMETERS OF THE NEUTRON SOURCE     22037003    6
+            AND THE ACCELERATOR,                                  22037003    7
+               .E(P)= 1.9 - 2.0 MEV                               22037003    8
+               .BEAM CURRENT= 4 MICRO-A AT 0.5 MHZ                22037003    9
+               .PULSE WIDTH LT 1 NANO-SEC                         22037003   10
+               .TIME RESOLUTION=ABOUT 1 NANO-SEC                  22037003   11
+               .FLIGHT PATH = 60.5 CM                             22037003   12
+               .ENERGY RESOLUTION=ABOUT 0.2-0.5 KEV AT 30 KEV     22037003   13
+              -FOR THE METALLIC LI TARGET                         22037003   14
+               .THICKNESS=3 MICRO-M                               22037003   15
+               .DIAMETER=6 MM                                     22037003   16
+               .SUPPORT TA (THICKNESS=0.3 MM) WATER-COOLED.       22037003   17
+INC-SPECT  .A WHITE NEUTRON SPECTRUM FROM 4 TO 200 KEV WAS USED.  22037003   18
+DETECTOR   (SCIN ) 2 C6D6 SCINTILLATORS, PLACED AT AN ANGLE OF    22037003   19
+            90 DEG WITH RESPECT TO THE NEUTRON BEAM IN AN         22037003   20
+            EFFICIENT SHIELDING.                                  22037003   21
+SAMPLE     .THE SAMPLES WERE PLACED AT A DISTANCE OF 60.5 CM      22037003   22
+            FROM THE NEUTRON TARGET.                              22037003   23
+           .THE GE SAMPLE WAS A METAL DISC OF 24 MM DIAMETER      22037003   24
+            BY 1.5 MM THICK, CANNED IN A 9 MICRO-M AL-FOIL.       22037003   25
+           .ISOTOPIC COMPOSITION                                  22037003   26
+               SAMPLE      ISOTOPE     ENRICHMENT(IN PERCENT)     22037003   27
+               GE-70        GE-70           98.45                 22037003   28
+                            GE-72            0.57                 22037003   29
+                            GE-73            0.23                 22037003   30
+                            GE-74            0.61                 22037003   31
+                            GE-76            0.14                 22037003   32
+CORRECTION .CORRECTIONS WERE APPLIED FOR NEUTRON MULTIPLE         22037003   33
+            SCATTERING AND SELF-SHIELDING AND FOR GAMMA-RAY       22037003   34
+            SELF-ABSORPTION IN THE SAMPLES. CORRECTIONS WERE      22037003   35
+            ALSO APPLIED FOR PILE-UP EVENTS AND FOR THE LOST      22037003   36
+            FRACTION OF LOW ENERGY GAMMA-RAYS WHICH WERE CUT      22037003   37
+            OFF BY THE ELECTRONIC PULSE-HEIGHT THRESHOLD.         22037003   38
+ERR-ANALYS (ERR-T) TOTAL ERRORS, COMPOSED OF                      22037003   39
+            * ERROR IN AU STANDARD                  4   PER CENT  22037003   40
+            * WEIGHTING FUNCTION                  1.5   PER CENT  22037003   41
+            * SAMPLE MASS                         0.1   PER CENT  22037003   42
+            * LOWER ELECTRONIC                                    22037003   43
+              THRESHOLD CORRECTION                  1   PER CENT  22037003   44
+            * PILE-UP CORRECTION                    1   PER CENT  22037003   45
+            * NEUTRON MULTIPLE SCATTERING           1   PER CENT  22037003   46
+            * SELF-ABSORPTION CORRECTION            2   PER CENT  22037003   47
+            * ISOTOPIC IMPURITIES                 1.5   PER CENT  22037003   48
+            * TIME DEPENDENT BACKGROUND           1.2   PER CENT  22037003   49
+            * STATISTICS                          0.5   PER CENT  22037003   50
+                            TOTAL         ABOUT   5.4   PER CENT  22037003   51
+STATUS     .DATA TAKEN FROM MAIN REF.                             22037003   52
+HISTORY    (861127C)  NO.                                         22037003   53
+           (870827E)                                              22037003   54
+           (880129U) IF.                                          22037003   55
+           (880129E)                                              22037003   56
+ENDBIB              54                                            22037003   57
+NOCOMMON             0          0                                 22037003   58
+DATA                 3          4                                 22037003   59
+KT         DATA       ERR-T                                       22037003   60
+KEV        MB         MB                                          22037003   61
+ 2.0000E+01 1.1200E+02 6.0000E+00                                 22037003   62
+ 3.0000E+01 9.2000E+01 5.0000E+00                                 22037003   63
+ 4.0000E+01 8.1000E+01 5.0000E+00                                 22037003   64
+ 5.0000E+01 7.5000E+01 4.0000E+00                                 22037003   65
+ENDDATA              6                                            22037003   66
+ENDSUBENT           65                                            2203700399999
+ENDENTRY             3                                            2203799999999
+ENTRY            67005     780524                                 67005000    1
+SUBENT        67005001     780524                                 67005001    1
+BIB                  8         10                                 67005001    2
+INSTITUTE  (2GERMUN)                                              67005001    3
+REFERENCE  (J,ZP,210,13,68)                                       67005001    4
+AUTHOR     (W.MANNHART,H.VONACH)                                  67005001    5
+TITLE      ISOMERIC CROSS SECTION RATIOS FOR THE 2-P-1/2 AND      67005001    6
+            1-G-9/2 SHELL MODEL STATES FORMED BY THERMAL NEUTRON  67005001    7
+            CAPTURE                                               67005001    8
+INC-SOURCE (THCOL) REACTOR THERMAL COLUMN                         67005001    9
+INC-SPECT  THERMALIZED SPECTRUM                                   67005001   10
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG,,MXW)                    67005001   11
+HISTORY    (780411C)                                              67005001   12
+ENDBIB              10                                            67005001   13
+COMMON               3          3                                 67005001   14
+EN-DUMMY   MONIT      MONIT-ERR                                   67005001   15
+EV         B          B                                           67005001   16
+ 2.5300E-02 9.8500E+01 4.0000E-01                                 67005001   17
+ENDCOMMON            3                                            67005001   18
+ENDSUBENT           17                                            6700500199999
+SUBENT        67005005     780524                                 67005005    1
+BIB                  2          3                                 67005005    2
+REACTION   (32-GE-70(N,G)32-GE-71,,SIG,,MXW)                      67005005    3
+DECAY-DATA (32-GE-71-G,11.0D,DG)                                  67005005    4
+           (32-GE-71-M,20.MIN,DG) THIS ISOMER UNKNOWN (NNDC)      67005005    5
+ENDBIB               3                                            67005005    6
+NOCOMMON             0          0                                 67005005    7
+DATA                 2          1                                 67005005    8
+DATA       DATA-ERR                                               67005005    9
+B          B                                                      67005005   10
+ 3.1500E+00 1.6000E-01                                            67005005   11
+ENDDATA              3                                            67005005   12
+ENDSUBENT           11                                            6700500599999
+ENDENTRY             2                                            6700599999999
+ENDREQUEST           1                                            Z999999999999

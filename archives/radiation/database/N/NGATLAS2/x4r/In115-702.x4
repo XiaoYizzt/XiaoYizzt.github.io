@@ -1,0 +1,125 @@
+REQUEST           1001   20010914          3     141929               0  0    0
+ENTRY            12609     860612                                 12609000    1
+SUBENT        12609001     860612                                 12609001    1
+BIB                  9         12                                 12609001    2
+INSTITUTE  (1USACOR)                                              12609001    3
+REFERENCE  (J,BAP,12,544(GH12),67)                                12609001    4
+           (J,BAP,11,102,66) EXPERIMENTAL PROCEDURE               12609001    5
+AUTHOR     (D.CLARK,M.KIME)                                       12609001    6
+SAMPLE     0.13-MG SAMPLE OF .963 IN-113, .364 IN-115.            12609001    7
+METHOD     CADMIUM DIFFERENCES                                    12609001    8
+INC-SPECT  THERMAL SPECTRUM                                       12609001    9
+MONITOR    (49-IN-115(N,G)49-IN-116-M1,,SIG,,MXW)                 12609001   10
+DECAY-MON  (49-IN-116-M2,54.MIN)                                  12609001   11
+HISTORY    (780413C)                                              12609001   12
+           (820826A) DUPLICATE ENERGY REMOVED.                    12609001   13
+           (860612A) BIB UPDATE.                                  12609001   14
+ENDBIB              12                                            12609001   15
+COMMON               2          3                                 12609001   16
+EN-DUMMY   MONIT                                                  12609001   17
+EV         B                                                      12609001   18
+0.0253     157.                                                   12609001   19
+ENDCOMMON            3                                            12609001   20
+ENDSUBENT           19                                            1260900199999
+SUBENT        12609003     860612                                 12609003    1
+BIB                  2          2                                 12609003    2
+REACTION   (49-IN-115(N,G)49-IN-116-M2,,SIG,,MXW)                 12609003    3
+DECAY-DATA (49-IN-116-M2,2.2SEC)                                  12609003    4
+ENDBIB               2                                            12609003    5
+NOCOMMON             0          0                                 12609003    6
+DATA                 1          1                                 12609003    7
+DATA                                                              12609003    8
+B                                                                 12609003    9
+ 91.                                                              12609003   10
+ENDDATA              3                                            12609003   11
+ENDSUBENT           10                                            1260900399999
+ENDENTRY             2                                            1260999999999
+ENTRY            20237     831121                                 20237000    1
+SUBENT        20237001     831121                                 20237001    1
+BIB                 13         18                                 20237001    2
+INSTITUTE  (2BLGMOL)                                              20237001    3
+REFERENCE  (J,PL,3,40,6211)                                       20237001    4
+           (J,PL,3,36,6211) DECAY SCHEME OF IN-116                20237001    5
+AUTHOR     (P.FETTWEIS)                                           20237001    6
+TITLE      - CROSS-SECTION RATIOS FOR THE PRODUCTION OF THE THREE 20237001    7
+            ISOMERS OF IN-116 BY THERMAL NEUTRON CAPTURE-         20237001    8
+FACILITY   .BR1-REACTOR IN MOL, NUCL.INST.METH.,14(1961)272.      20237001    9
+INC-SPECT  .THERMAL REACTOR SPECTRUM.                             20237001   10
+METHOD     (ACTIV)    ACTIVATION                                  20237001   11
+DETECTOR   (NAICR)    SODIUM-IODIDE CRYSTAL                       20237001   12
+MONITOR    (49-IN-115(N,G)49-IN-116-M,,SIG)                       20237001   13
+             CROSS-SECTION LEAD NG TO BOTH                        20237001   14
+            ISOMERIC STATES = 155 +- 10 B. BNL-325(1960).         20237001   15
+PART-DET   (DG   )    DECAY GAMMAS                                20237001   16
+STATUS     .DATA FROM PHYS.LETT.,3(1962)40.                       20237001   17
+HISTORY    (721005C)                                              20237001   18
+           (740521E)                                              20237001   19
+ERR-ANALYS .NOT GIVEN.                                            20237001   20
+ENDBIB              18                                            20237001   21
+COMMON               1          3                                 20237001   22
+EN-DUMMY                                                          20237001   23
+MEV                                                               20237001   24
+ 2.5300E-08                                                       20237001   25
+ENDCOMMON            3                                            20237001   26
+ENDSUBENT           25                                            2023700199999
+SUBENT        20237004     831121                                 20237004    1
+BIB                  2          5                                 20237004    2
+REACTION  1((49-IN-115(N,G)49-IN-116-M2,,SIG,,SPA)/               20237004    3
+           (49-IN-115(N,G)49-IN-116,,SIG,,SPA))                   20237004    4
+          2(49-IN-115(N,G)49-IN-116-M2,,SIG,,SPA)                 20237004    5
+HISTORY    (721005C)                                              20237004    6
+           (740521E)                                              20237004    7
+ENDBIB               5                                            20237004    8
+NOCOMMON             0          0                                 20237004    9
+DATA                 5          1                                 20237004   10
+HL         DATA      1DATA-ERR  1DATA      2DATA-ERR  2           20237004   11
+SEC        NO-DIM     NO-DIM     B          B                     20237004   12
+ 2.5000E+00 2.0000E-02 8.0000E-03 4.0000E+00 1.5000E+00           20237004   13
+ENDDATA              3                                            20237004   14
+ENDSUBENT           13                                            2023700499999
+ENDENTRY             2                                            2023799999999
+ENTRY            21136     791112                                 21136000    1
+SUBENT        21136001     791112                                 21136001    1
+BIB                 13         19                                 21136001    2
+INSTITUTE  (2GERKFK) KARLSRUHE.                                   21136001    3
+REFERENCE  (J,NP,66,297,6505)                                     21136001    4
+AUTHOR     (W.PONITZ)                                             21136001    5
+TITLE      -THE SPIN OF THE 2 SEC ISOMERIC STATE OF IN-116-       21136001    6
+FACILITY   (SPECC) CRYSTAL SPECTROMETER.                          21136001    7
+INC-SOURCE (REAC ) KARLSRUHE REACTOR FR2.                         21136001    8
+SAMPLE     .METALLIC INDIUM FOIL.                                 21136001    9
+METHOD     (ACTIV) ACTIVATION.                                    21136001   10
+DETECTOR   (NAICR) GAMMA ACTIVITY OF SAMPLE FOIL MEASURED WITH    21136001   11
+                   10.2 CM BY 15.2 CM NAI(TL) CRYSTAL.            21136001   12
+DECAY-DATA (49-IN-116-M1,54.12MIN,B,,,DG,408.,,DG,1085.,,DG,1270.)21136001   13
+            ONLY THE GAMMAS WERE MEASURED.                        21136001   14
+           (49-IN-116-M2,2.16SEC,DG,163.) 163 KEV TRANSITION TO   21136001   15
+            M1 WAS MEASURED.                                      21136001   16
+RAD-DET    (49-IN-116-M1,DG) DECAY GAMMAS.                        21136001   17
+           (49-IN-116-M2,DG) DECAY GAMMAS.                        21136001   18
+STATUS     (NDD  ) FROM NEUDADA.                                  21136001   19
+HISTORY    (791002C)                                              21136001   20
+           (791112E)                                              21136001   21
+ENDBIB              19                                            21136001   22
+NOCOMMON             0          0                                 21136001   23
+ENDSUBENT           22                                            2113600199999
+SUBENT        21136004     791112                                 21136004    1
+BIB                  3          8                                 21136004    2
+REACTION   (49-IN-115(N,G)49-IN-116-M2,,SIG)                      21136004    3
+ANALYSIS   .CROSS-SECTION FOR THERMAL NEUTRONS CALCULATED BY      21136004    4
+            ASSUMING CONSTANCY OF THE ISOMERIC RATIO TO THE       21136004    5
+            FIRST AND SECOND METASTABLE STATES MEASURED IN        21136004    6
+            THIS WORK, AND ASSUMING A VALUE FOR THE CROSS-        21136004    7
+            SECTION TO THE FIRST STATE FROM K.H.BECKURTS ET       21136004    8
+            AL.,NUCL.SCI.ENG.,17,(1963),329.                      21136004    9
+STATUS     .DATA FROM TEXT OF PUBLICATION.                        21136004   10
+ENDBIB               8                                            21136004   11
+NOCOMMON             0          0                                 21136004   12
+DATA                 3          1                                 21136004   13
+EN         DATA       DATA-ERR                                    21136004   14
+EV         B          B                                           21136004   15
+ 2.5300E-02 8.1000E+01 8.0000E+00                                 21136004   16
+ENDDATA              3                                            21136004   17
+ENDSUBENT           16                                            2113600499999
+ENDENTRY             2                                            2113699999999
+ENDREQUEST           1                                            Z999999999999

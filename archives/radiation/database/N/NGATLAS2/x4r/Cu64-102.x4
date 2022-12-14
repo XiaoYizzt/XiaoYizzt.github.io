@@ -1,0 +1,112 @@
+REQUEST           1001   20010914          3     140638               0  0    0
+ENTRY            12982     870427                                 12982000    1
+SUBENT        12982001     870427                                 12982001    1
+BIB                 11         25                                 12982001    2
+INSTITUTE  (1USAAI )                                              12982001    3
+REFERENCE  (C,85SANTA,1,553(JA11),8505)                           12982001    4
+AUTHOR     (D.W.KNEFF,L.R.GREENWOOD,B.M.OLIVER,R.P.SKOWRONSKI,    12982001    5
+           E.L.CALLIS)                                            12982001    6
+TITLE      HELIUM PRODUCTION IN COPPER BY A THERMAL THREE-STAGE   12982001    7
+            REACTION                                              12982001    8
+FACILITY   (REAC) 9 LOCATIONS IN HFIR.                            12982001    9
+INC-SPECT  MIXED SPECTRUM FISSION REACTOR SPECTRUM (COMPARABLE    12982001   10
+            FLUXES OF THERMAL AND FISSION ENERGY NEUTRONS).       12982001   11
+SAMPLE     COPPER SAMPLES                                         12982001   12
+METHOD     ISOTOPE-DILUTION GAS MASS SPECTROMETRY (HELIUM         12982001   13
+            MEASUREMENTS)                                         12982001   14
+           MULTIPLE ACTIVATION GAS DOSIMETRY                      12982001   15
+           MASS SPECTROMETRY (SOLIDS)                             12982001   16
+ERR-ANALYS UNCERTAINTIES GIVEN INCLUDE:                           12982001   17
+             - GAMMA COUNTING = 1.5%                              12982001   18
+             - HELIUM MEASUREMENTS = 1-2%                         12982001   19
+             - ISOTOPE RATIOS = <1%                               12982001   20
+             - SPECTRAL-ADJUSTED FLUXES = 5-10%                   12982001   21
+           UNCERTAINTIES DO NOT INCLUDE UNCERTAINTIES IN          12982001   22
+            CALCULATED SPECTRUM-INTEGRATED (N,G) CROSS SECTIONS   12982001   23
+            FOR SEVERAL FAST-NEUTRON REACTION CHANNELS (DETERMINED12982001   24
+            TO BE NEGLIGIBLE).                                    12982001   25
+STATUS     (APRVD) D.W.KNEFF, 87/4/13.                            12982001   26
+HISTORY    (870217C)                                              12982001   27
+ENDBIB              25                                            12982001   28
+NOCOMMON             0          0                                 12982001   29
+ENDSUBENT           28                                            1298200199999
+SUBENT        12982002     870427                                 12982002    1
+BIB                  2          2                                 12982002    2
+REACTION   (29-CU-64(N,G)29-CU-65,,SIG,,SPA)                      12982002    3
+ANALYSIS   DETERMINED BY POST-IRRADIATION 65CU/63CU RATIOS        12982002    4
+ENDBIB               2                                            12982002    5
+NOCOMMON             0          0                                 12982002    6
+DATA                 3          1                                 12982002    7
+EN-DUMMY   DATA       DATA-ERR                                    12982002    8
+EV         B          B                                           12982002    9
+0.0253     270.       170.                                        12982002   10
+ENDDATA              3                                            12982002   11
+ENDSUBENT           10                                            1298200299999
+ENDENTRY             2                                            1298299999999
+ENTRY            40743     970715                                 40743000    1
+SUBENT        40743001     970715                                 40743001    1
+BIB                  7         10                                 40743001    2
+AUTHOR     (I.A.KONDUROV)                                         40743001    3
+TITLE      .ABSORPTION CROSS SECTIONS MEASUREMENTS FOR RADIOACTIVE40743001    4
+            NUCLEI                                                40743001    5
+INSTITUTE  (4RUSFTI)                                              40743001    6
+REFERENCE  (J,AE,24,(6),533,68)  MAIN REFERENCE. DATA ARE GIVEN   40743001    7
+           (P,INDC-140,21,6606)                                   40743001    8
+METHOD     (BURN)   BURN-UP                                       40743001    9
+FACILITY   (REAC)   REACTOR WWR-M                                 40743001   10
+HISTORY    (840516T) CONVERTED FROM ENTRY 80143                   40743001   11
+           (970710A) * * CORRECTED IN CJD - S.MAEV ***            40743001   12
+ENDBIB              10                                            40743001   13
+NOCOMMON             0          0                                 40743001   14
+ENDSUBENT           13                                            4074300199999
+SUBENT        40743006     970715                                 40743006    1
+BIB                  5          5                                 40743006    2
+REACTION   (29-CU-64(N,G)29-CU-65,,SIG,,MXW)                      40743006    3
+DETECTOR   (SCIN) SCINTILLATION SPECTROMETER                      40743006    4
+INC-SPECT   REACTOR SPECTRUM. CADMIUM RATIO IS 19.3 +- 0.6        40743006    5
+DECAY-DATA (29-CU-64,12.838HR,DG)                                 40743006    6
+HISTORY    (970710T) * * CONVERTED FROM SUBENT 80501004           40743006    7
+ENDBIB               5                                            40743006    8
+NOCOMMON             0          0                                 40743006    9
+DATA                 3          1                                 40743006   10
+EN-DUMMY   DATA       DATA-ERR                                    40743006   11
+EV         B          B                                           40743006   12
+ 2.5300E-02 2.1000E+03 1.9000E+03                                 40743006   13
+ENDDATA              3                                            40743006   14
+ENDSUBENT           13                                            4074300699999
+ENDENTRY             2                                            4074399999999
+ENTRY            80501     830822                                 80501000    1
+SUBENT        80501001     830822                                 80501001    1
+BIB                  9         10                                 80501001    2
+INSTITUTE  (4CCPCCP)                                              80501001    3
+REFERENCE  (J,AE,24,533,68)                                       80501001    4
+AUTHOR     (I.KONDUROV,A.EGOROV,M.KAMINKER,E.KOROTKIKH,A.NIKITIN) 80501001    5
+TITLE      NEUTRON CAPTURE CROSS-SECTION MEASUREMENTS OF CO-58-M, 80501001    6
+            CU-64 AND SC-46.                                      80501001    7
+INC-SOURCE (REAC) WATER CAVITY OF VVR-M REACTOR                   80501001    8
+INC-SPECT  THERMAL SPECTRUM                                       80501001    9
+MONITOR    (27-CO-59(N,G)27-CO-60,,SIG,,MXW)                      80501001   10
+ERR-ANALYS 3-4 PERCENT ERROR IN N-FLUX                            80501001   11
+HISTORY    (780411C)                                              80501001   12
+ENDBIB              10                                            80501001   13
+COMMON               3          3                                 80501001   14
+EN-DUMMY   MONIT      MONIT-ERR                                   80501001   15
+EV         B          B                                           80501001   16
+ 2.5300E-02 3.7500E+01 1.0000E+00                                 80501001   17
+ENDCOMMON            3                                            80501001   18
+ENDSUBENT           17                                            8050100199999
+SUBENT        80501004     830822                                 80501004    1
+BIB                  3          3                                 80501004    2
+REACTION   (29-CU-64(N,G)29-CU-65,,SIG,,MXW)                      80501004    3
+DECAY-DATA (29-CU-64,12.838HR,DG)                                 80501004    4
+DETECTOR   (SCIN) SCINTILLATION SPECTROMETER                      80501004    5
+ENDBIB               3                                            80501004    6
+NOCOMMON             0          0                                 80501004    7
+DATA                 3          1                                 80501004    8
+EN-DUMMY   DATA       DATA-ERR                                    80501004    9
+EV         B          B                                           80501004   10
+ 2.5300E-02 2.1000E+03 1.9000E+03                                 80501004   11
+ENDDATA              3                                            80501004   12
+ENDSUBENT           11                                            8050100499999
+ENDENTRY             2                                            8050199999999
+ENDREQUEST           1                                            Z999999999999

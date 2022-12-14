@@ -1,0 +1,237 @@
+REQUEST           1001   20010914          3     141728               0  0    0
+ENTRY            12866     851106                                 12866000    1
+SUBENT        12866001     851106                                 12866001    1
+BIB                 15         51                                 12866001    2
+INSTITUTE  (1USALRL)                                              12866001    3
+REFERENCE  (C,78MAYAG,,495,7805)                                  12866001    4
+AUTHOR     (R.E.HEFT)                                             12866001    5
+TITLE      A CONSISTENT SET OF NUCLEAR-PARAMETER VALUES           12866001    6
+           FOR ABSOLUTE INSTRUMENTAL NEUTRON ACTIVATION           12866001    7
+           ANALYSIS.                                              12866001    8
+FACILITY   (REAC) LAWRENCE LIVERMORE LABORATORY LPTR RESEARCH     12866001    9
+                  REACTOR FACILITY.                               12866001   10
+METHOD     (ACTIV)                                                12866001   11
+           EPITHERMAL-TO-THERMAL FLUX RATIO WAS MEASURED IN       12866001   12
+             EACH IRRADIATION BY INCLUDING A URANIUM-SCANDIUM     12866001   13
+             STANDARD IN THE IRRADIATION PACKAGE.                 12866001   14
+INC-SPECT  REACTOR SPECTRUM. ALL NUCLIDES IRRADIATED IN POSITION  12866001   15
+            S-2 WITH A CD RATIO OF 3.8 AND IN EITHER POSITION E-1 12866001   16
+            (CD RATIO 2.5) OR POSITION A-4 (CD RATIO 2.0)         12866001   17
+            DEPENDING ON WHETHER PRODUCTS WERE LONG OR SHORT-LIVED12866001   18
+MONITOR    ELEMENT SCANDIUM WAS USED AS AN INTERNAL FLUX MONITOR  12866001   19
+             SCANDIUM VALUES WERE MEASURED BY TAKING MIXTURES OF  12866001   20
+                                COBALT-SCANDIUM                   12866001   21
+                                GOLD-SCANDIUM                     12866001   22
+                                U238-SCANDIUM                     12866001   23
+           ((MONIT1)21-SC-45(N,G)21-SC-46,,SIG)                   12866001   24
+           ((MONIT2)27-CO-59(N,G)27-CO-60,,SIG)                   12866001   25
+           ((MONIT3)79-AU-197(N,G)79-AU-198,,SIG)                 12866001   26
+           ((MONIT4)92-U-238(N,G)92-U-239,,SIG)                   12866001   27
+           ((MONIT5)21-SC-45(N,G)21-SC-46,,RI)                    12866001   28
+           ((MONIT6)27-CO-59(N,G)27-CO-60,,RI)                    12866001   29
+           ((MONIT7)79-AU-197(N,G)79-AU-198,,RI)                  12866001   30
+           ((MONIT8)92-U-238(N,G)92-U-239,,RI)                    12866001   31
+DECAY-MON  (21-SC-46-G,83.9D,DG,1120.5,1.)                        12866001   32
+           (27-CO-60-G,1922.D,DG,1332.51,1.)                      12866001   33
+           (79-AU-198-G,2.70D,DG,411.79,0.968)                    12866001   34
+           (92-U-239,0.01635D,DG,74.67,.593)                      12866001   35
+           (93-NP-239,2.353D,DG,106.07,0.252)                     12866001   36
+DETECTOR   ALL COUNTING WAS DONE ON GAMMA SPECTRAL ANALYZERS      12866001   37
+             TO MEASURE ABSOLUTE PHOTON EMISSION RATES.           12866001   38
+ANALYSIS   ALL SPECTRA GENERATED WERE ANALYZED BY COMPUTER        12866001   39
+             CODE GAMANAL TO OBTAIN A SET OF ABSOLUTE             12866001   40
+             DISINTEGRATION RATES FOR THE NUCLIDES FOUND.         12866001   41
+           THE DISINTEGRATION-RATE DATA THUS OBTAINED WERE        12866001   42
+             FURTHER ANALYZED BY ANOTHER COMPUTER CODE NADAC      12866001   43
+             TO COMPUTE THE EFFECTIVE CROSS SECTION FOR           12866001   44
+             EACH ACTIVATION PRODUCT.                             12866001   45
+ERR-ANALYS DETAILS NOT GIVEN                                      12866001   46
+             FOR SOME ELEMENTS THE ERRORS REFLECT THE EFFECTS OF  12866001   47
+             CONCENTRATION ERROR OR EVAPORATION LOSS.             12866001   48
+CORRECTION NO CORRECTION FOR THE INTERFERENCE DUE TO (N,P)        12866001   49
+             REACTION WAS DONE.                                   12866001   50
+           CORRECTION DUE TO U-235 FISSION REACTION IS IMPLIED.   12866001   51
+STATUS     (APRVD) R.E.HEFT, 84/12/27.                            12866001   52
+HISTORY    (840410C)                                              12866001   53
+ENDBIB              51                                            12866001   54
+COMMON              10          6                                 12866001   55
+MONIT1     MONIT1-ERR MONIT2     MONIT3     MONIT4     MONIT5     12866001   56
+MONIT5-ERR MONIT6     MONIT7     MONIT8                           12866001   57
+B          B          B          B          B          B          12866001   58
+B          B          B          B                                12866001   59
+27.7       0.5        37.5       98.8       2.720      12.2       12866001   60
+0.6        75.        1550.      280.                             12866001   61
+ENDCOMMON            6                                            12866001   62
+ENDSUBENT           61                                            1286600199999
+SUBENT        12866088     841227                                 12866088    1
+BIB                  3          3                                 12866088    2
+REACTION   (46-PD-110(N,G)46-PD-111-M,,SIG,,SPA)                  12866088    3
+SAMPLE     NATURAL SAMPLE,ASSUMED 11.81 PERCENT ABUNDANCE.        12866088    4
+DECAY-DATA (46-PD-111-M,2.292E-01D,DG,172.10,0.324)               12866088    5
+ENDBIB               3                                            12866088    6
+NOCOMMON             0          0                                 12866088    7
+DATA                 3          1                                 12866088    8
+EN-DUMMY   DATA       DATA-ERR                                    12866088    9
+EV         B          B                                           12866088   10
+0.025      0.033      0.003                                       12866088   11
+ENDDATA              3                                            12866088   12
+ENDSUBENT           11                                            1286608899999
+ENDENTRY             2                                            1286699999999
+ENTRY            30492     850121                                 30492000    1
+SUBENT        30492001     850121                                 30492001    1
+BIB                 13         21                                 30492001    2
+INSTITUTE  (3INDAUW)                                              30492001    3
+REFERENCE  (J,NCL,5,(16),1025,7212)                               30492001    4
+           (C,70MADURAI,2,19,7012) PREVIOUS RESULT FOR PD110,PT19630492001    5
+AUTHOR     (A.LAKSHMANA RAO,J.RAMA RAO)                           30492001    6
+TITLE      ISOMER RATIOS AND THE SHIFTED FERMI GAS MODEL.         30492001    7
+EXP-YEAR   (72)                                                   30492001    8
+INC-SOURCE ANTIMONY-BERYLLIUM NEUTRON SOURCE OF 20 CURIE.         30492001    9
+METHOD     (ACTIV)                                                30492001   10
+            EXP.DETAIL, SEE A.LAKSHMANA RAO,J.RAMA RAO,JOURN.OF   30492001   11
+           PHYS.,A5(1972)1262.                                    30492001   12
+DETECTOR   (NAICR) 7F8 HARSHAW WELL-TYPE NAI(TL) AND 100 CHANNEL  30492001   13
+           ANALYSER.                                              30492001   14
+MONITOR    (53-I-127(N,G)53-I-128,,SIG) = 832+-6 MB.              30492001   15
+            FOR NEUTRON FLUX DETERMINATION.                       30492001   16
+            ===THIS INFORMATION IS GIVEN IN PROC.NUCL.PHY.AND SOL.30492001   17
+            STATE PHYS.SYMP.,MADURAI,DEC.27-30,(1970) P.19. ===   30492001   18
+PART-DET   (DG)                                                   30492001   19
+STATUS     DATA TAKEN FROM TABLE 1 OF LETT.AL NUOVO CIMENTO,5,(16)30492001   20
+            (1972)1026.                                           30492001   21
+HISTORY    (790622C) KO.                                          30492001   22
+ERR-ANALYS NO FURTHER INFORMATION.                                30492001   23
+ENDBIB              21                                            30492001   24
+COMMON               4          3                                 30492001   25
+EN         EN-RSL     MONIT      MONIT-ERR                        30492001   26
+KEV        KEV        MB         MB                               30492001   27
+ 2.5000E+01 5.0000E+00 8.3200E+02 2.6000E+01                      30492001   28
+ENDCOMMON            3                                            30492001   29
+ENDSUBENT           28                                            3049200199999
+SUBENT        30492003     850121                                 30492003    1
+BIB                  3         10                                 30492003    2
+REACTION  M(46-PD-110(N,G)46-PD-111-M,,SIG)                       30492003    3
+          G(46-PD-110(N,G)46-PD-111-G,,SIG)                       30492003    4
+          R(46-PD-110(N,G)46-PD-111-M/T,,SIG/RAT)                 30492003    5
+COMMENT   R THE EXPERIMENTAL ISOMER RATIO GIVEN BELOW IS          30492003    6
+           REPRODUCED BY THE HUIZENGA-VANDENBOSCH FORMALISM WHEN  30492003    7
+           USING                                                  30492003    8
+            1) SHIFTED FERMI-GAS MODEL(S.F.M.)  =  0.06,          30492003    9
+            2) INDEPENDENT PAIRING MODEL(I.P.M.)=  0.038,         30492003   10
+            3) SUPER CONDUCTOR MODEL (S.C.M.)   =  0.044.         30492003   11
+STATUS     THIS ENTRY REPLACES EXFOR30246.008 TO 30246.010.       30492003   12
+ENDBIB              10                                            30492003   13
+NOCOMMON             0          0                                 30492003   14
+DATA                 6          1                                 30492003   15
+DATA      MDATA-ERR  MDATA      GDATA-ERR  GDATA      RDATA-ERR  R30492003   16
+MB         MB         MB         MB         NO-DIM     NO-DIM     30492003   17
+ 7.6000E+00 1.0000E+00 1.1000E+02 1.6000E+01 6.5000E-02 1.3000E-0230492003   18
+ENDDATA              3                                            30492003   19
+ENDSUBENT           18                                            3049200399999
+ENDENTRY             2                                            3049299999999
+ENTRY            30567     840911                                 30567000    1
+SUBENT        30567001     840911                                 30567001    1
+BIB                 16         47                                 30567001    2
+INSTITUTE  (3POLIBJ)                                              30567001    3
+REFERENCE  (J,NP/A,357,1,8103) FINAL RESULT.                      30567001    4
+           (C,79KNOX,,307,7910) SE78,80,82, CD114,116, OS190,192. 30567001    5
+           (R,INDC(NDS)-103,40,7905) NO DATA GIVEN.               30567001    6
+           ((P,INR-1773/I/PL/A,17,7809)=(P,INDC(POL)-9,17,7809))  30567001    7
+             OLD VALUES OF PD,CD (AND IR),WHICH WERE REVISED LATER30567001    8
+             BY PRIV.COMM. FROM MARCINKOWSKI,80/01/28.(1ST REV.)  30567001    9
+           ((P,INR-1809/I/PL/A,1,7906)=(P,INDC(POL)-10,1,7906))   30567001   10
+             OLD VALUES OF OS190, SAME VALUES OF OS192. 1ST REV.  30567001   11
+             BY PRIV.COMM. FROM MARCINKOWSKI,80/01/28.            30567001   12
+            ===COMPILER'S NOTE 81/04/28.-                         30567001   13
+            OLD VALUES AND IDENTICAL VALUES COMPILED IN EXFOR     30567001   14
+            30482 AND 30512 HAVE BEEN SUPERCEDED BY THIS EXFOR    30567001   15
+            30567, ACCORDINGLY. SEE SUBENTRIES. ===               30567001   16
+AUTHOR     (M.HERMAN,A.MARCINKOWSKI)                              30567001   17
+TITLE      CROSS SECTIONS FOR FAST NEUTRON CAPTURE ON THE SE, PD, 30567001   18
+           CD, OS AND PT ISOTOPES. (NEW EXP.)                     30567001   19
+FACILITY   (VDG,3POLIBJ)                                          30567001   20
+INC-SOURCE (P-T)                                                  30567001   21
+METHOD     (ACTIV)                                                30567001   22
+DETECTOR   (GELI) 60 CM3 GE(LI) DETECTOR                          30567001   23
+           THE RELATIVE DETECTION EFFICIENCY WAS DETERMINED WITH  30567001   24
+           YB-169, BA-113 AND RA-226.                             30567001   25
+MONITOR    (49-IN-115(N,G)49-IN-116-M1+M2,,SIG/SUM,,,EVAL)        30567001   26
+MONIT-REF  (,F.SCHMITTROTH,R,BNL-NCS-50446,158,75)ENDF/B-3 MAT641630567001   27
+            ALSO REFERRED,R.SHER,BNL-NCS-50446(1975)150.(ENDF/B-3,30567001   28
+           MAT 6406)                                              30567001   29
+DECAY-MON  (49-IN-116-M1,54.2MIN,DG,417.,0.32) CONV.COEF.= 0.011. 30567001   30
+PART-DET   (DG)                                                   30567001   31
+STATUS     DATA TAKEN FROM TABLE 2 OF NUCL.PHYS.A357(1981)1.      30567001   32
+           (APRVD) APPROVED BY M.HERMAN,81/06/15.                 30567001   33
+HISTORY    (810428C) KO.                                          30567001   34
+           (810624U) KO. -'APRVD' ADDED -                         30567001   35
+CORRECTION THE CROSS-SECTIONS WERE CORRECTED FOR THE ATTENUATION  30567001   36
+           OF THE GAMMA-RAYS IN THE SAMPLES AND FOR SUMMING OF    30567001   37
+           CASCADE GAMMA-RAYS IN THE GE(LI) DETECTOR.             30567001   38
+ERR-ANALYS (ERR-T)                                                30567001   39
+           STATISTICAL AND SYSTEMATIC UNCERTAINTIES INCLUDING     30567001   40
+           THE UNCERTAINTY OF THE STANDARD (MONITOR) CROSS SECTION30567001   41
+            *SYSTEMATIC ERRORS CONSIST OF THE UNCERTAINTY         30567001   42
+            1)CAUSED BY BEAM CURRENT FLUCTUATION,  0.4 TO 0.8 P.C.30567001   43
+            2)OF SAMPLE WEIGHT                  ,  0.1 PER-CENT,  30567001   44
+            3)OF COUNTING EFFICIENCY            ,  1.5 TO 10 P.C.,30567001   45
+            4)OF GAMMA ATTENUATION IN THE SAMPLE,  0.5 TO 16 P.C.,30567001   46
+            5)IN THE INTEGRATION OF PULSE-HEIGHT SECT.,  3 PERCENT30567001   47
+            6)IN DETERMINATING PULSE-SUMMING IN GE(LI), 0 TO 1.7PC30567001   48
+            7)OF THE CROSS-SECTION OF REFERENCE ,        7 PERCENT30567001   49
+ENDBIB              47                                            30567001   50
+NOCOMMON             0          0                                 30567001   51
+ENDSUBENT           50                                            3056700199999
+SUBENT        30567006     840911                                 30567006    1
+BIB                  4          6                                 30567006    2
+REACTION   (46-PD-110(N,G)46-PD-111-M,,SIG)                       30567006    3
+SAMPLE     HIGH PURITY NATURAL ELEMENT.                           30567006    4
+DECAY-DATA (46-PD-111-M,5.5HR,DG,170.,0.713) CONV.COEF. =1.26,    30567006    5
+           FROM TABLE OF ISOTOPES, 6TH ED.(1968),                 30567006    6
+                R.S.HAGER,E.C.SELTZER,NUCL.DATA TABLE,A4(1968)1.  30567006    7
+STATUS     THIS ENTRY REPLACES EXFOR 30482.003.                   30567006    8
+ENDBIB               6                                            30567006    9
+NOCOMMON             0          0                                 30567006   10
+DATA                 5          4                                 30567006   11
+EN         EN-RSL     DATA       ERR-T      MONIT                 30567006   12
+MEV        MEV        MB         MB         MB                    30567006   13
+ 5.3000E-01 1.4000E-01 6.4000E+00 9.0000E-01 1.8000E+02           30567006   14
+ 8.6000E-01 2.1000E-01 6.4000E+00 9.0000E-01 2.0000E+02           30567006   15
+ 1.2000E+00 1.5000E-01 5.0000E+00 7.0000E-01 1.7600E+02           30567006   16
+ 1.3100E+00 7.0000E-02 4.4000E+00 6.0000E-01 1.7000E+02           30567006   17
+ENDDATA              6                                            30567006   18
+ENDSUBENT           17                                            3056700699999
+ENDENTRY             2                                            3056799999999
+ENTRY            31249     851217                                 31249000    1
+SUBENT        31249001     851217                                 31249001    1
+BIB                  5          6                                 31249001    2
+INSTITUTE  (3INDMUA)                                              31249001    3
+REFERENCE  (J,NP,41,372,63)                                       31249001    4
+AUTHOR     (S.K.MANGAL,P.S.GILL)                                  31249001    5
+TITLE      THERMAL NEUTRON ACTIVATION CROSS-SECTIONS FOR ISOMER   31249001    6
+           PRODUCTION (II).                                       31249001    7
+HISTORY    (771115T) CONVERTED FROM EXFOR 70249                   31249001    8
+ENDBIB               6                                            31249001    9
+NOCOMMON             0          0                                 31249001   10
+ENDSUBENT            9                                            3124900199999
+SUBENT        31249002     851217                                 31249002    1
+BIB                  5          5                                 31249002    2
+REACTION   (46-PD-110(N,G)46-PD-111-M,,SIG,,SPA)                  31249002    3
+INC-SPECT   REACTOR SPECTRUM                                      31249002    4
+METHOD     (ACTIV)    ACTIVATION                                  31249002    5
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)                         31249002    6
+STATUS     (SCSRS)                                                31249002    7
+ENDBIB               5                                            31249002    8
+COMMON               1          3                                 31249002    9
+HL                                                                31249002   10
+HR                                                                31249002   11
+ 5.5000E+00                                                       31249002   12
+ENDCOMMON            3                                            31249002   13
+DATA                 3          1                                 31249002   14
+EN-DUMMY   DATA       DATA-ERR                                    31249002   15
+MEV        B          PER-CENT                                    31249002   16
+ 2.5300E-08 3.7000E-02 1.5000E+01                                 31249002   17
+ENDDATA              3                                            31249002   18
+ENDSUBENT           17                                            3124900299999
+ENDENTRY             2                                            3124999999999
+ENDREQUEST           1                                            Z999999999999

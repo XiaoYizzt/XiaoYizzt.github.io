@@ -1,0 +1,94 @@
+REQUEST           1001   20010914          3     142723               0  0    0
+ENTRY            30023     850219                                 30023000    1
+SUBENT        30023001     850219                                 30023001    1
+BIB                 12         23                                 30023001    2
+INSTITUTE  (3HUNDEB)                                              30023001    3
+REFERENCE  (J,AHP,28,257,7001) EXPERIMENT AND RESULTS, DATA       30023001    4
+AUTHOR     (M.DIKSIC, P.STROHAL, G.PETO, P.BORNEMISZA-PAUSPERTL,  30023001    5
+           I.HUNYADI, J.KAROLYI)                                  30023001    6
+TITLE      ADDITIONAL MEASUREMENTS OF THE RADIATIVE CAPTURE CROSS 30023001    7
+           SECTIONS FOR 3 MEV NEUTRONS.                           30023001    8
+INC-SOURCE (D-D) D(D,N) REACTION                                  30023001    9
+SAMPLE     SAMPLES IN PURE OR COMPOUND FORM WERE MOUNTED IN THIN  30023001   10
+           POLYETHYLENE FOILS AND IRRADIATED TOGETHER WITH MONITOR30023001   11
+           MATERIALS                                              30023001   12
+METHOD     (ACTIV) ACTIVATION                                     30023001   13
+DETECTOR   (GEMUC,NAICR) GEIGER-MULLER FOR BETA ACTIVITIES AND    30023001   14
+           NAI(TL) CRYSTAL SPECTROMETER FOR GAMMAS.               30023001   15
+STATUS            DATA FROM ACTA PHYSICA HUNGARICAE 28,257,1/70   30023001   16
+           (APRVD) APPROVED BY PETO (5/9/72)                      30023001   17
+HISTORY    (671107R) DATA RECEIVED FROM CSIKAI, PRIV COM          30023001   18
+           (700626T) PREVIOUSLY DASTAR-00740,CHECKED WITH         30023001   19
+                     AHP 28 257 JAN 1970                          30023001   20
+CORRECTION THE BETA COUNTING RATE WAS CORRECTED FOR COUNTING      30023001   21
+           EFFICIENCY, SCATTERING AND ABSORPTION, FOR THE GAMMAS  30023001   22
+           THE PHOTO PEAK EFFICIENCY WAS TAKEN INTO ACCOUNT       30023001   23
+ERR-ANALYS ERRORS INDICATED ARE DUE TO STATISTICS, HALF-LIFE ERROR30023001   24
+           AND ERROR OF STANDARD CROSS-SECTIONS.                  30023001   25
+ENDBIB              23                                            30023001   26
+COMMON               2          3                                 30023001   27
+EN         EN-RSL                                                 30023001   28
+MEV        MEV                                                    30023001   29
+ 3.0000E+00 2.0000E-01                                            30023001   30
+ENDCOMMON            3                                            30023001   31
+ENDSUBENT           30                                            3002300199999
+SUBENT        30023010     840503                                 30023010    1
+BIB                  3          3                                 30023010    2
+REACTION   (59-PR-141(N,G)59-PR-142-G,,SIG)                       30023010    3
+MONITOR    (15-P-31(N,P)14-SI-31,,SIG)                            30023010    4
+PART-DET   (B-) BETA                                              30023010    5
+ENDBIB               3                                            30023010    6
+NOCOMMON             0          0                                 30023010    7
+DATA                 4          1                                 30023010    8
+DATA       DATA-ERR   MONIT      MONIT-ERR                        30023010    9
+MB         MB         MB         MB                               30023010   10
+ 1.0900E+01 9.0000E-01 7.4000E+01 6.0000E+00                      30023010   11
+ENDDATA              3                                            30023010   12
+ENDSUBENT           11                                            3002301099999
+ENDENTRY             2                                            3002399999999
+ENTRY            40336     960124                                 40336000    1
+SUBENT        40336001     960124                                 40336001    1
+BIB                 10         21                                 40336001    2
+TITLE       SCATTERING AND CAPTURE OF FAST NEUTRONS BY THE NUCLEI 40336001    3
+AUTHOR     (M.V.PASECHNIK,I.F.BARCHUK,I.A.TOTSKIY,V.I.STRIZHAK,   40336001    4
+           A.M.KOROLEV,YU.V.GOFMAN,G.N.LOVCHIKOVA,                40336001    5
+           E.A.KOLTYPIN,G.B.YAN'KOV)                              40336001    6
+INSTITUTE  (4UKRIFU,4RUSFEI)                                      40336001    7
+METHOD     (ACTIV)                                                40336001    8
+REFERENCE  (C,58GENEVA,15,18(2030),5807)                          40336001    9
+MONITOR     NO INFORMATION. ELSE - GIVEN IN A PARTICULAR SAN      40336001   10
+STATUS      GIVEN IN A PARTICULAR SUB-ENTRY                       40336001   11
+ERR-ANALYS   NO INFORMATION                                       40336001   12
+INC-SOURCE   NO INFORMATION                                       40336001   13
+HISTORY    (820603C) COMPILED AT THE CENTRE AUTOMATICALLY         40336001   14
+           (840808A) ADDED SUBENTRIES FROM ENTRY 80133            40336001   15
+           (870225A) SAN FROM 002 TO 078 DELETED ON THE REASON    40336001   16
+                     OF DATA REPETITION, REFERENCE AND ONE        40336001   17
+                     AUTHOR NAME CORRECTED                        40336001   18
+           (920325U) SEVERAL KEYWORDS ADDED, REACTION PRODUCT IN  40336001   19
+                     SAN 091 CORRECTED                            40336001   20
+           (950926A) DATA IN SAN 102 SUPERSEEDED                  40336001   21
+           (960124A) SAN 21 DELETED. NOSUBENTS 40336002-020,      40336001   22
+                     40336022-078 DELETED                         40336001   23
+ENDBIB              21                                            40336001   24
+NOCOMMON             0          0                                 40336001   25
+ENDSUBENT           24                                            4033600199999
+SUBENT        40336096     950926                                 40336096    1
+BIB                  5          5                                 40336096    2
+REACTION   (59-PR-141(N,G)59-PR-142-G,,SIG)                       40336096    3
+METHOD     (ACTIV)    ACTIVATION                                  40336096    4
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)                           40336096    5
+DECAY-DATA (59-PR-142-G,19.1HR,B)                                 40336096    6
+HISTORY    (840812T) CONVERTED FROM SUBENTRY 80133065             40336096    7
+ENDBIB               5                                            40336096    8
+NOCOMMON             0          0                                 40336096    9
+DATA                 4          3                                 40336096   10
+EN         DATA       DATA-ERR   MONIT                            40336096   11
+MEV        MB         MB         MB                               40336096   12
+ 2.5000E+00 5.9000E+00 3.0000E-04 51.                             40336096   13
+ 3.1        7.1        0.3        44.                             40336096   14
+ 4.0        6.3        0.2        37.                             40336096   15
+ENDDATA              5                                            40336096   16
+ENDSUBENT           15                                            4033609699999
+ENDENTRY             2                                            4033699999999
+ENDREQUEST           1                                            Z999999999999

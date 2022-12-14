@@ -1,0 +1,74 @@
+REQUEST           1001   20010914          3     142158               0  0    0
+ENTRY            11447     850410                                 11447000    1
+SUBENT        11447001     850410                                 11447001    1
+BIB                  6          8                                 11447001    2
+INSTITUTE  (1USAANL)                                              11447001    3
+REFERENCE  (J,PR,72,888,4711)                                     11447001    4
+AUTHOR     (L.SEREN,H.N.FRIEDLANDER,S.H.TURKEL)                   11447001    5
+METHOD     (ACTIV)                                                11447001    6
+STATUS     (SCSRS)                                                11447001    7
+HISTORY    (760715T) TRANSLATED FROM SCISRS                       11447001    8
+           (820813A) CONVERTED TO REACTION FORMALISM              11447001    9
+           (840410A) ENERGY CORRECTED.                            11447001   10
+ENDBIB               8                                            11447001   11
+COMMON               1          3                                 11447001   12
+EN-DUMMY                                                          11447001   13
+EV                                                                11447001   14
+ 0.0253                                                           11447001   15
+ENDCOMMON            3                                            11447001   16
+ENDSUBENT           15                                            1144700199999
+SUBENT        11447085     820813                                 11447085    1
+BIB                  3          3                                 11447085    2
+REACTION   (52-TE-126(N,G)52-TE-127-M,,SIG,,SPA)                  11447085    3
+INC-SPECT  REACTOR SPECTRUM                                       11447085    4
+DECAY-DATA (52-TE-127-M,90.D,B)                                   11447085    5
+ENDBIB               3                                            11447085    6
+NOCOMMON             0          0                                 11447085    7
+DATA                 2          1                                 11447085    8
+DATA       DATA-ERR                                               11447085    9
+B          PER-CENT                                               11447085   10
+ 0.073      20.                                                   11447085   11
+ENDDATA              3                                            11447085   12
+ENDSUBENT           11                                            1144708599999
+ENDENTRY             2                                            1144799999999
+ENTRY            41168     950511                                 41168000    1
+SUBENT        41168001     950511                                 41168001    1
+BIB                 14         20                                 41168001    2
+TITLE       PRODUCTION OF LONG-LIVING TELLURIUM ISOMERS           41168001    3
+            IN (N,GAMMA) REACTIONS                                41168001    4
+AUTHOR     (V.G.ALPATOV,A.V.DAVYDOV,G.R.KARTASHOV,M.M.KOROTKOV,   41168001    5
+           G.V.KOSTINA,P.A.POLOZOV,A.A.SADOVSKIY)                 41168001    6
+INSTITUTE  (4RUSITE,4RUSKUR)                                      41168001    7
+REFERENCE  (J,YF,58,(1),15,9501)   DATA ARE GIVEN                 41168001    8
+FACILITY   (REAC,4RUSKUR)    IR-8 REACTOR OF 4RUSKUR              41168001    9
+METHOD     (ACTIV)    ACTIVATION                                  41168001   10
+ANALYSIS    CADMIUM DIFFERENCE ANALYSIS                           41168001   11
+MONITOR    (27-CO-59(N,G)27-CO-60,,SIG)                           41168001   12
+           (79-AU-197(N,G)79-AU-198,,SIG)                         41168001   13
+DETECTOR   (GELI)                                                 41168001   14
+SAMPLE      COBALT SAMPLES HAVE MASSES 0.320+-0.018 AND           41168001   15
+            0.359 MILLIGRAM. GOLD SAMPLE HAS MASS 3.95            41168001   16
+            MILLIGRAM. CORRESPONDING ISOTOPE CONTENT 100 PC       41168001   17
+STATUS      DATA ARE TAKEN FROM THE REFERENCE ONE                 41168001   18
+ERR-ANALYS (DATA-ERR)  ERRORS ARE NOT SPECIFIED                   41168001   19
+HISTORY    (950511C)  + + COMPILED AT THE CENTRE - CJD + +        41168001   20
+INC-SPECT   THERMAL AND EPICADMIUM SPECTRA OF THE THERMAL         41168001   21
+            REACTOR                                               41168001   22
+ENDBIB              20                                            41168001   23
+NOCOMMON             0          0                                 41168001   24
+ENDSUBENT           23                                            4116800199999
+SUBENT        41168006     950511                                 41168006    1
+BIB                  2          3                                 41168006    2
+REACTION   (52-TE-126(N,G)52-TE-127-M,,SIG)                       41168006    3
+SAMPLE      METALLIC POWDER, WEIGHT 6.4 MILLIGRAM (WITH-          41168006    4
+            OUT CADMIUM), TE-126 CONTENT IS 98.4+-0.1 PC          41168006    5
+ENDBIB               3                                            41168006    6
+NOCOMMON             0          0                                 41168006    7
+DATA                 3          1                                 41168006    8
+EN         DATA       DATA-ERR                                    41168006    9
+EV         B          B                                           41168006   10
+   2.53E-02   0.0625      0.0056                                  41168006   11
+ENDDATA              3                                            41168006   12
+ENDSUBENT           11                                            4116800699999
+ENDENTRY             2                                            4116899999999
+ENDREQUEST           1                                            Z999999999999

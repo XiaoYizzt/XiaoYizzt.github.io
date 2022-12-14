@@ -1,0 +1,94 @@
+REQUEST           1001   20010914          3     142727               0  0    0
+ENTRY            21261     801024                                 21261000    1
+SUBENT        21261001     801024                                 21261001    1
+BIB                 16         21                                 21261001    2
+INSTITUTE  (2SWTFRS)                                              21261001    3
+REFERENCE  (J,PL/B,24,400,6703)                                   21261001    4
+AUTHOR     (J.KERN,G,MAURON,B.MICHAUD)                            21261001    5
+TITLE      -A NEW 15 MIN ISOMER IN PR-142.-                       21261001    6
+FACILITY   (REAC ) REACTOR SAPHIR IN WUERENLINGEN (EIR).          21261001    7
+INC-SOURCE (REAC ) REACTOR, TANGENTIAL BEAM CHANNEL.              21261001    8
+SAMPLE     .SPECTROSCOPICALLY PURE PR-OXIDE, SOME MG.             21261001    9
+METHOD     (ACTIV) ACTIVATION OF A PRASEODYMIUM SAMPLE.           21261001   10
+            EXPOSURE TIME 2.5 MIN. MEASUREMENT OF THE GAMMA       21261001   11
+            ACTIVITY FOLLOWING BETA DECAY AS A FUNCTION OF TIME.  21261001   12
+DETECTOR   (NAICR) NA-I CRYSTAL, 7.6*7.6 CM*CM.                   21261001   13
+ANALYSIS   .NON LINEAR LEAST SQUARES FITS OF THE EXPERIMENTAL     21261001   14
+            CURVES.                                               21261001   15
+DECAY-DATA (59-PR-52-M) DETECTS 1.57-MEV GAMMA OF ND-142 CREATED  21261001   16
+            BY PR-52.                                             21261001   17
+MONITOR    (59-PR-141(N,G)59-PR-142-G+M,,SIG/SUM,,MXW)            21261001   18
+STATUS     (NDD  ) DATA TAKEN FROM NEUDADA.                       21261001   19
+HISTORY    (800117T) G.C.                                         21261001   20
+           (800129E)                                              21261001   21
+CORRECTION .NOT GIVEN.                                            21261001   22
+ERR-ANALYS .ERROR-ANALYSIS NOT GIVEN. ABSOLUTE ERROR GIVEN.       21261001   23
+ENDBIB              21                                            21261001   24
+NOCOMMON             0          0                                 21261001   25
+ENDSUBENT           24                                            2126100199999
+SUBENT        21261002     801024                                 21261002    1
+BIB                  4          4                                 21261002    2
+REACTION   (59-PR-141(N,G)59-PR-142-M,,SIG,,MXW)                  21261002    3
+INC-SPECT  MAXWELLIAN SPECTRUM                                    21261002    4
+HALF-LIFE  (HL,59-PR-142-M)                                       21261002    5
+STATUS     (NDD  ) DATA TAKEN FROM NEUDADA.                       21261002    6
+ENDBIB               4                                            21261002    7
+NOCOMMON             0          0                                 21261002    8
+DATA                 7          1                                 21261002    9
+EN-DUMMY   MONIT      MONIT-ERR  HL         HL-ERR     DATA       21261002   10
+DATA-ERR                                                          21261002   11
+EV         B          B          MIN        MIN        B          21261002   12
+B                                                                 21261002   13
+ 2.5300E-02 1.0900E+01 1.1000E+00 1.4600E+01 5.0000E-01 3.7000E+0021261002   14
+ 5.0000E-01                                                       21261002   15
+ENDDATA              6                                            21261002   16
+ENDSUBENT           15                                            2126100299999
+ENDENTRY             2                                            2126199999999
+ENTRY            30023     850219                                 30023000    1
+SUBENT        30023001     850219                                 30023001    1
+BIB                 12         23                                 30023001    2
+INSTITUTE  (3HUNDEB)                                              30023001    3
+REFERENCE  (J,AHP,28,257,7001) EXPERIMENT AND RESULTS, DATA       30023001    4
+AUTHOR     (M.DIKSIC, P.STROHAL, G.PETO, P.BORNEMISZA-PAUSPERTL,  30023001    5
+           I.HUNYADI, J.KAROLYI)                                  30023001    6
+TITLE      ADDITIONAL MEASUREMENTS OF THE RADIATIVE CAPTURE CROSS 30023001    7
+           SECTIONS FOR 3 MEV NEUTRONS.                           30023001    8
+INC-SOURCE (D-D) D(D,N) REACTION                                  30023001    9
+SAMPLE     SAMPLES IN PURE OR COMPOUND FORM WERE MOUNTED IN THIN  30023001   10
+           POLYETHYLENE FOILS AND IRRADIATED TOGETHER WITH MONITOR30023001   11
+           MATERIALS                                              30023001   12
+METHOD     (ACTIV) ACTIVATION                                     30023001   13
+DETECTOR   (GEMUC,NAICR) GEIGER-MULLER FOR BETA ACTIVITIES AND    30023001   14
+           NAI(TL) CRYSTAL SPECTROMETER FOR GAMMAS.               30023001   15
+STATUS            DATA FROM ACTA PHYSICA HUNGARICAE 28,257,1/70   30023001   16
+           (APRVD) APPROVED BY PETO (5/9/72)                      30023001   17
+HISTORY    (671107R) DATA RECEIVED FROM CSIKAI, PRIV COM          30023001   18
+           (700626T) PREVIOUSLY DASTAR-00740,CHECKED WITH         30023001   19
+                     AHP 28 257 JAN 1970                          30023001   20
+CORRECTION THE BETA COUNTING RATE WAS CORRECTED FOR COUNTING      30023001   21
+           EFFICIENCY, SCATTERING AND ABSORPTION, FOR THE GAMMAS  30023001   22
+           THE PHOTO PEAK EFFICIENCY WAS TAKEN INTO ACCOUNT       30023001   23
+ERR-ANALYS ERRORS INDICATED ARE DUE TO STATISTICS, HALF-LIFE ERROR30023001   24
+           AND ERROR OF STANDARD CROSS-SECTIONS.                  30023001   25
+ENDBIB              23                                            30023001   26
+COMMON               2          3                                 30023001   27
+EN         EN-RSL                                                 30023001   28
+MEV        MEV                                                    30023001   29
+ 3.0000E+00 2.0000E-01                                            30023001   30
+ENDCOMMON            3                                            30023001   31
+ENDSUBENT           30                                            3002300199999
+SUBENT        30023011     840503                                 30023011    1
+BIB                  3          3                                 30023011    2
+REACTION   (59-PR-141(N,G)59-PR-142-M,,SIG)                       30023011    3
+MONITOR    (15-P-31(N,P)14-SI-31,,SIG)                            30023011    4
+PART-DET   (B-) BETA                                              30023011    5
+ENDBIB               3                                            30023011    6
+NOCOMMON             0          0                                 30023011    7
+DATA                 4          1                                 30023011    8
+DATA       DATA-ERR   MONIT      MONIT-ERR                        30023011    9
+MB         MB         MB         MB                               30023011   10
+ 2.9000E-01 5.0000E-02 7.4000E+01 6.0000E+00                      30023011   11
+ENDDATA              3                                            30023011   12
+ENDSUBENT           11                                            3002301199999
+ENDENTRY             2                                            3002399999999
+ENDREQUEST           1                                            Z999999999999

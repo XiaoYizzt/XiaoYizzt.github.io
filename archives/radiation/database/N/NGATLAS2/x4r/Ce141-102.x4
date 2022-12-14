@@ -1,0 +1,36 @@
+REQUEST           1001   20010914          3     142701               0  0    0
+ENTRY            12056     841024                                 12056000    1
+SUBENT        12056001     841024                                 12056001    1
+BIB                  7         11                                 12056001    2
+INSTITUTE  (1USAORL)                                              12056001    3
+REFERENCE  (J,NSE,20,302,64)                                      12056001    4
+AUTHOR     (P.M.LANTZ,C.R.BALDOCK,L.E.IDOM)                       12056001    5
+TITLE      THERMAL-NEUTRON CAPTURE CROSS SECTION AND RESONANCE    12056001    6
+           CAPTURE INTEGRAL OF CE140 AND EFFECTIVE CAPTURE CROSS  12056001    7
+           SECTION OF CE141.                                      12056001    8
+INC-SOURCE (REAC) LITR                                            12056001    9
+STATUS     (SCSRS)                                                12056001   10
+HISTORY    (760802T) TRANSLATED FROM SCISRS                       12056001   11
+           (790731U) BIB CORRECTIONS.                             12056001   12
+           (841024A) BIB CORRECTION. DATA HEADINGS CORRECTED.     12056001   13
+ENDBIB              11                                            12056001   14
+NOCOMMON             0          0                                 12056001   15
+ENDSUBENT           14                                            1205600199999
+SUBENT        12056004     841024                                 12056004    1
+BIB                  5          6                                 12056004    2
+REACTION   (58-CE-141(N,G)58-CE-142,,SIG,,SPA)                    12056004    3
+FACILITY   (SPECM)    MASS SPECTROMETER                           12056004    4
+MONITOR    (27-CO-59(N,G)27-CO-60,,SIG) CO THERMAL CAPTURE=37.9 B.12056004    5
+ASSUMED    (ASSUM1,58-CE-140(N,G)58-CE-141,,SIG)                  12056004    6
+           (ASSUM2,58-CE-140(N,G)58-CE-141,,RI)                   12056004    7
+INC-SPECT   REACTOR SPECTRUM                                      12056004    8
+ENDBIB               6                                            12056004    9
+NOCOMMON             0          0                                 12056004   10
+DATA                 6          1                                 12056004   11
+EN-DUMMY   DATA       DATA-ERR   MONIT      ASSUM1     ASSUM2     12056004   12
+MEV        B          B          B          B          B          12056004   13
+ 2.53   -08 2.9    +01 3.     +00 37.9       0.59       0.48      12056004   14
+ENDDATA              3                                            12056004   15
+ENDSUBENT           14                                            1205600499999
+ENDENTRY             2                                            1205699999999
+ENDREQUEST           1                                            Z999999999999

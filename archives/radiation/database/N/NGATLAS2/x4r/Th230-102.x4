@@ -1,0 +1,171 @@
+REQUEST           1001   20010914          3     144308               0  0    0
+ENTRY            12292     841005                                 12292000    1
+SUBENT        12292001     841005                                 12292001    1
+BIB                  6          7                                 12292001    2
+INSTITUTE  (1USAANL)                                              12292001    3
+REFERENCE  (R,ANL-4183,4808)                                      12292001    4
+AUTHOR     (E.K.HYDE)                                             12292001    5
+TITLE      NEUTRON CAPTURE CROSS SECTION OF IONIUM.               12292001    6
+STATUS     (SCSRS)                                                12292001    7
+HISTORY    (760804T) TRANSLATED FROM SCISRS                       12292001    8
+           (841005A) CONVERTED TO REACTION FORMALISM              12292001    9
+ENDBIB               7                                            12292001   10
+NOCOMMON             0          0                                 12292001   11
+ENDSUBENT           10                                            1229200199999
+SUBENT        12292002     841005                                 12292002    1
+BIB                  4          5                                 12292002    2
+REACTION   (90-TH-230(N,G)90-TH-231,,SIG)                         12292002    3
+METHOD     (ACTIV)    ACTIVATION                                  12292002    4
+MONITOR    (90-TH-232(N,G)90-TH-233,,SIG)                         12292002    5
+            RELATIVE TO TH232 PILE CAPTURE=6.8B.                  12292002    6
+INC-SPECT   REACTOR SPECTRUM                                      12292002    7
+ENDBIB               5                                            12292002    8
+NOCOMMON             0          0                                 12292002    9
+DATA                 3          1                                 12292002   10
+EN         DATA       MONIT                                       12292002   11
+MEV        B          B                                           12292002   12
+ 2.53   -08 2.8    +01 6.8                                        12292002   13
+ENDDATA              3                                            12292002   14
+ENDSUBENT           13                                            1229200299999
+ENDENTRY             2                                            1229299999999
+ENTRY            12293     841005                                 12293000    1
+SUBENT        12293001     841005                                 12293001    1
+BIB                  6          8                                 12293001    2
+INSTITUTE  (1USAANL)                                              12293001    3
+REFERENCE  (R,ANL-4249,49)                                        12293001    4
+AUTHOR     (A.H.JAFFEY,E.K.HYDE)                                  12293001    5
+TITLE      THERMAL NEUTRON CAPTURE CROSS SECTION OF TH-230 BY     12293001    6
+           MEASUREMENT OF U.Y.                                    12293001    7
+STATUS     (SCSRS)                                                12293001    8
+HISTORY    (760804T) TRANSLATED FROM SCISRS                       12293001    9
+           (841005A) CONVERTED TO REACTION FORMALISM              12293001   10
+ENDBIB               8                                            12293001   11
+NOCOMMON             0          0                                 12293001   12
+ENDSUBENT           11                                            1229300199999
+SUBENT        12293002     841005                                 12293002    1
+BIB                  5          5                                 12293002    2
+REACTION   (90-TH-230(N,G)90-TH-231,,SIG,,SPA)                    12293002    3
+METHOD     (ACTIV)    ACTIVATION                                  12293002    4
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)                         12293002    5
+COMMENT    BASED ON TH230 HALF-LIFE =81000Y.                      12293002    6
+INC-SPECT   REACTOR SPECTRUM                                      12293002    7
+ENDBIB               5                                            12293002    8
+NOCOMMON             0          0                                 12293002    9
+DATA                 2          1                                 12293002   10
+EN-DUMMY   DATA                                                   12293002   11
+MEV        B                                                      12293002   12
+ 2.53   -08 4.6    +01                                            12293002   13
+ENDDATA              3                                            12293002   14
+ENDSUBENT           13                                            1229300299999
+ENDENTRY             2                                            1229399999999
+ENTRY            12297     841005                                 12297000    1
+SUBENT        12297001     841005                                 12297001    1
+BIB                  8         11                                 12297001    2
+INSTITUTE  (1CANCRC)                                              12297001    3
+REFERENCE  (J,CJP,36,989,5808)                                    12297001    4
+           (J,CJP,40,194,6202) REVISED TH-230 HALF-LIFE.          12297001    5
+AUTHOR     (M.J.CABELL)                                           12297001    6
+TITLE      THE THERMAL NEUTRON CAPTURE CROSS SECTION AND RESONANCE12297001    7
+           ABSORPTION INTEGRAL OF TH-230.                         12297001    8
+INC-SOURCE (REAC) NRX REACTOR                                     12297001    9
+METHOD     (ACTIV) ACTIVATION                                     12297001   10
+STATUS     (SCSRS)                                                12297001   11
+HISTORY    (760804T) TRANSLATED FROM SCISRS                       12297001   12
+           (841005A) CONVERTED TO REACTION FORMALISM              12297001   13
+ENDBIB              11                                            12297001   14
+NOCOMMON             0          0                                 12297001   15
+ENDSUBENT           14                                            1229700199999
+SUBENT        12297004     841005                                 12297004    1
+BIB                  4          4                                 12297004    2
+REACTION   (90-TH-230(N,G)90-TH-231,,SIG)                         12297004    3
+MONITOR    (27-CO-59(N,G)27-CO-60,,SIG) RELATIVE TO COBALT CAPTURE12297004    4
+COMMENT    BASED ON TH230 HALF-LIFE = 75200Y.                     12297004    5
+INC-SPECT  SUB-CD SPECTRUM.                                       12297004    6
+ENDBIB               4                                            12297004    7
+NOCOMMON             0          0                                 12297004    8
+DATA                 4          1                                 12297004    9
+EN         DATA       DATA-ERR   MONIT                            12297004   10
+MEV        B          B          B                                12297004   11
+ 2.53   -08 2.27   +01 6.     -01 36.5                            12297004   12
+ENDDATA              3                                            12297004   13
+ENDSUBENT           12                                            1229700499999
+ENDENTRY             2                                            1229799999999
+ENTRY            12303     841005                                 12303000    1
+SUBENT        12303001     841005                                 12303001    1
+BIB                  5          6                                 12303001    2
+INSTITUTE  (1USAORL)                                              12303001    3
+REFERENCE  (R,ORNL-1620,42,5312)                                  12303001    4
+AUTHOR     (H.POMERANCE)                                          12303001    5
+STATUS     (SCSRS)                                                12303001    6
+HISTORY    (760804T) TRANSLATED FROM SCISRS                       12303001    7
+           (841005A) CONVERTED TO REACTION FORMALISM              12303001    8
+ENDBIB               6                                            12303001    9
+NOCOMMON             0          0                                 12303001   10
+ENDSUBENT            9                                            1230300199999
+SUBENT        12303002     841005                                 12303002    1
+BIB                  4          5                                 12303002    2
+REACTION   (90-TH-230(N,G)90-TH-231,,SIG,,MXW)                    12303002    3
+FACILITY   (OSCIP)    PILE OSCILLATOR                             12303002    4
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)                         12303002    5
+            BASED ON GOLD THERMAL CAPTURE=95B.                    12303002    6
+INC-SPECT   THERMAL SPECTRUM                                      12303002    7
+ENDBIB               5                                            12303002    8
+NOCOMMON             0          0                                 12303002    9
+DATA                 4          1                                 12303002   10
+EN-DUMMY   DATA       DATA-ERR   MONIT                            12303002   11
+MEV        B          B          B                                12303002   12
+ 2.53   -08 2.6    +01 2.     +00 95.0                            12303002   13
+ENDDATA              3                                            12303002   14
+ENDSUBENT           13                                            1230300299999
+ENDENTRY             2                                            1230399999999
+ENTRY            40579     860121                                 40579000    1
+SUBENT        40579001     860121                                 40579001    1
+BIB                 10         17                                 40579001    2
+INSTITUTE  (4CCPMIF)                                              40579001    3
+           (4CCPITE)                                              40579001    4
+REFERENCE  (J,YK,1/55,3,8405)                                     40579001    5
+           (C,83KIEV,2,177,8310)                                  40579001    6
+AUTHOR     (L.N.JUROVA,A.A.POLJAKOV,V.P.RUKHLO,JU.E.TITARENKO,    40579001    7
+            S.F.KOMIN,JU.V.STOGOV,O.V.SHVEDOV,B.F.MJASOEDOV,      40579001    8
+            A.V.DAVYDOV,S.S.TRAVNIKOV)                            40579001    9
+TITLE       INTEGRAL RADIATION CAPTURE CROSS-SECTIONS             40579001   10
+            IN THERMAL AND RESONANCE ENERGY REGION                40579001   11
+            FOR TH-230, PA-231,232,233, U-236, NP-237             40579001   12
+FACILITY   (REAC,4CCPITE)                                         40579001   13
+INC-SOURCE (THCOL)                                                40579001   14
+INC-SPECT   NEUTRON SPECTRUM IN THE HEAVY-WATER REFLECTOR         40579001   15
+            WHICH IS SIMILAR TO THE FERMI-SPECTRUM                40579001   16
+METHOD     (ACTIV)                                                40579001   17
+DETECTOR   (GELI)                                                 40579001   18
+HISTORY    (850221C)                                              40579001   19
+ENDBIB              17                                            40579001   20
+COMMON               1          3                                 40579001   21
+EN-DUMMY                                                          40579001   22
+EV                                                                40579001   23
+ 2.5000E-02                                                       40579001   24
+ENDCOMMON            3                                            40579001   25
+ENDSUBENT           24                                            4057900199999
+SUBENT        40579002     860121                                 40579002    1
+BIB                  4          8                                 40579002    2
+REACTION  1(90-TH-230(N,G)90-TH-231,,SIG,,SPA)                    40579002    3
+          2(90-TH-230(N,G)90-TH-231,,RI)                          40579002    4
+DECAY-DATA (90-TH-230,8.0E+4YR,A,67.73,0.0037)                    40579002    5
+           (90-TH-231,25.52HR,B-,84.21,0.065)                     40579002    6
+MONITOR   1(90-TH-232(N,G)90-TH-233,,SIG,,MXW)                    40579002    7
+          2(90-TH-232(N,G)90-TH-233,,RI,,MXW)                     40579002    8
+MISC-COL   (MISC) CADMIUM FILTER THICKNESS FOR RESONANCE          40579002    9
+                  INTEGRAL  MEASUREMENT                           40579002   10
+ENDBIB               8                                            40579002   11
+COMMON               4          3                                 40579002   12
+MONIT     1MONIT-ERR 1MONIT     2MONIT-ERR 2                      40579002   13
+B          B          B          B                                40579002   14
+ 7.4000E+00 1.0000E-01 8.5000E+01 3.0000E+00                      40579002   15
+ENDCOMMON            3                                            40579002   16
+DATA                 5          1                                 40579002   17
+DATA      1ERR-T     1DATA      2ERR-T     2MISC      2           40579002   18
+B          B          B          B          MM                    40579002   19
+ 2.2400E+01 5.0000E-01 9.9000E+02 4.0000E+01 5.0000E-01           40579002   20
+ENDDATA              3                                            40579002   21
+ENDSUBENT           20                                            4057900299999
+ENDENTRY             2                                            4057999999999
+ENDREQUEST           1                                            Z999999999999

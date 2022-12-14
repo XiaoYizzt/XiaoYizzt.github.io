@@ -1,0 +1,165 @@
+REQUEST           1001   20010914          3     142939               0  0    0
+ENTRY            12100     821012                                 12100000    1
+SUBENT        12100001     821012                                 12100001    1
+BIB                  7          9                                 12100001    2
+INSTITUTE  (1USAMTR)                                              12100001    3
+REFERENCE  (J,NSE,12,519,62)                                      12100001    4
+AUTHOR     (R.P.SCHUMAN,J.R.BERRETH)                              12100001    5
+TITLE      NEUTRON ACTIVATION CROSS SECTIONS OF PM147, PM148, AND 12100001    6
+           PM148M.                                                12100001    7
+METHOD     (ACTIV) ACTIVATION                                     12100001    8
+STATUS     (SCSRS)                                                12100001    9
+HISTORY    (760803T) TRANSLATED FROM SCISRS                       12100001   10
+           (821012A) CONVERTED TO REACTION FORMALISM              12100001   11
+ENDBIB               9                                            12100001   12
+NOCOMMON             0          0                                 12100001   13
+ENDSUBENT           12                                            1210000199999
+SUBENT        12100006     821012                                 12100006    1
+BIB                  2          2                                 12100006    2
+REACTION   (61-PM-148-M1(N,G)61-PM-149,,SIG,,SPA)                 12100006    3
+DECAY-DATA (61-PM-148-M1,40.6D)                                   12100006    4
+ENDBIB               2                                            12100006    5
+NOCOMMON             0          0                                 12100006    6
+DATA                 3          1                                 12100006    7
+EN-DUMMY   DATA       DATA-ERR                                    12100006    8
+MEV        B          B                                           12100006    9
+ 2.53   -08 2.900  +04 5.00   +03                                 12100006   10
+ENDDATA              3                                            12100006   11
+ENDSUBENT           10                                            1210000699999
+ENDENTRY             2                                            1210099999999
+ENTRY            12143     821012                                 12143000    1
+SUBENT        12143001     821012                                 12143001    1
+BIB                  6          7                                 12143001    2
+INSTITUTE  (1CANMCM)                                              12143001    3
+REFERENCE  (P,PR-CM-35,102,63)                                    12143001    4
+AUTHOR     (C.MATHEWS,R.H.TOMLINSON)                              12143001    5
+TITLE      CROSS SECTIONS OF PM148 AND PM148M.                    12143001    6
+STATUS     (SCSRS)                                                12143001    7
+HISTORY    (760803T) TRANSLATED FROM SCISRS                       12143001    8
+           (821012A) CONVERTED TO REACTION FORMALISM              12143001    9
+ENDBIB               7                                            12143001   10
+NOCOMMON             0          0                                 12143001   11
+ENDSUBENT           10                                            1214300199999
+SUBENT        12143003     821012                                 12143003    1
+BIB                  3          3                                 12143003    2
+REACTION   (61-PM-148-M1(N,G)61-PM-149,,SIG,,SPA)                 12143003    3
+FACILITY   (SPECM)    MASS SPECTROMETER                           12143003    4
+INC-SPECT   REACTOR SPECTRUM                                      12143003    5
+ENDBIB               3                                            12143003    6
+NOCOMMON             0          0                                 12143003    7
+DATA                 2          1                                 12143003    8
+EN-DUMMY   DATA                                                   12143003    9
+MEV        B                                                      12143003   10
+ 2.53   -08 3.150  +04                                            12143003   11
+ENDDATA              3                                            12143003   12
+ENDSUBENT           11                                            1214300399999
+ENDENTRY             2                                            1214399999999
+ENTRY            20295     840106                                 20295000    1
+SUBENT        20295001     840106                                 20295001    1
+BIB                 13         28                                 20295001    2
+INSTITUTE  (2JPNTOK)                                              20295001    3
+REFERENCE  (J,JPJ,26,576,6902)  DATA FROM REFERENCE.              20295001    4
+           (P,EANDC(J)-10,43,6811)                                20295001    5
+AUTHOR     (K.MIYANO, H.MORINAGA)                                 20295001    6
+TITLE      -SEARCH FOR AN EXOTHERMIC (N,N') PROCESS-              20295001    7
+FACILITY   (CYCLO)    PROTON CYCLOTRON AT THE INSTITUUT VOOR      20295001    8
+            KERNPHYSISCH ONDERZOEK, AMSTERDAM.                    20295001    9
+INC-SOURCE (REAC )    JPR-2 REACTOR OF JAERI.                     20295001   10
+            REACTOR FLUX = 3.1E+13 NEUTRONS/SEC.CM**2             20295001   11
+SAMPLE      3 MILLIGRAMMES. DETAILS IN PUBLICATION.               20295001   12
+           .PM-148(METASTABLE) WAS PRODUCED BY BOMBARDING 92.5    20295001   13
+            PERCENT ENRICHED ND-150(2)-O(3) WITH 35 MEV PROTONS   20295001   14
+            AT FACILITY.                                          20295001   15
+METHOD     (ACTIV)    ACTIVATION.                                 20295001   16
+MONITOR    (49-IN-0(N,G),,SIG)                                    20295001   17
+           (30-ZN-0(N,G),,SIG)                                    20295001   18
+           (79-AU-197(N,G)79-AU-198,,SIG)                         20295001   19
+PART-DET   (DG   )    GAMMAS.                                     20295001   20
+STATUS     (APRVD)    APPROVED BY THE AUTHORS.                    20295001   21
+HISTORY    (711010C)                                              20295001   22
+           (740626E)                                              20295001   23
+           (840106U) A.P.T. JAPAN CODE CHANGED TO JPN             20295001   24
+           (840106E)                                              20295001   25
+ERR-ANALYS .STATISTICAL ERROR FOR GAMMA-RAY COUNTING RATE.        20295001   26
+           .CHEMICAL SEPARATION.                                  20295001   27
+           .IMPURITIES EXCEPT RARE EARTH CONTRIBUTION FROM SAMPLE 20295001   28
+            SEPARATED. IT WAS FOUND THAT THE ACTIVITY FROM RARE   20295001   29
+            EARTH ELEMENTS IS SMALL COMPARED TO THAT FROM PM.     20295001   30
+ENDBIB              28                                            20295001   31
+NOCOMMON             0          0                                 20295001   32
+ENDSUBENT           31                                            2029500199999
+SUBENT        20295002     860807                                 20295002    1
+BIB                  3          8                                 20295002    2
+REACTION   (61-PM-148-M(N,G)61-PM-149,,SIG)                       20295002    3
+           .TARGET NUCLEUS IN METASTABLE STATE.                   20295002    4
+COMMENT    .CROSS SECTION IN AGREEMENT WITH THAT PUBLISHED        20295002    5
+            IN NUCLEAR SCI. ENG. 12(1962)519, R.P.SCHUMAN ET AL.  20295002    6
+HISTORY    (711010C)                                              20295002    7
+           (740626E)                                              20295002    8
+           (860808A)HH REACTION STRING CORRECTED                  20295002    9
+           (860807E)                                              20295002   10
+ENDBIB               8                                            20295002   11
+NOCOMMON             0          0                                 20295002   12
+DATA                 4          1                                 20295002   13
+EN-DUMMY   HL         DATA       DATA-ERR                         20295002   14
+MEV        D          B          B                                20295002   15
+ 2.5300E-08 4.1800E+01 2.7000E+04 2.0000E+03                      20295002   16
+ENDDATA              3                                            20295002   17
+ENDSUBENT           16                                            2029500299999
+ENDENTRY             2                                            2029599999999
+ENTRY            20631     840127                                 20631000    1
+SUBENT        20631001     840127                                 20631001    1
+BIB                 14         33                                 20631001    2
+INSTITUTE  (2UK ALD)                                              20631001    3
+REFERENCE  (J,JIN,29,2147,67)                                     20631001    4
+           (P,EANDC(UK)-75,,65) PRELIMINARY RESULTS.              20631001    5
+AUTHOR     (N.C.FENNER,R.S.LARGE)                                 20631001    6
+TITLE      -MEASUREMENT OF THE NEUTRON CAPTURE CROSS SECTIONS     20631001    7
+            OF PM-147, PM-148, PM-148M AND SM-147.-               20631001    8
+FACILITY   (SPECM) TWO-STAGE,15-IN.RADIUS MASS SPECTROMETER       20631001    9
+            AT A.W.R.E.                                           20631001   10
+INC-SOURCE (REAC ) DIDO REACTOR AT A.E.R.E.,HARWELL.              20631001   11
+SAMPLE     .BEFORE IRRADIATION CHEMICAL SEPARATION FROM THE       20631001   12
+            DAUGHTER PRODUCTS AND OTHER RARE EARTH IMPURITIES     20631001   13
+            AND CONVERTION TO OXIDE.                              20631001   14
+METHOD     (CHSEP) CHEMICAL SEPARATION,MASS SPECTROMETRY.         20631001   15
+ANALYSIS   .FOR THE THERMAL CROSS SECTIONS IRRADIATIONS IN        20631001   16
+            A THERMAL COLUMN.                                     20631001   17
+           .FOR THE RES.INTEGRALS IRRADIATIONS IN AN EPITHERMAL   20631001   18
+            NEUTRON FLUX AND CALCULATIONS ACCORDING TO THE        20631001   19
+            WESTCOTT FORMALISM.                                   20631001   20
+           .THE SAMARIUM DAUGHTER PRODUCTS FORMED DURING AND      20631001   21
+            AFTER IRRADIATION WAS SEPARATED CHEMICALLY FROM THE   20631001   22
+            PROMETHIUM AND THE CROSS SECTION DERIVED FROM THE     20631001   23
+            RELATIVE ABUNDANCE OF THE SAMARIUM ISOTOPES.          20631001   24
+MONITOR    (27-CO-59(N,G)27-CO-60,,SIG,,MXW)                      20631001   25
+            THERMAL CROSS SECTION = 37.4 B.                       20631001   26
+           .THE G-FACTORS IS ASSUMED TO BE = 1.                   20631001   27
+STATUS     .TAKEN FROM J.INORG.NUCL.CHEM.,29(1967)2147.           20631001   28
+HISTORY    (760901C)                                              20631001   29
+           (770331E)                                              20631001   30
+CORRECTION .FOR SELF-SHIELDING OF CO MONITORS.                    20631001   31
+ERR-ANALYS .5 PER CENT ERROR BECAUSE OF THE DIFFERENCE OF THE     20631001   32
+            FLUX THROUGHT THE SAMPLE AND COBALT MONITOR.          20631001   33
+           .9 PER CENT ERROR FOR THE RATIO OF THE RADIATION       20631001   34
+            PRODUCTS TO THE SAMPLE IRRADIATED.                    20631001   35
+ENDBIB              33                                            20631001   36
+NOCOMMON             0          0                                 20631001   37
+ENDSUBENT           36                                            2063100199999
+SUBENT        20631006     840127                                 20631006    1
+BIB                  3          5                                 20631006    2
+REACTION   (61-PM-148-M1(N,G)61-PM-149,,SIG,,MXW)                 20631006    3
+            THERMAL CROSS SECTION.                                20631006    4
+HALF-LIFE  (HL,61-PM-148-M1) HALF LIFE USED IN THE EXPERIMENT.    20631006    5
+HISTORY    (760901C)                                              20631006    6
+           (770331E)                                              20631006    7
+ENDBIB               5                                            20631006    8
+NOCOMMON             0          0                                 20631006    9
+DATA                 4          1                                 20631006   10
+EN-DUMMY   DATA       DATA-ERR   HL                               20631006   11
+EV         B          B          D                                20631006   12
+ 2.5300E-02 2.2000E+04 2.5000E+03 4.1500E+01                      20631006   13
+ENDDATA              3                                            20631006   14
+ENDSUBENT           13                                            2063100699999
+ENDENTRY             2                                            2063199999999
+ENDREQUEST           1                                            Z999999999999

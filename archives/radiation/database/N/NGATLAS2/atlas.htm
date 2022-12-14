@@ -1,0 +1,105 @@
+<html>
+<title>NGAtlas/ZV, Full</title>
+<head>
+<script language="javascript1.1" src="iso.js"></script>
+<script language="javascript1.1" src="ele.js"></script>
+<script language="JavaScript">
+    function zvdSend(fileName)
+    {
+	var where, myCgi;
+//	myCgi='/htbin/zvd_nga.cgi?file=';
+	myCgi='/cgi-bin_vz/zvd_nga.cgi?file=';
+	where=self.location.protocol;
+	if (where=='file:') self.location.href=fileName;
+	else self.location.href=myCgi+fileName;
+    }
+
+    function showAllElements() {
+	var urlGif,urlZvd,isoi,zzs,zzi,i,ii,iiIso,namei,namee='',namefull='';
+	var imgSize='width="296" height="195"';
+
+	for (i=0; i<ele.length; i++) {
+	    zzs = ele[i].zz;
+	    namee = ele[i].elem;
+	    namefull = ele[i].name;
+	    for (ii=0,iiIso=0; ii<iso.length; ii++) {
+		isoi  = iso[ii];
+		zzi   = isoi.zz;
+		if (zzi==zzs) {
+		    if (iiIso==0) {
+			document.writeln('<hr>');
+			document.writeln('<big>');
+			document.writeln(' Z='+zzs+', '+namee);
+			document.writeln(' ('+namefull+')');
+			document.writeln('</big>');
+			document.writeln('<br>');
+		    }
+		    namei = isoi.fname;
+		    urlGif='gif/'+namei+'.gif';
+		    urlZvd='zvd/'+namei+'.zvd';
+		    document.write('<a href="javascript:zvdSend(\''+urlZvd+'\')")>');
+		    document.write('<img src="'+urlGif+'" border=1 '+imgSize+'>');
+		    document.writeln('</a>');
+		    iiIso++;
+		}
+	    }
+	}
+    }
+
+</script>
+</head>
+<body bgcolor=#ffffff>
+
+<center>
+<img src=iaeabw.gif><br>
+<font face=helvetica size=1>
+International Atomic Energy Agency<br>
+Wagramer Strasse 5, P.O.Box 100, A-1400 Vienna, Austria<br>
+Tel:(+43 1) 2600-21714; Fax:(+43 1) 26007<br>
+</font>
+</center>
+<br>
+<br>
+
+<center>
+<font size=+4 color=#c000c0><b>NGATLAS</b></font>
+<br>
+<font size=+2 color=#0000ff>Atlas of neutron capture cross sections </font>
+<br>
+</center>
+<br>
+
+<center>
+<font face=helvetica size=2>
+Prepared by <br> <b>J.Kopecky</b><br>
+Contributions by <br> <b>J.-Ch.Sublet, J.A.Simpson, R.A.Forrest and D.Nierop</b><br>
+Web Design and Plots by <br> <b>V.Zerkin</b><br>
+</font>
+</center>
+<br>
+
+<p align=justify style="margin-left:1%; margin-right:3%;">
+<font face="helvetica" size="2">
+The NGATLAS contains neutron capture cross sections in the range
+10<sup>-5</sup>eV - 20MeV as evaluated and compiled in recent activation
+libraries. Numerical values of (n,g) cross sections are
+available for a total of 739 targets for the elements 
+H (Z=1, A=1) to Cm (Z=96, A=248) totaling 972 reactions.
+Plots of the pointwise data and comparisons
+with the available experimental values at thermal energy, 30 keV
+and 14.5 MeV can be found in the Report INDC(NDS)-362 (IAEA,
+Vienna 1997) available upon request from the IAEA Nuclear Data
+Section.
+</font>
+</p>
+
+<script language="JavaScript">
+    showAllElements();
+</script>
+<hr>
+<font face="helvetica" size=1>
+ Web design: <a HREF="mailto:zerkin@iaeand.iaea.org">V.Zerkin</a>, IAEA, September-2001<br>
+  <script language="JavaScript">  document.write(' Last updated: '+document.lastModified) </script>
+</font>
+</body>
+</html>

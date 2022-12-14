@@ -1,0 +1,130 @@
+REQUEST           1001   20010914          3     142943               0  0    0
+ENTRY            12141     821012                                 12141000    1
+SUBENT        12141001     821012                                 12141001    1
+BIB                  9         11                                 12141001    2
+INSTITUTE  (1CANCRC)                                              12141001    3
+REFERENCE  (C,68WASH,2,1291(H-13),6803)                           12141001    4
+AUTHOR     (R.S.MOWATT,W.H.WALKER)                                12141001    5
+TITLE      THERMAL REACTOR ABSORPTION CROSS SECTIONS OF           12141001    6
+            RADIOACTIVE NUCLIDES.                                 12141001    7
+INC-SPECT  REACTOR SPECTRUM                                       12141001    8
+METHOD     ACTIVATION DEPLETION METHOD                            12141001    9
+MONITOR    (27-CO-59(N,G)27-CO-60,,SIG)                           12141001   10
+STATUS     (SCSRS)                                                12141001   11
+HISTORY    (760803T) TRANSLATED FROM SCISRS                       12141001   12
+           (821012A) CONVERTED TO REACTION FORMALISM              12141001   13
+ENDBIB              11                                            12141001   14
+NOCOMMON             0          0                                 12141001   15
+ENDSUBENT           14                                            1214100199999
+SUBENT        12141002     821012                                 12141002    1
+BIB                  1          1                                 12141002    2
+REACTION   (61-PM-149(N,G)61-PM-150,,SIG,,SPA)                    12141002    3
+ENDBIB               1                                            12141002    4
+NOCOMMON             0          0                                 12141002    5
+DATA                 3          1                                 12141002    6
+EN-DUMMY   DATA       DATA-ERR                                    12141002    7
+MEV        B          B                                           12141002    8
+ 2.53   -08 1.000  +03 4.00   +02                                 12141002    9
+ENDDATA              3                                            12141002   10
+ENDSUBENT            9                                            1214100299999
+ENDENTRY             2                                            1214199999999
+ENTRY            21552     800612                                 21552000    1
+SUBENT        21552001     800612                                 21552001    1
+BIB                 15         39                                 21552001    2
+INSTITUTE  (2SWTUBE)                                              21552001    3
+           (2SWTWUR) H.S.P. AND SITE OF REACTOR IRRADIATION.      21552001    4
+           (2GERMNZ) TRIGA REACTOR FOR CF-249 IRRADIATION.        21552001    5
+REFERENCE  (J,JIN,38,205,76)                                      21552001    6
+           (T,GAEGGELER,7312) THESIS, UNIV OF BERN.               21552001    7
+           (C,73ROCH,2,475,73) PRELIMINARY, SUPERSEDED.           21552001    8
+AUTHOR     (H.GAEGGELER,H.R.VON GUNTEN,H.S.PRUYS)                 21552001    9
+TITLE      -INDEPENDENT YIELDS OF PM-150 IN THE THERMAL NEUTRON   21552001   10
+            INDUCED FISSION OF U-233, U-235, PU-239 AND CF-249    21552001   11
+            AND CROSS SECTION FOR THE PM-149(N,GAMMA) REACTION-.  21552001   12
+FACILITY   (REAC ) SWIMMINGPOOL REACTOR, SAPHIR, WUERENLINGEN.    21552001   13
+            CF-249 IRRADIATION IN TRIGA II REACTOR MAINZ.         21552001   14
+INC-SOURCE (REAC ) THERMAL FLUX 3 TO 5 10*13 N/CM*2/SEC.          21552001   15
+INC-SPECT          MAXWELLIAN THERMAL NEUTRON SPECTRUM.           21552001   16
+SAMPLE     .URANIUM FROM O.R.N.L.  ISOTOPIC COMPOSITIONS..        21552001   17
+            99.91 PC U-233                                        21552001   18
+            99.613 PC U-235                                       21552001   19
+            92.087 PC PU-239, 7.351 PC PU-240.                    21552001   20
+           .AN ISOTOPICALLY CLEAN RECOIL SOURCE OF CF-249         21552001   21
+            OF ABOUT 10 MICRO-GM WAS USED IN THE MAINZ            21552001   22
+            IRRADIATION.                                          21552001   23
+METHOD     (ACTIV) MEASUREMENT OF GAMMA ACTIVITY AFTER CHEMICAL   21552001   24
+            SEPARATION OF PROMETHIUM.                             21552001   25
+DETECTOR   (GELI ) CALIBRATED GE(LI) DETECTOR, 44 CM*3, COAXIAL.  21552001   26
+ANALYSIS   .VALUES GIVEN ARE WEIGHTED MEANS OF SEVERAL INDEPENDENT21552001   27
+            MEASUREMENTS.                                         21552001   28
+STATUS     .DATA FROM TABLE 4,5 AND 6.                            21552001   29
+HISTORY    (800604C)                                              21552001   30
+           (800612E)                                              21552001   31
+CORRECTION .CORRECTED FOR SECOND ORDER NEUTRON CAPTURE REACTIONS. 21552001   32
+            THIS DATA SUPERSEDES THE UNCORRECTED VALUES QUOTED    21552001   33
+            IN 73VIENNA.                                          21552001   34
+ERR-ANALYS .QUOTED UNCERTAINTIES INCLUDE STATISTICAL UNCERTAINTIES21552001   35
+            AT ONE STANDARD DEVIATION, UNCERTAINTIES IN DECAY     21552001   36
+            SCHEMES, DETECTOR CALIBRATION (ABOUT 5PC), BUT NO     21552001   37
+            CONTRIBUTION FROM ERRORS ON THE HALF LIVES OF         21552001   38
+            PM-150 OR PM-151.                                     21552001   39
+           .UNCERTAINTIES ON FRACT INDEPENDENT YIELDS ALSO INCLUDE21552001   40
+            UNCERTAINTIES IN CHAIN YIELDS USED FOR NORMALISATION. 21552001   41
+ENDBIB              39                                            21552001   42
+COMMON               1          3                                 21552001   43
+EN-DUMMY                                                          21552001   44
+EV                                                                21552001   45
+ 2.5300E-02                                                       21552001   46
+ENDCOMMON            3                                            21552001   47
+ENDSUBENT           46                                            2155200199999
+SUBENT        21552010     810404                                 21552010    1
+BIB                  4          5                                 21552010    2
+REACTION   (61-PM-149(N,G)61-PM-150,,SIG,,MXW) CROSS SECTION.     21552010    3
+DECAY-DATA (61-PM-150,2.7HR,DG,1165.,,DG,1325.,,DG,1736.)         21552010    4
+STATUS     .TABLE 4.                                              21552010    5
+HISTORY    (800604C)                                              21552010    6
+           (800612E)                                              21552010    7
+ENDBIB               5                                            21552010    8
+NOCOMMON             0          0                                 21552010    9
+DATA                 2          1                                 21552010   10
+DATA       DATA-ERR                                               21552010   11
+B          B                                                      21552010   12
+ 1.6300E+03 1.6000E+02                                            21552010   13
+ENDDATA              3                                            21552010   14
+ENDSUBENT           13                                            2155201099999
+ENDENTRY             2                                            2155299999999
+ENTRY            40692     910128                                 40692000    1
+SUBENT        40692001     910128                                 40692001    1
+BIB                  6         11                                 40692001    2
+INSTITUTE  (4CCPFTI)                                              40692001    3
+REFERENCE  (J,AE,19,(8),188,6508)                                 40692001    4
+           (J,SJA,19,1086,65)                                     40692001    5
+           (J,JNE,20,814,66)                                      40692001    6
+AUTHOR     (I.A.KONDUROV,L.M.GRACHEVA,A.I.EGOROV,D.M.KAMINKER,    40692001    7
+           A.M.NIKITIN,YU.V.PETROV)                               40692001    8
+TITLE      REACTOR BURN-UP CROSS-SECTION OF PM149 AND POISONING BY40692001    9
+           SAMARIUM.                                              40692001   10
+STATUS     (SCSRS)                                                40692001   11
+HISTORY    (840127T) CONVERTED FROM ENTRY 80085                   40692001   12
+           (910128U) INSTITUTE CODE 'CCP' CHANGED TO 'FTI'        40692001   13
+ENDBIB              11                                            40692001   14
+NOCOMMON             0          0                                 40692001   15
+ENDSUBENT           14                                            4069200199999
+SUBENT        40692002     840320                                 40692002    1
+BIB                  5          6                                 40692002    2
+REACTION   (61-PM-149(N,G)61-PM-150,,SIG,,SPA)                    40692002    3
+METHOD     (ACTIV)    ACTIVATION                                  40692002    4
+DECAY-DATA (61-PM-149,,DG,285.,0.032)                             40692002    5
+           (61-PM-150,,DG,340.,0.71)                              40692002    6
+MONITOR    (27-CO-59(N,G)27-CO-60,,SIG)                           40692002    7
+INC-SPECT   REACTOR SPECTRUM                                      40692002    8
+ENDBIB               6                                            40692002    9
+NOCOMMON             0          0                                 40692002   10
+DATA                 5          1                                 40692002   11
+EN-DUMMY   DATA       DATA-ERR   MONIT      MONIT-ERR             40692002   12
+MEV        B          B          B          B                     40692002   13
+ 2.5300E-08 1.7000E+03 3.0000E+02 37.        1.5                  40692002   14
+ENDDATA              3                                            40692002   15
+ENDSUBENT           14                                            4069200299999
+ENDENTRY             2                                            4069299999999
+ENDREQUEST           1                                            Z999999999999

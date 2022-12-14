@@ -1,0 +1,78 @@
+REQUEST           1001   20010914          3     142558               0  0    0
+ENTRY            10348     830325                                 10348000    1
+SUBENT        10348001     830325                                 10348001    1
+BIB                 12         19                                 10348001    2
+INSTITUTE  (1USAORL)                                              10348001    3
+REFERENCE  (P,ORNL-4164,1,6709)                                   10348001    4
+AUTHOR     (J.HALPERIN,J.S.ELDRIDGE,H.A.O'BRIEN JR,R.E.DRUSCHEL)  10348001    5
+TITLE      THE THERMAL CROSS SECTION AND RESONANCE INTEGRAL OF    10348001    6
+            12.8-DAY BA-140.                                      10348001    7
+N-SOURCE   (REAC) HIGH-FLUX POSITION OF OAK RIDGE RESEACH REACTOR.10348001    8
+SAMPLE     BA-140 PURIFIED TO BE FREE OF LA AND CE AS WELL AS ANY 10348001    9
+            TRACES OF URANIUM.                                    10348001   10
+METHOD     CHEMICAL SEPARATION OF CE. DETERMINATION OF AMOUNT     10348001   11
+            OF CE-141 FORMED BY BETA DECAY OF BA-141 TO LA-141 TO 10348001   12
+            CE-141.                                               10348001   13
+DECAY-DATA (56-BA-140,12.8D,B-)                                   10348001   14
+           (56-BA-141,18.MIN,B-)                                  10348001   15
+MONITOR    (27-CO-59(N,G)27-CO-60,,SIG)                           10348001   16
+            FLUX MEASURED RELATIVE TO CO (N,GAMMA).               10348001   17
+ERR-ANALYS NO INFORMATION                                         10348001   18
+STATUS     NO REPLY TO AUTHOR PROOF.                              10348001   19
+HISTORY    (740529C)                                              10348001   20
+           (830325A) CONVERTED TO REACTION FORMALISM              10348001   21
+ENDBIB              19                                            10348001   22
+NOCOMMON             0          0                                 10348001   23
+ENDSUBENT           22                                            1034800199999
+SUBENT        10348002     830325                                 10348002    1
+BIB                  1          1                                 10348002    2
+REACTION   (56-BA-140(N,G)56-BA-141,,SIG)                         10348002    3
+ENDBIB               1                                            10348002    4
+NOCOMMON             0          0                                 10348002    5
+DATA                 3          1                                 10348002    6
+EN         DATA       DATA-ERR                                    10348002    7
+EV         B          B                                           10348002    8
+ 0.0253     1.57       0.3                                        10348002    9
+ENDDATA              3                                            10348002   10
+ENDSUBENT            9                                            1034800299999
+ENDENTRY             2                                            1034899999999
+ENTRY            12011     860812                                 12011000    1
+SUBENT        12011001     860812                                 12011001    1
+BIB                  9         13                                 12011001    2
+INSTITUTE  (1CANCRC)                                              12011001    3
+REFERENCE  (C,58GENEVA,16,54(203),5809)                           12011001    4
+AUTHOR     (T.A.EASTWOOD,A.P.BAERG,C.B.BIGHAM,F.BROWN M.J.CABELL, 12011001    5
+           W.E.GRUMMITT,J.C.ROY,L.P.ROY,R.P.SCHUMAN)              12011001    6
+TITLE      RADIOCHEMICAL METHODS APPLIED TO THE DETERMINATION OF  12011001    7
+           CROSS SECTIONS OF REACTOR INTEREST.                    12011001    8
+FACILITY   (REAC) NRX REACTOR.                                    12011001    9
+MONITOR    ((MONIT1)27-CO-59(N,G)27-CO-60,,SIG)                   12011001   10
+DECAY-MON  (27-CO-60-G,5.28YR)                                    12011001   11
+STATUS     (SCSRS)                                                12011001   12
+HISTORY    (760802T) TRANSLATED FROM SCISRS                       12011001   13
+           (830802A) CONVERTED TO REACTION FORMALISM              12011001   14
+           (860812A) BIB UPDATE, MONITOR ADDED.                   12011001   15
+ENDBIB              13                                            12011001   16
+COMMON               1          3                                 12011001   17
+MONIT1                                                            12011001   18
+B                                                                 12011001   19
+ 36.5                                                             12011001   20
+ENDCOMMON            3                                            12011001   21
+ENDSUBENT           20                                            1201100199999
+SUBENT        12011002     911122                                 12011002    1
+BIB                  5          5                                 12011002    2
+REACTION   (56-BA-140(N,G)56-BA-141,,SIG,,SPA)                    12011002    3
+METHOD     (ACTIV)    ACTIVATION                                  12011002    4
+INC-SPECT   REACTOR SPECTRUM                                      12011002    5
+STATUS     DATA TAKEN FROM PRIVATE COMMUNICATION, EASTWOOD,7/59.  12011002    6
+HISTORY    (911122A) DATA UPDATED                                 12011002    7
+ENDBIB               5                                            12011002    8
+NOCOMMON             0          0                                 12011002    9
+DATA                 2          1                                 12011002   10
+EN-DUMMY   DATA-MAX                                               12011002   11
+MEV        B                                                      12011002   12
+ 2.53   -08 20.                                                   12011002   13
+ENDDATA              3                                            12011002   14
+ENDSUBENT           13                                            1201100299999
+ENDENTRY             2                                            1201199999999
+ENDREQUEST           1                                            Z999999999999

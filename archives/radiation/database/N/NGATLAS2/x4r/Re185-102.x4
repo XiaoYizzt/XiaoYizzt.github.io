@@ -1,0 +1,219 @@
+REQUEST           1001   20010914          3     143902               0  0    0
+ENTRY            11399     870505                                 11399000    1
+SUBENT        11399001     870505                                 11399001    1
+BIB                  9         13                                 11399001    2
+INSTITUTE  (1USAORL)                                              11399001    3
+REFERENCE  (J,PR,107,504,57)                                      11399001    4
+           (P,ORNL-2302,27,57)                                    11399001    5
+AUTHOR     (R.L.MACKLIN,N.H.LAZAR,W.S.LYON)                       11399001    6
+TITLE      NEUTRON ACTIVATION CROSS SECTIONS WITH SB-BE NEUTRONS. 11399001    7
+INC-SOURCE (PHOTO) SB-BE SOURCE                                   11399001    8
+METHOD     (ACTIV)                                                11399001    9
+DETECTOR   (NAICR)                                                11399001   10
+STATUS     (SCSRS)                                                11399001   11
+HISTORY    (760714T) TRANSLATED FROM SCISRS                       11399001   12
+           (820324A) CONVERTED TO REACTION FORMALISM              11399001   13
+           (860612A) BIB UPDATE.                                  11399001   14
+           (870505A) BIB UPDATE.                                  11399001   15
+ENDBIB              13                                            11399001   16
+NOCOMMON             0          0                                 11399001   17
+ENDSUBENT           16                                            1139900199999
+SUBENT        11399046     870505                                 11399046    1
+BIB                  4          4                                 11399046    2
+REACTION   (75-RE-185(N,G)75-RE-186-G,,SIG)                       11399046    3
+DECAY-DATA (75-RE-186-G,,DG,137.,0.105)                           11399046    4
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)                           11399046    5
+HISTORY    (870505A) REACTION CORRECTED.                          11399046    6
+ENDBIB               4                                            11399046    7
+NOCOMMON             0          0                                 11399046    8
+DATA                 4          1                                 11399046    9
+EN         DATA       DATA-ERR   MONIT                            11399046   10
+MEV        B          B          MB                               11399046   11
+ 2.4    -02 2.650  +00 5.0    -01820.                             11399046   12
+ENDDATA              3                                            11399046   13
+ENDSUBENT           12                                            1139904699999
+ENDENTRY             2                                            1139999999999
+ENTRY            12162     821012                                 12162000    1
+SUBENT        12162001     821012                                 12162001    1
+BIB                  8          9                                 12162001    2
+INSTITUTE  (1USAANL)                                              12162001    3
+REFERENCE  (J,JNE,19,767,65)                                      12162001    4
+AUTHOR     (D.C.STUPEGIA,M.SCHMIDT,A.A.MADSON)                    12162001    5
+TITLE      FAST NEUTRON CAPTURE IN RHENIUM.                       12162001    6
+METHOD     (ACTIV).                                               12162001    7
+DETECTOR   (NAICR).                                               12162001    8
+STATUS     (SCSRS)                                                12162001    9
+HISTORY    (760803T) TRANSLATED FROM SCISRS                       12162001   10
+           (821012A) CONVERTED TO REACTION FORMALISM              12162001   11
+ENDBIB               9                                            12162001   12
+NOCOMMON             0          0                                 12162001   13
+ENDSUBENT           12                                            1216200199999
+SUBENT        12162002     870505                                 12162002    1
+BIB                  4          4                                 12162002    2
+REACTION   (75-RE-185(N,G)75-RE-186-G,,SIG)                       12162002    3
+DECAY-DATA (75-RE-186-G,90.HR,DG,137.)                            12162002    4
+MONITOR    (75-RE-185(N,G)75-RE-186-G,,SIG)                       12162002    5
+HISTORY    (870505A) REACTION, DECAY DATA CORRECTED.              12162002    6
+ENDBIB               4                                            12162002    7
+COMMON               2          3                                 12162002    8
+EN-NRM     MONIT                                                  12162002    9
+EV         B                                                      12162002   10
+ 0.0253     70.                                                   12162002   11
+ENDCOMMON            3                                            12162002   12
+DATA                 4         33                                 12162002   13
+EN         EN-RSL     DATA       DATA-ERR                         12162002   14
+MEV        MEV        B          B                                12162002   15
+ 4.6    -03 1.5    -03 5.92   +00 5.8    -01                      12162002   16
+ 4.9    -03 3.5    -03 5.460  +00 5.35   -01                      12162002   17
+ 1.22   -02 2.4    -03 2.920  +00 2.85   -01                      12162002   18
+ 1.9    -02 9.     -03 2.260  +00 2.40   -01                      12162002   19
+ 2.9    -02 2.     -03 1.710  +00 1.67   -01                      12162002   20
+ 4.3    -02 9.     -03 1.510  +00 1.48   -01                      12162002   21
+ 6.6    -02 1.1    -02 1.140  +00 1.12   -01                      12162002   22
+ 9.3    -02 8.     -03 1.060  +00 1.04   -01                      12162002   23
+ 1.78   -01 2.8    -02 7.05   -01 7.5    -02                      12162002   24
+ 2.63   -01 3.0    -02 6.30   -01 4.2    -02                      12162002   25
+ 3.75   -01 3.0    -02 5.70   -01 3.6    -02                      12162002   26
+ 4.72   -01 2.8    -02 4.60   -01 2.8    -02                      12162002   27
+ 5.30   -01 4.2    -02 4.00   -01 2.6    -02                      12162002   28
+ 5.69   -01 3.0    -02 3.90   -01 2.3    -02                      12162002   29
+ 6.09   -01 1.4    -02 4.35   -01 2.7    -02                      12162002   30
+ 6.69   -01 3.2    -02 4.75   -01 2.9    -02                      12162002   31
+ 7.03   -01 3.0    -02 4.10   -01 2.6    -02                      12162002   32
+ 7.66   -01 3.3    -02 4.25   -01 2.6    -02                      12162002   33
+ 8.70   -01 3.6    -02 4.05   -01 2.5    -02                      12162002   34
+ 9.48   -01 4.7    -02 4.35   -01 2.2    -02                      12162002   35
+ 1.035  +00 2.4    -02 3.70   -01 2.2    -02                      12162002   36
+ 1.090  +00 5.4    -02 3.60   -01 2.3    -02                      12162002   37
+ 1.160  +00 5.0    -02 3.55   -01 2.2    -02                      12162002   38
+ 1.258  +00 3.5    -02 3.85   -01 2.6    -02                      12162002   39
+ 1.358  +00 4.9    -02 2.97   -01 2.5    -02                      12162002   40
+ 1.484  +00 2.5    -02 2.25   -01 1.2    -02                      12162002   41
+ 1.562  +00 4.9    -02 2.30   -01 1.6    -02                      12162002   42
+ 1.758  +00 6.0    -02 2.40   -01 1.5    -02                      12162002   43
+ 1.886  +00 2.9    -02 1.85   -01 1.1    -02                      12162002   44
+ 1.992  +00 3.1    -02 1.250  -01 7.5    -03                      12162002   45
+ 2.087  +00 1.     -03 1.050  -01 6.2    -03                      12162002   46
+ 2.148  +00 6.8    -02 1.200  -01 7.7    -03                      12162002   47
+ 2.644  +00 7.4    -02 1.200  -01 7.7    -03                      12162002   48
+ENDDATA             35                                            12162002   49
+ENDSUBENT           48                                            1216200299999
+ENDENTRY             2                                            1216299999999
+ENTRY            12179     870505                                 12179000    1
+SUBENT        12179001     870505                                 12179001    1
+BIB                  8         11                                 12179001    2
+INSTITUTE  (1USAFLA)                                              12179001    3
+REFERENCE  (R,AD-402668,6303)                                     12179001    4
+AUTHOR     (R.A.KARAM,T.F.PARKINSON,M.F.PANCZYK)                  12179001    5
+TITLE      FINAL TECHNICAL PROGRESS REPORT ON THE NUCLEAR         12179001    6
+            PROPERTIES OF RHENIUM.                                12179001    7
+METHOD     (ACTIV)                                                12179001    8
+DECAY-MON  (79-AU-196-G,5.3D)                                     12179001    9
+STATUS     (SCSRS)                                                12179001   10
+HISTORY    (760803T) TRANSLATED FROM SCISRS                       12179001   11
+           (821012A) CONVERTED TO REACTION FORMALISM              12179001   12
+           (870505A) BIB CORRECTIONS.                             12179001   13
+ENDBIB              11                                            12179001   14
+NOCOMMON             0          0                                 12179001   15
+ENDSUBENT           14                                            1217900199999
+SUBENT        12179004     870505                                 12179004    1
+BIB                  4          4                                 12179004    2
+REACTION   (75-RE-185(N,G)75-RE-186-G,,SIG)                       12179004    3
+DECAY-DATA (75-RE-186-G,90.HR,DG,137.,,DG,122.)                   12179004    4
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)                         12179004    5
+HISTORY    (870505A) REACTION, DECAY-DATA CORRECTED.              12179004    6
+ENDBIB               4                                            12179004    7
+NOCOMMON             0          0                                 12179004    8
+DATA                 4          1                                 12179004    9
+EN         DATA       DATA-ERR   MONIT                            12179004   10
+EV         B          B          B                                12179004   11
+ 0.0253     96.5       10.        96.                             12179004   12
+ENDDATA              3                                            12179004   13
+ENDSUBENT           12                                            1217900499999
+ENDENTRY             2                                            1217999999999
+ENTRY            30390     930208                                 30390000    1
+SUBENT        30390001     930208                                 30390001    1
+BIB                 17         62                                 30390001    2
+TITLE      MEASUREMENT OF ISOTOPIC NEUTRON CAPTURE CROSS-SECTIONS 30390001    3
+           FOR V-51,CU-63,GA-71,GE-74,AS-75,MO-98,MO-100,RU-104,  30390001    4
+           IN-115,TE-128,TE-130,CE-140,CE-142,HO-165 AT THE       30390001    5
+           NEUTRON ENERGY OF (25+-5) KEV.                         30390001    6
+AUTHOR     (R.P.ANAND,D.BHATTACHARYA,M.L.JHINGAN,E.KONDAIAH)      30390001    7
+INSTITUTE  (3INDTRM) 1ST AUTHOR'S ADDRESS AND LOCATION OF FACILITY30390001    8
+           (3INDTAT)                                              30390001    9
+REFERENCE  (J,NC/A,50,274,7903) WERE CONSIDERED AS FINAL DATA     30390001   10
+           WHICH ARE DIFFERENT FROM DATA UNDER SECOND REFERENCE   30390001   11
+           (C,74BOMBAY,2,101,7412) PRELIM.DATA                    30390001   12
+           ((P,BARC-831,20,75)=(P,INDC(SEC)-50,152,7601)) NDG.    30390001   13
+SAMPLE     SAMPLES WERE IN THE FORMS OF FOILS,METALLIC POWDERS OR 30390001   14
+           POWDERS OXIDES.                                        30390001   15
+MONITOR    (53-I-127(N,G)53-I-128,,SIG) 6120+120 MB FOR THERMAL,  30390001   16
+            BYVES,J.NUCL.ENERGY,24(1970)35.  832+-26 MB AT 25KEV, 30390001   17
+            ROBERTSON,NUCL.PHYS.71(1965)417.                      30390001   18
+           .THERMAL (N,GAMMA) CROSS-SECTION FOR EACH REACTION.    30390001   19
+           THE VALUES ARE NOT GIVEN.                              30390001   20
+FACILITY   MONOENERGETIC FILTERED NEUTRON BEAM FACILITY AT THE    30390001   21
+           REACTOR CIRUS,B.A.R.C.(FACILITY BELONGS TO THE AUTHORS)30390001   22
+INC-SOURCE (REAC) REACTOR CIRUS,BHABHA ATOMIC RESEARCH CENTRE.    30390001   23
+INC-SPECT  THE ABOVE-MENTIONED FACILITY GIVES A FLUX OF ABOUT     30390001   24
+           E+5 N/CM2/SEC WITH ENERGY OF (25+-5)KEV OVER AN AREA OF30390001   25
+           3 INCH DIAMETER.                                       30390001   26
+           AND THERMAL NEUTRON WAS ALSO USED.                     30390001   27
+METHOD     (ACTIV) ACTIVATION IN THE SAME GEOMETRY USING THE KEV  30390001   28
+           AND THERMAL FLUXES.                                    30390001   29
+           MEASUREMENT OF THE AREA UNDER THE PHOTOPEAK OF THE     30390001   30
+           CHARACTERISTIC GAMMA-RAY.                              30390001   31
+DETECTOR   (NAICR) A WELL SHIELDED 3 INCH*3 INCH NAI(TL) CRYSTAL. 30390001   32
+ANALYSIS   THE CAPTURE CROSS-SECTION AT 25KEV,SIG(KEV),IS GIVEN AS30390001   33
+            SIG(KEV)= SIG(THR)*A(KEV)*I(THR)*F(KEV)/              30390001   34
+             (A(THR)*I(KEV)*F(THR)), WHERE (KEV) AND (THR) STAND  30390001   35
+            FOR THE VALUES AT THE IRRADIATION WITH 25KEV AND      30390001   36
+           THERMAL FLUX, RESPECTIVELY.  'A' IS THE AREA UNDER THE 30390001   37
+           PHOTOPEAK OF THE CHARACTERISTIC GAMMA RAY, 'F' IS A    30390001   38
+           FUNCTION OF TIMES OF IRRADIATION AND COUNTING AND HALF-30390001   39
+           LIFE OF THE PRODUCT NUCLEUS,AND 'I' IS THE N-FLUX.     30390001   40
+CORRECTION THE DATA WAS CORRECTED FOR SELF-SHIELDING OF NEUTRONS. 30390001   41
+ERR-ANALYS TOTAL ERROR IS GIVEN.                                  30390001   42
+            STAT.ERROR IN THE AREA UNDER PHOTOPEAK   1 TO 2 PERC. 30390001   43
+            ERROR IN TIME MEASUREMENTS         LESS THAN 1 PERC.  30390001   44
+            MAJOR CONTRIBUTION TO THE ERROR COMES FROM THE ERRORS 30390001   45
+           IN THE STANDARD VALUES.                                30390001   46
+COMMENT     COMPILER'S NOTE =  IT MIGHT BE PERTINENT TO USE       30390001   47
+            'EN-MAX' AND 'EN-MIN' WITH (NG,SPA) INSTEAD OF 'EN'   30390001   48
+            AND 'EN-RSL'.  HOWEVER THE ENTRY FOLLOWS AFTER THE    30390001   49
+            AUTHOR'S DESCRIPTION LITERALLY.                       30390001   50
+           ===THE DECISION TO SUPERSEDE THE DATA PUBL.AT FIRST    30390001   51
+            REF.BY DATA FROM THIRD REF.WAS TAKEN BY COMPILER (VP) 30390001   52
+            AND BASED ON THE PRINCIPLE THAT LATEST PUBLICATION    30390001   53
+            MUST CONTAIN THE FINAL RESULTS - 81/05/29 COMPILER.== 30390001   54
+STATUS     DATA TAKEN FROM TABLE1 OF PROC.OF NUCL.PHYS.AND SOLID  30390001   55
+           STATE PHYS.SYMMP.,DEC 1974,VOL.B,P.101.                30390001   56
+           WERE SUPERSEDED LATER BY DATA TAKEN FROM NUOV.CIM.,50A,30390001   57
+           TABLE 1,P.251-252,(1979)                               30390001   58
+HISTORY    (770302C) KO.                                          30390001   59
+           (810529A) NUMERICAL DATA WERE SUPERSEDED BY DATA       30390001   60
+           FROM TABLE1, NUOV.CIM.,50A,P.251-252,(1979). VP.       30390001   61
+           (890829A) VOF.-MONITOR UPDATED.-                       30390001   62
+           (930115A) HW.- SEQUENCE OF INST. CODES ALTERED IN      30390001   63
+           SUBENT. 001, REACTION CODE IN SUBENT 015 ALTERED.      30390001   64
+ENDBIB              62                                            30390001   65
+COMMON               6          3                                 30390001   66
+EN         EN-RSL     MONIT1     MONIT1-ERR MONIT2     MONIT2-ERR 30390001   67
+KEV        MEV        MB         MB         MB         MB         30390001   68
+25.        5.         6120.      120.       832.       26.        30390001   69
+ENDCOMMON            3                                            30390001   70
+ENDSUBENT           69                                            3039000199999
+SUBENT        30390019     850121                                 30390019    1
+BIB                  2          2                                 30390019    2
+REACTION   (75-RE-185(N,G)75-RE-186-G,,SIG)                       30390019    3
+DECAY-DATA (75-RE-186-G,89.9HR,DG,137.)                           30390019    4
+ENDBIB               2                                            30390019    5
+NOCOMMON             0          0                                 30390019    6
+DATA                 2          1                                 30390019    7
+DATA       ERR-T                                                  30390019    8
+MB         MB                                                     30390019    9
+ 2.2600E+03 2.4700E+02                                            30390019   10
+ENDDATA              3                                            30390019   11
+ENDSUBENT           10                                            3039001999999
+ENDENTRY             2                                            3039099999999
+ENDREQUEST           1                                            Z999999999999

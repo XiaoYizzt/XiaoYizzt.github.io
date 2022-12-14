@@ -1,0 +1,40 @@
+REQUEST           1001   20010914          3     135810               0  0    0
+ENTRY            40589     910701                                 40589000    1
+SUBENT        40589001     910701                                 40589001    1
+BIB                  8         14                                 40589001    2
+INSTITUTE  (4CCPKUR)                                              40589001    3
+REFERENCE  (C,55GENEVA,2,39(P/651),55)                            40589001    4
+           (C,55GENEVA,2,53(P/651),55) RUSSIAN EDITION            40589001    5
+AUTHOR     (L.V.GROSHEV,B.P.AD'YASEVICH,A.M.DEMIDOV)              40589001    6
+TITLE      THERMAL-NEUTRON CAPTURE GAMMA RAYS.                    40589001    7
+FACILITY   (REAC)  REACTOR 'RFT'                                  40589001    8
+ERR-ANALYS  ERROR, IF GIVEN, IS NOT SPECIFIED                     40589001    9
+INC-SOURCE (THCOL) THERMAL COLUMN OF THE REACTOR 'RFT'            40589001   10
+HISTORY    (840612T) CONVERTED FROM ENTRY 80128                   40589001   11
+           (910701A) INSTITUTE 'CCP' CHANGED TO 'KUR'             40589001   12
+                     FOUR NEW SUBENTS ADDED WITH DATA FROM        40589001   13
+                     THE REFERENCE                                40589001   14
+           (930125A) SUBENT 40589005 DELETED AS DATA GIVEN THERE  40589001   15
+                     NOT BELONG TO AUTHORS                        40589001   16
+ENDBIB              14                                            40589001   17
+NOCOMMON             0          0                                 40589001   18
+ENDSUBENT           17                                            4058900199999
+SUBENT        40589002     930125                                 40589002    1
+BIB                  6          7                                 40589002    2
+REACTION   (11-NA-23(N,G)11-NA-24-M,,SIG,,MXW)                    40589002    3
+STATUS     (SCSRS)                                                40589002    4
+METHOD     (ACTIV)    ACTIVATION                                  40589002    5
+MONITOR    (11-NA-23(N,G)11-NA-24,,SIG)                           40589002    6
+DECAY-DATA (11-NA-24-G,20.MSEC)                                   40589002    7
+           IDENTIFICATION WITH NA24M MADE IN ANN.D.PHYS.12,255(63)40589002    8
+INC-SPECT   THERMAL SPECTRUM                                      40589002    9
+ENDBIB               7                                            40589002   10
+NOCOMMON             0          0                                 40589002   11
+DATA                 4          1                                 40589002   12
+EN-DUMMY   DATA       DATA-ERR   MONIT                            40589002   13
+MEV        B          B          MB                               40589002   14
+ 2.5300E-08 3.9000E-01 6.0000E-02 530.                            40589002   15
+ENDDATA              3                                            40589002   16
+ENDSUBENT           15                                            4058900299999
+ENDENTRY             2                                            4058999999999
+ENDREQUEST           1                                            Z999999999999

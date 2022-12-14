@@ -1,0 +1,761 @@
+REQUEST           1001   20010914          3     141052               0  0    0
+ENTRY            11858     830919                                 11858000    1
+SUBENT        11858001     830919                                 11858001    1
+BIB                  7          9                                 11858001    2
+INSTITUTE  (1CANMCM)                                              11858001    3
+REFERENCE  (J,PR,80,296,5010)                                     11858001    4
+AUTHOR     (J.MACNAMARA,H.THODE)                                  11858001    5
+TITLE      THE RELATIVE NEUTRON CAPTURE CROSS SECTIONS OF THE     11858001    6
+           ISOTOPES OF KRYPTON AND XENON.                         11858001    7
+FACILITY   (SPECC) CRYSTAL SPECTROMETER                           11858001    8
+STATUS     (SCSRS)                                                11858001    9
+HISTORY    (760731T) TRANSLATED FROM SCISRS                       11858001   10
+           (830919A) CONVERTED TO REACTION FORMALISM              11858001   11
+ENDBIB               9                                            11858001   12
+NOCOMMON             0          0                                 11858001   13
+ENDSUBENT           12                                            1185800199999
+SUBENT        11858012     830919                                 11858012    1
+BIB                  1          1                                 11858012    2
+REACTION   (36-KR-83(N,G)36-KR-84,,SIG,,MXW)                      11858012    3
+ENDBIB               1                                            11858012    4
+NOCOMMON             0          0                                 11858012    5
+DATA                 3          1                                 11858012    6
+EN-DUMMY   DATA       DATA-ERR                                    11858012    7
+EV         B          B                                           11858012    8
+ 0.0253     205.       10.                                        11858012    9
+ENDDATA              3                                            11858012   10
+ENDSUBENT            9                                            1185801299999
+ENDENTRY             2                                            1185899999999
+ENTRY            12016     830802                                 12016000    1
+SUBENT        12016001     830802                                 12016001    1
+BIB                  9         11                                 12016001    2
+INSTITUTE  (1CANMCM)                                              12016001    3
+REFERENCE  (J,JIN,5,253,58)                                       12016001    4
+AUTHOR     (T.KENNET,H.THODE)                                     12016001    5
+TITLE      PILE NEUTRON ABSORPTION CROSS SECTION OF KR83, I131,   12016001    6
+           AND XE133.                                             12016001    7
+FACILITY   (SPECM) MASS SPECTROMETER                              12016001    8
+INC-SPECT  THERMAL SPECTRUM                                       12016001    9
+MONITOR    (27-CO-59(N,G)27-CO-60,,SIG)                           12016001   10
+STATUS     (SCSRS)                                                12016001   11
+HISTORY    (760802T) TRANSLATED FROM SCISRS                       12016001   12
+           (830802A) CONVERTED TO REACTION FORMALISM              12016001   13
+ENDBIB              11                                            12016001   14
+COMMON               2          3                                 12016001   15
+MONIT      MONIT-ERR                                              12016001   16
+B          B                                                      12016001   17
+ 37.        1.5                                                   12016001   18
+ENDCOMMON            3                                            12016001   19
+ENDSUBENT           18                                            1201600199999
+SUBENT        12016003     830802                                 12016003    1
+BIB                  1          1                                 12016003    2
+REACTION   (36-KR-83(N,G)36-KR-84,,SIG,,MXW)                      12016003    3
+ENDBIB               1                                            12016003    4
+NOCOMMON             0          0                                 12016003    5
+DATA                 3          1                                 12016003    6
+EN-DUMMY   DATA       DATA-ERR                                    12016003    7
+EV         B          B                                           12016003    8
+ 0.0253     216.       43.                                        12016003    9
+ENDDATA              3                                            12016003   10
+ENDSUBENT            9                                            1201600399999
+ENDENTRY             2                                            1201699999999
+ENTRY            21563     800612                                 21563000    1
+SUBENT        21563001     800612                                 21563001    1
+BIB                 12         31                                 21563001    2
+INSTITUTE  (2FR SAC)                                              21563001    3
+REFERENCE  (C,77PARIS,1,431,771219) IAEA-PUBL. 475.               21563001    4
+AUTHOR     (M.LUCAS,R.HAGEMANN,R.NAUDET,C.RENSON,C.CHEVALIER)     21563001    5
+TITLE      -DETERMINATION BY IRRADIATION IN THE TRITON REACTOR    21563001    6
+            OF NEUTRON CAPTURE CROSS SECTIONS FOR ISOTOPES        21563001    7
+            INVOLVED IN THE OKLO PHENOMENON.- (IN FRENCH WITH     21563001    8
+            ABSTRACT IN ENGLISH).-                                21563001    9
+FACILITY   (REAC,2FR SAC) SWIMMING POOL REACTOR TRITON AT         21563001   10
+            SACLAY, AT TEMPERATURE OF 40 DEG-C.                   21563001   11
+INC-SOURCE (REAC ) REACTOR NEUTRONS.                              21563001   12
+METHOD     (ACTIV) ACTIVATION ANALYSIS, USING                     21563001   13
+           (CHSEP) CHEMICAL SEPARATION AND                        21563001   14
+           (ASEP ) MASS SPECTROMETRY AFTER THERMOIONIZATION.      21563001   15
+            ALSO ISOTOPIC DILUTION TECHNIQUES USED.               21563001   16
+           .USING THE FORMULA SIGMA=SIGMA0*G+R*I,(WHERE R         21563001   17
+            IS THE SPECTRAL INDEX AND I THE 1/V-CORRECTED         21563001   18
+            RESONANCE INTEGRAL),AND THE RESULTS OF 2              21563001   19
+            MEASUREMENTS WITH DIFFERENT VALUES OF R, THE          21563001   20
+            QUANTITIES SIGMA0 AND I CAN BE OBTAINED. THE          21563001   21
+            G-FACTOR IS DETERMINED BY THE TEMPERATURE AND         21563001   22
+            THE SPECTRAL INDICES R ARE DETERMINED BY THE          21563001   23
+            ENVIRONMENT AND ARE CALCULATED WITH THE COMPUTER      21563001   24
+            CODES APOLLO AND BINOCLE. 4 DIFFERENT IRRADIATIONS    21563001   25
+            HAVE BEEN DONE.                                       21563001   26
+MONITOR   1(92-U-238(N,G)92-U-239,,SIG)                           21563001   27
+          2(92-U-238(N,G)92-U-239,,RI,,RNV) CUT OFF AT 0.5 EV.    21563001   28
+STATUS     .DATA FROM TEXT, 77PARIS,1,431.                        21563001   29
+HISTORY    (800602C) G.C.                                         21563001   30
+           (800612E)                                              21563001   31
+CORRECTION .RADIOACTIVE DECAY.                                    21563001   32
+ERR-ANALYS .DETERMINED BY THREE DIFFERENT MEASUREMENTS.           21563001   33
+ENDBIB              31                                            21563001   34
+COMMON               3          3                                 21563001   35
+EN-NRM     MONIT1     MONIT2                                      21563001   36
+EV         B          B                                           21563001   37
+ 2.5300E-02 2.7200E+00 2.8000E+02                                 21563001   38
+ENDCOMMON            3                                            21563001   39
+ENDSUBENT           38                                            2156300199999
+SUBENT        21563011     800612                                 21563011    1
+BIB                  4          8                                 21563011    2
+REACTION   (36-KR-83(N,G)36-KR-84,,SIG) 2200 M/SEC VALUE.         21563011    3
+SAMPLE     .SAMPLES IN FORM OF GAS. TOTAL                         21563011    4
+            QUANTITY IRRADIATED 1.5ML.                            21563011    5
+           .ISOTOPIC COMPOSITION GIVEN IN TABLE 7 OF              21563011    6
+            PUBLICATION.                                          21563011    7
+STATUS     .TEXT 77PARIS,1,431.                                   21563011    8
+HISTORY    (800502C) G.C.                                         21563011    9
+           (800612E)                                              21563011   10
+ENDBIB               8                                            21563011   11
+NOCOMMON             0          0                                 21563011   12
+DATA                 3          1                                 21563011   13
+EN         DATA       DATA-ERR                                    21563011   14
+EV         B          B                                           21563011   15
+ 2.5300E-02 2.1500E+02 1.5000E+01                                 21563011   16
+ENDDATA              3                                            21563011   17
+ENDSUBENT           16                                            2156301199999
+ENDENTRY             2                                            2156399999999
+ENTRY            21856     840201                                 21856000    1
+SUBENT        21856001     840201                                 21856001    1
+BIB                 16         71                                 21856001    2
+INSTITUTE  (2GERKFK) IAK.                                         21856001    3
+REFERENCE  (R,KFK-2895,7912) THESIS B.LEUGERS UNIV.OF KARLSRUHE.  21856001    4
+           (C,79BOLOGN,,69,7912)                                  21856001    5
+           (C,80MUNICH,,1181,8003)                                21856001    6
+           (C,79KNOX,,857,7910)                                   21856001    7
+           (P,NEANDC(E)-212,(5),9,8006)                           21856001    8
+AUTHOR     (B.LEUGERS)                                            21856001    9
+TITLE      -.NEUTRON CAPTURE CROSS-SECTIONS OF KRYPTON ISOTOPES   21856001   10
+            AND THEIR ASTROPHYSICAL IMPLICATIONS.                 21856001   11
+            (DIE NEUTRONENEINFANGQUERSCHNITTE DER KRYPTON-        21856001   12
+             ISOTOPE UND IHRE BEDEUTUNG FUER DIE ASTROPHYSIK).-   21856001   13
+FACILITY   (VDG  ,2GERKFK) KARLSRUHE 3 MV PULSED VDG ACCELERATOR. 21856001   14
+INC-SOURCE (P-LI7) METALLIC LI-7.                                 21856001   15
+INC-SPECT  .USING THICK METALLIC LI-TARGETS NEUTRONS              21856001   16
+            WITH A CONTINUOUS ENERGY DISTRIBUTION WERE            21856001   17
+            PRODUCED. A COLLIMATOR AND SHIELDING SYSTEM           21856001   18
+            SELECTED NEUTRONS BETWEEN 3 AND 200KEV.               21856001   19
+SAMPLE     .SPHERES OF 2 CM DIAMETER AND 0.5 MM WALL THICKNESS    21856001   20
+           .SAMPLE CHANGER CONTAINED                              21856001   21
+               - 3 GAS SAMPLES                                    21856001   22
+               - A AU REFERENCE SAMPLE                            21856001   23
+               - AN EMPTY CANNING                                 21856001   24
+               - A GRAPHITE SPHERE FOR BACKGROUND CORRECTION      21856001   25
+           .THE ISOTOPIC COMPOSITION OF THE KRYPTON SAMPLES IS    21856001   26
+            GIVEN IN THE FOLLOWING TABLE                          21856001   27
+                        ENRICHMENT (IN PERCENT) FOR               21856001   28
+              SAMPLE    KR-78  KR-80  KR-82  KR-83  KR-84  KR-86  21856001   29
+              KR-NAT     0.35   2.25   11.6   11.5   57.0   17.3  21856001   30
+              KR-84       -      -       -      -   100.0     -   21856001   31
+              KR-82      0.18  20.26   75.57   3.78   0.2     -   21856001   32
+              KR-78      9.0   35.0    34.7    9.5   11.6    0.3  21856001   33
+              KR-83       -      -     16.1   71.0   12.9     -   21856001   34
+METHOD     (TOF) RESOLUTION 1.5 NS/M. FLIGHT PATH 60 CM.          21856001   35
+           .THIN-WALLED HIGH PRESSURE GAS SAMPLES                 21856001   36
+           .DETECTION OF CAPTURE GAMMA-RAYS                       21856001   37
+           .MEYER-LEIBNITZ PULSE HEIGHT WEIGHTING METHOD          21856001   38
+           .THE TOTAL C.S. WERE MEASURED IN A TRANSMISSION        21856001   39
+            MEASUREMENT IN ORDER TO CORRECT THE CAPTURE DATA WITH 21856001   40
+            RESPECT TO THE N-SENSITIVITY OF THE C6-D6 DETECTORS.  21856001   41
+DETECTOR   (SCIN ) C(6)D(6) LIQUID SCIN.DETECTORS COUPLED TO FAST 21856001   42
+                   PM FOR GAMMA-RAYS DETECTING.                   21856001   43
+           (GLASD) LI-6 GLASS DETECTOR TO MONITOR NEUTRON FLUX    21856001   44
+                   FOR THE TOTAL C.S. MEASUREMENTS                21856001   45
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)                         21856001   46
+            FOR DATA ANALYSIS THE EVALUATED GOLD C.S. OF          21856001   47
+            ENDF/B-IV WAS ADOPTED.                                21856001   48
+            NUMERICAL DATA ARE GIVEN IN TABLE II,APP.,MAIN REF.   21856001   49
+ADD-RES    .DATA WERE NEEDED FOR A QUANTITATIVE UNDERSTANDING     21856001   50
+            OF THE S-PROCESS OF NUCLEOSYNTHESIS.                  21856001   51
+           .DETERMINATION OF THE ORIGINAL ABUNDANCE OF KRYPTON    21856001   52
+            IN THE SOLAR SYSTEM AND THE TEMPERATURE OF THE        21856001   53
+            S-PROCESS.                                            21856001   54
+STATUS     .MAIN REFERENCE, APPEND.,TABLE III.                    21856001   55
+HISTORY    (830503C) BN.                                          21856001   56
+           (830801E)                                              21856001   57
+CORRECTION .FOR SCATTERED NEUTRONS                                21856001   58
+           .FOR TIME-DEPENDENT BACKGROUND                         21856001   59
+ERR-ANALYS (ERR-S) ONLY THE STATISTICAL ERROR IS GIVEN, WHICH IS  21856001   60
+                   ABOUT 10 PERCENT AT 30 KEV AND                 21856001   61
+                         5 PERCENT AT 100 KEV.                    21856001   62
+           .SYSTEMATC ERRORS WERE (GIVEN IN PERCENT)              21856001   63
+             - SAMPLE MASSES (1.), FOR KR-84 (2.)                 21856001   64
+             - TIME DEPENDENT BACKGROUND DETERMINATION (1.),      21856001   65
+               FOR KR-84 (2.)                                     21856001   66
+             - PULSE-HEIGHT WEIGHTING TECHNIQUE (0.5)             21856001   67
+             - EFFECT. NEUTRON BIND.ENERGY (2.), FOR KR-84 (0.)   21856001   68
+             - OTHER CORRECTIONS (E.G. MULTIPLE SCATTERING) (2.)  21856001   69
+           .TOTAL SYSTEMATIC ERROR (3.2), FOR KR-84 (3.6)         21856001   70
+           .THE ERRORS FOR THE TOTAL C.S. WERE ABOUT              21856001   71
+               20 PERCENT AT  7 KEV AND                           21856001   72
+                7 PERCENT AT 200 KEV.                             21856001   73
+ENDBIB              71                                            21856001   74
+NOCOMMON             0          0                                 21856001   75
+ENDSUBENT           74                                            2185600199999
+SUBENT        21856006     830801                                 21856006    1
+BIB                  3          4                                 21856006    2
+REACTION   (36-KR-83(N,G)36-KR-84,,SIG,,MXW)                      21856006    3
+STATUS     .MAIN REFERENCE. APPENDIX TABLE III                    21856006    4
+HISTORY    (830503C)                                              21856006    5
+           (830801E)                                              21856006    6
+ENDBIB               4                                            21856006    7
+NOCOMMON             0          0                                 21856006    8
+DATA                 3          6                                 21856006    9
+EN-DUMMY   DATA       ERR-S                                       21856006   10
+KEV        MB         MB                                          21856006   11
+ 1.5000E+01 3.4180E+02 5.8000E+00                                 21856006   12
+ 2.0000E+01 2.8260E+02 3.7000E+00                                 21856006   13
+ 2.5000E+01 2.4310E+02 2.6000E+00                                 21856006   14
+ 3.0000E+01 2.1480E+02 2.0000E+00                                 21856006   15
+ 3.5000E+01 1.9390E+02 1.6000E+00                                 21856006   16
+ 4.0000E+01 1.7780E+02 1.3000E+00                                 21856006   17
+ENDDATA              8                                            21856006   18
+ENDSUBENT           17                                            2185600699999
+ENDENTRY             2                                            2185699999999
+ENTRY            21913     861118                                 21913000    1
+SUBENT        21913001     861118                                 21913001    1
+BIB                 16         90                                 21913001    2
+INSTITUTE  (2GERKFK)                                              21913001    3
+REFERENCE  (R,KFK-3652,1,8402)                                    21913001    4
+           (J,NSE,93,(4),357,8608)                                21913001    5
+AUTHOR     (G.WALTER,B.LEUGERS,F.KAEPPELER,Z.Y.BAO,               21913001    6
+            D.ERBE,G.RUPP,G.REFFO,F.FABBRI)                       21913001    7
+TITLE      --NEUTRON CAPTURE CROSS SECTIONS OF THE                21913001    8
+            KRYPTON ISOTOPES AND THE S-PROCESS BRANCHING          21913001    9
+            AT SE-79                                              21913001   10
+FACILITY   (VDG,2GERKFK)  DDP OF ACCELERATOR=3.75 MV              21913001   11
+INC-SOURCE (P-LI7)                                                21913001   12
+            -PRINCIPAL PARAMETERS OF THE NEUTRON SOURCE           21913001   13
+            AND THE ACCELERATOR                                   21913001   14
+            *.E(P)=2.025MEV                                       21913001   15
+            *.BEAM CURRENT=7 MICRO-A                              21913001   16
+             .PULSE WIDTH LT 1 NANO-SEC                           21913001   17
+            *.NEUTRON ENERGY IS DETERMINED BY TIME-OF-            21913001   18
+            FLIGHT BETWEEN 4 AND 250 KEV                          21913001   19
+             .TIME RESOLUTION=ABOUT 1 NANO-SEC                    21913001   20
+             .ENERGY RESOLUTION=ABOUT 0.5 KEV AT 30 KEV           21913001   21
+             .MEASURE OF THE FLUX IN USING A 1MM THICK            21913001   22
+            AU DISK                                               21913001   23
+            -FOR THE METALLIC TARGET                              21913001   24
+             .THICKNESS=3 MICRO-M                                 21913001   25
+             .DIAMETER=6 MM                                       21913001   26
+             .SUPPORT TA (THICKNESS=0.3 MM)                       21913001   27
+            THE TARGET BACKING IS COOLED WITH WATER               21913001   28
+SAMPLE     .SAMPLE CANNINGS ARE SPHERES WITHSTANDING ABOUT        21913001   29
+            300 ATM. PRESSURE DURING EXPERIMENT                   21913001   30
+           .DIAMETER=20 MM                                        21913001   31
+           .ISOTOPIC COMPOSITION                                  21913001   32
+            SAMPLE          ENRICHMENT(IN PERCENT)                21913001   33
+                  KR-78 KR-80 KR-82 KR-83 KR-84 KR-86             21913001   34
+            KR-78   8.8  34.8  34.8   9.5  11.8   0.3             21913001   35
+            KR-80   4.1  93.8   2.1    -     -     -              21913001   36
+            KR-82   0.2  20.2  75.6   3.8   0.2    -              21913001   37
+            KR-83    -     -   16.0  71.4  12.6    -              21913001   38
+            KR-84    -     -     -     -   100.0   -              21913001   39
+            KR-0    0.35  2.25 11.6  11.5  57.0  17.3             21913001   40
+DETECTOR   (SCIN )  2C6D6 SCINTILLATORS SURROUNDED BY             21913001   41
+            2 PM,THEMSELVES SURROUNDED BY LEAD                    21913001   42
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)DATA FROM ENDF/B-IV USED.21913001   43
+PART-DET   (DG   )                                                21913001   44
+COMMENT    .MANY NEGATIVE CROSS SECTION VALUES APPEAR IN THE      21913001   45
+            MAIN REFERENCE.                                       21913001   46
+ADD-RES    .A COMPARISON IS MADE WITH THE HAUSER-FESHBACH MODEL   21913001   47
+           .DETAILS ON THE LEVEL DENSITY PARAMETER-A-,DEFORMATION 21913001   48
+            PARAMETER B ARE GIVEN FOR THE MASS REGION BETWEEN     21913001   49
+            A=78 AND 84                                           21913001   50
+STATUS      MAIN REFERENCE TABLE 1,3,4                            21913001   51
+                          APPENDIX 1,2,3,4,5,6                    21913001   52
+HISTORY    (840605C)BL                                            21913001   53
+           (840710E)                                              21913001   54
+           (861118U)  NO.                                         21913001   55
+           (870519E)                                              21913001   56
+CORRECTION .BECAUSE THE TARGET IS COOLED WITH WATER,NEUTRON       21913001   57
+            FLUX INCREASE AT LOW ENERGIES                         21913001   58
+           .6-LI2CO3(COATING MATERIAL FOR C6D6 AND BEAM AXIS)     21913001   59
+            TO MINIMIZE GAMMA BACKGROUND                          21913001   60
+           .20 CM THICK PURE LEAD SHIELDING PERMIT TO SUPPRESS    21913001   61
+            THE 478 KEV GAMMA-RAY OBTAINED AFTER NEUTRON          21913001   62
+            CAPTURE IN B-10 (B4C ARALDITE MIXTURE)                21913001   63
+           .SOME OF NEUTRONS IS ABSORBED IN PARAFFIN              21913001   64
+           .BECAUSE IN C6D6 D/H ABOUT 0.72,BACKGROUND IS          21913001   65
+            CAUSED BY NEUTRONS SCATTERED IN SAMPLE AND            21913001   66
+            CAPTURED IN THE RESIDUAL H                            21913001   67
+           .GRAPHITE SERVES FOR EXPERIMENTAL BACKGROUND           21913001   68
+            DETERMINATION                                         21913001   69
+ERR-ANALYS  SOURCES                  CONTRIBUTION TO THE          21913001   70
+                                    UNCERTAINTY IN MEAN-SIG/V     21913001   71
+                                      (IN PERCENT)                21913001   72
+            AU STANDARD                ABOUT 3                    21913001   73
+            GAMMA-RAY SELF-ABSORPTION  ABOUT 1                    21913001   74
+            IN THE SAMPLE                                         21913001   75
+            NEUTRON SCATTERING AND     ABOUT 2                    21913001   76
+            SELF-ABSORPTION IN THE                                21913001   77
+            AU SAMPLE AND NOTHING                                 21913001   78
+            FOR KR SAMPLE                                         21913001   79
+            PILE-UP CORRECTION         ABOUT 1                    21913001   80
+            LOWER ELECTRONIC           ABOUT 0.5                  21913001   81
+            THRESHOLD CORRECTION                                  21913001   82
+            SAMPLE MASS DETERMINATION  ABOUT 1-2 FOR KR-84        21913001   83
+            TIME DEPENDENT BACKGROUND  ABOUT 1-2 FOR KR-84        21913001   84
+            SUBTRACTION                                           21913001   85
+            WEIGHTING FUNCTION         ABOUT 0.5-1                21913001   86
+            EFFECTIVE NEUTRON BINDING  ABOUT 2-3 FOR KR-0,KR-78   21913001   87
+            ENERGY                           0 FOR KR-84          21913001   88
+            ISOTOPIC IMPURITIES        ABOUT 2-10MAX FOR KR-78    21913001   89
+                                            0 FOR KR-84           21913001   90
+            STATISTICS                 ABOUT 2-3 FOR KR-84        21913001   91
+                            TOTAL     ABOUT 5-12                  21913001   92
+ENDBIB              90                                            21913001   93
+NOCOMMON             0          0                                 21913001   94
+ENDSUBENT           93                                            2191300199999
+SUBENT        21913010     840710                                 21913010    1
+BIB                  3          4                                 21913010    2
+REACTION   (36-KR-83(N,G)36-KR-84,,SIG)                           21913010    3
+STATUS      MAIN REFERENCE APPENDIX 5                             21913010    4
+HISTORY    (840605C)                                              21913010    5
+           (840710E)                                              21913010    6
+ENDBIB               4                                            21913010    7
+NOCOMMON             0          0                                 21913010    8
+DATA                 3        412                                 21913010    9
+EN         DATA       DATA-ERR                                    21913010   10
+KEV        MB         MB                                          21913010   11
+ 2.5000E+00 9.6120E+02 1.1232E+03                                 21913010   12
+ 2.6000E+00 9.2790E+02 1.0170E+03                                 21913010   13
+ 2.7000E+00 1.9760E+03 8.9060E+02                                 21913010   14
+ 2.8000E+00 2.3551E+03 7.9600E+02                                 21913010   15
+ 2.9000E+00 3.9013E+03 7.2150E+02                                 21913010   16
+ 3.0000E+00 8.3930E+02 6.6370E+02                                 21913010   17
+ 3.1000E+00-5.7630E+02 6.1800E+02                                 21913010   18
+ 3.2000E+00 1.5522E+03 5.7990E+02                                 21913010   19
+ 3.3000E+00 1.9945E+03 5.4790E+02                                 21913010   20
+ 3.4000E+00 1.8501E+03 5.2050E+02                                 21913010   21
+ 3.5000E+00 2.7183E+03 4.9700E+02                                 21913010   22
+ 3.6000E+00 6.6640E+02 4.7640E+02                                 21913010   23
+ 3.7000E+00 1.6802E+03 4.5850E+02                                 21913010   24
+ 3.8000E+00 3.6500E+01 4.4260E+02                                 21913010   25
+ 3.9000E+00 1.4458E+03 4.2780E+02                                 21913010   26
+ 4.0000E+00 1.5953E+03 4.1450E+02                                 21913010   27
+ 4.1000E+00 1.5918E+03 4.0260E+02                                 21913010   28
+ 4.2000E+00 4.6260E+02 3.9180E+02                                 21913010   29
+ 4.3000E+00 1.3251E+03 3.8140E+02                                 21913010   30
+ 4.4000E+00 7.8670E+02 3.7140E+02                                 21913010   31
+ 4.5000E+00 1.0006E+03 3.6230E+02                                 21913010   32
+ 4.6000E+00 1.4981E+03 3.5390E+02                                 21913010   33
+ 4.7000E+00 1.2027E+03 3.4620E+02                                 21913010   34
+ 4.8000E+00 3.9570E+02 3.3870E+02                                 21913010   35
+ 4.9000E+00 6.2800E+02 3.3120E+02                                 21913010   36
+ 5.0000E+00 4.7690E+02 3.2390E+02                                 21913010   37
+ 5.1000E+00 9.2030E+02 3.1720E+02                                 21913010   38
+ 5.2000E+00 8.5960E+02 3.1110E+02                                 21913010   39
+ 5.3000E+00 6.1730E+02 3.0500E+02                                 21913010   40
+ 5.4000E+00 1.5720E+02 2.9910E+02                                 21913010   41
+ 5.5000E+00 1.6033E+03 2.9320E+02                                 21913010   42
+ 5.6000E+00 1.0003E+03 2.8790E+02                                 21913010   43
+ 5.7000E+00 3.3630E+02 2.8260E+02                                 21913010   44
+ 5.8000E+00 7.1290E+02 2.7740E+02                                 21913010   45
+ 5.9000E+00 7.1110E+02 2.7230E+02                                 21913010   46
+ 6.0000E+00 4.0830E+02 2.6720E+02                                 21913010   47
+ 6.1000E+00 9.1270E+02 2.6270E+02                                 21913010   48
+ 6.2000E+00 1.0177E+03 2.5860E+02                                 21913010   49
+ 6.3000E+00 4.6500E+02 2.5450E+02                                 21913010   50
+ 6.4000E+00 1.0798E+03 2.5000E+02                                 21913010   51
+ 6.5000E+00 1.0304E+03 2.4600E+02                                 21913010   52
+ 6.6000E+00 1.0517E+03 2.4200E+02                                 21913010   53
+ 6.7000E+00 9.7080E+02 2.3800E+02                                 21913010   54
+ 6.8000E+00 8.2060E+02 2.3450E+02                                 21913010   55
+ 6.9000E+00 6.9530E+02 2.3100E+02                                 21913010   56
+ 7.0000E+00 4.2920E+02 2.2760E+02                                 21913010   57
+ 7.1000E+00 4.1160E+02 2.2410E+02                                 21913010   58
+ 7.2000E+00 3.2750E+02 2.2070E+02                                 21913010   59
+ 7.3000E+00 3.9670E+02 2.1780E+02                                 21913010   60
+ 7.4000E+00 4.9810E+02 2.1480E+02                                 21913010   61
+ 7.5000E+00 7.5690E+02 2.1150E+02                                 21913010   62
+ 7.6000E+00 4.9470E+02 2.0870E+02                                 21913010   63
+ 7.7000E+00 8.7160E+02 2.0580E+02                                 21913010   64
+ 7.8000E+00 7.8810E+02 2.0300E+02                                 21913010   65
+ 7.9000E+00 6.1530E+02 2.0030E+02                                 21913010   66
+ 8.0000E+00 8.1810E+02 1.9750E+02                                 21913010   67
+ 8.1000E+00 5.3820E+02 1.9520E+02                                 21913010   68
+ 8.2000E+00 3.6420E+02 1.9280E+02                                 21913010   69
+ 8.3000E+00 9.2570E+02 1.9050E+02                                 21913010   70
+ 8.4000E+00 1.0236E+03 1.8820E+02                                 21913010   71
+ 8.5000E+00 1.0172E+03 1.8590E+02                                 21913010   72
+ 8.6000E+00 1.0764E+03 1.8360E+02                                 21913010   73
+ 8.7000E+00 1.1655E+03 1.8130E+02                                 21913010   74
+ 8.8000E+00 7.7320E+02 1.7900E+02                                 21913010   75
+ 8.9000E+00 7.7880E+02 1.7680E+02                                 21913010   76
+ 9.0000E+00 9.7020E+02 1.7450E+02                                 21913010   77
+ 9.1000E+00 9.6300E+02 1.7260E+02                                 21913010   78
+ 9.2000E+00 5.9050E+02 1.7080E+02                                 21913010   79
+ 9.3000E+00 5.3110E+02 1.6850E+02                                 21913010   80
+ 9.4000E+00 7.0110E+02 1.6670E+02                                 21913010   81
+ 9.5000E+00 6.8630E+02 1.6480E+02                                 21913010   82
+ 9.6000E+00 8.1850E+02 1.6300E+02                                 21913010   83
+ 9.7000E+00 6.5010E+02 1.6110E+02                                 21913010   84
+ 9.8000E+00 6.3260E+02 1.5930E+02                                 21913010   85
+ 9.9000E+00 5.4960E+02 1.5780E+02                                 21913010   86
+ 1.0000E+01 5.6070E+02 1.5600E+02                                 21913010   87
+ 1.0100E+01 4.0990E+02 1.5420E+02                                 21913010   88
+ 1.0200E+01 4.1770E+02 1.5270E+02                                 21913010   89
+ 1.0300E+01 3.8810E+02 1.5130E+02                                 21913010   90
+ 1.0400E+01 3.4430E+02 1.4950E+02                                 21913010   91
+ 1.0500E+01 5.8320E+02 1.4770E+02                                 21913010   92
+ 1.0600E+01 5.2300E+02 1.4620E+02                                 21913010   93
+ 1.0700E+01 1.7650E+02 1.4480E+02                                 21913010   94
+ 1.0800E+01 7.2930E+02 1.4340E+02                                 21913010   95
+ 1.0900E+01 6.4350E+02 1.4200E+02                                 21913010   96
+ 1.1000E+01 5.8740E+02 1.4060E+02                                 21913010   97
+ 1.1100E+01 5.4830E+02 1.3910E+02                                 21913010   98
+ 1.1200E+01 4.0740E+02 1.3770E+02                                 21913010   99
+ 1.1300E+01 4.7440E+02 1.3630E+02                                 21913010  100
+ 1.1400E+01 7.8280E+02 1.3490E+02                                 21913010  101
+ 1.1500E+01 7.0240E+02 1.3350E+02                                 21913010  102
+ 1.1600E+01 5.5030E+02 1.3210E+02                                 21913010  103
+ 1.1700E+01 6.2320E+02 1.3070E+02                                 21913010  104
+ 1.1800E+01 7.8110E+02 1.2930E+02                                 21913010  105
+ 1.1900E+01 7.6750E+02 1.2790E+02                                 21913010  106
+ 1.2000E+01 7.3090E+02 1.2680E+02                                 21913010  107
+ 1.2100E+01 6.7900E+02 1.2570E+02                                 21913010  108
+ 1.2200E+01 6.1870E+02 1.2430E+02                                 21913010  109
+ 1.2300E+01 6.7110E+02 1.2290E+02                                 21913010  110
+ 1.2400E+01 7.0150E+02 1.2180E+02                                 21913010  111
+ 1.2500E+01 4.9680E+02 1.2070E+02                                 21913010  112
+ 1.2600E+01 5.9130E+02 1.1930E+02                                 21913010  113
+ 1.2700E+01 6.7920E+02 1.1820E+02                                 21913010  114
+ 1.2800E+01 5.5240E+02 1.1720E+02                                 21913010  115
+ 1.2900E+01 6.1710E+02 1.1570E+02                                 21913010  116
+ 1.3000E+01 7.0000E+02 1.1460E+02                                 21913010  117
+ 1.3100E+01 7.9920E+02 1.1350E+02                                 21913010  118
+ 1.3200E+01 5.9870E+02 1.1250E+02                                 21913010  119
+ 1.3300E+01 3.9500E+02 1.1140E+02                                 21913010  120
+ 1.3400E+01 5.1520E+02 1.1030E+02                                 21913010  121
+ 1.3500E+01 3.9820E+02 1.0920E+02                                 21913010  122
+ 1.3600E+01 1.8960E+02 1.0810E+02                                 21913010  123
+ 1.3700E+01 6.3100E+02 1.0700E+02                                 21913010  124
+ 1.3800E+01 3.3330E+02 1.0590E+02                                 21913010  125
+ 1.3900E+01 4.3020E+02 1.0470E+02                                 21913010  126
+ 1.4000E+01 3.9430E+02 1.0360E+02                                 21913010  127
+ 1.4100E+01 4.3120E+02 1.0290E+02                                 21913010  128
+ 1.4200E+01 4.1420E+02 1.0180E+02                                 21913010  129
+ 1.4300E+01 5.5940E+02 1.0060E+02                                 21913010  130
+ 1.4400E+01 4.3970E+02 9.9900E+01                                 21913010  131
+ 1.4500E+01 3.8260E+02 9.8800E+01                                 21913010  132
+ 1.4600E+01 4.1000E+02 9.7700E+01                                 21913010  133
+ 1.4700E+01 3.1650E+02 9.6900E+01                                 21913010  134
+ 1.4800E+01 3.8700E+02 9.5800E+01                                 21913010  135
+ 1.4900E+01 5.2930E+02 9.4600E+01                                 21913010  136
+ 1.5000E+01 3.9800E+02 9.3900E+01                                 21913010  137
+ 1.5100E+01 2.8060E+02 9.2800E+01                                 21913010  138
+ 1.5200E+01 3.9780E+02 9.1600E+01                                 21913010  139
+ 1.5300E+01 3.6130E+02 9.0900E+01                                 21913010  140
+ 1.5400E+01 4.2200E+02 9.0100E+01                                 21913010  141
+ 1.5500E+01 1.7980E+02 8.9300E+01                                 21913010  142
+ 1.5600E+01 3.9060E+02 8.8200E+01                                 21913010  143
+ 1.5700E+01 2.7170E+02 8.7100E+01                                 21913010  144
+ 1.5800E+01 1.9660E+02 8.6300E+01                                 21913010  145
+ 1.5900E+01 4.7420E+02 8.5500E+01                                 21913010  146
+ 1.6000E+01 3.1140E+02 8.4800E+01                                 21913010  147
+ 1.6100E+01 4.2430E+02 8.3600E+01                                 21913010  148
+ 1.6200E+01 3.9250E+02 8.2500E+01                                 21913010  149
+ 1.6300E+01 3.7360E+02 8.1700E+01                                 21913010  150
+ 1.6400E+01 4.4570E+02 8.1000E+01                                 21913010  151
+ 1.6500E+01 5.1630E+02 8.0200E+01                                 21913010  152
+ 1.6600E+01 4.1960E+02 7.9400E+01                                 21913010  153
+ 1.6700E+01 3.3350E+02 7.8700E+01                                 21913010  154
+ 1.6800E+01 3.5920E+02 7.7900E+01                                 21913010  155
+ 1.6900E+01 4.0640E+02 7.7200E+01                                 21913010  156
+ 1.7000E+01 3.7090E+02 7.6400E+01                                 21913010  157
+ 1.7100E+01 4.0070E+02 7.5600E+01                                 21913010  158
+ 1.7200E+01 3.3460E+02 7.4900E+01                                 21913010  159
+ 1.7300E+01 3.6310E+02 7.3700E+01                                 21913010  160
+ 1.7400E+01 3.0820E+02 7.2600E+01                                 21913010  161
+ 1.7500E+01 4.2220E+02 7.1800E+01                                 21913010  162
+ 1.7600E+01 4.2500E+02 7.1100E+01                                 21913010  163
+ 1.7700E+01 4.9920E+02 7.0300E+01                                 21913010  164
+ 1.7800E+01 2.5490E+02 6.9600E+01                                 21913010  165
+ 1.7900E+01 4.8790E+02 6.8800E+01                                 21913010  166
+ 1.8000E+01 4.0590E+02 6.8100E+01                                 21913010  167
+ 1.8100E+01 3.6400E+02 6.7300E+01                                 21913010  168
+ 1.8300E+01 3.0960E+02 6.6600E+01                                 21913010  169
+ 1.8400E+01 2.5980E+02 6.5800E+01                                 21913010  170
+ 1.8500E+01 1.7450E+02 6.5100E+01                                 21913010  171
+ 1.8600E+01 2.4230E+02 6.4300E+01                                 21913010  172
+ 1.8700E+01 3.3560E+02 6.3600E+01                                 21913010  173
+ 1.8800E+01 2.0620E+02 6.2800E+01                                 21913010  174
+ 1.8900E+01 2.3230E+02 6.2100E+01                                 21913010  175
+ 1.9000E+01 3.0050E+02 6.1300E+01                                 21913010  176
+ 1.9100E+01 4.1300E+02 6.0600E+01                                 21913010  177
+ 1.9200E+01 3.8350E+02 5.9800E+01                                 21913010  178
+ 1.9300E+01 3.4670E+02 5.9100E+01                                 21913010  179
+ 1.9500E+01 4.0940E+02 5.8400E+01                                 21913010  180
+ 1.9600E+01 3.5350E+02 5.7600E+01                                 21913010  181
+ 1.9700E+01 3.5900E+02 5.6900E+01                                 21913010  182
+ 1.9800E+01 4.1290E+02 5.6200E+01                                 21913010  183
+ 1.9900E+01 3.8300E+02 5.5500E+01                                 21913010  184
+ 2.0000E+01 3.4780E+02 5.4700E+01                                 21913010  185
+ 2.0200E+01 3.8690E+02 5.4000E+01                                 21913010  186
+ 2.0300E+01 3.5450E+02 5.3300E+01                                 21913010  187
+ 2.0400E+01 3.6750E+02 5.2600E+01                                 21913010  188
+ 2.0500E+01 3.2270E+02 5.1900E+01                                 21913010  189
+ 2.0700E+01 3.7180E+02 5.1200E+01                                 21913010  190
+ 2.0800E+01 3.4130E+02 5.0500E+01                                 21913010  191
+ 2.0900E+01 3.3010E+02 4.9800E+01                                 21913010  192
+ 2.1000E+01 3.3960E+02 4.9100E+01                                 21913010  193
+ 2.1200E+01 3.5500E+02 4.8400E+01                                 21913010  194
+ 2.1300E+01 3.4840E+02 4.7700E+01                                 21913010  195
+ 2.1400E+01 3.6850E+02 4.7000E+01                                 21913010  196
+ 2.1600E+01 3.6380E+02 4.6300E+01                                 21913010  197
+ 2.1700E+01 2.3690E+02 4.5700E+01                                 21913010  198
+ 2.1800E+01 2.5110E+02 4.5000E+01                                 21913010  199
+ 2.2000E+01 2.8140E+02 4.4300E+01                                 21913010  200
+ 2.2100E+01 2.8470E+02 4.3600E+01                                 21913010  201
+ 2.2200E+01 2.4130E+02 4.3000E+01                                 21913010  202
+ 2.2400E+01 2.4250E+02 4.2300E+01                                 21913010  203
+ 2.2500E+01 3.2230E+02 4.1700E+01                                 21913010  204
+ 2.2700E+01 3.5440E+02 4.1000E+01                                 21913010  205
+ 2.2800E+01 3.2140E+02 4.0400E+01                                 21913010  206
+ 2.3000E+01 4.0250E+02 3.9800E+01                                 21913010  207
+ 2.3100E+01 4.4920E+02 3.9100E+01                                 21913010  208
+ 2.3300E+01 3.8990E+02 3.8500E+01                                 21913010  209
+ 2.3400E+01 3.2950E+02 3.7900E+01                                 21913010  210
+ 2.3600E+01 3.7860E+02 3.7300E+01                                 21913010  211
+ 2.3700E+01 3.1370E+02 3.6700E+01                                 21913010  212
+ 2.3900E+01 3.2090E+02 3.6100E+01                                 21913010  213
+ 2.4000E+01 3.4270E+02 3.5500E+01                                 21913010  214
+ 2.4200E+01 2.8470E+02 3.4900E+01                                 21913010  215
+ 2.4300E+01 3.7810E+02 3.4300E+01                                 21913010  216
+ 2.4500E+01 3.4430E+02 3.3700E+01                                 21913010  217
+ 2.4700E+01 3.5500E+02 3.3100E+01                                 21913010  218
+ 2.4800E+01 3.3180E+02 3.2600E+01                                 21913010  219
+ 2.5000E+01 3.6190E+02 3.2000E+01                                 21913010  220
+ 2.5200E+01 3.2160E+02 3.1500E+01                                 21913010  221
+ 2.5300E+01 3.5050E+02 3.0900E+01                                 21913010  222
+ 2.5500E+01 3.4760E+02 3.0400E+01                                 21913010  223
+ 2.5700E+01 3.5230E+02 2.9900E+01                                 21913010  224
+ 2.5800E+01 3.0530E+02 2.9300E+01                                 21913010  225
+ 2.6000E+01 2.6780E+02 2.8800E+01                                 21913010  226
+ 2.6200E+01 3.0820E+02 2.8300E+01                                 21913010  227
+ 2.6400E+01 3.2460E+02 2.7800E+01                                 21913010  228
+ 2.6600E+01 3.2290E+02 2.7300E+01                                 21913010  229
+ 2.6700E+01 3.0360E+02 2.6800E+01                                 21913010  230
+ 2.6900E+01 2.8200E+02 2.6300E+01                                 21913010  231
+ 2.7100E+01 2.7370E+02 2.5900E+01                                 21913010  232
+ 2.7300E+01 2.5260E+02 2.5400E+01                                 21913010  233
+ 2.7500E+01 2.5130E+02 2.4900E+01                                 21913010  234
+ 2.7700E+01 2.0110E+02 2.4500E+01                                 21913010  235
+ 2.7900E+01 2.2340E+02 2.4000E+01                                 21913010  236
+ 2.8100E+01 2.7380E+02 2.3600E+01                                 21913010  237
+ 2.8300E+01 2.6310E+02 2.3200E+01                                 21913010  238
+ 2.8500E+01 2.4500E+02 2.2800E+01                                 21913010  239
+ 2.8700E+01 2.5120E+02 2.2300E+01                                 21913010  240
+ 2.8900E+01 2.8790E+02 2.1900E+01                                 21913010  241
+ 2.9100E+01 2.6460E+02 2.1500E+01                                 21913010  242
+ 2.9300E+01 2.8680E+02 2.1200E+01                                 21913010  243
+ 2.9500E+01 2.7770E+02 2.0800E+01                                 21913010  244
+ 2.9800E+01 2.4580E+02 2.0400E+01                                 21913010  245
+ 3.0000E+01 2.4410E+02 2.0000E+01                                 21913010  246
+ 3.0200E+01 2.3700E+02 1.9700E+01                                 21913010  247
+ 3.0400E+01 2.7780E+02 1.9300E+01                                 21913010  248
+ 3.0600E+01 2.6940E+02 1.9000E+01                                 21913010  249
+ 3.0900E+01 2.3830E+02 1.8700E+01                                 21913010  250
+ 3.1100E+01 2.7670E+02 1.8300E+01                                 21913010  251
+ 3.1300E+01 2.3150E+02 1.8000E+01                                 21913010  252
+ 3.1600E+01 2.5080E+02 1.7700E+01                                 21913010  253
+ 3.1800E+01 2.7790E+02 1.7400E+01                                 21913010  254
+ 3.2100E+01 2.5600E+02 1.7100E+01                                 21913010  255
+ 3.2300E+01 2.6590E+02 1.6900E+01                                 21913010  256
+ 3.2600E+01 2.6360E+02 1.6600E+01                                 21913010  257
+ 3.2800E+01 2.3450E+02 1.6300E+01                                 21913010  258
+ 3.3100E+01 2.3020E+02 1.6100E+01                                 21913010  259
+ 3.3300E+01 2.7930E+02 1.5800E+01                                 21913010  260
+ 3.3600E+01 2.4620E+02 1.5600E+01                                 21913010  261
+ 3.3800E+01 2.6240E+02 1.5400E+01                                 21913010  262
+ 3.4100E+01 2.1730E+02 1.5200E+01                                 21913010  263
+ 3.4400E+01 2.5870E+02 1.5000E+01                                 21913010  264
+ 3.4700E+01 2.2840E+02 1.4800E+01                                 21913010  265
+ 3.4900E+01 2.4800E+02 1.4600E+01                                 21913010  266
+ 3.5200E+01 1.5680E+02 1.4400E+01                                 21913010  267
+ 3.5500E+01 2.0770E+02 1.4200E+01                                 21913010  268
+ 3.5800E+01 2.2300E+02 1.4100E+01                                 21913010  269
+ 3.6100E+01 2.3990E+02 1.3900E+01                                 21913010  270
+ 3.6400E+01 2.2270E+02 1.3800E+01                                 21913010  271
+ 3.6700E+01 2.0320E+02 1.3600E+01                                 21913010  272
+ 3.7000E+01 2.2460E+02 1.3500E+01                                 21913010  273
+ 3.7300E+01 2.3530E+02 1.3400E+01                                 21913010  274
+ 3.7600E+01 2.1330E+02 1.3300E+01                                 21913010  275
+ 3.7900E+01 2.0770E+02 1.3200E+01                                 21913010  276
+ 3.8200E+01 2.1170E+02 1.3200E+01                                 21913010  277
+ 3.8500E+01 1.9180E+02 1.3100E+01                                 21913010  278
+ 3.8900E+01 2.0850E+02 1.3100E+01                                 21913010  279
+ 3.9200E+01 2.1230E+02 1.3000E+01                                 21913010  280
+ 3.9500E+01 2.2580E+02 1.3000E+01                                 21913010  281
+ 3.9900E+01 1.8480E+02 1.3000E+01                                 21913010  282
+ 4.0200E+01 1.7110E+02 1.3000E+01                                 21913010  283
+ 4.0600E+01 1.7970E+02 1.2900E+01                                 21913010  284
+ 4.0900E+01 1.8920E+02 1.2900E+01                                 21913010  285
+ 4.1300E+01 2.0280E+02 1.2800E+01                                 21913010  286
+ 4.1600E+01 1.9450E+02 1.2700E+01                                 21913010  287
+ 4.2000E+01 1.9410E+02 1.2700E+01                                 21913010  288
+ 4.2400E+01 1.9950E+02 1.2600E+01                                 21913010  289
+ 4.2700E+01 1.8740E+02 1.2500E+01                                 21913010  290
+ 4.3100E+01 1.8400E+02 1.2400E+01                                 21913010  291
+ 4.3500E+01 1.8810E+02 1.2300E+01                                 21913010  292
+ 4.3900E+01 1.7920E+02 1.2300E+01                                 21913010  293
+ 4.4300E+01 1.5510E+02 1.2200E+01                                 21913010  294
+ 4.4700E+01 1.7920E+02 1.2100E+01                                 21913010  295
+ 4.5100E+01 1.7300E+02 1.2000E+01                                 21913010  296
+ 4.5500E+01 1.7460E+02 1.1900E+01                                 21913010  297
+ 4.5900E+01 1.7810E+02 1.1800E+01                                 21913010  298
+ 4.6400E+01 1.9500E+02 1.1700E+01                                 21913010  299
+ 4.6800E+01 1.8920E+02 1.1600E+01                                 21913010  300
+ 4.7200E+01 2.0120E+02 1.1600E+01                                 21913010  301
+ 4.7700E+01 2.0590E+02 1.1500E+01                                 21913010  302
+ 4.8100E+01 1.7320E+02 1.1400E+01                                 21913010  303
+ 4.8600E+01 1.6620E+02 1.1300E+01                                 21913010  304
+ 4.9000E+01 1.7500E+02 1.1200E+01                                 21913010  305
+ 4.9500E+01 1.9430E+02 1.1100E+01                                 21913010  306
+ 5.0000E+01 1.9150E+02 1.1000E+01                                 21913010  307
+ 5.0400E+01 1.6300E+02 1.0900E+01                                 21913010  308
+ 5.0900E+01 1.8870E+02 1.0800E+01                                 21913010  309
+ 5.1400E+01 1.7730E+02 1.0700E+01                                 21913010  310
+ 5.1900E+01 1.5280E+02 1.0700E+01                                 21913010  311
+ 5.2400E+01 1.6750E+02 1.0600E+01                                 21913010  312
+ 5.2900E+01 1.4780E+02 1.0500E+01                                 21913010  313
+ 5.3500E+01 1.6380E+02 1.0400E+01                                 21913010  314
+ 5.4000E+01 1.8340E+02 1.0300E+01                                 21913010  315
+ 5.4500E+01 1.8430E+02 1.0200E+01                                 21913010  316
+ 5.5100E+01 1.7210E+02 1.0100E+01                                 21913010  317
+ 5.5600E+01 1.7050E+02 1.0000E+01                                 21913010  318
+ 5.6200E+01 1.7090E+02 1.0000E+01                                 21913010  319
+ 5.6700E+01 1.8320E+02 9.9000E+00                                 21913010  320
+ 5.7300E+01 1.8470E+02 9.8000E+00                                 21913010  321
+ 5.7900E+01 1.7960E+02 9.7000E+00                                 21913010  322
+ 5.8500E+01 1.8760E+02 9.6000E+00                                 21913010  323
+ 5.9100E+01 1.7670E+02 9.5000E+00                                 21913010  324
+ 5.9700E+01 1.5090E+02 9.4000E+00                                 21913010  325
+ 6.0300E+01 1.4480E+02 9.4000E+00                                 21913010  326
+ 6.1000E+01 1.6000E+02 9.3000E+00                                 21913010  327
+ 6.1600E+01 1.3610E+02 9.2000E+00                                 21913010  328
+ 6.2300E+01 1.5680E+02 9.1000E+00                                 21913010  329
+ 6.2900E+01 1.4550E+02 9.0000E+00                                 21913010  330
+ 6.3600E+01 1.4450E+02 8.9000E+00                                 21913010  331
+ 6.4300E+01 1.3770E+02 8.8000E+00                                 21913010  332
+ 6.5000E+01 1.4780E+02 8.7000E+00                                 21913010  333
+ 6.5700E+01 1.4540E+02 8.6000E+00                                 21913010  334
+ 6.6400E+01 1.2770E+02 8.5000E+00                                 21913010  335
+ 6.7100E+01 1.4080E+02 8.5000E+00                                 21913010  336
+ 6.7900E+01 1.3020E+02 8.4000E+00                                 21913010  337
+ 6.8600E+01 1.3500E+02 8.3000E+00                                 21913010  338
+ 6.9400E+01 1.3370E+02 8.2000E+00                                 21913010  339
+ 7.0200E+01 1.2160E+02 8.1000E+00                                 21913010  340
+ 7.0900E+01 1.1630E+02 8.0000E+00                                 21913010  341
+ 7.1800E+01 1.2120E+02 7.9000E+00                                 21913010  342
+ 7.2600E+01 1.3270E+02 7.8000E+00                                 21913010  343
+ 7.3400E+01 1.4180E+02 7.7000E+00                                 21913010  344
+ 7.4200E+01 1.3450E+02 7.6000E+00                                 21913010  345
+ 7.5100E+01 1.2350E+02 7.5000E+00                                 21913010  346
+ 7.6000E+01 1.3280E+02 7.4000E+00                                 21913010  347
+ 7.6900E+01 1.2810E+02 7.3000E+00                                 21913010  348
+ 7.7800E+01 1.2090E+02 7.2000E+00                                 21913010  349
+ 7.8700E+01 1.1850E+02 7.0000E+00                                 21913010  350
+ 7.9600E+01 1.2480E+02 6.9000E+00                                 21913010  351
+ 8.0600E+01 1.0880E+02 6.8000E+00                                 21913010  352
+ 8.1600E+01 1.1580E+02 6.7000E+00                                 21913010  353
+ 8.2600E+01 1.2960E+02 6.6000E+00                                 21913010  354
+ 8.3600E+01 1.3010E+02 6.5000E+00                                 21913010  355
+ 8.4600E+01 1.1780E+02 6.4000E+00                                 21913010  356
+ 8.5600E+01 1.1150E+02 6.3000E+00                                 21913010  357
+ 8.6700E+01 1.1270E+02 6.2000E+00                                 21913010  358
+ 8.7800E+01 1.0900E+02 6.1000E+00                                 21913010  359
+ 8.8900E+01 1.1340E+02 6.0000E+00                                 21913010  360
+ 9.0000E+01 1.1430E+02 5.9000E+00                                 21913010  361
+ 9.1200E+01 1.2020E+02 5.8000E+00                                 21913010  362
+ 9.2300E+01 1.1390E+02 5.7000E+00                                 21913010  363
+ 9.3500E+01 1.0570E+02 5.6000E+00                                 21913010  364
+ 9.4700E+01 1.0130E+02 5.5000E+00                                 21913010  365
+ 9.6000E+01 1.1080E+02 5.4000E+00                                 21913010  366
+ 9.7300E+01 1.1730E+02 5.3000E+00                                 21913010  367
+ 9.8500E+01 1.0790E+02 5.2000E+00                                 21913010  368
+ 9.9900E+01 1.1720E+02 5.1000E+00                                 21913010  369
+ 1.0120E+02 9.7900E+01 5.0000E+00                                 21913010  370
+ 1.0260E+02 9.3900E+01 4.9000E+00                                 21913010  371
+ 1.0400E+02 1.0360E+02 4.9000E+00                                 21913010  372
+ 1.0540E+02 9.6800E+01 4.8000E+00                                 21913010  373
+ 1.0690E+02 9.1100E+01 4.7000E+00                                 21913010  374
+ 1.0830E+02 9.0500E+01 4.6000E+00                                 21913010  375
+ 1.0990E+02 8.2300E+01 4.6000E+00                                 21913010  376
+ 1.1140E+02 9.6900E+01 4.5000E+00                                 21913010  377
+ 1.1300E+02 9.8800E+01 4.5000E+00                                 21913010  378
+ 1.1460E+02 1.0840E+02 4.4000E+00                                 21913010  379
+ 1.1630E+02 1.0300E+02 4.4000E+00                                 21913010  380
+ 1.1800E+02 9.8000E+01 4.3000E+00                                 21913010  381
+ 1.1970E+02 1.0110E+02 4.3000E+00                                 21913010  382
+ 1.2140E+02 9.0400E+01 4.2000E+00                                 21913010  383
+ 1.2320E+02 9.0300E+01 4.2000E+00                                 21913010  384
+ 1.2510E+02 9.1000E+01 4.2000E+00                                 21913010  385
+ 1.2700E+02 9.2300E+01 4.2000E+00                                 21913010  386
+ 1.2890E+02 9.3100E+01 4.2000E+00                                 21913010  387
+ 1.3090E+02 8.6700E+01 4.2000E+00                                 21913010  388
+ 1.3290E+02 8.3500E+01 4.2000E+00                                 21913010  389
+ 1.3500E+02 8.5300E+01 4.2000E+00                                 21913010  390
+ 1.3710E+02 8.4700E+01 4.2000E+00                                 21913010  391
+ 1.3920E+02 8.9600E+01 4.2000E+00                                 21913010  392
+ 1.4150E+02 8.9600E+01 4.3000E+00                                 21913010  393
+ 1.4370E+02 8.3000E+01 4.3000E+00                                 21913010  394
+ 1.4600E+02 8.6400E+01 4.4000E+00                                 21913010  395
+ 1.4840E+02 8.0600E+01 4.5000E+00                                 21913010  396
+ 1.5090E+02 8.8400E+01 4.5000E+00                                 21913010  397
+ 1.5340E+02 8.0500E+01 4.6000E+00                                 21913010  398
+ 1.5590E+02 7.8000E+01 4.7000E+00                                 21913010  399
+ 1.5860E+02 7.7800E+01 4.8000E+00                                 21913010  400
+ 1.6130E+02 7.9100E+01 4.9000E+00                                 21913010  401
+ 1.6400E+02 7.4400E+01 5.1000E+00                                 21913010  402
+ 1.6690E+02 7.8600E+01 5.2000E+00                                 21913010  403
+ 1.6980E+02 6.8300E+01 5.4000E+00                                 21913010  404
+ 1.7280E+02 7.7300E+01 5.5000E+00                                 21913010  405
+ 1.7580E+02 7.1700E+01 5.7000E+00                                 21913010  406
+ 1.7900E+02 6.7300E+01 5.9000E+00                                 21913010  407
+ 1.8220E+02 6.7100E+01 6.1000E+00                                 21913010  408
+ 1.8550E+02 6.3900E+01 6.3000E+00                                 21913010  409
+ 1.8890E+02 6.8700E+01 6.4000E+00                                 21913010  410
+ 1.9250E+02 6.8700E+01 6.6000E+00                                 21913010  411
+ 1.9610E+02 6.8000E+01 6.8000E+00                                 21913010  412
+ 1.9980E+02 7.0600E+01 6.9000E+00                                 21913010  413
+ 2.0360E+02 6.3900E+01 7.0000E+00                                 21913010  414
+ 2.0750E+02 6.4800E+01 7.0000E+00                                 21913010  415
+ 2.1160E+02 6.3200E+01 7.0000E+00                                 21913010  416
+ 2.1570E+02 6.8100E+01 7.0000E+00                                 21913010  417
+ 2.2000E+02 5.7900E+01 6.8000E+00                                 21913010  418
+ 2.2440E+02 5.5300E+01 6.6000E+00                                 21913010  419
+ 2.2900E+02 5.9000E+01 6.3000E+00                                 21913010  420
+ 2.3370E+02 5.6400E+01 5.9000E+00                                 21913010  421
+ 2.3850E+02 6.1400E+01 5.4000E+00                                 21913010  422
+ 2.4350E+02 5.9500E+01 4.8000E+00                                 21913010  423
+ENDDATA            414                                            21913010  424
+ENDSUBENT          423                                            2191301099999
+SUBENT        21913011     840710                                 21913011    1
+BIB                  3          4                                 21913011    2
+REACTION   (36-KR-83(N,G)36-KR-84,,SIG,,MXW)                      21913011    3
+STATUS      MAIN REFERENCE TABLE 3                                21913011    4
+HISTORY    (840605C)                                              21913011    5
+           (840710E)                                              21913011    6
+ENDBIB               4                                            21913011    7
+NOCOMMON             0          0                                 21913011    8
+DATA                 3          7                                 21913011    9
+KT         DATA       DATA-ERR                                    21913011   10
+KEV        MB         MB                                          21913011   11
+ 2.0000E+01 3.3400E+02 2.0000E+01                                 21913011   12
+ 2.5000E+01 2.8700E+02 1.7000E+01                                 21913011   13
+ 3.0000E+01 2.5000E+02 1.5000E+01                                 21913011   14
+ 3.5000E+01 2.2800E+02 1.4000E+01                                 21913011   15
+ 4.0000E+01 2.0900E+02 1.2000E+01                                 21913011   16
+ 4.5000E+01 1.9400E+02 1.1000E+01                                 21913011   17
+ 5.0000E+01 1.8200E+02 1.1000E+01                                 21913011   18
+ENDDATA              9                                            21913011   19
+ENDSUBENT           18                                            2191301199999
+ENDENTRY             3                                            2191399999999
+ENDREQUEST           1                                            Z999999999999

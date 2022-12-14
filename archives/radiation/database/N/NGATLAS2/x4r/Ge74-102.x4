@@ -1,0 +1,218 @@
+REQUEST           1001   20010914          3     140832               0  0    0
+ENTRY            11823     830919                                 11823000    1
+SUBENT        11823001     830919                                 11823001    1
+BIB                  7          9                                 11823001    2
+INSTITUTE  (1USABNL)                                              11823001    3
+REFERENCE  (J,PR,108,766,57)                                      11823001    4
+AUTHOR     (E.DER MATEOSIAN,M.GOLDHABER)                          11823001    5
+TITLE      THERMAL-NEUTRON ACTIVATION CROSS SECTIONS OF GE AND THE11823001    6
+           ISOMERIC RATIO RULE.                                   11823001    7
+METHOD     (ACTIV)                                                11823001    8
+STATUS     (SCSRS)                                                11823001    9
+HISTORY    (760731T) TRANSLATED FROM SCISRS                       11823001   10
+           (830919A) CONVERTED TO REACTION FORMALISM              11823001   11
+ENDBIB               9                                            11823001   12
+NOCOMMON             0          0                                 11823001   13
+ENDSUBENT           12                                            1182300199999
+SUBENT        11823003     830919                                 11823003    1
+BIB                  5          6                                 11823003    2
+REACTION   (32-GE-74(N,G)32-GE-75-G,,SIG,,MXW)                    11823003    3
+MONITOR    (13-AL-27(N,G)13-AL-28,,SIG)                           11823003    4
+            BASED ON ALUMINUM CAPTURE.                            11823003    5
+INC-SPECT   THERMAL SPECTRUM                                      11823003    6
+DECAY-DATA (32-GE-75-G,81.MIN,B)                                  11823003    7
+DECAY-MON  (11-NA-24,15.HR,B)                                     11823003    8
+ENDBIB               6                                            11823003    9
+NOCOMMON             0          0                                 11823003   10
+DATA                 3          1                                 11823003   11
+EN-DUMMY   DATA       DATA-ERR                                    11823003   12
+MEV        B          B                                           11823003   13
+ 2.53   -08 0.180      0.04                                       11823003   14
+ENDDATA              3                                            11823003   15
+ENDSUBENT           14                                            1182300399999
+ENDENTRY             2                                            1182399999999
+ENTRY            30023     850219                                 30023000    1
+SUBENT        30023001     850219                                 30023001    1
+BIB                 12         23                                 30023001    2
+INSTITUTE  (3HUNDEB)                                              30023001    3
+REFERENCE  (J,AHP,28,257,7001) EXPERIMENT AND RESULTS, DATA       30023001    4
+AUTHOR     (M.DIKSIC, P.STROHAL, G.PETO, P.BORNEMISZA-PAUSPERTL,  30023001    5
+           I.HUNYADI, J.KAROLYI)                                  30023001    6
+TITLE      ADDITIONAL MEASUREMENTS OF THE RADIATIVE CAPTURE CROSS 30023001    7
+           SECTIONS FOR 3 MEV NEUTRONS.                           30023001    8
+INC-SOURCE (D-D) D(D,N) REACTION                                  30023001    9
+SAMPLE     SAMPLES IN PURE OR COMPOUND FORM WERE MOUNTED IN THIN  30023001   10
+           POLYETHYLENE FOILS AND IRRADIATED TOGETHER WITH MONITOR30023001   11
+           MATERIALS                                              30023001   12
+METHOD     (ACTIV) ACTIVATION                                     30023001   13
+DETECTOR   (GEMUC,NAICR) GEIGER-MULLER FOR BETA ACTIVITIES AND    30023001   14
+           NAI(TL) CRYSTAL SPECTROMETER FOR GAMMAS.               30023001   15
+STATUS            DATA FROM ACTA PHYSICA HUNGARICAE 28,257,1/70   30023001   16
+           (APRVD) APPROVED BY PETO (5/9/72)                      30023001   17
+HISTORY    (671107R) DATA RECEIVED FROM CSIKAI, PRIV COM          30023001   18
+           (700626T) PREVIOUSLY DASTAR-00740,CHECKED WITH         30023001   19
+                     AHP 28 257 JAN 1970                          30023001   20
+CORRECTION THE BETA COUNTING RATE WAS CORRECTED FOR COUNTING      30023001   21
+           EFFICIENCY, SCATTERING AND ABSORPTION, FOR THE GAMMAS  30023001   22
+           THE PHOTO PEAK EFFICIENCY WAS TAKEN INTO ACCOUNT       30023001   23
+ERR-ANALYS ERRORS INDICATED ARE DUE TO STATISTICS, HALF-LIFE ERROR30023001   24
+           AND ERROR OF STANDARD CROSS-SECTIONS.                  30023001   25
+ENDBIB              23                                            30023001   26
+COMMON               2          3                                 30023001   27
+EN         EN-RSL                                                 30023001   28
+MEV        MEV                                                    30023001   29
+ 3.0000E+00 2.0000E-01                                            30023001   30
+ENDCOMMON            3                                            30023001   31
+ENDSUBENT           30                                            3002300199999
+SUBENT        30023003     840503                                 30023003    1
+BIB                  3          3                                 30023003    2
+REACTION   (32-GE-74(N,G)32-GE-75-G,,SIG)                         30023003    3
+MONITOR    (15-P-31(N,P)14-SI-31,,SIG)                            30023003    4
+PART-DET   (B-) BETA                                              30023003    5
+ENDBIB               3                                            30023003    6
+NOCOMMON             0          0                                 30023003    7
+DATA                 4          1                                 30023003    8
+DATA       DATA-ERR   MONIT      MONIT-ERR                        30023003    9
+MB         MB         MB         MB                               30023003   10
+ 6.8000E+00 5.0000E-01 7.4000E+01 6.0000E+00                      30023003   11
+ENDDATA              3                                            30023003   12
+ENDSUBENT           11                                            3002300399999
+ENDENTRY             2                                            3002399999999
+ENTRY            30079     850219                                 30079000    1
+SUBENT        30079001     850219                                 30079001    1
+BIB                 15         42                                 30079001    2
+INSTITUTE  (3INDMUA)                                              30079001    3
+REFERENCE  (J,PR,152,1055,6612) DATA TABLE,CFD OTHER+STATISTIC TH 30079001    4
+           (J,NP,66,267,65) EXP DETAILS,ERR ANAL,ACTIV,BETA DET   30079001    5
+AUTHOR     (A.K.CHAUBEY, M.L.SEHGAL)                              30079001    6
+TITLE      MEASUREMENT OF NEUTRON CAPTURE CROSS SECTIONS BY       30079001    7
+           ACTIVATION AT 24 KEV AND COMPARISON WITH STATISTICAL   30079001    8
+           THEORY                                                 30079001    9
+EXP-YEAR   (66)                                                   30079001   10
+INC-SOURCE ANTIMONY-BERYLLIUM, 1.7CM DIAM. * 3.3CM HEIGHT,        30079001   11
+           FLUX APPROXIMATELY 10E+7 NEUTRONS/SEC                  30079001   12
+SAMPLE     POWDER,PURITY BETTER THAN 99.9PERCENT,SAMPLE SANDWICHED30079001   13
+           BETWEEN 2 CELLOTAPES, PERSPEX RING FOR FIXED GEOMETRY  30079001   14
+METHOD     (ACTIV) ACTIVATION. BETA ACTIVITY MEASURED             30079001   15
+DETECTOR   (GEMUC)    END WINDOW BETA COUNTER                     30079001   16
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)                           30079001   17
+              I-127(N,GAMMA)I-128 SIGMA = 0.82 BARN               30079001   18
+           ASSUMED                                                30079001   19
+PART-DET   (B-) BETA PARTICLES DETECTED                           30079001   20
+STATUS     DATA FROM PHYS.REV. 152,1055(1966), TABLE 1.           30079001   21
+HISTORY    (691124C) DATA COMPILED INTO DASTAR-1012               30079001   22
+           (691203A) PROOF COPY SENT TO AUTHOR                    30079001   23
+           (701130T) DATA CONVERTED FROM DASTAR INTO EXFOR        30079001   24
+           (761209A) COMMENTS REVISED. HALF-LIVES PUT IN 'COMMON' 30079001   25
+           OR WITH 'RESID-NUC'.             YAG.                  30079001   26
+           (770907U) OS. BIB UPDATE.                              30079001   27
+CORRECTION ABSENCE OF THERMAL NEUTRONS DETERMINED, INFLUENCE OF   30079001   28
+           SCATTERED NEUTRONS OF LOWER THAN 24. KEV ENERGY        30079001   29
+           NEGLIGIBLE DUE TO GEOMETRY, I.E. LARGE ROOM, REMOTE    30079001   30
+           LOCATION OF NEUTRON SOURCE FROM THE FLOOR (=1.3 M)     30079001   31
+           AND NO SHIELDING MATERIAL AROUND THE SOURCE            30079001   32
+ERR-ANALYS (DATA-ERR) GIVEN ERROR CONSISTS OF                     30079001   33
+           1.) 1 PERCENT IN ESTIMATION OF TOTAL NUMBER OF TARGET  30079001   34
+               NUCLEI.                                            30079001   35
+           2.) 2 PERCENT IN MEASUREMENT OF SAMPLE-SOURCE GEOMETRY 30079001   36
+               EFFECT WHICH WILL DEPEND UPON REPRODUCIBILITY OF   30079001   37
+               THE GEOMETRY.                                      30079001   38
+           3.) IRRADIATION TIME MEASURED WITH AN ACCURACY OF      30079001   39
+               BETTER THAN 1 PERCENT.                             30079001   40
+           4.) ABOUT 2 PERCENT ERROR IN MEASUREMENT OF THE CROSS- 30079001   41
+               SECTIONS ESTIMATED TO BE DUE TO THE GAMMA-RAYS     30079001   42
+               DETECTED BY BETA-COUNTER.                          30079001   43
+           5.) STATISTICAL ERROR VARIES FROM ONE CASE TO ANOTHER  30079001   44
+ENDBIB              42                                            30079001   45
+COMMON               1          3                                 30079001   46
+EN                                                                30079001   47
+KEV                                                               30079001   48
+ 2.4000E+01                                                       30079001   49
+ENDCOMMON            3                                            30079001   50
+ENDSUBENT           49                                            3007900199999
+SUBENT        30079009     840503                                 30079009    1
+BIB                  3          8                                 30079009    2
+REACTION   (32-GE-74(N,G)32-GE-75-G,,SIG)                         30079009    3
+ANALYSIS   AUTHORS HAVE CONSIDERED POSSIBLE EFFECTS OF THE        30079009    4
+           ISOMERIC STATE (HALF-LIFE = 48 SEC) IN 32-GE-75.THE    30079009    5
+           TABULATED DATA REPRESENT THE CROSS SECTION FOR         30079009    6
+           POPULATION OF THE GROUND STATE ONLY.                   30079009    7
+COMMENT    BY COMPILER. THE HALF-LIFE VALUES GIVEN BY LEDERER, ET 30079009    8
+           AL.,TABLE OF ISOTOPES,6TH ED., ARE 82 MIN. FOR GROUND  30079009    9
+           AND 48 SEC.FOR METASTABLE STATE.                       30079009   10
+ENDBIB               8                                            30079009   11
+COMMON               1          3                                 30079009   12
+HL                                                                30079009   13
+MIN                                                               30079009   14
+ 7.9000E+01                                                       30079009   15
+ENDCOMMON            3                                            30079009   16
+DATA                 2          1                                 30079009   17
+DATA       DATA-ERR                                               30079009   18
+MB         MB                                                     30079009   19
+ 2.0000E+01 5.0000E+00                                            30079009   20
+ENDDATA              3                                            30079009   21
+ENDSUBENT           20                                            3007900999999
+ENDENTRY             2                                            3007999999999
+ENTRY            30234     930217                                 30234000    1
+SUBENT        30234001     930217                                 30234001    1
+BIB                 18         36                                 30234001    2
+TITLE      ISOMER RATIOS IN (N,GAMMA) REACTIONS AT 25 KEV         30234001    3
+AUTHOR     (A.LAKSHMANA RAO,J.RAMA RAO)                           30234001    4
+INSTITUTE  (3INDAUW)                                              30234001    5
+EXP-YEAR   (72)                                                   30234001    6
+REFERENCE  (J,PR/C,6,572,7208)                                    30234001    7
+SAMPLE     NATURAL ELEMENTS IN METALLIC POWDER OR OXIDE FORM WITH 30234001    8
+           A CHEMICAL PURITY GREATER THAN 99.9 PERCENT            30234001    9
+MONITOR    (53-I-127(N,G)53-I-128,,SIG)                           30234001   10
+MONIT-REF  (21150002,J.C.ROBERTSON,J,NP,71,417,6509)              30234001   11
+INC-SOURCE (PHOTO) ANTIMONY-BERYLLIUM PHOTONEUTRON SOURCE OF      30234001   12
+           STRENGTH 20 CURIES.                                    30234001   13
+METHOD     (ACTIV) ACTIVATION METHOD PLUS ABSOLUTE GAMMA COUNTING.30234001   14
+           SIMULTANEOUSLY WITH THE RECORDING OF THE GAMMA-RAY     30234001   15
+           SPECTRA,THE HALF-LIFE WAS STUDIED IN A SEPARATE CHANNEL30234001   16
+           FOR UNIQUE IDENTIFICATION OF THE REACTION PRODUCT      30234001   17
+DETECTOR   (SCIN) SCINTILLATION SPECTROMETER CONSISTING OF A WELL-30234001   18
+           TYPE NAI(TL) CRYSTAL AND A 100-CHANNEL ANALYZER        30234001   19
+PART-DET   (DG) DECAY GAMMAS                                      30234001   20
+ANALYSIS   CROSS SECTION DETERMINED FROM AREA OF A PROMINENT PEAK 30234001   21
+           FROM THE GAMMA SPECTRUM CHARACTERISTIC OF THE PRODUCT  30234001   22
+           NUCLEUS                                                30234001   23
+CORRECTION EFFECTIVE PHOTOPEAK EFFICIENCY CORRECTED FOR SOURCE    30234001   24
+           ABSORPTION AND CASCADE EFFECTS                         30234001   25
+ERR-ANALYS ERROR GIVEN IS TOTAL ERROR COMPOUNDED OF,              30234001   26
+           STATISTICAL ERROR = 0.5 TO 3 PERCENT                   30234001   27
+           ERROR IN CALCULATION PARAMETERS = LESS THAN 1 PERCENT  30234001   28
+           ERROR IN NEUTRON FLUX = 7 PERCENT                      30234001   29
+           ERRORS IN MEASURED EFFICIENCY VALUES = 6 PERCENT       30234001   30
+           ERROR IN THE DECAY PARAMETERS = LESS THAN 10 PERCENT   30234001   31
+COMMENT    COMPARE RESULTS WITH MODELS OF HUIZENGA-VANDENBOSCH AND30234001   32
+           OF PONITZ. BETTER AGREEMENT WITH THE LATER ONE.        30234001   33
+STATUS     DATA TAKEN FROM PR/C 6 572 8/72                        30234001   34
+HISTORY    (730621C) FM.                                          30234001   35
+           (930114U) HW.-OBSOLETE KEYWORDS/CODES CONVERTED,       30234001   36
+           MONIT-REF GIVEN IN SUBENT OO1, MAJOR ALTERATIONS IN    30234001   37
+           SUBENTS 020 AND 021.-                                  30234001   38
+ENDBIB              36                                            30234001   39
+COMMON               4          3                                 30234001   40
+EN         EN-RSL     MONIT      MONIT-ERR                        30234001   41
+KEV        KEV        MB         MB                               30234001   42
+25.        5.         832.       26.                              30234001   43
+ENDCOMMON            3                                            30234001   44
+ENDSUBENT           43                                            3023400199999
+SUBENT        30234003     930217                                 30234003    1
+BIB                  1          1                                 30234003    2
+REACTION   (32-GE-74(N,G)32-GE-75-G,,SIG)                         30234003    3
+ENDBIB               1                                            30234003    4
+COMMON               1          3                                 30234003    5
+SPIN J                                                            30234003    6
+NO-DIM                                                            30234003    7
+0.5                                                               30234003    8
+ENDCOMMON            3                                            30234003    9
+DATA                 2          1                                 30234003   10
+DATA       DATA-ERR                                               30234003   11
+MB         MB                                                     30234003   12
+40.0       7.5                                                    30234003   13
+ENDDATA              3                                            30234003   14
+ENDSUBENT           13                                            3023400399999
+ENDENTRY             2                                            3023499999999
+ENDREQUEST           1                                            Z999999999999

@@ -1,0 +1,328 @@
+REQUEST           1001   20010914          3     141414               0  0    0
+ENTRY            11507     860715                                 11507000    1
+SUBENT        11507001     860715                                 11507001    1
+BIB                 10         12                                 11507001    2
+INSTITUTE  (1USAORL)                                              11507001    3
+REFERENCE  (J,PR,88,412,52)                                       11507001    4
+AUTHOR     (H.POMERANCE)                                          11507001    5
+TITLE      THERMAL NEUTRON CAPTURE CROSS SECTIONS.                11507001    6
+FACILITY   (OSCIP) PILE OSCILLATOR                                11507001    7
+INC-SPECT  THERMAL SPECTRUM                                       11507001    8
+METHOD     (ACTIV).                                               11507001    9
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)                         11507001   10
+STATUS     (SCSRS)                                                11507001   11
+HISTORY    (760715T) TRANSLATED FROM SCISRS                       11507001   12
+           (821124A) CONVERTED TO REACTION FORMALISM              11507001   13
+           (860715A) ENERGY MOVED TO SUBENTRY 1.                  11507001   14
+ENDBIB              12                                            11507001   15
+COMMON               2          3                                 11507001   16
+EN-DUMMY   MONIT                                                  11507001   17
+EV         B                                                      11507001   18
+ 0.0253     95.                                                   11507001   19
+ENDCOMMON            3                                            11507001   20
+ENDSUBENT           19                                            1150700199999
+SUBENT        11507052     860715                                 11507052    1
+BIB                  1          1                                 11507052    2
+REACTION   (42-MO-96(N,G)42-MO-97,,SIG,,MXW)                      11507052    3
+ENDBIB               1                                            11507052    4
+NOCOMMON             0          0                                 11507052    5
+DATA                 2          1                                 11507052    6
+DATA       DATA-ERR                                               11507052    7
+B          PER-CENT                                               11507052    8
+ 1.2    +00   50.                                                 11507052    9
+ENDDATA              3                                            11507052   10
+ENDSUBENT            9                                            1150705299999
+ENDENTRY             2                                            1150799999999
+ENTRY            30357     930426                                 30357000    1
+SUBENT        30357001     930426                                 30357001    1
+BIB                 16         58                                 30357001    2
+TITLE      AVERAGE NEUTRON RESONANCE PARAMETERS AND RADIATIVE     30357001    3
+           CAPTURE CROSS SECTIONS FOR THE ISOTOPES OF MOLYBDENUM  30357001    4
+AUTHOR     (A.R.DEL.MUSGROVE,B.J.ALLEN,J.W.BOLDEMAN,R.L.MACKLIN)  30357001    5
+INSTITUTE  (1USAORL) LAST AUTHOR'S ADDRESS                        30357001    6
+           (3AULAUA)                                              30357001    7
+REFERENCE  (J,NP/A,270,108,7610)                                  30357001    8
+           (C,78HARWELL,449,7809) AV.SIG.(REVISED)+AV.RES.PAR.ONLY30357001    9
+           (J,NSE,82,(2),230,82) CORRECTION FACTOR (=0.9833) FOR  30357001   10
+            NEUTRON CAPTURE CROSS-SECTION IS GIVEN.               30357001   11
+SAMPLE     ENRICHED METALLIC SAMPLE,                              30357001   12
+                                MO-92    MO-94    MO-95    MO-96  30357001   13
+             ENRICHMENT(PERC.)  97.1     94.0     96.6     96.5   30357001   14
+             THICKNESS(ATOM/B)  0.0056   0.0027   0.0051   0.0053 30357001   15
+                              ----------------------------------- 30357001   16
+                                MO-97    MO-98    MO-100          30357001   17
+             ENRICHMENT(PERC.)  92.8     98.4     96.0            30357001   18
+             THICKNESS(ATOM/B)  0.0044   0.0018   0.0023          30357001   19
+MONITOR    (3-LI-6(N,T)2-HE-4,,SIG) UTTLEY ET AL.,3RD CONF.NEUTRON30357001   20
+            CROSS-SECTION AND TECH.,KNOXVILLE 1971,P.551.         30357001   21
+FACILITY   (LINAC) OAK RIDGE ELECTRON LINEAR ACCELERATOR (ORLEA). 30357001   22
+INC-SOURCE (PHOTO)                                                30357001   23
+METHOD     (TOF) TIME OF FLIGHT, PATH = 40 M.                     30357001   24
+DETECTOR   (SCIN) A PAIR OF FLUOROCARBON (NON-HYDROGENOUS) LIQUID 30357001   25
+           SCINTILLATORS WITH LOW SENSITIVITY TO SCATTERED        30357001   26
+           NEUTRONS AND TYPICALLY 15 PERCENT EFFICIENCY FOR       30357001   27
+           DETECTING A GAMMA-RAY CASCADE.  THE DETECTOR RESPONSE  30357001   28
+           IS PROPORTIONAL ONLY TO THE TOTAL GAMMA RAY ENERGY     30357001   29
+           RELEASE                                                30357001   30
+PART-DET   (G) GAMMAS                                             30357001   31
+ANALYSIS   (AREA) MODIFIED VERSION OF THE ORNL/RPI MONTE CARLO    30357001   32
+           AREA ANALYSIS CODE, J.G.SULLIVAN ET AL.,USAEC REPORT   30357001   33
+           RPI-328-155 (1969).                                    30357001   34
+           .IN ADDITION IN SOME CASES, NEUTRON WIDTHS WERE        30357001   35
+           OBTAINED BY DIRECT SHAPE FITTING OF THE DATA.          30357001   36
+CORRECTION THE ANALYSIS CODE INCLUDES THE CORRECTIONS FOR         30357001   37
+           MULTIPLE-SCATTERING AND SELF-SHIELDING EFFECTS.        30357001   38
+ERR-ANALYS STATISTICAL ERRORS (ABOUT 3 PERC.) ARE USUALLY         30357001   39
+           NEGLIGIBLE IN COMPARISON WITH THE ABSOLUTE NORMALI-    30357001   40
+           SATION ERROR(12 PERC.).                                30357001   41
+           THE ERROR QUOTED FOR RESONANCE ENERGIES ARE ESTIMATED  30357001   42
+           FROM CONSISTENCY CHECK BETWEEN THIS DATA AND ENERGIES  30357001   43
+           REPORTED BY THE GROUP OF COLUMBIA NEVIS CYCLOTRON,     30357001   44
+           PHYS.REV.,166(1968)1234.                               30357001   45
+STATUS     (APRVD) PROOF-COPY WAS APPROVED BY MUSGROVE(LETT. FROM 30357001   46
+            ALLEN,77/02/04) AND CONFIRMED AS FOLLOWS,             30357001   47
+            RES.ENERGY OF 27965 IN TABLE 5 AND                    30357001   48
+            RES.ENERGY OF 3984 IN TABLE6 OF NUCL.PHYS.A270('76)10830357001   49
+            SHOULD BE READ AS 17965 AND 3084, RESPECTIVELY.       30357001   50
+HISTORY    (760929C) KO.                                          30357001   51
+           (770505U) KO.-'APPROVED' ADDED.-                       30357001   52
+           (790523U) KO.-REVISED DATA IN SUBENTRIES.004,.007,.010,30357001   53
+            .013,.016,.019,.022  AND NEWENTRIES .023 TO .027 FROM 30357001   54
+            1978 HARWELL CONF.-                                   30357001   55
+           (790906U) KO. -NEWENTRIES .028,.029 AND .030.-         30357001   56
+           (810320U) STANDARD CODING CORR.-OS                     30357001   57
+           (821122U) DG.-INSERTION OF CORRIGENDUM IN REFERENCE,   30357001   58
+            CONVERSION FROM ISO-QUANT TO REACTION FORMALISM.-     30357001   59
+           (930202U) HW.-SEQUENCE INSTITUTE CODES ALTERED.-       30357001   60
+ENDBIB              58                                            30357001   61
+NOCOMMON                                                          30357001   62
+ENDSUBENT           61                                            3035700199999
+SUBENT        30357013     840530                                 30357013    1
+BIB                  3          7                                 30357013    2
+REACTION   (42-MO-96(N,G)42-MO-97,,SIG,,AV)                       30357013    3
+STATUS     FINAL DATA TAKEN FROM TABLE III OF 1978HARWELL CONF. ON30357013    4
+           NEUTRON PHYSICS AND NUCL.DATA,P.449.                   30357013    5
+           AFTER THE VALUES HAVE BEEN MULTIPLIED BY 0.9833.       30357013    6
+HISTORY    (790523A) KO.-ALTERATION AND ADDITION OF DATA.-        30357013    7
+           (821122A) DG.-THE VALUES HAVE BEEN CORRECTED,          30357013    8
+            CONVERSION FROM ISO-QUANT TO REACTION FORMALISM.-     30357013    9
+ENDBIB               7                                            30357013   10
+NOCOMMON             0          0                                 30357013   11
+DATA                 4         15                                 30357013   12
+EN-MIN     EN-MAX     DATA       DATA-ERR                         30357013   13
+KEV        KEV        MB         MB                               30357013   14
+ 3.0000E+00 4.0000E+00 4.7200E+02 5.9000E+01                      30357013   15
+ 4.0000E+00 5.0000E+00 1.9600E+02 2.5000E+01                      30357013   16
+ 5.0000E+00 6.0000E+00 3.1000E+02 3.9000E+01                      30357013   17
+ 6.0000E+00 8.0000E+00 3.0000E+02 3.9000E+01                      30357013   18
+ 8.0000E+00 1.0000E+01 3.1000E+02 3.9000E+01                      30357013   19
+ 1.0000E+01 1.5000E+01 1.4700E+02 2.5000E+01                      30357013   20
+ 1.5000E+01 2.0000E+01 1.7200E+02 2.5000E+01                      30357013   21
+ 2.0000E+01 3.0000E+01 1.2600E+02 2.0000E+01                      30357013   22
+ 3.0000E+01 4.0000E+01 1.0300E+02 1.5000E+01                      30357013   23
+ 4.0000E+01 5.0000E+01 8.5000E+01 1.2000E+01                      30357013   24
+ 5.0000E+01 6.0000E+01 8.2000E+01 1.1000E+01                      30357013   25
+ 6.0000E+01 8.0000E+01 5.7000E+01 8.0000E+00                      30357013   26
+ 8.0000E+01 1.0000E+02 5.5000E+01 8.0000E+00                      30357013   27
+ 1.0000E+02 1.5000E+02 4.9000E+01 7.0000E+00                      30357013   28
+ 1.5000E+02 2.0000E+02 4.8000E+01 7.0000E+00                      30357013   29
+ENDDATA             17                                            30357013   30
+ENDSUBENT           29                                            3035701399999
+SUBENT        30357025     840530                                 30357025    1
+BIB                  3          8                                 30357025    2
+REACTION   (42-MO-96(N,G)42-MO-97,,SIG,,SPA) SPECT.AV.FOR STELLAR 30357025    3
+           TEMPERATURE (MAXWELLIAN AVERAGED AT ''KT'' = 30 KEV).  30357025    4
+STATUS     DATA FROM A.R.MUSGROVE AS PRIV.COMM.,79/04/02.         30357025    5
+             N.B. === THE AUTHOR HAS POINTED OUT A TYPOGRAPHICAL  30357025    6
+             ERROR IN TABLE VIII OF 1978 HARWELL CONF. ON NEUTRON 30357025    7
+             PHYSICS AND NUCLEAR DATA, P.449. ===                 30357025    8
+HISTORY    (790523C) KO.-NEW SUBENTRY -                           30357025    9
+           (821122U) DG.-CONVERT.FROM ISO-QUANT TO REACTION FORM.-30357025   10
+ENDBIB               8                                            30357025   11
+NOCOMMON             0          0                                 30357025   12
+DATA                 3          1                                 30357025   13
+EN-DUMMY   DATA       DATA-ERR                                    30357025   14
+KEV        MB         MB                                          30357025   15
+ 4.5000E+01 1.1000E+02 1.5000E+01                                 30357025   16
+ENDDATA              3                                            30357025   17
+ENDSUBENT           16                                            3035702599999
+ENDENTRY             3                                            3035799999999
+ENTRY            30506     840911                                 30506000    1
+SUBENT        30506001     840911                                 30506001    1
+BIB                 13         17                                 30506001    2
+INSTITUTE  (3AULAUA)                                              30506001    3
+REFERENCE  (P,AAEC/PR-34P,9,7104)                                 30506001    4
+           (P,INDC(SEC)-28,285,7209) SIMILAR NOTE AS AAEC/PR-34P  30506001    5
+AUTHOR     (D.B.STROUD,D.M.H.CHAN)                                30506001    6
+TITLE      -NEUTRON CAPTURE CROSS-SECTIONS AT 30 KEV.-            30506001    7
+FACILITY   (VDG,3AULAUA) 3 MEV PULSED VAN DE GRAAFF AT LUCAS      30506001    8
+           HEIGHTS.                                               30506001    9
+INC-SOURCE (P-LI7)                                                30506001   10
+INC-SPECT  AVERAGED NEUTRON ENERGY OF 30 KEV.                     30506001   11
+METHOD     (TOF)                                                  30506001   12
+DETECTOR   (MOXR)                                                 30506001   13
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)                         30506001   14
+           NO FURTHER INFORMATION AVAILABLE.                      30506001   15
+STATUS     NUMERICAL DATA WERE SENT FROM B.ALLEN,79/07/24.(EXTRACT30506001   16
+           FROM THE THESIS (MELBOURNE UNIV.) BY D.B.STROUD.)      30506001   17
+HISTORY    (790905C) KO.                                          30506001   18
+ERR-ANALYS NO FURTHER INFORMATION.                                30506001   19
+ENDBIB              17                                            30506001   20
+COMMON               1          3                                 30506001   21
+EN                                                                30506001   22
+KEV                                                               30506001   23
+ 3.0000E+01                                                       30506001   24
+ENDCOMMON            3                                            30506001   25
+ENDSUBENT           24                                            3050600199999
+SUBENT        30506010     840911                                 30506010    1
+BIB                  2          2                                 30506010    2
+REACTION   (42-MO-96(N,G)42-MO-97,,SIG)                           30506010    3
+SAMPLE     ENRICHED ISOTOPE.                                      30506010    4
+ENDBIB               2                                            30506010    5
+NOCOMMON             0          0                                 30506010    6
+DATA                 2          1                                 30506010    7
+DATA       DATA-ERR                                               30506010    8
+MB         MB                                                     30506010    9
+ 1.0400E+02 1.2000E+01                                            30506010   10
+ENDDATA              3                                            30506010   11
+ENDSUBENT           10                                            3050601099999
+ENDENTRY             2                                            3050699999999
+ENTRY            41233     970505                                 41233000    1
+SUBENT        41233001     970505                                 41233001    1
+BIB                 10         13                                 41233001    2
+INSTITUTE  (4RUSLEB)                                              41233001    3
+REFERENCE  (C,64DUBNA,104,6406)                                   41233001    4
+           (S,JINR-1845,104,6406)                                 41233001    5
+AUTHOR     (S.P.KAPCHIGASHEV,YU.P.POPOV)                          41233001    6
+TITLE       NEUTRON CAPTURE CROSS SECTION MEASUREMENTS FOR        41233001    7
+            SEVERAL MOLIBDENUM ISOTOPES                           41233001    8
+MONITOR     NO UNFORMATION                                        41233001    9
+METHOD     (SLODT)    SLOWING-DOWN TIME                           41233001   10
+ERR-ANALYS  ERRORS ARE NOT GIVEN                                  41233001   11
+INC-SOURCE (REAC)                                                 41233001   12
+STATUS     (SCSRS)                                                41233001   13
+HISTORY    (970410C)  +  +  COMPILED AT THE CENTRE - CJD(S.M.) +  41233001   14
+           (970505U)  *  *  NEW REFERENCE ADDED                   41233001   15
+ENDBIB              13                                            41233001   16
+NOCOMMON             0          0                                 41233001   17
+ENDSUBENT           16                                            4123300199999
+SUBENT        41233003     970410                                 41233003    1
+BIB                  2          2                                 41233003    2
+REACTION   (42-MO-96(N,G)42-MO-97,,SIG)                           41233003    3
+HISTORY    (970408T)  CONVERTED FROM SUBENT 80360003              41233003    4
+ENDBIB               2                                            41233003    5
+NOCOMMON             0          0                                 41233003    6
+DATA                 2         43                                 41233003    7
+EN         DATA                                                   41233003    8
+MEV        B                                                      41233003    9
+ 8.3000E-05 9.0000E-01                                            41233003   10
+ 9.3000E-05 9.5000E-01                                            41233003   11
+ 9.7000E-05 1.1200E+00                                            41233003   12
+ 1.0000E-04 1.5500E+00                                            41233003   13
+ 1.1000E-04 2.2000E+00                                            41233003   14
+ 1.1500E-04 3.2000E+00                                            41233003   15
+ 1.2000E-04 4.0000E+00                                            41233003   16
+ 1.3000E-04 4.5000E+00                                            41233003   17
+ 1.4200E-04 5.0000E+00                                            41233003   18
+ 1.5000E-04 4.3000E+00                                            41233003   19
+ 1.6000E-04 3.2000E+00                                            41233003   20
+ 1.7000E-04 2.0500E+00                                            41233003   21
+ 1.8000E-04 1.4800E+00                                            41233003   22
+ 1.8500E-04 1.0300E+00                                            41233003   23
+ 2.0000E-04 7.0000E-01                                            41233003   24
+ 2.2000E-04 6.3000E-01                                            41233003   25
+ 2.8000E-04 6.2500E-01                                            41233003   26
+ 3.1000E-04 7.5000E-01                                            41233003   27
+ 3.4500E-04 9.0000E-01                                            41233003   28
+ 3.8000E-04 9.7000E-01                                            41233003   29
+ 4.2000E-04 8.6000E-01                                            41233003   30
+ 4.7000E-04 7.8000E-01                                            41233003   31
+ 5.1000E-04 5.5000E-01                                            41233003   32
+ 6.5000E-04 3.3000E-01                                            41233003   33
+ 7.4000E-04 3.3000E-01                                            41233003   34
+ 8.5000E-04 1.9000E-01                                            41233003   35
+ 9.5000E-04 2.1000E-01                                            41233003   36
+ 1.1000E-03 1.8000E-01                                            41233003   37
+ 1.3000E-03 1.8000E-01                                            41233003   38
+ 1.6000E-03 2.0000E-01                                            41233003   39
+ 1.9000E-03 1.9000E-01                                            41233003   40
+ 2.3000E-03 2.3500E-01                                            41233003   41
+ 3.1000E-03 2.9000E-01                                            41233003   42
+ 4.1000E-03 3.0000E-01                                            41233003   43
+ 5.5000E-03 2.8000E-01                                            41233003   44
+ 7.5000E-03 2.6000E-01                                            41233003   45
+ 9.0000E-03 2.3000E-01                                            41233003   46
+ 1.2500E-02 1.9000E-01                                            41233003   47
+ 1.5000E-02 1.7000E-01                                            41233003   48
+ 2.0000E-02 1.2000E-01                                            41233003   49
+ 2.2500E-02 9.9000E-02                                            41233003   50
+ 3.0000E-02 1.0000E-01                                            41233003   51
+ 5.0000E-02 6.0000E-02                                            41233003   52
+ENDDATA             45                                            41233003   53
+ENDSUBENT           52                                            4123300399999
+ENDENTRY             2                                            4123399999999
+ENTRY            80360     830816                                 80360000    1
+SUBENT        80360001     830816                                 80360001    1
+BIB                  4          4                                 80360001    2
+INSTITUTE  (4CCPLEB)                                              80360001    3
+REFERENCE  (C,64DUBNA,104,6406)                                   80360001    4
+AUTHOR     (S.P.KAPCHIGASHEV,YU.P.POPOV)                          80360001    5
+METHOD     (SLODT)    SLOWING-DOWN TIME                           80360001    6
+ENDBIB               4                                            80360001    7
+NOCOMMON             0          0                                 80360001    8
+ENDSUBENT            7                                            8036000199999
+SUBENT        80360003     830816                                 80360003    1
+BIB                  1          1                                 80360003    2
+REACTION   (42-MO-96(N,G)42-MO-97,,SIG)                           80360003    3
+ENDBIB               1                                            80360003    4
+NOCOMMON             0          0                                 80360003    5
+DATA                 2         43                                 80360003    6
+EN         DATA                                                   80360003    7
+MEV        B                                                      80360003    8
+ 8.3000E-05 9.0000E-01                                            80360003    9
+ 9.3000E-05 9.5000E-01                                            80360003   10
+ 9.7000E-05 1.1200E+00                                            80360003   11
+ 1.0000E-04 1.5500E+00                                            80360003   12
+ 1.1000E-04 2.2000E+00                                            80360003   13
+ 1.1500E-04 3.2000E+00                                            80360003   14
+ 1.2000E-04 4.0000E+00                                            80360003   15
+ 1.3000E-04 4.5000E+00                                            80360003   16
+ 1.4200E-04 5.0000E+00                                            80360003   17
+ 1.5000E-04 4.3000E+00                                            80360003   18
+ 1.6000E-04 3.2000E+00                                            80360003   19
+ 1.7000E-04 2.0500E+00                                            80360003   20
+ 1.8000E-04 1.4800E+00                                            80360003   21
+ 1.8500E-04 1.0300E+00                                            80360003   22
+ 2.0000E-04 7.0000E-01                                            80360003   23
+ 2.2000E-04 6.3000E-01                                            80360003   24
+ 2.8000E-04 6.2500E-01                                            80360003   25
+ 3.1000E-04 7.5000E-01                                            80360003   26
+ 3.4500E-04 9.0000E-01                                            80360003   27
+ 3.8000E-04 9.7000E-01                                            80360003   28
+ 4.2000E-04 8.6000E-01                                            80360003   29
+ 4.7000E-04 7.8000E-01                                            80360003   30
+ 5.1000E-04 5.5000E-01                                            80360003   31
+ 6.5000E-04 3.3000E-01                                            80360003   32
+ 7.4000E-04 3.3000E-01                                            80360003   33
+ 8.5000E-04 1.9000E-01                                            80360003   34
+ 9.5000E-04 2.1000E-01                                            80360003   35
+ 1.1000E-03 1.8000E-01                                            80360003   36
+ 1.3000E-03 1.8000E-01                                            80360003   37
+ 1.6000E-03 2.0000E-01                                            80360003   38
+ 1.9000E-03 1.9000E-01                                            80360003   39
+ 2.3000E-03 2.3500E-01                                            80360003   40
+ 3.1000E-03 2.9000E-01                                            80360003   41
+ 4.1000E-03 3.0000E-01                                            80360003   42
+ 5.5000E-03 2.8000E-01                                            80360003   43
+ 7.5000E-03 2.6000E-01                                            80360003   44
+ 9.0000E-03 2.3000E-01                                            80360003   45
+ 1.2500E-02 1.9000E-01                                            80360003   46
+ 1.5000E-02 1.7000E-01                                            80360003   47
+ 2.0000E-02 1.2000E-01                                            80360003   48
+ 2.2500E-02 9.9000E-02                                            80360003   49
+ 3.0000E-02 1.0000E-01                                            80360003   50
+ 5.0000E-02 6.0000E-02                                            80360003   51
+ENDDATA             45                                            80360003   52
+ENDSUBENT           51                                            8036000399999
+ENDENTRY             2                                            8036099999999
+ENDREQUEST           1                                            Z999999999999

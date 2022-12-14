@@ -1,0 +1,794 @@
+REQUEST           1001   20010914          3     144433               0  0    0
+ENTRY            10249     821018                                 10249000    1
+SUBENT        10249001     821018                                 10249001    1
+BIB                 12         29                                 10249001    2
+INSTITUTE  (1USAORL)                                              10249001    3
+REFERENCE  (J,NSE,52,46,7309)                                     10249001    4
+           (R,ORNL-TM-3696,7212)                                  10249001    5
+           (W,DE SAUSSURE,721127) DATA REC'D ON TAPE.             10249001    6
+AUTHOR     (R.B.PEREZ,G.DE SAUSSURE,E.G.SILVER,R.W.INGLE,H.WEAVER)10249001    7
+TITLE      SIMULTANEOUS MEASUREMENT OF THE NEUTRON FISSION AND    10249001    8
+            CAPTURE CROSS SECTION FOR U-235 FOR NEUTRON ENERGIES  10249001    9
+            FROM 8 EV TO 10 KEV.                                  10249001   10
+FACILITY   (LINAC) OAK RIDGE ELECTRON LINAC (ORELA)               10249001   11
+SAMPLE     U-235 FISSION CHAMBER CONTAINING U(3)O(8) - 3.20+-0.05 10249001   12
+            GRAMS OF U-235.                                       10249001   13
+           ISOTOPIC COMPOSITION - U-234 (0.006 PERCENT), U-235    10249001   14
+            (99.702 PERCENT), U-236 (0.021 PERCENT), U-238 (0.271 10249001   15
+            PERCENT).                                             10249001   16
+           CAPTURE RESONANCE SHOWN AT 36.7 EV IS PROBABLY DUE TO  10249001   17
+            AN IMPURITY WHICH COULD NOT BE IDENTIFIED WITH        10249001   18
+            CERTAINTY.                                            10249001   19
+METHOD     (TOF) TIME-OF-FLIGHT. FLIGHT PATH = 39.70-M.           10249001   20
+DETECTOR   (FISCH,STANK) U-235 FISSION CHAMBER SURROUNDED BY      10249001   21
+            LARGE LIQUID SCINTILLATOR TANK. THE FISSION CHAMBER   10249001   22
+            DETECTS ONLY FISSIONS WHILE THE SCINTILLATOR TANK IS  10249001   23
+            SENSITIVE TO GAMMA-RAYS FROM FISSION AND CAPTURE.     10249001   24
+           BF3 CHAMBER USED TO DETERMINE NEUTRON FLUX             10249001   25
+MONITOR    FLUX MEASURED RELATIVE TO B-10 (N,ALPHA).              10249001   26
+CORRECTION CORRECTED FOR DEAD TIME, BACKGROUND, SELF-SHIELDING.   10249001   27
+STATUS     (APRVD) APPROVED BY AUTHOR.                            10249001   28
+HISTORY    (730115C)                                              10249001   29
+           (750702U) REFERENCE CHANGED                            10249001   30
+           (821018A) CONVERTED TO REACTION FORMALISM              10249001   31
+ENDBIB              29                                            10249001   32
+NOCOMMON             0          0                                 10249001   33
+ENDSUBENT           32                                            1024900199999
+SUBENT        10249005     910903                                 10249005    1
+BIB                  5         10                                 10249005    2
+REACTION   (92-U-235(N,G)92-U-236,,SIG,,AV)                       10249005    3
+MONITOR    (92-U-235(N,G)92-U-236,,INT)                           10249005    4
+ERR-ANALYS TOTAL ESTIMATED ERROR ABOUT 6 PERCENT BETWEEN 100 EV   10249005    5
+            AND 1 KEV AND ABOUT 8 PERCENT BETWEEN 1 AND 10 KEV.   10249005    6
+COMMENT    FROM 5675 TO 6325 EV THE CAPTURE CROSS SECTION COULD   10249005    7
+            NOT BE MEASURED ACCURATELY BECAUSE OF A RESONANCE IN  10249005    8
+            AL.                                                   10249005    9
+HISTORY    (860825A) FIRST 3 DATA POINTS REMOVED, HAVE POINTWISE  10249005   10
+                     DATA.                                        10249005   11
+           (910903U) MONITOR CORRECTED                            10249005   12
+ENDBIB              10                                            10249005   13
+COMMON               3          3                                 10249005   14
+EN-NRM-MIN EN-NRM-MAX MONIT                                       10249005   15
+EV         EV         B*EV                                        10249005   16
+ 100.       200.       1145.                                      10249005   17
+ENDCOMMON            3                                            10249005   18
+DATA                 3        181                                 10249005   19
+EN-MIN     EN-MAX     DATA                                        10249005   20
+EV         EV         B                                           10249005   21
+ 200.       250.        11.802                                    10249005   22
+ 250.       300.        7.002                                     10249005   23
+ 300.       350.        7.498                                     10249005   24
+ 350.       400.         5.347                                    10249005   25
+ 400.       450.        4.455                                     10249005   26
+ 450.       500.        5.092                                     10249005   27
+ 500.       550.         6.542                                    10249005   28
+ 550.       600.        4.696                                     10249005   29
+ 600.       650.        5.241                                     10249005   30
+ 650.       700.         3.741                                    10249005   31
+ 700.       750.        5.403                                     10249005   32
+ 750.       800.        4.108                                     10249005   33
+ 800.       850.         3.571                                    10249005   34
+ 850.       900.        4.382                                     10249005   35
+ 900.       950.        5.314                                     10249005   36
+ 950.      1000.         4.327                                    10249005   37
+1000.      1050.        4.756                                     10249005   38
+1050.      1100.        4.498                                     10249005   39
+1100.      1150.         3.044                                    10249005   40
+1150.      1200.        3.594                                     10249005   41
+1200.      1250.        3.120                                     10249005   42
+1250.      1300.         2.213                                    10249005   43
+1300.      1350.        2.663                                     10249005   44
+1350.      1400.        1.833                                     10249005   45
+1400.      1450.         2.952                                    10249005   46
+1450.      1500.        2.123                                     10249005   47
+1500.      1550.        2.677                                     10249005   48
+1550.      1600.         2.317                                    10249005   49
+1600.      1650.        1.937                                     10249005   50
+1650.      1700.        2.246                                     10249005   51
+1700.      1750.         1.712                                    10249005   52
+1750.      1800.        1.789                                     10249005   53
+1800.      1850.        2.196                                     10249005   54
+1850.      1900.         2.175                                    10249005   55
+1900.      1950.        3.045                                     10249005   56
+1950.      2000.        2.406                                     10249005   57
+2000.      2050.         3.013                                    10249005   58
+2050.      2100.        2.396                                     10249005   59
+2100.      2150.        2.438                                     10249005   60
+2150.      2200.         1.739                                    10249005   61
+2200.      2250.        2.423                                     10249005   62
+2250.      2300.        1.892                                     10249005   63
+2300.      2350.         2.048                                    10249005   64
+2350.      2400.        0.936                                     10249005   65
+2400.      2450.        2.201                                     10249005   66
+2450.      2500.         1.445                                    10249005   67
+2500.      2550.        2.014                                     10249005   68
+2550.      2600.        2.595                                     10249005   69
+2600.      2650.         2.011                                    10249005   70
+2650.      2700.        1.822                                     10249005   71
+2700.      2750.        2.347                                     10249005   72
+2750.      2800.         1.656                                    10249005   73
+2800.      2850.        1.546                                     10249005   74
+2850.      2900.        1.287                                     10249005   75
+2900.      2950.         1.456                                    10249005   76
+2950.      3000.        1.609                                     10249005   77
+3000.      3050.        1.864                                     10249005   78
+3050.      3100.         1.486                                    10249005   79
+3100.      3150.        1.695                                     10249005   80
+3150.      3200.        1.310                                     10249005   81
+3200.      3250.         2.001                                    10249005   82
+3250.      3300.        1.650                                     10249005   83
+3300.      3350.        1.124                                     10249005   84
+3350.      3400.         1.792                                    10249005   85
+3400.      3450.        0.946                                     10249005   86
+3450.      3500.        1.291                                     10249005   87
+3500.      3550.         1.058                                    10249005   88
+3550.      3600.        1.717                                     10249005   89
+3600.      3650.        1.394                                     10249005   90
+3650.      3700.         1.324                                    10249005   91
+3700.      3750.        1.521                                     10249005   92
+3750.      3800.        1.610                                     10249005   93
+3800.      3850.         1.308                                    10249005   94
+3850.      3900.        1.380                                     10249005   95
+3900.      3950.        1.868                                     10249005   96
+3950.      4000.         0.933                                    10249005   97
+4000.      4050.        1.955                                     10249005   98
+4050.      4100.        1.901                                     10249005   99
+4100.      4150.         2.254                                    10249005  100
+4150.      4200.        2.279                                     10249005  101
+4200.      4250.         1.501                                    10249005  102
+4250.      4300.         1.519                                    10249005  103
+4300.      4350.         1.173                                    10249005  104
+4350.      4400.         1.093                                    10249005  105
+4400.      4450.         1.143                                    10249005  106
+4450.      4500.         1.211                                    10249005  107
+4500.      4550.         1.293                                    10249005  108
+4550.      4600.         1.971                                    10249005  109
+4600.      4650.         1.579                                    10249005  110
+4650.      4700.         1.125                                    10249005  111
+4700.      4750.         1.364                                    10249005  112
+4750.      4800.         1.208                                    10249005  113
+4800.      4850.         1.612                                    10249005  114
+4850.      4900.         1.024                                    10249005  115
+4900.      4950.         0.828                                    10249005  116
+4950.      5000.         1.339                                    10249005  117
+5000.      5050.         1.217                                    10249005  118
+5050.      5100.         1.444                                    10249005  119
+5100.      5150.         0.950                                    10249005  120
+5150.      5200.         2.072                                    10249005  121
+5200.      5250.         1.135                                    10249005  122
+5250.      5300.         1.048                                    10249005  123
+5300.      5350.         1.180                                    10249005  124
+5350.      5400.         1.039                                    10249005  125
+5400.      5450.         0.996                                    10249005  126
+5450.      5500.         1.030                                    10249005  127
+5500.      5550.         1.081                                    10249005  128
+5550.      5600.         1.862                                    10249005  129
+6350.      6400.         1.511                                    10249005  130
+6400.      6450.         0.141                                    10249005  131
+6450.      6500.         1.465                                    10249005  132
+6500.      6550.         1.775                                    10249005  133
+6550.      6600.         0.895                                    10249005  134
+6600.      6650.         1.466                                    10249005  135
+6650.      6700.         1.430                                    10249005  136
+6700.      6750.         1.938                                    10249005  137
+6750.      6800.         0.819                                    10249005  138
+6800.      6850.         1.745                                    10249005  139
+6850.      6900.         1.102                                    10249005  140
+6900.      6950.         1.004                                    10249005  141
+6950.      7000.         1.602                                    10249005  142
+7000.      7050.         1.231                                    10249005  143
+7050.      7100.         1.089                                    10249005  144
+7100.      7150.         1.492                                    10249005  145
+7150.      7200.         0.789                                    10249005  146
+7200.      7250.         1.316                                    10249005  147
+7250.      7300.         1.671                                    10249005  148
+7300.      7350.         1.897                                    10249005  149
+7350.      7400.         1.267                                    10249005  150
+7400.      7450.         2.247                                    10249005  151
+7450.      7500.         1.209                                    10249005  152
+7500.      7550.         1.213                                    10249005  153
+7550.      7600.         1.310                                    10249005  154
+7600.      7650.         1.355                                    10249005  155
+7650.      7700.         1.385                                    10249005  156
+7700.      7750.         1.436                                    10249005  157
+7750.      7800.         1.716                                    10249005  158
+7800.      7850.         1.242                                    10249005  159
+7850.      7900.         1.313                                    10249005  160
+7900.      7950.         1.371                                    10249005  161
+7950.      8000.         1.574                                    10249005  162
+8000.      8050.         1.508                                    10249005  163
+8050.      8100.         1.351                                    10249005  164
+8100.      8150.         1.142                                    10249005  165
+8150.      8200.         1.134                                    10249005  166
+8200.      8250.         1.884                                    10249005  167
+8250.      8300.         1.950                                    10249005  168
+8300.      8350.         2.029                                    10249005  169
+8350.      8400.         1.536                                    10249005  170
+8400.      8450.         1.637                                    10249005  171
+8450.      8500.         1.486                                    10249005  172
+8500.      8550.         1.570                                    10249005  173
+8550.      8600.         1.373                                    10249005  174
+8600.      8650.         1.468                                    10249005  175
+8650.      8700.         1.547                                    10249005  176
+8700.      8750.         1.637                                    10249005  177
+8750.      8800.         0.925                                    10249005  178
+8800.      8850.         0.526                                    10249005  179
+8850.      8900.         0.630                                    10249005  180
+8900.      8950.         1.033                                    10249005  181
+8950.      9000.         1.301                                    10249005  182
+9000.      9050.         1.573                                    10249005  183
+9050.      9100.         1.492                                    10249005  184
+9100.      9150.         1.203                                    10249005  185
+9150.      9200.         1.181                                    10249005  186
+9200.      9250.         1.629                                    10249005  187
+9250.      9300.         1.231                                    10249005  188
+9300.      9350.         1.382                                    10249005  189
+9350.      9400.         1.315                                    10249005  190
+9400.      9450.         1.111                                    10249005  191
+9450.      9500.         1.213                                    10249005  192
+9500.      9550.         1.449                                    10249005  193
+9550.      9600.         1.342                                    10249005  194
+9600.      9650.         0.943                                    10249005  195
+9650.      9700.         0.842                                    10249005  196
+9700.      9750.         1.004                                    10249005  197
+9750.      9800.         1.176                                    10249005  198
+9800.      9850.         1.174                                    10249005  199
+9850.      9900.         0.844                                    10249005  200
+9900.      9950.         1.089                                    10249005  201
+9950.      10000.        1.148                                    10249005  202
+ENDDATA            183                                            10249005  203
+ENDSUBENT          202                                            1024900599999
+ENDENTRY             2                                            1024999999999
+ENTRY            12331     841005                                 12331000    1
+SUBENT        12331001     841005                                 12331001    1
+BIB                  6          8                                 12331001    2
+INSTITUTE  (1USALAS)                                              12331001    3
+REFERENCE  (J,NSE,12,169,62)                                      12331001    4
+           (C,61SACLAY,,407,61)                                   12331001    5
+AUTHOR     (J.C.HOPKINS,B.C.DIVEN)                                12331001    6
+TITLE      NEUTRON CAPTURE TO FISSION RATIOS IN U233,U235,PU239.  12331001    7
+STATUS     (SCSRS)                                                12331001    8
+HISTORY    (760804T) TRANSLATED FROM SCISRS                       12331001    9
+           (841005A) CONVERTED TO REACTION FORMALISM              12331001   10
+ENDBIB               8                                            12331001   11
+NOCOMMON             0          0                                 12331001   12
+ENDSUBENT           11                                            1233100199999
+SUBENT        12331004     841005                                 12331004    1
+BIB                  3          4                                 12331004    2
+REACTION   (92-U-235(N,G)92-U-236,,SIG)                           12331004    3
+STATUS     (DEP)                                                  12331004    4
+ANALYSIS   CALCULATED FROM ALPHA, USING FISSION VALUES FROM       12331004    5
+            BNL-325 (1957).                                       12331004    6
+ENDBIB               4                                            12331004    7
+NOCOMMON             0          0                                 12331004    8
+DATA                 3          9                                 12331004    9
+EN         DATA       DATA-ERR                                    12331004   10
+MEV        B          B                                           12331004   11
+ 3.0    -02 1.031  +00 1.29   -01                                 12331004   12
+ 6.0    -02 7.03   -01 7.6    -02                                 12331004   13
+ 1.75   -01 3.47   -01 3.8    -02                                 12331004   14
+ 2.50   -01 3.01   -01 3.3    -02                                 12331004   15
+ 4.00   -01 1.98   -01 2.1    -02                                 12331004   16
+ 6.00   -01 1.72   -01 1.9    -02                                 12331004   17
+ 7.50   -01 1.50   -01 1.7    -02                                 12331004   18
+ 9.00   -01 1.28   -01 1.7    -02                                 12331004   19
+ 1.000  +00 1.09   -01 1.1    -02                                 12331004   20
+ENDDATA             11                                            12331004   21
+ENDSUBENT           20                                            1233100499999
+ENDENTRY             2                                            1233199999999
+ENTRY            12438     830809                                 12438000    1
+SUBENT        12438001     830809                                 12438001    1
+BIB                  8          9                                 12438001    2
+INSTITUTE  (1USAMTR)                                              12438001    3
+REFERENCE  (P,WASH-1028,50,6004)                                  12438001    4
+AUTHOR     (C.H.HOGG,J.R.BERRETH,R.P.SCHUMAN)                     12438001    5
+TITLE      U-235 CAPTURE CROSS SECTION.                           12438001    6
+FACILITY   (SPECM) MASS SPECTROMETER.                             12438001    7
+INC-SPECT  THERMAL REACTOR SPECTRUM AT 40 DEGREES(C).             12438001    8
+STATUS     (SCSRS)                                                12438001    9
+HISTORY    (760804T) TRANSLATED FROM SCISRS                       12438001   10
+           (830809A) CONVERTED TO REACTION FORMALISM              12438001   11
+ENDBIB               9                                            12438001   12
+NOCOMMON             0          0                                 12438001   13
+ENDSUBENT           12                                            1243800199999
+SUBENT        12438002     830809                                 12438002    1
+BIB                  1          1                                 12438002    2
+REACTION   (92-U-235(N,G)92-U-236,,SIG)                           12438002    3
+ENDBIB               1                                            12438002    4
+NOCOMMON             0          0                                 12438002    5
+DATA                 3          1                                 12438002    6
+EN         DATA       DATA-ERR                                    12438002    7
+EV         B          B                                           12438002    8
+ 0.0253     96.6       6.8                                        12438002    9
+ENDDATA              3                                            12438002   10
+ENDSUBENT            9                                            1243800299999
+SUBENT        12438005     830809                                 12438005    1
+BIB                  1          1                                 12438005    2
+REACTION   (92-U-235(N,G)92-U-236,,SIG,,MXW)                      12438005    3
+ENDBIB               1                                            12438005    4
+NOCOMMON             0          0                                 12438005    5
+DATA                 3          1                                 12438005    6
+EN-DUMMY   DATA       DATA-ERR                                    12438005    7
+EV         B          B                                           12438005    8
+  0.0253     92.5       2.                                        12438005    9
+ENDDATA              3                                            12438005   10
+ENDSUBENT            9                                            1243800599999
+ENDENTRY             3                                            1243899999999
+ENTRY            20369     860703                                 20369000    1
+SUBENT        20369001     860703                                 20369001    1
+BIB                 13         60                                 20369001    2
+INSTITUTE  (2BLGMOL)                                              20369001    3
+REFERENCE  (C,70HELSINKI,1,461,7006)                              20369001    4
+           (W,CEULEMANS,7102)   DATA ON CARDS.                    20369001    5
+AUTHOR     (H.CEULEMANS, F.POORTMANS)                             20369001    6
+TITLE      -THE SCATTERING CROSS-SECTION OF 92-U-235 BETWEEN      20369001    7
+            0.025 EV AND 1 EV.-                                   20369001    8
+FACILITY   (SPECC)    CRYSTAL SPECTROMETER WITH A SILICON SINGLE  20369001    9
+            CRYSTAL (111).                                        20369001   10
+INC-SOURCE (REAC )    THE BR2 REACTOR OF SCK/CEN, MOL.            20369001   11
+INC-SPECT  .FROM THE (111) PLANES OF A SILICON SINGLE CRYSTAL,    20369001   12
+            THE SECOND ORDER DIFFRACTION IS FORBIDDEN AND THIRD   20369001   13
+            PLUS HIGHER ORDER CONTAMINATION AMOUNTED TO LESS THAN 20369001   14
+            1 PER CENT.                                           20369001   15
+           .THE NEUTRON BEAM HAD A DIAMETER OF ABOUT 0.20 CM AND  20369001   16
+            COVERED ONLY PART OF THE SAMPLE SURFACE.              20369001   17
+METHOD     (DIFFR)    THE DIFFRACTION ON THE (111) PLANES OF A    20369001   18
+            SILICON CRYSTAL.                                      20369001   19
+DETECTOR   (PROPC)    SCATTERING AND FISSION NEUTRONS DETECTED IN 20369001   20
+            A SCATTERING CHAMBER EQUIPPED WITH HE-3 PROPORTIONAL  20369001   21
+            COUNTERS.                                             20369001   22
+           .THE AXES OF THE HE3 PROPORTIONAL COUNTERS ARE PARALLEL20369001   23
+            TO THE INCIDENT BEAM AND SCATTERING NEUTRONS BETWEEN  20369001   24
+            15 DEGREES AND 165 DEGREES ANGLES CAN BE DETECTED.    20369001   25
+           .FISSION COUNTS IN HIGH ENERGY CHANNELS USED FOR       20369001   26
+            CORRECTING FOR FISSION COUNTS IN THE LOW CHANNEL,     20369001   27
+            SEE CORRECTION.                                       20369001   28
+STATUS     .DATA TAKEN FROM PRIVATE COMMUNICATION AND FROM        20369001   29
+            HELSINKI CONFERENCE PROCEEDINGS.                      20369001   30
+HISTORY    (710303C)                                              20369001   31
+           (740929E)                                              20369001   32
+           (820217A) A.P.T. SUBENTRY 007 ADDED, 'ISO-QUANT'       20369001   33
+                     AND 'STANDARD' CHANGED TO 'REACTION'         20369001   34
+                     AND 'MONITOR'.                               20369001   35
+           (820921E)                                              20369001   36
+           (830420A) A.P.T. SUBWORK 7 SPLIT INTO TWO              20369001   37
+                            SUBWORKS                              20369001   38
+           (830429E)                                              20369001   39
+           (830727U) IN SE007,008 'COMMENT' CHANGED TO 'ANALYSIS' 20369001   40
+           (831004E)                                              20369001   41
+           (860415U)N.CH                                          20369001   42
+           (860703E)                                              20369001   43
+CORRECTION .THE THIRD PLUS HIGHER CONTAMINATION IN THE NEUTRONS   20369001   44
+            OF THE DESIRED ENERGY IS LESS THAN 1 PER CENT.        20369001   45
+           .WITH HIGH STATISTICAL ACCURACY THE TOTAL CROSS-SECTION20369001   46
+            WAS MEASURED AS A CHECK ON LOCAL THICKNESS            20369001   47
+            FLUCTUATIONS, AND THE CONCLUSION IS THAT THE LOCAL    20369001   48
+            THICKNESS IS LOWER THAN THE AVERAGE THICKNESS BY      20369001   49
+            (1 +- 0.5) PER CENT.                                  20369001   50
+           .A SIMPLE YET RELIABLE CORRECTION FOR THE FRACTION OF  20369001   51
+            THE NUMBER OF FISSION NEUTRONS WAS MADE USING THE     20369001   52
+            HIGH AND LOW CHANNEL AND A THIN CD-SHIELD AROUND THE  20369001   53
+            SAMPLE.                                               20369001   54
+ERR-ANALYS .THE EXPERIMENTAL STANDARD DEVIATION IS ABOUT 1 PER-   20369001   55
+            CENT. THE ERRORS OF THE CROSS SECTION REPRESENTS TWO  20369001   56
+            STANDARD DEVIATIONS FOR THE 2ND SERIES OF EXPERIMENTS 20369001   57
+            CONSISTING OF A SCAN BETWEEN 0.8 EV AND 0.025 EV.     20369001   58
+           .FOR THE 1ST SERIES EXPERIMENTS BETWEEN 0.02 EV AND 0.220369001   59
+            EV, THE MEASUREMENT WAS REPEATED A LARGE NUMBER OF    20369001   60
+            TIMES SUCH THAT THE VARIANCE OF THE MEAN WAS LESS THAN20369001   61
+            0.5 PER CENT AT EACH POINT.                           20369001   62
+ENDBIB              60                                            20369001   63
+NOCOMMON             0          0                                 20369001   64
+ENDSUBENT           63                                            2036900199999
+SUBENT        20369008     831004                                 20369008    1
+BIB                  5         18                                 20369008    2
+REACTION   (92-U-235(N,G)92-U-236,,SIG)                           20369008    3
+ANALYSIS   .VALUES AT 2200 M/SEC CALCULATED FROM THE              20369008    4
+            ELASTIC CROSS SECTION IN SUBENTRY 006                 20369008    5
+            AND THE FOLLOWING ASSUMED VALUES.                     20369008    6
+ASSUMED    (ASSUM1,92-U-235(N,TOT),,SIG) AT 2200 M/SEC            20369008    7
+           (ASSUM2,92-U-235(N,ABS),,ALF) AT 2200 M/SEC            20369008    8
+            BOTH THE ABOVE VALUES TAKEN FROM G.C.HANNA+           20369008    9
+             ATOMIC ENERGY REVIEW, VOL VII (1969) NO. 4           20369008   10
+STATUS     (DEP  ,20369006)                                       20369008   11
+           (DEP  ,20369005)                                       20369008   12
+           (DEP  ,20369003)                                       20369008   13
+           (DEP  ,20369004)                                       20369008   14
+           .DATA TAKEN FROM 1970 HELSINKI CONF.,VOL1,P.461.       20369008   15
+HISTORY    (830420A) A.P.T. THE DATA IN THIS SUBWORK WAS          20369008   16
+                            ORIGINALLY CONTAINED IN SUBWORK 7     20369008   17
+           (830429E)                                              20369008   18
+           (830727U) 'COMMENT' CHANGED TO 'ANALYSIS'              20369008   19
+           (831004E)                                              20369008   20
+ENDBIB              18                                            20369008   21
+NOCOMMON             0          0                                 20369008   22
+DATA                 7          1                                 20369008   23
+EN         DATA       DATA-ERR   ASSUM1     ASSUM1-ERR ASSUM2     20369008   24
+ASSUM2-ERR                                                        20369008   25
+EV         B          B          B          B          NO-DIM     20369008   26
+NO-DIM                                                            20369008   27
+ 2.3500E-02 9.8700E+01 4.5000E+00 6.9600E+02 3.5000E+00 1.6940E-0120369008   28
+ 1.9000E-03                                                       20369008   29
+ENDDATA              6                                            20369008   30
+ENDSUBENT           29                                            2036900899999
+ENDENTRY             2                                            2036999999999
+ENTRY            20938     791010                                 20938000    1
+SUBENT        20938001     791010                                 20938001    1
+BIB                 14         59                                 20938001    2
+INSTITUTE  (2UK HAR)                                              20938001    3
+REFERENCE  (R,AERE-M-1670,6602) FULL REPORT.                      20938001    4
+           (C,66SDIEGO,2,193,6602)                                20938001    5
+           (R,EANDC(UK)-42,,6406)                                 20938001    6
+           (C,64GENEVA,2,167,64)                                  20938001    7
+           (R,BNL-325,6502) SEE FOR CURVES.                       20938001    8
+           (P,AERE-PR/NP-9,11,6510) DATA RENORMALISED.            20938001    9
+           (P,AERE-PR/NP-6,13,6312) ABSTRACT.                     20938001   10
+           (P,AERE-PR/NP-5,8,6306)  ABSTRACT.                     20938001   11
+           (P,AERE-PR/NP-4,,6212)  GRAPHS ETA.                    20938001   12
+           (P,AERE-PR/NP-3,,6209) NO DATA GIVEN.                  20938001   13
+           (C,61SACLAY,131,6109) RAW DATA.                        20938001   14
+           (C,61RPI,109,6105) SAME AS 61SACLAY.                   20938001   15
+           (R,NRDC-123,,5910) SUPERSEDED.                         20938001   16
+           (J,NIM,28,205,6406) DATA IN REVIEW.                    20938001   17
+           (J,NIM,4,151,5904) SUPERSEDED.                         20938001   18
+AUTHOR     (F.D.BROOKS,J.E.JOLLY,M.G.SCHOMBERG,M.G.SOWERBY)       20938001   19
+TITLE      -ETA AND NEUTRON CROSS SECTIONS OF U-235 FROM 0.03 TO  20938001   20
+            200 EV-.                                              20938001   21
+FACILITY   (LINAC) ELECRTON LINAC.                                20938001   22
+INC-SOURCE (PHOTO) BOOSTER TARGET, DETAILS IN 58GENEVA,14,266,58. 20938001   23
+SAMPLE     .FIVE DIFFERENT SAMPLES, METAL DISCS, 7.6 CM DIAMETER  20938001   24
+            AND RANGING IN THICKNESS FROM 0.001 TO 0.04 ATOMS/B.  20938001   25
+           .SAMPLE COMPOSITION U-235  93.0 PERCENT                20938001   26
+                               U-238   6.0 PERCENT                20938001   27
+                               U-234   1.0 PERCENT                20938001   28
+METHOD     (TOF  ) TOME OF FLIGHT, RESOLUTIONS 6.4 MICRO-SEC FOR  20938001   29
+            NEUTRON ENERGIES LESS THAN 0.15 EV, 1.6 MICRO-SEC     20938001   30
+            0.15 EV TO 0.9 EV, 0.35 MICRO-SEC FROM 0.9 TO 1.8 EV, 20938001   31
+            44 NANO-SEC FROM 1.8 TO 11 EV, AND 11 NANO-SEC ABOVE  20938001   32
+            11 EV.                                                20938001   33
+           .ETA  FROM OBSERVATION OF TRANSMISSION AND YIELD OF    20938001   34
+            PROMPT NEUTRON FROM A THICK SAMPLE.                   20938001   35
+DETECTOR   (SCIN ) NO DETAILS.                                    20938001   36
+ANALYSIS   .BELOW 73 EV CROSS SECTION AND ETA ARE EXTRAPOLATED    20938001   37
+            OVER THE REGIONS OF IMPURITY RESONANCES.              20938001   38
+             ETA AND FISSION CROSS SECTIONS ARE CALCULATED FOR    20938001   39
+            EACH INDIVIDUAL SAMPLE AND THEN DATA ARE WEIGHT       20938001   40
+            AVERAGED TO GIVE FINAL RESULT.                        20938001   41
+             EQUATIONS FOR ETA AND SIG(F) ARE GIVEN IN PAGE 2     20938001   42
+            OF AERE-M-1670.                                       20938001   43
+STATUS     (NDD  ) RECOMPILED FROM NEUDADA.                       20938001   44
+HISTORY    (790516T)                                              20938001   45
+           (790628E)                                              20938001   46
+CORRECTION .TRANSMISSION DATA CORRECTED FOR SELF-SHIELDING, THE   20938001   47
+            AVERAGE CROSS SECTIONS AND RESONANCE INTEGRALS ARE    20938001   48
+            CORRECTED FOR RESONANCE CONTRIBUTIONS FRON IMPURITIES 20938001   49
+            OF U-234 AND U-238 BELOW 70 EV.                       20938001   50
+ERR-ANALYS (DATA-ERR) STATISTICAL ERROR.                          20938001   51
+           .ESTIMATED SYSTEMATIC ERROR ON TOTAL CROSS SECTION IS  20938001   52
+            ABOUT 2 PERCENT, DUE TO MONITORING AND PROCESSING.    20938001   53
+             NORMALISATION MAY CONTRIBUTE 0.5 PERCENT FROM NU,    20938001   54
+            AND 1 PERCENT BELOW 1 EV.                             20938001   55
+             BETWEEN 1 AND 10 EV SYSTEMATIC ERROR FOR FISSION     20938001   56
+            CROSS SECTION ABOUT 1 PERCENT FOR LARGE RESONANCES,   20938001   57
+            FROM BACKGROUND, NORMALISATION AND TOTAL SIGMA.       20938001   58
+             BETWEEN RESONANCES SYSTEMATIC ERROR ABOUT 2 PERCENT. 20938001   59
+             ABOVE 10 EV ERROR ABOUT 4 PERCENT TO 5 PERCENT IN    20938001   60
+            FISSION CROSS SECTION.                                20938001   61
+ENDBIB              59                                            20938001   62
+NOCOMMON             0          0                                 20938001   63
+ENDSUBENT           62                                            2093800199999
+SUBENT        20938022     791010                                 20938022    1
+BIB                  2          3                                 20938022    2
+REACTION   (92-U-235(N,G)92-U-236,,SIG,,AV)                       20938022    3
+STATUS     (DEP  ) DATA FROM TABLE 3, AERE-M-1670. DERIVED        20938022    4
+            FROM MEASUREMENTS OF NF AND ETA.                      20938022    5
+ENDBIB               3                                            20938022    6
+NOCOMMON             0          0                                 20938022    7
+DATA                 3         10                                 20938022    8
+EN-MIN     EN-MAX     DATA                                        20938022    9
+EV         EV         B                                           20938022   10
+ 1.0000E+01 2.0000E+01 4.4600E+01                                 20938022   11
+ 2.0000E+01 3.0000E+01 2.7200E+01                                 20938022   12
+ 3.0000E+01 4.0000E+01 3.6100E+01                                 20938022   13
+ 4.0000E+01 5.0000E+01 2.4000E+01                                 20938022   14
+ 5.0000E+01 6.0000E+01 2.6500E+01                                 20938022   15
+ 6.0000E+01 7.0000E+01 7.4000E+00                                 20938022   16
+ 7.0000E+01 8.0000E+01 1.3900E+01                                 20938022   17
+ 8.0000E+01 9.0000E+01 1.7600E+01                                 20938022   18
+ 9.0000E+01 1.0000E+02 1.7600E+01                                 20938022   19
+ 1.0000E+02 2.0000E+02 1.5200E+01                                 20938022   20
+ENDDATA             12                                            20938022   21
+ENDSUBENT           20                                            2093802299999
+ENDENTRY             2                                            2093899999999
+ENTRY            21777     820921                                 21777000    1
+SUBENT        21777001     820921                                 21777001    1
+BIB                 14         30                                 21777001    2
+INSTITUTE  (2ZZZGEL)                                              21777001    3
+           (1USALAS) M.S.MOORE                                    21777001    4
+REFERENCE  (P,NEANDC(E)-232,(3),5,8203) DATA ARE GIVEN.           21777001    5
+           (P,NEANDC(E)-222,(3),3,8103)                           21777001    6
+           (P,NEANDC(E)-212,(3),10,8006)                          21777001    7
+AUTHOR     (F.CORVI,L.CALABRETTA,M.MERLA,M.S.MOORE,               21777001    8
+            T.VAN DER VEEN)                                       21777001    9
+TITLE      -MEASUREMENT OF THE NEUTRON INDUCED FISSION AND        21777001   10
+            CAPTURE CROSS SECTIONS, AND ALPHA OF U-235 IN         21777001   11
+            KEV REGION.                                           21777001   12
+FACILITY   (LINAC)                                                21777001   13
+INC-SOURCE (PHOTO)                                                21777001   14
+SAMPLE     .U-235 ENRICHMENT = 99.508 PER-CENTS.                  21777001   15
+           .TOTAL MASS OF U-235 = ABOUT 2.5 GR.                   21777001   16
+METHOD     (TOF  ) 28-M FLIGHT PATH.                              21777001   17
+DETECTOR   (FISCH) MULTIPLATE FISSION CHAMBER - 21 PLATES,        21777001   18
+                   U3O8 COATED, U235 ENRICHED.                    21777001   19
+           (SCIN ) C6F6. 10.2 CM DIAM. AND 7.6 CM HEIGHT.         21777001   20
+            PULSES IN COINCIDENCE WITH FISSION CHAMBER PULSES     21777001   21
+            WERE CONSIDERED TO BE DUE TO FISSION GAMMA-RAYS.      21777001   22
+           (GLASD) THIN LI-GLASS(0.5 MM THICH) FOR NEUTRON        21777001   23
+                   FLUX MEASUREMENT.                              21777001   24
+ANALYSIS   .BACKGROUND WAS DETERMINED BY MEASURING AL BLACK       21777001   25
+            RESONANCES AT 35 AND 88 KEV.                          21777001   26
+MONITOR    (79-AU-197(N,G)79-AU-198,,SIG)                         21777001   27
+            FOR CAPTURE YIELDS NORMALIZATION.                     21777001   28
+STATUS     .COMPILED FROM THREE PROGRESS REPORTS.                 21777001   29
+HISTORY    (820803C) T.N                                          21777001   30
+           (820921E)                                              21777001   31
+ERR-ANALYS (ERR-T)                                                21777001   32
+ENDBIB              30                                            21777001   33
+COMMON               1          3                                 21777001   34
+EN-RSL                                                            21777001   35
+NSEC/M                                                            21777001   36
+ 5.0000E-01                                                       21777001   37
+ENDCOMMON            3                                            21777001   38
+ENDSUBENT           37                                            2177700199999
+SUBENT        21777003     820921                                 21777003    1
+BIB                  3          4                                 21777003    2
+REACTION   (92-U-235(N,G)92-U-236,,SIG,,AV)                       21777003    3
+STATUS     .DATA WERE TAKEN FROM TABLE 1.1 OF MAIN REF.           21777003    4
+HISTORY    (820803C) T.N                                          21777003    5
+           (820921E)                                              21777003    6
+ENDBIB               4                                            21777003    7
+NOCOMMON             0          0                                 21777003    8
+DATA                 4         22                                 21777003    9
+EN-MIN     EN-MAX     DATA       ERR-T                            21777003   10
+KEV        KEV        B          B                                21777003   11
+ 2.0000E+00 3.0000E+00 1.8980E+00 2.3000E-01                      21777003   12
+ 3.0000E+00 4.0000E+00 1.6150E+00 1.6000E-01                      21777003   13
+ 4.0000E+00 5.0000E+00 1.4350E+00 1.3000E-01                      21777003   14
+ 5.0000E+00 5.8000E+00 1.1660E+00 1.2000E-01                      21777003   15
+ 6.0000E+00 7.0000E+00 1.2340E+00 1.2000E-01                      21777003   16
+ 7.0000E+00 8.0000E+00 1.1710E+00 9.0000E-02                      21777003   17
+ 8.0000E+00 9.0000E+00 1.2960E+00 8.0000E-02                      21777003   18
+ 9.0000E+00 1.0000E+01 1.1110E+00 7.0000E-02                      21777003   19
+ 1.0000E+01 1.2000E+01 9.6700E-01 6.0000E-02                      21777003   20
+ 1.2000E+01 1.4000E+01 9.2600E-01 5.4000E-02                      21777003   21
+ 1.4000E+01 1.6000E+01 8.4600E-01 4.9000E-02                      21777003   22
+ 1.6000E+01 1.8000E+01 8.8300E-01 4.5000E-02                      21777003   23
+ 1.8000E+01 2.0000E+01 7.4500E-01 4.1000E-02                      21777003   24
+ 2.0000E+01 2.5000E+01 7.7000E-01 3.8000E-02                      21777003   25
+ 2.5000E+01 3.0000E+01 6.8300E-01 3.5000E-02                      21777003   26
+ 3.0000E+01 3.3000E+01 6.3000E-01 4.5000E-02                      21777003   27
+ 3.8000E+01 4.0000E+01 5.6100E-01 4.9000E-02                      21777003   28
+ 4.0000E+01 5.0000E+01 5.7200E-01 4.2000E-02                      21777003   29
+ 5.0000E+01 6.0000E+01 5.3700E-01 3.6000E-02                      21777003   30
+ 6.0000E+01 7.0000E+01 5.2300E-01 3.4000E-02                      21777003   31
+ 7.0000E+01 8.0000E+01 4.8200E-01 3.8000E-02                      21777003   32
+ 8.0000E+01 8.5000E+01 4.6800E-01 4.8000E-02                      21777003   33
+ENDDATA             24                                            21777003   34
+ENDSUBENT           33                                            2177700399999
+ENDENTRY             2                                            2177799999999
+ENTRY            40350     870417                                 40350000    1
+SUBENT        40350001     870417                                 40350001    1
+BIB                 10         18                                 40350001    2
+TITLE       AVERAGE NEUTRON NUMBER NU-EFF EMITTED BY THE U-233,   40350001    3
+            U-235, PU-239  ISOTOPES AT THE NEUTRON CAPTURE        40350001    4
+            IN THE ENERGY RANGE FROM 30 TO 900  KEV               40350001    5
+AUTHOR     (P.E.SPIVAK,B.G.EROZOLIMSKIJ,G.A.DOROFEEV,             40350001    6
+           V.N.LAVRENCHIK,I.E.KUTIKOV,JU.P.DOBRYNIN)              40350001    7
+INSTITUTE  (4CCPKUR)                                              40350001    8
+REFERENCE  (J,AE,1,(3),21,5606)     DATA ON NU-BAR                40350001    9
+INC-SOURCE (PHOTO) PHOTONEUTRON SOURCES  SB-124 + BE,             40350001   10
+                   GA-72 + D20, NA-24 + D20                       40350001   11
+METHOD      GRAPHITE-PRISM METHOD IN CONNECTION WITH TWO          40350001   12
+           INDICATOR SYSTEMS                                      40350001   13
+DETECTOR   (BF3)                                                  40350001   14
+CORRECTION   APPARATUS CORRECTIONS WERE MADE                      40350001   15
+ERR-ANALYS (DATA-ERR) NOT SPECIFIED                               40350001   16
+HISTORY    (820615C) COMPILED IN THE CJD                          40350001   17
+           (870417A) SUBENTS 40350005 AND 40350014 DELETED        40350001   18
+                     ON THE NNDC SUGGESTION AND ONE AUTHOR NAME   40350001   19
+                     CORRECTED                                    40350001   20
+ENDBIB              18                                            40350001   21
+NOCOMMON             0          0                                 40350001   22
+ENDSUBENT           21                                            4035000199999
+SUBENT        40350007     870417                                 40350007    1
+BIB                  2          2                                 40350007    2
+REACTION   (92-U-235(N,G)92-U-236,,SIG)                           40350007    3
+STATUS     (NDD)            RUNID= E00003                         40350007    4
+ENDBIB               2                                            40350007    5
+NOCOMMON             0          0                                 40350007    6
+DATA                 3          4                                 40350007    7
+EN         DATA       DATA-ERR                                    40350007    8
+MEV        B          PER-CENT                                    40350007    9
+ 2.9999E-02 7.3099E-01  0.00000                                   40350007   10
+ 1.3999E-01 2.3999E-01                                            40350007   11
+ 2.5000E-01 1.6299E-01                                            40350007   12
+ 8.9999E-01 1.3699E-01                                            40350007   13
+ENDDATA              6                                            40350007   14
+ENDSUBENT           13                                            4035000799999
+ENDENTRY             2                                            4035099999999
+ENTRY            40385     850329                                 40385000    1
+SUBENT        40385001     850329                                 40385001    1
+BIB                  9         14                                 40385001    2
+INSTITUTE  (4CCPCCP)                                              40385001    3
+REFERENCE  (J,AE,4,185,58)                                        40385001    4
+           (J,SJA,4,247,58)                                       40385001    5
+           (J,JNE,9,151,59)                                       40385001    6
+AUTHOR     (V.M.ANDREEV)                                          40385001    7
+TITLE      MEASUREMENTS OF NU(EFF) AND FISSION + CAPTURE FOR FAST 40385001    8
+           NEUTRONS IN U235 AND PU239.                            40385001    9
+INC-SOURCE (PHOTO)  SB-BE FOR  24-KEV NEUTRONS                    40385001   10
+                   NA-D2O FOR 240-KEV NEUTRONS                    40385001   11
+                    NA-BE FOR 880-KEV NEUTRONS                    40385001   12
+METHOD     (SHELT) SPHERICAL SHELL TRANSMISSION                   40385001   13
+DETECTOR   (FISCH)                                                40385001   14
+STATUS     (SCSRS)                                                40385001   15
+HISTORY    (830919T) CONVERTED FROM ENTRY 80017                   40385001   16
+ENDBIB              14                                            40385001   17
+NOCOMMON             0          0                                 40385001   18
+ENDSUBENT           17                                            4038500199999
+SUBENT        40385006     850329                                 40385006    1
+BIB                  2          3                                 40385006    2
+REACTION   (92-U-235(N,G)92-U-236,,SIG)                           40385006    3
+ANALYSIS   CALCULATED FROM ABSORPTION DATA USING FISSION VALUES   40385006    4
+            FROM BNL-325(1965).                                   40385006    5
+ENDBIB               3                                            40385006    6
+NOCOMMON             0          0                                 40385006    7
+DATA                 2          3                                 40385006    8
+EN         DATA                                                   40385006    9
+MEV        B                                                      40385006   10
+ 2.4000E-02 6.4200E-01                                            40385006   11
+ 2.4000E-01 3.3600E-01                                            40385006   12
+ 8.8000E-01 1.3800E-01                                            40385006   13
+ENDDATA              5                                            40385006   14
+ENDSUBENT           13                                            4038500699999
+ENDENTRY             2                                            4038599999999
+ENTRY            40412     840227                                 40412000    1
+SUBENT        40412001     840227                                 40412001    1
+BIB                 13         55                                 40412001    2
+INSTITUTE  (4CCPFEI)                                              40412001    3
+REFERENCE  (J,AE,38,(2),81,7502)                                  40412001    4
+           (R,FEI-274,71)                                         40412001    5
+           (C,71KIEV,1,293,7105)                                  40412001    6
+           (C,71KIEV,1,301,7105)                                  40412001    7
+           (R,INDC(CCP)-21/L,72)                                  40412001    8
+           (R,FEI-290,72)                                         40412001    9
+           (J,AE,32,(1),85,7201)                                  40412001   10
+           (P,YK-15,12,74)                                        40412001   11
+AUTHOR     (V.N.KONONOV,E.D.POLETAEV,JU.S.PROKOPETS,A.A.METLEV,   40412001   12
+           JU.JA.STAVISSKIJ,B.D.YURLOV)                           40412001   13
+TITLE      MEASUREMENTS OF THE CAPTURE-TO-FISSION CROSS-SECTION   40412001   14
+           RATIOS FROM 10 KEV TO 1 MEV, NEUTRON CAPTURE AND       40412001   15
+           FISSION CROSS-SECTIONS FROM 10 TO 80 KEV               40412001   16
+           FOR URANIUM-235 AND PLUTONIUM-239                      40412001   17
+FACILITY   (VDG)      FEI PULSED VAN-DE-GRAAFF ACCELERATOR        40412001   18
+INC-SOURCE (P-LI7)    PROTON-LITHIUM 7                            40412001   19
+           METAL LITHIUM TARGETS WERE USED                        40412001   20
+           (P-T)      PROTON-TRITIUM, STANDARD TRITIUM-TITANIUM   40412001   21
+                      TARGETS WERE USED                           40412001   22
+SAMPLE     PU-239 OF 40 MM DIAMETER AND 2.9E+21 ATOM              40412001   23
+           PER SQUARE CENTIMETER SAMPLE WAS USED                  40412001   24
+           URANIUM OCTOOXIDE (90.3 PERCENTS OF U-235)             40412001   25
+           SAMPLE WITH 40 MM DIAMETER AND 4.1E+21 ATOM PER SQUARE 40412001   26
+           CENTIMETER WAS USED. FOR BACKGROUND MEASUREMENTS       40412001   27
+           EQUIVALENT SCATTERING SAMPLES OF CARBON AND LEAD WERE  40412001   28
+           USED                                                   40412001   29
+METHOD     (TOF)     TIME-OF-FLIGHT METHOD WITH RESOLUTION 18     40412001   30
+           NSEC/M FOR NEUTRON ENERGY RANGE FROM 10 KEV TO 80 KEV  40412001   31
+           AND ENERGY RESOLUTION FROM 10 KEV TO 30 KEV            40412001   32
+           FOR NEUTRON ENERGY RANGE FROM 100 KEV TO 1 MEV         40412001   33
+           AT WORKING ON MONOENERGETIC NEUTRONS                   40412001   34
+DETECTOR   (STANK)   LARGE LIQUID SCINTILATION DETECTOR           40412001   35
+                  LOADED WITH CADMIUM                             40412001   36
+           (FISCH)   FAST IONIZATION CHAMBER, B-10-PLUG AND       40412001   37
+               NAJ(TL) DETECTOR                                   40412001   38
+MONITOR    MEASUREMENT OF THE CAPTURE-TO-FISSION CROSS-SECTION    40412001   39
+           RATIOS (ALFA) WAS ABSOLUTE                             40412001   40
+           THE FISSION CROSS-SECTIONS HAVE BEEN MEASURED USING    40412001   41
+           ENERGY DEPENDENCE OF B-10(N,ALPHA-GAMMA) REACTION AS   40412001   42
+           GIVEN BY SOWERBY M.G. ET AL, 70HELSINKI,1,161 AND      40412001   43
+           MACKLINP.L. ET AL, PHYS.REV., 165, 1147, 1968.         40412001   44
+           NORMALIZATION OF FISSION CROSS-SECTION WAS MADE OVER   40412001   45
+           ENERGY REGION 30-40 KEV TO EVALUATED DATA BY SOWERBY   40412001   46
+           ET AL, ANN. OF SCI AND ENG., V1,NO.718,1974.           40412001   47
+STATUS     (APRVD)   DATA IN ENTRIES 40073 AND 40300 ARE          40412001   48
+           SUPERSEEDED BY AUTHOR'S REVISION AND REVISED DATA      40412001   49
+           ENTERED IN THIS ENTRY                                  40412001   50
+HISTORY    (770110C)                                              40412001   51
+           (791211U)                                              40412001   52
+           (840227U) REACTION FORMALIMS INTRODUCED                40412001   53
+CORRECTION CORRECTION FOR ISOTOPIC IMPURITIES,CORRECTION FOR      40412001   54
+           NEUTRON MULTIPLICATION IN THE SAMPLES, CORRECTION FOR  40412001   55
+           ENERGY DEPENDENCE NU-BAR, CORRECTION FOR MULTIPLE      40412001   56
+           NEUTRON SCATTERING AND RESONANCE SELF-SHIELDING.       40412001   57
+ENDBIB              55                                            40412001   58
+NOCOMMON             0          0                                 40412001   59
+ENDSUBENT           58                                            4041200199999
+SUBENT        40412004     840227                                 40412004    1
+BIB                  2          5                                 40412004    2
+REACTION   (92-U-235(N,G)92-U-236,,SIG) CAPTURE CROSS-SECTION     40412004    3
+             FOR U-235 IN THE ENERGY RANGE 10 - 80 KEV            40412004    4
+ERR-ANALYS (ERR-T)  ERRORS   SHOWN ON THE DATA ARE TOTAL ERROR    40412004    5
+           WHICH INCLUDES ERROR OF ALPHA AND FISSION CROSS-SECTION40412004    6
+           DATA                                                   40412004    7
+ENDBIB               5                                            40412004    8
+NOCOMMON             0          0                                 40412004    9
+DATA                 4          7                                 40412004   10
+EN-MIN     EN-MAX     DATA       ERR-T                            40412004   11
+KEV        KEV        B          B                                40412004   12
+ 1.0000E+01 2.0000E+01 1.0470E+00 2.3200E-01                      40412004   13
+ 2.0000E+01 3.0000E+01 7.3900E-01 9.3000E-02                      40412004   14
+ 3.0000E+01 4.0000E+01 7.3600E-01 8.3000E-02                      40412004   15
+ 4.0000E+01 5.0000E+01 6.2700E-01 7.0000E-02                      40412004   16
+ 5.0000E+01 6.0000E+01 5.6900E-01 6.2000E-02                      40412004   17
+ 6.0000E+01 7.0000E+01 5.2300E-01 5.6000E-02                      40412004   18
+ 7.0000E+01 8.0000E+01 4.7500E-01 5.1000E-02                      40412004   19
+ENDDATA              9                                            40412004   20
+ENDSUBENT           19                                            4041200499999
+ENDENTRY             2                                            4041299999999
+ENTRY            40550     870623                                 40550000    1
+SUBENT        40550001     870623                                 40550001    1
+BIB                 11         18                                 40550001    2
+TITLE       MEASUREMENT OF RADIATION-CAPTURE AND FISSION          40550001    3
+            CROSS-SECTIONS AND THEIR RATIO ALFA FOR URANIUM-235   40550001    4
+AUTHOR     (G.V.MURADYAN,G.I.USTROEV,YU.G.SHCHEPKIN,              40550001    5
+           YU.G.ADAMCHUK,M.A.VOSKANYAN,L.YU.PROKOF'EVA)           40550001    6
+INSTITUTE  (4CCPKUR)                                              40550001    7
+REFERENCE  (C,77KIEV,3,119,7704)                                  40550001    8
+FACILITY   (LINAC) ELECTRON LINEAR ACCELERATOR LEU-60             40550001    9
+METHOD              MULTIPLICITY SPECTROMETRY METHOD FOR          40550001   10
+            PARTICLES ASSOCIATED WITH CAPTURE AND FISSION         40550001   11
+DETECTOR   (NAICR) 12-CELL NAI(TL) 4PI-DETECTOR                   40550001   12
+PART-DET   (G) GAMMA, NEUTRONS WERE CONVERTED INTO GAMMAS         40550001   13
+            BY BORON-10 CONVERTER                                 40550001   14
+ERR-ANALYS  STATISTICAL ERRORS, NORMALIZATION ERRORS NOT INCLUDED 40550001   15
+STATUS      FROM 'NEJTRONNAJA FIZIKA',3,119, MOSKVA-1977          40550001   16
+HISTORY    (771130C) COMPILED AT THE CENTRE                       40550001   17
+           (870623A) ONE AUTHOR NAME CORRECTED (USTROJEV TO       40550001   18
+               USTROEV), DATA OF SAN 002 SUPERSEEDED BY 40581002  40550001   19
+               ISO-QUANT INTO REACTION CONVERTED                  40550001   20
+ENDBIB              18                                            40550001   21
+NOCOMMON             0          0                                 40550001   22
+ENDSUBENT           21                                            4055000199999
+SUBENT        40550004     870623                                 40550004    1
+BIB                  1          1                                 40550004    2
+REACTION   (92-U-235(N,G)92-U-236,,SIG)     CAPTURE CROSS-SECTION 40550004    3
+ENDBIB               1                                            40550004    4
+NOCOMMON             0          0                                 40550004    5
+DATA                 3         21                                 40550004    6
+EN-MIN     EN-MAX     DATA                                        40550004    7
+KEV        KEV        B                                           40550004    8
+   0.1        0.2       14.04                                     40550004    9
+   0.2        0.3       10.68                                     40550004   10
+   0.3        0.4        7.86                                     40550004   11
+   0.4        0.5        6.29                                     40550004   12
+   0.5        0.6        6.44                                     40550004   13
+   0.6        0.7        5.50                                     40550004   14
+   0.7        0.8        6.12                                     40550004   15
+   0.8        0.9        5.07                                     40550004   16
+   0.9        1.0        5.82                                     40550004   17
+   1.0        2.0        3.74                                     40550004   18
+   2.0        3.0        2.65                                     40550004   19
+   3.0        4.0        2.17                                     40550004   20
+   4.0        5.0        2.04                                     40550004   21
+   5.0        6.0        1.79                                     40550004   22
+   6.0        7.0        1.90                                     40550004   23
+   7.0        8.0        1.70                                     40550004   24
+   8.0        9.0        1.81                                     40550004   25
+   9.0       10.0        1.52                                     40550004   26
+  10.0       15.0        1.31                                     40550004   27
+  15.0       20.0        1.11                                     40550004   28
+  20.0       30.0        1.01                                     40550004   29
+ENDDATA             23                                            40550004   30
+ENDSUBENT           29                                            4055000499999
+ENDENTRY             2                                            4055099999999
+ENDREQUEST           1                                            Z999999999999

@@ -1,0 +1,80 @@
+REQUEST           1001   20010914          3     141032               0  0    0
+ENTRY            22253     961126                                 22253000    1
+SUBENT        22253001     961126                                 22253001    1
+BIB                 18         51                                 22253001    2
+INSTITUTE  (2GERKFK)                                              22253001    3
+REFERENCE  (J,AJ,375,823,91)                                      22253001    4
+AUTHOR     (H.BEER)                                               22253001    5
+TITLE      -CAPTURE CROSS SECTION MEASUREMENTS OF KRYPTON AND     22253001    6
+            XENON ISOTOPES AND THE FUNDAMENTAL PARAMETERS OF THE  22253001    7
+            S-PROCESS.                                            22253001    8
+FACILITY   (VDG  ) THE KARLSRUHE PULSED 3 MV VAN DE GRAAFF ACCELE-22253001    9
+            RATOR WAS USED.                                       22253001   10
+INC-SOURCE (P-LI7) NEUTRONS WERE PRODUCED NEAR THE THRESHOLD,     22253001   11
+            WHICH GIVES A KINEMATICALLY COLLIMATED NEUTRON BEAM.  22253001   12
+INC-SPECT  .THE NEUTRON SPECTRUM WAS SIMILAR TO A MAXWELLIAN      22253001   13
+            SPECTRUM WITH A TEMPERATURE OF 25 KEV.                22253001   14
+SAMPLE     .NATURAL KR AND XE WAS USED AS SAMPLE MATERIAL. THE    22253001   15
+            ACTIVATION SAMPLES USED WERE /1/ ZEOLITE TABLETS, 6 MM22253001   16
+            IN DIAMETER, LOADED WITH 52.7 CM3 KR PER GRAM OF      22253001   17
+            SAMPLE, SANDWICHED BETWEEN TWO AU FOILS OF THE SAME   22253001   18
+            DIAMETER OR AN AU FOIL BETWEEN TWO ZEOLITE TABLETS,   22253001   19
+            /2/ A NA4XEO6 TABLET, 6 MM IN DIAMETER, SANDWICHED    22253001   20
+            BETWEEN TWO AU FOILS, /3/ A PRESSURIZED GAS SAMPLE    22253001   21
+            WITH A MIXTURE OF KR AND XE GAS IN A STAINLESS STEEL  22253001   22
+            SPHERE, 20 MM IN DIAMETER, 0.5 MM WALL THICKNESS. FOR 22253001   23
+            BACKGROUND DETERMINATION, AN EMPTY STAINLESS STEEL    22253001   24
+            SPHERE WAS USED.                                      22253001   25
+METHOD     (ACTIV) SIMULTANEOUS ACTIVATION OF TARGET MATERIAL AND 22253001   26
+            STANDARD AU FOILS. A FAST CYCLIC ACTIVATION SYSTEM    22253001   27
+            WITH A FAST SAMPLE CHANGER OPERATING WITH COMPRESSED  22253001   28
+            AIR WAS USED. BOTH THE IRRADIATION AND COUNTING PHASES22253001   29
+            WERE ADJUSTED TO BE 38 SEC.                           22253001   30
+DETECTOR   (GELI ) THE ACTIVITY WAS COUNTED WITH A GELI-DETECTOR, 22253001   31
+            WITH A RELATIVE EFFICIENCY OF 28 PERCENT AND AN ENERGY22253001   32
+            RESOLUTION OF 2.4 KEV AT 1.33 MEV. TO OBTAIN A FAST   22253001   33
+            CYCLIC TIME, THE DETECTOR WAS PLACED CLOSE TO THE     22253001   34
+            NEUTRON GENERATION. IT WAS THEREFORE WELL SHIELDED BY 22253001   35
+            LEAD AND LI-LOADED PARAFFIN. DURING THE ACTIVITY      22253001   36
+            COUNTING PHASE THE NEUTRON GENERATION WAS STOPPED BY  22253001   37
+            A PROTON BEAM STOP IN THE BEAM LINE.                  22253001   38
+           (GLASD) THE NEUTRON FLUX WAS MONITORED BY A LI-6 GLASS 22253001   39
+            SCINTILLATION COUNTER.                                22253001   40
+PART-DET   (DG   )                                                22253001   41
+MONITOR    (79-AU-197(N,G)79-AU-198-G,,SIG,,MXW)                  22253001   42
+MONIT-REF  (,RATYNSKI+,J,PR/C,37,595,88)                          22253001   43
+DECAY-MON  (79-AU-198-G,2.6935D,DG,411.8,.9552)                   22253001   44
+CORRECTION .NO DETAILS GIVEN.                                     22253001   45
+ERR-ANALYS (DATA-ERR) THE ERRORS ARE FROM STATISTICS, GAMMA-RAY   22253001   46
+            INTENSITY PER DECAY, GELI-DETECTOR EFFICIENCY, SAMPLE 22253001   47
+            WEIGHT, RELATIVE ISOTOPIC ABUNDANCE, GAMMA-RAY ATTENU-22253001   48
+            ATION, AND THE AU-197 STANDARD.                       22253001   49
+STATUS     .DATA TAKEN FROM MAIN REF.                             22253001   50
+HISTORY    (940107C) N.O.                                         22253001   51
+           (950420E)                                              22253001   52
+           (961126A)  + +  CORRECTED BY S.MAEV    + +             22253001   53
+ENDBIB              51                                            22253001   54
+COMMON               3          3                                 22253001   55
+KT         MONIT      MONIT-ERR                                   22253001   56
+KEV        MB         MB                                          22253001   57
+ 2.5000E+01 6.4800E+02 1.0000E+01                                 22253001   58
+ENDCOMMON            3                                            22253001   59
+ENDSUBENT           58                                            2225300199999
+SUBENT        22253002     961126                                 22253002    1
+BIB                  4          6                                 22253002    2
+REACTION   (36-KR-78(N,G)36-KR-79-G,,SIG,,MXW)                    22253002    3
+DECAY-DATA (36-KR-79-G,1.46D,DG,397.5,.093)                       22253002    4
+STATUS     .DATA TAKEN FROM TABLE 2 OF MAIN REF.                  22253002    5
+HISTORY    (940107C) N.O.                                         22253002    6
+           (950420E)                                              22253002    7
+           (961126U)  * *  KT-HEADING DELETED        * *          22253002    8
+ENDBIB               6                                            22253002    9
+NOCOMMON             0          0                                 22253002   10
+DATA                 2          1                                 22253002   11
+DATA       DATA-ERR                                               22253002   12
+MB         MB                                                     22253002   13
+ 3.4800E+02 2.8000E+01                                            22253002   14
+ENDDATA              3                                            22253002   15
+ENDSUBENT           14                                            2225300299999
+ENDENTRY             2                                            2225399999999
+ENDREQUEST           1                                            Z999999999999
