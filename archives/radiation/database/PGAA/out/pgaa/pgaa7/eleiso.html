@@ -1,0 +1,152 @@
+<html>
+<title>PGAA/ZVV</title>
+
+<!-- Mirrored from www-nds.iaea.org/pgaa/pgaa7/eleiso.htm by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 14 Dec 2022 10:22:41 GMT -->
+<head>
+<script language="javascript1.1" src="iso.js"></script>
+<script language="javascript1.1" src="ele.js"></script>
+<script language="JavaScript">
+
+
+    function showAllElements() {
+	var urlGif,urlZvd,isoi,zzi,i,namei,sym,name,iel;
+	var cs,iiso,niso,ntd,nge;
+	var xdoc;
+	var imgSize=' width="296" height="195"';
+	var eleColor=' bgcolor=#a0e0e0';
+	txtFlag=0;
+
+	xdoc=document;
+	xdoc.writeln('<table border=1 cellpadding=2 cellspacing=0>');
+
+	xdoc.writeln('<tr>');
+	xdoc.writeln('<td colspan=8 align=center>');
+	xdoc.writeln('<big>');
+	xdoc.writeln('Elements & Isotopes');
+	xdoc.writeln('</big>');
+	xdoc.writeln('</td>');
+	xdoc.writeln('</tr>');
+
+	xdoc.writeln('<tr>');
+	xdoc.writeln('<td align=center><i>Z</i></td>');
+	xdoc.writeln('<td align=center><i>Element</i></td>');
+	xdoc.writeln('<td align=center><i>Isotope</i></td>');
+	if (txtFlag!=0) {
+		xdoc.writeln('<td align=center><i>Atomic weight</i></td>');
+		xdoc.writeln('<td align=center><i>Cross Section</i></td>');
+		xdoc.writeln('<td align=center><i>Abundance(%)</i></td>');
+		xdoc.writeln('<td align=center><i>g-factor</i></td>');
+		xdoc.writeln('<td align=center><i>N gammas</i></td>');
+	}
+	else {
+		xdoc.writeln('<td align=center><i>At.Wt.(amu)</i></td>');
+		xdoc.writeln('<td align=center>&sigma;<sub>&gamma;</sub><sup>Z</sup>,&sigma;<sub>&gamma;</sub>(b)</td>');
+		xdoc.writeln('<td align=center>&theta;<i>(%)</i></td>');
+		xdoc.writeln('<td align=center><i>g</i><sub>w</sub></td>');
+		xdoc.writeln('<td align=center><i>N</i><sub>&gamma;</sub></td>');
+	}
+
+	xdoc.writeln('</tr>');
+	for (iel=0; iel<ele.length; iel++) {
+	    zz=ele[iel].zz;
+	    sym=ele[iel].sym;
+	    name=ele[iel].name;
+	    for (iiso=0,niso=0,nge=0; iiso<iso.length; iiso++) {
+		if (zz==iso[iiso].zz) {
+		    nge+=iso[iiso].ng;
+		    niso++;
+		}
+	    }
+	    if (niso==0) continue;
+	    ntd=niso+1;
+	    xdoc.writeln('<tr>');
+	    xdoc.writeln('<td valign=top rowspan='+ntd+'> '+zz+'</td>');
+	    xdoc.write('<td valign=top rowspan='+ntd+'>');
+	    xdoc.write(' <big>'+sym+'</big> ');
+	    xdoc.write('<br>');
+	    xdoc.write(' '+name+' ');
+	    xdoc.writeln('</td>');
+	    xdoc.writeln('<td'+eleColor+'> '+sym+'</td>');
+//	    xdoc.writeln('<td> '+zz+'-'+sym+'</td>');
+	    xdoc.writeln('<td'+eleColor+'> '+ele[iel].aa+' </td>');
+	    xdoc.writeln('<td align=right'+eleColor+'> '+ele[iel].cs+' </td>');
+	    xdoc.writeln('<td'+eleColor+'>&nbsp;</td>');
+	    xdoc.writeln('<td'+eleColor+'>&nbsp;</td>');
+	    xdoc.writeln('<td align=right'+eleColor+'> '+nge+' </td>');
+	    xdoc.writeln('</tr>');
+	    for (iiso=0; iiso<iso.length; iiso++) {
+		if (zz==iso[iiso].zz) {
+		xdoc.writeln('<tr>');
+//		xdoc.writeln('<td valign=top rowspan='+ntd+'> '+zz+'</td>');
+//		xdoc.writeln('<td valign=top rowspan='+ntd+'> '+name+'</td>');
+		xdoc.writeln('<td> '+sym+'-'+iso[iiso].aa+'</td>');
+		xdoc.writeln('<td> '+iso[iiso].aa+'</td>');
+		cs=iso[iiso].cs;
+		if (cs=='') cs="&nbsp;"
+		xdoc.writeln('<td align=right> '+cs+' </td>');
+		xdoc.writeln('<td align=right> '+iso[iiso].abu+' </td>');
+		xdoc.writeln('<td align=center> '+iso[iiso].gf+' </td>');
+		xdoc.writeln('<td align=right> '+iso[iiso].ng+' </td>');
+		xdoc.writeln('</tr>');
+		}
+	    }
+
+	}
+	xdoc.writeln('</table>');
+    }
+</script>
+</head>
+<body xBACKGROUND="bkgrbr2.gif" bgcolor=#ffffff>
+
+<center>
+<table>
+<tr>
+<td>
+</td>
+<td valign=middle><img src=iaealogo80.png></td>
+
+</tr>
+
+</table>
+
+<font face="helvetica" size="1">
+International Atomic Energy Agency<br>
+Wagramer Strasse 5, P.O.Box 100, A-1400 Vienna, Austria<br>
+Tel:(+43 1) 2600-21714; Fax:(+43 1) 26007<br>
+</font>
+</center>
+<br>
+
+<center>
+<font size=+4 color=#c000c0><b>P G A A</b></font>
+<br>
+<font size=+1 color=#0000ff>Prompt Gamma-ray Neutron Activation Analysis</font>
+<br>
+</center>
+<br>
+
+<!---
+<script language=javascript>
+ document.writeln('Total elements: '+ele.length+'<br>');
+ document.writeln('Total isotopes: '+iso.length+'<br>');
+ document.writeln('Total g-lines: '+gam.length+'<br>');
+</script>
+--->
+
+
+<center>
+<script language=javascript>
+    showAllElements();
+</script>
+</center>
+
+
+<hr>
+<font face="helvetica" size="1">
+ Web design: <a HREF="mailto:zerkin@iaeand.iaea.org">V.Zerkin</a>, IAEA, October-2001<br>
+  <script language="JavaScript">  document.write(" Last updated: "+document.lastModified) </script>
+</font>
+<script>(function(){var js = "window['__CF$cv$params']={r:'7796368fafc2af37',m:'ZS.oXEYplskg74Kv2taufuOIu139aa04z9IXUNRgA5A-1671013291-0-AeisiL0u0zyMTohkpfSohiNusNMvAH6Mbg938JNBojgmKy18OtGSitHu+/PJC5K+YGakLWfQjukQcN4+SOw003IWKRRARl6j1onP53YzbUJF8DMPdZ2E6Y5tzj4dWxkecXeAP90RRrb5fkQ38wHnCbM=',s:[0x9ae1c6d4c9,0xb1416a5aff],u:'/cdn-cgi/challenge-platform/h/b'};var now=Date.now()/1000,offset=14400,ts=''+(Math.floor(now)-Math.floor(now%offset)),_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='../../cdn-cgi/challenge-platform/h/b/scripts/alpha/invisible5615.js?ts='+ts,document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.position = 'absolute';_0xh.style.top = 0;_0xh.style.left = 0;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.nonce = '';_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();</script></body>
+
+<!-- Mirrored from www-nds.iaea.org/pgaa/pgaa7/eleiso.htm by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 14 Dec 2022 10:22:41 GMT -->
+</html>

@@ -1,0 +1,152 @@
+ DATA FOR A =   7  AND Z =   3(LI)   6LI(N,G) E=THERMAL                 CONSTANT IS OFF
+ 
+           DATASET     DAP      DBLANK    DGAMMA     DMIN      DSYS   
+ 
+   7LI C  TARGET JPI=1+.                                                         
+   7LI C  85KO47: MEASURED EG, IG; DEDUCED Q.                                    
+   7LI C  EVALUATED SN=7249.96 KEV 9 (95AU04).                                   
+   7LI CL E         FROM EG USING LEAST-SQUARES FIT TO EG'S.                     
+   7LI CL J(B),T    FROM 96FIZY                                                  
+   7LI CG E(A),M    FROM 96FIZY                                                  
+   7LI CG E(B)      FROM LEVEL-ENEREGY DIFFERENCES                               
+   7LI CG RI        INTENSITIES PER 100 NEUTRON CAPTURES FROM 85KO47             
+   7LI  N 1                                                                      
+   7LI cN NR$I|g(g.s.+primary)=200                                               
+   7LI cN SIGMAN=0.039 {I3} (81MuZQ)                                             
+   7LI PN                                                                        
+   7LI  L 0.0         3/2-              STABLE                                   
+   7LI3 L FLAG=B$                                                                
+   7LI  L    477.6123 1/2-              73 FS     2                              
+   7LI3 L FLAG=B$                                                                
+   7LI  G 477.595   3 38      2 M1(+E2)                                          
+   7LI3 G FLAG=A$ FL=0.0                                                         
+   7LI  L    7249.969 1/2+,3/2+                                                 S
+   7LI CL J         FROM S-WAVE NEUTRON CAPTURE                                  
+   7LI  G 6768.81   5 38      2                                                  
+   7LI3 G FLAG=B$ FL=477.612                                                     
+   7LI  G 7245.91   5 62      2                                                  
+   7LI3 G FLAG=B$ FL=0.0                                                         
+                                                                                 
+ 
+ DATA FOR A =   7  AND Z =   3(LI)   6LI(N,G) E=THERMAL                 CONSTANT IS OFF
+ 
+           DATASET     DAP      DBLANK    DGAMMA     DMIN      DSYS   
+ 
+   7LI  N       13.3 4           1.0                                             
+   7LI  L        0.0   3/2-                                                      
+   7LI  L     477.60 4 1/2-                                                      
+   7LI  G     477.58 4 0.00155 9                                                 
+   7LI  L   7250.67 21                                                           
+   7LI  G     6769.5 3 0.0015012                                                 
+   7LI  G     7246.7 3  0.0024 3                                                 
+                                                                                 
+ 
+ SUMMARY OF TRANSITION DATA FOR ADOPTED LEVELS, GAMMAS     CALCULATION
+  
+               E(DE)      I(DI)
+        L1       0.0                                                             
+     1  L1   477.612 3                                                           
+     1  G1   477.595 3   38.0 20                                                 
+     1  G2    477.58 4 0.00155 9                                                 
+     1  L1   7249.96 9                                                           
+     1  G1   6768.81 5   38.0 20                                                 
+     1  G2    6769.5 30.00150 12                                                 
+     1  G1   7245.91 5   62.0 20                                                 
+     1  G2    7246.7 3  0.0024 3                                                 
+ 
+               LEAST-SQUARES LINEAR REGRESSION OF LEVEL AND GAMMA ENERGIES
+ 
+        LEVEL ENERGIES
+    1.     0.0
+    2.   477.612 3                      
+    3.  7249.96 4                       
+ 
+   GAMMA ENERGIES
+       6LI(N,G) E=THERMAL-6LI(N,G) E=THERMAL-  ENERGY     DE    L1  L2
+ -----------------------------------------------------------------------------------------------------------------------------------
+           477.595 3            477.58 4           477.595 3     2  1                                                               
+           6768.81 5    (2      6769.5 3           6768.83 4     3  2                                                               
+           7245.91 5    (2      7246.7 3           7245.93 4     3  1                                                               
+      DATA SET  1. ENERGIES CORRECTED BY    .0000000+-  .0000000 KEV     CHISQ/F =  .3207         F=  0
+      DATA SET  2. ENERGIES CORRECTED BY    .0000000+-  .0000000 KEV     CHISQ/F =  11.72         F=  0
+      CHISQ/F =  4.012      (FIT OF    6GAMMAS -   2LEVELS)
+ 
+  ITERATION -  2  CHISQ -  4.267    
+               LEAST-SQUARES LINEAR REGRESSION OF LEVEL AND GAMMA ENERGIES
+ 
+        LEVEL ENERGIES
+    1.     0.0
+    2.   477.612 3                      
+    3.  7249.94 4                       
+ 
+   GAMMA ENERGIES
+       6LI(N,G) E=THERMAL-6LI(N,G) E=THERMAL-  ENERGY     DE    L1  L2
+ -----------------------------------------------------------------------------------------------------------------------------------
+           477.595 3            477.58 4           477.595 3     2  1                                                               
+           6768.81 5    (1      6769.5 7           6768.81 4     3  2                                                               
+           7245.91 5    (1      7246.7 8           7245.91 4     3  1                                                               
+      DATA SET  1. ENERGIES CORRECTED BY    .0000000+-  .0000000 KEV     CHISQ/F =  .1100E-01     F=  0
+      DATA SET  2. ENERGIES CORRECTED BY    .0000000+-  .0000000 KEV     CHISQ/F =  2.232         F=  0
+      CHISQ/F =  .7476      (FIT OF    6GAMMAS -   2LEVELS)
+ 
+  ITERATION -  3  CHISQ -  4.267    
+               LEAST-SQUARES LINEAR REGRESSION OF LEVEL AND GAMMA ENERGIES
+ 
+        LEVEL ENERGIES
+    1.     0.0
+    2.   477.612 3                      
+    3.  7249.94 4                       
+ 
+   GAMMA ENERGIES
+       6LI(N,G) E=THERMAL-6LI(N,G) E=THERMAL-  ENERGY     DE    L1  L2
+ -----------------------------------------------------------------------------------------------------------------------------------
+           477.595 3            477.58 6           477.595 3     2  1                                                               
+           6768.81 5           6769.5 10           6768.81 4     3  2                                                               
+           7245.91 5           7246.7 12           7245.91 4     3  1                                                               
+      DATA SET  1. ENERGIES CORRECTED BY    .0000000+-  .0000000 KEV     CHISQ/F =  .2229E-02     F=  0
+      DATA SET  2. ENERGIES CORRECTED BY    .0000000+-  .0000000 KEV     CHISQ/F =  1.005         F=  0
+      CHISQ/F =  .3359      (FIT OF    6GAMMAS -   2LEVELS)
+ 
+  ITERATION -  4  CHISQ -  4.267    
+               LEAST-SQUARES LINEAR REGRESSION OF LEVEL AND GAMMA ENERGIES
+ 
+        LEVEL ENERGIES
+    1.     0.0
+    2.   477.612 3                      
+    3.  7249.94 4                       
+ 
+   GAMMA ENERGIES
+       6LI(N,G) E=THERMAL-6LI(N,G) E=THERMAL-  ENERGY     DE    L1  L2
+ -----------------------------------------------------------------------------------------------------------------------------------
+           477.595 3            477.58 6           477.595 3     2  1                                                               
+           6768.81 5           6769.5 10           6768.81 4     3  2                                                               
+           7245.91 5           7246.7 12           7245.91 4     3  1                                                               
+      DATA SET  1. ENERGIES CORRECTED BY    .0000000+-  .0000000 KEV     CHISQ/F =  .2206E-02     F=  0
+      DATA SET  2. ENERGIES CORRECTED BY    .0000000+-  .0000000 KEV     CHISQ/F =  1.000         F=  0
+      CHISQ/F =  .3341      (FIT OF    6GAMMAS -   2LEVELS)
+ 
+ 
+   LEAST-SQUARED FIT AVERAGE INTENSITIES        4 ITERATIONS
+    LEVEL/GAMMA     INTENSITY     CHISQ/F
+ -----------------------------------------------------------------------------------------------------------------------------------
+        477.595 3      62.0 24       .0338
+        6768.81 4         61 3       .0084
+        7245.91 4        100 3       .0315
+ -----------------------------------------------------------------------------------------------------------------------------------
+ 
+ 
+ GAMMA ENERGIES                    FITTED INTENSITIES
+                  1.6LI(N,G) E=THERMAL               2.6LI(N,G) E=THERMAL  
+ -----------------------------------------------------------------------------------------------------------------------------------
+    477.595 3      38.0 20      38.4 17         0.00155 9    0.00153 8            62.0 24
+    6768.81 4      38.0 20      37.9 17        0.00150 12    0.00151 9               61 3
+    7245.91 4      62.0 20      61.9 19          0.0024 3   0.00247 14              100 3
+ -----------------------------------------------------------------------------------------------------------------------------------
+                                                           
+     CHI/F              .0199346                       .0537685
+      SKEW             -.8744043                      -.3518119
+  NDEGREES                   3                              3
+ 
+ 
+ UNPLACED GAMMA RAY PROCESSING (INTENSITIES ARE RENORMALIZED)
+ 

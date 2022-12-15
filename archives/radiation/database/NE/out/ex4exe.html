@@ -1,0 +1,136 @@
+<html>
+
+<!-- Mirrored from www.nuclear.csdb.cn/ex4exe.htm by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 14 Dec 2022 10:46:05 GMT -->
+<head>
+<link rel="stylesheet" href="style.css" type="text/css">
+<title>实验测量数据EXFOR</title>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+</head>
+
+<body bgcolor=aqua lang=ZH-CN link=blue vlink=blue style='tab-interval:21.0pt'>
+
+<div class=Section1>
+
+<p align=center style='text-align:center'>　</p>
+
+<p class=title1>EXFOR截面数据在线绘图:</p>
+
+
+<a href="ex4exe/ex4.html">EXFOR截面在线绘图</a>
+
+<p class=title1>EXFOR文档检索:</p>
+
+<form action="http://www.nuclear.csdb.cn/ex4exe/ex150.exe" method=POST
+enctype="application/x-www-form-urlencoded">
+
+<table border=1 cellspacing=0 cellpadding=0 width="76%" style='mso-cellspacing: 0cm; mso-padding-alt: 0cm 0cm 0cm 0cm'>
+ <tr>
+  <td width="10%" style='width:10.0%;padding:0cm 0cm 0cm 0cm'>
+  <p class=MsoNormal align=right style='text-align:right'><span lang=EN-US>Target:</span></p>
+  </td>
+  <td width="56%" style='padding: 0cm'>
+  <p class=MsoNormal><span lang=EN-US><INPUT TYPE="text" SIZE="14" NAME="Target">&nbsp;       
+  例如：Fe-56</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="10%" style='width:10.0%;padding:0cm 0cm 0cm 0cm'>
+  <p class=MsoNormal align=right style='text-align:right'><span lang=EN-US>Reaction:</span></p>
+  </td>
+  <td width="56%" style='padding: 0cm'>
+  <p class=MsoNormal><span lang=EN-US><INPUT TYPE="text" SIZE="14" NAME="Reaction">&nbsp;       
+  例如：n,g&nbsp;&nbsp;<a href="reactionhelp.html" target="_blank">help</a></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="10%" style='width:10.0%;padding:0cm 0cm 0cm 0cm'>
+  <p class=MsoNormal align=right style='text-align:right'><span lang=EN-US>Quantity</span>:</p>
+  </td>
+  <td width="56%" style='padding: 0cm'>
+  <p class=MsoNormal><span lang=EN-US><INPUT TYPE="text" SIZE="14" NAME="Quantity">&nbsp;       
+  例如：CS DA <a href="quantityhelp.html" target="_blank">help</a></span></p>      
+  </td>
+ </tr>
+ <tr>
+  <td width="10%" style='width:10.0%;padding:0cm 0cm 0cm 0cm'>
+  <p class=MsoNormal align=right style='text-align:right'><span lang=EN-US>Product:</span></p>
+  </td>
+  <td width="56%" style='padding: 0cm'>
+  <p class=MsoNormal><span lang=EN-US><INPUT TYPE="text" SIZE="14" NAME="Product">&nbsp;   
+  例如：Fe-57</span>(可选)</p>
+  </td>
+ </tr>
+ <tr>
+  <td width="10%" style='width:10.0%;padding:0cm 0cm 0cm 0cm'>
+  <p align="right">Year:</td>
+  <td width="56%" style='padding: 0cm'>
+  <span lang=EN-US><INPUT TYPE="text" SIZE="14" NAME="Year"></span>&nbsp; 格式:<span lang=EN-US>YYYY</span>(可选)</td>   
+ </tr>
+ <tr>
+  <td width="10%" style='width:10.0%;padding:0cm 0cm 0cm 0cm'>
+  <p align="right">EnMin:</td>
+  <td width="56%" style='padding: 0cm'>
+  <span lang=EN-US><INPUT TYPE="text" SIZE="14" NAME="eMin"></span>&nbsp; eV(可选)</td>   
+ </tr>
+ <tr>
+  <td width="10%" style='width:10.0%;padding:0cm 0cm 0cm 0cm'>
+  <p align="right">EnMax:</td>
+  <td width="56%" style='padding: 0cm'>
+  <span lang=EN-US><INPUT TYPE="text" SIZE="14" NAME="eMax"></span>&nbsp; eV(可选)</td>   
+ </tr>
+</table>
+
+<p><span lang=EN-US><INPUT TYPE="submit" ACTION="http://www.nuclear.csdb.cn/cgi-bin/ex.exe" VALUE="提   交" METHOD="POST" NAME="B1"><INPUT TYPE="reset" VALUE="全部重写" NAME="B2"></span></p>
+
+<p><span lang=EN-US><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+</form>
+
+
+<p></p>
+
+</div>
+
+<p align="left">EXFOR&nbsp;截面/能谱/裂变μ值/角分布&nbsp;绘图数据生成</p>
+<form action="http://www.nuclear.csdb.cn/ex4exe/ex_plotdata150.pl" method="POST">
+  <table cellSpacing="0" cellPadding="0" width="83%" border="1">
+    <tbody>
+      <tr>
+        <td align="right" width="10%">Target:</td>
+        <td width="56%"><input size="14" name="Target">&nbsp; 例如：Fe－56</td> 
+      </tr>
+      <tr>
+        <td align="right" width="10%">Reaction:</td>
+        <td width="56%"><input size="14" name="Reaction">&nbsp; 例如：n,g&nbsp;&nbsp;<a href="reactionhelp.html"  target="new">help</a></td> 
+      </tr>
+      <tr>
+        <td align="right" width="10%">Quantity</td>
+        <td width="56%"><input size="14" name="Quantity">&nbsp; 例如：CS DE&nbsp;  
+          MFQ <a href="quantityhelp.html" target="new">help</a></td> 
+      </tr>
+      <tr>
+        <td align="right" width="10%">Product:</td>
+        <td width="56%"><input size="14" name="Product">&nbsp; 例如：Fe－57</td> 
+      </tr>
+      <tr>
+        <td align="right" width="10%">Year:</td>
+        <td width="56%"><input size="14" name="Year"></td>
+      </tr>
+      <tr>
+        <td align="right" width="10%">EnMin:</td>
+        <td width="56%"><input size="14" name="eMin"></td>
+      </tr>
+      <tr>
+        <td align="right" width="10%">EnMax:</td>
+        <td width="56%"><input size="14" name="eMax"></td>
+      </tr>
+    </tbody>
+  </table>
+  <p align="center"><input type="submit" value="提   交" name="B1"><input type="reset" value="全部重写" name="B2"></p>
+</form>
+
+</body>
+
+
+<!-- Mirrored from www.nuclear.csdb.cn/ex4exe.htm by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 14 Dec 2022 10:46:07 GMT -->
+</html>

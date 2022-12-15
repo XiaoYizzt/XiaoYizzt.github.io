@@ -1,0 +1,831 @@
+  1   1 H                                                 
+  2   1 H                                                 
+  3   1 H HeLi                                            
+  4   1 H HeLi                                            
+  5   1 H HeLiBe                                          
+  6   1 H HeLiBe                                          
+  7   2 HeLiBeB                                           
+  8   2 HeLiBeB C                                         
+  9   2 HeLiBeB C                                         
+ 10   2 HeLiBeB C N                                       
+ 11   3 LiBeB C N                                         
+ 12   3 LiBeB C N O                                       
+ 13   4 BeB C N O                                         
+ 14   3 LiBeB C N O F                                     
+ 15   5 B C N O F                                         
+ 16   5 B C N O F Ne                                      
+ 17   5 B C N O F Ne                                      
+ 18   2 HeLiBeB C N O F NeNa                              
+ 19   2 HeLiBeB C N O F NeNaMg                            
+ 20   6 C N O F NeNaMg                                    
+ 21   6 C N O F NeNaMgAl                                  
+ 22   6 C N O F NeNaMgAlSi                                
+ 23   7 N O F NeNaMgAlSi                                  
+ 24   7 N O F NeNaMgAlSi                                  
+ 25   8 O F NeNaMgAlSiP                                   
+ 26   8 O F NeNaMgAlSiP                                   
+ 27   9 F NeNaMgAlSiP S                                   
+ 28   9 F NeNaMgAlSiP S                                   
+ 29   9 F NeNaMgAlSiP S Cl                                
+ 30  10 NeNaMgAlSiP S Cl                                  
+ 31  10 NeNaMgAlSiP S ClAr                                
+ 32  10 NeNaMgAlSiP S ClAr                                
+ 33  11 NaMgAlSiP S ClArK                                 
+ 34  11 NaMgAlSiP S ClArK Ca                              
+ 35  11 NaMgAlSiP S ClArK Ca                              
+ 36  12 MgAlSiP S ClArK Ca                                
+ 37  12 MgAlSiP S ClArK Ca                                
+ 38  12 MgAlSiP S ClArK CaScTi                            
+ 39  13 AlSiP S ClArK CaScTi                              
+ 40  13 AlSiP S ClArK CaScTi                              
+ 41  13 AlSiP S ClArK CaScTi                              
+ 42  14 SiP S ClArK CaScTiV Cr                            
+ 43  15 P S ClArK CaScTiV Cr                              
+ 44  15 P S ClArK CaScTiV CrMn                            
+ 45  15 P S ClArK CaScTiV CrMnFe                          
+ 46  15 P S ClArK CaScTiV CrMnFe                          
+ 47  16 S ClArK CaScTiV CrMnFe                            
+ 48  16 S Cl  K CaScTiV CrMnFe  Ni                        
+ 49  16 S ClArK CaScTiV CrMnFeCoNi                        
+ 50  18 ArK CaScTiV CrMnFeCoNi                            
+ 51  17 ClArK CaScTiV CrMnFeCoNi                          
+ 52  18 ArK CaScTiV CrMnFeCoNiCu                          
+ 53  18 ArK CaScTiV CrMnFeCoNiCu                          
+ 54  19 K CaScTiV CrMnFeCoNiCu                            
+ 55  21 ScTiV CrMnFeCoNiCuZn                              
+ 56  20 CaScTiV CrMnFeCoNiCuZn                            
+ 57  21 ScTiV CrMnFeCoNiCuZn                              
+ 58  22 TiV CrMnFeCoNiCuZn                                
+ 59  22 TiV CrMnFeCoNiCuZn                                
+ 60  23 V CrMnFeCoNiCuZnGa                                
+ 61  22 TiV CrMnFeCoNiCuZnGaGe                            
+ 62  23 V CrMnFeCoNiCuZnGaGeAs                            
+ 63  23 V CrMnFeCoNiCuZnGaGeAs                            
+ 64  23 V CrMnFeCoNiCuZnGaGeAs                            
+ 65  24 CrMnFeCoNiCuZnGaGeAsSe                            
+ 66  24 CrMnFeCoNiCuZnGaGeAsSe                            
+ 67  25 MnFeCoNiCuZnGaGeAsSe                              
+ 68  25 MnFeCoNiCuZnGaGeAsSeBr                            
+ 69  25 MnFeCoNiCuZnGaGeAsSeBrKr                          
+ 70  26 FeCoNiCuZnGaGeAsSeBrKr                            
+ 71  26 FeCoNiCuZnGaGeAsSeBrKr                            
+ 72  26 FeCoNiCuZnGaGeAsSeBrKrRb                          
+ 73  27 CoNiCuZnGaGeAsSeBrKrRbSr                          
+ 74  27 CoNiCuZnGaGeAsSeBrKrRbSr                          
+ 75  27 CoNiCuZnGaGeAsSeBrKrRbSr                          
+ 76  28 NiCuZnGaGeAsSeBrKrRbSr                            
+ 77  28 NiCuZnGaGeAsSeBrKrRbSrY                           
+ 78  28 NiCuZnGaGeAsSeBrKrRbSrY                           
+ 79  29 CuZnGaGeAsSeBrKrRbSrY Zr                          
+ 80  29 CuZnGaGeAsSeBrKrRbSrY Zr                          
+ 81  30 ZnGaGeAsSeBrKrRbSrY ZrNb                          
+ 82  30 ZnGaGeAsSeBrKrRbSrY ZrNb                          
+ 83  30 ZnGaGeAsSeBrKrRbSrY ZrNbMo                        
+ 84  31 GaGeAsSeBrKrRbSrY ZrNbMo                          
+ 85  31 GaGeAsSeBrKrRbSrY ZrNbMo                          
+ 86  31 GaGeAsSeBrKrRbSrY ZrNbMoTc                        
+ 87  32 GeAsSeBrKrRbSrY ZrNbMoTcRu                        
+ 88  32 GeAsSeBrKrRbSrY ZrNbMoTcRu                        
+ 89  32 GeAsSeBrKrRbSrY ZrNbMoTcRuRh                      
+ 90  35 BrKrRbSrY ZrNbMoTcRuRh                            
+ 91  33 AsSeBrKrRbSrY ZrNbMoTcRuRhPd                      
+ 92  33 AsSeBrKrRbSrY ZrNbMoTcRuRhPd                      
+ 93  34 SeBrKrRbSrY ZrNbMoTcRuRhPdAg                      
+ 94  34 SeBrKrRbSrY ZrNbMoTcRuRhPdAg                      
+ 95  35 BrKrRbSrY ZrNbMoTcRuRhPdAg                        
+ 96  35 BrKrRbSrY ZrNbMoTcRuRhPdAg                        
+ 97  35 Br  RbSrY ZrNbMoTcRuRhPdAgCd                      
+ 98  36 KrRbSrY ZrNbMoTcRuRhPdAgCdIn                      
+ 99  36 KrRbSrY ZrNbMoTcRuRhPdAgCdIn                      
+100  36 KrRbSrY ZrNbMoTcRuRhPdAgCdInSn                    
+101  37 RbSrY ZrNbMoTcRuRhPdAgCdInSn                      
+102  37 RbSrY ZrNbMoTcRuRhPdAgCdInSn                      
+103  38 SrY ZrNbMoTcRuRhPdAgCdInSnSb                      
+104  38 SrY ZrNbMoTcRuRhPdAgCdInSnSb                      
+105  37 RbSrY ZrNbMoTcRuRhPdAgCdInSnSb                    
+106  39 Y ZrNbMoTcRuRhPdAgCdInSnSbTe                      
+107  39 Y ZrNbMoTcRuRhPdAgCdInSnSbTe                      
+108  39 Y ZrNbMoTcRuRhPdAgCdInSnSbTeI                     
+109  40 ZrNbMoTcRuRhPdAgCdInSnSbTeI                       
+110  40 ZrNbMoTcRuRhPdAgCdInSnSbTeI Xe                    
+111  41 NbMoTcRuRhPdAgCdInSnSbTeI Xe                      
+112  41 NbMoTcRuRhPdAgCdInSnSbTeI XeCs                    
+113  41 NbMoTcRuRhPdAgCdInSnSbTeI XeCs                    
+114  42 MoTcRuRhPdAgCdInSnSbTeI XeCsBa                    
+115  42 MoTcRuRhPdAgCdInSnSbTeI XeCsBa                    
+116  43 TcRuRhPdAgCdInSnSbTeI XeCsBaLa                    
+117  43 TcRuRhPdAgCdInSnSbTeI XeCsBaLa                    
+118  43 Tc  RhPdAgCdInSnSbTeI XeCsBa                      
+119  44 RuRhPdAgCdInSnSbTeI XeCsBa                        
+120  44 Ru  PdAgCdInSnSbTeI XeCsBaLa                      
+121  46 PdAgCdInSnSbTeI XeCsBaLaCePr                      
+122  46 PdAgCdInSnSbTeI XeCsBaLaCe                        
+123  46 PdAgCdInSnSbTeI XeCsBaLaCe                        
+124  47 AgCdInSnSbTeI XeCsBaLaCePr                        
+125  47 AgCdInSnSbTeI XeCsBaLaCePrNd                      
+126  47 AgCdInSnSbTeI XeCsBaLaCePr                        
+127  47 AgCdInSnSbTeI XeCsBaLaCePrNd                      
+128  47 AgCdInSnSbTeI XeCsBaLaCePrNdPm                    
+129  48 CdInSnSbTeI XeCsBaLaCePrNd                        
+130  47 AgCdInSnSbTeI XeCsBaLaCePrNdPmSm                  
+131  49 InSnSbTeI XeCsBaLaCePrNdPmSmEu                    
+132  49 InSnSbTeI XeCsBaLaCePrNdPmSm                      
+133  49 InSnSbTeI XeCsBaLaCePrNdPmSm                      
+134  49 InSnSbTeI XeCsBaLaCePrNdPmSmEu                    
+135  49 InSnSbTeI XeCsBaLaCePrNdPmSmEuGd                  
+136  50 SnSbTeI XeCsBaLaCePrNdPmSmEuGdTb                  
+137  50 SnSbTeI XeCsBaLaCePrNdPmSmEuGdTb                  
+138  51 SbTeI XeCsBaLaCePrNdPmSmEuGd                      
+139  51 SbTeI XeCsBaLaCePrNdPmSmEuGdTbDy                  
+140  52 TeI XeCsBaLaCePrNdPmSmEuGdTbDyHo                  
+141  52 TeI XeCsBaLaCePrNdPmSmEuGdTbDyHo                  
+142  52 TeI XeCsBaLaCePrNdPmSmEuGdTbDyHo                  
+143  53 I XeCsBaLaCePrNdPmSmEuGdTbDyHo                    
+144  53 I XeCsBaLaCePrNdPmSmEuGdTbDyHoEr                  
+145  54 XeCsBaLaCePrNdPmSmEuGdTbDyHoErTm                  
+146  54 XeCsBaLaCePrNdPmSmEuGdTbDyHoErTm                  
+147  54 XeCsBaLaCePrNdPmSmEuGdTbDyHoErTm                  
+148  55 CsBaLaCePrNdPmSmEuGdTbDyHoErTm                    
+149  55 CsBaLaCePrNdPmSmEuGdTbDyHoErTmYb                  
+150  55 CsBaLaCePrNdPmSmEuGdTbDyHoErTmYbLu                
+151  55 CsBaLaCePrNdPmSmEuGdTbDyHoErTmYbLuHf              
+152  56 BaLaCePrNdPmSmEuGdTbDyHoErTmYbLu                  
+153  57 LaCePrNdPmSmEuGdTbDyHoErTmYbLu                    
+154  58 CePrNdPmSmEuGdTbDyHoErTmYbLuHf                    
+155  58 CePrNdPmSmEuGdTbDyHoErTmYbLuHfTa                  
+156  59 PrNdPmSmEuGdTbDyHoErTmYbLuHfTa                    
+157  60 NdPmSmEuGdTbDyHoErTmYbLuHfTa                      
+158  60 NdPmSmEuGdTbDyHoErTmYbLuHfTaW                     
+159  62 SmEuGdTbDyHoErTmYbLuHfTaW                         
+160  62 SmEuGdTbDyHoErTmYbLuHfTaW Re                      
+161  62 SmEuGdTbDyHoErTmYbLuHfTaW Re                      
+162  63 EuGdTbDyHoErTmYbLuHfTaW ReOs                      
+163  64 GdTbDyHoErTmYbLuHfTaW ReOs                        
+164  64 GdTbDyHoErTmYbLuHfTaW ReOsIr                      
+165  64 GdTbDyHoErTmYbLuHfTaW ReOsIr                      
+166  65 TbDyHoErTmYbLuHfTaW ReOsIrPt                      
+167  65 TbDyHoErTmYbLuHfTaW ReOsIrPt                      
+168  65 TbDyHoErTmYbLuHfTaW ReOsIrPt                      
+169  66 DyHoErTmYbLuHfTaW ReOsIrPt                        
+170  66 DyHoErTmYbLuHfTaW ReOsIrPtAu                      
+171  67 HoErTmYbLuHfTaW ReOsIrPtAuHg                      
+172  67 HoErTmYbLuHfTaW ReOsIrPtAu                        
+173  68 ErTmYbLuHfTaW ReOsIrPtAu                          
+174  68 ErTmYbLuHfTaW ReOsIrPtAuHg                        
+175  68 ErTmYbLuHfTaW ReOsIrPtAuHg                        
+176  69 TmYbLuHfTaW ReOsIrPtAuHg                          
+177  69 TmYbLuHfTaW ReOsIrPtAuHgTl                        
+178  70 YbLuHfTaW ReOsIrPtAuHg                            
+179  70 YbLuHfTaW ReOsIrPtAuHgTl                          
+180  70 YbLuHfTaW ReOsIrPtAuHgTlPb                        
+181  71 LuHfTaW ReOsIrPtAuHgTlPb                          
+182  71 LuHfTaW ReOsIrPtAuHgTlPb                          
+183  71 LuHfTaW ReOsIrPtAuHgTlPb                          
+184  71 LuHfTaW ReOsIrPtAuHgTlPb                          
+185  72 HfTaW ReOsIrPtAuHgTlPbBi                          
+186  72 HfTaW ReOsIrPtAuHgTlPbBi                          
+187  74 W ReOsIrPtAuHgTlPbBi                              
+188  72 HfTaW ReOsIrPtAuHgTlPbBiPo                        
+189  74 W ReOsIrPtAuHgTlPbBi                              
+190  74 W ReOsIrPtAuHgTlPbBiPo                            
+191  75 ReOsIrPtAuHgTlPbBiPo                              
+192  75 ReOsIrPtAuHgTlPbBiPo                              
+193  76 OsIrPtAuHgTlPbBiPoAt                              
+194  76 OsIrPtAuHgTlPbBiPoAt                              
+195  76 OsIrPtAuHgTlPbBiPoAt                              
+196  76 OsIrPtAuHgTlPbBiPoAtRn                            
+197  77 IrPtAuHgTlPbBiPoAtRn                              
+198  77 IrPtAuHgTlPbBiPoAtRn                              
+199  77 IrPtAuHgTlPbBiPoAtRnFr                            
+200  78 PtAuHgTlPbBiPoAtRnFr                              
+201  78 PtAuHgTlPbBiPoAtRnFr                              
+202  78 PtAuHgTlPbBiPoAtRnFrRa                            
+203  79 AuHgTlPbBiPoAtRnFrRa                              
+204  79 AuHgTlPbBiPoAtRnFrRa                              
+205  79 AuHgTlPbBiPoAtRnFrRa                              
+206  80 HgTlPbBiPoAtRnFrRaAc                              
+207  80 HgTlPbBiPoAtRnFrRaAc                              
+208  80 HgTlPbBiPoAtRnFrRaAc                              
+209  81 TlPbBiPoAtRnFrRaAcTh                              
+210  81 TlPbBiPoAtRnFrRaAcTh                              
+211  82 PbBiPoAtRnFrRaAcTh                                
+212  82 PbBiPoAtRnFrRaAcTh                                
+213  82 PbBiPoAtRnFrRaAcThPa                              
+214  82 PbBiPoAtRnFrRaAcThPa                              
+215  83 BiPoAtRnFrRaAcThPa                                
+216  83 BiPoAtRnFrRaAcThPa                                
+217  84 PoAtRnFrRaAcThPa                                  
+218  84 PoAtRnFrRaAcThPaU                                 
+219  85 AtRnFrRaAcThPaU                                   
+220  85 AtRnFrRaAcThPa                                    
+221  85 AtRnFrRaAcThPa                                    
+222  85 AtRnFrRaAcThPaU                                   
+223  85 AtRnFrRaAcThPaU                                   
+224  86 RnFrRaAcThPaU                                     
+225  86 RnFrRaAcThPaU Np                                  
+226  86 RnFrRaAcThPaU Np                                  
+227  86 RnFrRaAcThPaU Np                                  
+228  86 RnFrRaAcThPaU NpPu                                
+229  87 FrRaAcThPaU NpPu                                  
+230  87 FrRaAcThPaU NpPu                                  
+231  87 FrRaAcThPaU NpPu                                  
+232  87 FrRaAcThPaU NpPuAm                                
+233  88 RaAcThPaU NpPu                                    
+234  88 RaAcThPaU NpPuAm                                  
+235  90 ThPaU NpPuAmCm                                    
+236  90 ThPaU NpPuAmCmBk                                  
+237  90 ThPaU NpPuAmCm  Cf                                
+238  90 ThPaU NpPuAmCmBkCf                                
+239  91 PaU NpPuAmCmBkCf                                  
+240  92 U NpPuAmCmBkCf                                    
+241  93 NpPuAmCmBkCfEs                                    
+242  92 U NpPuAmCmBkCfEsFm                                
+243  93 NpPuAmCmBkCfEsFm                                  
+244  93 NpPuAmCmBkCfEsFm                                  
+245  94 PuAmCmBkCfEsFmMd                                  
+246  94 PuAmCmBkCfEsFmMd                                  
+247  94 PuAmCmBkCfEsFmMd                                  
+248  95 AmCmBkCfEsFmMd                                    
+249  95 AmCmBkCfEsFmMdNo                                  
+250  96 CmBkCfEsFmMdNo                                    
+251  96 CmBkCfEsFmMdNo                                    
+252  96 CmBkCfEsFmMdNoLr                                  
+253  98 CfEsFmMdNoLrRf                                    
+254  98 CfEsFmMdNoLrRf                                    
+255  98 CfEsFmMdNoLrRf                                    
+256  98 CfEsFmMdNoLrRf                                    
+257  99 EsFmMdNoLrRf                                      
+258 100 FmMdNoLrRf  Sg                                    
+259 100 FmMdNoLrRf  Sg                                    
+260 101 MdNoLrRf  Sg                                      
+261 103 LrRf  Sg                                          
+262 102 NoLrRf  Sg                                        
+263 104 Rf  Sg  Hs                                        
+264 106 Sg  Hs                                            
+265 104 Rf  Sg  Hs                                        
+266 106 Sg  HsMt                                          
+267 108 Hs  10                                            
+268 109 Mt                                                
+269 106 Sg  Hs  10                                        
+270  -1                                                   
+271 110 10                                                
+272 111 11                                                
+273 108 Hs  10                                            
+274  -1                                                   
+275  -1                                                   
+276  -1                                                   
+277 108 Hs  10  n                                         
+  1  -1 
+  2  -1                                                   
+  3   1 H                                                 
+  4  -1                                                   
+  5  -1                                                   
+  6   2 He                                                
+  7   4 Be                                                
+  8   2 HeLi  B                                           
+  9   3 Li    C                                           
+ 10   4 Be  C                                             
+ 11   3 LiBe  C                                           
+ 12   4 BeB   N                                           
+ 13   5 B   N O                                           
+ 14   5 B C   O                                           
+ 15   6 C   O                                             
+ 16   7 N                                                 
+ 17   6 C N   F Ne                                        
+ 18   6 C N   F Ne                                        
+ 19   7 N O   Ne                                          
+ 20   8 O F   NaMg                                        
+ 21   8 O F   NaMg                                        
+ 22   8 O F   NaMgAlSi                                    
+ 23   8 O F Ne  MgAlSi                                    
+ 24   8 O F NeNa  AlSi                                    
+ 25   9 F NeNa  AlSi                                      
+ 26   9 F NeNa  AlSiP                                     
+ 27  11 NaMg  SiP S                                       
+ 28  10 NeNaMgAl  P S                                     
+ 29  10 NeNaMgAl  P S                                     
+ 30  10 NeNaMgAl  P S                                     
+ 31  11 NaMgAlSi  S ClAr                                  
+ 32  11 NaMgAlSiP   ClAr                                  
+ 33  11 NaMg  SiP   ClAr                                  
+ 34  11 NaMgAlSiP   ClAr                                  
+ 35  11 Na  AlSiP S   ArK Ca                              
+ 36  14 SiP   Cl  K Ca                                    
+ 37  15 P S   ArK Ca                                      
+ 38  15 P S Cl  K Ca                                      
+ 39  15 P S ClAr  Ca  Ti                                  
+ 40  15 P S Cl  K   ScTi                                  
+ 41  15 P S ClAr  CaScTi                                  
+ 42  14 SiP S ClArK   ScTi                                
+ 43  15 P S ClArK   ScTi  Cr                              
+ 44  16 S ClArK   ScTiV Cr                                
+ 45  17 ClArK CaScTiV Cr                                  
+ 46  17 ClArK   Sc  V CrMn                                
+ 47  19 K CaSc  V Cr                                      
+ 48  19 K CaSc  V CrMnFe                                  
+ 49  19 K CaSc  V CrMnFe                                  
+ 50  19 K CaSc  V CrMnFeCo                                
+ 51  19 K CaScTi  CrMnFe                                  
+ 52  19 K CaScTiV   MnFeCoNi                              
+ 53  22 TiV   MnFeCoNi                                    
+ 54  21 Sc  V   Mn  CoNi                                  
+ 55  23 V Cr  FeCoNi                                      
+ 56  24 CrMn  CoNi                                        
+ 57  24 CrMn  CoNiCuZn                                    
+ 58  24 CrMn  Co  CuZn                                    
+ 59  23 V CrMnFe  NiCuZn                                  
+ 60  25 MnFeCo  CuZnGa                                    
+ 61  25 MnFeCo  CuZnGaGe                                  
+ 62  25 MnFeCo  CuZnGa                                    
+ 63  26 FeCoNi  ZnGa                                      
+ 64  26 FeCo  Cu  GaGe                                    
+ 65  27 CoNi  ZnGaGe                                      
+ 66  27 CoNiCu  GaGeAs                                    
+ 67  27 CoNiCu  GaGeAsSe                                  
+ 68  26 FeCoNiCu  GaGeAsSe                                
+ 69  28 NiCuZn  GeAsSe                                    
+ 70  29 Cu  Ga  AsSe                                      
+ 71  29 CuZn  GeAsSeBrKr                                  
+ 72  29 CuZnGa  AsSeBrKr                                  
+ 73  28 NiCuZnGaGeAsSeBrKr  Sr                            
+ 74  29 CuZnGa  As  BrKrRb                                
+ 75  29 CuZnGaGeAsSeBrKrRb                                
+ 76  29 CuZnGa  As  BrKrRbSr                              
+ 77  29 CuZnGaGeAsSeBrKrRbSr                              
+ 78  30 ZnGaGeAs  Br  Rb                                  
+ 79  29 CuZnGaGeAsSeBrKrRbSrY                             
+ 80  30 ZnGaGeAs  Br  RbSrY                               
+ 81  30 ZnGaGeAsSe  KrRbSrY Zr                            
+ 82  31 GaGeAsSeBr  RbSrY Zr                              
+ 83  31 GaGeAsSeBrKrRbSrY ZrNb                            
+ 84  32 GeAsSeBr  Rb  Y ZrNb                              
+ 85  32 GeAsSeBrKr  SrY ZrNb                              
+ 86  33 AsSeBr  Rb  Y ZrNbMoTc                            
+ 87  33 AsSeBrKrRbSrY ZrNbMo                              
+ 88  34 SeBrKrRb  Y ZrNbMoTc                              
+ 89  34 SeBrKrRbSrY ZrNbMoTc                              
+ 90  35 BrKrRbSrY ZrNbMoTcRu                              
+ 91  35 BrKrRbSrY   NbMoTcRu                              
+ 92  35 BrKrRbSrY   Nb  TcRuRh                            
+ 93  35 BrKrRbSrY ZrNbMoTcRu  Pd                          
+ 94  35 BrKrRbSrY   Nb  TcRuRhPdAg                        
+ 95  36 KrRbSrY ZrNb  TcRuRhPdAg                          
+ 96  37 RbSrY   Nb  Tc  RhPdAg                            
+ 97  37 RbSrY ZrNb  TcRuRhPdAg                            
+ 98  37 RbSrY ZrNb  Tc  RhPdAgCd                          
+ 99  37 RbSrY ZrNbMoTc  RhPdAgCd                          
+100  37 RbSrY ZrNbMoTc  RhPdAgCdInSn                      
+101  37 RbSrY ZrNbMoTcRuRhPdAgCdInSn                      
+102  37 RbSrY ZrNbMoTc  Rh  AgCdIn                        
+103  39 Y ZrNbMoTcRuRhPdAgCdIn                            
+104  40 ZrNbMoTc  Rh  AgCdInSn                            
+105  41 NbMoTcRuRh  AgCdIn                                
+106  41 NbMoTcRuRh  Ag  InSn  Te                          
+107  42 MoTcRuRhPdAgCdInSnSbTe                            
+108  41 NbMoTcRuRh  Ag  InSnSbTe                          
+109  43 TcRuRhPdAgCdInSnSbTe                              
+110  42 MoTcRuRh  Ag  InSnSbTeI Xe                        
+111  43 TcRuRhPdAgCdInSnSb  I Xe                          
+112  43 TcRuRhPdAg  In  SbTeI Xe                          
+113  44 RuRhPdAgCdInSnSbTeI Xe                            
+114  44 RuRhPdAg  In  SbTeI XeCs                          
+115  44 RuRhPdAgCdInSnSbTeI Xe                            
+116  45 RhPdAg  In  SbTeI XeCs                            
+117  45 RhPdAgCdInSnSbTeI XeCsBa                          
+118  46 PdAgCdIn  SbTeI XeCs                              
+119  46 PdAgCdInSnSbTeI XeCs                              
+120  46 PdAgCdIn  Sb  I XeCsBa                            
+121  47 AgCdInSn  TeI XeCsBaLaCe                          
+122  47 AgCdIn  Sb  I XeCsBaLa                            
+123  47 AgCdInSn  TeI XeCsBaLa                            
+124  47 AgCdInSnSb  I   CsBaLaCePr                        
+125  47 AgCdInSnSbTeI XeCsBaLaCePr                        
+126  48 CdInSnSb  I   CsBaLaCePr                          
+127  48 CdInSnSbTe  XeCsBaLaCePr                          
+128  47 AgCdInSnSb  I   CsBaLaCePrNd                      
+129  48 CdInSnSbTeI XeCsBaLaCePr                          
+130  47 AgCdInSnSb  I   CsBaLaCePrNdPm                    
+131  48 CdInSnSbTeI XeCsBaLaCePrNd  SmEu                  
+132  49 InSnSbTeI XeCs  LaCePrNdPm                        
+133  49 InSnSbTeI Xe  BaLaCePrNdPm                        
+134  49 InSnSbTeI XeCsBaLaCePrNdPmSm                      
+135  50 SnSbTeI XeCsBaLaCePrNdPmSmEuGd                    
+136  50 SnSbTeI   CsBaLaCePrNdPmSmEu                      
+137  52 TeI XeCsBaLaCePrNdPmSm                            
+138  53 I XeCs  LaCePrNdPmSmEu                            
+139  53 I XeCsBa  CePrNdPmSmEuGdTbDy                      
+140  53 I XeCsBaLa  PrNdPmSmEuGdTb                        
+141  53 I XeCsBaLaCe  NdPmSmEuGdTbDyHo                    
+142  54 XeCsBaLa  Pr  PmSmEuGdTbDy                        
+143  54 XeCsBaLaCePr  PmSmEuGdTb                          
+144  55 CsBaLaCePrNdPm  EuGdTbDy                          
+145  55 CsBaLaCePr  PmSmEuGdTbDyHo                        
+146  55 CsBaLaCePr  PmSmEuGdTbDyHo  Tm                    
+147  55 CsBaLaCePrNdPmSmEuGdTbDyHo  Tm                    
+148  55 CsBaLaCePr  PmSmEu  TbDyHoErTm                    
+149  56 BaLaCePrNdPm  EuGdTbDyHoErTm                      
+150  57 LaCePr  Pm  EuGdTbDyHoErTm  Lu                    
+151  58 CePrNdPmSm  GdTbDyHoErTmYbLu                      
+152  58 CePrNdPm  EuGdTbDyHoErTmYbLu                      
+153  59 PrNdPmSm  GdTbDyHoErTmYbLu                        
+154  59 PrNdPm  Eu  TbDyHoErTmYbLuHf                      
+155  60 NdPmSmEuGdTbDyHoErTmYbLu                          
+156  60 NdPmSmEu  Tb  HoErTmYbLuHfTa                      
+157  61 PmSmEuGdTbDyHoErTmYbLuHfTa                        
+158  61 PmSmEuGdTb  HoErTmYbLuHfTaW                       
+159  62 SmEuGd  DyHoErTmYbLuHfTaW                         
+160  62 SmEu  Tb  HoErTmYbLuHfTaW Re                      
+161  62 SmEuGdTb  HoErTmYbLuHfTaW Re                      
+162  64 GdTb  Ho  TmYbLuHfTaW ReOs                        
+163  64 GdTbDyHoErTmYbLuHfTaW ReOs                        
+164  65 Tb  Ho  TmYbLuHfTaW ReOs                          
+165  65 TbDy  ErTmYbLuHfTaW ReOsIr                        
+166  66 DyHo  TmYbLuHfTaW ReOsIrPt                        
+167  65 TbDyHoErTmYbLuHfTaW ReOsIrPt                      
+168  65 TbDyHo  Tm  LuHfTaW ReOsIrPt                      
+169  66 DyHoEr  YbLuHfTa  ReOsIrPt                        
+170  67 Ho  Tm  LuHfTaW ReOsIrPt                          
+171  67 HoErTm  LuHfTaW ReOsIrPtAu                        
+172  67 HoErTm  LuHfTaW ReOsIrPt                          
+173  68 ErTm  LuHfTaW ReOsIrPtAu                          
+174  68 ErTm  LuHfTaW ReOsIrPtAuHg                        
+175  68 ErTmYb  HfTaW ReOsIrPtAuHg                        
+176  69 TmYbLuHfTaW ReOsIrPtAuHg                          
+177  69 TmYbLuHfTaW ReOsIrPtAuHg                          
+178  70 YbLuHfTaW ReOsIrPtAuHg                            
+179  70 YbLuHfTaW ReOsIrPtAuHgTl                          
+180  70 YbLuHfTa  ReOsIrPtAuHg  Pb                        
+181  71 LuHfTaW ReOsIrPtAuHg  Pb                          
+182  71 LuHfTa  ReOsIrPtAuHgTlPb                          
+183  71 LuHfTaW ReOsIrPtAuHgTlPb                          
+184  71 LuHfTa  Re  IrPtAuHgTlPb                          
+185  72 HfTaW   OsIrPtAuHgTlPbBi                          
+186  72 HfTa  ReOsIrPtAuHgTlPb                            
+187  74 W Re  IrPtAuHgTlPbBi                              
+188  74 W Re  IrPtAuHgTlPbBi                              
+189  74 W ReOsIrPtAuHgTlPbBi                              
+190  74 W ReOsIrPtAuHgTlPbBiPo                            
+191  76 OsIrPtAuHgTlPbBiPo                                
+192  75 ReOsIr  AuHgTlPbBiPo                              
+193  76 OsIrPtAuHgTlPbBiPoAt                              
+194  76 OsIr  AuHgTlPbBiPoAt                              
+195  77 IrPtAuHgTlPbBiPoAt                                
+196  76 OsIr  Au  TlPbBiPoAtRn                            
+197  77 IrPtAuHgTlPbBiPoAtRn                              
+198  77 Ir  Au  TlPbBiPoAtRn                              
+199  78 PtAuHgTlPbBiPoAtRnFr                              
+200  78 PtAu  TlPbBiPoAtRnFr                              
+201  78 PtAuHgTlPbBiPoAtRnFr                              
+202  78 PtAu  TlPbBiPoAtRnFrRa                            
+203  79 AuHg  PbBiPoAtRnFrRa                              
+204  79 Au  TlPbBiPoAtRnFrRa                              
+205  79 AuHg  PbBiPoAtRnFrRa                              
+206  80 HgTlPbBiPoAtRnFrRa                                
+207  80 HgTlPbBiPoAtRnFrRaAc                              
+208  80 HgTl  BiPoAtRnFrRaAc                              
+209  81 TlPb  PoAtRnFrRaAc                                
+210  81 TlPbBiPoAtRnFrRaAcTh                              
+211  82 PbBiPoAtRnFrRaAcTh                                
+212  82 PbBiPoAtRnFrRaAcTh                                
+213  83 BiPoAtRnFrRaAcTh                                  
+214  82 PbBiPoAtRnFrRaAcTh                                
+215  83 BiPoAtRnFrRaAcTh                                  
+216  83 BiPoAtRnFrRaAcThPa                                
+217  84 PoAtRnFrRaAcThPa                                  
+218  84 PoAtRnFrRaAcThPaU                                 
+219  85 AtRnFrRaAcThPaU                                   
+220  85 AtRnFrRaAcThPa                                    
+221  86 RnFrRaAcThPa                                      
+222  86 RnFrRaAcThPaU                                     
+223  86 RnFrRaAcThPaU                                     
+224  86 RnFrRaAcThPaU                                     
+225  86 RnFrRaAcThPaU                                     
+226  86 RnFrRaAcThPaU Np                                  
+227  86 RnFrRaAcThPaU Np                                  
+228  86 RnFrRaAcThPaU NpPu                                
+229  88 RaAcThPaU Np                                      
+230  87 FrRaAcThPaU NpPu                                  
+231  87 FrRaAcThPaU Np                                    
+232  88 RaAcThPaU NpPu                                    
+233  89 AcThPaU NpPu                                      
+234  89 AcThPaU NpPuAm                                    
+235  90 ThPaU NpPuAm                                      
+236  90 ThPaU NpPu                                        
+237  91 PaU NpPuAm                                        
+238  90 ThPaU NpPuAmCm                                    
+239  92 U NpPuAmCm  Cf                                    
+240  92 U NpPuAmCmBkCf                                    
+241  93 NpPuAmCm  Cf                                      
+242  92 U NpPuAmCmBkCfEs                                  
+243  93 NpPuAmCmBkCfEsFm                                  
+244  94 PuAmCmBkCfEs                                      
+245  94 PuAmCmBkCfEsFm                                    
+246  94 PuAmCmBkCfEsFmMd                                  
+247  95 AmCmBkCfEsFmMd                                    
+248  96 CmBkCfEsFmMd                                      
+249  96 CmBkCfEsFmMd                                      
+250  97 BkCfEsFmMd                                        
+251  96 CmBkCfEsFmMdNo                                    
+252  98 CfEsFm  No                                        
+253  98 CfEsFm  NoLr                                      
+254  98 CfEsFm  NoLr                                      
+255  98 CfEsFmMdNoLrRf                                    
+256  99 EsFmMdNoLrRf                                      
+257  99 EsFmMdNoLrRf                                      
+258 101 Md  LrRf                                          
+259 102 NoLrRf  Sg                                        
+260 103 Lr    Sg                                          
+261 104 Rf  Sg                                            
+262  -1 
+263 106 Sg                                                
+264 108 Hs                                                
+265 106 Sg  Hs                                            
+266 106 Sg  Hs                                            
+267 108 Hs  10                                            
+268  -1                                                   
+269 106 Sg  Hs  10                                        
+270 110 10                                                
+271 110 10                                                
+272 111 11                                                
+273 108 Hs  10                                            
+274  -1                                                   
+275  -1                                                   
+276  -1                                                   
+277 110 10  n                                             
+  1  -1                                                   
+  2  -1                                                   
+  3  -1                                                   
+  4  -1                                                   
+  5  -1                                                   
+  6  -1                                                   
+  7  -1                                                   
+  8  -1                                                   
+  9  -1                                                   
+ 10  -1                                                   
+ 11  -1                                                   
+ 12  -1                                                   
+ 13  -1                                                   
+ 14  -1                                                   
+ 15  -1                                                   
+ 16  -1                                                   
+ 17  -1                                                   
+ 18  -1                                                   
+ 19  -1                                                   
+ 20  -1                                                   
+ 21  -1                                                   
+ 22  -1                                                   
+ 23  -1                                                   
+ 24  -1                                                   
+ 25  -1                                                   
+ 26  -1                                                   
+ 27  -1                                                   
+ 28  -1                                                   
+ 29  -1                                                   
+ 30  -1                                                   
+ 31  -1                                                   
+ 32  -1                                                   
+ 33  -1                                                   
+ 34  -1                                                   
+ 35  -1                                                   
+ 36  -1                                                   
+ 37  -1                                                   
+ 38  -1                                                   
+ 39  -1                                                   
+ 40  -1                                                   
+ 41  -1                                                   
+ 42  -1                                                   
+ 43  -1                                                   
+ 44  -1                                                   
+ 45  -1                                                   
+ 46  -1                                                   
+ 47  -1                                                   
+ 48  -1                                                   
+ 49  -1                                                   
+ 50  -1                                                   
+ 51  -1                                                   
+ 52  -1                                                   
+ 53  -1                                                   
+ 54  -1                                                   
+ 55  -1                                                   
+ 56  -1                                                   
+ 57  -1                                                   
+ 58  -1                                                   
+ 59  -1                                                   
+ 60  -1                                                   
+ 61  -1                                                   
+ 62  -1                                                   
+ 63  -1                                                   
+ 64  -1                                                   
+ 65  -1                                                   
+ 66  -1                                                   
+ 67  -1                                                   
+ 68  -1                                                   
+ 69  -1                                                   
+ 70  -1                                                   
+ 71  -1                                                   
+ 72  -1                                                   
+ 73  -1                                                   
+ 74  -1                                                   
+ 75  -1                                                   
+ 76  -1                                                   
+ 77  -1                                                   
+ 78  -1                                                   
+ 79  -1                                                   
+ 80  -1                                                   
+ 81  38 Sr                                                
+ 82  38 SrY                                               
+ 83  38 Sr  Zr                                            
+ 84  40 Zr                                                
+ 85  -1                                                   
+ 86  -1                                                   
+ 87  41 Nb                                                
+ 88  -1                                                   
+ 89  -1                                                   
+ 90  -1                                                   
+ 91  -1                                                   
+ 92  -1                                                   
+ 93  -1                                                   
+ 94  -1                                                   
+ 95  -1                                                   
+ 96  -1                                                   
+ 97  -1                                                   
+ 98  -1                                                   
+ 99  -1                                                   
+100  -1                                                   
+101  -1                                                   
+102  -1                                                   
+103  -1                                                   
+104  -1                                                   
+105  -1                                                   
+106  -1                                                   
+107  -1                                                   
+108  -1                                                   
+109  -1                                                   
+110  -1                                                   
+111  -1                                                   
+112  -1                                                   
+113  -1                                                   
+114  -1                                                   
+115  -1                                                   
+116  -1                                                   
+117  -1                                                   
+118  -1                                                   
+119  -1                                                   
+120  -1                                                   
+121  -1                                                   
+122  -1                                                   
+123  -1                                                   
+124  -1                                                   
+125  -1                                                   
+126  -1                                                   
+127  -1                                                   
+128  -1                                                   
+129  58 Ce                                                
+130  57 LaCe                                              
+131  58 Ce                                                
+132  58 CePrNd                                            
+133  58 CePrNd                                            
+134  60 Nd                                                
+135  60 Nd                                                
+136  60 Nd                                                
+137  60 Nd                                                
+138  -1                                                   
+139  -1                                                   
+140  -1                                                   
+141  -1                                                   
+142  62 SmEu                                              
+143  63 Eu                                                
+144  63 EuGd                                              
+145  62 Sm  GdTb                                          
+146  64 Gd                                                
+147  63 EuGdTb                                            
+148  63 EuGd                                              
+149  64 Gd                                                
+150  64 GdTb                                              
+151  65 TbDy                                              
+152  65 TbDy                                              
+153  66 Dy                                                
+154  66 Dy  Er                                            
+155  66 Dy                                                
+156  -1                                                   
+157  -1                                                   
+158  -1                                                   
+159  -1                                                   
+160  -1                                                   
+161  -1                                                   
+162  -1                                                   
+163  -1                                                   
+164  -1                                                   
+165  -1                                                   
+166  -1                                                   
+167  -1                                                   
+168  -1                                                   
+169  -1                                                   
+170  -1                                                   
+171  -1                                                   
+172  -1                                                   
+173  -1                                                   
+174  -1                                                   
+175  -1                                                   
+176  -1                                                   
+177  -1                                                   
+178  -1                                                   
+179  -1                                                   
+180  -1                                                   
+181  -1                                                   
+182  -1                                                   
+183  -1                                                   
+184  -1                                                   
+185  -1                                                   
+186  -1                                                   
+187  -1                                                   
+188  -1                                                   
+189  80 Hg                                                
+190  80 Hg                                                
+191  79 AuHgTl                                            
+192  80 HgTlPb                                            
+193  80 HgTlPb                                            
+194  80 HgTlPb                                            
+195  80 HgTlPbBi                                          
+196  82 PbBi                                              
+197  82 PbBi                                              
+198  82 Pb  Po                                            
+199  -1                                                   
+200  -1                                                   
+201  -1                                                   
+202  -1                                                   
+203  -1                                                   
+204  -1                                                   
+205  -1                                                   
+206  -1                                                   
+207  -1                                                   
+208  -1                                                   
+209  -1                                                   
+210  -1                                                   
+211  -1                                                   
+212  -1                                                   
+213  -1                                                   
+214  -1                                                   
+215  -1                                                   
+216  -1                                                   
+217  -1                                                   
+218  -1                                                   
+219  -1                                                   
+220  -1                                                   
+221  -1                                                   
+222  -1                                                   
+223  -1                                                   
+224  -1                                                   
+225  -1                                                   
+226  -1                                                   
+227  -1                                                   
+228  -1                                                   
+229  -1                                                   
+230  -1                                                   
+231  -1                                                   
+232  -1                                                   
+233  90 Th                                                
+234  -1                                                   
+235  94 Pu                                                
+236  92 U   Pu                                            
+237  93 NpPuAm                                            
+238  92 U   PuAm                                          
+239  94 PuAm                                              
+240  94 PuAmCm                                            
+241  94 PuAmCm                                            
+242  94 PuAmCmBk                                          
+243  94 PuAmCmBk                                          
+244  94 PuAmCmBk                                          
+245  94 PuAmCmBk                                          
+246  95 Am                                                
+247  -1                                                   
+248  -1                                                   
+249  -1                                                   
+250  -1                                                   
+251  -1                                                   
+252  -1                                                   
+253  -1                                                   
+254  -1                                                   
+255  -1                                                   
+256  -1                                                   
+257  -1                                                   
+258  -1                                                   
+259  -1                                                   
+260  -1                                                   
+261  -1                                                   
+262  -1                                                   
+263  -1                                                   
+264  -1                                                   
+265  -1                                                   
+266  -1                                                   
+267  -1                                                   
+268  -1                                                   
+269  -1                                                   
+270  -1                                                   
+271  -1                                                   
+272  -1                                                   
+273  -1                                                   
+274  -1                                                   
+275  -1                                                   
+276  -1                                                   
+277  -1                                                   
