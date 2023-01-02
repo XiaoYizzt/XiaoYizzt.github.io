@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>文章页</title>
+	<meta name="description" content="Card Expansion Effect with SVG clipPath" />
+	<meta name="keywords" content="clipPath, svg, effect, layout, expansion, images, grid, polygon" />
+	<meta name="author" content="Claudio Calautti for Codrops" />
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.3.0/css/font-awesome.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/demo.css" />
+	<link rel="stylesheet" type="text/css" href="css/card.css" />
+	<link rel="stylesheet" type="text/css" href="css/pattern.css" />
+	<!--[if IE]>
+	  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	<script>
+	if (navigator.userAgent.toLowerCase().indexOf('firefox') > -1) {
+		var root = document.getElementsByTagName('html')[0];
+		root.setAttribute('class', 'ff');
+	};
+	</script>
+</head>
+<body class="demo-1">
+	<div class="container">
+		<header class="codrops-header">
+			
+			<h1>音频产品评测 <span>Word</span></h1>
+			<nav class="codrops-demos">
+				<a class="current-demo" href="../../index.html"> 返回&nbsp;</a>
+				<a href="index.html">1</a>
+
+			</nav>
+		</header>
+		<div class="content">
+			<!-- trianglify pattern container -->
+			<div class="pattern pattern--hidden"></div>
+			<!-- cards -->
+			<div class="wrapper">
+				<div class="card">
+					<div class="card__container card__container--closed">
+						<svg class="card__image" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 500" preserveAspectRatio="xMidYMid slice">
+							<defs>
+								<clipPath id="clipPath1">
+									<!-- r = 992 = hyp = Math.sqrt(960*960+250*250) -->
+									<circle class="clip" cx="960" cy="250" r="992"></circle>
+								</clipPath>
+							</defs>
+							<image clip-path="url(#clipPath1)" width="1920" height="500" xlink:href="img/a.jpg"></image>
+						</svg>
+						<div class="card__content">
+							<i class="card__btn-close fa fa-times"></i>
+							<div class="card__caption">
+								<h2 class="card__title">等待加入...</h2>
+								<p class="card__subtitle">等待加入...</p>
+							</div>
+							<div class="card__copy">
+								<div class="meta">
+									<img class="meta__avatar" src="img/authors/1.png" alt="author01" />
+									<span class="meta__author">Xiao Yi</span>
+									<span class="meta__date">06/19/2015</span>
+								</div>
+								<p>1</p>
+								<p>2</p>
+								<p>3</p>
+								<p>4</p>
+								<p>5</p>
+								<p>6</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card__container card__container--closed">
+						<svg class="card__image" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 500" preserveAspectRatio="xMidYMid slice">
+							<defs>
+								<clipPath id="clipPath2">
+									<!-- r = 992 = hyp = Math.sqrt(960*960+250*250) -->
+									<circle class="clip" cx="960" cy="250" r="992"></circle>
+								</clipPath>
+							</defs>
+							<image clip-path="url(#clipPath2)" width="1920" height="500" xlink:href="img/b.jpg"></image>
+						</svg>
+						<div class="card__content">
+							<i class="card__btn-close fa fa-times"></i>
+							<div class="card__caption">
+								<h2 class="card__title">等待加入...</h2>
+								<p class="card__subtitle">等待加入...</p>
+							</div>
+							<div class="card__copy">
+								<div class="meta">
+									<img class="meta__avatar" src="img/authors/1.png" alt="author02" />
+									<span class="meta__author">Xiao Yi</span>
+									<span class="meta__date">06/16/2015</span>
+								</div>
+								<p>123456</p>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card__container card__container--closed">
+						<svg class="card__image" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 500" preserveAspectRatio="xMidYMid slice">
+							<defs>
+								<clipPath id="clipPath3">
+									<!-- r = 992 = hyp = Math.sqrt(960*960+250*250) -->
+									<circle class="clip" cx="960" cy="250" r="992"></circle>
+								</clipPath>
+							</defs>
+							<image clip-path="url(#clipPath3)" width="1920" height="500" xlink:href="img/c.jpg"></image>
+						</svg>
+						<div class="card__content">
+							<i class="card__btn-close fa fa-times"></i>
+							<div class="card__caption">
+								<h2 class="card__title">等待加入...</h2>
+								<p class="card__subtitle">等待加入...</p>
+							</div>
+							<div class="card__copy">
+								<div class="meta">
+									<img class="meta__avatar" src="img/authors/1.png" alt="author03" />
+									<span class="meta__author">Xiao Yi</span>
+									<span class="meta__date">06/16/2015</span>
+								</div>
+								<p>13215</p>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card__container card__container--closed">
+						<svg class="card__image" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 500" preserveAspectRatio="xMidYMid slice">
+							<defs>
+								<clipPath id="clipPath4">
+									<!-- r = 992 = hyp = Math.sqrt(960*960+250*250) -->
+									<circle class="clip" cx="960" cy="250" r="992"></circle>
+								</clipPath>
+							</defs>
+							<image clip-path="url(#clipPath4)" width="1920" height="500" xlink:href="img/d.jpg"></image>
+						</svg>
+						<div class="card__content">
+							<i class="card__btn-close fa fa-times"></i>
+							<div class="card__caption">
+								<h2 class="card__title">等待加入...</h2>
+								<p class="card__subtitle">等待加入...</p>
+							</div>
+							<div class="card__copy">
+								<div class="meta">
+									<img class="meta__avatar" src="img/authors/1.png" alt="author04" />
+									<span class="meta__author">Xiao Yi</span>
+									<span class="meta__date">06/14/2015</span>
+								</div>
+								<p>B1315434</p>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card__container card__container--closed">
+						<svg class="card__image" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 500" preserveAspectRatio="xMidYMid slice">
+							<defs>
+								<clipPath id="clipPath5">
+									<!-- r = 992 = hyp = Math.sqrt(960*960+250*250) -->
+									<circle class="clip" cx="960" cy="250" r="992"></circle>
+								</clipPath>
+							</defs>
+							<image clip-path="url(#clipPath5)" width="1920" height="500" xlink:href="img/e.jpg"></image>
+						</svg>
+						<div class="card__content">
+							<i class="card__btn-close fa fa-times"></i>
+							<div class="card__caption">
+								<h2 class="card__title">等待加入...</h2>
+								<p class="card__subtitle">等待加入...</p>
+							</div>
+							<div class="card__copy">
+								<div class="meta">
+									<img class="meta__avatar" src="img/authors/1.png" alt="author05" />
+									<span class="meta__author">Xiao Yi</span>
+									<span class="meta__date">06/11/2015</span>
+								</div>
+								<p>B6546546545</p>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card__container card__container--closed">
+						<svg class="card__image" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 500" preserveAspectRatio="xMidYMid slice">
+							<defs>
+								<clipPath id="clipPath6">
+									<!-- r = 992 = hyp = Math.sqrt(960*960+250*250) -->
+									<circle class="clip" cx="960" cy="250" r="992"></circle>
+								</clipPath>
+							</defs>
+							<image clip-path="url(#clipPath6)" width="1920" height="500" xlink:href="img/f.jpg"></image>
+						</svg>
+						<div class="card__content">
+							<i class="card__btn-close fa fa-times"></i>
+							<div class="card__caption">
+								<h2 class="card__title">等待加入...</h2>
+								<p class="card__subtitle">等待加入...</p>
+							</div>
+							<div class="card__copy">
+								<div class="meta">
+									<img class="meta__avatar" src="img/authors/1.png" alt="author06" />
+									<span class="meta__author">Xiao Yi</span>
+									<span class="meta__date">06/10/2015</span>
+								</div>
+								<p>6+54+4+</p>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- /cards -->
+		</div><!-- /content -->
+		<!-- Related demos -->
+		<section class="content content--related">
+			<p>If you like this page, please bookmark:）</p>
+			
+		</section>
+	</div>
+	<!-- /container -->
+	<!-- JS -->
+	<script src="js/vendors/trianglify.min.js"></script>
+	<script src="js/vendors/TweenMax.min.js"></script>
+	<script src="js/vendors/ScrollToPlugin.min.js"></script>
+	<script src="js/vendors/cash.min.js"></script>
+	<script src="js/Card-circle.js"></script>
+	<script src="js/demo.js"></script>
+</body>
+
+</html>

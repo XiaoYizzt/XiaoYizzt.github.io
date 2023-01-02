@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="author" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<title>Magnet - Minimal Portfolio Template</title>
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+
+<!-- Main css -->
+<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,700" rel="stylesheet">
+
+<!--  css -->
+	<style>
+.button2 {
+  display: inline-block;
+  transition: all 0.2s ease-in;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  color: #090909;
+  padding: 0.7em 1.7em;
+  font-size: 18px;
+  border-radius: 0.5em;
+  background: #e8e8e8;
+  border: 1px solid #e8e8e8;
+  box-shadow: 6px 6px 12px #c5c5c5,
+             -6px -6px 12px #ffffff;
+}
+
+.button2:active {
+  color: #666;
+  box-shadow: inset 4px 4px 12px #c5c5c5,
+             inset -4px -4px 12px #ffffff;
+}
+
+.button2:before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%) scaleY(1) scaleX(1.25);
+  top: 100%;
+  width: 140%;
+  height: 180%;
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 50%;
+  display: block;
+  transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+  z-index: -1;
+}
+
+.button2:after {
+  content: "";
+  position: absolute;
+  left: 55%;
+  transform: translateX(-50%) scaleY(1) scaleX(1.45);
+  top: 180%;
+  width: 160%;
+  height: 190%;
+  background-color: #009087;
+  border-radius: 50%;
+  display: block;
+  transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+  z-index: -1;
+}
+
+.button2:hover {
+  color: #ffffff;
+  border: 1px solid #009087;
+}
+
+.button2:hover:before {
+  top: -35%;
+  background-color: #009087;
+  transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+}
+
+.button2:hover:after {
+  top: -45%;
+  background-color: #009087;
+  transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+}
+
+	</style>
+</head>
+<body>
+
+
+
+<!-- PRE LOADER -->
+
+<div class="preloader">
+     <div class="sk-spinner sk-spinner-wordpress">
+          <span class="sk-inner-circle"></span>
+     </div>
+</div>
+
+<!-- Navigation section  -->
+
+<div class="navbar navbar-default navbar-static-top" role="navigation">
+     <div class="container">
+
+          <div class="navbar-header">
+               <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon icon-bar"></span>
+                    <span class="icon icon-bar"></span>
+                    <span class="icon icon-bar"></span>
+               </button>
+               <a href="index.html" target="_parent"><img src="images/IMG.png" alt="image" width="200" height="60"/></a>
+          </div>
+          <div class="collapse navbar-collapse">
+               <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html">Projects</a></li>
+                    <li class="active"><a href="about.html">About Me</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+               </ul>
+          </div>
+
+  </div>
+</div>
+
+
+<!-- About Section -->
+
+<section id="about">
+     <div class="container">
+          <div class="row">
+
+               <div class="col-md-offset-1 col-md-10 col-sm-12">
+                    <div class="section-title">
+                         <h3>about xiaoyi</h3>
+                         <h2>I'm tired of doing the same thing so I always follow my interests.</h2>
+                    </div>
+
+                    <div class="col-md-8 col-sm-12">
+					  <img src="http://q.qlogo.cn/headimg_dl?dst_uin=3521480734&spec=640&img_type=jpg" class="img-responsive"  alt="About" width="800" height="400">
+                    </div>
+
+                    <div class="col-md-4 col-sm-12">
+                      <h1>Xiao Yi</h1>
+						<p>顺带一提，这个图片是实时同步的</p>
+                      <p>←</p>
+						<p>Ongoing Projects:Radiation Meter Reviews、Blog development about ionizing radiation, dosimetry and radiation protection、Music、Travel Album.</p>
+						<p>By the way</p>
+						<p>Don't be in a hurry when doing things, do it well one by one.</p>
+                    </div>
+
+                    <div class="clearfix"></div>
+
+                     <hr>
+
+                    <p>If you want to know my story then here is where I will tell you all about my experience so far.By the way, the page is old.</p>
+                    <p>如果你想知道我的故事，那么请点击"关于我"按钮，我将把我迄今为止的经历都告诉你.</p>
+				   
+				   <div style="text-align: center;">
+  <button class="button2" value="按钮" onclick="javascript:window.location.href='aboutme/aboutme.html'"/>关于我
+</div>
+
+
+
+
+                    <hr>
+
+
+
+<!-- Footer Section -->
+
+<footer>
+     <div class="container">
+          <div class="row">
+
+               <div class="col-md-3 col-sm-3">
+                    <a href="index.html" target="_parent"><img src="images/IMG.png" alt="image" width="180" height="45"/></a>
+               </div>
+
+               <div class="col-md-4 col-sm-4">
+                    <p>No One Knows the Future</p>
+               </div>
+
+               <div class="col-md-offset-1 col-md-4 col-sm-offset-1 col-sm-3">
+                    <p><a href="mailto:XkXiaoYi475@outlook.com">XkXiaoYi475@outlook.com</a></p>
+                    <p><a href="https://b23.tv/wqfnpiJ">Bilibili:356541110</a></p>
+            </div>
+
+               <div class="clearfix col-md-12 col-sm-12">
+                    <hr>
+               </div>
+
+               <div class="col-md-6 col-sm-6">
+                    <div class="footer-copyright">
+                         <p>© 2016 XiaoYi Index |  </p>  
+                    </div>
+               </div>
+
+               <div class="col-md-6 col-sm-6">
+                    <ul class="social-icon">
+                         <li><a href="#" class="fa fa-facebook"></a></li>
+                         <li><a href="#" class="fa fa-twitter"></a></li>
+                         <li><a href="#" class="fa fa-linkedin"></a></li>
+                    </ul>
+               </div>
+               
+          </div>
+     </div>
+</footer>
+
+
+<!-- SCRIPTS -->
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/custom.js"></script>
+
+</body>
+</html>
