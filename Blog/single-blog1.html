@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="author" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<title>Blog</title>
+
+<link rel="stylesheet" href="../css/bootstrap.min.css">
+<link rel="stylesheet" href="../css/font-awesome.min.css">
+
+<!-- Main css -->
+<link rel="stylesheet" href="../css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,700" rel="stylesheet">
+
+</head>
+<body>
+
+
+
+<!-- PRE LOADER -->
+
+<div class="preloader">
+     <div class="sk-spinner sk-spinner-wordpress">
+          <span class="sk-inner-circle"></span>
+     </div>
+</div>
+
+<!-- Navigation section  -->
+
+<div class="navbar navbar-default navbar-static-top" role="navigation">
+     <div class="container">
+
+          <div class="navbar-header">
+               <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon icon-bar"></span>
+                    <span class="icon icon-bar"></span>
+                    <span class="icon icon-bar"></span>
+               </button>
+               <a href="#" target="_parent"><img src="../images/IMG.png" alt="image" width="200" height="60"/></a>
+          </div>
+          <div class="collapse navbar-collapse">
+               <ul class="nav navbar-nav navbar-right">
+                    <li><a href="../index.html">Projects</a></li>
+                    <li><a href="../about.html">About Me</a></li>
+                    <li class="active"><a href="../blog.html">Blog</a></li>
+                    <li><a href="../contact.html">Contact</a></li>
+               </ul>
+          </div>
+
+  </div>
+</div>
+
+<!-- Blog Single Post Section -->
+
+<section id="blog-single-post">
+     <div class="container">
+          <div class="row">
+
+               <div class="col-md-offset-1 col-md-10 col-sm-12">
+                    <div class="blog-single-post-thumb">
+                         <div class="blog-post-image">
+                              <img src="../images/blog-image1.jpg" class="img-responsive" alt="Blog Image">
+                         </div>
+
+                         <div class="blog-post-title">
+                              <h2>Welcome to the Blog!</h2>
+                         </div>
+
+                         <div class="blog-post-format">
+                              <span><a href="#"><img src="../images/author-image1.jpg" class="img-responsive img-circle"> &nbsp;Xiao Yi&nbsp;</a></span>
+                              <span><i class="fa fa-date"></i> Dec 29, 2022</span>
+                              <span><a href="#"><i class="fa fa-comment-o"></i> &nbsp;0 Comments</a></span>
+                         </div>
+
+                         <div class="blog-post-des">
+                              <p>欢迎来到博客！以后大概会在这里发一点内容。</p>
+                              <blockquote>In this era of information explosion, I think I receive too much information every day, which makes me greedy. </blockquote>
+                              <p>Recently, I started subscribing to various e-mail magazines. I get a lot of information from blogs and social media, but I feel like email magazines feel like they're "sent to you" and you receive information a little differently. Some people say email is a waste, but I think it's OK .-Dec 15, 2022 BiliBili XkXiaoYi&nbsp;&nbsp;</p>
+                              <h3>对了！First article不知道写什么就把About Me页面那个按钮的把代码放在这吧！</h3>
+                              <p>HTML</p>
+                           <p></p>
+						   <pre>&lt;button class=&quot;button2&quot;&gt;
+    Hover me
+&lt;/button&gt;</pre>
+							 <p>CSS</p>
+						   <pre>.button2 {
+  display: inline-block;
+  transition: all 0.2s ease-in;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  color: #090909;
+  padding: 0.7em 1.7em;
+  font-size: 18px;
+  border-radius: 0.5em;
+  background: #e8e8e8;
+  border: 1px solid #e8e8e8;
+  box-shadow: 6px 6px 12px #c5c5c5,
+             -6px -6px 12px #ffffff;
+}
+
+.button2:active {
+  color: #666;
+  box-shadow: inset 4px 4px 12px #c5c5c5,
+             inset -4px -4px 12px #ffffff;
+}
+
+.button2:before {
+  content: &quot;&quot;;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%) scaleY(1) scaleX(1.25);
+  top: 100%;
+  width: 140%;
+  height: 180%;
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 50%;
+  display: block;
+  transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+  z-index: -1;
+}
+
+.button2:after {
+  content: &quot;&quot;;
+  position: absolute;
+  left: 55%;
+  transform: translateX(-50%) scaleY(1) scaleX(1.45);
+  top: 180%;
+  width: 160%;
+  height: 190%;
+  background-color: #009087;
+  border-radius: 50%;
+  display: block;
+  transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+  z-index: -1;
+}
+
+.button2:hover {
+  color: #ffffff;
+  border: 1px solid #009087;
+}
+
+.button2:hover:before {
+  top: -35%;
+  background-color: #009087;
+  transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+}
+
+.button2:hover:after {
+  top: -45%;
+  background-color: #009087;
+  transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+}</pre>
+							 <p>如果需要跳转，使用onclick事件调用一个window.location.href即可.</p>
+                         </div>
+
+                         <div class="blog-author">
+                              <div class="media">
+                                   <div class="media-object pull-left">
+                                        <img src="../images/author-image1.jpg" class="img-circle img-responsive" alt="blog">
+                                   </div>
+                                   <div class="media-body">
+                                        <h3 class="media-heading"><a href="#">Xiao Yi ( Admin )</a></h3>
+                                        <p>καλή τύχη φίλε μου！</p>
+                                   </div>
+                              </div>
+                         </div>
+
+
+                         <div class="blog-comment-form">
+                              <h3>Leave a Comment</h3>
+                                   <form action="#" method="post">
+                                        <textarea class="form-control" placeholder="Message" rows="5" name"Your Comments" required></textarea>
+                                        <input type="text" class="form-control" placeholder="Name" name="name" required>
+                                        <input type="email" class="form-control" placeholder="Email" name="email" required>
+                                        <div class="col-md-3 col-sm-4">
+                                             <input type="submit" class="form-control" value="Post Your Comment">
+                                        </div>
+                                   </form>
+                         </div>
+                    </div>
+          </div>
+     </div>
+</section>
+
+<!-- Footer Section -->
+
+<footer>
+     <div class="container">
+          <div class="row">
+
+               <div class="col-md-3 col-sm-3">
+                    <a href="#" target="_parent"><img src="../images/IMG.png" alt="image" width="180" height="45"/></a>
+               </div>
+
+               <div class="col-md-4 col-sm-4">
+                    <p>No One Knows the Future</p>
+               </div>
+
+               <div class="col-md-offset-1 col-md-4 col-sm-offset-1 col-sm-3">
+                    <p><a href="mailto:XkXiaoYi475@outlook.com">XkXiaoYi475@outlook.com</a></p>
+                    <p><a href="https://b23.tv/wqfnpiJ">Bilibili:356541110</a></p>
+            </div>
+
+               <div class="clearfix col-md-12 col-sm-12">
+                    <hr>
+               </div>
+
+               <div class="col-md-6 col-sm-6">
+                    <div class="footer-copyright">
+                         <p>© 2016 XiaoYi Index |  </p> 
+                    </div>
+               </div>
+
+               <div class="col-md-6 col-sm-6">
+                    <ul class="social-icon">
+                         <li><a href="#" class="fa fa-facebook"></a></li>
+                         <li><a href="#" class="fa fa-twitter"></a></li>
+                         <li><a href="#" class="fa fa-linkedin"></a></li>
+                    </ul>
+               </div>
+               
+          </div>
+     </div>
+</footer>
+
+
+<!-- SCRIPTS -->
+
+<script src="../js/jquery.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/custom.js"></script>
+
+</body>
+</html>
